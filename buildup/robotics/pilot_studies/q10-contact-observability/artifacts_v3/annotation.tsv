@@ -1,0 +1,5 @@
+pair_id	action_family	judgment	confidence_1_to_3	visible_cue	notes
+pair01	pick	A_more_successful	2	end-effector retreats from the board after apparent grasp	Small object occupancy is difficult to resolve at this scale.
+pair02	remove	B_more_successful	2	clear upward retreat with a possible object held	Controls differ in object identity, as fixed by protocol.
+pair03	insert	A_more_successful	2	contact is followed by a clean retreat while B remains near the contact site	Final seating itself is not directly resolved.
+pair04	insert	indistinguishable	2	both sequences remain near the connector and final seating is occluded	Five sparse external-RGB frames do not expose a reliable outcome cue.

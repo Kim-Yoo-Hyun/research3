@@ -1,0 +1,32 @@
+[2026-09-08 01:56:38.217] [svulkan2] [error] Extension VK_KHR_external_memory_capabilities is not available. Interop with external library is disabled.
+[2026-09-08 01:56:38.217] [svulkan2] [error] Extension VK_KHR_external_semaphore_capabilities is not available. Interop with external library is disabled.
+[2026-09-08 01:56:38.217] [svulkan2] [error] Your GPU driver does not support Vulkan. You may not use the renderer for rendering.
+Traceback (most recent call last):
+  File "/work/smoke.py", line 38, in <module>
+    env = environment()
+          ^^^^^^^^^^^^^
+  File "/work/smoke.py", line 34, in environment
+    return gym.make('PickCube-v1', num_envs=1, obs_mode='state', control_mode=mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/gymnasium/envs/registration.py", line 802, in make
+    env = env_creator(**env_spec_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/utils/registration.py", line 182, in make
+    env = env_spec.make(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/utils/registration.py", line 79, in make
+    return self.cls(**_kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/tasks/tabletop/pick_cube.py", line 64, in __init__
+    super().__init__(*args, robot_uids=robot_uids, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/sapien_env.py", line 327, in __init__
+    obs, _ = self.reset(seed=[2022 + i for i in range(self.num_envs)], options=dict(reconfigure=True))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/sapien_env.py", line 913, in reset
+    self._reconfigure(options)
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/sapien_env.py", line 739, in _reconfigure
+    self._setup_scene()
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/sapien_env.py", line 1215, in _setup_scene
+    systems.append(sapien.render.RenderSystem(self._render_device))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: vk::createInstanceUnique: ErrorIncompatibleDriver

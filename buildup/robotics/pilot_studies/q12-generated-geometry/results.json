@@ -1,0 +1,256 @@
+{
+  "protocol_sha256": "9e5447715b1f0c445be4701f0bc02750b50c013b82d78a7d219c72c36a4f80d8",
+  "inputs_sha256": "536886cbe6ccb88a764df4e33e5660d7ba03ac17549bcda501d3f72d61ff4661",
+  "device": "cpu",
+  "numpy_version": "1.26.4",
+  "python_version": "3.11.13 (main, Sep 30 2025, 00:39:50) [GCC 12.2.0]",
+  "pairs": [
+    {
+      "index": 0,
+      "object": "banana_poisson_002",
+      "partial_member": "input/banana_poisson_002/test/_0_0_5_x.xyz",
+      "gt_member": "gt/banana_poisson_002/test/_0_0_5_y.xyz",
+      "status": "pass",
+      "partial_shape": [
+        2048,
+        3
+      ],
+      "gt_shape": [
+        8192,
+        3
+      ],
+      "partial_unique_points": 2048,
+      "gt_unique_points": 4025,
+      "byte_identical_pair": false,
+      "centroid": [
+        6.836393430520449e-13,
+        -1.2695795478280536e-12,
+        8.105462119225486e-12
+      ],
+      "radius": 1.0000000000210973,
+      "error_scale": 1.0000000000210973,
+      "errors": {
+        "roundtrip_float64": 8.673617379701045e-19,
+        "roundtrip_float32": 2.7813299551783766e-08,
+        "online_analytic_float32": 8.211959834185601e-08
+      },
+      "controls_pass": true,
+      "supplied_centroid_norm": 8.232721976711665e-12,
+      "supplied_radius_minus_one": 2.1097346092346925e-11,
+      "online_mean_displacement": 0.04966819660864448,
+      "sampled_unique_points": 2048,
+      "gt_common_transform_roundtrip": 8.673617379701045e-19,
+      "supplied_frame_distances": {
+        "partial_to_gt": {
+          "mean": 0.010340744973740521,
+          "p95": 0.023371516333168564,
+          "max": 0.03305231541298531,
+          "sentinels": {
+            "0": 0.016526157699732258,
+            "1024": 6.976118409738997e-11,
+            "2047": 0.023371516345466407
+          }
+        },
+        "gt_to_partial": {
+          "mean": 0.024775472974240088,
+          "p95": 0.11621161902397349,
+          "max": 0.16934272440340023,
+          "sentinels": {
+            "0": 0.09348606548001046,
+            "4096": 4.877455488604325e-11,
+            "8191": 4.877455488604325e-11
+          }
+        },
+        "interpretation": "diagnostic_only_alignment_unverified"
+      }
+    },
+    {
+      "index": 1,
+      "object": "banana_poisson_002",
+      "partial_member": "input/banana_poisson_002/test/_0_0_7_x.xyz",
+      "gt_member": "gt/banana_poisson_002/test/_0_0_7_y.xyz",
+      "status": "pass",
+      "partial_shape": [
+        2048,
+        3
+      ],
+      "gt_shape": [
+        8192,
+        3
+      ],
+      "partial_unique_points": 2048,
+      "gt_unique_points": 4273,
+      "byte_identical_pair": false,
+      "centroid": [
+        7.812656026132993e-13,
+        -2.1484293294057877e-12,
+        -4.883627817463612e-13
+      ],
+      "radius": 1.0000000000013753,
+      "error_scale": 1.0000000000013753,
+      "errors": {
+        "roundtrip_float64": 0.0,
+        "roundtrip_float32": 2.892893680158011e-08,
+        "online_analytic_float32": 6.757511805668003e-08
+      },
+      "controls_pass": true,
+      "supplied_centroid_norm": 2.337653253130748e-12,
+      "supplied_radius_minus_one": 1.375344282905644e-12,
+      "online_mean_displacement": 0.04953808926097767,
+      "sampled_unique_points": 2048,
+      "gt_common_transform_roundtrip": 0.0,
+      "supplied_frame_distances": {
+        "partial_to_gt": {
+          "mean": 0.010273931020925942,
+          "p95": 0.02305663677798256,
+          "max": 0.03260700847249856,
+          "sentinels": {
+            "0": 0.016303504196610225,
+            "1024": 5.256372288430931e-11,
+            "2047": 0.02305663677834676
+          }
+        },
+        "gt_to_partial": {
+          "mean": 0.025421984562809936,
+          "p95": 0.11412452968383824,
+          "max": 0.17021358141106102,
+          "sentinels": {
+            "0": 0.1273344386948501,
+            "4096": 0.10439336315501263,
+            "8191": 4.581741056061693e-11
+          }
+        },
+        "interpretation": "diagnostic_only_alignment_unverified"
+      }
+    },
+    {
+      "index": 2,
+      "object": "binder_poisson_004",
+      "partial_member": "input/binder_poisson_004/test/_0_0_1_x.xyz",
+      "gt_member": "gt/binder_poisson_004/test/_0_0_1_y.xyz",
+      "status": "pass",
+      "partial_shape": [
+        2048,
+        3
+      ],
+      "gt_shape": [
+        8192,
+        3
+      ],
+      "partial_unique_points": 2048,
+      "gt_unique_points": 8074,
+      "byte_identical_pair": false,
+      "centroid": [
+        1.0253997087192324e-12,
+        4.296873017714097e-12,
+        3.955092353749362e-12
+      ],
+      "radius": 1.0000000000083278,
+      "error_scale": 1.0000000000083278,
+      "errors": {
+        "roundtrip_float64": 0.0,
+        "roundtrip_float32": 2.9733734141253985e-08,
+        "online_analytic_float32": 8.177166543819795e-08
+      },
+      "controls_pass": true,
+      "supplied_centroid_norm": 5.9293606585944494e-12,
+      "supplied_radius_minus_one": 8.3277829077133e-12,
+      "online_mean_displacement": 0.04884370133865599,
+      "sampled_unique_points": 2048,
+      "gt_common_transform_roundtrip": 0.0,
+      "supplied_frame_distances": {
+        "partial_to_gt": {
+          "mean": 0.011621667567249513,
+          "p95": 0.024430268364385273,
+          "max": 0.038627645961318055,
+          "sentinels": {
+            "0": 0.017274808403567044,
+            "1024": 6.539794663407738e-11,
+            "2047": 0.024430268338393454
+          }
+        },
+        "gt_to_partial": {
+          "mean": 0.21554590465504575,
+          "p95": 0.5666558489062781,
+          "max": 0.7197606515049058,
+          "sentinels": {
+            "0": 0.47024300515465456,
+            "4096": 0.17274808431932373,
+            "8191": 4.365243015207825e-11
+          }
+        },
+        "interpretation": "diagnostic_only_alignment_unverified"
+      }
+    },
+    {
+      "index": 3,
+      "object": "binder_poisson_004",
+      "partial_member": "input/binder_poisson_004/test/_0_0_2_x.xyz",
+      "gt_member": "gt/binder_poisson_004/test/_0_0_2_y.xyz",
+      "status": "pass",
+      "partial_shape": [
+        2048,
+        3
+      ],
+      "gt_shape": [
+        8192,
+        3
+      ],
+      "partial_unique_points": 2048,
+      "gt_unique_points": 8097,
+      "byte_identical_pair": false,
+      "centroid": [
+        -1.3184318545765572e-12,
+        -5.859318564192806e-13,
+        -3.4177243758075175e-13
+      ],
+      "radius": 1.000000000003641,
+      "error_scale": 1.000000000003641,
+      "errors": {
+        "roundtrip_float64": 0.0,
+        "roundtrip_float32": 2.9341369667150476e-08,
+        "online_analytic_float32": 7.355659781245057e-08
+      },
+      "controls_pass": true,
+      "supplied_centroid_norm": 1.482695887435793e-12,
+      "supplied_radius_minus_one": 3.641087431560663e-12,
+      "online_mean_displacement": 0.04623311769859863,
+      "sampled_unique_points": 2048,
+      "gt_common_transform_roundtrip": 0.0,
+      "supplied_frame_distances": {
+        "partial_to_gt": {
+          "mean": 0.012412124737214056,
+          "p95": 0.023352345162236686,
+          "max": 0.0369232997356808,
+          "sentinels": {
+            "0": 0.023352345129754908,
+            "1024": 0.03302520323447734,
+            "2047": 0.023352345105453445
+          }
+        },
+        "gt_to_partial": {
+          "mean": 0.20243761635997168,
+          "p95": 0.5211289169819497,
+          "max": 0.6826318296480202,
+          "sentinels": {
+            "0": 0.24099348661860093,
+            "4096": 0.13414900969307286,
+            "8191": 0.04670469031931082
+          }
+        },
+        "interpretation": "diagnostic_only_alignment_unverified"
+      }
+    }
+  ],
+  "model_loaded": false,
+  "generated_output_verified": false,
+  "physical_frame_verified": false,
+  "camera_rays_verified": false,
+  "decision": "INPUT_CONTROLS_VALID_PHYSICAL_FRAME_UNRESOLVED",
+  "output_hashes": {
+    "0_sampled.xyz": "0c1f277fc4e7ac6ad4b160f81026693ada8f8c6f427ad862a41d366b7f61d191",
+    "1_sampled.xyz": "5346845d33278388aa8fa9cbbf92e7a6a74bbb5c436402cf6ec3d7546b255559",
+    "2_sampled.xyz": "5ba54aa77e914db00dff91eea42c487c33b7cabdbff5c9d80f9cd94163ef85e2",
+    "3_sampled.xyz": "d0bf32680cebc892be9a5abbca27d3246eeec6e4d18a4bdf1acabd7a81257794"
+  }
+}

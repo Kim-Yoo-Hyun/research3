@@ -1,0 +1,216 @@
+{
+  "date": "2026-09-10",
+  "sources": [
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/README.md",
+      "bytes": 10195,
+      "sha256": "1ff0acae942be740902b11ef39b5dd69ca0cc5d630bfe4967ff6538e65702bab"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/LICENSE",
+      "bytes": 1068,
+      "sha256": "8abaa1942b6c07d63922d4a3db0f084c8ec8263289a7d12bc4c9abff6aee160b"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "Completion/tools/runner.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/tools/runner.py",
+      "bytes": 10672,
+      "sha256": "3d07b8e36e08b75612d5db5ee79bcf954ffbf57632117121709274260b4d9f40"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "Completion/models/SGrasp.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/models/SGrasp.py",
+      "bytes": 16161,
+      "sha256": "888fdeacd751f5ca76afef5baa212f0efcd5e722bc596c3765cc2bac4a8e8b00"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "Completion/utils/Data_loader_ycb.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/utils/Data_loader_ycb.py",
+      "bytes": 69400,
+      "sha256": "b2f1e86bcc741ba8dc7eb29d5f1f9e094e5d06f360155e691542350dae60e5b5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/models/dgcnn_group.py",
+      "path": "Completion/models/dgcnn_group.py",
+      "bytes": 3550,
+      "sha256": "52a0d65930650ed7d807415094795509d490549e1c1a4d4a10f467d15a1aae2e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/tools/builder.py",
+      "path": "Completion/tools/builder.py",
+      "bytes": 4943,
+      "sha256": "d09563d9494cbf9828132d854ddfe631798626235bda81b3498759cd892f1cdc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/utils/misc.py",
+      "path": "Completion/utils/misc.py",
+      "bytes": 7900,
+      "sha256": "8e2c13bd99b91cceddeb7d9f7b74581a694947ddfca56c2ad0337ecf01bc638b"
+    }
+  ],
+  "upstream_local_mapping": {
+    "upstream/runner.py": "Completion/tools/runner.py",
+    "upstream/LICENSE": "LICENSE"
+  },
+  "docker_registry": {
+    "image": "python:3.11.13-slim-bookworm@sha256:86adf8dbadc3d6e82ee5dd2c74bec2e1c2467cdad47886280501df722372d2e1",
+    "index_sha256": "86adf8dbadc3d6e82ee5dd2c74bec2e1c2467cdad47886280501df722372d2e1",
+    "platforms": [
+      {
+        "digest": "sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        }
+      },
+      {
+        "digest": "sha256:d3899f12b2d41ea6517faf29baf099d63bc72e2c51b85ca318d2684c634350a8",
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        }
+      },
+      {
+        "digest": "sha256:3eb6251ad1490347c195b67ae96f347abc292dcb9a5149050dd3c9ca09a0c907",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v5"
+        }
+      },
+      {
+        "digest": "sha256:5d612f9e25e29190441c7bf7bea4d3018092dab66b3f5153376664e5753d9cc4",
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        }
+      },
+      {
+        "digest": "sha256:c09dac746726878a84601bbf8d06a0f039cf46b0f381e5eed6d5ba553044b96b",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        }
+      },
+      {
+        "digest": "sha256:8c538796d0e0d0775cb1deabbef82713780a7a111849904ad574e42c4c99bd12",
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        }
+      },
+      {
+        "digest": "sha256:18ce9b03d18802119f4f9270d10a1ceb45d0acb768c305b7fbbd7c6b5b5a020b",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        }
+      },
+      {
+        "digest": "sha256:a45337a39a09156a812b506b38df024c5067bcf87b5b734f52ad7d2d9421ff0b",
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        }
+      },
+      {
+        "digest": "sha256:51adcbffa3baa61f53e9fee2af164c1a4e1c0b5d4e82ab193f23744278712d32",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        }
+      },
+      {
+        "digest": "sha256:f7630b79063a758be8d85570d0f2498e0368483c3b52c749889c10edc20cddf5",
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        }
+      },
+      {
+        "digest": "sha256:4dcce3cbd9ac2d1f2ed667983a0682a651dda0278d88aea0b78c326c0dbcfd3e",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        }
+      },
+      {
+        "digest": "sha256:5a6264c5cb337ced3b9a846c2295023883384e6ef663462668b460aeb7db8a96",
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        }
+      },
+      {
+        "digest": "sha256:c65c89cdda7f2535156eade79be705848a99af8c799553e62e2280627383095d",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        }
+      },
+      {
+        "digest": "sha256:dfcc842c7b394e682c9af2a1c4ce655d4000ea68f89630bfdb877bf6e2556f41",
+        "platform": {
+          "architecture": "unknown",
+          "os": "unknown"
+        }
+      }
+    ]
+  },
+  "numpy_wheel": {
+    "url": "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "filename": "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "sha256": "666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5",
+    "bytes": 18252005
+  },
+  "range_probes": [
+    {
+      "file_id": "11vTsY0MQw9pzsqz3MyvCKjQT2rQ9VxVi",
+      "request_url": "https://drive.usercontent.google.com/download?id=11vTsY0MQw9pzsqz3MyvCKjQT2rQ9VxVi&export=download&confirm=t",
+      "status": 206,
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Disposition": "attachment; filename=\"3dsgrasp_model.pth\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "65557",
+        "Content-Range": "bytes 505602860-505668416/505668417"
+      },
+      "read_bytes": 65557,
+      "sha256": "fe344e63211a75072866e69cbdc42afb363cb209a35434b0af3f08ed1c0bb158",
+      "read_capped": false
+    },
+    {
+      "file_id": "1rnJP3Q2zvcj5uImxRu8yYwgk0O7md8dJ",
+      "request_url": "https://drive.usercontent.google.com/download?id=1rnJP3Q2zvcj5uImxRu8yYwgk0O7md8dJ&export=download&confirm=t",
+      "status": 206,
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Disposition": "attachment; filename=\"3dsgrasp_ycb_train_test_split.zip\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "65557",
+        "Content-Range": "bytes 1836168077-1836233633/1836233634"
+      },
+      "read_bytes": 65557,
+      "sha256": "ffe0434e1cac076c0ea4acad9c8509f84345cee8d76a4e652190a7727b5b0211",
+      "read_capped": false
+    }
+  ],
+  "paper": {
+    "url": "https://arxiv.org/html/2301.00866v2#S3.SS1",
+    "boundary": "Paper-described shared partial-derived normalization; no per-file metric transform established."
+  }
+}

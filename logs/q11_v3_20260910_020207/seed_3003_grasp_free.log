@@ -1,0 +1,1 @@
+{"seed": 3003, "mode": "grasp_free", "status": "completed", "started": 1789006013.6667063, "steps": 123, "action_dtype": "float64", "action_sha256": "249f0650602a8c6a46204329af0068a88cbd1c3466d5b2a53d348a05068e0861", "elapsed_seconds": 0.9141168594360352, "final_success": true}

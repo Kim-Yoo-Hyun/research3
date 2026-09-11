@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "groups": [
+    "support gates: count, availability, joint rate/error, event count; no subgroup rescue",
+    "decision priority: technical/support stops, missing failure link, null and review-only positive",
+    "fixed disjoint seeds, trajectory/time budgets and discrete sign-test threshold"
+  ],
+  "simulation_executed": false,
+  "empirical_outcomes_used": false,
+  "source_sha256": "4544dd201097274c2634ab4cf6672030ebdf3b0d0bf2f94d62ce49b383cb3e14"
+}

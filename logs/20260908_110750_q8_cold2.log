@@ -1,0 +1,11 @@
+pd_joint_delta_pos 101 cold restore 15 / 15
+pd_joint_delta_pos 102 cold restore 15 / 15
+pd_joint_delta_pos 103 cold restore 15 / 15
+pd_joint_delta_pos 104 cold restore 15 / 15
+pd_joint_delta_pos 105 cold restore 15 / 15
+pd_joint_delta_pos 106 cold restore 15 / 15
+pd_joint_delta_pos 107 cold restore 15 / 15
+pd_joint_delta_pos 108 cold restore 15 / 15
+pd_ee_delta_pos 101 cold restore 15 / 15
+pd_ee_delta_pos 102 cold restore 15 / 15
+completed /outputs/cold_2.json seconds 76.31193074490875

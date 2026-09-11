@@ -1,0 +1,13 @@
+split	action_family	total	success	failure	objects
+train_split1.txt	pick	110	104	6	17
+train_split1.txt	insert	110	85	25	17
+train_split1.txt	remove	89	80	9	17
+train_split1.txt	place	91	91	0	17
+test_split1.txt	pick	43	39	4	17
+test_split1.txt	insert	42	38	4	17
+test_split1.txt	remove	19	17	2	17
+test_split1.txt	place	20	19	1	17
+all	pick	153	143	10	17
+all	insert	152	123	29	17
+all	remove	108	97	11	17
+all	place	111	110	1	17

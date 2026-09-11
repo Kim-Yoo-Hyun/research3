@@ -1,0 +1,14 @@
+Running evaluation
+####
+args.num_iterations=390 args.num_envs=512 args.num_eval_envs=8
+args.minibatch_size=800 args.batch_size=25600 args.update_epochs=4
+####
+Epoch: 1, global_step=0
+Evaluating
+Evaluated 400 steps resulting in 8 episodes
+eval_success_once_mean=1.0
+eval_return_mean=37.040687561035156
+eval_episode_len_mean=50.0
+eval_reward_mean=0.7408137917518616
+eval_success_at_end_mean=1.0
+Recorded joint 50 steps x 8 episodes

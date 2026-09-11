@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "support": {
+    "decision": "READY_FOR_INTERVENTION",
+    "originals": 8,
+    "available": {
+      "fast_joint_gripper": 8,
+      "fast_quantile_gripper": 8,
+      "linear_gripper": 8
+    },
+    "eligible_events": {
+      "grasp": 5,
+      "release": 3
+    },
+    "metrics": {
+      "fast_joint_gripper": {
+        "episodes": 8,
+        "bytes_per_chunk": 36.104166666666664,
+        "arm_mse": 0.00010309468148203205
+      },
+      "fast_quantile_gripper": {
+        "episodes": 8,
+        "bytes_per_chunk": 43.541666666666664,
+        "arm_mse": 8.70831898015499e-06
+      },
+      "linear_gripper": {
+        "episodes": 8,
+        "bytes_per_chunk": 38.333333333333336,
+        "arm_mse": 8.588145073766917e-05
+      }
+    },
+    "joint_linear_rate_overlap": true,
+    "joint_linear_mse_overlap": true,
+    "minimum_originals": 8,
+    "minimum_pairs_each_event": 2,
+    "success_outcomes_used": false,
+    "subgroup_selection": false
+  },
+  "source_sha256": "0f09443b0a32f4078b0fd70b5c0a42b2f9f871e5efba2ca7f7ed0a9fdbc0910c",
+  "protocol_sha256": "47c7fc7c843b1ec69f72d49b7615985de5d1535d8bc185e4f9e005ad58a3dad6",
+  "calibration_input_sha256": {
+    "1000": "ae09a76789a465aa5ba1ca1c097846843be68618a8cd469979026b09724aed7a",
+    "1001": "8d7c2150279a323fe6a6ec7cc318c462b6de32f2fe3291f34338b3c541e39a43",
+    "1002": "dcc2ea400eb568f578374fbcb73c7168bb5dee25a8a84cdd89ee353a9bd44929",
+    "1003": "d84d525bfad9ce9f768dbd03352969293fc8d8cf078dfd8f9f0b3a8968147435",
+    "1004": "268ccd426f5ea6992342fcd81bd136e4ffd1e4557791aa2c7c7109f421381d35",
+    "1005": "8afd997942b255ea5f78c25a3a2d47518fa42fe37c005111d06fe9d532d084f8",
+    "1006": "13ca8e5f5ec6a406ab6251a0a65d4c0344aee8e5fdd9b788d74ff5948bed77a0",
+    "1007": "968abec60afcdd6eb37bdf67ca2b9c1e0b9a7fb814f4db676b172b57a31e5951"
+  },
+  "codec_chunks": 144,
+  "independent_decode_max_abs": 0.0,
+  "new_simulator_episodes": 0,
+  "old_heldout_read": false,
+  "variant_task_outcomes_read": false,
+  "fresh_confirmation_support_known": false
+}

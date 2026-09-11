@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "verified_at": "2026-09-10T05:10:33.524308+00:00",
+  "decision": "INPUT_CONTROLS_VALID_PHYSICAL_FRAME_UNRESOLVED",
+  "image_id": "sha256:9cddc2624d3c0223628386fe002b8b853d971457ef0675479f4f5d5f59910647",
+  "freeze_sha256": "7b9ad1db49e2138f5c635e477af8a3ff26834926a325d5ed8fff5e7bd99c946c",
+  "protocol_sha256": "9e5447715b1f0c445be4701f0bc02750b50c013b82d78a7d219c72c36a4f80d8",
+  "inputs_sha256": "536886cbe6ccb88a764df4e33e5660d7ba03ac17549bcda501d3f72d61ff4661",
+  "run_script_sha256": "60fa0c7325e3e611f769aa79ad5b87a12d47237ef96ad7ba4f572c195edd00d7",
+  "launch_command": "tmux new-session -d -s research3_q12_input_v1 'bash /home/yoohyun/research3/buildup/robotics/pilot_studies/q12-generated-geometry/run.sh'",
+  "cwd": "/home/yoohyun/research3",
+  "log": "logs/20260910_140916_q12_input_v1.log",
+  "log_sha256": "2b4597376841acd34e1747f8f8a0c600381beb826cef03505c1749b415837111",
+  "exit_file": "logs/20260910_140916_q12_input_v1.exit",
+  "exit_code": 0,
+  "device": "cpu",
+  "configured_cpus": 2,
+  "configured_memory_gib": 2,
+  "network": "none",
+  "checkpoints_mounted": false,
+  "model_inference": false,
+  "training": false,
+  "physical_execution": false,
+  "frozen_files_unchanged": 17,
+  "output_files": [
+    {
+      "path": "runs/q12_input_v1/data/0_sampled.xyz",
+      "bytes": 122370,
+      "sha256": "0c1f277fc4e7ac6ad4b160f81026693ada8f8c6f427ad862a41d366b7f61d191"
+    },
+    {
+      "path": "runs/q12_input_v1/data/1_sampled.xyz",
+      "bytes": 114036,
+      "sha256": "5346845d33278388aa8fa9cbbf92e7a6a74bbb5c436402cf6ec3d7546b255559"
+    },
+    {
+      "path": "runs/q12_input_v1/data/2_sampled.xyz",
+      "bytes": 112883,
+      "sha256": "5ba54aa77e914db00dff91eea42c487c33b7cabdbff5c9d80f9cd94163ef85e2"
+    },
+    {
+      "path": "runs/q12_input_v1/data/3_sampled.xyz",
+      "bytes": 113984,
+      "sha256": "d0bf32680cebc892be9a5abbca27d3246eeec6e4d18a4bdf1acabd7a81257794"
+    },
+    {
+      "path": "runs/q12_input_v1/data/results.json",
+      "bytes": 8224,
+      "sha256": "f2d2af6983b4045d9a41156c3bcbf74a52ffd573d43b06456b55dcbe0acb7a02"
+    },
+    {
+      "path": "runs/q12_input_v1_audit/verification.json",
+      "bytes": 1853,
+      "sha256": "c7e595716b542e3369046501a37b0b522450a41bb64173c4c0a9ce157f8329f5"
+    }
+  ],
+  "tracked_copies": {
+    "results.json": "f2d2af6983b4045d9a41156c3bcbf74a52ffd573d43b06456b55dcbe0acb7a02",
+    "verification.json": "c7e595716b542e3369046501a37b0b522450a41bb64173c4c0a9ce157f8329f5"
+  }
+}

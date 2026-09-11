@@ -1,0 +1,5 @@
+{
+  "sealed_at_utc": "2026-09-08T01:03:24.288457+00:00",
+  "training_sha256": "ef5b74271e893a56234948e8a72f1a1d0b7834dbdeca5d5bd2ea61c42b7566bf",
+  "next_stage": "separate exploratory test container; no fit"
+}

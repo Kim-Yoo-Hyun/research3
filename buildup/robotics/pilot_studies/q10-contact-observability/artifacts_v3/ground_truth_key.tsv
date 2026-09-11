@@ -1,0 +1,5 @@
+pair_id	action_family	A_role	B_role	control_rule
+pair01	pick	failure	control	same pick verb and same square-peg object family
+pair02	remove	control	failure	only matched successful remove segment in the frozen subset
+pair03	insert	failure	control	exact same action text: Insert small gear.
+pair04	insert	control	failure	exact same action text: Insert D-SUB.

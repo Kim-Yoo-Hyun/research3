@@ -1,0 +1,34 @@
+{
+  "cube": {
+    "exact": true,
+    "max_error": 0.0
+  },
+  "goal": {
+    "exact": true,
+    "max_error": 0.0
+  },
+  "qpos": {
+    "exact": true,
+    "max_error": 0.0
+  },
+  "qvel": {
+    "exact": true,
+    "max_error": 0.0
+  },
+  "actors/cube": {
+    "exact": true,
+    "max_error": 0.0
+  },
+  "actors/goal_site": {
+    "exact": true,
+    "max_error": 0.0
+  },
+  "actors/table-workspace": {
+    "exact": true,
+    "max_error": 0.0
+  },
+  "articulations/panda": {
+    "exact": true,
+    "max_error": 0.0
+  }
+}

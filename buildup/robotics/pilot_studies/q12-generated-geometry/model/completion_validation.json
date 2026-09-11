@@ -1,0 +1,30 @@
+{
+  "status": "PASS_COMPLETION_ARTIFACT_AND_DOCUMENT_VALIDATION",
+  "checked_at": "2026-09-11T00:56:09.845692+00:00",
+  "freeze_integrity": {
+    "freeze.json": {
+      "files": 17,
+      "sha256": "7b9ad1db49e2138f5c635e477af8a3ff26834926a325d5ed8fff5e7bd99c946c"
+    },
+    "schema_freeze.json": {
+      "files": 17,
+      "sha256": "d5b3b73e476f9e80191a5b6008f45e321c514d5d6b31e23bb63058e867ea7b60"
+    },
+    "completion_freeze.json": {
+      "files": 43,
+      "sha256": "f8325aef30dbbfa2fff1a6f1eb358132096ba1621ea651d7ca7280c6de46cbb4"
+    }
+  },
+  "raw_xyz_hashes": 8,
+  "sampled_xyz_hashes": 4,
+  "main_output_hashes": 11,
+  "byte_audit_hash": true,
+  "compact_copies_equal": true,
+  "gt_unique_counts_equal_input_v1": true,
+  "logs_exit_zero": true,
+  "new_audit_python_ast": true,
+  "new_audit_bash_syntax": true,
+  "markdown_files": 10,
+  "local_links": 206,
+  "heading_links": 89
+}

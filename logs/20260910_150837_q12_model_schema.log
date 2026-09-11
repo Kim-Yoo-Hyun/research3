@@ -1,0 +1,2 @@
+PASS: root/prefix rejection, shape mismatch, original construction, strict missing-key rejection, native-forward guard
+{"strict_load": true, "checkpoint_root_keys": ["base_model", "epoch", "optimizer"], "selected_root": "base_model", "upstream_loader_accepts_root": true, "checkpoint_tensor_count": 408, "model_tensor_count": 408, "parameter_count": 42104454, "decision": "STATE_COMPATIBLE_FORWARD_UNVERIFIED"}

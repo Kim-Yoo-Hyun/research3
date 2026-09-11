@@ -1,0 +1,6 @@
+FROM python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250
+COPY requirements_v6.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt && pip check
+ENV OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1
+WORKDIR /workspace
+ENTRYPOINT ["python", "-B", "/workspace/probe.py"]

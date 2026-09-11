@@ -1,0 +1,181 @@
+{
+  "files": {
+    "audit_0.json": "aaf4982df8ffbd6b3dc07e7a5fdfd044c528f27aec32212be74f254a1eac19db",
+    "audit_1.json": "a049e5777868d964218657fe837da78215eb2a30812ac8408cc95a1e86aaf01e",
+    "audit_2.json": "cca72e896a6f9a3e7132c180ef638b1bd399d03b5f00b2d8bbb6aa29028ca092"
+  },
+  "seconds": [
+    42.11200143722817,
+    48.02435204386711,
+    42.440478522796184
+  ],
+  "restore": {
+    "pd_joint_delta_pos/direct": {
+      "n": 120,
+      "passed": 21,
+      "maximum": {
+        "pre_state_error": 1.4901161193847656e-08,
+        "pre_obs_error": 1.0,
+        "action_error": 2.0,
+        "next_obs_error": 1.1847763061523438,
+        "next_state_error": 15.209031105041504
+      },
+      "success_disagreements": 0
+    },
+    "pd_joint_delta_pos/reset_state": {
+      "n": 120,
+      "passed": 21,
+      "maximum": {
+        "pre_state_error": 1.4901161193847656e-08,
+        "pre_obs_error": 1.0,
+        "action_error": 2.0,
+        "next_obs_error": 1.1847763061523438,
+        "next_state_error": 15.209031105041504
+      },
+      "success_disagreements": 0
+    },
+    "pd_joint_delta_pos/prefix": {
+      "n": 120,
+      "passed": 117,
+      "maximum": {
+        "pre_state_error": 0.0,
+        "pre_obs_error": 1.0,
+        "action_error": 1.1308995485305786,
+        "next_obs_error": 0.6915997266769409,
+        "next_state_error": 0.6915997266769409
+      },
+      "success_disagreements": 0
+    },
+    "pd_ee_delta_pos/direct": {
+      "n": 30,
+      "passed": 3,
+      "maximum": {
+        "pre_state_error": 1.4901161193847656e-08,
+        "pre_obs_error": 1.0,
+        "action_error": 1.064790964126587,
+        "next_obs_error": 2.4513559341430664,
+        "next_state_error": 16.200197219848633
+      },
+      "success_disagreements": 0
+    },
+    "pd_ee_delta_pos/reset_state": {
+      "n": 30,
+      "passed": 3,
+      "maximum": {
+        "pre_state_error": 1.4901161193847656e-08,
+        "pre_obs_error": 1.0,
+        "action_error": 1.064790964126587,
+        "next_obs_error": 2.4513559341430664,
+        "next_state_error": 16.200197219848633
+      },
+      "success_disagreements": 0
+    },
+    "pd_ee_delta_pos/prefix": {
+      "n": 30,
+      "passed": 27,
+      "maximum": {
+        "pre_state_error": 0.0,
+        "pre_obs_error": 1.0,
+        "action_error": 0.0,
+        "next_obs_error": 0.0,
+        "next_state_error": 0.0
+      },
+      "success_disagreements": 0
+    }
+  },
+  "grid": {
+    "proposed": 312,
+    "admitted": 56,
+    "nonzero_admitted": 51,
+    "success_once": 55,
+    "success_at_end": 55,
+    "by_anchor": {
+      "0": {
+        "n": 0,
+        "success": 0,
+        "nominal_success": 0
+      },
+      "5": {
+        "n": 56,
+        "success": 55,
+        "nominal_success": 56
+      },
+      "10": {
+        "n": 0,
+        "success": 0,
+        "nominal_success": 0
+      }
+    },
+    "invalid_reasons": {
+      "ungrasped": 221,
+      "spawn": 45,
+      "slow": 143,
+      "collision_free": 121,
+      "support": 91
+    },
+    "repeat_label_disagreements": 0,
+    "max_repeat_trajectory_error": 0.0
+  },
+  "nominal": [
+    {
+      "mode": "pd_joint_delta_pos",
+      "seed": 101,
+      "success_once": true,
+      "success_at_end": true
+    },
+    {
+      "mode": "pd_joint_delta_pos",
+      "seed": 102,
+      "success_once": true,
+      "success_at_end": true
+    },
+    {
+      "mode": "pd_joint_delta_pos",
+      "seed": 103,
+      "success_once": true,
+      "success_at_end": true
+    },
+    {
+      "mode": "pd_joint_delta_pos",
+      "seed": 104,
+      "success_once": true,
+      "success_at_end": true
+    },
+    {
+      "mode": "pd_joint_delta_pos",
+      "seed": 105,
+      "success_once": true,
+      "success_at_end": true
+    },
+    {
+      "mode": "pd_joint_delta_pos",
+      "seed": 106,
+      "success_once": true,
+      "success_at_end": true
+    },
+    {
+      "mode": "pd_joint_delta_pos",
+      "seed": 107,
+      "success_once": true,
+      "success_at_end": true
+    },
+    {
+      "mode": "pd_joint_delta_pos",
+      "seed": 108,
+      "success_once": true,
+      "success_at_end": true
+    },
+    {
+      "mode": "pd_ee_delta_pos",
+      "seed": 101,
+      "success_once": true,
+      "success_at_end": true
+    },
+    {
+      "mode": "pd_ee_delta_pos",
+      "seed": 102,
+      "success_once": true,
+      "success_at_end": true
+    }
+  ]
+}

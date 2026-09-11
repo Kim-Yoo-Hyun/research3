@@ -1,0 +1,47 @@
+{
+  "input_freeze_sha256": "7b9ad1db49e2138f5c635e477af8a3ff26834926a325d5ed8fff5e7bd99c946c",
+  "input_results_sha256": "f2d2af6983b4045d9a41156c3bcbf74a52ffd573d43b06456b55dcbe0acb7a02",
+  "selection": "same four preselected pairs; v1 sampled arrays reused unchanged",
+  "pairs": [
+    {
+      "index": 0,
+      "object": "banana_poisson_002",
+      "partial_member": "input/banana_poisson_002/test/_0_0_5_x.xyz",
+      "sampled_file": "0_sampled.xyz",
+      "sampled_sha256": "0c1f277fc4e7ac6ad4b160f81026693ada8f8c6f427ad862a41d366b7f61d191",
+      "partial_sha256": "d26fe43f66c24951c21745e9886d202eea4d3fd2f9fb96f3bb8852bdfb3de256",
+      "gt_file": "banana_poisson_002/test/_0_0_5_y.xyz",
+      "gt_sha256": "104353cd53e1e0d7fca83224152e30970f1391195b90c51720c6bdc7987acc49"
+    },
+    {
+      "index": 1,
+      "object": "banana_poisson_002",
+      "partial_member": "input/banana_poisson_002/test/_0_0_7_x.xyz",
+      "sampled_file": "1_sampled.xyz",
+      "sampled_sha256": "5346845d33278388aa8fa9cbbf92e7a6a74bbb5c436402cf6ec3d7546b255559",
+      "partial_sha256": "e910ff756c03230fc8d7415f927463ae3f46f5b88bad1a7ec9bc761ca316e588",
+      "gt_file": "banana_poisson_002/test/_0_0_7_y.xyz",
+      "gt_sha256": "c6d19c8eb07ea9d225ae358d0d8d6e4cd945ef3a163d6de219c0060c9f577044"
+    },
+    {
+      "index": 2,
+      "object": "binder_poisson_004",
+      "partial_member": "input/binder_poisson_004/test/_0_0_1_x.xyz",
+      "sampled_file": "2_sampled.xyz",
+      "sampled_sha256": "5ba54aa77e914db00dff91eea42c487c33b7cabdbff5c9d80f9cd94163ef85e2",
+      "partial_sha256": "9c57e04a9d8000439ae3918475fd44c6751430820f8fb2518ba28dd82881176e",
+      "gt_file": "binder_poisson_004/test/_0_0_1_y.xyz",
+      "gt_sha256": "412abd3cd6a21fe04de99e8b5fb7fb7fffeb8b96c0733f9b5ff051b0675ca5db"
+    },
+    {
+      "index": 3,
+      "object": "binder_poisson_004",
+      "partial_member": "input/binder_poisson_004/test/_0_0_2_x.xyz",
+      "sampled_file": "3_sampled.xyz",
+      "sampled_sha256": "d0bf32680cebc892be9a5abbca27d3246eeec6e4d18a4bdf1acabd7a81257794",
+      "partial_sha256": "168a4f4d9668553e620f20642a49ac7f5031f23e8d8ab00e49d57220660a2117",
+      "gt_file": "binder_poisson_004/test/_0_0_2_y.xyz",
+      "gt_sha256": "917a3727305b6cd61000e8c1d925b4f59fafcf6eef71cc6a4075daec09efc01a"
+    }
+  ]
+}

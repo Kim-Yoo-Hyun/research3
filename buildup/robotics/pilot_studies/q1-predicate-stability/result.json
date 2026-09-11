@@ -1,0 +1,42 @@
+{
+  "episodes": 16,
+  "labels": 96,
+  "matched_initialization": true,
+  "rates": {
+    "20_once": {
+      "ee": 0.5,
+      "joint": 1.0,
+      "difference": -0.5
+    },
+    "20_end": {
+      "ee": 0.5,
+      "joint": 1.0,
+      "difference": -0.5
+    },
+    "25_once": {
+      "ee": 0.5,
+      "joint": 1.0,
+      "difference": -0.5
+    },
+    "25_end": {
+      "ee": 0.5,
+      "joint": 1.0,
+      "difference": -0.5
+    },
+    "30_once": {
+      "ee": 0.5,
+      "joint": 1.0,
+      "difference": -0.5
+    },
+    "30_end": {
+      "ee": 0.5,
+      "joint": 1.0,
+      "difference": -0.5
+    }
+  },
+  "changed_trajectories": [],
+  "sign_changes": [],
+  "strict_reversals": [],
+  "exact_static_boundary_count": 0,
+  "protocol_outcome": "NO_LABEL_CHANGES_UNINFORMATIVE"
+}

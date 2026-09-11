@@ -1,0 +1,414 @@
+{
+  "status": "PASS",
+  "decision": "STOP_NO_CONTACT_LOCALIZATION_SIGNAL",
+  "source_sha256": "58405cf799e5de9d9da5dce71132afa61a8608f167c8a73d153518706d045bc0",
+  "output_hashes": 642,
+  "plan_hashes": 227,
+  "workers": 202,
+  "verified_trajectories": 202,
+  "attempt_status": {
+    "completed": 202
+  },
+  "valid_originals": 24,
+  "original_success": 24,
+  "control_actions": 21166,
+  "physical_labels": 85472,
+  "initial_state_max_abs": 0.0,
+  "replay_full_state_max_abs": 0.0,
+  "planned_codec_chunks": 411,
+  "decode_max_abs": 0.0,
+  "paired_error_difference_max": 7.623296525288703e-21,
+  "planned_metrics": {
+    "fast_joint_gripper": {
+      "n": 24,
+      "bytes": 4679,
+      "chunks": 137,
+      "steps": 2523,
+      "bytes_per_chunk": 34.153284671532845,
+      "arm_mse": 9.636623980910887e-05
+    },
+    "fast_quantile_gripper": {
+      "n": 24,
+      "bytes": 5669,
+      "chunks": 137,
+      "steps": 2523,
+      "bytes_per_chunk": 41.37956204379562,
+      "arm_mse": 8.45146967054459e-06
+    },
+    "linear_gripper": {
+      "n": 24,
+      "bytes": 5019,
+      "chunks": 137,
+      "steps": 2523,
+      "bytes_per_chunk": 36.63503649635037,
+      "arm_mse": 9.059532224741804e-05
+    }
+  },
+  "planned_events": {
+    "grasp:no_speed_matched_noncontact": 11,
+    "release:eligible": 16,
+    "grasp:eligible": 13,
+    "release:no_speed_matched_noncontact": 8
+  },
+  "unavailable": [],
+  "intervention_workers": 130,
+  "codec_outcomes": {
+    "fast_joint_gripper": {
+      "n": 24,
+      "success": 10,
+      "lost": 14,
+      "gained": 0
+    },
+    "fast_quantile_gripper": {
+      "n": 24,
+      "success": 23,
+      "lost": 1,
+      "gained": 0
+    },
+    "linear_gripper": {
+      "n": 24,
+      "success": 4,
+      "lost": 20,
+      "gained": 0
+    }
+  },
+  "failure_cases": [
+    {
+      "seed": 3000,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3001,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3001,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3002,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3002,
+      "method": "fast_quantile_gripper",
+      "original_success": true,
+      "final_on": true,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3002,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3003,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3003,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3004,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3005,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3005,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3006,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": true,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3007,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3008,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3009,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3009,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3010,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3010,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3011,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3011,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3012,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3013,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3013,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3014,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3015,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3016,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3017,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": true,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3018,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3018,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3019,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3020,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3021,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3021,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": true,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    },
+    {
+      "seed": 3022,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false
+    },
+    {
+      "seed": 3023,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true
+    }
+  ],
+  "localization_outcomes": {
+    "grasp": {
+      "n": 13,
+      "event_success": 12,
+      "free_success": 13,
+      "lost": 1,
+      "opposite": 0,
+      "p": 1.0,
+      "signal": false
+    },
+    "release": {
+      "n": 16,
+      "event_success": 12,
+      "free_success": 16,
+      "lost": 4,
+      "opposite": 0,
+      "p": 0.125,
+      "signal": false
+    }
+  },
+  "scientific_reruns": 0,
+  "calibration_and_plan_hashes_valid": true
+}

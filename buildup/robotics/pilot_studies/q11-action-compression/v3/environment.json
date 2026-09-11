@@ -1,0 +1,13 @@
+{
+  "image": "sha256:fb9c530b6d664536b7665a3647c28459c729b250e5b1300cc47494820c388b5f",
+  "origin": "workspace-created Q11 v2 image, reused unchanged; no pre-workspace external assets",
+  "dockerfile": "../v2/Dockerfile",
+  "build_command": "sh buildup/robotics/pilot_studies/q11-action-compression/v2/build.sh",
+  "dependencies": "../v2/dependencies.lock",
+  "os_packages": "../v2/os-packages.lock",
+  "recipe_environment": "../v2/environment.json",
+  "collector_identical_to_v2": true,
+  "wire_codec_identical_to_v2": true,
+  "preparation_device": "CPU; no simulator, no GPU",
+  "physical_runtime": "CPU physics/Torch; explicit NVIDIA graphics device 0; offline"
+}

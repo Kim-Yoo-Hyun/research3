@@ -1,0 +1,888 @@
+{
+  "checked_date": "2026-09-08",
+  "dataset_revision": "d674485bbffdd533914e52d272fdda34c0515608",
+  "tree_url": "https://huggingface.co/api/datasets/haosulab/ManiSkill_Demonstrations/tree/d674485bbffdd533914e52d272fdda34c0515608?recursive=true&limit=1000",
+  "tree_entries": 198,
+  "pagination": null,
+  "checkpoints": [
+    {
+      "type": "file",
+      "oid": "2a8e8fb34dcefa91d7f80a8745be1db6e4aeac0b",
+      "size": 1145890,
+      "lfs": {
+        "oid": "e679a1ec3aa9cf2eeee8f6b2c233a49fa340480ab614af6b06b6b56393857ba9",
+        "size": 1145890,
+        "pointerSize": 132
+      },
+      "xetHash": "9ecbe865486481efea6ce1891354f209dbb5a10310bb497f9ed62da957d4d9c1",
+      "path": "demos/AnymalC-Reach-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "77b157c94cf186c636402927b9515dbcec4810db",
+      "size": 1134626,
+      "lfs": {
+        "oid": "4b0372fca3cf336f94ccb17a6e507890604ea0470dbc75e2a7971321afe83e95",
+        "size": 1134626,
+        "pointerSize": 132
+      },
+      "xetHash": "3f6b655129f3b95ab074a44446e297fa8754f8758800e69b30590b7dd824be96",
+      "path": "demos/LiftPegUpright-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "cc28350f71a755b647d266764fa762d1c64b5e6f",
+      "size": 1135650,
+      "lfs": {
+        "oid": "b042c08a81736c33c1730dbe30898560d38833120f29563bd6ebc42e9aed0a95",
+        "size": 1135650,
+        "pointerSize": 132
+      },
+      "xetHash": "8fbfb593cf9ddb752168523baf9ad4a3298a3ab67eddb9eb3fd3361919770dfa",
+      "path": "demos/LiftPegUpright-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "8c5ffef1c1c9fad44c2d5b16540162dcefd938b5",
+      "size": 1152034,
+      "lfs": {
+        "oid": "0b17b5ed9690ccf83111d0f09af8d1599f69ee7ba0077e1aac48814ac78ce99c",
+        "size": 1152034,
+        "pointerSize": 132
+      },
+      "xetHash": "d76688bff3cefb68fa2dc7f795cfd9c08cd47b9a4af8047ea39537df7cf0940f",
+      "path": "demos/PickCube-v1/rl/ppo_pd_ee_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "02a93c9406cebf540b49a5e9ae7b372ccb3bf5e2",
+      "size": 1155106,
+      "lfs": {
+        "oid": "5b7c5d2da3e1651e0ba8f2ab64bc848e68ae683cdebca99d1c3ebc3a83723e9e",
+        "size": 1155106,
+        "pointerSize": 132
+      },
+      "xetHash": "50d7fdd75fd85324512e92bb62295b728c2761282ada08afd30ed1e24d63be79",
+      "path": "demos/PickCube-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "34b6d14704a0a55c4ca51e3e4893af4e37d34957",
+      "size": 1156130,
+      "lfs": {
+        "oid": "78959417279892d73e4ed5930a6d8de8626a24eee0ec553dfc6af61391b0b356",
+        "size": 1156130,
+        "pointerSize": 132
+      },
+      "xetHash": "139b08aa9951242167d10f5f7e2fba9abb398d32fe2841b0977b0cfbe4ffd77a",
+      "path": "demos/PickCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "919504edce73660474a6fde4d5f6853ad878c6d8",
+      "size": 1176610,
+      "lfs": {
+        "oid": "c78517e7ac9e35dddee010f59863baabda4ba48f6533194d68682d750bc3a94d",
+        "size": 1176610,
+        "pointerSize": 132
+      },
+      "xetHash": "0216046b76884b3363986daf18f79cebbe064cb0523057b58f4d5733f45c1728",
+      "path": "demos/PokeCube-v1/rl/ppo_pd_ee_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "57f3c95e643661cb42e4dba2cacef12afbe6ac69",
+      "size": 1179682,
+      "lfs": {
+        "oid": "b2debaac06733bd671bca60655c325ca19ff75f4c8a1dfc14c60f6306df84ed2",
+        "size": 1179682,
+        "pointerSize": 132
+      },
+      "xetHash": "213ee31009c3cd1b5898ad80bddf8477ca0f0a8ef852b7f79585d74768080c61",
+      "path": "demos/PokeCube-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "3901cb85e956dd11e7ae1f4c3981ac51046603c4",
+      "size": 1180706,
+      "lfs": {
+        "oid": "eeb259372a0ae295221f119ab0b618e6f1b1da9286e0c1b2486ea1420cdc10d5",
+        "size": 1180706,
+        "pointerSize": 132
+      },
+      "xetHash": "91939ffdb923651f3e38b6f29d933cc94a7064900a0616708000beb5eb6d52a2",
+      "path": "demos/PokeCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "7779121d31caae4852afa32a0fc04d059138d151",
+      "size": 1137698,
+      "lfs": {
+        "oid": "76a7275c0c67adad46fcf32c98c0a7d7bb1397c9119b57b56f80a823292c60ad",
+        "size": 1137698,
+        "pointerSize": 132
+      },
+      "xetHash": "0701a5ea88ea662dc2476ce3c66903c4106847181a3500534926e2a106f22248",
+      "path": "demos/PullCube-v1/rl/ppo_pd_ee_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "9452e115dee89d1d359adeae63116467aec54a38",
+      "size": 1140770,
+      "lfs": {
+        "oid": "796b1a1a8930da1e95198e26163d87d3a09b19622ffaadc6581ad826e91e0c8d",
+        "size": 1140770,
+        "pointerSize": 132
+      },
+      "xetHash": "3b0dae420ea640a94777b403b1cdad576e02a83421de6ea32e32cce5991c1ead",
+      "path": "demos/PullCube-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "7f0ac79b0d45f393a54a2a4ad5bf7585b8b73a53",
+      "size": 1141794,
+      "lfs": {
+        "oid": "fe27ff2ebfc09becf70adf22ccf96f5b336f158408700c155b410dd93a32953a",
+        "size": 1141794,
+        "pointerSize": 132
+      },
+      "xetHash": "2a4f916db966a1dc35c9c1f3ecd3c3041d745987efc1bb599bf3949c9dc2524f",
+      "path": "demos/PullCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "91a7add1d32d9c4435ec68a6e852ad037bb53690",
+      "size": 1137698,
+      "lfs": {
+        "oid": "5210b0d48bed5b1b6b94aeef54d46bb6b5dceaebe812d1356983241d6b0d1b75",
+        "size": 1137698,
+        "pointerSize": 132
+      },
+      "xetHash": "a313af5aa3c71f1dcf9065b5003f4fdb84a51ae5d29c1a3ce8b48f87f079bf45",
+      "path": "demos/PushCube-v1/rl/ppo_pd_ee_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "147218fe9374aaa5b66b164bf84e1f9d6d4afd93",
+      "size": 1140770,
+      "lfs": {
+        "oid": "56daf5e46c994f4e6e3582b011bbbc42f6eddcff3c1fd35cff094df898095ac7",
+        "size": 1140770,
+        "pointerSize": 132
+      },
+      "xetHash": "699e3209b1623e986a62689e625c99cd24fa3a2af88618290e16e6779d92a99e",
+      "path": "demos/PushCube-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "7ea8812858bc053c18c18c809132345dddffb865",
+      "size": 1141794,
+      "lfs": {
+        "oid": "3651c85eb5635e80aa39c5775fb238f0f5b0ae85a5eefb75dcf4ed6226e56d2a",
+        "size": 1141794,
+        "pointerSize": 132
+      },
+      "xetHash": "e597f17b9a58a3dc91e2e096fe439f32c212b320c02708cb21d88fdcf4d0ea11",
+      "path": "demos/PushCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "fc2aa37e3821d502edba058110a3f256d0d618c9",
+      "size": 1128482,
+      "lfs": {
+        "oid": "310ca96750e285573a424dca270a732bccd74bf44f09f26e0fe81016899aa340",
+        "size": 1128482,
+        "pointerSize": 132
+      },
+      "xetHash": "ebc32f87c4107dda69131099eaf893e3b05275a921dd604179348d0a1104de7c",
+      "path": "demos/PushT-v1/rl/ppo_pd_ee_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "5f4ea2339b3bcfe273d795013b652c08d70ca796",
+      "size": 1131554,
+      "lfs": {
+        "oid": "86f00ce334ac3949c63bd0e74db0a25af0743f7f5d2401498edbfe0df2070afe",
+        "size": 1131554,
+        "pointerSize": 132
+      },
+      "xetHash": "3b6e63b0666c1d3f6a1ca1b124dcc12e25a550e952b7d9da2e1f0591c4174544",
+      "path": "demos/PushT-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "71159270f90fc065da720f43840f09e94e4cca7c",
+      "size": 1132578,
+      "lfs": {
+        "oid": "80d76a22a2bd55643979523bcae90c127dc65a5909ae7b0274f8866c80d308c3",
+        "size": 1132578,
+        "pointerSize": 132
+      },
+      "xetHash": "88635590ec20d3aa9aff326875622e1a987b1c9832c40f60cfb253f67fbaff55",
+      "path": "demos/PushT-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "278633eb23f75b0832017ee78cc5a18bb28b6d9e",
+      "size": 1156130,
+      "lfs": {
+        "oid": "fb2b81ce700125bc189d540571fda66f858c84af06becff43dbe0142951a86ac",
+        "size": 1156130,
+        "pointerSize": 132
+      },
+      "xetHash": "3c35bfda129d1f63e1895913f31a629b9c7170908c13e09ac39712c67f14d195",
+      "path": "demos/RollBall-v1/rl/ppo_pd_ee_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "3ce7ac0b6377031953e2692fb522b4a996257129",
+      "size": 1159202,
+      "lfs": {
+        "oid": "18999454150381274856fa0cc7ffc81922741cfd7011c3d9f8212ef897bea16e",
+        "size": 1159202,
+        "pointerSize": 132
+      },
+      "xetHash": "eb5fbe26d60951b37e62ad4ef213cda6c165438d5add19537696776a13f3769b",
+      "path": "demos/RollBall-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "9f601029de2ce5a15e8ac892e59164e420d8d685",
+      "size": 1160226,
+      "lfs": {
+        "oid": "1a71ec851f4ee90c9290c71290abe163dffb735f150ab3e6310c497b254cb809",
+        "size": 1160226,
+        "pointerSize": 132
+      },
+      "xetHash": "2d6fa0568c32eaddb2151c53d3fb19edeec76c3b855ac6aed8d2ea4019082d36",
+      "path": "demos/RollBall-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "e9f8746922979799ba7446cf54197bbc91c92dab",
+      "size": 1164322,
+      "lfs": {
+        "oid": "ab2525bf1ead6930e5344c8ff08ed3292698a7ce34a056dfdce1690b3ea92e52",
+        "size": 1164322,
+        "pointerSize": 132
+      },
+      "xetHash": "8994c6b0980779cc603937ec66174eac0a7c4d676008db5734a113f9d3d39a15",
+      "path": "demos/StackCube-v1/rl/ppo_pd_ee_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "f29fb31b9748c0b41ebcb3c7d9054368a7e90c35",
+      "size": 1167394,
+      "lfs": {
+        "oid": "c97bbcafa3e689631b1d243552835de3392fb0f0b6343e4f2ae2deeac2b51563",
+        "size": 1167394,
+        "pointerSize": 132
+      },
+      "xetHash": "6945fa499f539569b966c1c05c30bad8e0413266600cbe09480168c48638e60f",
+      "path": "demos/StackCube-v1/rl/ppo_pd_ee_delta_pose_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "260176d866afdb7acb32e9b76eaa257064f6e96d",
+      "size": 1168418,
+      "lfs": {
+        "oid": "680031c3f423bfab33f52547cac89ecf36f1300d5e585151596f3cd52d5a4ca7",
+        "size": 1168418,
+        "pointerSize": 132
+      },
+      "xetHash": "07b07772bfa8691799abc2091d4f81d0060f7285aaf39569d44e5efc6fb48478",
+      "path": "demos/StackCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "2dd8e17b96ebffc97353a3433e34779d489f896d",
+      "size": 1213602,
+      "lfs": {
+        "oid": "d0d89fad8d02c158695fbfcb873dda7a27218987105ed00beffca3cbd2550e77",
+        "size": 1213602,
+        "pointerSize": 132
+      },
+      "xetHash": "7627b1342c549e3ad11f16830efd797a8e21e548f4327a9ede0ef56cc3aea5e7",
+      "path": "demos/TwoRobotPickCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    },
+    {
+      "type": "file",
+      "oid": "c98d08657407a0ee67b6e7458dfb809f8f2c8e2c",
+      "size": 1234082,
+      "lfs": {
+        "oid": "96a6f3bc26769f0308054e27dbf2dd5fe83b2f78fbe8f7f5e0b0c62cba8c3ab3",
+        "size": 1234082,
+        "pointerSize": 132
+      },
+      "xetHash": "602a6175f0b38f16e74e59bd87dd8d44d2cbf51808ad80d7d2941645cc5d0d7a",
+      "path": "demos/TwoRobotStackCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt"
+    }
+  ],
+  "metadata": [
+    {
+      "path": "demos/PegInsertionSide-v1/motionplanning/trajectory.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/PegInsertionSide-v1/motionplanning/trajectory.json",
+      "bytes": 229547,
+      "sha256": "8f666019744d4a96b846f717ecbdfb4ac5207c742207a10ad87a3559c1859e78",
+      "top_level_keys": [
+        "episodes",
+        "env_info",
+        "commit_info",
+        "source_type",
+        "source_desc"
+      ],
+      "episode_count": 1000,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 1000
+        },
+        "success_once": {
+          "MISSING": 1000
+        },
+        "success_at_end": {
+          "MISSING": 1000
+        }
+      },
+      "env_info": {
+        "env_id": "PegInsertionSide-v1",
+        "env_kwargs": {
+          "obs_mode": "none",
+          "control_mode": "pd_joint_pos",
+          "render_mode": "rgb_array",
+          "reward_mode": "dense",
+          "sensor_configs": {
+            "shader_pack": "default"
+          },
+          "human_render_camera_configs": {
+            "shader_pack": "default"
+          },
+          "viewer_camera_configs": {
+            "shader_pack": "default"
+          },
+          "sim_backend": "auto"
+        },
+        "max_episode_steps": 100
+      },
+      "source_type": "motionplanning",
+      "source_desc": "official motion planning solution from ManiSkill contributors"
+    },
+    {
+      "path": "demos/PegInsertionSide-v1/rl/trajectory.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/PegInsertionSide-v1/rl/trajectory.json",
+      "bytes": 219643,
+      "sha256": "61a9ada0a8518c6a36289c62fcf4130709fd20e48f660b967e31a5276a400d44",
+      "top_level_keys": [
+        "env_info",
+        "episodes"
+      ],
+      "episode_count": 1000,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 975,
+          "False": 25
+        },
+        "success_once": {
+          "MISSING": 1000
+        },
+        "success_at_end": {
+          "MISSING": 1000
+        }
+      },
+      "env_info": {
+        "env_id": "PegInsertionSide-v1",
+        "env_kwargs": {
+          "control_mode": "pd_joint_delta_pos",
+          "render_mode": "rgb_array",
+          "reward_mode": "sparse"
+        },
+        "max_episode_steps": 50
+      },
+      "source_type": null,
+      "source_desc": null
+    },
+    {
+      "path": "demos/PlugCharger-v1/motionplanning/trajectory.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/PlugCharger-v1/motionplanning/trajectory.json",
+      "bytes": 230149,
+      "sha256": "43c02ca1a3b9c0eced3ed83e4de3215240c81f72e63503e467a4427a72999532",
+      "top_level_keys": [
+        "env_info",
+        "commit_info",
+        "episodes",
+        "source_type",
+        "source_desc"
+      ],
+      "episode_count": 1000,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 1000
+        },
+        "success_once": {
+          "MISSING": 1000
+        },
+        "success_at_end": {
+          "MISSING": 1000
+        }
+      },
+      "env_info": {
+        "env_id": "PlugCharger-v1",
+        "env_kwargs": {
+          "obs_mode": "none",
+          "control_mode": "pd_joint_pos",
+          "render_mode": "rgb_array",
+          "reward_mode": "dense",
+          "shader_dir": "default",
+          "sim_backend": "auto"
+        },
+        "max_episode_steps": 200
+      },
+      "source_type": "motionplanning",
+      "source_desc": "official motion planning solution from ManiSkill contributors"
+    },
+    {
+      "path": "demos/PushT-v1/rl/trajectory.none.pd_ee_delta_pos.physx_cuda.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/PushT-v1/rl/trajectory.none.pd_ee_delta_pos.physx_cuda.json",
+      "bytes": 167661,
+      "sha256": "dc484d9b255a98a5e9864f7433e5bb00c795c04ca9e6919ed778ab3521fd1514",
+      "top_level_keys": [
+        "env_info",
+        "commit_info",
+        "episodes",
+        "source_type",
+        "source_desc"
+      ],
+      "episode_count": 888,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 888
+        },
+        "success_once": {
+          "MISSING": 888
+        },
+        "success_at_end": {
+          "MISSING": 888
+        }
+      },
+      "env_info": {
+        "env_id": "PushT-v1",
+        "env_kwargs": {
+          "num_envs": 1024,
+          "reconfiguration_freq": 1,
+          "human_render_camera_configs": {
+            "shader_pack": "default"
+          },
+          "obs_mode": "state",
+          "render_mode": "rgb_array",
+          "sim_backend": "physx_cuda",
+          "control_mode": "pd_ee_delta_pos"
+        },
+        "max_episode_steps": 100
+      },
+      "source_type": "rl",
+      "source_desc": "Demonstrations generated by rolling out a PPO dense reward trained policy"
+    },
+    {
+      "path": "demos/PushT-v1/rl/trajectory.none.pd_ee_delta_pose.physx_cuda.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/PushT-v1/rl/trajectory.none.pd_ee_delta_pose.physx_cuda.json",
+      "bytes": 136778,
+      "sha256": "c6603b790338a5170837f3e31567441d0e9220cd60021d38ce4d8fff86999692",
+      "top_level_keys": [
+        "env_info",
+        "commit_info",
+        "episodes",
+        "source_type",
+        "source_desc"
+      ],
+      "episode_count": 719,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 719
+        },
+        "success_once": {
+          "MISSING": 719
+        },
+        "success_at_end": {
+          "MISSING": 719
+        }
+      },
+      "env_info": {
+        "env_id": "PushT-v1",
+        "env_kwargs": {
+          "num_envs": 1024,
+          "reconfiguration_freq": 1,
+          "human_render_camera_configs": {
+            "shader_pack": "default"
+          },
+          "obs_mode": "state",
+          "render_mode": "rgb_array",
+          "sim_backend": "physx_cuda",
+          "control_mode": "pd_ee_delta_pose"
+        },
+        "max_episode_steps": 100
+      },
+      "source_type": "rl",
+      "source_desc": "Demonstrations generated by rolling out a PPO dense reward trained policy"
+    },
+    {
+      "path": "demos/PushT-v1/rl/trajectory.none.pd_joint_delta_pos.physx_cuda.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/PushT-v1/rl/trajectory.none.pd_joint_delta_pos.physx_cuda.json",
+      "bytes": 191546,
+      "sha256": "f4e7488edf0b98f2127b9356c1e6561fc0f272c893033c6305b14e6ff8f0b5cc",
+      "top_level_keys": [
+        "env_info",
+        "commit_info",
+        "episodes",
+        "source_type",
+        "source_desc"
+      ],
+      "episode_count": 999,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 999
+        },
+        "success_once": {
+          "MISSING": 999
+        },
+        "success_at_end": {
+          "MISSING": 999
+        }
+      },
+      "env_info": {
+        "env_id": "PushT-v1",
+        "env_kwargs": {
+          "num_envs": 1024,
+          "reconfiguration_freq": 1,
+          "human_render_camera_configs": {
+            "shader_pack": "default"
+          },
+          "obs_mode": "state",
+          "render_mode": "rgb_array",
+          "sim_backend": "physx_cuda",
+          "control_mode": "pd_joint_delta_pos"
+        },
+        "max_episode_steps": 100
+      },
+      "source_type": "rl",
+      "source_desc": "Demonstrations generated by rolling out a PPO dense reward trained policy"
+    },
+    {
+      "path": "demos/StackCube-v1/motionplanning/trajectory.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/StackCube-v1/motionplanning/trajectory.json",
+      "bytes": 229183,
+      "sha256": "48cb1119c9f5a8f0d7187fc83674a2c401b41466cb1930b2a5c26b706ba3bd81",
+      "top_level_keys": [
+        "env_info",
+        "commit_info",
+        "episodes",
+        "source_type",
+        "source_desc"
+      ],
+      "episode_count": 1000,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 1000
+        },
+        "success_once": {
+          "MISSING": 1000
+        },
+        "success_at_end": {
+          "MISSING": 1000
+        }
+      },
+      "env_info": {
+        "env_id": "StackCube-v1",
+        "env_kwargs": {
+          "obs_mode": "none",
+          "control_mode": "pd_joint_pos",
+          "render_mode": "rgb_array",
+          "reward_mode": "dense",
+          "sensor_configs": {
+            "shader_pack": "default"
+          },
+          "human_render_camera_configs": {
+            "shader_pack": "default"
+          },
+          "viewer_camera_configs": {
+            "shader_pack": "default"
+          },
+          "sim_backend": "auto"
+        },
+        "max_episode_steps": 50
+      },
+      "source_type": "motionplanning",
+      "source_desc": "official motion planning solution from ManiSkill contributors"
+    },
+    {
+      "path": "demos/StackCube-v1/rl/trajectory.none.pd_ee_delta_pos.physx_cuda.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/StackCube-v1/rl/trajectory.none.pd_ee_delta_pos.physx_cuda.json",
+      "bytes": 169636,
+      "sha256": "3b1cc7a591f0330d5b32ac319aa002116d043dfa84436e75472a6efdaa2f37bd",
+      "top_level_keys": [
+        "env_info",
+        "commit_info",
+        "episodes",
+        "source_type",
+        "source_desc"
+      ],
+      "episode_count": 902,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 902
+        },
+        "success_once": {
+          "MISSING": 902
+        },
+        "success_at_end": {
+          "MISSING": 902
+        }
+      },
+      "env_info": {
+        "env_id": "StackCube-v1",
+        "env_kwargs": {
+          "num_envs": 1024,
+          "reconfiguration_freq": 1,
+          "human_render_camera_configs": {
+            "shader_pack": "default"
+          },
+          "obs_mode": "state",
+          "render_mode": "rgb_array",
+          "sim_backend": "physx_cuda",
+          "control_mode": "pd_ee_delta_pos"
+        },
+        "max_episode_steps": 50
+      },
+      "source_type": "rl",
+      "source_desc": "Demonstrations generated by rolling out a PPO dense reward trained policy"
+    },
+    {
+      "path": "demos/StackCube-v1/rl/trajectory.none.pd_ee_delta_pose.physx_cuda.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/StackCube-v1/rl/trajectory.none.pd_ee_delta_pose.physx_cuda.json",
+      "bytes": 188071,
+      "sha256": "88373dce9b6cc914f047b4194f2175b9f8819c6e9ae45972dfd2aaa1616dfe4f",
+      "top_level_keys": [
+        "env_info",
+        "commit_info",
+        "episodes",
+        "source_type",
+        "source_desc"
+      ],
+      "episode_count": 995,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 995
+        },
+        "success_once": {
+          "MISSING": 995
+        },
+        "success_at_end": {
+          "MISSING": 995
+        }
+      },
+      "env_info": {
+        "env_id": "StackCube-v1",
+        "env_kwargs": {
+          "num_envs": 1024,
+          "reconfiguration_freq": 1,
+          "human_render_camera_configs": {
+            "shader_pack": "default"
+          },
+          "obs_mode": "state",
+          "render_mode": "rgb_array",
+          "sim_backend": "physx_cuda",
+          "control_mode": "pd_ee_delta_pose"
+        },
+        "max_episode_steps": 50
+      },
+      "source_type": "rl",
+      "source_desc": "Demonstrations generated by rolling out a PPO dense reward trained policy"
+    },
+    {
+      "path": "demos/StackCube-v1/rl/trajectory.none.pd_joint_delta_pos.physx_cuda.json",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/StackCube-v1/rl/trajectory.none.pd_joint_delta_pos.physx_cuda.json",
+      "bytes": 178068,
+      "sha256": "f2c5418a04ffca6455f6b145190c8f440051d30aeba56ec511e1d8f8f6e06c04",
+      "top_level_keys": [
+        "env_info",
+        "commit_info",
+        "episodes",
+        "source_type",
+        "source_desc"
+      ],
+      "episode_count": 932,
+      "first_episode_keys": [
+        "episode_id",
+        "episode_seed",
+        "control_mode",
+        "elapsed_steps",
+        "reset_kwargs",
+        "success"
+      ],
+      "outcome_fields": {
+        "success": {
+          "True": 932
+        },
+        "success_once": {
+          "MISSING": 932
+        },
+        "success_at_end": {
+          "MISSING": 932
+        }
+      },
+      "env_info": {
+        "env_id": "StackCube-v1",
+        "env_kwargs": {
+          "num_envs": 1024,
+          "reconfiguration_freq": 1,
+          "human_render_camera_configs": {
+            "shader_pack": "default"
+          },
+          "obs_mode": "state",
+          "render_mode": "rgb_array",
+          "sim_backend": "physx_cuda",
+          "control_mode": "pd_joint_delta_pos"
+        },
+        "max_episode_steps": 50
+      },
+      "source_type": "rl",
+      "source_desc": "Demonstrations generated by rolling out a PPO dense reward trained policy"
+    }
+  ],
+  "source_commit": "a4a4f9272ad64b1564035874b605ceb687b63ed8",
+  "source_files": [
+    {
+      "path": "mani_skill/envs/tasks/tabletop/pick_cube.py",
+      "sha256": "6f881f11151bd124a4ec6d1189e86e20b17d366aa1cbcc6e2f751f1f5bb03ed1",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube.py"
+    },
+    {
+      "path": "mani_skill/envs/tasks/tabletop/stack_cube.py",
+      "sha256": "ff14d7a4a1822da564f3bdbdbd95a7486cbc3832f722e8f18a80421a8fc8b697",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/stack_cube.py"
+    },
+    {
+      "path": "mani_skill/envs/tasks/tabletop/plug_charger.py",
+      "sha256": "13b08f30d4975185fdfa42380ab160f86624419e5d2e0749b3a845c92d81278c",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/plug_charger.py"
+    },
+    {
+      "path": "mani_skill/envs/tasks/tabletop/peg_insertion_side.py",
+      "sha256": "79761d7a7b17ebdbd974c58f7427abcd3a50ec115f0340f6ed5d282a0d48fc6e",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/peg_insertion_side.py"
+    },
+    {
+      "path": "mani_skill/envs/tasks/tabletop/push_cube.py",
+      "sha256": "8ae1536c13fae2fe8f5c84be0c60ff40a6acd625e738dfafc056ec333a16e0d8",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/push_cube.py"
+    },
+    {
+      "path": "mani_skill/envs/tasks/tabletop/pull_cube.py",
+      "sha256": "8aad0889a6dc40f693299467da01f42efea396a7b7889027d74c182a4a82723f",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pull_cube.py"
+    },
+    {
+      "path": "mani_skill/envs/tasks/tabletop/roll_ball.py",
+      "sha256": "ab8085ab8981bcedc711ebfa0f9cd3893e7f26bf0c5a66b68059e4ea7f97ba1a",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/roll_ball.py"
+    },
+    {
+      "path": "mani_skill/envs/tasks/tabletop/poke_cube.py",
+      "sha256": "d44ba52e03747e8acc9739ef0b7e871e482b79a7072fdcb26ebaa70690f8a0ed",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/poke_cube.py"
+    },
+    {
+      "path": "mani_skill/envs/tasks/tabletop/push_t.py",
+      "sha256": "8d72c32f1d5c6bae4b661098dbd25a3b415016f35dfb0be7124e13bcf40c4561",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/push_t.py"
+    },
+    {
+      "path": "mani_skill/envs/tasks/tabletop/lift_peg_upright.py",
+      "sha256": "3c8679d25368418edd3a7bd5d43d2122cdd209369350e91f8d471ab9f6fb8063",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/lift_peg_upright.py"
+    },
+    {
+      "path": "scripts/data_generation/rl.sh",
+      "sha256": "6209f39b6a3eec2be303ee861f4cfe448c18733bf2c620e218c46c8e774a22c0",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/scripts/data_generation/rl.sh"
+    },
+    {
+      "path": "mani_skill/trajectory/replay_trajectory.py",
+      "sha256": "ef98ccc7c7f16161a978534be6c159bd25c9f89f12182a97aed2452ddcd34d1e",
+      "url": "https://github.com/haosulab/ManiSkill/blob/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/trajectory/replay_trajectory.py"
+    }
+  ],
+  "tree_snapshot_sha256": "ef1eb14ecbeb817559f0d64bdffc0baddc755d8df1b93eec0f02f1fbc9ecfd34",
+  "checkpoint_count": 26,
+  "method": "Read-only source and JSON metadata inspection; no dataset HDF5, checkpoint, simulator, policy or relabeling execution."
+}

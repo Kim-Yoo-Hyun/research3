@@ -1,0 +1,83 @@
+{
+  "status": "VERIFIED",
+  "decision": "INPUT_CONTROLS_VALID_PHYSICAL_FRAME_UNRESOLVED",
+  "result_sha256": "f2d2af6983b4045d9a41156c3bcbf74a52ffd573d43b06456b55dcbe0acb7a02",
+  "pairs": [
+    {
+      "index": 0,
+      "input_set_preserved": true,
+      "controls_pass": true,
+      "distance_sentinels": [
+        {
+          "query_index": 0,
+          "distance": 0.016526157699732258
+        },
+        {
+          "query_index": 1024,
+          "distance": 6.976118409738997e-11
+        },
+        {
+          "query_index": 2047,
+          "distance": 0.023371516345466407
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "input_set_preserved": true,
+      "controls_pass": true,
+      "distance_sentinels": [
+        {
+          "query_index": 0,
+          "distance": 0.016303504196610225
+        },
+        {
+          "query_index": 1024,
+          "distance": 5.256372288430931e-11
+        },
+        {
+          "query_index": 2047,
+          "distance": 0.023056636778346764
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "input_set_preserved": true,
+      "controls_pass": true,
+      "distance_sentinels": [
+        {
+          "query_index": 0,
+          "distance": 0.017274808403567044
+        },
+        {
+          "query_index": 1024,
+          "distance": 6.539794663407738e-11
+        },
+        {
+          "query_index": 2047,
+          "distance": 0.024430268338393454
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "input_set_preserved": true,
+      "controls_pass": true,
+      "distance_sentinels": [
+        {
+          "query_index": 0,
+          "distance": 0.023352345129754905
+        },
+        {
+          "query_index": 1024,
+          "distance": 0.03302520323447734
+        },
+        {
+          "query_index": 2047,
+          "distance": 0.023352345105453448
+        }
+      ]
+    }
+  ]
+}

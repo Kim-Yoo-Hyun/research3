@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-10",
+  "image_id": "sha256:9977f452f5bb84734c210e911110d23a2dacf9fb38d94c260d864c65da1444d6",
+  "jobs": [
+    {
+      "path": "logs/20260910_150545_q12_model_build.log",
+      "sha256": "4bdc6b6b05c72bec3c271cfad071c38a52028e19266ab1be7e5d3ac8b1070285",
+      "exit_code": 0
+    },
+    {
+      "path": "logs/20260910_150837_q12_model_schema.log",
+      "sha256": "2733ff9190e049fd483eeb580a6e8ea50c1dfee82c595e7eb5354fd13f6394cb",
+      "exit_code": 0
+    },
+    {
+      "path": "logs/20260910_151008_q12_model_schema_verify.log",
+      "sha256": "aac22f40d10f8401dde48f7aa9cb0f783fcec55a74bc36def7ca77246c73f1e4",
+      "exit_code": null
+    },
+    {
+      "path": "logs/20260910_152546_q12_schema_verify_recheck.log",
+      "sha256": "aac22f40d10f8401dde48f7aa9cb0f783fcec55a74bc36def7ca77246c73f1e4",
+      "exit_code": 0
+    },
+    {
+      "path": "logs/20260910_151813_q12_reference_preflight.log",
+      "sha256": "de9c3ea59fc3d58cc7fe095eec5da428c2eaaf97406a9a8af1cf622bbf02780b",
+      "exit_code": 0
+    },
+    {
+      "path": "logs/20260910_152409_q12_reference_pipeline.log",
+      "sha256": "4fa7f3dc74b1c3aab184c529c3f01af725f098bdb4854fe636181fd7ed475880",
+      "exit_code": 0
+    },
+    {
+      "path": "logs/20260910_152546_q12_reference_pipeline.log",
+      "sha256": "4fa7f3dc74b1c3aab184c529c3f01af725f098bdb4854fe636181fd7ed475880",
+      "exit_code": 0
+    }
+  ],
+  "first_schema_verifier_note": "Verifier wrote valid JSON, but zsh rejected assignment to read-only variable status. Original log retained; bash verify_schema.sh uses q12_exit and independent verification was rechecked in a new output folder with exit 0.",
+  "actual_completion_launched": false
+}

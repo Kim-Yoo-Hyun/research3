@@ -1,0 +1,9 @@
+{
+  "recorded_at_utc": "2026-09-08T01:05:34.097722+00:00",
+  "change": "verifier only: clip success probability before forming failure complement, matching frozen v5 metric",
+  "verifier": "verify_probe_v2.py",
+  "verifier_sha256": "4524f41dc5325d208895157bdc4e64898bbed3933bcdf58af39e7b3d5bea750a",
+  "training_rerun": false,
+  "test_evaluation_rerun": false,
+  "protocol_changed": false
+}

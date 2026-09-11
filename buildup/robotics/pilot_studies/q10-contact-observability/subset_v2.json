@@ -1,0 +1,36 @@
+{
+  "dataset_record": "0ewrv-8cb44",
+  "dataset_version": "1.0.0",
+  "selection_uses_outcome_labels": false,
+  "selection_rule": "smallest compressed clean member per split plus smallest compressed train member for each of two required sensor-issue types",
+  "members": [
+    {
+      "recording_id": "2025-01-11-14-43-37",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "compressed_bytes": 23977315,
+      "uncompressed_bytes": 102449944
+    },
+    {
+      "recording_id": "2025-01-13-17-51-11",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "compressed_bytes": 34116508,
+      "uncompressed_bytes": 159616702
+    },
+    {
+      "recording_id": "2025-01-11-15-35-08",
+      "split": "train_split1.txt",
+      "condition": "force/torque not valid for last action",
+      "compressed_bytes": 206364858,
+      "uncompressed_bytes": 904787849
+    },
+    {
+      "recording_id": "2025-01-10-15-28-50",
+      "split": "train_split1.txt",
+      "condition": "hand camera missing at beginning",
+      "compressed_bytes": 277895994,
+      "uncompressed_bytes": 1194577758
+    }
+  ]
+}

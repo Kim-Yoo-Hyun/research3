@@ -1,0 +1,41 @@
+{
+  "repository": "NunoDuarte/3DSGrasp",
+  "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+  "files": [
+    {
+      "path": "upstream/SGrasp.py",
+      "upstream_path": "Completion/models/SGrasp.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/models/SGrasp.py",
+      "sha256": "888fdeacd751f5ca76afef5baa212f0efcd5e722bc596c3765cc2bac4a8e8b00",
+      "bytes": 16161
+    },
+    {
+      "path": "upstream/dgcnn_group.py",
+      "upstream_path": "Completion/models/dgcnn_group.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/models/dgcnn_group.py",
+      "sha256": "52a0d65930650ed7d807415094795509d490549e1c1a4d4a10f467d15a1aae2e",
+      "bytes": 3550
+    },
+    {
+      "path": "upstream/builder.py",
+      "upstream_path": "Completion/tools/builder.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/tools/builder.py",
+      "sha256": "d09563d9494cbf9828132d854ddfe631798626235bda81b3498759cd892f1cdc",
+      "bytes": 4943
+    },
+    {
+      "path": "upstream/SGrasp.yaml",
+      "upstream_path": "Completion/cfgs/YCB_models/SGrasp.yaml",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/cfgs/YCB_models/SGrasp.yaml",
+      "sha256": "bda4ebc8cbc62e0e84a8a923abc5687c39e914073c2f90473f52c6d410b2e86f",
+      "bytes": 480
+    },
+    {
+      "path": "upstream/LICENSE",
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/LICENSE",
+      "sha256": "8abaa1942b6c07d63922d4a3db0f084c8ec8263289a7d12bc4c9abff6aee160b",
+      "bytes": 1068
+    }
+  ]
+}

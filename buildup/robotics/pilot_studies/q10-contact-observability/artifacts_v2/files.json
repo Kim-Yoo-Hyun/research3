@@ -1,0 +1,4155 @@
+[
+  {
+    "recording_id": "2025-01-11-14-43-37",
+    "split": "test_split1.txt",
+    "condition": "no documented issue",
+    "bytes": 102449944,
+    "sha256": "bef0903e9c3a4172cf0598dbc14f9bd1d5b8f25ed5f6f31ca99c7178726ec603",
+    "top_level_keys": [
+      "capture_node-camera-image",
+      "events",
+      "hama1",
+      "hama1_audio",
+      "hama2",
+      "hama2_audio",
+      "hand",
+      "hand_audio",
+      "robot_state",
+      "segments_info",
+      "timestamps"
+    ],
+    "datasets": {
+      "capture_node-camera-image": {
+        "shape": [],
+        "dtype": "|V311243",
+        "storage_bytes": 311243
+      },
+      "events": {
+        "shape": [
+          2551295,
+          3
+        ],
+        "dtype": "int64",
+        "storage_bytes": 61231080
+      },
+      "hama1": {
+        "shape": [],
+        "dtype": "|V1188072",
+        "storage_bytes": 1188072
+      },
+      "hama1_audio": {
+        "shape": [
+          357984
+        ],
+        "dtype": "int64",
+        "storage_bytes": 2863872
+      },
+      "hama2": {
+        "shape": [],
+        "dtype": "|V1086973",
+        "storage_bytes": 1086973
+      },
+      "hama2_audio": {
+        "shape": [
+          355536
+        ],
+        "dtype": "int64",
+        "storage_bytes": 2844288
+      },
+      "hand": {
+        "shape": [],
+        "dtype": "|V1220656",
+        "storage_bytes": 1220656
+      },
+      "hand_audio": {
+        "shape": [
+          187968
+        ],
+        "dtype": "int64",
+        "storage_bytes": 1503744
+      },
+      "robot_state/compensated_base_force": {
+        "shape": [
+          10753,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 258072
+      },
+      "robot_state/compensated_base_torque": {
+        "shape": [
+          10753,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 258072
+      },
+      "robot_state/gripper_efforts": {
+        "shape": [
+          22549,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 360784
+      },
+      "robot_state/gripper_positions": {
+        "shape": [
+          22549,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 360784
+      },
+      "robot_state/gripper_velocities": {
+        "shape": [
+          22549,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 360784
+      },
+      "robot_state/joint_efforts": {
+        "shape": [
+          22549,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1262744
+      },
+      "robot_state/joint_positions": {
+        "shape": [
+          22549,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1262744
+      },
+      "robot_state/joint_velocities": {
+        "shape": [
+          22549,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1262744
+      },
+      "robot_state/measured_force": {
+        "shape": [
+          23240,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 557760
+      },
+      "robot_state/measured_torque": {
+        "shape": [
+          23240,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 557760
+      },
+      "robot_state/pose": {
+        "shape": [
+          13401,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 750456
+      },
+      "robot_state/velocity": {
+        "shape": [
+          13362,
+          6
+        ],
+        "dtype": "float64",
+        "storage_bytes": 641376
+      },
+      "segments_info/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/0/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/1/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/3/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/3/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "timestamps/capture_node-camera-image": {
+        "shape": [
+          136
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1088
+      },
+      "timestamps/compensated_base_force": {
+        "shape": [
+          10753
+        ],
+        "dtype": "float64",
+        "storage_bytes": 86024
+      },
+      "timestamps/compensated_base_torque": {
+        "shape": [
+          10753
+        ],
+        "dtype": "float64",
+        "storage_bytes": 86024
+      },
+      "timestamps/events": {
+        "shape": [
+          2551295
+        ],
+        "dtype": "float64",
+        "storage_bytes": 20410360
+      },
+      "timestamps/gripper_efforts": {
+        "shape": [
+          22549
+        ],
+        "dtype": "float64",
+        "storage_bytes": 180392
+      },
+      "timestamps/gripper_positions": {
+        "shape": [
+          22549
+        ],
+        "dtype": "float64",
+        "storage_bytes": 180392
+      },
+      "timestamps/gripper_velocities": {
+        "shape": [
+          22549
+        ],
+        "dtype": "float64",
+        "storage_bytes": 180392
+      },
+      "timestamps/hama1": {
+        "shape": [
+          697
+        ],
+        "dtype": "float64",
+        "storage_bytes": 5576
+      },
+      "timestamps/hama2": {
+        "shape": [
+          697
+        ],
+        "dtype": "float64",
+        "storage_bytes": 5576
+      },
+      "timestamps/hand": {
+        "shape": [
+          642
+        ],
+        "dtype": "float64",
+        "storage_bytes": 5136
+      },
+      "timestamps/joint_efforts": {
+        "shape": [
+          22549
+        ],
+        "dtype": "float64",
+        "storage_bytes": 180392
+      },
+      "timestamps/joint_positions": {
+        "shape": [
+          22549
+        ],
+        "dtype": "float64",
+        "storage_bytes": 180392
+      },
+      "timestamps/joint_velocities": {
+        "shape": [
+          22549
+        ],
+        "dtype": "float64",
+        "storage_bytes": 180392
+      },
+      "timestamps/measured_force": {
+        "shape": [
+          23240
+        ],
+        "dtype": "float64",
+        "storage_bytes": 185920
+      },
+      "timestamps/measured_torque": {
+        "shape": [
+          23240
+        ],
+        "dtype": "float64",
+        "storage_bytes": 185920
+      },
+      "timestamps/pose": {
+        "shape": [
+          13401
+        ],
+        "dtype": "float64",
+        "storage_bytes": 107208
+      },
+      "timestamps/velocity": {
+        "shape": [
+          13362
+        ],
+        "dtype": "float64",
+        "storage_bytes": 106896
+      }
+    },
+    "representative_timestamps": {
+      "external_rgb": "timestamps/hama1",
+      "hand_rgb": "timestamps/hand",
+      "force": "timestamps/measured_force",
+      "proprioception": "timestamps/pose"
+    },
+    "required_fields": {
+      "external_rgb_data": true,
+      "external_rgb_timestamp": true,
+      "force_data": true,
+      "force_timestamp": true,
+      "proprioception_data": true,
+      "proprioception_timestamp": true,
+      "segments_info": true
+    },
+    "segment_count": 4
+  },
+  {
+    "recording_id": "2025-01-13-17-51-11",
+    "split": "train_split1.txt",
+    "condition": "no documented issue",
+    "bytes": 159616702,
+    "sha256": "835e10bdd57cdc837be966f98b36fe06caab203de7a46eca41848e97de8bd4bd",
+    "top_level_keys": [
+      "capture_node-camera-image",
+      "events",
+      "hama1",
+      "hama1_audio",
+      "hama2",
+      "hama2_audio",
+      "hand",
+      "hand_audio",
+      "robot_state",
+      "segments_info",
+      "timestamps"
+    ],
+    "datasets": {
+      "capture_node-camera-image": {
+        "shape": [],
+        "dtype": "|V444122",
+        "storage_bytes": 444122
+      },
+      "events": {
+        "shape": [
+          4292465,
+          3
+        ],
+        "dtype": "int64",
+        "storage_bytes": 103019160
+      },
+      "hama1": {
+        "shape": [],
+        "dtype": "|V1298281",
+        "storage_bytes": 1298281
+      },
+      "hama1_audio": {
+        "shape": [
+          364536
+        ],
+        "dtype": "int64",
+        "storage_bytes": 2916288
+      },
+      "hama2": {
+        "shape": [],
+        "dtype": "|V1203831",
+        "storage_bytes": 1203831
+      },
+      "hama2_audio": {
+        "shape": [
+          360216
+        ],
+        "dtype": "int64",
+        "storage_bytes": 2881728
+      },
+      "hand": {
+        "shape": [],
+        "dtype": "|V1420388",
+        "storage_bytes": 1420388
+      },
+      "hand_audio": {
+        "shape": [
+          264432
+        ],
+        "dtype": "int64",
+        "storage_bytes": 2115456
+      },
+      "robot_state/compensated_base_force": {
+        "shape": [
+          11033,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 264792
+      },
+      "robot_state/compensated_base_torque": {
+        "shape": [
+          11033,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 264792
+      },
+      "robot_state/gripper_efforts": {
+        "shape": [
+          22965,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 367440
+      },
+      "robot_state/gripper_positions": {
+        "shape": [
+          22965,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 367440
+      },
+      "robot_state/gripper_velocities": {
+        "shape": [
+          22965,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 367440
+      },
+      "robot_state/joint_efforts": {
+        "shape": [
+          22965,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1286040
+      },
+      "robot_state/joint_positions": {
+        "shape": [
+          22965,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1286040
+      },
+      "robot_state/joint_velocities": {
+        "shape": [
+          22965,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1286040
+      },
+      "robot_state/measured_force": {
+        "shape": [
+          23538,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 564912
+      },
+      "robot_state/measured_torque": {
+        "shape": [
+          23538,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 564912
+      },
+      "robot_state/pose": {
+        "shape": [
+          13631,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 763336
+      },
+      "robot_state/velocity": {
+        "shape": [
+          13641,
+          6
+        ],
+        "dtype": "float64",
+        "storage_bytes": 654768
+      },
+      "segments_info/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/0/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/1/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/3/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/3/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/3/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/3/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/4/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/4/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "timestamps/capture_node-camera-image": {
+        "shape": [
+          148
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1184
+      },
+      "timestamps/compensated_base_force": {
+        "shape": [
+          11033
+        ],
+        "dtype": "float64",
+        "storage_bytes": 88264
+      },
+      "timestamps/compensated_base_torque": {
+        "shape": [
+          11033
+        ],
+        "dtype": "float64",
+        "storage_bytes": 88264
+      },
+      "timestamps/events": {
+        "shape": [
+          4292465
+        ],
+        "dtype": "float64",
+        "storage_bytes": 34339720
+      },
+      "timestamps/gripper_efforts": {
+        "shape": [
+          22965
+        ],
+        "dtype": "float64",
+        "storage_bytes": 183720
+      },
+      "timestamps/gripper_positions": {
+        "shape": [
+          22965
+        ],
+        "dtype": "float64",
+        "storage_bytes": 183720
+      },
+      "timestamps/gripper_velocities": {
+        "shape": [
+          22965
+        ],
+        "dtype": "float64",
+        "storage_bytes": 183720
+      },
+      "timestamps/hama1": {
+        "shape": [
+          706
+        ],
+        "dtype": "float64",
+        "storage_bytes": 5648
+      },
+      "timestamps/hama2": {
+        "shape": [
+          706
+        ],
+        "dtype": "float64",
+        "storage_bytes": 5648
+      },
+      "timestamps/hand": {
+        "shape": [
+          651
+        ],
+        "dtype": "float64",
+        "storage_bytes": 5208
+      },
+      "timestamps/joint_efforts": {
+        "shape": [
+          22965
+        ],
+        "dtype": "float64",
+        "storage_bytes": 183720
+      },
+      "timestamps/joint_positions": {
+        "shape": [
+          22965
+        ],
+        "dtype": "float64",
+        "storage_bytes": 183720
+      },
+      "timestamps/joint_velocities": {
+        "shape": [
+          22965
+        ],
+        "dtype": "float64",
+        "storage_bytes": 183720
+      },
+      "timestamps/measured_force": {
+        "shape": [
+          23538
+        ],
+        "dtype": "float64",
+        "storage_bytes": 188304
+      },
+      "timestamps/measured_torque": {
+        "shape": [
+          23538
+        ],
+        "dtype": "float64",
+        "storage_bytes": 188304
+      },
+      "timestamps/pose": {
+        "shape": [
+          13631
+        ],
+        "dtype": "float64",
+        "storage_bytes": 109048
+      },
+      "timestamps/velocity": {
+        "shape": [
+          13641
+        ],
+        "dtype": "float64",
+        "storage_bytes": 109128
+      }
+    },
+    "representative_timestamps": {
+      "external_rgb": "timestamps/hama1",
+      "hand_rgb": "timestamps/hand",
+      "force": "timestamps/measured_force",
+      "proprioception": "timestamps/pose"
+    },
+    "required_fields": {
+      "external_rgb_data": true,
+      "external_rgb_timestamp": true,
+      "force_data": true,
+      "force_timestamp": true,
+      "proprioception_data": true,
+      "proprioception_timestamp": true,
+      "segments_info": true
+    },
+    "segment_count": 5
+  },
+  {
+    "recording_id": "2025-01-11-15-35-08",
+    "split": "train_split1.txt",
+    "condition": "force/torque not valid for last action",
+    "bytes": 904787849,
+    "sha256": "96dfe7c9e2e67a6e4624f55075023143888d51d6639fd16a4d9d6a203e58d997",
+    "top_level_keys": [
+      "capture_node-camera-image",
+      "events",
+      "hama1",
+      "hama1_audio",
+      "hama2",
+      "hama2_audio",
+      "hand",
+      "hand_audio",
+      "robot_state",
+      "segments_info",
+      "timestamps"
+    ],
+    "datasets": {
+      "capture_node-camera-image": {
+        "shape": [],
+        "dtype": "|V2837482",
+        "storage_bytes": 2837482
+      },
+      "events": {
+        "shape": [
+          23117861,
+          3
+        ],
+        "dtype": "int64",
+        "storage_bytes": 554828664
+      },
+      "hama1": {
+        "shape": [],
+        "dtype": "|V8909333",
+        "storage_bytes": 8909333
+      },
+      "hama1_audio": {
+        "shape": [
+          2761488
+        ],
+        "dtype": "int64",
+        "storage_bytes": 22091904
+      },
+      "hama2": {
+        "shape": [],
+        "dtype": "|V9180316",
+        "storage_bytes": 9180316
+      },
+      "hama2_audio": {
+        "shape": [
+          2740824
+        ],
+        "dtype": "int64",
+        "storage_bytes": 21926592
+      },
+      "hand": {
+        "shape": [],
+        "dtype": "|V10402230",
+        "storage_bytes": 10402230
+      },
+      "hand_audio": {
+        "shape": [
+          1825848
+        ],
+        "dtype": "int64",
+        "storage_bytes": 14606784
+      },
+      "robot_state/compensated_base_force": {
+        "shape": [
+          87009,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2088216
+      },
+      "robot_state/compensated_base_torque": {
+        "shape": [
+          87009,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2088216
+      },
+      "robot_state/gripper_efforts": {
+        "shape": [
+          175013,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2800208
+      },
+      "robot_state/gripper_positions": {
+        "shape": [
+          175013,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2800208
+      },
+      "robot_state/gripper_velocities": {
+        "shape": [
+          175013,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2800208
+      },
+      "robot_state/joint_efforts": {
+        "shape": [
+          175013,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 9800728
+      },
+      "robot_state/joint_positions": {
+        "shape": [
+          175013,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 9800728
+      },
+      "robot_state/joint_velocities": {
+        "shape": [
+          175013,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 9800728
+      },
+      "robot_state/measured_force": {
+        "shape": [
+          168313,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 4039512
+      },
+      "robot_state/measured_torque": {
+        "shape": [
+          168313,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 4039512
+      },
+      "robot_state/pose": {
+        "shape": [
+          101949,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 5709144
+      },
+      "robot_state/velocity": {
+        "shape": [
+          101879,
+          6
+        ],
+        "dtype": "float64",
+        "storage_bytes": 4890192
+      },
+      "segments_info/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/0/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/1/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/10/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/10/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/10/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/10/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/10/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/10/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/10/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/11/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/11/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/11/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/11/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/11/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/11/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/12/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/12/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/12/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/12/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/12/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/12/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/12/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/13/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/13/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/13/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/13/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/13/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/13/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/14/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/14/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/14/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/14/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/14/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/14/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/14/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/15/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/15/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/2/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/2/low_level/3/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/3/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/3/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/3/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/3/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/3/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/3/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/3/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/3/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/3/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/4/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/4/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/4/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/4/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/4/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/4/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/4/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/5/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/5/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/5/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/5/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/5/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/5/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/6/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/6/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/6/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/6/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/6/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/6/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/6/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/7/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/7/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/7/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/7/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/7/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/7/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/8/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/8/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/8/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/8/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/8/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/8/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/8/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/9/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/9/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/9/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/9/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/9/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/9/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "timestamps/capture_node-camera-image": {
+        "shape": [
+          1021
+        ],
+        "dtype": "float64",
+        "storage_bytes": 8168
+      },
+      "timestamps/compensated_base_force": {
+        "shape": [
+          87009
+        ],
+        "dtype": "float64",
+        "storage_bytes": 696072
+      },
+      "timestamps/compensated_base_torque": {
+        "shape": [
+          87009
+        ],
+        "dtype": "float64",
+        "storage_bytes": 696072
+      },
+      "timestamps/events": {
+        "shape": [
+          23117861
+        ],
+        "dtype": "float64",
+        "storage_bytes": 184942888
+      },
+      "timestamps/gripper_efforts": {
+        "shape": [
+          175013
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1400104
+      },
+      "timestamps/gripper_positions": {
+        "shape": [
+          175013
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1400104
+      },
+      "timestamps/gripper_velocities": {
+        "shape": [
+          175013
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1400104
+      },
+      "timestamps/hama1": {
+        "shape": [
+          5402
+        ],
+        "dtype": "float64",
+        "storage_bytes": 43216
+      },
+      "timestamps/hama2": {
+        "shape": [
+          5401
+        ],
+        "dtype": "float64",
+        "storage_bytes": 43208
+      },
+      "timestamps/hand": {
+        "shape": [
+          4986
+        ],
+        "dtype": "float64",
+        "storage_bytes": 39888
+      },
+      "timestamps/joint_efforts": {
+        "shape": [
+          175013
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1400104
+      },
+      "timestamps/joint_positions": {
+        "shape": [
+          175013
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1400104
+      },
+      "timestamps/joint_velocities": {
+        "shape": [
+          175013
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1400104
+      },
+      "timestamps/measured_force": {
+        "shape": [
+          168313
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1346504
+      },
+      "timestamps/measured_torque": {
+        "shape": [
+          168313
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1346504
+      },
+      "timestamps/pose": {
+        "shape": [
+          101949
+        ],
+        "dtype": "float64",
+        "storage_bytes": 815592
+      },
+      "timestamps/velocity": {
+        "shape": [
+          101879
+        ],
+        "dtype": "float64",
+        "storage_bytes": 815032
+      }
+    },
+    "representative_timestamps": {
+      "external_rgb": "timestamps/hama1",
+      "hand_rgb": "timestamps/hand",
+      "force": "timestamps/measured_force",
+      "proprioception": "timestamps/pose"
+    },
+    "required_fields": {
+      "external_rgb_data": true,
+      "external_rgb_timestamp": true,
+      "force_data": true,
+      "force_timestamp": true,
+      "proprioception_data": true,
+      "proprioception_timestamp": true,
+      "segments_info": true
+    },
+    "segment_count": 16
+  },
+  {
+    "recording_id": "2025-01-10-15-28-50",
+    "split": "train_split1.txt",
+    "condition": "hand camera missing at beginning",
+    "bytes": 1194577758,
+    "sha256": "a68337b8ef0510c0bf4cbe4fa60f4e5b4ba78d2eee315b4c3149cd501d51613d",
+    "top_level_keys": [
+      "capture_node-camera-image",
+      "events",
+      "hama1",
+      "hama1_audio",
+      "hama2",
+      "hama2_audio",
+      "hand",
+      "hand_audio",
+      "robot_state",
+      "segments_info",
+      "timestamps"
+    ],
+    "datasets": {
+      "capture_node-camera-image": {
+        "shape": [],
+        "dtype": "|V4133141",
+        "storage_bytes": 4133141
+      },
+      "events": {
+        "shape": [
+          29890956,
+          3
+        ],
+        "dtype": "int64",
+        "storage_bytes": 717382944
+      },
+      "hama1": {
+        "shape": [],
+        "dtype": "|V12778114",
+        "storage_bytes": 12778114
+      },
+      "hama1_audio": {
+        "shape": [
+          4044312
+        ],
+        "dtype": "int64",
+        "storage_bytes": 32354496
+      },
+      "hama2": {
+        "shape": [],
+        "dtype": "|V12054217",
+        "storage_bytes": 12054217
+      },
+      "hama2_audio": {
+        "shape": [
+          4019040
+        ],
+        "dtype": "int64",
+        "storage_bytes": 32152320
+      },
+      "hand": {
+        "shape": [],
+        "dtype": "|V12678766",
+        "storage_bytes": 12678766
+      },
+      "hand_audio": {
+        "shape": [
+          2476968
+        ],
+        "dtype": "int64",
+        "storage_bytes": 19815744
+      },
+      "robot_state/compensated_base_force": {
+        "shape": [
+          137054,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 3289296
+      },
+      "robot_state/compensated_base_torque": {
+        "shape": [
+          137054,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 3289296
+      },
+      "robot_state/gripper_efforts": {
+        "shape": [
+          256393,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 4102288
+      },
+      "robot_state/gripper_positions": {
+        "shape": [
+          256393,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 4102288
+      },
+      "robot_state/gripper_velocities": {
+        "shape": [
+          256393,
+          2
+        ],
+        "dtype": "float64",
+        "storage_bytes": 4102288
+      },
+      "robot_state/joint_efforts": {
+        "shape": [
+          256393,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 14358008
+      },
+      "robot_state/joint_positions": {
+        "shape": [
+          256393,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 14358008
+      },
+      "robot_state/joint_velocities": {
+        "shape": [
+          256393,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 14358008
+      },
+      "robot_state/measured_force": {
+        "shape": [
+          263315,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 6319560
+      },
+      "robot_state/measured_torque": {
+        "shape": [
+          263315,
+          3
+        ],
+        "dtype": "float64",
+        "storage_bytes": 6319560
+      },
+      "robot_state/pose": {
+        "shape": [
+          153380,
+          7
+        ],
+        "dtype": "float64",
+        "storage_bytes": 8589280
+      },
+      "robot_state/velocity": {
+        "shape": [
+          153397,
+          6
+        ],
+        "dtype": "float64",
+        "storage_bytes": 7363056
+      },
+      "segments_info/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/0/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/1/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/1/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/10/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/10/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/10/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/10/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/10/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/10/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/10/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/10/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/11/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/11/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/11/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/11/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/11/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/11/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/11/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/12/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/12/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/12/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/12/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/12/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/12/low_level/3/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/3/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/low_level/3/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/12/low_level/3/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/12/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/12/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/12/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/13/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/13/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/13/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/13/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/13/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/13/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/13/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/14/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/14/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/14/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/14/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/14/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/14/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/14/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/14/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/15/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/15/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/15/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/15/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/15/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/15/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/15/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/16/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/16/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/16/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/16/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/16/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/16/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/16/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/16/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/16/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/16/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/16/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/16/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/16/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/16/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/16/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/16/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/16/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/17/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/17/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/17/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/17/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/17/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/17/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/17/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/17/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/17/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/17/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/17/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/17/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/17/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/18/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/18/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/18/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/18/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/18/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/18/low_level/3/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/3/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/3/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/18/low_level/3/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/18/low_level/4/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/4/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/low_level/4/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/18/low_level/4/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/18/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/18/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/18/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/19/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/19/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/19/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/19/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/19/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/2/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/2/low_level/3/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/3/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/low_level/3/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/low_level/3/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/2/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/3/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/3/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/3/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/3/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/3/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/3/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/3/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/4/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/4/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/4/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/4/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/4/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/4/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/4/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/4/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/5/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/5/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/5/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/5/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/5/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/5/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/5/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/6/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/6/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/6/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/6/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/6/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/6/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/7/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/7/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/7/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/7/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/7/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/7/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/7/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/8/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/8/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S8",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/8/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/8/low_level/2/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/2/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/low_level/2/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/8/low_level/2/text": {
+        "shape": [],
+        "dtype": "|S7",
+        "storage_bytes": 7
+      },
+      "segments_info/8/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/8/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/8/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "segments_info/9/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/index": {
+        "shape": [],
+        "dtype": "int64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/0/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/0/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/0/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/9/low_level/0/text": {
+        "shape": [],
+        "dtype": "|S5",
+        "storage_bytes": 5
+      },
+      "segments_info/9/low_level/1/end": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/1/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/low_level/1/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/9/low_level/1/text": {
+        "shape": [],
+        "dtype": "|S4",
+        "storage_bytes": 4
+      },
+      "segments_info/9/start": {
+        "shape": [],
+        "dtype": "float64",
+        "storage_bytes": 8
+      },
+      "segments_info/9/success": {
+        "shape": [],
+        "dtype": "bool",
+        "storage_bytes": 1
+      },
+      "segments_info/9/text": {
+        "shape": [],
+        "dtype": "object",
+        "storage_bytes": 16
+      },
+      "timestamps/capture_node-camera-image": {
+        "shape": [
+          1517
+        ],
+        "dtype": "float64",
+        "storage_bytes": 12136
+      },
+      "timestamps/compensated_base_force": {
+        "shape": [
+          137054
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1096432
+      },
+      "timestamps/compensated_base_torque": {
+        "shape": [
+          137054
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1096432
+      },
+      "timestamps/events": {
+        "shape": [
+          29890956
+        ],
+        "dtype": "float64",
+        "storage_bytes": 239127648
+      },
+      "timestamps/gripper_efforts": {
+        "shape": [
+          256393
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2051144
+      },
+      "timestamps/gripper_positions": {
+        "shape": [
+          256393
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2051144
+      },
+      "timestamps/gripper_velocities": {
+        "shape": [
+          256393
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2051144
+      },
+      "timestamps/hama1": {
+        "shape": [
+          7899
+        ],
+        "dtype": "float64",
+        "storage_bytes": 63192
+      },
+      "timestamps/hama2": {
+        "shape": [
+          7899
+        ],
+        "dtype": "float64",
+        "storage_bytes": 63192
+      },
+      "timestamps/hand": {
+        "shape": [
+          6387
+        ],
+        "dtype": "float64",
+        "storage_bytes": 51096
+      },
+      "timestamps/joint_efforts": {
+        "shape": [
+          256393
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2051144
+      },
+      "timestamps/joint_positions": {
+        "shape": [
+          256393
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2051144
+      },
+      "timestamps/joint_velocities": {
+        "shape": [
+          256393
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2051144
+      },
+      "timestamps/measured_force": {
+        "shape": [
+          263315
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2106520
+      },
+      "timestamps/measured_torque": {
+        "shape": [
+          263315
+        ],
+        "dtype": "float64",
+        "storage_bytes": 2106520
+      },
+      "timestamps/pose": {
+        "shape": [
+          153380
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1227040
+      },
+      "timestamps/velocity": {
+        "shape": [
+          153397
+        ],
+        "dtype": "float64",
+        "storage_bytes": 1227176
+      }
+    },
+    "representative_timestamps": {
+      "external_rgb": "timestamps/hama1",
+      "hand_rgb": "timestamps/hand",
+      "force": "timestamps/measured_force",
+      "proprioception": "timestamps/pose"
+    },
+    "required_fields": {
+      "external_rgb_data": true,
+      "external_rgb_timestamp": true,
+      "force_data": true,
+      "force_timestamp": true,
+      "proprioception_data": true,
+      "proprioception_timestamp": true,
+      "segments_info": true
+    },
+    "segment_count": 20
+  }
+]

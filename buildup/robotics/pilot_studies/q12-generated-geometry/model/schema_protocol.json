@@ -1,0 +1,36 @@
+{
+  "id": "q12-model-schema-v1",
+  "checkpoint": {
+    "name": "3dsgrasp_model.pth",
+    "url": "https://drive.usercontent.google.com/download?id=11vTsY0MQw9pzsqz3MyvCKjQT2rQ9VxVi&export=download&confirm=t",
+    "bytes": 505668417,
+    "sha256": "1cf1d7cc25f310c08a3fa2bb130dcd2bffe02189d6ab8ae3558492fbbd04ffda",
+    "publisher_checksum_available": false
+  },
+  "cpus": 4,
+  "memory_gib": 4,
+  "wall_seconds": 300,
+  "output_cap_mib": 16,
+  "seed": 12010,
+  "model_config": {
+    "trans_dim": 384,
+    "knn_layer": 1,
+    "num_pred": 6144,
+    "num_query": 96
+  },
+  "allowed_state_roots": [
+    "model",
+    "base_model",
+    "_model"
+  ],
+  "prefix_adapter": "only common leading module. stripped; no tensor rename/drop/reshape",
+  "require_exact_key_shape_dtype": true,
+  "strict_load": true,
+  "forward": false,
+  "decisions": [
+    "STATE_COMPATIBLE_FORWARD_UNVERIFIED",
+    "STOP_MODEL_STATE_MISMATCH",
+    "STOP_NONFINITE_CHECKPOINT",
+    "STOP_CHECKPOINT_OR_CONSTRUCTION"
+  ]
+}

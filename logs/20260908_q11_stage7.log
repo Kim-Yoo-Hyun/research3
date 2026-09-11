@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "mode": "post-outcome descriptive review; no fitting, parameter selection or rollouts",
+  "input_sha256": {
+    "calibration.json": "f90a018034659efe462b9e4afc0e34c8ab1d777cccf41f16b11c1b778d34044b",
+    "analysis.json": "ae82989d750bd4e8d9c234d6d275640292f0590e47404df57ef059fb999ac9d3",
+    "protocol.json": "3abc698d17441892a062458a84617b3b05486c277cbfadef4c8ab0c7433c17c2"
+  },
+  "source_sha256": "3de0a28db4d94df8004ca55a04a804af5b2c36f2fb761657906c66f546c4e561",
+  "calibration_reference": {
+    "kind": "fast_joint_gripper",
+    "param": {},
+    "mean_bytes": 36.104166666666664,
+    "arm_mse": 0.00010309468148203205
+  },
+  "existing_grid_summary": {
+    "uniform_gripper": {
+      "candidates": 9,
+      "under_cap": 0,
+      "rate_overlap": 0,
+      "both": 0
+    },
+    "linear_gripper": {
+      "candidates": 36,
+      "under_cap": 7,
+      "rate_overlap": 5,
+      "both": 1
+    }
+  },
+  "heldout_nonreference_joint_rate_mse_support": [],
+  "gripper_case_changes": {
+    "fast_joint": [
+      {
+        "seed": 2000,
+        "before": true,
+        "after": false
+      },
+      {
+        "seed": 2003,
+        "before": false,
+        "after": true
+      }
+    ],
+    "fast_quantile": []
+  },
+  "localization_reference": "fast_quantile_gripper",
+  "localization_reference_full_success": 16,
+  "localization_reference_full_verified": 16,
+  "localized_denominators": {
+    "grasp:eligible": 9,
+    "release:eligible": 12,
+    "grasp:no_speed_matched_noncontact": 7,
+    "release:no_speed_matched_noncontact": 4
+  }
+}

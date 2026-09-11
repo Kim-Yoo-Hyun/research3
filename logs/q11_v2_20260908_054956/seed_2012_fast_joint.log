@@ -1,0 +1,1 @@
+{"seed": 2012, "mode": "fast_joint", "status": "completed", "started": 1788847136.782165, "steps": 87, "action_dtype": "float64", "action_sha256": "b7d6ad3ffea54c0ce474ee4d6a9482c9c97507fd8ebfd592fdc7c97f755a5f77", "elapsed_seconds": 0.935002326965332, "final_success": false}

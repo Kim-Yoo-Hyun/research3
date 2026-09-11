@@ -1,0 +1,7 @@
+FROM python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250
+
+COPY requirements_v3.txt /tmp/requirements_v3.txt
+RUN pip install --no-cache-dir -r /tmp/requirements_v3.txt
+
+WORKDIR /workspace
+ENTRYPOINT ["python", "/workspace/extract_visual_audit.py"]

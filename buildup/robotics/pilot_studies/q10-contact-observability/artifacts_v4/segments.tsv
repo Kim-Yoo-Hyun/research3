@@ -1,0 +1,571 @@
+recording_id	source	split	condition	segment_index	start	end	duration_s	success	text	action_family	object_name	external_rgb_samples	force_samples	proprioception_samples	excluded_official_issue	matched_usable	target_action
+2025-01-11-14-43-37	v2_anchor	test_split1.txt	no documented issue	0	1736603018.4308324	1736603020.581422	2.15058970451355	True	No action.	no_action		64	2153	1243	False	True	False
+2025-01-11-14-43-37	v2_anchor	test_split1.txt	no documented issue	1	1736603020.597623	1736603034.9809134	14.38329029083252	False	Pick square peg 3.	pick	square peg 3	431	14381	8371	False	True	True
+2025-01-11-14-43-37	v2_anchor	test_split1.txt	no documented issue	2	1736603034.99778	1736603040.697478	5.699697971343994	True	No action.	no_action		171	5700	3250	False	True	False
+2025-01-11-14-43-37	v2_anchor	test_split1.txt	no documented issue	3	1736603040.7141714	1736603041.6476667	0.933495283126831	True	No action.	no_action		28	934	494	False	True	False
+2025-01-13-17-51-11	v2_anchor	train_split1.txt	no documented issue	0	1736787072.0854783	1736787074.4289346	2.343456268310547	True	No action.	no_action		71	2344	1378	False	True	False
+2025-01-13-17-51-11	v2_anchor	train_split1.txt	no documented issue	1	1736787074.4456282	1736787079.462247	5.016618728637695	True	Remove D-SUB.	remove	D-SUB	151	5016	2878	False	True	True
+2025-01-13-17-51-11	v2_anchor	train_split1.txt	no documented issue	2	1736787079.478934	1736787082.728975	3.2500410079956055	True	Place D-SUB.	place	D-SUB	98	3250	1857	False	True	True
+2025-01-13-17-51-11	v2_anchor	train_split1.txt	no documented issue	3	1736787082.7456431	1736787093.7957635	11.05012035369873	False	Remove bolt 4.	remove	bolt 4	332	11050	6458	False	True	True
+2025-01-13-17-51-11	v2_anchor	train_split1.txt	no documented issue	4	1736787093.8127024	1736787095.5790415	1.7663390636444092	True	No action.	no_action		53	1768	1000	False	True	False
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	0	1736606108.5816712	1736606112.9481752	4.366503953933716	True	No action.	no_action		131	4366	2483	False	True	False
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	1	1736606112.964894	1736606119.531691	6.5667970180511475	True	Pick bolt 4.	pick	bolt 4	197	6569	3691	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	2	1736606119.549388	1736606131.1648552	11.615467309951782	True	Insert bolt 4.	insert	bolt 4	348	11614	6523	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	3	1736606131.1837742	1736606137.6648293	6.481055021286011	True	Pick Ethernet.	pick	Ethernet	194	6480	3627	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	4	1736606137.6815643	1736606154.3815544	16.699990034103394	True	Insert Ethernet.	insert	Ethernet	501	16700	9459	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	5	1736606154.3980966	1736606161.781531	7.383434534072876	True	Pick D-SUB.	pick	D-SUB	222	7385	4060	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	6	1736606161.7982297	1736606176.3981545	14.599924802780151	True	Insert D-SUB.	insert	D-SUB	438	14599	8215	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	7	1736606176.415841	1736606182.8982294	6.482388257980347	True	Pick USB.	pick	USB	194	6482	3641	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	8	1736606182.9150715	1736606196.1148565	13.199784994125366	True	Insert USB.	insert	USB	396	13204	7462	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	9	1736606196.1318235	1736606208.0481803	11.916356801986694	True	Pick large gear.	pick	large gear	358	11917	6716	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	10	1736606208.0654814	1736606223.981648	15.916166543960571	True	Insert large gear.	insert	large gear	478	15915	9024	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	11	1736606223.9981675	1736606230.7981002	6.7999327182769775	True	Pick medium gear.	pick	medium gear	204	6800	3817	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	12	1736606230.8148232	1736606248.881508	18.06668496131897	True	Insert medium gear.	insert	medium gear	542	18064	10304	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	13	1736606248.8982286	1736606256.6817603	7.783531665802002	True	Pick small gear.	pick	small gear	234	7786	4417	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	14	1736606256.6982038	1736606284.1982045	27.500000715255737	False	Insert small gear.	insert	small gear	825	20173	15905	False	True	True
+2025-01-11-15-35-08	v2_anchor	train_split1.txt	force/torque not valid for last action	15	1736606284.2149043	1736606288.614845	4.399940729141235	True	No action.	no_action		132	0	2454	True	False	False
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	0	1736519331.4279895	1736519333.7946332	2.3666436672210693	True	No action.	no_action		71	2367	1376	False	True	False
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	1	1736519333.811616	1736519344.911281	11.09966516494751	True	Pick BNC.	pick	BNC	333	11099	6608	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	2	1736519344.9279914	1736519378.6946049	33.766613483428955	True	Insert BNC.	insert	BNC	1013	33769	19852	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	3	1736519378.711637	1736519389.0279815	10.316344499588013	True	Pick D-SUB.	pick	D-SUB	309	10319	5956	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	4	1736519389.0446646	1736519423.8279707	34.78330612182617	False	Insert D-SUB.	insert	D-SUB	1043	34784	20522	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	5	1736519423.8459544	1736519430.8946607	7.048706293106079	True	Pick D-SUB.	pick	D-SUB	211	7049	4033	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	6	1736519430.9135878	1736519435.4611692	4.547581434249878	True	Place D-SUB.	place	D-SUB	136	4549	2641	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	7	1736519435.4779992	1736519441.8946304	6.41663122177124	True	Pick medium gear.	pick	medium gear	192	6416	3770	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	8	1736519441.9113216	1736519452.678128	10.766806364059448	True	Insert medium gear.	insert	medium gear	322	10767	6396	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	9	1736519452.6946115	1736519459.644612	6.950000524520874	True	Pick large gear.	pick	large gear	210	6950	4059	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	10	1736519459.661384	1736519473.0112925	13.349908351898193	True	Insert large gear.	insert	large gear	401	13350	7871	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	11	1736519473.027989	1736519480.5946455	7.566656589508057	True	Pick Ethernet.	pick	Ethernet	227	7568	4407	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	12	1736519480.6112902	1736519500.9279833	20.31669306755066	True	Insert Ethernet.	insert	Ethernet	609	20316	11772	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	13	1736519500.9447484	1736519511.144628	10.19987964630127	True	Pick square peg 4.	pick	square peg 4	306	10201	5786	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	14	1736519511.161429	1736519529.161496	18.000066995620728	True	Insert square peg 4.	insert	square peg 4	540	18000	10292	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	15	1736519529.1779718	1736519538.42795	9.249978065490723	True	Pick USB.	pick	USB	277	9248	5273	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	16	1736519538.444887	1736519551.7779434	13.333056449890137	True	Insert USB.	insert	USB	400	13334	7655	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	17	1736519551.7946656	1736519561.344671	9.550005435943604	True	Pick small gear.	pick	small gear	287	9551	5517	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	18	1736519561.3612905	1736519592.3779085	31.016618013381958	True	Insert small gear.	insert	small gear	931	31016	18150	False	True	True
+2025-01-10-15-28-50	v2_anchor	train_split1.txt	hand camera missing at beginning	19	1736519592.394661	1736519594.7112484	2.316587448120117	True	No action.	no_action		70	2318	1239	False	True	False
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	0	1736591753.7559986	1736591757.9726353	4.216636657714844	True	No action.	no_action		126	4216	2428	False	True	False
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	1	1736591757.989583	1736591772.4727197	14.483136653900146	True	Pick Ethernet.	pick	Ethernet	434	14484	8480	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	2	1736591772.4896069	1736591776.9392822	4.4496753215789795	True	Place Ethernet.	place	Ethernet	133	4449	2504	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	3	1736591776.9560266	1736591782.906076	5.95004940032959	True	Pick D-SUB.	pick	D-SUB	178	5951	3397	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	4	1736591782.9226787	1736591798.889522	15.966843366622925	True	Insert D-SUB.	insert	D-SUB	479	15970	9162	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	5	1736591798.9060707	1736591808.090373	9.18430233001709	True	Pick waterproof.	pick	waterproof	276	9185	5276	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	6	1736591808.106017	1736591826.656005	18.54998779296875	True	Insert waterproof.	insert	waterproof	557	18551	10777	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	7	1736591826.672649	1736591836.5393562	9.86670732498169	True	Pick round peg 1.	pick	round peg 1	296	9866	5675	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	8	1736591836.5560818	1736591851.372671	14.816589117050171	True	Insert round peg 1.	insert	round peg 1	444	14819	8618	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	9	1736591851.389412	1736591858.4226656	7.0332536697387695	True	Pick round peg 2.	pick	round peg 2	211	7035	4032	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	10	1736591858.4392724	1736591866.8077672	8.368494749069214	True	Insert round peg 2.	insert	round peg 2	251	8367	4435	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	11	1736591866.8226616	1736591874.3893554	7.5666937828063965	True	Pick round peg 3.	pick	round peg 3	227	7566	4303	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	12	1736591874.4061098	1736591882.9059684	8.499858617782593	False	Insert round peg 3.	insert	round peg 3	255	8499	4925	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	13	1736591882.9226823	1736591888.8726473	5.949965000152588	True	Place round peg 3.	place	round peg 3	178	5950	3413	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	14	1736591888.8895838	1736591902.3059678	13.416383981704712	True	Pick square peg 4.	pick	square peg 4	402	13417	7747	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	15	1736591902.3228242	1736591915.8726346	13.549810409545898	True	Insert square peg 4.	insert	square peg 4	406	13550	7810	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	16	1736591915.8895464	1736591925.9060152	10.01646876335144	True	Pick round peg 4.	pick	round peg 4	300	10018	5710	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	17	1736591925.9228666	1736591938.6392832	12.716416597366333	False	Insert round peg 4.	insert	round peg 4	381	12716	7185	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	18	1736591938.6575062	1736591943.222725	4.565218687057495	True	Insert round peg 4.	insert	round peg 4	137	4564	2508	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	19	1736591943.2393494	1736591951.9228797	8.683530330657959	True	Pick square peg 3.	pick	square peg 3	261	8684	4824	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	20	1736591951.939437	1736591972.0895023	20.150065422058105	True	Insert square peg 3.	insert	square peg 3	605	20152	11326	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	21	1736591972.1059375	1736591981.139341	9.033403635025024	True	Pick square peg 2.	pick	square peg 2	271	9033	5080	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	22	1736591981.1560533	1736592001.539345	20.383291721343994	True	Insert square peg 2.	insert	square peg 2	611	20383	11586	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	23	1736592001.5559587	1736592009.922639	8.366680145263672	True	Pick square peg 1.	pick	square peg 1	252	8368	4717	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	24	1736592009.939269	1736592022.8560083	12.916739225387573	False	Insert square peg 1.	insert	square peg 1	388	12916	7219	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	25	1736592022.8726158	1736592041.1559155	18.283299684524536	True	Insert square peg 1.	insert	square peg 1	549	18283	10449	False	True	True
+2025-01-11-11-35-53	v4_new	train_split1.txt	no documented issue	26	1736592041.173341	1736592043.2058904	2.0325493812561035	True	No action.	no_action		61	2031	1104	False	True	False
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	0	1736849204.2297535	1736849207.096521	2.866767406463623	True	No action.	no_action		86	2866	1704	False	True	False
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	1	1736849207.1131847	1736849214.1965373	7.083352565765381	False	Pick Ethernet.	pick	Ethernet	213	7084	4073	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	2	1736849214.2136557	1736849221.379766	7.166110277175903	True	Pick Ethernet.	pick	Ethernet	215	7168	4163	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	3	1736849221.3966749	1736849237.4631364	16.06646156311035	True	Insert Ethernet.	insert	Ethernet	482	16068	9378	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	4	1736849237.4818275	1736849251.479774	13.997946500778198	True	Remove D-SUB.	remove	D-SUB	420	13999	8117	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	5	1736849251.4965718	1736849256.4631095	4.966537714004517	True	Place D-SUB.	place	D-SUB	149	4968	2893	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	6	1736849256.480002	1736849263.2797751	6.799773216247559	True	Remove USB.	remove	USB	204	6800	3901	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	7	1736849263.2966158	1736849267.0964794	3.799863576889038	True	Place USB.	place	USB	114	3799	2204	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	8	1736849267.113112	1736849285.5466266	18.43351459503174	True	Remove waterproof.	remove	waterproof	553	18435	10931	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	9	1736849285.5630736	1736849290.4797635	4.916689872741699	True	Place waterproof.	place	waterproof	147	4916	2829	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	10	1736849290.4965603	1736849307.0465796	16.55001926422119	False	Remove BNC.	remove	BNC	496	16549	9834	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	11	1736849307.0633645	1736849316.713138	9.649773597717285	True	Remove BNC.	remove	BNC	289	9650	5720	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	12	1736849316.7299728	1736849322.196541	5.466568231582642	True	Place BNC.	place	BNC	164	5467	3177	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	13	1736849322.2132318	1736849330.613064	8.399832248687744	True	Remove square peg 4.	remove	square peg 4	252	8400	4994	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	14	1736849330.6299355	1736849334.8297155	4.199779987335205	True	Place square peg 4.	place	square peg 4	126	4199	2433	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	15	1736849334.84653	1736849343.7131016	8.86657166481018	True	Remove round peg 2.	remove	round peg 2	266	8867	5221	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	16	1736849343.730249	1736849348.4297438	4.6994948387146	True	Place round peg 2.	place	round peg 2	141	4699	2743	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	17	1736849348.4472485	1736849370.3464391	21.899190664291382	True	Remove square peg 1.	remove	square peg 1	657	21900	12709	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	18	1736849370.363112	1736849375.813065	5.449953079223633	True	Place square peg 1.	place	square peg 1	163	5450	3107	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	19	1736849375.8299477	1736849388.6130643	12.783116579055786	False	Remove Ethernet.	remove	Ethernet	383	12783	7349	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	20	1736849388.629774	1736849393.0797665	4.449992418289185	False	Remove Ethernet.	remove	Ethernet	133	4450	2444	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	21	1736849393.0964456	1736849401.163146	8.066700458526611	True	Remove Ethernet.	remove	Ethernet	242	8067	4619	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	22	1736849401.1797574	1736849405.1798406	4.0000832080841064	True	Place Ethernet.	place	Ethernet	120	3999	2271	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	23	1736849405.1965296	1736849416.2631242	11.06659460067749	True	Remove square peg 2.	remove	square peg 2	332	11067	6318	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	24	1736849416.2798522	1736849422.2297912	5.949939012527466	True	Place square peg 2.	place	square peg 2	179	5950	3372	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	25	1736849422.2465706	1736849430.246492	7.9999213218688965	True	Remove round peg 1.	remove	round peg 1	240	8000	4474	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	26	1736849430.2632132	1736849434.713237	4.450023889541626	True	Place round peg 1.	place	round peg 1	133	4450	2470	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	27	1736849434.733841	1736849442.546715	7.81287407875061	True	Remove square peg 3.	remove	square peg 3	234	7814	4417	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	28	1736849442.5631194	1736849446.3465838	3.7834644317626953	True	Place square peg 3.	place	square peg 3	113	3783	2138	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	29	1736849446.3631182	1736849452.2631145	5.899996280670166	False	Remove round peg 3.	remove	round peg 3	177	5901	3387	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	30	1736849452.2805772	1736849459.0130908	6.732513666152954	True	Remove round peg 3.	remove	round peg 3	202	6732	3840	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	31	1736849459.029739	1736849463.4298046	4.400065660476685	True	Place round peg 3.	place	round peg 3	132	4399	2470	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	32	1736849463.4494767	1736849477.629734	14.180257320404053	True	Remove bolt 4.	remove	bolt 4	426	14179	8170	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	33	1736849477.6465788	1736849481.2631092	3.616530418395996	True	Place bolt 4.	place	bolt 4	109	3616	2047	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	34	1736849481.2798128	1736849493.7797458	12.499933004379272	True	Remove large gear.	remove	large gear	375	12500	7214	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	35	1736849493.7964797	1736849499.3465166	5.550036907196045	True	Place large gear.	place	large gear	166	5550	3131	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	36	1736849499.3630478	1736849507.0630682	7.7000203132629395	True	Remove medium gear.	remove	medium gear	231	7700	4359	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	37	1736849507.0798123	1736849512.2297916	5.14997935295105	True	Place medium gear.	place	medium gear	155	5150	2924	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	38	1736849512.2467625	1736849522.0466518	9.799889326095581	True	Remove round peg 4.	remove	round peg 4	294	9800	5582	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	39	1736849522.0631168	1736849527.6798017	5.616684913635254	True	Place round peg 4.	place	round peg 4	168	5618	3192	False	True	True
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	40	1736849527.6965494	1736849529.3630636	1.6665141582489014	True	No action.	no_action		50	1666	921	False	True	False
+2025-01-14-11-06-43	v4_new	train_split1.txt	no documented issue	41	1736849527.6965494	1736849529.3630636	1.6665141582489014	True	No action.	no_action		50	1666	921	False	True	False
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	0	1736764317.8071997	1736764320.4571958	2.649996042251587	True	No action.	no_action		80	2650	1545	False	True	False
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	1	1736764320.47393	1736764331.0738742	10.599944353103638	True	Pick D-SUB.	pick	D-SUB	318	10599	6180	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	2	1736764331.0904925	1736764345.290534	14.20004153251648	True	Insert D-SUB.	insert	D-SUB	426	14200	8205	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	3	1736764345.3072567	1736764352.8571825	7.549925804138184	True	Pick bolt 4.	pick	bolt 4	227	7550	4298	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	4	1736764352.8740458	1736764367.4572124	14.583166599273682	False	Insert bolt 4.	insert	bolt 4	438	14584	8264	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	5	1736764367.4738455	1736764389.773885	22.300039529800415	False	Insert bolt 4.	insert	bolt 4	669	22298	12608	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	6	1736764389.7914202	1736764395.8238738	6.032453536987305	True	Pick bolt 4.	pick	bolt 4	180	6031	3339	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	7	1736764395.8406978	1736764416.6238737	20.783175945281982	True	Insert bolt 4.	insert	bolt 4	623	20783	11433	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	8	1736764416.6416748	1736764423.423897	6.782222270965576	True	Pick medium gear.	pick	medium gear	203	6783	3799	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	9	1736764423.4406502	1736764433.207329	9.766678810119629	False	Insert medium gear.	insert	medium gear	293	9765	5506	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	10	1736764433.2238922	1736764446.6405437	13.416651487350464	True	Insert medium gear.	insert	medium gear	403	13417	7630	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	11	1736764446.657129	1736764457.9572775	11.300148487091064	True	Pick large gear.	pick	large gear	339	11300	6424	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	12	1736764457.9739227	1736764482.8405683	24.866645574569702	True	Insert large gear.	insert	large gear	746	24868	14459	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	13	1736764482.8570995	1736764489.9571483	7.100048780441284	False	Pick small gear.	pick	small gear	213	7097	4055	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	14	1736764489.9740114	1736764495.0405092	5.066497802734375	True	Pick small gear.	pick	small gear	152	5066	2871	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	15	1736764495.0571387	1736764521.3405273	26.28338861465454	True	Insert small gear.	insert	small gear	789	26284	15341	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	16	1736764521.3574345	1736764528.690717	7.333282470703125	True	Pick round peg 4.	pick	round peg 4	220	7332	4256	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	17	1736764528.7073307	1736764541.9738674	13.266536712646484	True	Insert round peg 4.	insert	round peg 4	398	13267	7711	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	18	1736764541.9907503	1736764550.657393	8.666642665863037	True	Pick square peg 1.	pick	square peg 1	259	8667	5046	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	19	1736764550.6738403	1736764571.7907438	21.11690354347229	True	Insert square peg 1.	insert	square peg 1	633	21120	12091	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	20	1736764571.8071597	1736764580.007153	8.199993371963501	True	Pick round peg 3.	pick	round peg 3	246	8203	4784	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	21	1736764580.0238657	1736764594.9071505	14.8832848072052	False	Insert round peg 3.	insert	round peg 3	447	14887	8681	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	22	1736764594.92565	1736764603.0571098	8.131459951400757	True	Insert round peg 3.	insert	round peg 3	244	8133	4671	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	23	1736764603.0738275	1736764613.3571472	10.28331971168518	True	Pick square peg 3.	pick	square peg 3	308	10283	5935	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	24	1736764613.3738737	1736764647.4238992	34.05002546310425	True	Insert square peg 3.	insert	square peg 3	1021	34050	19355	False	True	True
+2025-01-13-11-31-57	v4_new	train_split1.txt	no documented issue	25	1736764647.4405496	1736764648.9071813	1.4666316509246826	True	No action.	no_action		44	1466	802	False	True	False
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	0	1736852701.8615818	1736852703.7602143	1.898632526397705	True	No action.	no_action		57	1900	1123	False	True	False
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	1	1736852703.7767732	1736852720.2767303	16.49995708465576	True	Remove waterproof.	remove	waterproof	495	16499	9593	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	2	1736852720.2935624	1736852725.2435353	4.949972867965698	True	Place waterproof.	place	waterproof	149	4950	2809	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	3	1736852725.2600927	1736852731.7767334	6.516640663146973	True	Pick square peg 1.	pick	square peg 1	196	6516	3803	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	4	1736852731.7936954	1736852746.1937923	14.400096893310547	True	Insert square peg 1.	insert	square peg 1	432	14401	8415	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	5	1736852746.2103033	1736852754.7935848	8.583281517028809	True	Remove D-SUB.	remove	D-SUB	257	8583	4954	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	6	1736852754.8107474	1736852760.7600567	5.949309349060059	True	Place D-SUB.	place	D-SUB	178	5950	3395	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	7	1736852760.7767494	1736852767.93004	7.153290510177612	True	Remove USB.	remove	USB	215	7155	4131	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	8	1736852767.9434085	1736852773.093797	5.150388479232788	True	Place USB.	place	USB	154	5150	2996	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	9	1736852773.110111	1736852781.0767202	7.966609239578247	True	Remove Ethernet.	remove	Ethernet	239	7965	4675	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	10	1736852781.093343	1736852784.4100554	3.3167123794555664	True	Place Ethernet.	place	Ethernet	100	3316	1852	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	11	1736852784.426772	1736852800.8267322	16.399960041046143	True	Remove BNC.	remove	BNC	492	16400	9602	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	12	1736852800.843609	1736852804.243452	3.3998429775238037	True	Place BNC.	place	BNC	102	3400	1946	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	13	1736852804.2603877	1736852811.0766926	6.816304922103882	True	Remove round peg 1.	remove	round peg 1	205	6818	4011	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	14	1736852811.0936165	1736852814.8436775	3.75006103515625	True	Place round peg 1.	place	round peg 1	113	3750	2155	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	15	1736852814.8601043	1736852821.1266878	6.266583442687988	True	Remove round peg 2.	remove	round peg 2	188	6267	3682	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	16	1736852821.1434538	1736852824.67672	3.533266067504883	True	Place round peg 2.	place	round peg 2	106	3532	2048	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	17	1736852824.6938276	1736852832.6101146	7.916286945343018	True	Remove square peg 4.	remove	square peg 4	238	7916	4612	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	18	1736852832.6267602	1736852838.1601412	5.53338098526001	True	Place square peg 4.	place	square peg 4	166	5532	3233	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	19	1736852838.1768394	1736852851.2600527	13.083213329315186	True	Remove square peg 3.	remove	square peg 3	392	13083	7747	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	20	1736852851.2766926	1736852856.6434288	5.366736173629761	True	Place square peg 3.	place	square peg 3	161	5366	3145	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	21	1736852856.6600332	1736852869.1600692	12.500036001205444	True	Remove bolt 4.	remove	bolt 4	375	12501	7347	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	22	1736852869.176914	1736852873.093439	3.91652512550354	True	Place bolt 4.	place	bolt 4	117	3916	2278	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	23	1736852873.1100929	1736852885.5100234	12.399930477142334	True	Remove small gear.	remove	small gear	372	12401	7299	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	24	1736852885.5295424	1736852889.026858	3.4973156452178955	True	Place small gear.	place	small gear	105	3498	2030	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	25	1736852889.0434306	1736852897.0267055	7.983274936676025	True	Remove large gear.	remove	large gear	239	7985	4661	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	26	1736852897.043506	1736852900.7100904	3.6665844917297363	True	Place large gear.	place	large gear	110	3667	2104	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	27	1736852900.7267413	1736852908.9100752	8.18333387374878	True	Remove medium gear.	remove	medium gear	246	8184	4621	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	28	1736852908.9267445	1736852912.6933837	3.766639232635498	True	Place medium gear.	place	medium gear	113	3767	2091	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	29	1736852912.7108212	1736852920.3100746	7.599253416061401	True	Remove round peg 3.	remove	round peg 3	228	7600	4243	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	30	1736852920.3267803	1736852926.1937196	5.866939306259155	True	Place round peg 3.	place	round peg 3	176	5868	3284	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	31	1736852926.2101183	1736852935.0435832	8.833464860916138	True	Remove square peg 2.	remove	square peg 2	265	8834	4965	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	32	1736852935.0601146	1736852939.1433618	4.083247184753418	True	Place square peg 2.	place	square peg 2	123	4084	2244	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	33	1736852939.160085	1736852948.0267022	8.866617202758789	True	Remove round peg 4.	remove	round peg 4	266	8864	5021	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	34	1736852948.0433953	1736852954.3434434	6.300048112869263	True	Place round peg 4.	place	round peg 4	189	6301	3574	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	35	1736852954.360282	1736852965.876776	11.516494035720825	True	Remove square peg 1.	remove	square peg 1	346	11519	6521	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	36	1736852965.8935552	1736852972.8766906	6.983135461807251	True	Place square peg 1.	place	square peg 1	210	6983	3957	False	True	True
+2025-01-14-12-05-01	v4_new	train_split1.txt	no documented issue	37	1736852972.893759	1736852975.1435368	2.2497777938842773	True	No action.	no_action		68	2250	1233	False	True	False
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	0	1736777169.6943674	1736777171.427697	1.7333295345306396	True	No action.	no_action		52	1734	1041	False	True	False
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	1	1736777171.4443984	1736777176.3110492	4.866650819778442	True	Remove D-SUB.	remove	D-SUB	146	4864	2773	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	2	1736777176.32771	1736777180.511037	4.1833271980285645	True	Place D-SUB.	place	D-SUB	126	4181	2389	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	3	1736777180.5276663	1736777188.0944388	7.5667724609375	True	Remove round peg 1.	remove	round peg 1	227	7566	4342	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	4	1736777188.1112063	1736777191.3110268	3.1998205184936523	True	Place round peg 1.	place	round peg 1	96	3200	1796	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	5	1736777191.3278666	1736777198.8777084	7.54984188079834	True	Remove round peg 2.	remove	round peg 2	227	7550	4369	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	6	1736777198.8944438	1736777202.677884	3.783440351486206	True	Place round peg 2.	place	round peg 2	114	3784	2154	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	7	1736777202.6943877	1736777210.2111433	7.5167555809021	False	Remove square peg 4.	remove	square peg 4	226	7517	4289	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	8	1736777210.2276545	1736777216.4777038	6.250049352645874	True	Remove USB.	remove	USB	188	6249	3598	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	9	1736777216.494445	1736777220.1615627	3.6671175956726074	True	Place USB.	place	USB	110	3667	2049	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	10	1736777220.177787	1736777227.0276268	6.849839687347412	True	Remove square peg 4.	remove	square peg 4	205	6852	3966	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	11	1736777227.044354	1736777230.0776954	3.033341407775879	True	Place square peg 4.	place	square peg 4	91	3034	1710	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	12	1736777230.0943422	1736777239.310994	9.216651678085327	True	Remove waterproof.	remove	waterproof	277	9220	5297	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	13	1736777239.3277347	1736777243.961042	4.633307218551636	True	Place waterproof.	place	waterproof	139	4634	2628	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	14	1736777243.978022	1736777259.36162	15.38359785079956	True	Remove square peg 3.	remove	square peg 3	461	15384	8729	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	15	1736777259.3776798	1736777264.0445218	4.666841983795166	True	Place square peg 3.	place	square peg 3	140	4668	2548	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	16	1736777264.0610487	1736777270.577699	6.516650199890137	True	Remove round peg 3.	remove	round peg 3	196	6515	3604	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	17	1736777270.5944276	1736777274.1110122	3.516584634780884	True	Place round peg 3.	place	round peg 3	106	3516	1895	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	18	1736777274.1280017	1736777280.31101	6.183008193969727	True	Remove large gear.	remove	large gear	186	6184	3406	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	19	1736777280.3276927	1736777283.4443512	3.1166584491729736	True	Place large gear.	place	large gear	94	3117	1700	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	20	1736777283.4609988	1736777289.0110254	5.5500266551971436	True	Remove medium gear.	remove	medium gear	167	5550	3087	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	21	1736777289.027686	1736777292.4777217	3.450035572052002	True	Place medium gear.	place	medium gear	104	3450	1905	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	22	1736777292.494317	1736777298.3777697	5.883452653884888	True	Remove small gear.	remove	small gear	177	5882	3276	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	23	1736777298.3944244	1736777301.661088	3.2666635513305664	True	Place small gear.	place	small gear	98	3266	1798	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	24	1736777301.677718	1736777307.5776649	5.899946928024292	True	Remove round peg 4.	remove	round peg 4	177	5900	3290	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	25	1736777307.594801	1736777310.7943528	3.199551820755005	True	Place round peg 4.	place	round peg 4	96	3201	1774	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	26	1736777310.8110893	1736777316.661297	5.850207805633545	True	Remove square peg 1.	remove	square peg 1	175	5850	3274	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	27	1736777316.6777291	1736777320.12764	3.449910879135132	True	Place square peg 1.	place	square peg 1	103	3450	1887	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	28	1736777320.144401	1736777330.8446012	10.700200080871582	True	Remove BNC.	remove	BNC	321	10701	5985	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	29	1736777330.8616242	1736777334.5777388	3.7161145210266113	True	Place BNC.	place	BNC	112	3716	2087	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	30	1736777334.5946066	1736777342.5817163	7.987109661102295	True	Remove square peg 2.	remove	square peg 2	240	7988	4479	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	31	1736777342.5943122	1736777346.5453503	3.951038122177124	True	Place square peg 2.	place	square peg 2	119	3951	2212	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	32	1736777346.560993	1736777361.6443713	15.083378314971924	True	Remove bolt 4.	remove	bolt 4	453	15086	8538	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	33	1736777361.6610258	1736777365.4110315	3.7500057220458984	True	Place bolt 4.	place	bolt 4	113	3749	2050	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	34	1736777365.4277215	1736777375.8943253	10.466603755950928	True	Remove Ethernet.	remove	Ethernet	314	10466	5968	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	35	1736777375.9110622	1736777382.0110326	6.09997034072876	True	Place Ethernet.	place	Ethernet	183	6099	3498	False	True	True
+2025-01-13-15-06-09	v4_new	train_split1.txt	no documented issue	36	1736777382.0276935	1736777384.5610106	2.5333170890808105	True	No action.	no_action		76	2534	1407	False	True	False
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	0	1736786446.0319865	1736786449.2486308	3.216644287109375	True	No action.	no_action		97	3216	1874	False	True	False
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	1	1736786449.265376	1736786458.0153673	8.749991178512573	True	Pick USB.	pick	USB	263	8752	5066	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	2	1736786458.0319903	1736786477.6486568	19.616666555404663	True	Insert USB.	insert	USB	589	19614	11345	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	3	1736786477.6653476	1736786483.9653368	6.299989223480225	True	Pick small gear.	pick	small gear	189	6298	3590	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	4	1736786483.9820857	1736786497.915312	13.933226346969604	True	Insert small gear.	insert	small gear	418	13934	8062	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	5	1736786497.9319837	1736786503.165279	5.233295202255249	True	Pick D-SUB.	pick	D-SUB	157	5233	2962	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	6	1736786503.182026	1736786535.6653335	32.48330760002136	True	Insert D-SUB.	insert	D-SUB	974	32483	18463	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	7	1736786535.68201	1736786541.7152426	6.033232688903809	True	Pick waterproof.	pick	waterproof	181	6034	3278	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	8	1736786541.7320008	1736786546.1656168	4.4336159229278564	True	Place waterproof.	place	waterproof	133	4434	2338	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	9	1736786546.182198	1736786550.6986108	4.516412734985352	True	Pick waterproof.	pick	waterproof	135	4518	2470	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	10	1736786550.7174022	1736786566.1986454	15.481243133544922	True	Insert waterproof.	insert	waterproof	464	15482	8526	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	11	1736786566.21534	1736786573.9153194	7.699979543685913	True	Pick medium gear.	pick	medium gear	231	7699	4201	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	12	1736786573.9320068	1736786590.1154282	16.18342137336731	True	Insert medium gear.	insert	medium gear	486	16180	9090	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	13	1736786590.131912	1736786596.598668	6.466756105422974	True	Pick large gear.	pick	large gear	194	6465	3583	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	14	1736786596.6155574	1736786622.1985629	25.58300542831421	True	Insert large gear.	insert	large gear	768	25584	14391	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	15	1736786622.2159226	1736786628.0486383	5.832715749740601	True	Pick BNC.	pick	BNC	175	5832	3269	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	16	1736786628.0658543	1736786642.798601	14.732746601104736	False	Insert BNC.	insert	BNC	442	14734	8191	False	True	True
+2025-01-13-17-40-45	v4_new	train_split1.txt	no documented issue	17	1736786642.8153038	1736786644.931947	2.116643190383911	True	No action.	no_action		63	2117	1170	False	True	False
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	0	1736530305.0285585	1736530309.2786255	4.2500669956207275	True	No action.	no_action		127	4249	2481	False	True	False
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	1	1736530309.2953577	1736530317.061967	7.766609191894531	True	Pick BNC.	pick	BNC	232	7768	4422	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	2	1736530317.0786595	1736530348.228658	31.149998426437378	True	Insert BNC.	insert	BNC	935	31150	18108	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	3	1736530348.2454183	1736530358.295327	10.049908638000488	True	Pick round peg 4.	pick	round peg 4	302	10049	5771	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	4	1736530358.312021	1736530374.1815605	15.869539499282837	True	Insert round peg 4.	insert	round peg 4	476	15870	9336	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	5	1736530374.1954622	1736530382.6952736	8.49981141090393	True	Pick Ethernet.	pick	Ethernet	255	8502	4907	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	6	1736530382.712128	1736530402.2619526	19.549824714660645	True	Insert Ethernet.	insert	Ethernet	587	19551	11444	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	7	1736530402.2786782	1736530412.3119369	10.03325867652893	True	Pick D-SUB.	pick	D-SUB	301	10032	5884	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	8	1736530412.3286414	1736530441.89527	29.5666286945343	True	Insert D-SUB.	insert	D-SUB	887	29567	17318	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	9	1736530441.9119823	1736530450.6619768	8.74999451637268	True	Pick large gear.	pick	large gear	263	8748	5005	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	10	1736530450.6786213	1736530480.2292411	29.55061984062195	True	Insert large gear.	insert	large gear	887	29552	16685	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	11	1736530480.2463522	1736530489.0453863	8.799034118652344	True	Pick medium gear.	pick	medium gear	264	8800	4913	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	12	1736530489.061963	1736530492.495278	3.433314800262451	False	Insert medium gear.	insert	medium gear	103	3434	1849	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	13	1736530492.5120058	1736530501.5620654	9.05005955696106	True	Pick medium gear.	pick	medium gear	272	9051	5141	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	14	1736530501.5787466	1736530507.2785158	5.6997692584991455	True	Place medium gear.	place	medium gear	171	5700	3187	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	15	1736530507.295484	1736530514.195662	6.900177955627441	True	Pick medium gear.	pick	medium gear	207	6901	3842	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	16	1736530514.2120154	1736530531.178687	16.96667170524597	True	Insert medium gear.	insert	medium gear	509	16968	9611	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	17	1736530531.1952534	1736530538.695214	7.499960660934448	True	Pick small gear.	pick	small gear	226	7499	4206	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	18	1736530538.7119758	1736530563.995313	25.283337116241455	True	Insert small gear.	insert	small gear	759	25284	14570	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	19	1736530564.0138073	1736530571.2786212	7.2648138999938965	True	Pick waterproof.	pick	waterproof	218	7265	4109	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	20	1736530571.2952783	1736530596.1786952	24.883416891098022	True	Insert waterproof.	insert	waterproof	746	24882	14460	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	21	1736530596.1952767	1736530605.3619905	9.16671371459961	False	Pick USB.	pick	USB	275	9168	5241	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	22	1736530605.3787348	1736530611.4286587	6.049923896789551	True	Pick USB.	pick	USB	182	6051	3474	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	23	1736530611.4454231	1736530625.9952722	14.549849033355713	True	Insert USB.	insert	USB	437	14550	8458	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	24	1736530626.011942	1736530640.1619473	14.150005340576172	True	Pick bolt 4.	pick	bolt 4	425	14151	8154	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	25	1736530640.178682	1736530660.495232	20.3165500164032	False	Insert bolt 4.	insert	bolt 4	609	20317	11853	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	26	1736530660.5118828	1736530675.029569	14.517686128616333	False	Insert bolt 4.	insert	bolt 4	436	14518	8463	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	27	1736530675.045436	1736530682.2286284	7.183192491531372	True	Pick bolt 4.	pick	bolt 4	216	7182	4186	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	28	1736530682.2453585	1736530694.9785595	12.733201026916504	True	Insert bolt 4.	insert	bolt 4	382	12733	7478	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	29	1736530694.995438	1736530703.6119502	8.616512060165405	True	Pick square peg 4.	pick	square peg 4	258	8617	5008	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	30	1736530703.6287174	1736530712.3786428	8.749925374984741	True	Insert square peg 4.	insert	square peg 4	262	8749	5120	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	31	1736530712.3953507	1736530718.9286697	6.533318996429443	True	Pick square peg 3.	pick	square peg 3	196	6538	3821	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	32	1736530718.945488	1736530740.645301	21.6998131275177	True	Insert square peg 3.	insert	square peg 3	651	21700	12685	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	33	1736530740.6619506	1736530750.011957	9.350006341934204	False	Pick round peg 3.	pick	round peg 3	280	9350	5295	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	34	1736530750.028858	1736530756.8296022	6.800744295120239	True	Pick round peg 3.	pick	round peg 3	204	6801	3867	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	35	1736530756.8453517	1736530765.1119206	8.266568899154663	True	Insert round peg 3.	insert	round peg 3	248	8267	4659	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	36	1736530765.1288054	1736530773.6954248	8.566619396209717	True	Pick round peg 2.	pick	round peg 2	257	8566	4809	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	37	1736530773.7120266	1736530781.3619294	7.649902820587158	False	Insert round peg 2.	insert	round peg 2	230	7650	4220	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	38	1736530781.379361	1736530786.9621143	5.582753419876099	True	Insert round peg 2.	insert	round peg 2	168	5584	3128	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	39	1736530786.9787135	1736530795.661935	8.683221578598022	True	Pick round peg 1.	pick	round peg 1	261	8683	4912	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	40	1736530795.6788368	1736530803.6618776	7.983040809631348	True	Insert round peg 1.	insert	round peg 1	240	7984	4526	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	41	1736530803.678676	1736530815.0787516	11.400075674057007	True	Pick square peg 2.	pick	square peg 2	342	11401	6372	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	42	1736530815.0953398	1736530824.8118875	9.716547727584839	True	Insert square peg 2.	insert	square peg 2	291	9718	5491	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	43	1736530824.8285308	1736530832.945524	8.116993188858032	True	Pick square peg 1.	pick	square peg 1	243	8118	4521	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	44	1736530832.9619465	1736530852.8787746	19.916828155517578	True	Insert square peg 1.	insert	square peg 1	597	19916	11425	False	True	True
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	45	1736530852.895292	1736530855.4452724	2.549980401992798	True	No action.	no_action		76	2550	1413	False	True	False
+2025-01-10-18-31-44	v4_new	train_split1.txt	no documented issue	46	1736530852.895292	1736530855.4452724	2.549980401992798	True	No action.	no_action		76	2550	1413	False	True	False
+2025-01-13-19-04-46	v4_new	train_split1.txt	no documented issue	0	1736791487.5756657	1736791490.9590476	3.3833818435668945	True	No action.	no_action		101	3384	1986	False	True	False
+2025-01-13-19-04-46	v4_new	train_split1.txt	no documented issue	1	1736791490.9757488	1736791501.659009	10.683260202407837	True	Pick BNC.	pick	BNC	320	10684	6185	False	True	True
+2025-01-13-19-04-46	v4_new	train_split1.txt	no documented issue	2	1736791501.6756964	1736791521.0090504	19.333353996276855	False	Insert BNC.	insert	BNC	580	19336	11320	False	True	True
+2025-01-13-19-04-46	v4_new	train_split1.txt	no documented issue	3	1736791521.0257094	1736791526.5923605	5.566651105880737	True	Place BNC.	place	BNC	167	5568	3219	False	True	True
+2025-01-13-19-04-46	v4_new	train_split1.txt	no documented issue	4	1736791526.6095295	1736791531.159007	4.549477577209473	True	Pick BNC.	pick	BNC	136	4549	2611	False	True	True
+2025-01-13-19-04-46	v4_new	train_split1.txt	no documented issue	5	1736791531.1756375	1736791552.509038	21.33340048789978	False	Insert BNC.	insert	BNC	640	21333	12230	False	True	True
+2025-01-13-19-04-46	v4_new	train_split1.txt	no documented issue	6	1736791552.5260794	1736791553.0924354	0.5663559436798096	True	No action.	no_action		17	565	319	False	True	False
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	0	1736848197.996513	1736848201.463168	3.4666550159454346	True	No action.	no_action		104	3467	2054	False	True	False
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	1	1736848201.479741	1736848212.1631217	10.683380603790283	True	Remove Ethernet.	remove	Ethernet	321	10680	6307	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	2	1736848212.17986	1736848219.729691	7.549830913543701	True	Place Ethernet.	place	Ethernet	227	7552	4455	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	3	1736848219.7465122	1736848226.4964876	6.7499754428863525	True	Remove D-SUB.	remove	D-SUB	203	6751	3940	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	4	1736848226.513153	1736848231.146521	4.633368015289307	True	Place D-SUB.	place	D-SUB	139	4633	2670	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	5	1736848231.1636765	1736848240.7798443	9.616167783737183	True	Remove square peg 2.	remove	square peg 2	288	9618	5682	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	6	1736848240.7965243	1736848246.9297762	6.133251905441284	True	Place square peg 2.	place	square peg 2	184	6134	3584	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	7	1736848246.9465234	1736848258.0797975	11.13327407836914	True	Remove bolt 4.	remove	bolt 4	334	11134	6626	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	8	1736848258.096544	1736848262.6298337	4.533289670944214	True	Place bolt 4.	place	bolt 4	136	4534	2645	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	9	1736848262.646628	1736848280.0131574	17.36652946472168	True	Remove round peg 4.	remove	round peg 4	521	17368	10296	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	10	1736848280.029848	1736848285.813132	5.783283948898315	True	Place round peg 4.	place	round peg 4	173	5784	3364	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	11	1736848285.829794	1736848295.8965404	10.066746473312378	True	Remove square peg 1.	remove	square peg 1	302	10067	5930	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	12	1736848295.9131894	1736848300.42986	4.5166707038879395	True	Place square peg 1.	place	square peg 1	136	4516	2652	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	13	1736848300.446465	1736848308.4797738	8.033308744430542	True	Remove round peg 1.	remove	round peg 1	241	8033	4721	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	14	1736848308.49656	1736848312.9131775	4.416617393493652	True	Place round peg 1.	place	round peg 1	132	4416	2511	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	15	1736848312.929815	1736848321.129796	8.199980974197388	True	Remove round peg 2.	remove	round peg 2	246	8200	4793	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	16	1736848321.1465018	1736848325.696434	4.549932241439819	True	Place round peg 2.	place	round peg 2	137	4550	2636	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	17	1736848325.713179	1736848338.729852	13.016672849655151	True	Remove BNC.	remove	BNC	391	13017	7635	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	18	1736848338.746615	1736848342.829836	4.083220958709717	True	Place BNC.	place	BNC	123	4081	2375	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	19	1736848342.846563	1736848349.6976595	6.8510963916778564	True	Remove USB.	remove	USB	205	6852	3930	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	20	1736848349.713625	1736848353.7131493	3.9995243549346924	True	Place USB.	place	USB	119	4000	2221	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	21	1736848353.7298777	1736848362.6799834	8.950105667114258	True	Remove small gear.	remove	small gear	270	8951	5146	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	22	1736848362.6974068	1736848366.129774	3.4323673248291016	True	Place small gear.	place	small gear	103	3434	1919	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	23	1736848366.1466205	1736848373.0631511	6.916530609130859	True	Remove medium gear.	remove	medium gear	208	6916	3937	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	24	1736848373.079877	1736848376.596517	3.5166401863098145	True	Place medium gear.	place	medium gear	106	3516	1924	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	25	1736848376.6132078	1736848384.679814	8.066606283187866	True	Remove large gear.	remove	large gear	242	8068	4511	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	26	1736848384.6965933	1736848388.3298137	3.6332204341888428	True	Place large gear.	place	large gear	108	3633	2011	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	27	1736848388.346661	1736848402.0965054	13.749844312667847	False	Remove waterproof.	remove	waterproof	413	13750	7827	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	28	1736848402.1136494	1736848413.3632424	11.249593019485474	False	Remove waterproof.	remove	waterproof	338	11249	6282	False	True	True
+2025-01-14-10-49-57	v4_new	train_split1.txt	no documented issue	29	1736848413.3798597	1736848416.7298322	3.3499724864959717	True	No action.	no_action		100	3350	1827	False	True	False
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	0	1736526965.9735625	1736526968.8057518	2.8321893215179443	True	No action.	no_action		85	2832	1637	False	True	False
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	1	1736526968.8227065	1736526978.205804	9.383097648620605	True	Remove USB.	remove	USB	281	9384	5430	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	2	1736526978.222576	1736526983.856384	5.633808135986328	True	Place USB.	place	USB	170	5634	3153	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	3	1736526983.8725588	1736526996.60575	12.73319125175476	True	Remove waterproof.	remove	waterproof	382	12732	7403	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	4	1736526996.6225698	1736527003.5890565	6.966486692428589	True	Place waterproof.	place	waterproof	210	6969	4004	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	5	1736527003.6057024	1736527013.739073	10.133370637893677	True	Remove Ethernet.	remove	Ethernet	304	10134	5866	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	6	1736527013.757767	1736527022.9557123	9.197945356369019	True	Place Ethernet.	place	Ethernet	276	9199	5263	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	7	1736527022.972459	1736527033.339228	10.366768836975098	True	Remove D-SUB.	remove	D-SUB	311	10366	6003	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	8	1736527033.357694	1736527038.405809	5.048115015029907	True	Place D-SUB.	place	D-SUB	151	5050	2912	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	9	1736527038.4226806	1736527053.373611	14.95093035697937	True	Remove BNC.	remove	BNC	449	14951	8806	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	10	1736527053.389141	1736527059.1057787	5.71663761138916	True	Place BNC.	place	BNC	171	5716	3309	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	11	1736527059.1225083	1736527067.7226903	8.600182056427002	True	Remove round peg 1.	remove	round peg 1	258	8599	4992	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	12	1736527067.7390866	1736527072.505787	4.766700267791748	True	Place round peg 1.	place	round peg 1	143	4768	2770	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	13	1736527072.5224392	1736527079.6390662	7.116626977920532	True	Remove round peg 2.	remove	round peg 2	214	7116	4159	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	14	1736527079.655753	1736527085.3057704	5.650017499923706	True	Place round peg 2.	place	round peg 2	170	5650	3285	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	15	1736527085.3225944	1736527097.5058205	12.183226108551025	True	Remove square peg 2.	remove	square peg 2	366	12184	7119	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	16	1736527097.5227752	1736527102.9724252	5.449650049209595	True	Place square peg 2.	place	square peg 2	164	5450	3104	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	17	1736527102.9892433	1736527112.4724674	9.483224153518677	True	Remove round peg 4.	remove	round peg 4	284	9484	5592	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	18	1736527112.4897523	1736527116.8392174	4.3494651317596436	True	Place round peg 4.	place	round peg 4	130	4348	2520	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	19	1736527116.8558166	1736527141.4723966	24.61658000946045	True	Remove small gear.	remove	small gear	739	24616	14589	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	20	1736527141.489138	1736527146.5225592	5.033421277999878	True	Place small gear.	place	small gear	150	5034	2928	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	21	1736527146.539072	1736527153.6225462	7.083474159240723	True	Remove medium gear.	remove	medium gear	212	7082	4193	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	22	1736527153.6402526	1736527158.0057292	4.365476608276367	True	Place medium gear.	place	medium gear	131	4366	2537	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	23	1736527158.022499	1736527164.972469	6.949970006942749	True	Remove large gear.	remove	large gear	209	6953	4121	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	24	1736527164.9891226	1736527170.255861	5.266738414764404	True	Place large gear.	place	large gear	158	5266	3069	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	25	1736527170.2731357	1736527180.7725165	10.499380826950073	True	Remove round peg 3.	remove	round peg 3	315	10500	6181	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	26	1736527180.7890973	1736527185.0256488	4.236551523208618	True	Place round peg 3.	place	round peg 3	128	4234	2466	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	27	1736527185.039055	1736527198.6227467	13.583691596984863	True	Remove square peg 3.	remove	square peg 3	407	13585	7909	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	28	1736527198.6390855	1736527207.3226385	8.683552980422974	True	Place square peg 3.	place	square peg 3	260	8684	4897	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	29	1736527207.3391724	1736527218.605798	11.26662564277649	True	Remove square peg 4.	remove	square peg 4	338	11267	6446	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	30	1736527218.622543	1736527224.5725236	5.9499804973602295	True	Place square peg 4.	place	square peg 4	179	5948	3340	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	31	1736527224.5891345	1736527236.7557988	12.166664361953735	True	Remove square peg 1.	remove	square peg 1	365	12168	6924	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	32	1736527236.7725563	1736527242.872709	6.1001527309417725	True	Place square peg 1.	place	square peg 1	183	6099	3443	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	33	1736527242.8891025	1736527249.439086	6.549983501434326	False	Remove bolt 4.	remove	bolt 4	197	6551	3483	False	True	True
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	34	1736527249.4557269	1736527251.7223551	2.2666282653808594	True	No action.	no_action		68	2266	1281	False	True	False
+2025-01-10-17-36-05	v4_new	train_split1.txt	no documented issue	35	1736527249.4557269	1736527251.7223551	2.2666282653808594	True	No action.	no_action		68	2266	1281	False	True	False
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	0	1736789552.2794244	1736789555.4127915	3.1333670616149902	True	No action.	no_action		94	3134	1828	False	True	False
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	1	1736789555.4296277	1736789562.0295532	6.599925518035889	True	Pick BNC.	pick	BNC	198	6600	3755	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	2	1736789562.0461483	1736789581.9628325	19.9166841506958	True	Insert BNC.	insert	BNC	598	19917	11628	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	3	1736789581.9796958	1736789587.7627797	5.783083915710449	True	Pick waterproof.	pick	waterproof	174	5781	3341	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	4	1736789587.7794435	1736789591.9293952	4.149951696395874	True	Place waterproof.	place	waterproof	125	4150	2347	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	5	1736789591.946143	1736789596.4627328	4.516589879989624	True	Pick waterproof.	pick	waterproof	136	4516	2568	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	6	1736789596.4795003	1736789616.362707	19.883206605911255	True	Insert waterproof.	insert	waterproof	597	19882	11561	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	7	1736789616.3796334	1736789624.9795518	8.599918365478516	True	Pick bolt 4.	pick	bolt 4	258	8600	4993	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	8	1736789624.996318	1736789631.3628352	6.366517066955566	False	Insert bolt 4.	insert	bolt 4	191	6367	3623	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	9	1736789631.3798234	1736789637.1794386	5.799615144729614	True	Place bolt 4.	place	bolt 4	174	5800	3340	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	10	1736789637.1961205	1736789644.7794638	7.583343267440796	True	Pick Ethernet.	pick	Ethernet	227	7583	4386	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	11	1736789644.7961438	1736789660.2799056	15.48376178741455	True	Insert Ethernet.	insert	Ethernet	464	15484	8925	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	12	1736789660.2960882	1736789670.4295652	10.133476972579956	True	Pick medium gear.	pick	medium gear	304	10133	5824	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	13	1736789670.446123	1736789676.881355	6.435232162475586	False	Insert medium gear.	insert	medium gear	193	6434	3710	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	14	1736789676.8961413	1736789682.912774	6.016632795333862	True	Place medium gear.	place	medium gear	180	6018	3450	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	15	1736789682.9296324	1736789688.162773	5.233140468597412	True	Pick large gear.	pick	large gear	157	5234	2961	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	16	1736789688.1796072	1736789703.5627737	15.383166551589966	False	Insert large gear.	insert	large gear	462	15383	8769	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	17	1736789703.5796187	1736789710.3294735	6.749854803085327	True	Pick large gear.	pick	large gear	203	6750	3826	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	18	1736789710.3460732	1736789726.21275	15.866676807403564	True	Insert large gear.	insert	large gear	476	15865	8931	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	19	1736789726.2295165	1736789735.5127368	9.283220291137695	True	Pick square peg 1.	pick	square peg 1	278	9284	5200	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	20	1736789735.52954	1736789769.562758	34.033217906951904	True	Insert square peg 1.	insert	square peg 1	1021	34034	19009	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	21	1736789769.579513	1736789778.1335523	8.554039239883423	False	Pick round peg 1.	pick	round peg 1	257	8554	4739	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	22	1736789778.1460593	1736789783.9295924	5.783533096313477	True	Pick round peg 1.	pick	round peg 1	174	5783	3224	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	23	1736789783.94612	1736789792.4296474	8.483527421951294	True	Insert round peg 1.	insert	round peg 1	255	8484	4830	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	24	1736789792.4460938	1736789797.09608	4.649986267089844	True	Pick round peg 2.	pick	round peg 2	140	4650	2627	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	25	1736789797.112735	1736789809.6128073	12.500072240829468	False	Insert round peg 2.	insert	round peg 2	375	12500	7103	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	26	1736789809.6296887	1736789812.829609	3.199920177459717	True	Insert round peg 2.	insert	round peg 2	96	3200	1774	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	27	1736789812.8460715	1736789821.4460723	8.600000858306885	True	Pick square peg 3.	pick	square peg 3	258	8602	4869	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	28	1736789821.4631026	1736789849.179456	27.71635341644287	True	Insert square peg 3.	insert	square peg 3	831	27715	15833	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	29	1736789849.1960964	1736789857.1793382	7.98324179649353	True	Pick square peg 2.	pick	square peg 2	239	7984	4534	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	30	1736789857.1961162	1736789865.7627363	8.566620111465454	True	Insert square peg 2.	insert	square peg 2	257	8568	4858	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	31	1736789865.7794416	1736789875.2627168	9.483275175094604	True	Pick square peg 4.	pick	square peg 4	285	9484	5389	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	32	1736789875.2794335	1736789886.612764	11.333330392837524	True	Insert square peg 4.	insert	square peg 4	340	11334	6443	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	33	1736789886.629501	1736789895.89608	9.266578912734985	True	Pick USB.	pick	USB	278	9268	5279	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	34	1736789895.9127538	1736789912.6963153	16.78356146812439	True	Insert USB.	insert	USB	504	16784	9678	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	35	1736789912.7127898	1736789920.5294342	7.8166444301605225	True	Pick D-SUB.	pick	D-SUB	235	7819	4455	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	36	1736789920.5460403	1736789945.8960917	25.350051403045654	True	Insert D-SUB.	insert	D-SUB	761	25351	14843	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	37	1736789945.9127414	1736789953.2293756	7.316634178161621	True	Pick round peg 4.	pick	round peg 4	220	7319	4212	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	38	1736789953.2460809	1736789965.1127462	11.866665363311768	False	Insert round peg 4.	insert	round peg 4	356	11868	6819	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	39	1736789965.1296108	1736789972.2960248	7.166414022445679	True	Insert round peg 4.	insert	round peg 4	215	7165	3994	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	40	1736789972.3127742	1736789979.246035	6.933260917663574	True	Pick round peg 3.	pick	round peg 3	208	6931	3802	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	41	1736789979.2627833	1736789992.679448	13.416664600372314	True	Insert round peg 3.	insert	round peg 3	402	13414	7417	False	True	True
+2025-01-13-18-32-31	v4_new	train_split1.txt	no documented issue	42	1736789992.6961415	1736789994.4127254	1.7165839672088623	True	No action.	no_action		51	1717	932	False	True	False
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	0	1736848634.696483	1736848636.6797442	1.9832613468170166	True	No action.	no_action		60	1983	1197	False	True	False
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	1	1736848636.6966128	1736848645.2631755	8.56656265258789	True	Pick BNC.	pick	BNC	257	8566	5110	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	2	1736848645.2815754	1736848672.16315	26.881574630737305	True	Insert BNC.	insert	BNC	806	26881	15693	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	3	1736848672.1797917	1736848680.0964797	7.916687965393066	True	Pick D-SUB.	pick	D-SUB	237	7917	4633	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	4	1736848680.113117	1736848687.4130852	7.299968242645264	True	Place D-SUB.	place	D-SUB	219	7299	4314	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	5	1736848687.4297917	1736848695.2299058	7.800114154815674	True	Pick D-SUB.	pick	D-SUB	234	7801	4545	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	6	1736848695.2467418	1736848729.2299826	33.983240842819214	True	Insert D-SUB.	insert	D-SUB	1019	33982	20195	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	7	1736848729.2464972	1736848737.0631816	7.8166844844818115	True	Pick USB.	pick	USB	234	7815	4380	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	8	1736848737.081378	1736848756.729772	19.648394107818604	True	Insert USB.	insert	USB	589	19647	11211	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	9	1736848756.746678	1736848764.7298596	7.983181476593018	True	Pick waterproof.	pick	waterproof	240	7984	4561	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	10	1736848764.746579	1736848798.696529	33.949949979782104	True	Insert waterproof.	insert	waterproof	1018	33951	19641	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	11	1736848798.7131512	1736848809.713452	11.000300884246826	True	Pick bolt 4.	pick	bolt 4	330	11001	6288	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	12	1736848809.7297554	1736848832.4464402	22.716684818267822	False	Insert bolt 4.	insert	bolt 4	682	22719	13128	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	13	1736848832.4631093	1736848849.3966174	16.933508157730103	False	Insert bolt 4.	insert	bolt 4	508	16932	9749	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	14	1736848849.413144	1736848857.9965763	8.5834321975708	True	Place bolt 4.	place	bolt 4	257	8584	4940	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	15	1736848858.0131478	1736848865.213101	7.199953079223633	True	Pick bolt 4.	pick	bolt 4	216	7199	4086	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	16	1736848865.230102	1736848882.813092	17.582989931106567	False	Insert bolt 4.	insert	bolt 4	528	17581	10226	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	17	1736848882.8336525	1736848898.3134704	15.479817867279053	True	Insert bolt 4.	insert	bolt 4	465	15483	9066	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	18	1736848898.330007	1736848910.1465826	11.816575527191162	False	Pick large gear.	pick	large gear	355	11816	6860	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	19	1736848910.1632235	1736848916.546578	6.383354425430298	True	Pick large gear.	pick	large gear	192	6382	3720	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	20	1736848916.5631409	1736848938.5964482	22.033307313919067	True	Insert large gear.	insert	large gear	661	22032	12975	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	21	1736848938.613248	1736848947.496513	8.883264780044556	True	Pick medium gear.	pick	medium gear	266	8882	5176	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	22	1736848947.5133955	1736848966.1965497	18.683154106140137	True	Insert medium gear.	insert	medium gear	560	18686	10970	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	23	1736848966.213168	1736848976.5130727	10.299904823303223	True	Pick square peg 4.	pick	square peg 4	309	10300	6037	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	24	1736848976.529977	1736848986.1632147	9.633237600326538	False	Insert square peg 4.	insert	square peg 4	289	9634	5679	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	25	1736848986.1797526	1736848991.0300894	4.850336790084839	True	Insert square peg 4.	insert	square peg 4	145	4849	2778	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	26	1736848991.046542	1736848998.7964876	7.749945640563965	True	Pick square peg 3.	pick	square peg 3	232	7751	4594	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	27	1736848998.813709	1736849015.363239	16.549530029296875	True	Insert square peg 3.	insert	square peg 3	496	16551	9825	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	28	1736849015.37983	1736849023.7631042	8.38327431678772	True	Pick square peg 2.	pick	square peg 2	252	8382	4931	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	29	1736849023.7798266	1736849041.046547	17.266720294952393	True	Insert square peg 2.	insert	square peg 2	518	17266	10155	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	30	1736849041.0631566	1736849049.2630754	8.199918746948242	True	Pick square peg 1.	pick	square peg 1	246	8200	4781	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	31	1736849049.2798133	1736849087.8466685	38.56685519218445	True	Insert square peg 1.	insert	square peg 1	1158	38569	22343	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	32	1736849087.8631055	1736849095.4966593	7.633553743362427	True	Pick round peg 4.	pick	round peg 4	229	7632	4252	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	33	1736849095.513171	1736849109.0466533	13.533482313156128	True	Insert round peg 4.	insert	round peg 4	406	13533	7729	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	34	1736849109.0631418	1736849118.7297814	9.666639566421509	True	Pick round peg 2.	pick	round peg 2	290	9667	5527	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	35	1736849118.7467792	1736849129.0464392	10.299659967422485	True	Insert round peg 2.	insert	round peg 2	308	10299	5883	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	36	1736849129.0632076	1736849138.213128	9.149920463562012	True	Pick round peg 3.	pick	round peg 3	274	9150	5281	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	37	1736849138.2298124	1736849151.0130768	12.783264398574829	True	Insert round peg 3.	insert	round peg 3	384	12784	7387	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	38	1736849151.029794	1736849160.2297196	9.199925661087036	True	Pick round peg 1.	pick	round peg 1	276	9201	5303	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	39	1736849160.2469308	1736849172.4131234	12.166192531585693	True	Insert round peg 1.	insert	round peg 1	364	12166	6939	False	True	True
+2025-01-14-10-57-14	v4_new	train_split1.txt	no documented issue	40	1736849172.4298365	1736849175.4297817	2.9999451637268066	True	No action.	no_action		90	2999	1687	False	True	False
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	0	1736784130.8450987	1736784133.2117896	2.3666908740997314	True	No action.	no_action		71	2366	1371	False	True	False
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	1	1736784133.2284136	1736784140.0951326	6.866719007492065	True	Pick small gear.	pick	small gear	206	6868	4019	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	2	1736784140.1117806	1736784154.5283823	14.416601657867432	True	Insert small gear.	insert	small gear	432	14416	8454	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	3	1736784154.5450468	1736784161.295195	6.750148296356201	True	Pick square peg 4.	pick	square peg 4	202	6749	3895	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	4	1736784161.3118424	1736784175.645077	14.333234548568726	True	Insert square peg 4.	insert	square peg 4	430	14335	8363	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	5	1736784175.6618185	1736784182.028604	6.366785526275635	True	Pick round peg 4.	pick	round peg 4	191	6368	3678	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	6	1736784182.0451684	1736784191.411627	9.366458654403687	True	Insert round peg 4.	insert	round peg 4	281	9366	5317	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	7	1736784191.428355	1736784200.961775	9.533420085906982	True	Pick Ethernet.	pick	Ethernet	286	9531	5496	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	8	1736784200.9814174	1736784218.9784808	17.997063398361206	False	Insert Ethernet.	insert	Ethernet	540	17998	10447	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	9	1736784218.9949715	1736784231.445031	12.450059413909912	True	Insert Ethernet.	insert	Ethernet	374	12450	7120	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	10	1736784231.4618552	1736784237.9784012	6.516546010971069	True	Pick round peg 3.	pick	round peg 3	196	6517	3665	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	11	1736784237.995149	1736784247.428439	9.433290004730225	True	Insert round peg 3.	insert	round peg 3	283	9434	5029	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	12	1736784247.444987	1736784253.878524	6.433537006378174	True	Pick square peg 3.	pick	square peg 3	193	6433	3549	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	13	1736784253.8950408	1736784263.445007	9.54996633529663	True	Insert square peg 3.	insert	square peg 3	287	9550	5298	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	14	1736784263.4617133	1736784269.2950928	5.833379507064819	True	Pick square peg 2.	pick	square peg 2	175	5833	3164	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	15	1736784269.311774	1736784281.7618024	12.450028419494629	True	Insert square peg 2.	insert	square peg 2	373	12451	6881	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	16	1736784281.7784407	1736784287.4450707	5.666630029678345	True	Pick round peg 2.	pick	round peg 2	169	5667	3142	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	17	1736784287.46183	1736784295.3284092	7.866579294204712	True	Insert round peg 2.	insert	round peg 2	236	7866	4399	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	18	1736784295.345233	1736784300.5450928	5.199859857559204	True	Pick round peg 1.	pick	round peg 1	156	5200	2887	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	19	1736784300.5618336	1736784307.1786375	6.616803884506226	True	Insert round peg 1.	insert	round peg 1	199	6616	3670	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	20	1736784307.1951585	1736784314.9450138	7.749855279922485	True	Pick square peg 1.	pick	square peg 1	233	7750	4367	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	21	1736784314.9617856	1736784329.145122	14.18333649635315	True	Insert square peg 1.	insert	square peg 1	426	14183	7942	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	22	1736784329.1617591	1736784338.0117104	8.849951267242432	True	Pick bolt 4.	pick	bolt 4	266	8850	4953	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	23	1736784338.0283933	1736784341.2950945	3.2667012214660645	True	Place bolt 4.	place	bolt 4	98	3269	1815	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	24	1736784341.3117514	1736784346.245159	4.933407545089722	True	Pick bolt 4.	pick	bolt 4	148	4934	2751	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	25	1736784346.2617488	1736784365.9950695	19.733320713043213	True	Insert bolt 4.	insert	bolt 4	592	19733	11118	False	True	True
+2025-01-13-17-02-10	v4_new	test_split1.txt	no documented issue	26	1736784366.0120451	1736784367.9784443	1.9663991928100586	True	No action.	no_action		58	1968	1068	False	True	False
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	0	1736523465.9741335	1736523469.5216646	3.5475311279296875	True	No action.	no_action		107	3547	2106	False	True	False
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	1	1736523469.5385754	1736523479.1045108	9.565935373306274	True	Pick Ethernet.	pick	Ethernet	287	9565	5675	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	2	1736523479.1219287	1736523492.1545985	13.03266978263855	True	Insert Ethernet.	insert	Ethernet	391	13034	7705	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	3	1736523492.1713085	1736523499.5048015	7.333492994308472	True	Pick USB.	pick	USB	220	7335	4272	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	4	1736523499.521449	1736523527.6879957	28.16654658317566	True	Insert USB.	insert	USB	845	28169	16505	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	5	1736523527.704659	1736523539.9379663	12.233307361602783	True	Pick bolt 4.	pick	bolt 4	367	12233	7035	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	6	1736523539.9547007	1736523558.0379517	18.083250999450684	True	Insert bolt 4.	insert	bolt 4	542	18084	10328	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	7	1736523558.054618	1736523567.487923	9.433305025100708	True	Pick BNC.	pick	BNC	284	9434	5405	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	8	1736523567.5047083	1736523588.4879098	20.983201503753662	True	Insert BNC.	insert	BNC	630	20984	12140	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	9	1736523588.504661	1736523598.1213307	9.616669654846191	True	Pick square peg 4.	pick	square peg 4	288	9617	5493	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	10	1736523598.1379726	1736523621.7879477	23.649975061416626	True	Insert square peg 4.	insert	square peg 4	710	23649	13796	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	11	1736523621.804896	1736523638.187945	16.38304877281189	True	Pick square peg 3.	pick	square peg 3	492	16383	9476	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	12	1736523638.204805	1736523667.504544	29.299739122390747	True	Insert square peg 3.	insert	square peg 3	879	29298	17167	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	13	1736523667.5213385	1736523679.42177	11.900431632995605	True	Pick square peg 2.	pick	square peg 2	357	11903	6944	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	14	1736523679.4379723	1736523696.5546415	17.116669178009033	True	Insert square peg 2.	insert	square peg 2	513	17118	10050	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	15	1736523696.5712836	1736523705.9712822	9.399998664855957	True	Pick square peg 1.	pick	square peg 1	282	9400	5539	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	16	1736523705.9881494	1736523722.7712777	16.783128261566162	False	Insert square peg 1.	insert	square peg 1	504	16783	9877	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	17	1736523722.7879558	1736523732.2045832	9.416627407073975	True	Insert square peg 1.	insert	square peg 1	283	9415	5488	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	18	1736523732.2217824	1736523743.1712568	10.949474334716797	True	Pick large gear.	pick	large gear	329	10953	6408	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	19	1736523743.1879306	1736523765.041556	21.853625297546387	True	Insert large gear.	insert	large gear	656	21853	12830	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	20	1736523765.0575843	1736523772.4879756	7.430391311645508	True	Pick medium gear.	pick	medium gear	223	7431	4373	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	21	1736523772.5046916	1736523804.0879092	31.58321762084961	True	Insert medium gear.	insert	medium gear	947	31581	18723	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	22	1736523804.104694	1736523811.2045722	7.099878311157227	True	Pick small gear.	pick	small gear	213	7100	4066	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	23	1736523811.22128	1736523847.354602	36.13332200050354	True	Insert small gear.	insert	small gear	1084	36135	21442	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	24	1736523847.371317	1736523854.0047166	6.633399724960327	True	Pick D-SUB.	pick	D-SUB	199	6635	3810	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	25	1736523854.0212862	1736523879.4211853	25.399899005889893	True	Insert D-SUB.	insert	D-SUB	762	25402	15116	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	26	1736523879.4379487	1736523888.4546807	9.016731977462769	True	Pick waterproof.	pick	waterproof	270	9018	5244	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	27	1736523888.4737742	1736523913.8878832	25.414108991622925	True	Insert waterproof.	insert	waterproof	762	25414	15091	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	28	1736523913.904661	1736523923.5878575	9.683196544647217	True	Pick round peg 4.	pick	round peg 4	290	9684	5684	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	29	1736523923.604596	1736523933.4545655	9.849969625473022	True	Insert round peg 4.	insert	round peg 4	295	9850	5746	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	30	1736523933.4712791	1736523942.9545834	9.483304262161255	True	Pick round peg 3.	pick	round peg 3	284	9483	5448	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	31	1736523942.9713843	1736523961.2712495	18.299865245819092	True	Insert round peg 3.	insert	round peg 3	549	18300	10444	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	32	1736523961.2880294	1736523970.6548812	9.366851806640625	True	Pick round peg 2.	pick	round peg 2	281	9368	5311	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	33	1736523970.6712563	1736523981.671224	10.999967813491821	True	Insert round peg 2.	insert	round peg 2	330	10999	6267	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	34	1736523981.687891	1736523988.137917	6.450026035308838	True	Pick round peg 1.	pick	round peg 1	194	6450	3682	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	35	1736523988.1545746	1736523998.9045727	10.749998092651367	True	Insert round peg 1.	insert	round peg 1	323	10750	6082	False	True	True
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	36	1736523998.9218864	1736524000.721241	1.7993545532226562	True	No action.	no_action		54	1801	961	False	True	False
+2025-01-10-16-37-45	v4_new	test_split1.txt	no documented issue	37	1736523998.9218864	1736524000.721241	1.7993545532226562	True	No action.	no_action		54	1801	961	False	True	False
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	0	1736519674.1295264	1736519677.4946585	3.3651320934295654	True	No action.	no_action		101	3367	1965	False	True	False
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	1	1736519677.5112536	1736519683.394679	5.88342547416687	True	Pick D-SUB.	pick	D-SUB	176	5884	3395	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	2	1736519683.411324	1736519694.277918	10.866594076156616	True	Insert D-SUB.	insert	D-SUB	326	10870	6200	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	3	1736519694.2946577	1736519703.827973	9.533315181732178	True	Pick square peg 3.	pick	square peg 3	286	9534	5406	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	4	1736519703.8449144	1736519717.827933	13.983018636703491	True	Insert square peg 3.	insert	square peg 3	419	13984	8123	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	5	1736519717.8449051	1736519728.411326	10.566420793533325	True	Pick round peg 1.	pick	round peg 1	317	10566	6126	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	6	1736519728.4279385	1736519746.7445858	18.31664729118347	False	Insert round peg 1.	insert	round peg 1	550	18318	10647	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	7	1736519746.761466	1736519754.111291	7.349824905395508	True	Insert round peg 1.	insert	round peg 1	221	7350	4301	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	8	1736519754.1279814	1736519763.728004	9.600022554397583	True	Pick round peg 2.	pick	round peg 2	288	9598	5554	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	9	1736519763.744651	1736519776.1778667	12.433215618133545	True	Insert round peg 2.	insert	round peg 2	373	12433	7243	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	10	1736519776.1946385	1736519785.19461	8.999971628189087	True	Pick waterproof.	pick	waterproof	270	8999	5260	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	11	1736519785.2112963	1736519807.5779262	22.36662983894348	True	Insert waterproof.	insert	waterproof	671	22365	13181	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	12	1736519807.5946207	1736519817.211238	9.616617202758789	True	Pick square peg 2.	pick	square peg 2	289	9616	5635	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	13	1736519817.22802	1736519830.7112389	13.483218908309937	True	Insert square peg 2.	insert	square peg 2	405	13481	7897	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	14	1736519830.7279246	1736519840.9278977	10.199973106384277	True	Pick bolt 4.	pick	bolt 4	306	10200	6061	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	15	1736519840.9448571	1736519859.1614616	18.216604471206665	True	Insert bolt 4.	insert	bolt 4	546	18218	10856	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	16	1736519859.1780925	1736519868.4779367	9.29984426498413	True	Pick square peg 1.	pick	square peg 1	278	9300	5381	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	17	1736519868.494725	1736519895.9779878	27.48326277732849	False	Insert square peg 1.	insert	square peg 1	826	27484	15814	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	18	1736519895.9946198	1736519901.7279365	5.733316659927368	True	Insert square peg 1.	insert	square peg 1	172	5731	3282	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	19	1736519901.7457104	1736519911.6613748	9.915664434432983	False	Pick round peg 3.	pick	round peg 3	297	9915	5657	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	20	1736519911.677983	1736519916.4446323	4.76664924621582	True	Place round peg 3.	place	round peg 3	143	4768	2723	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	21	1736519916.4616609	1736519923.161288	6.699627161026001	False	Pick round peg 3.	pick	round peg 3	201	6700	3808	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	22	1736519923.1782002	1736519929.1779263	5.999726057052612	False	Pick round peg 3.	pick	round peg 3	180	5998	3445	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	23	1736519929.194641	1736519936.761627	7.566985845565796	True	Pick round peg 4.	pick	round peg 4	227	7565	4350	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	24	1736519936.777924	1736519948.4613624	11.683438301086426	True	Insert round peg 4.	insert	round peg 4	350	11682	6841	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	25	1736519948.4778738	1736519956.311292	7.833418130874634	True	Pick round peg 3.	pick	round peg 3	234	7832	4545	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	26	1736519956.3280454	1736519967.2112951	10.883249759674072	True	Insert round peg 3.	insert	round peg 3	326	10881	6389	False	True	True
+2025-01-10-15-34-33	v4_new	test_split1.txt	no documented issue	27	1736519967.229528	1736519969.07791	1.8483819961547852	True	No action.	no_action		56	1848	1022	False	True	False
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	0	1736439300.519033	1736439304.1356905	3.6166574954986572	True	No action.	no_action		108	3618	2088	False	True	False
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	1	1736439304.152355	1736439316.7189488	12.566593885421753	True	Remove medium gear.	remove	medium gear	377	12566	7269	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	2	1736439316.735715	1736439321.2024117	4.466696739196777	True	Place medium gear.	place	medium gear	134	4466	2549	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	3	1736439321.2191515	1736439321.4542708	0.23511934280395508	True	No action.	no_action		7	232	136	False	True	False
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	4	1736439321.4690728	1736439328.1693528	6.700279951095581	True	Remove small gear.	remove	small gear	201	6698	3755	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	5	1736439328.185626	1736439332.1856697	4.000043630599976	True	Place small gear.	place	small gear	120	4000	2307	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	6	1736439332.202462	1736439338.8856344	6.6831724643707275	True	Remove large gear.	remove	large gear	201	6684	3847	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	7	1736439338.9023488	1736439343.2690458	4.366697072982788	True	Place large gear.	place	large gear	131	4368	2476	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	8	1736439343.2857382	1736439351.3689663	8.08322811126709	True	Remove D-SUB.	remove	D-SUB	242	8084	4672	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	9	1736439351.3856983	1736439356.2857275	4.900029182434082	True	Place D-SUB.	place	D-SUB	147	4900	2831	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	10	1736439356.3024802	1736439370.3022945	13.99981427192688	True	Remove bolt 4.	remove	bolt 4	420	13999	8180	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	11	1736439370.319013	1736439374.9522865	4.633273363113403	True	Place bolt 4.	place	bolt 4	139	4633	2660	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	12	1736439374.96903	1736439385.43569	10.466660022735596	True	Remove round peg 4.	remove	round peg 4	314	10466	6140	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	13	1736439385.452744	1736439390.968963	5.516218900680542	True	Place round peg 4.	place	round peg 4	165	5516	3176	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	14	1736439390.985831	1736439402.0189636	11.033132553100586	True	Remove round peg 3.	remove	round peg 3	331	11034	6485	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	15	1736439402.0356212	1736439407.4522212	5.416599988937378	True	Place round peg 3.	place	round peg 3	163	5418	3128	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	16	1736439407.468983	1736439419.402299	11.933315992355347	False	Remove waterproof.	remove	waterproof	358	11932	7050	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	17	1736439419.4189668	1736439427.88575	8.466783285140991	True	Remove waterproof.	remove	waterproof	254	8467	4942	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	18	1736439427.9023442	1736439433.6194508	5.717106580734253	True	Place waterproof.	place	waterproof	172	5716	3315	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	19	1736439433.6357956	1736439443.4856849	9.849889278411865	False	Remove square peg 3.	remove	square peg 3	296	9850	5767	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	20	1736439443.5023274	1736439453.1690242	9.666696786880493	True	Remove USB.	remove	USB	290	9666	5626	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	21	1736439453.1857705	1736439458.6690426	5.483272075653076	True	Place USB.	place	USB	164	5482	3206	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	22	1736439458.6856732	1736439470.7691054	12.0834321975708	True	Remove square peg 3.	remove	square peg 3	362	12085	6902	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	23	1736439470.7860484	1736439478.618965	7.832916498184204	True	Place square peg 3.	place	square peg 3	235	7834	4415	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	24	1736439478.6358252	1736439493.6025496	14.966724395751953	True	Remove Ethernet.	remove	Ethernet	449	14966	8443	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	25	1736439493.6189134	1736439502.735721	9.116807699203491	True	Place Ethernet.	place	Ethernet	273	9116	5118	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	26	1736439502.7523167	1736439514.768933	12.016616344451904	True	Remove square peg 2.	remove	square peg 2	361	12020	6744	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	27	1736439514.7860372	1736439523.3022864	8.516249179840088	True	Place square peg 2.	place	square peg 2	255	8519	4743	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	28	1736439523.3189886	1736439534.4690251	11.150036573410034	True	Remove square peg 1.	remove	square peg 1	334	11151	6325	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	29	1736439534.4858649	1736439542.7022762	8.216411352157593	True	Place square peg 1.	place	square peg 1	246	8217	4705	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	30	1736439542.719053	1736439554.9857416	12.266688585281372	True	Remove round peg 1.	remove	round peg 1	368	12266	6966	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	31	1736439555.0023513	1736439562.5189729	7.5166215896606445	False	Place round peg 1.	place	round peg 1	226	7516	4250	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	32	1736439562.5357473	1736439566.068966	3.5332186222076416	True	Place round peg 1.	place	round peg 1	106	3533	1966	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	33	1736439566.0856633	1736439577.8356264	11.74996304512024	True	Remove round peg 2.	remove	round peg 2	352	11752	6647	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	34	1736439577.8523622	1736439585.502287	7.6499247550964355	True	Place round peg 2.	place	round peg 2	229	7651	4301	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	35	1736439585.519088	1736439605.319064	19.799975872039795	True	Remove BNC.	remove	BNC	594	19802	11470	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	36	1736439605.3356595	1736439613.9190176	8.5833580493927	True	Place BNC.	place	BNC	258	8583	5019	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	37	1736439613.935614	1736439627.952347	14.016732931137085	True	Remove square peg 4.	remove	square peg 4	421	14017	8172	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	38	1736439627.969139	1736439638.7856636	10.816524505615234	True	Place square peg 4.	place	square peg 4	325	10819	6271	False	True	True
+2025-01-09-17-14-59	v4_new	test_split1.txt	no documented issue	39	1736439638.802757	1736439641.8689864	3.0662293434143066	True	No action.	no_action		92	3066	1737	False	True	False

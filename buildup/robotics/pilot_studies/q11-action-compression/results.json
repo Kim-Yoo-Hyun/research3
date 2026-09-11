@@ -1,0 +1,42 @@
+{
+  "decision": "READY_FOR_CONTROLLED_PILOT",
+  "image_id": "sha256:a60ff16758acf641b033c6d60cada1857b74757b96105e94545e6440671a640f",
+  "seed_attempts": 8,
+  "generation_steps": 859,
+  "replays": 16,
+  "usable_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "independent_labels_checked": 10404,
+  "codec_chunks_checked": 92,
+  "workload_seconds": 86.9184103012085,
+  "output_files_hash_verified": 96,
+  "normalizations": {
+    "joint_limits": {
+      "chunks": 46,
+      "clamped_coefficients": 0,
+      "outside_normalized_range_values": 0,
+      "max_identity_error": 1.1102230246251565e-16,
+      "max_dct_identity_error": 6.661338147750939e-16,
+      "max_official_quantization_error": 0.0,
+      "total_tokens": 963
+    },
+    "calibration_quantiles": {
+      "chunks": 46,
+      "clamped_coefficients": 0,
+      "outside_normalized_range_values": 682,
+      "max_identity_error": 2.220446049250313e-16,
+      "max_dct_identity_error": 1.7763568394002505e-15,
+      "max_official_quantization_error": 0.0,
+      "total_tokens": 1285
+    }
+  },
+  "raw_output_manifest_sha256": "6f1a385a13e328df54b49358bdca8ffbfe890091962665c7e1660b89d6dd619d"
+}

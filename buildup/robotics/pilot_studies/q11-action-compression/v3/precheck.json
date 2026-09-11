@@ -1,0 +1,429 @@
+{
+  "status": "PASS",
+  "support": {
+    "decision": "READY_FOR_INTERVENTION",
+    "originals": 8,
+    "available": {
+      "fast_joint_gripper": 8,
+      "fast_quantile_gripper": 8,
+      "linear_gripper": 8
+    },
+    "eligible_events": {
+      "grasp": 5,
+      "release": 3
+    },
+    "metrics": {
+      "fast_joint_gripper": {
+        "episodes": 8,
+        "bytes_per_chunk": 36.104166666666664,
+        "arm_mse": 0.00010309468148203205
+      },
+      "fast_quantile_gripper": {
+        "episodes": 8,
+        "bytes_per_chunk": 43.541666666666664,
+        "arm_mse": 8.70831898015499e-06
+      },
+      "linear_gripper": {
+        "episodes": 8,
+        "bytes_per_chunk": 38.333333333333336,
+        "arm_mse": 8.588145073766917e-05
+      }
+    },
+    "joint_linear_rate_overlap": true,
+    "joint_linear_mse_overlap": true,
+    "minimum_originals": 8,
+    "minimum_pairs_each_event": 2,
+    "success_outcomes_used": false,
+    "subgroup_selection": false
+  },
+  "source_sha256": "0f09443b0a32f4078b0fd70b5c0a42b2f9f871e5efba2ca7f7ed0a9fdbc0910c",
+  "protocol_sha256": "47c7fc7c843b1ec69f72d49b7615985de5d1535d8bc185e4f9e005ad58a3dad6",
+  "calibration_input_sha256": {
+    "1000": "ae09a76789a465aa5ba1ca1c097846843be68618a8cd469979026b09724aed7a",
+    "1001": "8d7c2150279a323fe6a6ec7cc318c462b6de32f2fe3291f34338b3c541e39a43",
+    "1002": "dcc2ea400eb568f578374fbcb73c7168bb5dee25a8a84cdd89ee353a9bd44929",
+    "1003": "d84d525bfad9ce9f768dbd03352969293fc8d8cf078dfd8f9f0b3a8968147435",
+    "1004": "268ccd426f5ea6992342fcd81bd136e4ffd1e4557791aa2c7c7109f421381d35",
+    "1005": "8afd997942b255ea5f78c25a3a2d47518fa42fe37c005111d06fe9d532d084f8",
+    "1006": "13ca8e5f5ec6a406ab6251a0a65d4c0344aee8e5fdd9b788d74ff5948bed77a0",
+    "1007": "968abec60afcdd6eb37bdf67ca2b9c1e0b9a7fb814f4db676b172b57a31e5951"
+  },
+  "codec_chunks": 144,
+  "independent_decode_max_abs": 0.0,
+  "equal_residual_pairs": [
+    {
+      "seed": 1000,
+      "event": "grasp",
+      "event_mse": 3.689972890154933e-06,
+      "free_mse": 3.68997289015493e-06
+    },
+    {
+      "seed": 1002,
+      "event": "release",
+      "event_mse": 1.7025833581537377e-06,
+      "free_mse": 1.7025833581537371e-06
+    },
+    {
+      "seed": 1003,
+      "event": "grasp",
+      "event_mse": 2.782178089758087e-06,
+      "free_mse": 2.7821780897580876e-06
+    },
+    {
+      "seed": 1003,
+      "event": "release",
+      "event_mse": 2.6796551305173737e-06,
+      "free_mse": 2.679655130517374e-06
+    },
+    {
+      "seed": 1005,
+      "event": "grasp",
+      "event_mse": 2.852859950521004e-06,
+      "free_mse": 2.8528599505210036e-06
+    },
+    {
+      "seed": 1006,
+      "event": "grasp",
+      "event_mse": 3.800284503777307e-06,
+      "free_mse": 3.8002845037773074e-06
+    },
+    {
+      "seed": 1007,
+      "event": "grasp",
+      "event_mse": 4.19891497820452e-06,
+      "free_mse": 4.198914978204521e-06
+    },
+    {
+      "seed": 1007,
+      "event": "release",
+      "event_mse": 2.9565042884069962e-06,
+      "free_mse": 2.9565042884069962e-06
+    }
+  ],
+  "rows": [
+    {
+      "seed": 1000,
+      "steps": 108,
+      "methods": {
+        "fast_joint_gripper": {
+          "status": "planned",
+          "bytes": 198,
+          "chunks": 6,
+          "arm_mse": 9.224613115093745e-05
+        },
+        "fast_quantile_gripper": {
+          "status": "planned",
+          "bytes": 229,
+          "chunks": 6,
+          "arm_mse": 7.388542601462572e-06
+        },
+        "linear_gripper": {
+          "status": "planned",
+          "bytes": 214,
+          "chunks": 6,
+          "arm_mse": 9.27425807667918e-05
+        }
+      },
+      "events": {
+        "grasp": {
+          "event_state_index": 54,
+          "status": "eligible",
+          "event_action_start": 51,
+          "free_action_start": 35,
+          "length": 5,
+          "event_speed": 0.00123064891915776,
+          "free_speed": 0.0012887993513371276,
+          "normalized_arm_mse": 3.689972890154933e-06
+        },
+        "release": {
+          "event_state_index": 103,
+          "status": "no_speed_matched_noncontact"
+        }
+      }
+    },
+    {
+      "seed": 1001,
+      "steps": 107,
+      "methods": {
+        "fast_joint_gripper": {
+          "status": "planned",
+          "bytes": 206,
+          "chunks": 6,
+          "arm_mse": 0.00010706505820992381
+        },
+        "fast_quantile_gripper": {
+          "status": "planned",
+          "bytes": 247,
+          "chunks": 6,
+          "arm_mse": 8.50179361320857e-06
+        },
+        "linear_gripper": {
+          "status": "planned",
+          "bytes": 214,
+          "chunks": 6,
+          "arm_mse": 7.826684547993872e-05
+        }
+      },
+      "events": {
+        "grasp": {
+          "event_state_index": 44,
+          "status": "no_speed_matched_noncontact"
+        },
+        "release": {
+          "event_state_index": 102,
+          "status": "no_speed_matched_noncontact"
+        }
+      }
+    },
+    {
+      "seed": 1002,
+      "steps": 108,
+      "methods": {
+        "fast_joint_gripper": {
+          "status": "planned",
+          "bytes": 206,
+          "chunks": 6,
+          "arm_mse": 0.00010227783804258771
+        },
+        "fast_quantile_gripper": {
+          "status": "planned",
+          "bytes": 255,
+          "chunks": 6,
+          "arm_mse": 7.539400983240631e-06
+        },
+        "linear_gripper": {
+          "status": "planned",
+          "bytes": 214,
+          "chunks": 6,
+          "arm_mse": 8.65065544877198e-05
+        }
+      },
+      "events": {
+        "grasp": {
+          "event_state_index": 51,
+          "status": "no_speed_matched_noncontact"
+        },
+        "release": {
+          "event_state_index": 103,
+          "status": "eligible",
+          "event_action_start": 100,
+          "free_action_start": 30,
+          "length": 5,
+          "event_speed": 0.002125389218215483,
+          "free_speed": 0.002999350422718329,
+          "normalized_arm_mse": 1.7025833581537377e-06
+        }
+      }
+    },
+    {
+      "seed": 1003,
+      "steps": 109,
+      "methods": {
+        "fast_joint_gripper": {
+          "status": "planned",
+          "bytes": 204,
+          "chunks": 6,
+          "arm_mse": 0.00011083409288527115
+        },
+        "fast_quantile_gripper": {
+          "status": "planned",
+          "bytes": 247,
+          "chunks": 6,
+          "arm_mse": 9.235342776755555e-06
+        },
+        "linear_gripper": {
+          "status": "planned",
+          "bytes": 214,
+          "chunks": 6,
+          "arm_mse": 8.794771257204521e-05
+        }
+      },
+      "events": {
+        "grasp": {
+          "event_state_index": 42,
+          "status": "eligible",
+          "event_action_start": 39,
+          "free_action_start": 23,
+          "length": 5,
+          "event_speed": 0.0012654338611835486,
+          "free_speed": 0.0011846405187403081,
+          "normalized_arm_mse": 2.782178089758087e-06
+        },
+        "release": {
+          "event_state_index": 104,
+          "status": "eligible",
+          "event_action_start": 101,
+          "free_action_start": 23,
+          "length": 5,
+          "event_speed": 0.0006821889042427472,
+          "free_speed": 0.0011846405187403081,
+          "normalized_arm_mse": 2.6796551305173737e-06
+        }
+      }
+    },
+    {
+      "seed": 1004,
+      "steps": 107,
+      "methods": {
+        "fast_joint_gripper": {
+          "status": "planned",
+          "bytes": 195,
+          "chunks": 6,
+          "arm_mse": 0.00010983364972059904
+        },
+        "fast_quantile_gripper": {
+          "status": "planned",
+          "bytes": 249,
+          "chunks": 6,
+          "arm_mse": 9.263222077541072e-06
+        },
+        "linear_gripper": {
+          "status": "planned",
+          "bytes": 214,
+          "chunks": 6,
+          "arm_mse": 7.047463861479767e-05
+        }
+      },
+      "events": {
+        "grasp": {
+          "event_state_index": 43,
+          "status": "no_speed_matched_noncontact"
+        },
+        "release": {
+          "event_state_index": 102,
+          "status": "no_speed_matched_noncontact"
+        }
+      }
+    },
+    {
+      "seed": 1005,
+      "steps": 106,
+      "methods": {
+        "fast_joint_gripper": {
+          "status": "planned",
+          "bytes": 192,
+          "chunks": 6,
+          "arm_mse": 0.00010306206496400314
+        },
+        "fast_quantile_gripper": {
+          "status": "planned",
+          "bytes": 237,
+          "chunks": 6,
+          "arm_mse": 8.114041461212953e-06
+        },
+        "linear_gripper": {
+          "status": "planned",
+          "bytes": 214,
+          "chunks": 6,
+          "arm_mse": 7.603221419824094e-05
+        }
+      },
+      "events": {
+        "grasp": {
+          "event_state_index": 51,
+          "status": "eligible",
+          "event_action_start": 48,
+          "free_action_start": 32,
+          "length": 5,
+          "event_speed": 0.0012335932474711539,
+          "free_speed": 0.0020101773543964863,
+          "normalized_arm_mse": 2.852859950521004e-06
+        },
+        "release": {
+          "event_state_index": 101,
+          "status": "no_speed_matched_noncontact"
+        }
+      }
+    },
+    {
+      "seed": 1006,
+      "steps": 118,
+      "methods": {
+        "fast_joint_gripper": {
+          "status": "planned",
+          "bytes": 197,
+          "chunks": 6,
+          "arm_mse": 8.149069871453048e-05
+        },
+        "fast_quantile_gripper": {
+          "status": "planned",
+          "bytes": 241,
+          "chunks": 6,
+          "arm_mse": 9.50887518315263e-06
+        },
+        "linear_gripper": {
+          "status": "planned",
+          "bytes": 214,
+          "chunks": 6,
+          "arm_mse": 9.93021033925365e-05
+        }
+      },
+      "events": {
+        "grasp": {
+          "event_state_index": 58,
+          "status": "eligible",
+          "event_action_start": 55,
+          "free_action_start": 1,
+          "length": 5,
+          "event_speed": 0.0013332049469503091,
+          "free_speed": 0.0023807814298982288,
+          "normalized_arm_mse": 3.800284503777307e-06
+        },
+        "release": {
+          "event_state_index": 113,
+          "status": "no_speed_matched_noncontact"
+        }
+      }
+    },
+    {
+      "seed": 1007,
+      "steps": 115,
+      "methods": {
+        "fast_joint_gripper": {
+          "status": "planned",
+          "bytes": 207,
+          "chunks": 6,
+          "arm_mse": 0.00011894767357186079
+        },
+        "fast_quantile_gripper": {
+          "status": "planned",
+          "bytes": 257,
+          "chunks": 6,
+          "arm_mse": 9.948186516095527e-06
+        },
+        "linear_gripper": {
+          "status": "planned",
+          "bytes": 214,
+          "chunks": 6,
+          "arm_mse": 9.362004144664084e-05
+        }
+      },
+      "events": {
+        "grasp": {
+          "event_state_index": 57,
+          "status": "eligible",
+          "event_action_start": 54,
+          "free_action_start": 36,
+          "length": 5,
+          "event_speed": 0.001279987784234792,
+          "free_speed": 0.0015417969845467458,
+          "normalized_arm_mse": 4.19891497820452e-06
+        },
+        "release": {
+          "event_state_index": 110,
+          "status": "eligible",
+          "event_action_start": 107,
+          "free_action_start": 37,
+          "length": 5,
+          "event_speed": 0.0016751720509038213,
+          "free_speed": 0.0016627730967061992,
+          "normalized_arm_mse": 2.9565042884069962e-06
+        }
+      }
+    }
+  ],
+  "new_simulator_episodes": 0,
+  "old_heldout_read": false,
+  "variant_task_outcomes_read": false,
+  "fresh_confirmation_support_known": false
+}

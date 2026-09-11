@@ -1,0 +1,744 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.47kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250
+#2 DONE 1.2s
+
+#4 [1/8] FROM docker.io/library/python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250
+#4 resolve docker.io/library/python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250 0.0s done
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 251.80kB 0.1s done
+#5 DONE 0.1s
+
+#6 [2/8] RUN apt-get update && apt-get install -y --no-install-recommends libgl1 libegl1 libglib2.0-0 libvulkan1 mesa-vulkan-drivers libgomp1 libx11-6 libxext6 libsm6 libice6 && rm -rf /var/lib/apt/lists/*
+#6 0.253 Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+#6 0.264 Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+#6 0.264 Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [34.8 kB]
+#6 0.306 Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8790 kB]
+#6 0.757 Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6924 B]
+#6 0.757 Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [337 kB]
+#6 1.308 Fetched 9375 kB in 1s (8339 kB/s)
+#6 1.308 Reading package lists...
+#6 1.638 Reading package lists...
+#6 1.970 Building dependency tree...
+#6 2.069 Reading state information...
+#6 2.152 The following additional packages will be installed:
+#6 2.152   libbsd0 libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2
+#6 2.152   libdrm-radeon1 libdrm2 libedit2 libegl-mesa0 libelf1 libexpat1 libgbm1
+#6 2.152   libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0 libicu72
+#6 2.152   libllvm15 libpciaccess0 libpython3-stdlib libpython3.11-minimal
+#6 2.152   libpython3.11-stdlib libsensors-config libsensors5 libwayland-client0
+#6 2.152   libwayland-server0 libx11-data libx11-xcb1 libxau6 libxcb-dri2-0
+#6 2.152   libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-randr0 libxcb-shm0
+#6 2.152   libxcb-sync1 libxcb-xfixes0 libxcb1 libxdmcp6 libxfixes3 libxml2
+#6 2.153   libxshmfence1 libxxf86vm1 libz3-4 media-types python3 python3-minimal
+#6 2.153   python3.11 python3.11-minimal x11-common
+#6 2.154 Suggested packages:
+#6 2.154   low-memory-monitor pciutils lm-sensors python3-doc python3-tk python3-venv
+#6 2.154   python3.11-venv python3.11-doc binutils binfmt-support
+#6 2.154 Recommended packages:
+#6 2.154   libglib2.0-data shared-mime-info xdg-user-dirs
+#6 2.346 The following NEW packages will be installed:
+#6 2.346   libbsd0 libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2
+#6 2.346   libdrm-radeon1 libdrm2 libedit2 libegl-mesa0 libegl1 libelf1 libexpat1
+#6 2.346   libgbm1 libgl1 libgl1-mesa-dri libglapi-mesa libglib2.0-0 libglvnd0
+#6 2.346   libglx-mesa0 libglx0 libgomp1 libice6 libicu72 libllvm15 libpciaccess0
+#6 2.346   libpython3-stdlib libpython3.11-minimal libpython3.11-stdlib
+#6 2.346   libsensors-config libsensors5 libsm6 libvulkan1 libwayland-client0
+#6 2.346   libwayland-server0 libx11-6 libx11-data libx11-xcb1 libxau6 libxcb-dri2-0
+#6 2.346   libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-randr0 libxcb-shm0
+#6 2.346   libxcb-sync1 libxcb-xfixes0 libxcb1 libxdmcp6 libxext6 libxfixes3 libxml2
+#6 2.346   libxshmfence1 libxxf86vm1 libz3-4 media-types mesa-vulkan-drivers python3
+#6 2.346   python3-minimal python3.11 python3.11-minimal x11-common
+#6 2.513 0 upgraded, 61 newly installed, 0 to remove and 1 not upgraded.
+#6 2.513 Need to get 66.7 MB of archives.
+#6 2.513 After this operation, 281 MB of additional disk space will be used.
+#6 2.513 Get:1 http://deb.debian.org/debian bookworm/main amd64 libpython3.11-minimal amd64 3.11.2-6+deb12u8 [818 kB]
+#6 2.530 Get:2 http://deb.debian.org/debian-security bookworm-security/main amd64 libexpat1 amd64 2.5.0-1+deb12u3 [104 kB]
+#6 2.531 Get:3 http://deb.debian.org/debian bookworm/main amd64 python3.11-minimal amd64 3.11.2-6+deb12u8 [2065 kB]
+#6 2.566 Get:4 http://deb.debian.org/debian bookworm/main amd64 python3-minimal amd64 3.11.2-1+b1 [26.3 kB]
+#6 2.566 Get:5 http://deb.debian.org/debian bookworm/main amd64 media-types all 10.0.0 [26.1 kB]
+#6 2.566 Get:6 http://deb.debian.org/debian bookworm/main amd64 libpython3.11-stdlib amd64 3.11.2-6+deb12u8 [1799 kB]
+#6 2.597 Get:7 http://deb.debian.org/debian bookworm/main amd64 python3.11 amd64 3.11.2-6+deb12u8 [574 kB]
+#6 2.605 Get:8 http://deb.debian.org/debian bookworm/main amd64 libpython3-stdlib amd64 3.11.2-1+b1 [9312 B]
+#6 2.605 Get:9 http://deb.debian.org/debian bookworm/main amd64 python3 amd64 3.11.2-1+b1 [26.3 kB]
+#6 2.607 Get:10 http://deb.debian.org/debian bookworm/main amd64 libbsd0 amd64 0.11.7-2 [117 kB]
+#6 2.608 Get:11 http://deb.debian.org/debian bookworm/main amd64 libdrm-common all 2.4.114-1 [7112 B]
+#6 2.608 Get:12 http://deb.debian.org/debian bookworm/main amd64 libdrm2 amd64 2.4.114-1+b1 [37.5 kB]
+#6 2.609 Get:13 http://deb.debian.org/debian bookworm/main amd64 libdrm-amdgpu1 amd64 2.4.114-1+b1 [20.9 kB]
+#6 2.609 Get:14 http://deb.debian.org/debian bookworm/main amd64 libpciaccess0 amd64 0.17-2 [51.4 kB]
+#6 2.609 Get:15 http://deb.debian.org/debian bookworm/main amd64 libdrm-intel1 amd64 2.4.114-1+b1 [64.0 kB]
+#6 2.610 Get:16 http://deb.debian.org/debian bookworm/main amd64 libdrm-nouveau2 amd64 2.4.114-1+b1 [19.1 kB]
+#6 2.610 Get:17 http://deb.debian.org/debian bookworm/main amd64 libdrm-radeon1 amd64 2.4.114-1+b1 [21.8 kB]
+#6 2.610 Get:18 http://deb.debian.org/debian bookworm/main amd64 libedit2 amd64 3.1-20221030-2 [93.0 kB]
+#6 2.611 Get:19 http://deb.debian.org/debian bookworm/main amd64 libwayland-server0 amd64 1.21.0-1 [35.9 kB]
+#6 2.612 Get:20 http://deb.debian.org/debian bookworm/main amd64 libgbm1 amd64 22.3.6-1+deb12u2 [38.1 kB]
+#6 2.612 Get:21 http://deb.debian.org/debian bookworm/main amd64 libglapi-mesa amd64 22.3.6-1+deb12u2 [35.9 kB]
+#6 2.613 Get:22 http://deb.debian.org/debian bookworm/main amd64 libwayland-client0 amd64 1.21.0-1 [28.3 kB]
+#6 2.613 Get:23 http://deb.debian.org/debian bookworm/main amd64 libxau6 amd64 1:1.0.9-1 [19.7 kB]
+#6 2.613 Get:24 http://deb.debian.org/debian bookworm/main amd64 libxdmcp6 amd64 1:1.1.2-3 [26.3 kB]
+#6 2.614 Get:25 http://deb.debian.org/debian bookworm/main amd64 libxcb1 amd64 1.15-1 [144 kB]
+#6 2.617 Get:26 http://deb.debian.org/debian bookworm/main amd64 libx11-data all 2:1.8.4-2+deb12u2 [292 kB]
+#6 2.625 Get:27 http://deb.debian.org/debian bookworm/main amd64 libx11-6 amd64 2:1.8.4-2+deb12u2 [760 kB]
+#6 2.641 Get:28 http://deb.debian.org/debian bookworm/main amd64 libx11-xcb1 amd64 2:1.8.4-2+deb12u2 [192 kB]
+#6 2.646 Get:29 http://deb.debian.org/debian bookworm/main amd64 libxcb-dri2-0 amd64 1.15-1 [107 kB]
+#6 2.649 Get:30 http://deb.debian.org/debian bookworm/main amd64 libxcb-dri3-0 amd64 1.15-1 [107 kB]
+#6 2.650 Get:31 http://deb.debian.org/debian bookworm/main amd64 libxcb-present0 amd64 1.15-1 [105 kB]
+#6 2.652 Get:32 http://deb.debian.org/debian bookworm/main amd64 libxcb-randr0 amd64 1.15-1 [117 kB]
+#6 2.655 Get:33 http://deb.debian.org/debian bookworm/main amd64 libxcb-sync1 amd64 1.15-1 [109 kB]
+#6 2.657 Get:34 http://deb.debian.org/debian bookworm/main amd64 libxcb-xfixes0 amd64 1.15-1 [109 kB]
+#6 2.660 Get:35 http://deb.debian.org/debian bookworm/main amd64 libxshmfence1 amd64 1.3-1 [8820 B]
+#6 2.660 Get:36 http://deb.debian.org/debian bookworm/main amd64 libegl-mesa0 amd64 22.3.6-1+deb12u2 [114 kB]
+#6 2.664 Get:37 http://deb.debian.org/debian bookworm/main amd64 libelf1 amd64 0.188-2.1 [174 kB]
+#6 2.667 Get:38 http://deb.debian.org/debian bookworm/main amd64 libglvnd0 amd64 1.6.0-1 [51.8 kB]
+#6 2.669 Get:39 http://deb.debian.org/debian bookworm/main amd64 libxcb-glx0 amd64 1.15-1 [122 kB]
+#6 2.671 Get:40 http://deb.debian.org/debian bookworm/main amd64 libxcb-shm0 amd64 1.15-1 [105 kB]
+#6 2.673 Get:41 http://deb.debian.org/debian bookworm/main amd64 libxext6 amd64 2:1.3.4-1+b1 [52.9 kB]
+#6 2.673 Get:42 http://deb.debian.org/debian bookworm/main amd64 libxfixes3 amd64 1:6.0.0-2 [22.7 kB]
+#6 2.675 Get:43 http://deb.debian.org/debian bookworm/main amd64 libxxf86vm1 amd64 1:1.1.4-1+b2 [20.8 kB]
+#6 2.676 Get:44 http://deb.debian.org/debian bookworm/main amd64 libicu72 amd64 72.1-3+deb12u1 [9376 kB]
+#6 3.536 Get:45 http://deb.debian.org/debian bookworm/main amd64 libxml2 amd64 2.9.14+dfsg-1.3~deb12u6 [689 kB]
+#6 3.548 Get:46 http://deb.debian.org/debian bookworm/main amd64 libz3-4 amd64 4.8.12-3.1 [7216 kB]
+#6 4.520 Get:47 http://deb.debian.org/debian bookworm/main amd64 libllvm15 amd64 1:15.0.6-4+b1 [23.1 MB]
+#6 6.424 Get:48 http://deb.debian.org/debian bookworm/main amd64 libsensors-config all 1:3.6.0-7.1 [14.3 kB]
+#6 6.424 Get:49 http://deb.debian.org/debian bookworm/main amd64 libsensors5 amd64 1:3.6.0-7.1 [34.2 kB]
+#6 6.424 Get:50 http://deb.debian.org/debian bookworm/main amd64 libgl1-mesa-dri amd64 22.3.6-1+deb12u2 [7240 kB]
+#6 7.482 Get:51 http://deb.debian.org/debian bookworm/main amd64 libglx-mesa0 amd64 22.3.6-1+deb12u2 [148 kB]
+#6 7.483 Get:52 http://deb.debian.org/debian bookworm/main amd64 libglx0 amd64 1.6.0-1 [34.4 kB]
+#6 7.483 Get:53 http://deb.debian.org/debian bookworm/main amd64 libgl1 amd64 1.6.0-1 [88.4 kB]
+#6 7.485 Get:54 http://deb.debian.org/debian bookworm/main amd64 libglib2.0-0 amd64 2.74.6-2+deb12u9 [1403 kB]
+#6 7.505 Get:55 http://deb.debian.org/debian bookworm/main amd64 libgomp1 amd64 12.2.0-14+deb12u1 [116 kB]
+#6 7.506 Get:56 http://deb.debian.org/debian bookworm/main amd64 x11-common all 1:7.7+23 [252 kB]
+#6 7.510 Get:57 http://deb.debian.org/debian bookworm/main amd64 libice6 amd64 2:1.0.10-1 [58.5 kB]
+#6 7.510 Get:58 http://deb.debian.org/debian bookworm/main amd64 libsm6 amd64 2:1.2.3-1 [35.1 kB]
+#6 7.513 Get:59 http://deb.debian.org/debian bookworm/main amd64 libvulkan1 amd64 1.3.239.0-1 [116 kB]
+#6 7.516 Get:60 http://deb.debian.org/debian bookworm/main amd64 mesa-vulkan-drivers amd64 22.3.6-1+deb12u2 [8001 kB]
+#6 8.579 Get:61 http://deb.debian.org/debian bookworm/main amd64 libegl1 amd64 1.6.0-1 [33.7 kB]
+#6 8.677 debconf: delaying package configuration, since apt-utils is not installed
+#6 8.714 Fetched 66.7 MB in 6s (10.7 MB/s)
+#6 8.761 Selecting previously unselected package libpython3.11-minimal:amd64.
+#6 8.761 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6703 files and directories currently installed.)
+#6 8.773 Preparing to unpack .../libpython3.11-minimal_3.11.2-6+deb12u8_amd64.deb ...
+#6 8.784 Unpacking libpython3.11-minimal:amd64 (3.11.2-6+deb12u8) ...
+#6 8.906 Selecting previously unselected package libexpat1:amd64.
+#6 8.907 Preparing to unpack .../libexpat1_2.5.0-1+deb12u3_amd64.deb ...
+#6 8.928 Unpacking libexpat1:amd64 (2.5.0-1+deb12u3) ...
+#6 9.015 Selecting previously unselected package python3.11-minimal.
+#6 9.016 Preparing to unpack .../python3.11-minimal_3.11.2-6+deb12u8_amd64.deb ...
+#6 9.031 Unpacking python3.11-minimal (3.11.2-6+deb12u8) ...
+#6 9.193 Setting up libpython3.11-minimal:amd64 (3.11.2-6+deb12u8) ...
+#6 9.238 Setting up libexpat1:amd64 (2.5.0-1+deb12u3) ...
+#6 9.271 Setting up python3.11-minimal (3.11.2-6+deb12u8) ...
+#6 9.702 Selecting previously unselected package python3-minimal.
+#6 9.702 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7019 files and directories currently installed.)
+#6 9.705 Preparing to unpack .../python3-minimal_3.11.2-1+b1_amd64.deb ...
+#6 9.715 Unpacking python3-minimal (3.11.2-1+b1) ...
+#6 9.779 Selecting previously unselected package media-types.
+#6 9.780 Preparing to unpack .../media-types_10.0.0_all.deb ...
+#6 9.792 Unpacking media-types (10.0.0) ...
+#6 9.856 Selecting previously unselected package libpython3.11-stdlib:amd64.
+#6 9.857 Preparing to unpack .../libpython3.11-stdlib_3.11.2-6+deb12u8_amd64.deb ...
+#6 9.868 Unpacking libpython3.11-stdlib:amd64 (3.11.2-6+deb12u8) ...
+#6 10.03 Selecting previously unselected package python3.11.
+#6 10.03 Preparing to unpack .../python3.11_3.11.2-6+deb12u8_amd64.deb ...
+#6 10.04 Unpacking python3.11 (3.11.2-6+deb12u8) ...
+#6 10.11 Selecting previously unselected package libpython3-stdlib:amd64.
+#6 10.11 Preparing to unpack .../libpython3-stdlib_3.11.2-1+b1_amd64.deb ...
+#6 10.12 Unpacking libpython3-stdlib:amd64 (3.11.2-1+b1) ...
+#6 10.19 Setting up python3-minimal (3.11.2-1+b1) ...
+#6 10.38 Selecting previously unselected package python3.
+#6 10.38 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7429 files and directories currently installed.)
+#6 10.38 Preparing to unpack .../00-python3_3.11.2-1+b1_amd64.deb ...
+#6 10.39 Unpacking python3 (3.11.2-1+b1) ...
+#6 10.47 Selecting previously unselected package libbsd0:amd64.
+#6 10.47 Preparing to unpack .../01-libbsd0_0.11.7-2_amd64.deb ...
+#6 10.48 Unpacking libbsd0:amd64 (0.11.7-2) ...
+#6 10.55 Selecting previously unselected package libdrm-common.
+#6 10.55 Preparing to unpack .../02-libdrm-common_2.4.114-1_all.deb ...
+#6 10.56 Unpacking libdrm-common (2.4.114-1) ...
+#6 10.64 Selecting previously unselected package libdrm2:amd64.
+#6 10.64 Preparing to unpack .../03-libdrm2_2.4.114-1+b1_amd64.deb ...
+#6 10.65 Unpacking libdrm2:amd64 (2.4.114-1+b1) ...
+#6 10.73 Selecting previously unselected package libdrm-amdgpu1:amd64.
+#6 10.73 Preparing to unpack .../04-libdrm-amdgpu1_2.4.114-1+b1_amd64.deb ...
+#6 10.74 Unpacking libdrm-amdgpu1:amd64 (2.4.114-1+b1) ...
+#6 10.81 Selecting previously unselected package libpciaccess0:amd64.
+#6 10.81 Preparing to unpack .../05-libpciaccess0_0.17-2_amd64.deb ...
+#6 10.82 Unpacking libpciaccess0:amd64 (0.17-2) ...
+#6 10.90 Selecting previously unselected package libdrm-intel1:amd64.
+#6 10.90 Preparing to unpack .../06-libdrm-intel1_2.4.114-1+b1_amd64.deb ...
+#6 10.92 Unpacking libdrm-intel1:amd64 (2.4.114-1+b1) ...
+#6 10.99 Selecting previously unselected package libdrm-nouveau2:amd64.
+#6 10.99 Preparing to unpack .../07-libdrm-nouveau2_2.4.114-1+b1_amd64.deb ...
+#6 11.01 Unpacking libdrm-nouveau2:amd64 (2.4.114-1+b1) ...
+#6 11.08 Selecting previously unselected package libdrm-radeon1:amd64.
+#6 11.08 Preparing to unpack .../08-libdrm-radeon1_2.4.114-1+b1_amd64.deb ...
+#6 11.09 Unpacking libdrm-radeon1:amd64 (2.4.114-1+b1) ...
+#6 11.28 Selecting previously unselected package libedit2:amd64.
+#6 11.28 Preparing to unpack .../09-libedit2_3.1-20221030-2_amd64.deb ...
+#6 11.31 Unpacking libedit2:amd64 (3.1-20221030-2) ...
+#6 11.40 Selecting previously unselected package libwayland-server0:amd64.
+#6 11.41 Preparing to unpack .../10-libwayland-server0_1.21.0-1_amd64.deb ...
+#6 11.42 Unpacking libwayland-server0:amd64 (1.21.0-1) ...
+#6 11.49 Selecting previously unselected package libgbm1:amd64.
+#6 11.49 Preparing to unpack .../11-libgbm1_22.3.6-1+deb12u2_amd64.deb ...
+#6 11.50 Unpacking libgbm1:amd64 (22.3.6-1+deb12u2) ...
+#6 11.58 Selecting previously unselected package libglapi-mesa:amd64.
+#6 11.58 Preparing to unpack .../12-libglapi-mesa_22.3.6-1+deb12u2_amd64.deb ...
+#6 11.59 Unpacking libglapi-mesa:amd64 (22.3.6-1+deb12u2) ...
+#6 11.67 Selecting previously unselected package libwayland-client0:amd64.
+#6 11.67 Preparing to unpack .../13-libwayland-client0_1.21.0-1_amd64.deb ...
+#6 11.68 Unpacking libwayland-client0:amd64 (1.21.0-1) ...
+#6 11.75 Selecting previously unselected package libxau6:amd64.
+#6 11.75 Preparing to unpack .../14-libxau6_1%3a1.0.9-1_amd64.deb ...
+#6 11.76 Unpacking libxau6:amd64 (1:1.0.9-1) ...
+#6 11.83 Selecting previously unselected package libxdmcp6:amd64.
+#6 11.84 Preparing to unpack .../15-libxdmcp6_1%3a1.1.2-3_amd64.deb ...
+#6 11.85 Unpacking libxdmcp6:amd64 (1:1.1.2-3) ...
+#6 11.93 Selecting previously unselected package libxcb1:amd64.
+#6 11.93 Preparing to unpack .../16-libxcb1_1.15-1_amd64.deb ...
+#6 11.94 Unpacking libxcb1:amd64 (1.15-1) ...
+#6 12.00 Selecting previously unselected package libx11-data.
+#6 12.00 Preparing to unpack .../17-libx11-data_2%3a1.8.4-2+deb12u2_all.deb ...
+#6 12.01 Unpacking libx11-data (2:1.8.4-2+deb12u2) ...
+#6 12.11 Selecting previously unselected package libx11-6:amd64.
+#6 12.11 Preparing to unpack .../18-libx11-6_2%3a1.8.4-2+deb12u2_amd64.deb ...
+#6 12.12 Unpacking libx11-6:amd64 (2:1.8.4-2+deb12u2) ...
+#6 12.22 Selecting previously unselected package libx11-xcb1:amd64.
+#6 12.22 Preparing to unpack .../19-libx11-xcb1_2%3a1.8.4-2+deb12u2_amd64.deb ...
+#6 12.23 Unpacking libx11-xcb1:amd64 (2:1.8.4-2+deb12u2) ...
+#6 12.31 Selecting previously unselected package libxcb-dri2-0:amd64.
+#6 12.31 Preparing to unpack .../20-libxcb-dri2-0_1.15-1_amd64.deb ...
+#6 12.32 Unpacking libxcb-dri2-0:amd64 (1.15-1) ...
+#6 12.41 Selecting previously unselected package libxcb-dri3-0:amd64.
+#6 12.41 Preparing to unpack .../21-libxcb-dri3-0_1.15-1_amd64.deb ...
+#6 12.42 Unpacking libxcb-dri3-0:amd64 (1.15-1) ...
+#6 12.50 Selecting previously unselected package libxcb-present0:amd64.
+#6 12.50 Preparing to unpack .../22-libxcb-present0_1.15-1_amd64.deb ...
+#6 12.51 Unpacking libxcb-present0:amd64 (1.15-1) ...
+#6 12.59 Selecting previously unselected package libxcb-randr0:amd64.
+#6 12.59 Preparing to unpack .../23-libxcb-randr0_1.15-1_amd64.deb ...
+#6 12.60 Unpacking libxcb-randr0:amd64 (1.15-1) ...
+#6 12.68 Selecting previously unselected package libxcb-sync1:amd64.
+#6 12.68 Preparing to unpack .../24-libxcb-sync1_1.15-1_amd64.deb ...
+#6 12.69 Unpacking libxcb-sync1:amd64 (1.15-1) ...
+#6 12.77 Selecting previously unselected package libxcb-xfixes0:amd64.
+#6 12.77 Preparing to unpack .../25-libxcb-xfixes0_1.15-1_amd64.deb ...
+#6 12.78 Unpacking libxcb-xfixes0:amd64 (1.15-1) ...
+#6 12.86 Selecting previously unselected package libxshmfence1:amd64.
+#6 12.86 Preparing to unpack .../26-libxshmfence1_1.3-1_amd64.deb ...
+#6 12.87 Unpacking libxshmfence1:amd64 (1.3-1) ...
+#6 12.95 Selecting previously unselected package libegl-mesa0:amd64.
+#6 12.95 Preparing to unpack .../27-libegl-mesa0_22.3.6-1+deb12u2_amd64.deb ...
+#6 12.96 Unpacking libegl-mesa0:amd64 (22.3.6-1+deb12u2) ...
+#6 13.03 Selecting previously unselected package libelf1:amd64.
+#6 13.04 Preparing to unpack .../28-libelf1_0.188-2.1_amd64.deb ...
+#6 13.05 Unpacking libelf1:amd64 (0.188-2.1) ...
+#6 13.13 Selecting previously unselected package libglvnd0:amd64.
+#6 13.13 Preparing to unpack .../29-libglvnd0_1.6.0-1_amd64.deb ...
+#6 13.14 Unpacking libglvnd0:amd64 (1.6.0-1) ...
+#6 13.22 Selecting previously unselected package libxcb-glx0:amd64.
+#6 13.22 Preparing to unpack .../30-libxcb-glx0_1.15-1_amd64.deb ...
+#6 13.23 Unpacking libxcb-glx0:amd64 (1.15-1) ...
+#6 13.32 Selecting previously unselected package libxcb-shm0:amd64.
+#6 13.32 Preparing to unpack .../31-libxcb-shm0_1.15-1_amd64.deb ...
+#6 13.33 Unpacking libxcb-shm0:amd64 (1.15-1) ...
+#6 13.41 Selecting previously unselected package libxext6:amd64.
+#6 13.41 Preparing to unpack .../32-libxext6_2%3a1.3.4-1+b1_amd64.deb ...
+#6 13.42 Unpacking libxext6:amd64 (2:1.3.4-1+b1) ...
+#6 13.50 Selecting previously unselected package libxfixes3:amd64.
+#6 13.50 Preparing to unpack .../33-libxfixes3_1%3a6.0.0-2_amd64.deb ...
+#6 13.51 Unpacking libxfixes3:amd64 (1:6.0.0-2) ...
+#6 13.59 Selecting previously unselected package libxxf86vm1:amd64.
+#6 13.59 Preparing to unpack .../34-libxxf86vm1_1%3a1.1.4-1+b2_amd64.deb ...
+#6 13.60 Unpacking libxxf86vm1:amd64 (1:1.1.4-1+b2) ...
+#6 13.67 Selecting previously unselected package libicu72:amd64.
+#6 13.67 Preparing to unpack .../35-libicu72_72.1-3+deb12u1_amd64.deb ...
+#6 13.68 Unpacking libicu72:amd64 (72.1-3+deb12u1) ...
+#6 14.07 Selecting previously unselected package libxml2:amd64.
+#6 14.07 Preparing to unpack .../36-libxml2_2.9.14+dfsg-1.3~deb12u6_amd64.deb ...
+#6 14.08 Unpacking libxml2:amd64 (2.9.14+dfsg-1.3~deb12u6) ...
+#6 14.18 Selecting previously unselected package libz3-4:amd64.
+#6 14.18 Preparing to unpack .../37-libz3-4_4.8.12-3.1_amd64.deb ...
+#6 14.19 Unpacking libz3-4:amd64 (4.8.12-3.1) ...
+#6 14.59 Selecting previously unselected package libllvm15:amd64.
+#6 14.59 Preparing to unpack .../38-libllvm15_1%3a15.0.6-4+b1_amd64.deb ...
+#6 14.60 Unpacking libllvm15:amd64 (1:15.0.6-4+b1) ...
+#6 15.17 Selecting previously unselected package libsensors-config.
+#6 15.17 Preparing to unpack .../39-libsensors-config_1%3a3.6.0-7.1_all.deb ...
+#6 15.18 Unpacking libsensors-config (1:3.6.0-7.1) ...
+#6 15.26 Selecting previously unselected package libsensors5:amd64.
+#6 15.26 Preparing to unpack .../40-libsensors5_1%3a3.6.0-7.1_amd64.deb ...
+#6 15.27 Unpacking libsensors5:amd64 (1:3.6.0-7.1) ...
+#6 15.35 Selecting previously unselected package libgl1-mesa-dri:amd64.
+#6 15.35 Preparing to unpack .../41-libgl1-mesa-dri_22.3.6-1+deb12u2_amd64.deb ...
+#6 15.37 Unpacking libgl1-mesa-dri:amd64 (22.3.6-1+deb12u2) ...
+#6 15.73 Selecting previously unselected package libglx-mesa0:amd64.
+#6 15.73 Preparing to unpack .../42-libglx-mesa0_22.3.6-1+deb12u2_amd64.deb ...
+#6 15.75 Unpacking libglx-mesa0:amd64 (22.3.6-1+deb12u2) ...
+#6 15.83 Selecting previously unselected package libglx0:amd64.
+#6 15.83 Preparing to unpack .../43-libglx0_1.6.0-1_amd64.deb ...
+#6 15.84 Unpacking libglx0:amd64 (1.6.0-1) ...
+#6 15.92 Selecting previously unselected package libgl1:amd64.
+#6 15.92 Preparing to unpack .../44-libgl1_1.6.0-1_amd64.deb ...
+#6 15.93 Unpacking libgl1:amd64 (1.6.0-1) ...
+#6 16.02 Selecting previously unselected package libglib2.0-0:amd64.
+#6 16.02 Preparing to unpack .../45-libglib2.0-0_2.74.6-2+deb12u9_amd64.deb ...
+#6 16.04 Unpacking libglib2.0-0:amd64 (2.74.6-2+deb12u9) ...
+#6 16.18 Selecting previously unselected package libgomp1:amd64.
+#6 16.18 Preparing to unpack .../46-libgomp1_12.2.0-14+deb12u1_amd64.deb ...
+#6 16.19 Unpacking libgomp1:amd64 (12.2.0-14+deb12u1) ...
+#6 16.28 Selecting previously unselected package x11-common.
+#6 16.28 Preparing to unpack .../47-x11-common_1%3a7.7+23_all.deb ...
+#6 16.29 Unpacking x11-common (1:7.7+23) ...
+#6 16.36 Selecting previously unselected package libice6:amd64.
+#6 16.36 Preparing to unpack .../48-libice6_2%3a1.0.10-1_amd64.deb ...
+#6 16.37 Unpacking libice6:amd64 (2:1.0.10-1) ...
+#6 16.45 Selecting previously unselected package libsm6:amd64.
+#6 16.45 Preparing to unpack .../49-libsm6_2%3a1.2.3-1_amd64.deb ...
+#6 16.46 Unpacking libsm6:amd64 (2:1.2.3-1) ...
+#6 16.54 Selecting previously unselected package libvulkan1:amd64.
+#6 16.54 Preparing to unpack .../50-libvulkan1_1.3.239.0-1_amd64.deb ...
+#6 16.55 Unpacking libvulkan1:amd64 (1.3.239.0-1) ...
+#6 16.63 Selecting previously unselected package mesa-vulkan-drivers:amd64.
+#6 16.63 Preparing to unpack .../51-mesa-vulkan-drivers_22.3.6-1+deb12u2_amd64.deb ...
+#6 16.64 Unpacking mesa-vulkan-drivers:amd64 (22.3.6-1+deb12u2) ...
+#6 16.96 Selecting previously unselected package libegl1:amd64.
+#6 16.96 Preparing to unpack .../52-libegl1_1.6.0-1_amd64.deb ...
+#6 16.98 Unpacking libegl1:amd64 (1.6.0-1) ...
+#6 17.05 Setting up media-types (10.0.0) ...
+#6 17.09 Setting up libwayland-server0:amd64 (1.21.0-1) ...
+#6 17.13 Setting up libpciaccess0:amd64 (0.17-2) ...
+#6 17.16 Setting up libxau6:amd64 (1:1.0.9-1) ...
+#6 17.19 Setting up libicu72:amd64 (72.1-3+deb12u1) ...
+#6 17.23 Setting up libglib2.0-0:amd64 (2.74.6-2+deb12u9) ...
+#6 17.25 No schema files found: doing nothing.
+#6 17.27 Setting up libglvnd0:amd64 (1.6.0-1) ...
+#6 17.30 Setting up libpython3.11-stdlib:amd64 (3.11.2-6+deb12u8) ...
+#6 17.33 Setting up x11-common (1:7.7+23) ...
+#6 17.56 debconf: unable to initialize frontend: Dialog
+#6 17.56 debconf: (TERM is not set, so the dialog frontend is not usable.)
+#6 17.56 debconf: falling back to frontend: Readline
+#6 17.57 debconf: unable to initialize frontend: Readline
+#6 17.57 debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/x86_64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+#6 17.57 debconf: falling back to frontend: Teletype
+#6 17.58 invoke-rc.d: could not determine current runlevel
+#6 17.58 invoke-rc.d: policy-rc.d denied execution of restart.
+#6 17.59 Setting up libsensors-config (1:3.6.0-7.1) ...
+#6 17.65 Setting up libgomp1:amd64 (12.2.0-14+deb12u1) ...
+#6 17.68 Setting up libz3-4:amd64 (4.8.12-3.1) ...
+#6 17.71 Setting up libx11-data (2:1.8.4-2+deb12u2) ...
+#6 17.75 Setting up libsensors5:amd64 (1:3.6.0-7.1) ...
+#6 17.78 Setting up libglapi-mesa:amd64 (22.3.6-1+deb12u2) ...
+#6 17.81 Setting up libvulkan1:amd64 (1.3.239.0-1) ...
+#6 17.84 Setting up libxshmfence1:amd64 (1.3-1) ...
+#6 17.88 Setting up libbsd0:amd64 (0.11.7-2) ...
+#6 17.91 Setting up libdrm-common (2.4.114-1) ...
+#6 17.94 Setting up libelf1:amd64 (0.188-2.1) ...
+#6 17.97 Setting up libxml2:amd64 (2.9.14+dfsg-1.3~deb12u6) ...
+#6 18.01 Setting up libpython3-stdlib:amd64 (3.11.2-1+b1) ...
+#6 18.04 Setting up libwayland-client0:amd64 (1.21.0-1) ...
+#6 18.07 Setting up python3.11 (3.11.2-6+deb12u8) ...
+#6 18.47 Setting up libice6:amd64 (2:1.0.10-1) ...
+#6 18.51 Setting up libxdmcp6:amd64 (1:1.1.2-3) ...
+#6 18.54 Setting up libxcb1:amd64 (1.15-1) ...
+#6 18.57 Setting up libxcb-xfixes0:amd64 (1.15-1) ...
+#6 18.60 Setting up libxcb-glx0:amd64 (1.15-1) ...
+#6 18.64 Setting up libedit2:amd64 (3.1-20221030-2) ...
+#6 18.67 Setting up python3 (3.11.2-1+b1) ...
+#6 18.69 running python rtupdate hooks for python3.11...
+#6 18.69 running python post-rtupdate hooks for python3.11...
+#6 18.76 Setting up libxcb-shm0:amd64 (1.15-1) ...
+#6 18.80 Setting up libxcb-present0:amd64 (1.15-1) ...
+#6 18.83 Setting up libxcb-sync1:amd64 (1.15-1) ...
+#6 18.86 Setting up libxcb-dri2-0:amd64 (1.15-1) ...
+#6 18.89 Setting up libdrm2:amd64 (2.4.114-1+b1) ...
+#6 18.93 Setting up libxcb-randr0:amd64 (1.15-1) ...
+#6 18.96 Setting up libllvm15:amd64 (1:15.0.6-4+b1) ...
+#6 18.99 Setting up libx11-6:amd64 (2:1.8.4-2+deb12u2) ...
+#6 19.03 Setting up libsm6:amd64 (2:1.2.3-1) ...
+#6 19.06 Setting up libdrm-amdgpu1:amd64 (2.4.114-1+b1) ...
+#6 19.09 Setting up libxcb-dri3-0:amd64 (1.15-1) ...
+#6 19.12 Setting up libx11-xcb1:amd64 (2:1.8.4-2+deb12u2) ...
+#6 19.16 Setting up libdrm-nouveau2:amd64 (2.4.114-1+b1) ...
+#6 19.19 Setting up libgbm1:amd64 (22.3.6-1+deb12u2) ...
+#6 19.23 Setting up libdrm-radeon1:amd64 (2.4.114-1+b1) ...
+#6 19.26 Setting up libdrm-intel1:amd64 (2.4.114-1+b1) ...
+#6 19.29 Setting up libgl1-mesa-dri:amd64 (22.3.6-1+deb12u2) ...
+#6 19.33 Setting up libxext6:amd64 (2:1.3.4-1+b1) ...
+#6 19.36 Setting up libxxf86vm1:amd64 (1:1.1.4-1+b2) ...
+#6 19.39 Setting up libegl-mesa0:amd64 (22.3.6-1+deb12u2) ...
+#6 19.43 Setting up libxfixes3:amd64 (1:6.0.0-2) ...
+#6 19.46 Setting up libegl1:amd64 (1.6.0-1) ...
+#6 19.50 Setting up mesa-vulkan-drivers:amd64 (22.3.6-1+deb12u2) ...
+#6 19.53 Setting up libglx-mesa0:amd64 (22.3.6-1+deb12u2) ...
+#6 19.57 Setting up libglx0:amd64 (1.6.0-1) ...
+#6 19.60 Setting up libgl1:amd64 (1.6.0-1) ...
+#6 19.63 Processing triggers for libc-bin (2.36-9+deb12u14) ...
+#6 DONE 19.8s
+
+#7 [3/8] RUN pip install --no-cache-dir torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+#7 1.084 Looking in indexes: https://download.pytorch.org/whl/cpu
+#7 1.452 Collecting torch==2.6.0
+#7 1.490   Downloading https://download-r2.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp311-cp311-linux_x86_64.whl.metadata (26 kB)
+#7 1.516 Collecting filelock (from torch==2.6.0)
+#7 1.542   Downloading filelock-3.32.3-py3-none-any.whl.metadata (2.0 kB)
+#7 1.555 Collecting typing-extensions>=4.10.0 (from torch==2.6.0)
+#7 1.558   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#7 1.579 Collecting networkx (from torch==2.6.0)
+#7 1.584   Downloading networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+#7 1.593 Collecting jinja2 (from torch==2.6.0)
+#7 1.597   Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+#7 1.615 Collecting fsspec (from torch==2.6.0)
+#7 1.618   Downloading fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)
+#7 1.633 Collecting sympy==1.13.1 (from torch==2.6.0)
+#7 1.636   Downloading sympy-1.13.1-py3-none-any.whl.metadata (12 kB)
+#7 1.649 Collecting mpmath<1.4,>=1.1.0 (from sympy==1.13.1->torch==2.6.0)
+#7 1.652   Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+#7 1.687 Collecting MarkupSafe>=2.0 (from jinja2->torch==2.6.0)
+#7 1.692   Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+#7 1.736 Downloading https://download-r2.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp311-cp311-linux_x86_64.whl (178.7 MB)
+#7 12.50    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.7/178.7 MB 31.6 MB/s eta 0:00:00
+#7 12.51 Downloading sympy-1.13.1-py3-none-any.whl (6.2 MB)
+#7 13.40    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.2/6.2 MB 6.9 MB/s eta 0:00:00
+#7 13.42 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#7 13.44    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 2.1 MB/s eta 0:00:00
+#7 13.44 Downloading filelock-3.32.3-py3-none-any.whl (98 kB)
+#7 13.47    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.9/98.9 kB 3.2 MB/s eta 0:00:00
+#7 13.48 Downloading fsspec-2026.7.0-py3-none-any.whl (206 kB)
+#7 13.52    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 206.6/206.6 kB 5.4 MB/s eta 0:00:00
+#7 13.53 Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (134 kB)
+#7 13.54    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 19.8 MB/s eta 0:00:00
+#7 13.54 Downloading networkx-3.6.1-py3-none-any.whl (2.1 MB)
+#7 13.60    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 33.0 MB/s eta 0:00:00
+#7 13.61 Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+#7 13.61 Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+#7 13.62    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 53.4 MB/s eta 0:00:00
+#7 13.89 Installing collected packages: mpmath, typing-extensions, sympy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch
+#7 22.18 Successfully installed MarkupSafe-3.0.3 filelock-3.32.3 fsspec-2026.7.0 jinja2-3.1.6 mpmath-1.3.0 networkx-3.6.1 sympy-1.13.1 torch-2.6.0+cpu typing-extensions-4.16.0
+#7 22.18 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 DONE 22.6s
+
+#8 [4/8] COPY external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8 /opt/ManiSkill
+#8 DONE 0.8s
+
+#9 [5/8] COPY buildup/robotics/pilot_studies/q11-action-compression/constraints.txt /opt/constraints.txt
+#9 DONE 0.1s
+
+#10 [6/8] RUN pip install --no-cache-dir -c /opt/constraints.txt numpy==1.26.4 scipy==1.15.3 gymnasium==0.29.1 sapien==3.0.2 h5py==3.12.1 transformers==4.51.3 tokenizers==0.21.1 huggingface-hub==0.30.2 safetensors==0.5.3 regex==2024.11.6 /opt/ManiSkill
+#10 0.376 Processing /opt/ManiSkill
+#10 0.378   Installing build dependencies: started
+#10 1.174   Installing build dependencies: finished with status 'done'
+#10 1.175   Getting requirements to build wheel: started
+#10 1.290   Getting requirements to build wheel: finished with status 'done'
+#10 1.292   Preparing metadata (pyproject.toml): started
+#10 1.426   Preparing metadata (pyproject.toml): finished with status 'done'
+#10 1.603 Collecting numpy==1.26.4
+#10 1.630   Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+#10 1.640      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.0/61.0 kB 6.6 MB/s eta 0:00:00
+#10 1.728 Collecting scipy==1.15.3
+#10 1.732   Downloading scipy-1.15.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+#10 1.738      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 13.9 MB/s eta 0:00:00
+#10 1.753 Collecting gymnasium==0.29.1
+#10 1.757   Downloading gymnasium-0.29.1-py3-none-any.whl.metadata (10 kB)
+#10 1.948 Collecting sapien==3.0.2
+#10 1.953   Downloading sapien-3.0.2-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (11 kB)
+#10 1.978 Collecting h5py==3.12.1
+#10 1.983   Downloading h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.5 kB)
+#10 2.024 Collecting transformers==4.51.3
+#10 2.029   Downloading transformers-4.51.3-py3-none-any.whl.metadata (38 kB)
+#10 2.109 Collecting tokenizers==0.21.1
+#10 2.118   Downloading tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+#10 2.157 Collecting huggingface-hub==0.30.2
+#10 2.162   Downloading huggingface_hub-0.30.2-py3-none-any.whl.metadata (13 kB)
+#10 2.262 Collecting safetensors==0.5.3
+#10 2.266   Downloading safetensors-0.5.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+#10 2.500 Collecting regex==2024.11.6
+#10 2.505   Downloading regex-2024.11.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (40 kB)
+#10 2.506      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.5/40.5 kB 80.5 MB/s eta 0:00:00
+#10 2.549 Collecting cloudpickle>=1.2.0 (from gymnasium==0.29.1)
+#10 2.552   Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+#10 2.554 Requirement already satisfied: typing-extensions>=4.3.0 in /usr/local/lib/python3.11/site-packages (from gymnasium==0.29.1) (4.16.0)
+#10 2.561 Collecting farama-notifications>=0.0.1 (from gymnasium==0.29.1)
+#10 2.565   Downloading farama_notifications-0.0.6-py3-none-any.whl.metadata (729 bytes)
+#10 2.587 Collecting requests>=2.22 (from sapien==3.0.2)
+#10 2.591   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#10 2.598 Collecting transforms3d>=0.3 (from sapien==3.0.2)
+#10 2.603   Downloading transforms3d-0.4.2-py3-none-any.whl.metadata (2.8 kB)
+#10 2.734 Collecting lxml (from sapien==3.0.2)
+#10 2.737   Downloading lxml-6.1.3-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+#10 2.740 Requirement already satisfied: networkx in /usr/local/lib/python3.11/site-packages (from sapien==3.0.2) (3.6.1)
+#10 2.748 Collecting pyperclip (from sapien==3.0.2)
+#10 2.752   Downloading pyperclip-1.11.0-py3-none-any.whl.metadata (2.4 kB)
+#10 2.856 Collecting opencv-python>=4.0 (from sapien==3.0.2)
+#10 2.859   Downloading opencv_python-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+#10 2.861 Requirement already satisfied: setuptools in /usr/local/lib/python3.11/site-packages (from sapien==3.0.2) (79.0.1)
+#10 2.951 Requirement already satisfied: filelock in /usr/local/lib/python3.11/site-packages (from transformers==4.51.3) (3.32.3)
+#10 2.960 Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.11/site-packages (from transformers==4.51.3) (26.3)
+#10 2.978 Collecting pyyaml>=5.1 (from transformers==4.51.3)
+#10 2.982   Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+#10 3.016 Collecting tqdm>=4.27 (from transformers==4.51.3)
+#10 3.020   Downloading tqdm-4.70.0-py3-none-any.whl.metadata (57 kB)
+#10 3.022      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.3/57.3 kB 535.3 MB/s eta 0:00:00
+#10 3.058 Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.11/site-packages (from huggingface-hub==0.30.2) (2026.7.0)
+#10 3.096 Collecting dacite (from mani_skill==3.0.1)
+#10 3.100   Downloading dacite-1.9.2-py3-none-any.whl.metadata (17 kB)
+#10 3.118 Collecting GitPython (from mani_skill==3.0.1)
+#10 3.123   Downloading gitpython-3.1.62-py3-none-any.whl.metadata (13 kB)
+#10 3.131 Collecting tabulate (from mani_skill==3.0.1)
+#10 3.134   Downloading tabulate-0.10.0-py3-none-any.whl.metadata (40 kB)
+#10 3.135      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.8/40.8 kB 86.2 MB/s eta 0:00:00
+#10 3.186 Collecting trimesh (from mani_skill==3.0.1)
+#10 3.190   Downloading trimesh-5.1.0-py3-none-any.whl.metadata (13 kB)
+#10 3.207 Collecting imageio (from mani_skill==3.0.1)
+#10 3.211   Downloading imageio-2.37.4-py3-none-any.whl.metadata (9.6 kB)
+#10 3.401 Collecting mplib==0.1.1 (from mani_skill==3.0.1)
+#10 3.408   Downloading mplib-0.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.7 kB)
+#10 3.440 Collecting IPython (from mani_skill==3.0.1)
+#10 3.443   Downloading ipython-9.17.1-py3-none-any.whl.metadata (4.6 kB)
+#10 3.636 Collecting pytorch_kinematics==0.7.6 (from mani_skill==3.0.1)
+#10 3.641   Downloading pytorch_kinematics-0.7.6-py3-none-any.whl.metadata (15 kB)
+#10 3.651 Collecting defusedxml (from mani_skill==3.0.1)
+#10 3.655   Downloading defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+#10 3.669 Collecting nvidia-ml-py (from mani_skill==3.0.1)
+#10 3.672   Downloading nvidia_ml_py-13.610.43-py3-none-any.whl.metadata (9.7 kB)
+#10 3.702 Collecting tyro>=0.8.5 (from mani_skill==3.0.1)
+#10 3.706   Downloading tyro-1.0.16-py3-none-any.whl.metadata (12 kB)
+#10 3.902 Collecting toppra>=0.4.0 (from mplib==0.1.1->mani_skill==3.0.1)
+#10 3.906   Downloading toppra-0.6.10-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (1.6 kB)
+#10 3.922 Collecting absl-py (from pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 3.926   Downloading absl_py-2.5.0-py3-none-any.whl.metadata (3.3 kB)
+#10 3.928 Requirement already satisfied: torch in /usr/local/lib/python3.11/site-packages (from pytorch_kinematics==0.7.6->mani_skill==3.0.1) (2.6.0+cpu)
+#10 4.087 Collecting matplotlib (from pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 4.091   Downloading matplotlib-3.11.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (80 kB)
+#10 4.094      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.3/80.3 kB 30.9 MB/s eta 0:00:00
+#10 4.289 Collecting pytorch-seed (from pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 4.294   Downloading pytorch_seed-0.2.0-py3-none-any.whl.metadata (3.8 kB)
+#10 4.484 Collecting arm-pytorch-utilities (from pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 4.489   Downloading arm_pytorch_utilities-0.5.0-py3-none-any.whl.metadata (2.6 kB)
+#10 4.618 Collecting charset_normalizer<4,>=2 (from requests>=2.22->sapien==3.0.2)
+#10 4.622   Downloading charset_normalizer-3.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (45 kB)
+#10 4.623      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.9/45.9 kB 302.6 MB/s eta 0:00:00
+#10 4.637 Collecting idna<4,>=2.5 (from requests>=2.22->sapien==3.0.2)
+#10 4.641   Downloading idna-3.19-py3-none-any.whl.metadata (9.2 kB)
+#10 4.666 Collecting urllib3<3,>=1.26 (from requests>=2.22->sapien==3.0.2)
+#10 4.670   Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+#10 4.682 Collecting certifi>=2023.5.7 (from requests>=2.22->sapien==3.0.2)
+#10 4.689   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+#10 4.721 Collecting docstring-parser>=0.16 (from tyro>=0.8.5->mani_skill==3.0.1)
+#10 4.725   Downloading docstring_parser-0.18.0-py3-none-any.whl.metadata (3.5 kB)
+#10 4.739 Collecting typeguard>=4.0.0 (from tyro>=0.8.5->mani_skill==3.0.1)
+#10 4.743   Downloading typeguard-4.6.0-py3-none-any.whl.metadata (3.7 kB)
+#10 4.766 Collecting gitdb<5,>=4.0.1 (from GitPython->mani_skill==3.0.1)
+#10 4.770   Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+#10 4.873 Collecting pillow>=8.3.2 (from imageio->mani_skill==3.0.1)
+#10 4.877   Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+#10 4.904 Collecting imageio-ffmpeg (from imageio[ffmpeg]->mani_skill==3.0.1)
+#10 4.907   Downloading imageio_ffmpeg-0.6.0-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+#10 4.954 Collecting psutil (from imageio[ffmpeg]->mani_skill==3.0.1)
+#10 4.958   Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+#10 5.080 Collecting ipython-pygments-lexers>=1.0.0 (from IPython->mani_skill==3.0.1)
+#10 5.083   Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata (1.1 kB)
+#10 5.095 Collecting jedi>=0.18.2 (from IPython->mani_skill==3.0.1)
+#10 5.102   Downloading jedi-0.20.0-py2.py3-none-any.whl.metadata (23 kB)
+#10 5.112 Collecting matplotlib-inline>=0.1.6 (from IPython->mani_skill==3.0.1)
+#10 5.117   Downloading matplotlib_inline-0.2.2-py3-none-any.whl.metadata (2.4 kB)
+#10 5.127 Collecting pexpect>4.6 (from IPython->mani_skill==3.0.1)
+#10 5.132   Downloading pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)
+#10 5.161 Collecting prompt_toolkit<3.1.0,>=3.0.41 (from IPython->mani_skill==3.0.1)
+#10 5.165   Downloading prompt_toolkit-3.0.53-py3-none-any.whl.metadata (6.4 kB)
+#10 5.180 Collecting pygments>=2.14.0 (from IPython->mani_skill==3.0.1)
+#10 5.187   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+#10 5.195 Collecting stack_data>=0.6.0 (from IPython->mani_skill==3.0.1)
+#10 5.198   Downloading stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+#10 5.210 Collecting traitlets>=5.13.0 (from IPython->mani_skill==3.0.1)
+#10 5.214   Downloading traitlets-5.16.1-py3-none-any.whl.metadata (10 kB)
+#10 5.280 Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->GitPython->mani_skill==3.0.1)
+#10 5.284   Downloading smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+#10 5.310 Collecting parso<0.9.0,>=0.8.6 (from jedi>=0.18.2->IPython->mani_skill==3.0.1)
+#10 5.314   Downloading parso-0.8.7-py2.py3-none-any.whl.metadata (8.2 kB)
+#10 5.335 Collecting ptyprocess>=0.5 (from pexpect>4.6->IPython->mani_skill==3.0.1)
+#10 5.339   Downloading ptyprocess-0.7.0-py2.py3-none-any.whl.metadata (1.3 kB)
+#10 5.359 Collecting wcwidth>=0.1.4 (from prompt_toolkit<3.1.0,>=3.0.41->IPython->mani_skill==3.0.1)
+#10 5.362   Downloading wcwidth-0.8.3-py3-none-any.whl.metadata (43 kB)
+#10 5.364      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.3/43.3 kB 415.0 MB/s eta 0:00:00
+#10 5.395 Collecting executing>=1.2.0 (from stack_data>=0.6.0->IPython->mani_skill==3.0.1)
+#10 5.398   Downloading executing-2.2.1-py2.py3-none-any.whl.metadata (8.9 kB)
+#10 5.409 Collecting asttokens>=2.1.0 (from stack_data>=0.6.0->IPython->mani_skill==3.0.1)
+#10 5.413   Downloading asttokens-3.0.2-py3-none-any.whl.metadata (5.7 kB)
+#10 5.422 Collecting pure-eval (from stack_data>=0.6.0->IPython->mani_skill==3.0.1)
+#10 5.427   Downloading pure_eval-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+#10 5.500 Collecting contourpy>=1.0.1 (from matplotlib->pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 5.504   Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+#10 5.517 Collecting cycler>=0.10 (from matplotlib->pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 5.520   Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+#10 5.599 Collecting fonttools>=4.28.2 (from matplotlib->pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 5.608   Downloading fonttools-4.64.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (123 kB)
+#10 5.609      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.6/123.6 kB 461.0 MB/s eta 0:00:00
+#10 5.652 Collecting kiwisolver>=1.3.1 (from matplotlib->pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 5.655   Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)
+#10 5.682 Collecting pyparsing>=3 (from matplotlib->pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 5.686   Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+#10 5.698 Collecting python-dateutil>=2.7 (from matplotlib->pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 5.703   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+#10 5.717 Requirement already satisfied: jinja2 in /usr/local/lib/python3.11/site-packages (from torch->pytorch_kinematics==0.7.6->mani_skill==3.0.1) (3.1.6)
+#10 5.718 Requirement already satisfied: sympy==1.13.1 in /usr/local/lib/python3.11/site-packages (from torch->pytorch_kinematics==0.7.6->mani_skill==3.0.1) (1.13.1)
+#10 5.722 Requirement already satisfied: mpmath<1.4,>=1.1.0 in /usr/local/lib/python3.11/site-packages (from sympy==1.13.1->torch->pytorch_kinematics==0.7.6->mani_skill==3.0.1) (1.3.0)
+#10 5.783 Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib->pytorch_kinematics==0.7.6->mani_skill==3.0.1)
+#10 5.790   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+#10 5.804 Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.11/site-packages (from jinja2->torch->pytorch_kinematics==0.7.6->mani_skill==3.0.1) (3.0.3)
+#10 5.825 Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+#10 6.825    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 11.8 MB/s eta 0:00:00
+#10 6.829 Downloading scipy-1.15.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+#10 9.346    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.7/37.7 MB 11.8 MB/s eta 0:00:00
+#10 9.351 Downloading gymnasium-0.29.1-py3-none-any.whl (953 kB)
+#10 9.376    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 953.9/953.9 kB 41.1 MB/s eta 0:00:00
+#10 9.380 Downloading sapien-3.0.2-cp311-cp311-manylinux_2_28_x86_64.whl (51.3 MB)
+#10 12.18    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 51.3/51.3 MB 11.9 MB/s eta 0:00:00
+#10 12.18 Downloading h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.5 MB)
+#10 12.27    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 59.5 MB/s eta 0:00:00
+#10 12.28 Downloading transformers-4.51.3-py3-none-any.whl (10.4 MB)
+#10 13.19    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.4/10.4 MB 40.0 MB/s eta 0:00:00
+#10 13.20 Downloading tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+#10 13.25    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 53.0 MB/s eta 0:00:00
+#10 13.26 Downloading huggingface_hub-0.30.2-py3-none-any.whl (481 kB)
+#10 13.27    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 481.4/481.4 kB 59.2 MB/s eta 0:00:00
+#10 13.27 Downloading safetensors-0.5.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (471 kB)
+#10 13.28    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 471.6/471.6 kB 59.8 MB/s eta 0:00:00
+#10 13.29 Downloading regex-2024.11.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (792 kB)
+#10 13.30    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 792.7/792.7 kB 59.2 MB/s eta 0:00:00
+#10 13.31 Downloading mplib-0.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.1 MB)
+#10 14.20    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.1/12.1 MB 11.9 MB/s eta 0:00:00
+#10 14.21 Downloading pytorch_kinematics-0.7.6-py3-none-any.whl (60 kB)
+#10 14.21    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.3/60.3 kB 493.6 MB/s eta 0:00:00
+#10 14.21 Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+#10 14.22 Downloading farama_notifications-0.0.6-py3-none-any.whl (2.9 kB)
+#10 14.22 Downloading opencv_python-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (63.0 MB)
+#10 17.88    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.0/63.0 MB 53.1 MB/s eta 0:00:00
+#10 17.88 Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+#10 17.90    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.6/806.6 kB 60.6 MB/s eta 0:00:00
+#10 17.90 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#10 17.91    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 464.4 MB/s eta 0:00:00
+#10 17.91 Downloading tqdm-4.70.0-py3-none-any.whl (80 kB)
+#10 17.91    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.2/80.2 kB 563.7 MB/s eta 0:00:00
+#10 17.91 Downloading transforms3d-0.4.2-py3-none-any.whl (1.4 MB)
+#10 17.94    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 54.5 MB/s eta 0:00:00
+#10 17.95 Downloading tyro-1.0.16-py3-none-any.whl (216 kB)
+#10 17.95    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 216.9/216.9 kB 80.2 MB/s eta 0:00:00
+#10 17.96 Downloading dacite-1.9.2-py3-none-any.whl (16 kB)
+#10 17.96 Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+#10 17.96 Downloading gitpython-3.1.62-py3-none-any.whl (222 kB)
+#10 17.97    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 222.8/222.8 kB 84.4 MB/s eta 0:00:00
+#10 17.97 Downloading imageio-2.37.4-py3-none-any.whl (318 kB)
+#10 17.97    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 318.0/318.0 kB 91.1 MB/s eta 0:00:00
+#10 17.98 Downloading ipython-9.17.1-py3-none-any.whl (639 kB)
+#10 17.99    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 639.0/639.0 kB 54.5 MB/s eta 0:00:00
+#10 18.00 Downloading lxml-6.1.3-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.2 MB)
+#10 18.82    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 6.3 MB/s eta 0:00:00
+#10 18.82 Downloading nvidia_ml_py-13.610.43-py3-none-any.whl (53 kB)
+#10 18.82    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.2/53.2 kB 470.9 MB/s eta 0:00:00
+#10 18.83 Downloading pyperclip-1.11.0-py3-none-any.whl (11 kB)
+#10 18.83 Downloading tabulate-0.10.0-py3-none-any.whl (39 kB)
+#10 18.84 Downloading trimesh-5.1.0-py3-none-any.whl (750 kB)
+#10 18.85    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 750.0/750.0 kB 43.7 MB/s eta 0:00:00
+#10 18.86 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+#10 18.86    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.0/137.0 kB 59.0 MB/s eta 0:00:00
+#10 18.87 Downloading charset_normalizer-3.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (262 kB)
+#10 18.87    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 262.3/262.3 kB 68.5 MB/s eta 0:00:00
+#10 18.88 Downloading docstring_parser-0.18.0-py3-none-any.whl (22 kB)
+#10 18.88 Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+#10 18.88    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 332.7 MB/s eta 0:00:00
+#10 18.89 Downloading idna-3.19-py3-none-any.whl (68 kB)
+#10 18.89    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.5/68.5 kB 409.2 MB/s eta 0:00:00
+#10 18.89 Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl (8.1 kB)
+#10 18.90 Downloading jedi-0.20.0-py2.py3-none-any.whl (4.9 MB)
+#10 18.99    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 52.5 MB/s eta 0:00:00
+#10 19.00 Downloading matplotlib_inline-0.2.2-py3-none-any.whl (9.5 kB)
+#10 19.00 Downloading pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+#10 19.00    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.8/63.8 kB 555.5 MB/s eta 0:00:00
+#10 19.00 Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+#10 19.80    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 8.7 MB/s eta 0:00:00
+#10 19.81 Downloading prompt_toolkit-3.0.53-py3-none-any.whl (392 kB)
+#10 19.82    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 392.3/392.3 kB 51.8 MB/s eta 0:00:00
+#10 19.82 Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+#10 19.82    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.6/155.6 kB 61.2 MB/s eta 0:00:00
+#10 19.83 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+#10 19.86    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 47.9 MB/s eta 0:00:00
+#10 19.86 Downloading stack_data-0.6.3-py3-none-any.whl (24 kB)
+#10 19.86 Downloading toppra-0.6.10-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (870 kB)
+#10 19.88    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 870.1/870.1 kB 52.9 MB/s eta 0:00:00
+#10 19.89 Downloading traitlets-5.16.1-py3-none-any.whl (86 kB)
+#10 19.89    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.2/86.2 kB 511.3 MB/s eta 0:00:00
+#10 19.89 Downloading typeguard-4.6.0-py3-none-any.whl (36 kB)
+#10 19.90 Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+#10 19.90    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.1/131.1 kB 119.6 MB/s eta 0:00:00
+#10 19.90 Downloading absl_py-2.5.0-py3-none-any.whl (137 kB)
+#10 19.90    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.4/137.4 kB 99.8 MB/s eta 0:00:00
+#10 19.91 Downloading arm_pytorch_utilities-0.5.0-py3-none-any.whl (41 kB)
+#10 19.91    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.1/41.1 kB 486.0 MB/s eta 0:00:00
+#10 19.91 Downloading imageio_ffmpeg-0.6.0-py3-none-manylinux2014_x86_64.whl (29.5 MB)
+#10 21.61    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.5/29.5 MB 23.5 MB/s eta 0:00:00
+#10 21.62 Downloading matplotlib-3.11.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (10.0 MB)
+#10 22.05    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 23.4 MB/s eta 0:00:00
+#10 22.05 Downloading pytorch_seed-0.2.0-py3-none-any.whl (4.2 kB)
+#10 22.06 Downloading asttokens-3.0.2-py3-none-any.whl (28 kB)
+#10 22.06 Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (355 kB)
+#10 22.07    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 355.2/355.2 kB 62.3 MB/s eta 0:00:00
+#10 22.07 Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+#10 22.08 Downloading executing-2.2.1-py2.py3-none-any.whl (28 kB)
+#10 22.08 Downloading fonttools-4.64.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.5 MB)
+#10 22.84    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 7.2 MB/s eta 0:00:00
+#10 22.85 Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+#10 22.88    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 45.6 MB/s eta 0:00:00
+#10 22.88 Downloading parso-0.8.7-py2.py3-none-any.whl (107 kB)
+#10 22.89    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.0/107.0 kB 77.3 MB/s eta 0:00:00
+#10 22.89 Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+#10 22.89 Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+#10 22.90    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 122.8/122.8 kB 53.2 MB/s eta 0:00:00
+#10 22.90 Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#10 22.91    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 54.5 MB/s eta 0:00:00
+#10 22.91 Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+#10 22.91 Downloading wcwidth-0.8.3-py3-none-any.whl (331 kB)
+#10 22.92    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 331.7/331.7 kB 56.3 MB/s eta 0:00:00
+#10 22.93 Downloading pure_eval-0.2.3-py3-none-any.whl (11 kB)
+#10 22.93 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#10 23.11 Building wheels for collected packages: mani_skill
+#10 23.11   Building wheel for mani_skill (pyproject.toml): started
+#10 27.96   Building wheel for mani_skill (pyproject.toml): finished with status 'done'
+#10 27.99   Created wheel for mani_skill: filename=mani_skill-3.0.1-py3-none-any.whl size=101729066 sha256=cb7356c876f05e2e6e1e0e64cd4b871f4420e0fa8e79e606f879ca1a86033a61
+#10 27.99   Stored in directory: /tmp/pip-ephem-wheel-cache-gwr6wjzu/wheels/bb/b1/24/37f6adeb233c4e2908668fb753e79646f71ac7f3df8a48839a
+#10 27.99 Successfully built mani_skill
+#10 28.48 Installing collected packages: pyperclip, pure-eval, ptyprocess, nvidia-ml-py, farama-notifications, wcwidth, urllib3, typeguard, traitlets, tqdm, tabulate, smmap, six, safetensors, regex, pyyaml, pyparsing, pygments, psutil, pillow, pexpect, parso, numpy, lxml, kiwisolver, imageio-ffmpeg, idna, fonttools, executing, docstring-parser, defusedxml, dacite, cycler, cloudpickle, charset_normalizer, certifi, asttokens, absl-py, tyro, trimesh, transforms3d, stack_data, scipy, requests, python-dateutil, prompt_toolkit, opencv-python, matplotlib-inline, jedi, ipython-pygments-lexers, imageio, h5py, gymnasium, gitdb, contourpy, sapien, pytorch-seed, matplotlib, IPython, huggingface-hub, GitPython, toppra, tokenizers, arm-pytorch-utilities, transformers, pytorch_kinematics, mplib, mani_skill
+#10 41.35 Successfully installed GitPython-3.1.62 IPython-9.17.1 absl-py-2.5.0 arm-pytorch-utilities-0.5.0 asttokens-3.0.2 certifi-2026.7.22 charset_normalizer-3.5.1 cloudpickle-3.1.2 contourpy-1.3.3 cycler-0.12.1 dacite-1.9.2 defusedxml-0.7.1 docstring-parser-0.18.0 executing-2.2.1 farama-notifications-0.0.6 fonttools-4.64.0 gitdb-4.0.12 gymnasium-0.29.1 h5py-3.12.1 huggingface-hub-0.30.2 idna-3.19 imageio-2.37.4 imageio-ffmpeg-0.6.0 ipython-pygments-lexers-1.1.1 jedi-0.20.0 kiwisolver-1.5.1 lxml-6.1.3 mani_skill-3.0.1 matplotlib-3.11.1 matplotlib-inline-0.2.2 mplib-0.1.1 numpy-1.26.4 nvidia-ml-py-13.610.43 opencv-python-4.11.0.86 parso-0.8.7 pexpect-4.9.0 pillow-12.3.0 prompt_toolkit-3.0.53 psutil-7.2.2 ptyprocess-0.7.0 pure-eval-0.2.3 pygments-2.21.0 pyparsing-3.3.2 pyperclip-1.11.0 python-dateutil-2.9.0.post0 pytorch-seed-0.2.0 pytorch_kinematics-0.7.6 pyyaml-6.0.3 regex-2024.11.6 requests-2.34.2 safetensors-0.5.3 sapien-3.0.2 scipy-1.15.3 six-1.17.0 smmap-5.0.3 stack_data-0.6.3 tabulate-0.10.0 tokenizers-0.21.1 toppra-0.6.10 tqdm-4.70.0 traitlets-5.16.1 transformers-4.51.3 transforms3d-0.4.2 trimesh-5.1.0 typeguard-4.6.0 tyro-1.0.16 urllib3-2.7.0 wcwidth-0.8.3
+#10 41.35 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#10 DONE 44.7s
+
+#11 [7/8] RUN pip freeze --all > /opt/dependencies.lock && dpkg-query -W > /opt/os-packages.lock
+#11 DONE 0.6s
+
+#12 [8/8] WORKDIR /work
+#12 DONE 0.1s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 34.5s done
+#13 exporting manifest sha256:c3558e4856e3a280bc8d291990d23a4780579e58e12f03b00755afad9285edc1 0.0s done
+#13 exporting config sha256:8a841d1b52b15186fcc8f786ecaba55ec608a37561dadae12890bb26060d8d5a 0.0s done
+#13 exporting attestation manifest sha256:68001fa49699d3446cdfaaadcadf7a831702c9e11be7a5d3792e52cd5654dc03 0.1s done
+#13 exporting manifest list sha256:fb9c530b6d664536b7665a3647c28459c729b250e5b1300cc47494820c388b5f
+#13 exporting manifest list sha256:fb9c530b6d664536b7665a3647c28459c729b250e5b1300cc47494820c388b5f 0.0s done
+#13 naming to docker.io/library/research3-q11-pilot:v2 done
+#13 unpacking to docker.io/library/research3-q11-pilot:v2
+#13 unpacking to docker.io/library/research3-q11-pilot:v2 9.0s done
+#13 DONE 43.7s

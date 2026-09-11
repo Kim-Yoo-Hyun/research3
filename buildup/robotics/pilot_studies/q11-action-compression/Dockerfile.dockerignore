@@ -1,0 +1,10 @@
+**
+!external/
+!external/q8/
+!external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/
+!external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/**
+!buildup/
+!buildup/robotics/
+!buildup/robotics/pilot_studies/
+!buildup/robotics/pilot_studies/q11-action-compression/
+!buildup/robotics/pilot_studies/q11-action-compression/constraints.txt

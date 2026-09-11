@@ -1,0 +1,1232 @@
+         1:	find library=libpython3.11.so.1.0 [0]; searching
+         1:	 search path=/usr/local/bin/../lib/glibc-hwcaps/x86-64-v3:/usr/local/bin/../lib/glibc-hwcaps/x86-64-v2:/usr/local/bin/../lib/tls/haswell/x86_64:/usr/local/bin/../lib/tls/haswell:/usr/local/bin/../lib/tls/x86_64:/usr/local/bin/../lib/tls:/usr/local/bin/../lib/haswell/x86_64:/usr/local/bin/../lib/haswell:/usr/local/bin/../lib/x86_64:/usr/local/bin/../lib		(RUNPATH from file python)
+         1:	  trying file=/usr/local/bin/../lib/glibc-hwcaps/x86-64-v3/libpython3.11.so.1.0
+         1:	  trying file=/usr/local/bin/../lib/glibc-hwcaps/x86-64-v2/libpython3.11.so.1.0
+         1:	  trying file=/usr/local/bin/../lib/tls/haswell/x86_64/libpython3.11.so.1.0
+         1:	  trying file=/usr/local/bin/../lib/tls/haswell/libpython3.11.so.1.0
+         1:	  trying file=/usr/local/bin/../lib/tls/x86_64/libpython3.11.so.1.0
+         1:	  trying file=/usr/local/bin/../lib/tls/libpython3.11.so.1.0
+         1:	  trying file=/usr/local/bin/../lib/haswell/x86_64/libpython3.11.so.1.0
+         1:	  trying file=/usr/local/bin/../lib/haswell/libpython3.11.so.1.0
+         1:	  trying file=/usr/local/bin/../lib/x86_64/libpython3.11.so.1.0
+         1:	  trying file=/usr/local/bin/../lib/libpython3.11.so.1.0
+         1:	
+         1:	find library=libc.so.6 [0]; searching
+         1:	 search path=/usr/local/bin/../lib		(RUNPATH from file python)
+         1:	  trying file=/usr/local/bin/../lib/libc.so.6
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libc.so.6
+         1:	
+         1:	find library=libm.so.6 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libm.so.6
+         1:	
+         1:	
+         1:	calling init: /lib64/ld-linux-x86-64.so.2
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libm.so.6
+         1:	
+         1:	
+         1:	calling init: /usr/local/bin/../lib/libpython3.11.so.1.0
+         1:	
+         1:	
+         1:	initialize program: python
+         1:	
+         1:	
+         1:	transferring control: python
+         1:	
+         1:	find library=libz.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libz.so.1
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libz.so.1
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/binascii.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_struct.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/math.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_bisect.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_random.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_sha512.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_socket.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/select.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/array.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_datetime.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/zlib.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	find library=libbz2.so.1.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libbz2.so.1.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libbz2.so.1.0
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_bz2.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	find library=liblzma.so.5 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/liblzma.so.5
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/liblzma.so.5
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_lzma.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_typing.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_opcode.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/pyexpat.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/fcntl.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_posixsubprocess.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_queue.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	find library=libcrypto.so.3 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libcrypto.so.3
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libcrypto.so.3
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_hashlib.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_blake2.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	find library=libssl.so.3 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libssl.so.3
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libssl.so.3
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_ssl.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/grp.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	find library=libffi.so.8 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libffi.so.8
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libffi.so.8
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_ctypes.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	find library=libdl.so.2 [0]; searching
+         1:	 search path=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/glibc-hwcaps/x86-64-v3:/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/glibc-hwcaps/x86-64-v2:/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/tls/haswell/x86_64:/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/tls/haswell:/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/tls/x86_64:/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/tls:/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/haswell/x86_64:/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/haswell:/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/x86_64:/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64		(RUNPATH from file /usr/local/lib/python3.11/site-packages/sapien/oidn_library/libOpenImageDenoise_core.so.2.0.1)
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/glibc-hwcaps/x86-64-v3/libdl.so.2
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/glibc-hwcaps/x86-64-v2/libdl.so.2
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/tls/haswell/x86_64/libdl.so.2
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/tls/haswell/libdl.so.2
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/tls/x86_64/libdl.so.2
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/tls/libdl.so.2
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/haswell/x86_64/libdl.so.2
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/haswell/libdl.so.2
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/x86_64/libdl.so.2
+         1:	  trying file=/__w/SAPIEN/SAPIEN/docker_sapien_build/_sapien_install/lib64/libdl.so.2
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libdl.so.2
+         1:	
+         1:	find library=libpthread.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libpthread.so.0
+         1:	
+         1:	find library=libstdc++.so.6 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libstdc++.so.6
+         1:	
+         1:	find library=libgcc_s.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libgcc_s.so.1
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libgcc_s.so.1
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libstdc++.so.6
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libpthread.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libdl.so.2
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/sapien/oidn_library/libOpenImageDenoise_core.so.2.0.1
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/sapien/oidn_library/libOpenImageDenoise.so.2.0.1
+         1:	
+         1:	find library=libsapien.so [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/glibc-hwcaps/x86-64-v3:/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/glibc-hwcaps/x86-64-v2:/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/tls/haswell/x86_64:/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/tls/haswell:/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/tls/x86_64:/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/tls:/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/haswell/x86_64:/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/haswell:/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/x86_64:/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/glibc-hwcaps/x86-64-v3/libsapien.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/glibc-hwcaps/x86-64-v2/libsapien.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/tls/haswell/x86_64/libsapien.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/tls/haswell/libsapien.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/tls/x86_64/libsapien.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/tls/libsapien.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/haswell/x86_64/libsapien.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/haswell/libsapien.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/x86_64/libsapien.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libsapien.so
+         1:	
+         1:	find library=libsimsense-1f0a39f4.so [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libsimsense-1f0a39f4.so
+         1:	
+         1:	find library=libsvulkan2.so [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libsvulkan2.so
+         1:	
+         1:	find library=librt.so.1 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/librt.so.1
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/librt.so.1
+         1:	
+         1:	find library=libX11.so.6 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libX11.so.6
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libX11.so.6
+         1:	
+         1:	find library=libxcb.so.1 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libxcb.so.1
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libxcb.so.1
+         1:	
+         1:	find library=libXau.so.6 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libXau.so.6
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libXau.so.6
+         1:	
+         1:	find library=libXdmcp.so.6 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libXdmcp.so.6
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libXdmcp.so.6
+         1:	
+         1:	find library=libbsd.so.0 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libbsd.so.0
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libbsd.so.0
+         1:	
+         1:	find library=libmd.so.0 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libmd.so.0
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libmd.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libmd.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libbsd.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libXdmcp.so.6
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libXau.so.6
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libxcb.so.1
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libX11.so.6
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/librt.so.1
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libsvulkan2.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libsimsense-1f0a39f4.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libsapien.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	find library=libopenblas64_p-r0-0cf96a72.3.23.dev.so [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/glibc-hwcaps/x86-64-v3:/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/glibc-hwcaps/x86-64-v2:/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/tls/haswell/x86_64:/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/tls/haswell:/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/tls/x86_64:/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/tls:/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/haswell/x86_64:/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/haswell:/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/x86_64:/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/numpy/core/_multiarray_umath.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/glibc-hwcaps/x86-64-v3/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/glibc-hwcaps/x86-64-v2/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/tls/haswell/x86_64/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/tls/haswell/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/tls/x86_64/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/tls/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/haswell/x86_64/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/haswell/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/x86_64/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	
+         1:	find library=libgfortran-040039e1.so.5.0.0 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/numpy/core/_multiarray_umath.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libgfortran-040039e1.so.5.0.0
+         1:	
+         1:	find library=libquadmath-96973f99.so.0.0.0 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/numpy/core/_multiarray_umath.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libquadmath-96973f99.so.0.0.0
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libquadmath-96973f99.so.0.0.0
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libgfortran-040039e1.so.5.0.0
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/core/_multiarray_umath.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_pickle.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_contextvars.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/core/_multiarray_tests.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/linalg/_umath_linalg.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/fft/_pocketfft_internal.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/random/mtrand.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/random/bit_generator.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/random/_common.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/random/_bounded_integers.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/random/_mt19937.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/random/_philox.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/random/_pcg64.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/random/_sfc64.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/numpy/random/_generator.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_json.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_csv.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/charset_normalizer/cd.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/charset_normalizer/md.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/unicodedata.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_codecs_tw.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_multibytecodec.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_codecs_jp.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_codecs_cn.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_codecs_kr.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_codecs_iso2022.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_codecs_hk.cpython-311-x86_64-linux-gnu.so
+         1:	
+        51:	find library=libc.so.6 [0]; searching
+        51:	 search cache=/etc/ld.so.cache
+        51:	  trying file=/lib/x86_64-linux-gnu/libc.so.6
+        51:	
+        51:	
+        51:	calling init: /lib64/ld-linux-x86-64.so.2
+        51:	
+        51:	
+        51:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+        51:	
+        51:	
+        51:	initialize program: sh
+        51:	
+        51:	
+        51:	transferring control: sh
+        51:	
+        54:	find library=libc.so.6 [0]; searching
+        54:	 search cache=/etc/ld.so.cache
+        54:	  trying file=/lib/x86_64-linux-gnu/libc.so.6
+        54:	
+        54:	
+        54:	calling init: /lib64/ld-linux-x86-64.so.2
+        54:	
+        54:	
+        54:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+        54:	
+        54:	
+        54:	initialize program: sh
+        54:	
+        54:	
+        54:	transferring control: sh
+        54:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/lib-dynload/_elementtree.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	find library=liblzma-51a76f52.so.5.2.4 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/liblzma-51a76f52.so.5.2.4
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/liblzma-51a76f52.so.5.2.4
+         1:	
+         1:	
+         1:	calling init: /usr/local/lib/python3.11/site-packages/sapien/pysapien_pinocchio.cpython-311-x86_64-linux-gnu.so
+         1:	
+         1:	find library=libvulkan.so [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libvulkan.so
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v3:/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2:/lib/x86_64-linux-gnu/tls/haswell/x86_64:/lib/x86_64-linux-gnu/tls/haswell:/lib/x86_64-linux-gnu/tls/x86_64:/lib/x86_64-linux-gnu/tls:/lib/x86_64-linux-gnu/haswell/x86_64:/lib/x86_64-linux-gnu/haswell:/lib/x86_64-linux-gnu/x86_64:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v3:/usr/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2:/usr/lib/x86_64-linux-gnu/tls/haswell/x86_64:/usr/lib/x86_64-linux-gnu/tls/haswell:/usr/lib/x86_64-linux-gnu/tls/x86_64:/usr/lib/x86_64-linux-gnu/tls:/usr/lib/x86_64-linux-gnu/haswell/x86_64:/usr/lib/x86_64-linux-gnu/haswell:/usr/lib/x86_64-linux-gnu/x86_64:/usr/lib/x86_64-linux-gnu:/lib/glibc-hwcaps/x86-64-v3:/lib/glibc-hwcaps/x86-64-v2:/lib/tls/haswell/x86_64:/lib/tls/haswell:/lib/tls/x86_64:/lib/tls:/lib/haswell/x86_64:/lib/haswell:/lib/x86_64:/lib:/usr/lib/glibc-hwcaps/x86-64-v3:/usr/lib/glibc-hwcaps/x86-64-v2:/usr/lib/tls/haswell/x86_64:/usr/lib/tls/haswell:/usr/lib/tls/x86_64:/usr/lib/tls:/usr/lib/haswell/x86_64:/usr/lib/haswell:/usr/lib/x86_64:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v3/libvulkan.so
+         1:	  trying file=/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libvulkan.so
+         1:	  trying file=/lib/x86_64-linux-gnu/tls/haswell/x86_64/libvulkan.so
+         1:	  trying file=/lib/x86_64-linux-gnu/tls/haswell/libvulkan.so
+         1:	  trying file=/lib/x86_64-linux-gnu/tls/x86_64/libvulkan.so
+         1:	  trying file=/lib/x86_64-linux-gnu/tls/libvulkan.so
+         1:	  trying file=/lib/x86_64-linux-gnu/haswell/x86_64/libvulkan.so
+         1:	  trying file=/lib/x86_64-linux-gnu/haswell/libvulkan.so
+         1:	  trying file=/lib/x86_64-linux-gnu/x86_64/libvulkan.so
+         1:	  trying file=/lib/x86_64-linux-gnu/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v3/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/tls/haswell/x86_64/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/tls/haswell/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/tls/x86_64/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/tls/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/haswell/x86_64/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/haswell/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/x86_64/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libvulkan.so
+         1:	  trying file=/lib/glibc-hwcaps/x86-64-v3/libvulkan.so
+         1:	  trying file=/lib/glibc-hwcaps/x86-64-v2/libvulkan.so
+         1:	  trying file=/lib/tls/haswell/x86_64/libvulkan.so
+         1:	  trying file=/lib/tls/haswell/libvulkan.so
+         1:	  trying file=/lib/tls/x86_64/libvulkan.so
+         1:	  trying file=/lib/tls/libvulkan.so
+         1:	  trying file=/lib/haswell/x86_64/libvulkan.so
+         1:	  trying file=/lib/haswell/libvulkan.so
+         1:	  trying file=/lib/x86_64/libvulkan.so
+         1:	  trying file=/lib/libvulkan.so
+         1:	  trying file=/usr/lib/glibc-hwcaps/x86-64-v3/libvulkan.so
+         1:	  trying file=/usr/lib/glibc-hwcaps/x86-64-v2/libvulkan.so
+         1:	  trying file=/usr/lib/tls/haswell/x86_64/libvulkan.so
+         1:	  trying file=/usr/lib/tls/haswell/libvulkan.so
+         1:	  trying file=/usr/lib/tls/x86_64/libvulkan.so
+         1:	  trying file=/usr/lib/tls/libvulkan.so
+         1:	  trying file=/usr/lib/haswell/x86_64/libvulkan.so
+         1:	  trying file=/usr/lib/haswell/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64/libvulkan.so
+         1:	  trying file=/usr/lib/libvulkan.so
+         1:	
+         1:	find library=libvulkan.so.1 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libvulkan.so.1
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libvulkan.so.1
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libvulkan.so.1
+         1:	
+         1:	find library=libVkLayer_MESA_device_select.so [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so
+         1:	
+         1:	find library=libxcb-dri3.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libxcb-dri3.so.0
+         1:	
+         1:	find library=libwayland-client.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libwayland-client.so.0
+         1:	
+         1:	find library=libdrm.so.2 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libdrm.so.2
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libdrm.so.2
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libwayland-client.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libxcb-dri3.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so
+         1:	
+         1:	/lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so: error: symbol lookup error: undefined symbol:  (fatal)
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libxcb-dri3.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libwayland-client.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libdrm.so.2 [0]
+         1:	
+         1:	find library=libVkLayer_MESA_device_select.so [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so
+         1:	
+         1:	find library=libxcb-dri3.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libxcb-dri3.so.0
+         1:	
+         1:	find library=libwayland-client.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libwayland-client.so.0
+         1:	
+         1:	find library=libdrm.so.2 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libdrm.so.2
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libdrm.so.2
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libwayland-client.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libxcb-dri3.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so
+         1:	
+         1:	/lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so: error: symbol lookup error: undefined symbol:  (fatal)
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libxcb-dri3.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libwayland-client.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libdrm.so.2 [0]
+         1:	
+         1:	find library=libGLX_nvidia.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libGLX_nvidia.so.0
+         1:	
+         1:	find library=libnvidia-glsi.so.580.173.02 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libnvidia-glsi.so.580.173.02
+         1:	
+         1:	find library=libnvidia-tls.so.580.173.02 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libnvidia-tls.so.580.173.02
+         1:	
+         1:	find library=libnvidia-glcore.so.580.173.02 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02
+         1:	
+         1:	find library=libXext.so.6 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libXext.so.6
+         1:	
+         1:	find library=libnvidia-gpucomp.so.580.173.02 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libnvidia-gpucomp.so.580.173.02
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libnvidia-gpucomp.so.580.173.02
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libXext.so.6
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libnvidia-tls.so.580.173.02
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libnvidia-glsi.so.580.173.02
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libGLX_nvidia.so.0
+         1:	
+         1:	/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02: error: symbol lookup error: undefined symbol: __malloc_hook (fatal)
+         1:	/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02: error: symbol lookup error: undefined symbol: __realloc_hook (fatal)
+         1:	/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02: error: symbol lookup error: undefined symbol: __free_hook (fatal)
+         1:	/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02: error: symbol lookup error: undefined symbol: __memalign_hook (fatal)
+         1:	/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02: error: symbol lookup error: undefined symbol: ErrorF (fatal)
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libvulkan.so.1 [0]
+         1:	
+         1:	find library=libcuda.so.1 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libcuda.so.1
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libcuda.so.1
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libcuda.so.1
+         1:	
+         1:	find library=libvulkan.so [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libvulkan.so
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libvulkan.so
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libvulkan.so
+         1:	  trying file=/lib/libvulkan.so
+         1:	  trying file=/usr/lib/libvulkan.so
+         1:	
+         1:	find library=libvulkan.so.1 [0]; searching
+         1:	 search path=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs		(RPATH from file /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so)
+         1:	  trying file=/usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libvulkan.so.1
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libvulkan.so.1
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libvulkan.so.1
+         1:	
+         1:	find library=libVkLayer_MESA_device_select.so [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so
+         1:	
+         1:	find library=libxcb-dri3.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libxcb-dri3.so.0
+         1:	
+         1:	find library=libwayland-client.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libwayland-client.so.0
+         1:	
+         1:	find library=libdrm.so.2 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libdrm.so.2
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libdrm.so.2
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libwayland-client.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libxcb-dri3.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so
+         1:	
+         1:	/lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so: error: symbol lookup error: undefined symbol:  (fatal)
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libxcb-dri3.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libwayland-client.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libdrm.so.2 [0]
+         1:	
+         1:	find library=libVkLayer_MESA_device_select.so [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so
+         1:	
+         1:	find library=libxcb-dri3.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libxcb-dri3.so.0
+         1:	
+         1:	find library=libwayland-client.so.0 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libwayland-client.so.0
+         1:	
+         1:	find library=libdrm.so.2 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	  trying file=/lib/x86_64-linux-gnu/libdrm.so.2
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libdrm.so.2
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libwayland-client.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libxcb-dri3.so.0
+         1:	
+         1:	
+         1:	calling init: /lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so
+         1:	
+         1:	/lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so: error: symbol lookup error: undefined symbol:  (fatal)
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libVkLayer_MESA_device_select.so [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libxcb-dri3.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libwayland-client.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libdrm.so.2 [0]
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+[2026-09-08 01:58:10.398] [svulkan2] [error] Extension VK_KHR_external_memory_capabilities is not available. Interop with external library is disabled.
+[2026-09-08 01:58:10.398] [svulkan2] [error] Extension VK_KHR_external_semaphore_capabilities is not available. Interop with external library is disabled.
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+         1:	find library=libEGL.so.1 [0]; searching
+         1:	 search cache=/etc/ld.so.cache
+         1:	 search path=/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib:/usr/lib		(system search path)
+         1:	  trying file=/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/usr/lib/x86_64-linux-gnu/libEGL.so.1
+         1:	  trying file=/lib/libEGL.so.1
+         1:	  trying file=/usr/lib/libEGL.so.1
+         1:	
+[2026-09-08 01:58:10.398] [svulkan2] [error] Your GPU driver does not support Vulkan. You may not use the renderer for rendering.
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libvulkan.so.1 [0]
+         1:	
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+RuntimeError: vk::createInstanceUnique: ErrorIncompatibleDriver
+         1:	
+         1:	calling fini:  [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/bin/../lib/libpython3.11.so.1.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/binascii.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_struct.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/math.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_bisect.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_random.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_sha512.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_socket.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/select.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/array.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_datetime.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/zlib.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_bz2.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libbz2.so.1.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_lzma.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/liblzma.so.5 [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_typing.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_opcode.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/pyexpat.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/fcntl.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_posixsubprocess.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_queue.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_hashlib.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_blake2.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_ssl.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libssl.so.3 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libcrypto.so.3 [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/grp.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_ctypes.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libffi.so.8 [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/core/_multiarray_umath.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_pickle.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_contextvars.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/core/_multiarray_tests.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/linalg/_umath_linalg.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libgfortran-040039e1.so.5.0.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libz.so.1 [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libquadmath-96973f99.so.0.0.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/fft/_pocketfft_internal.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/random/mtrand.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/random/bit_generator.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/random/_common.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/random/_bounded_integers.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/random/_mt19937.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/random/_philox.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/random/_pcg64.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/random/_sfc64.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/numpy/random/_generator.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_json.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_csv.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/charset_normalizer/cd.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/charset_normalizer/md.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/unicodedata.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_codecs_tw.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_multibytecodec.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_codecs_jp.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_codecs_cn.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_codecs_kr.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_codecs_iso2022.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_codecs_hk.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/lib-dynload/_elementtree.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/sapien/pysapien_pinocchio.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/sapien/pysapien.cpython-311-x86_64-linux-gnu.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libsapien.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libsvulkan2.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/libsimsense-1f0a39f4.so [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/sapien/oidn_library/libOpenImageDenoise.so.2.0.1 [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/sapien/oidn_library/libOpenImageDenoise_core.so.2.0.1 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libstdc++.so.6 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libgcc_s.so.1 [0]
+         1:	
+         1:	
+         1:	calling fini: /usr/local/lib/python3.11/site-packages/sapien/../sapien.libs/liblzma-51a76f52.so.5.2.4 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libGLX_nvidia.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libnvidia-glsi.so.580.173.02 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libnvidia-tls.so.580.173.02 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libXext.so.6 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libX11.so.6 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libxcb.so.1 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libXdmcp.so.6 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libbsd.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libmd.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libXau.so.6 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libnvidia-gpucomp.so.580.173.02 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libcuda.so.1 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/librt.so.1 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libpthread.so.0 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libdl.so.2 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libm.so.6 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib/x86_64-linux-gnu/libc.so.6 [0]
+         1:	
+         1:	
+         1:	calling fini: /lib64/ld-linux-x86-64.so.2 [0]
+         1:	

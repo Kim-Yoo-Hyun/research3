@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "real_dataset_mounted": false,
+  "image_id": "sha256:9cddc2624d3c0223628386fe002b8b853d971457ef0675479f4f5d5f59910647",
+  "log": "logs/20260910_135614_q12_preflight.log",
+  "log_sha256": "6a72522f26fc8adcfd6b72d664e5f75eaac91613699f773bd6e666ce631ecc5d",
+  "command": "timeout 120 docker run --rm --name research3-q12-input-final-preflight-v1 --network none --read-only --cap-drop ALL --security-opt no-new-privileges --cpus 2 --memory 2g --pids-limit 128 --tmpfs /tmp:rw,size=64m -v /home/yoohyun/research3/buildup/robotics/pilot_studies/q12-generated-geometry:/study:ro sha256:9cddc2624d3c0223628386fe002b8b853d971457ef0675479f4f5d5f59910647 /study/selftest.py",
+  "synthetic_only": true,
+  "checks": [
+    "malformed and degenerate arrays rejected",
+    "inverse and 7/6 restoration",
+    "source FPS versus exhaustive reference",
+    "four-pair end-to-end valid fixture",
+    "schema failure keeps denominator",
+    "corrupted raw input rejected",
+    "independent verifier"
+  ]
+}

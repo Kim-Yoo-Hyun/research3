@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "coverage_rows": 6,
+  "fold_count": 675,
+  "selection_records": 45,
+  "nested_predictions": 309,
+  "checks": [
+    "input hashes",
+    "train-only row membership",
+    "coverage counts",
+    "nested training class counts",
+    "selection frequencies",
+    "independent nested BA/Brier"
+  ]
+}

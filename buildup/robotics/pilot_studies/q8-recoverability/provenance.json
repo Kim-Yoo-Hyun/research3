@@ -1,0 +1,110 @@
+{
+  "inputs": {
+    "ppo_pd_ee_delta_pos_ckpt.pt": {
+      "bytes": 1152034,
+      "sha256": "0b17b5ed9690ccf83111d0f09af8d1599f69ee7ba0077e1aac48814ac78ce99c"
+    },
+    "ppo_pd_joint_delta_pos_ckpt.pt": {
+      "bytes": 1156130,
+      "sha256": "78959417279892d73e4ed5930a6d8de8626a24eee0ec553dfc6af61391b0b356"
+    },
+    "trajectory.json": {
+      "bytes": 228218,
+      "sha256": "16e403cb77bfbdda28c243b96eb90adbae1c0edf42854283be57ee47076a2e90"
+    },
+    "trajectory.h5": {
+      "bytes": 29349195,
+      "sha256": "03ca60546541a7f18321d9d32721f0254bc75217828c0cadacd217d0c014576a"
+    }
+  },
+  "source": {
+    "envs/sapien_env.py": "459196c275764eaf53ccba8e154e3207036399e54c8bdd45f9e7d0919970464b",
+    "envs/scene.py": "2e875f4a053fb5687bee3b7858716be3196bd8d6cae35fbf9ad110b031156fed",
+    "envs/tasks/tabletop/pick_cube.py": "6f881f11151bd124a4ec6d1189e86e20b17d366aa1cbcc6e2f751f1f5bb03ed1",
+    "agents/controllers/pd_joint_pos.py": "ce05feb05c4370ec2be58c60465082dde15fd97e6398a187a648a5e932a4d58e",
+    "agents/controllers/pd_ee_pose.py": "318110fe18cb879eae00ca106f0117eed94679b79ee00ee226bacd38e4755f97"
+  },
+  "schema": {
+    "trajectories": 1000,
+    "traj_0": {
+      "actions": {
+        "shape": [
+          74,
+          8
+        ],
+        "dtype": "float32"
+      },
+      "env_states/actors/cube": {
+        "shape": [
+          75,
+          13
+        ],
+        "dtype": "float32"
+      },
+      "env_states/actors/goal_site": {
+        "shape": [
+          75,
+          13
+        ],
+        "dtype": "float32"
+      },
+      "env_states/actors/table-workspace": {
+        "shape": [
+          75,
+          13
+        ],
+        "dtype": "float32"
+      },
+      "env_states/articulations/panda": {
+        "shape": [
+          75,
+          31
+        ],
+        "dtype": "float32"
+      },
+      "rewards": {
+        "shape": [
+          74
+        ],
+        "dtype": "float32"
+      },
+      "success": {
+        "shape": [
+          74
+        ],
+        "dtype": "bool"
+      },
+      "terminated": {
+        "shape": [
+          74
+        ],
+        "dtype": "bool"
+      },
+      "truncated": {
+        "shape": [
+          74
+        ],
+        "dtype": "bool"
+      }
+    }
+  },
+  "demo_metadata": {
+    "env_info": {
+      "env_id": "PickCube-v1",
+      "env_kwargs": {
+        "obs_mode": "none",
+        "control_mode": "pd_joint_pos",
+        "render_mode": "rgb_array",
+        "reward_mode": "dense",
+        "shader_dir": "default",
+        "sim_backend": "auto"
+      },
+      "max_episode_steps": 50
+    },
+    "commit_info": {
+      "commit_id": "652ad9353c0223507a938f0e8d990dd6f1c771ad",
+      "branch": "main"
+    },
+    "episodes": 1000
+  }
+}

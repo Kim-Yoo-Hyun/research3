@@ -1,0 +1,7 @@
+{"decision": "INPUT_CONTROLS_VALID_PHYSICAL_FRAME_UNRESOLVED", "pairs": 4}
+VERIFIED INPUT_CONTROLS_VALID_PHYSICAL_FRAME_UNRESOLVED
+{"decision": "REFINE_INPUT_SCHEMA", "pairs": 4}
+VERIFIED REFINE_INPUT_SCHEMA
+{"decision": "INVALID_INPUT_OR_SOURCE_INTEGRITY", "pairs": 0}
+PASS: invalid-input rejection; inverse/7-6 controls; transformation invariance; source FPS against exhaustive reference
+PASS: end-to-end four-pair fixture; wrong-shape denominator retained; corrupted-input rejection; independent verification

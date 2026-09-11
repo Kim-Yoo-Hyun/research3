@@ -1,0 +1,10 @@
+test_balanced_tree_detects_minority_and_probability_is_separate (test_baselines.BaselineTests.test_balanced_tree_detects_minority_and_probability_is_separate) ... ok
+test_metric_imbalance_and_calibration (test_baselines.BaselineTests.test_metric_imbalance_and_calibration) ... ok
+test_min_leaf_blocks_isolation_of_rare_row (test_baselines.BaselineTests.test_min_leaf_blocks_isolation_of_rare_row) ... ok
+test_practical_criterion_requires_each_action_failure_recall (test_baselines.BaselineTests.test_practical_criterion_requires_each_action_failure_recall) ... ok
+test_segment_endpoint_future_exclusion_and_quaternion_sign (test_baselines.BaselineTests.test_segment_endpoint_future_exclusion_and_quaternion_sign) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK

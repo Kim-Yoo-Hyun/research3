@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "bit packing boundaries including non-byte-aligned tails",
+    "six codecs, exact gripper side channel, partial chunk and charged packet framing",
+    "lossless scalar escapes preserve normalization tails",
+    "interpolation identity at full knot density",
+    "actual event selector: equal residual energy, fixed gripper, reject absent free windows",
+    "actual calibration selector obeys byte cap using synthetic action-only inputs"
+  ],
+  "synthetic_only": true,
+  "simulator_imported": false
+}

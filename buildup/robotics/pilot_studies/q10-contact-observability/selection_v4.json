@@ -1,0 +1,335 @@
+{
+  "version": "v4",
+  "created_kst": "2026-09-06",
+  "archive_url": "https://researchdata.tuwien.ac.at/api/records/0ewrv-8cb44/files/data.zip/content",
+  "seed": "q10-v4-20260906",
+  "algorithm": "Within each official split, exclude v2 anchors and every official issue-listed ID; sort remaining IDs by SHA256(seed + colon + recording_id), then take 12 train and 4 test.",
+  "members": [
+    {
+      "recording_id": "2025-01-11-11-35-53",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-11-11-35-53.h5",
+      "compressed_bytes": 317210941,
+      "uncompressed_bytes": 1376410768,
+      "header_offset": 1466948794,
+      "crc32": "88c039cc",
+      "selection_hash": "02c66a413ac71923b1e6316e07ff592f4f9fd3fa670f62a691efa82b3ed8d1f3"
+    },
+    {
+      "recording_id": "2025-01-14-11-06-43",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-14-11-06-43.h5",
+      "compressed_bytes": 385215677,
+      "uncompressed_bytes": 1711781696,
+      "header_offset": 45937666320,
+      "crc32": "e6807ca1",
+      "selection_hash": "0639e68ff6d5b5df98b9328ba581068e5500b052cd5abaff8fe21f3335b70cbd"
+    },
+    {
+      "recording_id": "2025-01-13-11-31-57",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-13-11-31-57.h5",
+      "compressed_bytes": 349499369,
+      "uncompressed_bytes": 1488324716,
+      "header_offset": 43513262214,
+      "crc32": "38ae08bf",
+      "selection_hash": "07e601c973301b09387f9fc3693cb071870d4e9ab7d9d10b8e331e9a74047673"
+    },
+    {
+      "recording_id": "2025-01-14-12-05-01",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-14-12-05-01.h5",
+      "compressed_bytes": 389690814,
+      "uncompressed_bytes": 1819979888,
+      "header_offset": 7358586242,
+      "crc32": "0f13dd4c",
+      "selection_hash": "11cf972dc5e42ca877ee824c59f35be7d172e45f8cd3216ddfa0880ebb230fa0"
+    },
+    {
+      "recording_id": "2025-01-13-15-06-09",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-13-15-06-09.h5",
+      "compressed_bytes": 270603326,
+      "uncompressed_bytes": 1218238744,
+      "header_offset": 54422751289,
+      "crc32": "c754920a",
+      "selection_hash": "12857e07323d4f633ade45ecbff51a111e7ca05c54bb9be2fbefa67f7dfe4af9"
+    },
+    {
+      "recording_id": "2025-01-13-17-40-45",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-13-17-40-45.h5",
+      "compressed_bytes": 226494967,
+      "uncompressed_bytes": 1003655666,
+      "header_offset": 20230799643,
+      "crc32": "67848f09",
+      "selection_hash": "1465b9f568705e399c12d184756b64f7a6c7f02f46dac66c76b18df6e5b759f8"
+    },
+    {
+      "recording_id": "2025-01-10-18-31-44",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-10-18-31-44.h5",
+      "compressed_bytes": 608549250,
+      "uncompressed_bytes": 2646890187,
+      "header_offset": 6466127824,
+      "crc32": "86f6557a",
+      "selection_hash": "1475ddeeb2540407fcce5b237a7b1182fe5eae946953ef9ae730c48ae59eef09"
+    },
+    {
+      "recording_id": "2025-01-13-19-04-46",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-13-19-04-46.h5",
+      "compressed_bytes": 63005412,
+      "uncompressed_bytes": 261423980,
+      "header_offset": 43969595450,
+      "crc32": "c17b0bd6",
+      "selection_hash": "16e68c68ac61116537bafe7964e01e7d78ee2cdbc145e70c7a70f614dacf51ce"
+    },
+    {
+      "recording_id": "2025-01-14-10-49-57",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-14-10-49-57.h5",
+      "compressed_bytes": 285929115,
+      "uncompressed_bytes": 1308855377,
+      "header_offset": 16122880810,
+      "crc32": "c1889688",
+      "selection_hash": "184d13ef3b80ef9db22c3755124dff038b27d22f827ea5d3e4b30de7adddd84a"
+    },
+    {
+      "recording_id": "2025-01-10-17-36-05",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-10-17-36-05.h5",
+      "compressed_bytes": 357452489,
+      "uncompressed_bytes": 1600748730,
+      "header_offset": 36400192750,
+      "crc32": "c370718a",
+      "selection_hash": "207e3626ab4542bb71292f5557b2d27e5152b34d3daa163bc99ec7561ed55dd7"
+    },
+    {
+      "recording_id": "2025-01-13-18-32-31",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-13-18-32-31.h5",
+      "compressed_bytes": 497136489,
+      "uncompressed_bytes": 2173244164,
+      "header_offset": 4885315724,
+      "crc32": "3ee98c00",
+      "selection_hash": "210ecc36e943d9c8af9f14173519b9c008feac9fe783227f93dfa213f7f1ddbf"
+    },
+    {
+      "recording_id": "2025-01-14-10-57-14",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-14-10-57-14.h5",
+      "compressed_bytes": 682580494,
+      "uncompressed_bytes": 3123151042,
+      "header_offset": 34918780724,
+      "crc32": "12b64fa5",
+      "selection_hash": "24a201ad13c12a7ea83be1cab8e7f77cd887d72ffff8786665ab0cc774de0f46"
+    },
+    {
+      "recording_id": "2025-01-13-17-02-10",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-13-17-02-10.h5",
+      "compressed_bytes": 299148060,
+      "uncompressed_bytes": 1355669125,
+      "header_offset": 2860656500,
+      "crc32": "aaae299d",
+      "selection_hash": "0c08d8b46566095a08f9d3b618bcc0e31230eb1796e29a8ab5f57e1bf32b0926"
+    },
+    {
+      "recording_id": "2025-01-10-16-37-45",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-10-16-37-45.h5",
+      "compressed_bytes": 632326954,
+      "uncompressed_bytes": 2788600595,
+      "header_offset": 16408810030,
+      "crc32": "37160f4d",
+      "selection_hash": "18b7e2628d5aa5db81b6045f3eb4e91b9ba8f92cd3b45a06b5379a1ae77fba1a"
+    },
+    {
+      "recording_id": "2025-01-10-15-34-33",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-10-15-34-33.h5",
+      "compressed_bytes": 337767018,
+      "uncompressed_bytes": 1478556134,
+      "header_offset": 39015104639,
+      "crc32": "d1514ba9",
+      "selection_hash": "1b37eb1b31ff10543c683972c241f6fe0b2477d513a9638c5e8930209b9f67d2"
+    },
+    {
+      "recording_id": "2025-01-09-17-14-59",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "archive_member": "data/2025-01-09-17-14-59.h5",
+      "compressed_bytes": 461431148,
+      "uncompressed_bytes": 2131263990,
+      "header_offset": 22436677485,
+      "crc32": "d1227347",
+      "selection_hash": "1b88616e723dc151c23e5f4152b085cb9836d281a7d824fbbfe71a55612dc6de"
+    }
+  ],
+  "anchors": [
+    {
+      "recording_id": "2025-01-11-14-43-37",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "source": "v2_anchor"
+    },
+    {
+      "recording_id": "2025-01-13-17-51-11",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v2_anchor"
+    },
+    {
+      "recording_id": "2025-01-11-15-35-08",
+      "split": "train_split1.txt",
+      "condition": "force/torque not valid for last action",
+      "source": "v2_anchor"
+    },
+    {
+      "recording_id": "2025-01-10-15-28-50",
+      "split": "train_split1.txt",
+      "condition": "hand camera missing at beginning",
+      "source": "v2_anchor"
+    }
+  ],
+  "denominator_members": [
+    {
+      "recording_id": "2025-01-11-14-43-37",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "source": "v2_anchor"
+    },
+    {
+      "recording_id": "2025-01-13-17-51-11",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v2_anchor"
+    },
+    {
+      "recording_id": "2025-01-11-15-35-08",
+      "split": "train_split1.txt",
+      "condition": "force/torque not valid for last action",
+      "source": "v2_anchor"
+    },
+    {
+      "recording_id": "2025-01-10-15-28-50",
+      "split": "train_split1.txt",
+      "condition": "hand camera missing at beginning",
+      "source": "v2_anchor"
+    },
+    {
+      "recording_id": "2025-01-11-11-35-53",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-14-11-06-43",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-13-11-31-57",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-14-12-05-01",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-13-15-06-09",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-13-17-40-45",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-10-18-31-44",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-13-19-04-46",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-14-10-49-57",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-10-17-36-05",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-13-18-32-31",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-14-10-57-14",
+      "split": "train_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-13-17-02-10",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-10-16-37-45",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-10-15-34-33",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    },
+    {
+      "recording_id": "2025-01-09-17-14-59",
+      "split": "test_split1.txt",
+      "condition": "no documented issue",
+      "source": "v4_new"
+    }
+  ],
+  "expected_new_compressed_bytes": 6164041523,
+  "expected_new_uncompressed_bytes": 27486794802
+}

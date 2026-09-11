@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-09-06T15:27:51.965660+00:00",
+  "source_sha256": {
+    "manifest_v5.md": "845a378c0604bd1c822fd09389b85282826554286cee062d2f2b46184e659766",
+    "baselines.py": "d77b4132110b9bcfb840a2468c0a8b60e69f31a233427cb477cb2a8a639903f2",
+    "test_baselines.py": "f8448a7e53f38a5f7a96c3b9c978009cf37e107e3f6516c4cfb90c1d58b49d1b",
+    "verify_v5.py": "e8a43a6f7dd416facc4ac5db9628b6eba9996e169dfee506c6b6c3742cd48c58",
+    "run_v5.sh": "c57f289681c37ef773cb21d628cd8bad88a118cdfc1282ce5093962bd927e9c0",
+    "Dockerfile_v5": "cf94e552f49189b899352360d13191cef391b57589c1c7c2f5e8d74fd76fa7c2",
+    "requirements_v2.txt": "5a545dcb9f0a7f4379327183b03c4282f398c5b5cde5c06c707e9a696573e5a7",
+    "selection_v4.json": "c9528a26bb08f8baea0f299a42507377672fc670c146891979aa1230fe5beb35",
+    "artifacts_v4/segments.tsv": "af70e84261c254b295d56c7e53b0fcfb966f450703a958ecd1d5a7d4ee3fc4dc"
+  }
+}

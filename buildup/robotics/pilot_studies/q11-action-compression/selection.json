@@ -1,0 +1,633 @@
+{
+  "status": "PASS",
+  "mode": "post-outcome descriptive review; no fitting, parameter selection or rollouts",
+  "input_sha256": {
+    "calibration.json": "f90a018034659efe462b9e4afc0e34c8ab1d777cccf41f16b11c1b778d34044b",
+    "analysis.json": "ae82989d750bd4e8d9c234d6d275640292f0590e47404df57ef059fb999ac9d3",
+    "protocol.json": "3abc698d17441892a062458a84617b3b05486c277cbfadef4c8ab0c7433c17c2"
+  },
+  "source_sha256": "3de0a28db4d94df8004ca55a04a804af5b2c36f2fb761657906c66f546c4e561",
+  "calibration_reference": {
+    "kind": "fast_joint_gripper",
+    "param": {},
+    "mean_bytes": 36.104166666666664,
+    "arm_mse": 0.00010309468148203205
+  },
+  "existing_grid_summary": {
+    "uniform_gripper": {
+      "candidates": 9,
+      "under_cap": 0,
+      "rate_overlap": 0,
+      "both": 0
+    },
+    "linear_gripper": {
+      "candidates": 36,
+      "under_cap": 7,
+      "rate_overlap": 5,
+      "both": 1
+    }
+  },
+  "existing_grid": [
+    {
+      "kind": "uniform_gripper",
+      "param": {
+        "bits": 1
+      },
+      "mean_bytes": 40.333333333333336,
+      "arm_mse": 0.6965966648692711,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "uniform_gripper",
+      "param": {
+        "bits": 2
+      },
+      "mean_bytes": 57.333333333333336,
+      "arm_mse": 0.05118622771405646,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "uniform_gripper",
+      "param": {
+        "bits": 3
+      },
+      "mean_bytes": 75.33333333333333,
+      "arm_mse": 0.009281290643221213,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "uniform_gripper",
+      "param": {
+        "bits": 4
+      },
+      "mean_bytes": 92.33333333333333,
+      "arm_mse": 0.0016015599023516162,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "uniform_gripper",
+      "param": {
+        "bits": 5
+      },
+      "mean_bytes": 110.33333333333333,
+      "arm_mse": 0.00034528853326263605,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "uniform_gripper",
+      "param": {
+        "bits": 6
+      },
+      "mean_bytes": 127.33333333333333,
+      "arm_mse": 8.93376055200118e-05,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": true,
+      "both": false
+    },
+    {
+      "kind": "uniform_gripper",
+      "param": {
+        "bits": 8
+      },
+      "mean_bytes": 162.33333333333334,
+      "arm_mse": 4.874822382155715e-06,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "uniform_gripper",
+      "param": {
+        "bits": 10
+      },
+      "mean_bytes": 197.33333333333334,
+      "arm_mse": 3.2051342487423804e-07,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "uniform_gripper",
+      "param": {
+        "bits": 12
+      },
+      "mean_bytes": 232.33333333333334,
+      "arm_mse": 2.0315366889755328e-08,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 2,
+        "knots": 2
+      },
+      "mean_bytes": 26.333333333333332,
+      "arm_mse": 0.04766502378446543,
+      "under_original_cap": true,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 4,
+        "knots": 2
+      },
+      "mean_bytes": 29.333333333333332,
+      "arm_mse": 0.001402125650465373,
+      "under_original_cap": true,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 6,
+        "knots": 2
+      },
+      "mean_bytes": 33.333333333333336,
+      "arm_mse": 0.00021128164844963493,
+      "under_original_cap": true,
+      "rate_overlap": true,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 8,
+        "knots": 2
+      },
+      "mean_bytes": 36.333333333333336,
+      "arm_mse": 0.0001571815125006385,
+      "under_original_cap": false,
+      "rate_overlap": true,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 10,
+        "knots": 2
+      },
+      "mean_bytes": 40.333333333333336,
+      "arm_mse": 0.0001526635387362299,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 12,
+        "knots": 2
+      },
+      "mean_bytes": 43.333333333333336,
+      "arm_mse": 0.00015336552705376487,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 2,
+        "knots": 3
+      },
+      "mean_bytes": 28.333333333333332,
+      "arm_mse": 0.04912865302107902,
+      "under_original_cap": true,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 4,
+        "knots": 3
+      },
+      "mean_bytes": 33.333333333333336,
+      "arm_mse": 0.0013220365139747145,
+      "under_original_cap": true,
+      "rate_overlap": true,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 6,
+        "knots": 3
+      },
+      "mean_bytes": 38.333333333333336,
+      "arm_mse": 8.588145073766917e-05,
+      "under_original_cap": false,
+      "rate_overlap": true,
+      "mse_overlap": true,
+      "both": true
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 8,
+        "knots": 3
+      },
+      "mean_bytes": 43.333333333333336,
+      "arm_mse": 2.1082258955804044e-05,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 10,
+        "knots": 3
+      },
+      "mean_bytes": 49.333333333333336,
+      "arm_mse": 1.8383794538804016e-05,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 12,
+        "knots": 3
+      },
+      "mean_bytes": 54.333333333333336,
+      "arm_mse": 1.823135336676147e-05,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 2,
+        "knots": 4
+      },
+      "mean_bytes": 29.333333333333332,
+      "arm_mse": 0.04980778859923432,
+      "under_original_cap": true,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 4,
+        "knots": 4
+      },
+      "mean_bytes": 36.333333333333336,
+      "arm_mse": 0.0013748355472404947,
+      "under_original_cap": false,
+      "rate_overlap": true,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 6,
+        "knots": 4
+      },
+      "mean_bytes": 43.333333333333336,
+      "arm_mse": 7.21371755676529e-05,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 8,
+        "knots": 4
+      },
+      "mean_bytes": 50.333333333333336,
+      "arm_mse": 7.819607005514255e-06,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 10,
+        "knots": 4
+      },
+      "mean_bytes": 57.333333333333336,
+      "arm_mse": 4.789644170213867e-06,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 12,
+        "knots": 4
+      },
+      "mean_bytes": 64.33333333333333,
+      "arm_mse": 4.540236732085485e-06,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 2,
+        "knots": 5
+      },
+      "mean_bytes": 31.333333333333332,
+      "arm_mse": 0.050163739198135215,
+      "under_original_cap": true,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 4,
+        "knots": 5
+      },
+      "mean_bytes": 40.333333333333336,
+      "arm_mse": 0.0014136470784130142,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 6,
+        "knots": 5
+      },
+      "mean_bytes": 49.333333333333336,
+      "arm_mse": 7.601351217323227e-05,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 8,
+        "knots": 5
+      },
+      "mean_bytes": 57.333333333333336,
+      "arm_mse": 4.997833688297866e-06,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 10,
+        "knots": 5
+      },
+      "mean_bytes": 66.33333333333333,
+      "arm_mse": 1.8146280166133716e-06,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 12,
+        "knots": 5
+      },
+      "mean_bytes": 75.33333333333333,
+      "arm_mse": 1.5845343513346276e-06,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 2,
+        "knots": 10
+      },
+      "mean_bytes": 40.333333333333336,
+      "arm_mse": 0.05080620768236491,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 4,
+        "knots": 10
+      },
+      "mean_bytes": 57.333333333333336,
+      "arm_mse": 0.0015197078898082602,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 6,
+        "knots": 10
+      },
+      "mean_bytes": 75.33333333333333,
+      "arm_mse": 7.787754329472453e-05,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 8,
+        "knots": 10
+      },
+      "mean_bytes": 92.33333333333333,
+      "arm_mse": 4.039891398145131e-06,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 10,
+        "knots": 10
+      },
+      "mean_bytes": 110.33333333333333,
+      "arm_mse": 3.5014917768496174e-07,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 12,
+        "knots": 10
+      },
+      "mean_bytes": 127.33333333333333,
+      "arm_mse": 1.1760463575557709e-07,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 2,
+        "knots": 20
+      },
+      "mean_bytes": 57.333333333333336,
+      "arm_mse": 0.05118622771405646,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 4,
+        "knots": 20
+      },
+      "mean_bytes": 92.33333333333333,
+      "arm_mse": 0.0016015599023516162,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 6,
+        "knots": 20
+      },
+      "mean_bytes": 127.33333333333333,
+      "arm_mse": 8.93376055200118e-05,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": true,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 8,
+        "knots": 20
+      },
+      "mean_bytes": 162.33333333333334,
+      "arm_mse": 4.874822382155715e-06,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 10,
+        "knots": 20
+      },
+      "mean_bytes": 197.33333333333334,
+      "arm_mse": 3.2051342487423804e-07,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    },
+    {
+      "kind": "linear_gripper",
+      "param": {
+        "bits": 12,
+        "knots": 20
+      },
+      "mean_bytes": 232.33333333333334,
+      "arm_mse": 2.0315366889755328e-08,
+      "under_original_cap": false,
+      "rate_overlap": false,
+      "mse_overlap": false,
+      "both": false
+    }
+  ],
+  "heldout_nonreference_joint_rate_mse_support": [],
+  "gripper_case_changes": {
+    "fast_joint": [
+      {
+        "seed": 2000,
+        "before": true,
+        "after": false
+      },
+      {
+        "seed": 2003,
+        "before": false,
+        "after": true
+      }
+    ],
+    "fast_quantile": []
+  },
+  "localization_reference": "fast_quantile_gripper",
+  "localization_reference_full_success": 16,
+  "localization_reference_full_verified": 16,
+  "localized_denominators": {
+    "grasp:eligible": 9,
+    "release:eligible": 12,
+    "grasp:no_speed_matched_noncontact": 7,
+    "release:no_speed_matched_noncontact": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-09-07T01:34:03.057146+00:00",
+  "source_sha256": {
+    "audit_validation.py": "dd0eb41eb67d7821b68e41ae7558a1c2ed9b828d557833bde3872eb9d75c4366",
+    "run_validation_v6.sh": "ea2dd2d76157845f466a3bc26dbbcf18d1e6da880c4737126dbbd05ef0408dba",
+    "Dockerfile_validation_v6": "90e9cf080fe4a6b4e8b0b36b0016c2249e2087d96dd2530d5d848a297db549ab",
+    "requirements_v2.txt": "5a545dcb9f0a7f4379327183b03c4282f398c5b5cde5c06c707e9a696573e5a7",
+    "baselines.py": "d77b4132110b9bcfb840a2468c0a8b60e69f31a233427cb477cb2a8a639903f2",
+    "artifacts_v4/segments.tsv": "af70e84261c254b295d56c7e53b0fcfb966f450703a958ecd1d5a7d4ee3fc4dc",
+    "artifacts_v5/training.json": "e35b3c3005a7c9c6dc8f0d7a257967101988ee723c12ee399e79b30d7c55ea43",
+    "artifacts_v5/checksums.json": "49f9fd37d827ba6fd212a447b3898d578f921dd67ef644d85f3645285ef7613b"
+  },
+  "train_features_sha256": "7ae4120420dcf207dc2f8dae6e7cf84db3d63224b35a8e59c332bd8c515bb2a0"
+}

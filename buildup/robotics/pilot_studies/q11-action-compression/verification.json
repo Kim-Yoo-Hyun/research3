@@ -1,0 +1,285 @@
+{
+  "decision": "READY_FOR_CONTROLLED_PILOT",
+  "seed_attempts": 8,
+  "usable_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "rows": [
+    {
+      "seed": 0,
+      "generation_status": "completed",
+      "steps": 107,
+      "replay_valid": true,
+      "independent_labels_valid": true,
+      "final_success": true,
+      "grasp_onsets": 1,
+      "grasp_releases": 1,
+      "noncontact_samples": 52,
+      "comparisons": [
+        {
+          "repeat": 0,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        },
+        {
+          "repeat": 1,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "generation_status": "completed",
+      "steps": 94,
+      "replay_valid": true,
+      "independent_labels_valid": true,
+      "final_success": true,
+      "grasp_onsets": 1,
+      "grasp_releases": 1,
+      "noncontact_samples": 48,
+      "comparisons": [
+        {
+          "repeat": 0,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        },
+        {
+          "repeat": 1,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "generation_status": "completed",
+      "steps": 98,
+      "replay_valid": true,
+      "independent_labels_valid": true,
+      "final_success": true,
+      "grasp_onsets": 1,
+      "grasp_releases": 1,
+      "noncontact_samples": 56,
+      "comparisons": [
+        {
+          "repeat": 0,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        },
+        {
+          "repeat": 1,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "generation_status": "completed",
+      "steps": 109,
+      "replay_valid": true,
+      "independent_labels_valid": true,
+      "final_success": true,
+      "grasp_onsets": 1,
+      "grasp_releases": 1,
+      "noncontact_samples": 50,
+      "comparisons": [
+        {
+          "repeat": 0,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        },
+        {
+          "repeat": 1,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "generation_status": "completed",
+      "steps": 109,
+      "replay_valid": true,
+      "independent_labels_valid": true,
+      "final_success": true,
+      "grasp_onsets": 1,
+      "grasp_releases": 1,
+      "noncontact_samples": 63,
+      "comparisons": [
+        {
+          "repeat": 0,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        },
+        {
+          "repeat": 1,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "generation_status": "completed",
+      "steps": 123,
+      "replay_valid": true,
+      "independent_labels_valid": true,
+      "final_success": true,
+      "grasp_onsets": 1,
+      "grasp_releases": 1,
+      "noncontact_samples": 61,
+      "comparisons": [
+        {
+          "repeat": 0,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        },
+        {
+          "repeat": 1,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "seed": 6,
+      "generation_status": "completed",
+      "steps": 119,
+      "replay_valid": true,
+      "independent_labels_valid": true,
+      "final_success": true,
+      "grasp_onsets": 1,
+      "grasp_releases": 1,
+      "noncontact_samples": 59,
+      "comparisons": [
+        {
+          "repeat": 0,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        },
+        {
+          "repeat": 1,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "generation_status": "completed",
+      "steps": 100,
+      "replay_valid": true,
+      "independent_labels_valid": true,
+      "final_success": true,
+      "grasp_onsets": 1,
+      "grasp_releases": 1,
+      "noncontact_samples": 54,
+      "comparisons": [
+        {
+          "repeat": 0,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        },
+        {
+          "repeat": 1,
+          "status": "completed",
+          "actions_byte_equal": true,
+          "initial_state_max_abs": 0.0,
+          "full_state_max_abs_diagnostic": 0.0,
+          "label_sequences_equal": true,
+          "independent_labels_valid": true,
+          "valid": true
+        }
+      ]
+    }
+  ],
+  "codec_path_valid": true,
+  "codec_chunks_verified": 92,
+  "independent_labels_checked": 10404,
+  "errors": [],
+  "boundary": "Measurement readiness only; no compressed action executed, no learned policy or generality claim."
+}

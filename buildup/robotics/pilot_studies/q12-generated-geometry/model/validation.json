@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-09-10T06:30:37.829383+00:00",
+  "status": "PASS_REPOSITORY_VALIDATION",
+  "markdown_files": 10,
+  "local_links": 197,
+  "heading_links": 81,
+  "frozen_files_unchanged": {
+    "input_v1": 17,
+    "model_schema": 17,
+    "completion_reference": 43
+  },
+  "raw_xyz_hashes": 8,
+  "sampled_xyz_hashes": 4,
+  "python_ast": true,
+  "bash_syntax": true,
+  "job_logs_and_exit_status": true,
+  "actual_completion_output_exists": false
+}

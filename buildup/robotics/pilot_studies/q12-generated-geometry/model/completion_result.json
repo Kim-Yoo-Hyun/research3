@@ -1,0 +1,65 @@
+{
+  "protocol_sha256": "fee7802bc13f010c012f03286c2bba18c1cbdda828bfa8d38851397e12a4ed87",
+  "pairs": [
+    {
+      "index": 0,
+      "status": "pass",
+      "repeat_array_exact": true,
+      "copied_suffix_exact": true,
+      "copied_inverse_scaled_max_error": 2.7800768464505084e-08,
+      "generated_points": 6144,
+      "generated_unique_points": 6144,
+      "generated_exact_input_coincidences": 0,
+      "gt_rows": 8192,
+      "gt_unique_points": 4025,
+      "gt_sampling": "all supplied rows retained; no FPS/dedup replacement",
+      "metric_frame": "partial-derived normalized; physical units/camera unverified"
+    },
+    {
+      "index": 1,
+      "status": "pass",
+      "repeat_array_exact": true,
+      "copied_suffix_exact": true,
+      "copied_inverse_scaled_max_error": 2.8927577555531065e-08,
+      "generated_points": 6144,
+      "generated_unique_points": 6144,
+      "generated_exact_input_coincidences": 0,
+      "gt_rows": 8192,
+      "gt_unique_points": 4273,
+      "gt_sampling": "all supplied rows retained; no FPS/dedup replacement",
+      "metric_frame": "partial-derived normalized; physical units/camera unverified"
+    },
+    {
+      "index": 2,
+      "status": "pass",
+      "repeat_array_exact": true,
+      "copied_suffix_exact": true,
+      "copied_inverse_scaled_max_error": 2.9727778460860735e-08,
+      "generated_points": 6144,
+      "generated_unique_points": 6144,
+      "generated_exact_input_coincidences": 0,
+      "gt_rows": 8192,
+      "gt_unique_points": 8074,
+      "gt_sampling": "all supplied rows retained; no FPS/dedup replacement",
+      "metric_frame": "partial-derived normalized; physical units/camera unverified"
+    },
+    {
+      "index": 3,
+      "status": "pass",
+      "repeat_array_exact": true,
+      "copied_suffix_exact": true,
+      "copied_inverse_scaled_max_error": 2.9344872309770852e-08,
+      "generated_points": 6144,
+      "generated_unique_points": 6144,
+      "generated_exact_input_coincidences": 0,
+      "gt_rows": 8192,
+      "gt_unique_points": 8097,
+      "gt_sampling": "all supplied rows retained; no FPS/dedup replacement",
+      "metric_frame": "partial-derived normalized; physical units/camera unverified"
+    }
+  ],
+  "independent_model_forward_verification": false,
+  "native_cuda_parity": false,
+  "physical_frame_verified": false,
+  "decision": "REFERENCE_OUTPUT_VERIFIED_NATIVE_AND_PHYSICAL_UNRESOLVED"
+}

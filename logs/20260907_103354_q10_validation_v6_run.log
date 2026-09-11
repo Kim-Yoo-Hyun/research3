@@ -1,0 +1,275 @@
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=state_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d1
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d1
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=combined_d2
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=state_d1
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=combined_d2
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=state_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=duration_d2
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=state_d1
+train CV complete: pick selected=state_d1
+train CV complete: insert selected=state_d2
+train CV complete: remove selected=state_d2
+{
+  "status": "COMPLETED",
+  "train_only": true,
+  "test_feature_access": false,
+  "device": "cpu",
+  "train_rows": 309,
+  "metadata_rows": 413,
+  "training_replay": "PASS",
+  "coverage": [
+    {
+      "split": "train",
+      "action": "pick",
+      "n": 110,
+      "success": 104,
+      "failure": 6,
+      "recordings": 11,
+      "success_recordings": 11,
+      "failure_recordings": 5,
+      "max_failures_in_one_recording": 2,
+      "max_failure_share": 0.3333333333333333
+    },
+    {
+      "split": "train",
+      "action": "insert",
+      "n": 110,
+      "success": 85,
+      "failure": 25,
+      "recordings": 11,
+      "success_recordings": 10,
+      "failure_recordings": 9,
+      "max_failures_in_one_recording": 5,
+      "max_failure_share": 0.2
+    },
+    {
+      "split": "train",
+      "action": "remove",
+      "n": 89,
+      "success": 80,
+      "failure": 9,
+      "recordings": 6,
+      "success_recordings": 6,
+      "failure_recordings": 5,
+      "max_failures_in_one_recording": 4,
+      "max_failure_share": 0.4444444444444444
+    },
+    {
+      "split": "test",
+      "action": "pick",
+      "n": 43,
+      "success": 39,
+      "failure": 4,
+      "recordings": 4,
+      "success_recordings": 3,
+      "failure_recordings": 2,
+      "max_failures_in_one_recording": 3,
+      "max_failure_share": 0.75
+    },
+    {
+      "split": "test",
+      "action": "insert",
+      "n": 42,
+      "success": 38,
+      "failure": 4,
+      "recordings": 3,
+      "success_recordings": 3,
+      "failure_recordings": 3,
+      "max_failures_in_one_recording": 2,
+      "max_failure_share": 0.5
+    },
+    {
+      "split": "test",
+      "action": "remove",
+      "n": 19,
+      "success": 17,
+      "failure": 2,
+      "recordings": 1,
+      "success_recordings": 1,
+      "failure_recordings": 1,
+      "max_failures_in_one_recording": 2,
+      "max_failure_share": 1.0
+    }
+  ],
+  "actions": {
+    "pick": {
+      "original_selected": "state_d1",
+      "ordinary_selected_cv": {
+        "n": 110,
+        "success": 104,
+        "failure": 6,
+        "tp": 103,
+        "tn": 5,
+        "fp": 1,
+        "fn": 1,
+        "success_recall": 0.9903846153846154,
+        "failure_recall": 0.8333333333333334,
+        "balanced_accuracy": 0.9118589743589745,
+        "brier": 0.017598734772464177,
+        "log_loss": 0.08556317347957808,
+        "ece_5": 0.015813578414626182
+      },
+      "nested_cv": {
+        "n": 110,
+        "success": 104,
+        "failure": 6,
+        "tp": 103,
+        "tn": 5,
+        "fp": 1,
+        "fn": 1,
+        "success_recall": 0.9903846153846154,
+        "failure_recall": 0.8333333333333334,
+        "balanced_accuracy": 0.9118589743589745,
+        "brier": 0.017598734772464177,
+        "log_loss": 0.08556317347957808,
+        "ece_5": 0.015813578414626182
+      },
+      "selection_counts_all_deletions": {
+        "state_d1": 15
+      },
+      "selection_counts_action_deletions": {
+        "state_d1": 11
+      },
+      "changed_action_deletions": 0,
+      "action_deletions": 11,
+      "min_outer_failure": 4,
+      "min_inner_failure": 3,
+      "min_inner_success": 66
+    },
+    "insert": {
+      "original_selected": "state_d2",
+      "ordinary_selected_cv": {
+        "n": 110,
+        "success": 85,
+        "failure": 25,
+        "tp": 83,
+        "tn": 14,
+        "fp": 11,
+        "fn": 2,
+        "success_recall": 0.9764705882352941,
+        "failure_recall": 0.56,
+        "balanced_accuracy": 0.7682352941176471,
+        "brier": 0.10521974533379617,
+        "log_loss": 0.35786413928696154,
+        "ece_5": 0.05590532474975304
+      },
+      "nested_cv": {
+        "n": 110,
+        "success": 85,
+        "failure": 25,
+        "tp": 83,
+        "tn": 14,
+        "fp": 11,
+        "fn": 2,
+        "success_recall": 0.9764705882352941,
+        "failure_recall": 0.56,
+        "balanced_accuracy": 0.7682352941176471,
+        "brier": 0.10584120602464102,
+        "log_loss": 0.3671184986124711,
+        "ece_5": 0.04316018618311349
+      },
+      "selection_counts_all_deletions": {
+        "state_d2": 11,
+        "state_d1": 2,
+        "combined_d2": 2
+      },
+      "selection_counts_action_deletions": {
+        "state_d2": 7,
+        "state_d1": 2,
+        "combined_d2": 2
+      },
+      "changed_action_deletions": 4,
+      "action_deletions": 11,
+      "min_outer_failure": 20,
+      "min_inner_failure": 16,
+      "min_inner_success": 53
+    },
+    "remove": {
+      "original_selected": "duration_d2",
+      "ordinary_selected_cv": {
+        "n": 89,
+        "success": 80,
+        "failure": 9,
+        "tp": 45,
+        "tn": 6,
+        "fp": 3,
+        "fn": 35,
+        "success_recall": 0.5625,
+        "failure_recall": 0.6666666666666666,
+        "balanced_accuracy": 0.6145833333333333,
+        "brier": 0.12881204927409404,
+        "log_loss": 0.41675047826656725,
+        "ece_5": 0.1432608600562195
+      },
+      "nested_cv": {
+        "n": 89,
+        "success": 80,
+        "failure": 9,
+        "tp": 52,
+        "tn": 3,
+        "fp": 6,
+        "fn": 28,
+        "success_recall": 0.65,
+        "failure_recall": 0.3333333333333333,
+        "balanced_accuracy": 0.4916666666666667,
+        "brier": 0.14545220672181583,
+        "log_loss": 0.5039555550039886,
+        "ece_5": 0.16805269983825988
+      },
+      "selection_counts_all_deletions": {
+        "duration_d2": 10,
+        "state_d2": 3,
+        "state_d1": 2
+      },
+      "selection_counts_action_deletions": {
+        "state_d2": 3,
+        "duration_d2": 1,
+        "state_d1": 2
+      },
+      "changed_action_deletions": 5,
+      "action_deletions": 6,
+      "min_outer_failure": 5,
+      "min_inner_failure": 3,
+      "min_inner_success": 46
+    }
+  },
+  "nested_macro_ba": 0.7239203117144294,
+  "ordinary_selected_macro_ba": 0.7648925339366516
+}

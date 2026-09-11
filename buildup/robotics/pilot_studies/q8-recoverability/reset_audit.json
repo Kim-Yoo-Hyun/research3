@@ -1,0 +1,11 @@
+{
+  "fresh_grasp": false,
+  "warm_reset_grasp": true,
+  "cold_reset_grasp": false,
+  "warm_physical_state_error": 0.0,
+  "changed_observation_indices": [
+    18
+  ],
+  "warm_observation_error": 1.0,
+  "cold_observation_error": 0.0
+}

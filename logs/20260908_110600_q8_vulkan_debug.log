@@ -1,0 +1,25 @@
+WARNING:          vkEnumerateInstanceLayerProperties: Unable to resolve symbol "" in implicit layer library "libVkLayer_MESA_device_select.so"
+WARNING:          vkEnumerateInstanceLayerProperties: Unable to resolve symbol "" in implicit layer library "libVkLayer_MESA_device_select.so"
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            vkCreateInstance: Found no drivers!
+cuda:0
+WARNING:          vkEnumerateInstanceLayerProperties: Unable to resolve symbol "" in implicit layer library "libVkLayer_MESA_device_select.so"
+WARNING:          vkEnumerateInstanceLayerProperties: Unable to resolve symbol "" in implicit layer library "libVkLayer_MESA_device_select.so"
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+[2026-09-08 01:57:16.934] [svulkan2] [error] Extension VK_KHR_external_memory_capabilities is not available. Interop with external library is disabled.
+[2026-09-08 01:57:16.934] [svulkan2] [error] Extension VK_KHR_external_semaphore_capabilities is not available. Interop with external library is disabled.
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR:            vkCreateInstance: Found no drivers!
+[2026-09-08 01:57:16.934] [svulkan2] [error] Your GPU driver does not support Vulkan. You may not use the renderer for rendering.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+RuntimeError: vk::createInstanceUnique: ErrorIncompatibleDriver

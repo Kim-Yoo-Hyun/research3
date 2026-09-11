@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "bit packing boundaries including non-byte-aligned tails",
+    "six codecs, exact gripper side channel, partial chunk and charged packet framing",
+    "lossless scalar escapes preserve normalization tails",
+    "interpolation identity at full knot density",
+    "actual event selector: equal residual energy, fixed gripper, reject absent free windows",
+    "actual calibration selector obeys byte cap using synthetic action-only inputs"
+  ],
+  "synthetic_only": true,
+  "simulator_imported": false,
+  "image_id": "sha256:fb9c530b6d664536b7665a3647c28459c729b250e5b1300cc47494820c388b5f",
+  "log": "logs/20260908_q11_v2_preflight.log",
+  "physical_pilot_executed": false
+}

@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-10",
+  "scope": "Q13 Stage 4 read-only primary-paper, source and metadata review. No external code import, build, inference, training, simulation, hardware or checkpoint/dataset payload download.",
+  "source_file_count": 36,
+  "source_bytes": 196834,
+  "repositories": [
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "commit_date": "2022-12-15T12:07:18Z",
+      "tree_count": 48,
+      "tree_truncated": false,
+      "submodules": []
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "commit_date": "2026-07-15T04:28:37Z",
+      "tree_count": 186,
+      "tree_truncated": false,
+      "submodules": []
+    },
+    {
+      "repository": "ZhenyangLiu/ActiveVLA-Injecting-Active-Perception-into-VLA",
+      "commit": "4450b1188a24f3f1d1d3fb3e47d226d150b9e470",
+      "commit_date": "2026-01-16T02:23:15Z",
+      "tree_count": 5,
+      "tree_truncated": false,
+      "submodules": []
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "commit_date": "2025-02-21T06:51:35Z",
+      "tree_count": 157,
+      "tree_truncated": false,
+      "submodules": [
+        {
+          "path": "stable-baselines3",
+          "commit": "1fcaaaba244aa739e3489302d0de7b713eefb53d"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/README.md",
+      "bytes": 1451,
+      "sha256": "7f04ed0cdc82d4f7db74ce0d3143768e134c3b276c9edaa2c359f685c06adf8d"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/README.md",
+      "bytes": 5478,
+      "sha256": "cc2a299f9369bf9f0c529081df912833d3205d37e8e8ff17547495504b9c74b0"
+    },
+    {
+      "repository": "ZhenyangLiu/ActiveVLA-Injecting-Active-Perception-into-VLA",
+      "commit": "4450b1188a24f3f1d1d3fb3e47d226d150b9e470",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/ZhenyangLiu/ActiveVLA-Injecting-Active-Perception-into-VLA/4450b1188a24f3f1d1d3fb3e47d226d150b9e470/README.md",
+      "bytes": 4844,
+      "sha256": "dd2f6ffeb56dec9af3373affc7fd0a574ce0853a7d148f6586260038ef931cbd"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/README.md",
+      "bytes": 3393,
+      "sha256": "d4ac666209ca5cc9bade87c0d3dd0710f4a9edbfe7d15943a6645bd724edd251"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/LICENSE",
+      "bytes": 1106,
+      "sha256": "a95126331f9c8d3f0168df2f85b883b7d2fec505593820009d9d28f67fe1375c"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "requirements.txt",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/requirements.txt",
+      "bytes": 30,
+      "sha256": "6c7a2c6fac6be770566a9dcdd4b611f9530ea0f1f2fe9b39bd29833eaa70e662"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "package.xml",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/package.xml",
+      "bytes": 633,
+      "sha256": "4521ff49af27aa2467cde0dcaa92c88badcf158d5448cff7bf9e57882e48fb11"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "launch/env.launch",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/launch/env.launch",
+      "bytes": 1184,
+      "sha256": "8bce7d6647cade8632d64929cdf0b60480abc4189b49bab6cb6de814f080c9cc"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "cfg/active_grasp.yaml",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/cfg/active_grasp.yaml",
+      "bytes": 821,
+      "sha256": "4b431141c7aa6745cfc6fa7662ceff02b5785f9245d752ae3164706ca160ff54"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "cfg/sim/mustard.yaml",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/cfg/sim/mustard.yaml",
+      "bytes": 171,
+      "sha256": "223ceb2011edfc8e2c5d282fbf7a2fa5ff071208c590f690c4dbf700a890cbda"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "scripts/run.py",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/scripts/run.py",
+      "bytes": 2090,
+      "sha256": "8e21450948044a2009cb71edb995dfba3ac2adbede5b501e97b26abca859fcfe"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "scripts/bt_sim_node.py",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/scripts/bt_sim_node.py",
+      "bytes": 11903,
+      "sha256": "9e18eb1a68aad4e9f9b9548e615e00e66c0273fbf6176283f53462f37ca471f5"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "src/active_grasp/nbv.py",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/src/active_grasp/nbv.py",
+      "bytes": 5897,
+      "sha256": "aaa5100e08e0e365eef23cbbd47406111ffa0c95019890b1dfa32bec715afcd4"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "src/active_grasp/policy.py",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/src/active_grasp/policy.py",
+      "bytes": 6580,
+      "sha256": "84c4f759b7eda88d41c06aea3526b52f9426b9a4de92d88ceb607e5e39475cc6"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "src/active_grasp/controller.py",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/src/active_grasp/controller.py",
+      "bytes": 9186,
+      "sha256": "19ead5593b8e18265e2c27c7435bedb941834e42836d04396be2ae76a594312b"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "src/active_grasp/simulation.py",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/src/active_grasp/simulation.py",
+      "bytes": 8353,
+      "sha256": "d54901fa46b5e512026739f30eb963b9f746beaf526e3fa6ab2c08574418b2a5"
+    },
+    {
+      "repository": "ethz-asl/active_grasp",
+      "commit": "f48c5e76f16951f92881fa23b4fa94867afaf664",
+      "path": "src/active_grasp/baselines.py",
+      "url": "https://raw.githubusercontent.com/ethz-asl/active_grasp/f48c5e76f16951f92881fa23b4fa94867afaf664/src/active_grasp/baselines.py",
+      "bytes": 1058,
+      "sha256": "6a9c97f5a62201432785e4d0827ce8cf572ea03dac0f6e6188d14f3ad4851d30"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "main_nbv.py",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/main_nbv.py",
+      "bytes": 4534,
+      "sha256": "6c5aa9e8a0666922d7c2149c785baf7ccb01dc1c4f8722f526b0754b082de5fd"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "demo_nbv.py",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/demo_nbv.py",
+      "bytes": 1260,
+      "sha256": "cef5d4da7f1c5b2c7b62c24e812901e7ef1282c3525d5f13a2681c0824ea3014"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "gcngrasp/system/nbv_server.py",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/gcngrasp/system/nbv_server.py",
+      "bytes": 3238,
+      "sha256": "4d96ec02199df087a4cf36da2f50ed13438c9cb540613c16de96ba2581823ee3"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "gcngrasp/system/requirements.txt",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/gcngrasp/system/requirements.txt",
+      "bytes": 424,
+      "sha256": "592e7bea6d511864fe2c2863c92bb174ec9a0143e278abc6d78f05691fcfd120"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "gcngrasp/requirements.txt",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/gcngrasp/requirements.txt",
+      "bytes": 207,
+      "sha256": "7444f4b46bc3603931c37b0527f0dbeeb6ba8f5cc46cdb5040c4acd941e77d6e"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "config/system/params.yaml",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/config/system/params.yaml",
+      "bytes": 782,
+      "sha256": "ae0eea41a43a5a65365adeb803c6338d32139e7a40ade5a4913193b16a48d65b"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "config/model_v2aff.yaml",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/config/model_v2aff.yaml",
+      "bytes": 1185,
+      "sha256": "f76ab3bd5d43960d711ccda9f961ac6b2fae98ea46df03a2bdaa9bdfcdc0a0be"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "gcngrasp/system/virtual_robot.py",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/gcngrasp/system/virtual_robot.py",
+      "bytes": 7356,
+      "sha256": "a17a91de1d0cd9100a216137fe5e8dc02fb9d57ae199629775640488b3d13ea1"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "gcngrasp/system/planner.py",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/gcngrasp/system/planner.py",
+      "bytes": 5145,
+      "sha256": "b2fbd8e281b4aa70cb040ace4dedeaf2b5f9e64f8b21e99a87e4100a5ed8fba4"
+    },
+    {
+      "repository": "Instinct323/GCNGrasp-VP",
+      "commit": "cda6a7849c4b2342e9651d299261061a59029bc2",
+      "path": "gcngrasp/system/utils/model_wrapper.py",
+      "url": "https://raw.githubusercontent.com/Instinct323/GCNGrasp-VP/cda6a7849c4b2342e9651d299261061a59029bc2/gcngrasp/system/utils/model_wrapper.py",
+      "bytes": 1665,
+      "sha256": "a2dc7160510dc4097be7692cca60962b3f9e2bb8a2438ec8d4425357a76a1c21"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": ".gitmodules",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/.gitmodules",
+      "bytes": 117,
+      "sha256": "fe7cff346c3be61d98add352bf40dc3c9146f2a98e6b2415fcba5556192c9c61"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": "requirements.txt",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/requirements.txt",
+      "bytes": 174,
+      "sha256": "2355fc231e22752bfbdb34eee9566bb723a52b8c2f69aa4153b6f48fbb945dd8"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": "l2l/scripts/final_eval_dual.py",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/l2l/scripts/final_eval_dual.py",
+      "bytes": 9989,
+      "sha256": "ffcb333ae927aa7e21339f2e95800cbf56f5fdbf015e6af09c656cfc22c0bb87"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": "l2l/modules/image_model.py",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/l2l/modules/image_model.py",
+      "bytes": 27074,
+      "sha256": "26aae9f3d72bea909a43e893abfe40ae13005dc3ae3c13dc63a7fa66d06210f6"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": "l2l/wrappers/robosuite_wrappers.py",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/l2l/wrappers/robosuite_wrappers.py",
+      "bytes": 19104,
+      "sha256": "c124a95688c2fdc9cbd969a61cf9b437692b8e4a83c65f91fcd4c6200ceeca22"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": "l2l/envs/robosuite/skill_walled_multi_stage.py",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/l2l/envs/robosuite/skill_walled_multi_stage.py",
+      "bytes": 8200,
+      "sha256": "3693a02087b4d444d55b0ed1060692ad9c4ad673b9c3227405a540f8ead10fb6"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": "l2l/config/dual/robosuite/skill_walled_multi_stage/walled_multi_stage_action_dual_config.py",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/l2l/config/dual/robosuite/skill_walled_multi_stage/walled_multi_stage_action_dual_config.py",
+      "bytes": 2659,
+      "sha256": "03ead9a150e2fdde75df5210c2c4c695ce758b6d14e6f13152866979de173000"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": "l2l/wrappers/policy_wrappers.py",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/l2l/wrappers/policy_wrappers.py",
+      "bytes": 5270,
+      "sha256": "d67d6bededc413285c066119406c76a2297a271f2774460f14813d6e3db44475"
+    },
+    {
+      "repository": "UT-Austin-RobIn/l2l",
+      "commit": "37382315d4e262d381862752931fe7445c2a0594",
+      "path": "l2l/envs/robosuite/walled_multi_stage.py",
+      "url": "https://raw.githubusercontent.com/UT-Austin-RobIn/l2l/37382315d4e262d381862752931fe7445c2a0594/l2l/envs/robosuite/walled_multi_stage.py",
+      "bytes": 34273,
+      "sha256": "801741fb920365ba1890d5b752578237d2380b5998cdccb3b344e0d2fdf35379"
+    }
+  ],
+  "access_pages": [
+    {
+      "url": "https://drive.google.com/file/d/1xJF9Cd82ybCH3nCdXtQRktTr4swDcNFD/view",
+      "final_url": "https://drive.google.com/file/d/1xJF9Cd82ybCH3nCdXtQRktTr4swDcNFD/view",
+      "http_status": 200,
+      "title": "assets_v1.zip - Google Drive",
+      "saved_bytes": 80486,
+      "saved_sha256": "b66352d05a4cca329a65b2ed120c0920af2f0da7531493a32657900a4892dc97",
+      "payload_downloaded": false
+    },
+    {
+      "url": "https://utexas.box.com/s/i92e66vwd1985xmkhnrsput0bj0xb70h",
+      "final_url": "https://utexas.app.box.com/s/i92e66vwd1985xmkhnrsput0bj0xb70h",
+      "http_status": 200,
+      "title": "Box",
+      "saved_bytes": 34238,
+      "saved_sha256": "f43e1cda6b6cba92f302a121e32562a631993037ec695c50d6407702fbb01005",
+      "payload_downloaded": false
+    },
+    {
+      "url": "https://utexas.box.com/s/jwglzicuax5rx516soe4r9psvyc05zzf",
+      "final_url": "https://utexas.app.box.com/s/jwglzicuax5rx516soe4r9psvyc05zzf",
+      "http_status": 200,
+      "title": "Box",
+      "saved_bytes": 34256,
+      "saved_sha256": "53f8bb22c4630dd01c871e6cc1311515a2159f80a2c7cdf68761d15d370ce78e",
+      "payload_downloaded": false
+    },
+    {
+      "url": "https://lmzpai.github.io/SaPaVe/",
+      "final_url": "https://lmzpai.github.io/SaPaVe/",
+      "http_status": 200,
+      "title": "\n    SaPaVe | Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics\n  ",
+      "saved_bytes": 22628,
+      "saved_sha256": "f0ae5f8adb0a9d1c1b01b553b0ad83208c39c3daa4c2556b3c3b8d2a8f93d18c",
+      "payload_downloaded": false
+    }
+  ],
+  "gcn_checkpoint_metadata": {
+    "repository": "TongZJ/GCNGrasp-v2",
+    "revision": "3fefe9a977a3b566c086a3f75fbea406f0eedaee",
+    "gated": false,
+    "private": false,
+    "tree": [
+      {
+        "type": "directory",
+        "oid": "f025a47ecda5741153a308590934de280a050ba8",
+        "size": 0,
+        "path": "checkpoints"
+      },
+      {
+        "type": "file",
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "size": 1519,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "04633262199e32fd29861ff9537275e54c232087",
+        "size": 653,
+        "path": "README.md"
+      },
+      {
+        "type": "file",
+        "oid": "37e221b09bec22dbfb7f83ea01d6f94068f5cbea",
+        "size": 143292312,
+        "lfs": {
+          "oid": "9bbb1773e1419346278c3b08e4d52f0d4b65299d1ef6f72917bba915774e4503",
+          "size": 143292312,
+          "pointerSize": 134
+        },
+        "xetHash": "bfbeb4ac12f6bfcc17340003b854eb2cbeda3a0b139f59526ca82a1919df891e",
+        "path": "checkpoints/best.ckpt"
+      },
+      {
+        "type": "file",
+        "oid": "7308c3e53fdbeec88e83be80b4d719210a538258",
+        "size": 130060,
+        "lfs": {
+          "oid": "df2de0e93d1c9b65d99140971dc8fccd09a16f853383c3843b20c418e19c3d1c",
+          "size": 130060,
+          "pointerSize": 131
+        },
+        "xetHash": "45923260593d271e8389fe6dd4abf57a9c44802788aa2b65c72eeb12f86bd4c5",
+        "path": "events.out.tfevents.1771475789.enine.1856223.0"
+      },
+      {
+        "type": "file",
+        "oid": "cba58825bdc75965ed833d4c59f2575a458fc34a",
+        "size": 1099,
+        "lfs": {
+          "oid": "aafe485aaf13fd9e682a4d1b0a82daf6de7df811697f4a27a05831236717674e",
+          "size": 1099,
+          "pointerSize": 129
+        },
+        "xetHash": "821a630affa652d07c5d25b72c045c8984957d5dcb1aa05e8b89b9c4e0270526",
+        "path": "events.out.tfevents.1772717276.tongzj-Z790-D.360884.0"
+      },
+      {
+        "type": "file",
+        "oid": "e350c735a5f5ac82cfc6de12b64201f54cf52725",
+        "size": 9,
+        "path": "hparams.yaml"
+      },
+      {
+        "type": "file",
+        "oid": "3f3104b7103cf42770d89817ba8b8cdf582fbe1f",
+        "size": 1185,
+        "path": "model_v2aff.yaml"
+      },
+      {
+        "type": "file",
+        "oid": "c50463d12cf512ad895bd17b4074ea56a4dde7bd",
+        "size": 7653125,
+        "path": "test_pred_full.txt"
+      },
+      {
+        "type": "file",
+        "oid": "229189b03e12df712e7a7eea0313adf4874b7dc9",
+        "size": 7653125,
+        "path": "test_pred_part.txt"
+      },
+      {
+        "type": "file",
+        "oid": "20bd9ac05ac52dc59938361e1dc248d8ff16b1e1",
+        "size": 409,
+        "path": "train_v2aff.yaml"
+      }
+    ],
+    "payload_downloaded": false
+  },
+  "local_discovery": [
+    {
+      "path": "/home/yoohyun/PaperReview/2026/CVPR/2026_CVPR_ActiveVLA-Injecting-Active-Perception-into-Vision-Language/05_insights.md",
+      "sha256": "7d9c9739ee183cccdf6c69b6e43a9c125ec78349423cf24370f88bdea0052b34",
+      "inspection": "Selected opening/body/insight excerpts as discovery only; no modification."
+    },
+    {
+      "path": "/home/yoohyun/PaperReview/2026/CVPR/2026_CVPR_SaPaVe-Towards-Active-Perception-and-Manipulation-in-Visio/05_insights.md",
+      "sha256": "ee8aa98465ba54cc66e8f57a715afbdd5667b4c23d489b28bdffc26954764e45",
+      "inspection": "Selected opening/body/insight excerpts as discovery only; no modification."
+    }
+  ],
+  "primary_papers": [
+    {
+      "title": "Learning to Look: Seeking Information for Decision Making via Policy Factorization",
+      "url": "https://arxiv.org/html/2410.18964v1",
+      "inspection": "Sections 3, 4, 5, 6 and deployment/baseline appendix excerpts."
+    },
+    {
+      "title": "GCNGrasp-VP: Affordance-Guided View Planning for Efficient Task-Oriented Grasping",
+      "url": "https://arxiv.org/html/2606.19091v1",
+      "inspection": "Sections III and IV-A, evaluation/pipeline scope."
+    },
+    {
+      "title": "Closed-Loop Next-Best-View Planning for Target-Driven Grasping",
+      "url": "https://arxiv.org/html/2207.10543v1",
+      "inspection": "Sections III and IV-A/B plus discussion excerpts."
+    }
+  ],
+  "adjacent_papers": [
+    {
+      "url": "https://arxiv.org/html/2601.08325v1",
+      "inspection": "ActiveVLA Sections 3.1/3.2; virtual view synthesis versus new sensor data."
+    },
+    {
+      "url": "https://arxiv.org/html/2603.12193v1",
+      "inspection": "SaPaVe Sections 3.1/3.2 and official project access."
+    },
+    {
+      "url": "https://arxiv.org/html/2409.14891v3",
+      "inspection": "Observe Then Act Section IV-D auxiliary reward."
+    }
+  ],
+  "recovery": {
+    "temporary_audit_path": "/tmp/research3-q13-source-audit-20260910",
+    "source_retrieval": "GET sources[].url at the recorded immutable commit; check bytes and SHA-256 before source use. Do not import or execute on host.",
+    "page_boundary": "Saved HTTP pages are access receipts, not verified archive/checkpoint bodies. Box generic HTML 200 does not verify a downloadable bundle. Page contents may change.",
+    "hf_boundary": "Read model tree at recorded revision. LFS OIDs and sizes are expected remote metadata; no full checkpoint checksum or loader compatibility verified.",
+    "preservation_boundary": "This manifest is not a dataset/checkpoint backup or completed reproduction record."
+  }
+}

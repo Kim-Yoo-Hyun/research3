@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "episodes": 16,
+  "labels": 96,
+  "official_step_labels": 800,
+  "raw_initialization_exact": true,
+  "static_boundary_values": 0,
+  "files": {
+    "ee/trajectory.h5": "d0c8a16248105ac6189d6f1844ad11de613d086c5c31f93dea56d6c36e8ba592",
+    "joint/trajectory.h5": "ea4bd5999b3b7a462af14d89a6b31164e2f66cbc0fdce790cb530e39e1beb8da",
+    "labels.csv": "7ab557799d4ebdd22b754f6b20671588cbc4047e2972712ced2115f8533934a2",
+    "summary.json": "2d42d3a5bbd71cdfbb4c278463f9f7d5a8ac0fb43029be3f369f46a4bef761fc"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS_SYNTHETIC_REFERENCE_PREFLIGHT",
+  "fps_cases": 3,
+  "knn_tie_and_gather_checks": true,
+  "full_architecture_forwards": 2,
+  "checkpoint_mounted": false,
+  "real_xyz_mounted": false,
+  "copied_suffix_exact": true,
+  "same_process_repeat_exact": true,
+  "native_cuda_parity": false,
+  "elapsed_seconds": 0.562
+}

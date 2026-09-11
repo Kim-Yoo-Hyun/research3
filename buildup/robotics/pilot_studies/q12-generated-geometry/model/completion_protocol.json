@@ -1,0 +1,89 @@
+{
+  "id": "q12-completion-reference-v1",
+  "date": "2026-09-10",
+  "stage": "bounded reference output provenance readiness",
+  "status": "frozen before real-input inference",
+  "model_config": {
+    "trans_dim": 384,
+    "knn_layer": 1,
+    "num_pred": 6144,
+    "num_query": 96
+  },
+  "checkpoint_sha256": "1cf1d7cc25f310c08a3fa2bb130dcd2bffe02189d6ab8ae3558492fbbd04ffda",
+  "checkpoint_root": "base_model",
+  "seed": 12021,
+  "device": "cpu",
+  "cpus": 4,
+  "memory_gib": 4,
+  "repeat_count": 2,
+  "pair_count": 4,
+  "max_model_forwards": 8,
+  "inference_wall_seconds_per_repeat": 600,
+  "verification_wall_seconds": 300,
+  "output_cap_mib": 64,
+  "network": false,
+  "training": false,
+  "policy_or_physics": false,
+  "native_cuda_parity": false,
+  "input_transform": "reuse v1 sampled XYZ, float64 centroid/max Euclidean radius, normalize then float32; no GT input",
+  "output_contract": {
+    "dense": [
+      8192,
+      3
+    ],
+    "sparse": [
+      192,
+      3
+    ],
+    "dense_generated_half_open": [
+      0,
+      6144
+    ],
+    "dense_copied_half_open": [
+      6144,
+      8192
+    ],
+    "sparse_generated_half_open": [
+      0,
+      96
+    ],
+    "sparse_copied_half_open": [
+      96,
+      192
+    ],
+    "dense_copy_source_indices": "0..2047 of frozen sampled normalized input",
+    "sparse_copy_source_indices": "saved reference FPS indices of same input",
+    "provenance": "defined by original forward concatenation; numerical coincidence does not relabel generated points"
+  },
+  "operators": {
+    "FPS": "audited Pointnet2 start 0, mag > 1e-3, temp 1e10, per-thread strict comparisons and halving reduction; CPU float32 arithmetic",
+    "KNN": "CPU float32 direct squared Euclidean distances, stable reference-index tie order, square-root distance output; native source currently unavailable",
+    "gather": "exact tensor index gather"
+  },
+  "controls": [
+    "408-tensor exact schema/strict loading and loaded-value equality each process",
+    "all four fixed input hashes",
+    "shape/finiteness",
+    "bit-exact copied suffixes and source indices",
+    "bit-exact arrays across two independent CPU processes",
+    "independent NumPy normalization/provenance/hash audit"
+  ],
+  "diagnostics": [
+    "generated unique support and exact input coincidences without a minimum-success threshold",
+    "all 8192 supplied GT rows and unique-support count, after prediction only"
+  ],
+  "gt_sampling": "No GT sampling/deduplication in this readiness task. Any later distance analysis must predeclare row-weighted and unique-support diagnostics separately, use the same partial transform, and retain the four-case denominator.",
+  "exclusions": [
+    "no reconstruction quality cutoff or aggregate success metric",
+    "no object-disjoint generalization",
+    "no native CUDA/full 3DSGrasp reproduction",
+    "no physical unit, camera/ray, robot benefit/harm or novelty claim"
+  ],
+  "failure_rules": {
+    "hash_or_global_load_error": "stop; preserve logs and files, no alternative weight or case substitution",
+    "timeout_or_oom": "stop bounded execution and refine runtime; do not rerun by raising caps automatically",
+    "case_or_repeat_control_failure": "REFINE_REFERENCE_OUTPUT; retain all four cases, diagnose before revision",
+    "all_controls_pass": "REFERENCE_OUTPUT_VERIFIED_NATIVE_AND_PHYSICAL_UNRESOLVED; assess native parity/physical linkage before paper or hypothesis escalation"
+  },
+  "inverse_tolerance": 2e-06
+}

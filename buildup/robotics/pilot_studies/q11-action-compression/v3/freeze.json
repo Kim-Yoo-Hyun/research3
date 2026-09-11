@@ -1,0 +1,33 @@
+{
+  "frozen_at_utc": "2026-09-08T12:40:10.834025+00:00",
+  "scope": "one post-v2 revision; calibration-only and fabricated-outcome checks completed, no v3 original or intervention episode observed",
+  "files": {
+    "README.md": "0a4d867419400db8101beee4e93b6c10daa9ebb49ba3486dcda731e08fd0eb7b",
+    "calibration.json": "8846874fec3d2afb4c0a42242fa4a22ccea5d165329af25409bc2ee2ee95fbc0",
+    "check.sh": "38c348d52e4734d0b856bb4bd03c7d003a81f061e394fcc38881f66d1e0157ac",
+    "codecs_impl.py": "4bc705167857958c476aecd6b3cc7c910e5ce23b3760b6c5694b3016ad51b944",
+    "collect.py": "47159cb5e3820d3d81dffc19efa84bc42112b9ffa84da42ca7bd0bbb59e8499b",
+    "contract.json": "69222e3444c435bd7045ae7d659229247952a707f1da5aa1f1d96c00cfdb1fdf",
+    "environment.json": "7dbccb09663047d0a4af68a8351496293e156f247664f1180e11aab5bb63d11a",
+    "evaluate.py": "16b04a5195c47a3ce9d39d6c485b41838dac2c881963486f24967bbef5a17f14",
+    "job.py": "2784c7d241a2295e4e538c9a35de8150e0f08a9473c377e9d86930504e6b754f",
+    "precheck.json": "6eba31d059a33c30288d1cd776a2439febacc481846074b293a050363cc4f30e",
+    "precheck.py": "0f09443b0a32f4078b0fd70b5c0a42b2f9f871e5efba2ca7f7ed0a9fdbc0910c",
+    "prepare.py": "b1a5bf01cc6669d58d0c16a7e741ece1c3967688b6d72bcd2756634e4acf7700",
+    "protocol.json": "47c7fc7c843b1ec69f72d49b7615985de5d1535d8bc185e4f9e005ad58a3dad6",
+    "run.sh": "9b34c6e13de4859c9d1a0cb32e84860a3a510df0ae64a9ca20a26c54e14fda0e",
+    "support.py": "d56c3c58a18d8dc9c8e25b7f7416fdb86abb82f2b671107a1a6874edb06e7bc9",
+    "test_contract.py": "4544dd201097274c2634ab4cf6672030ebdf3b0d0bf2f94d62ce49b383cb3e14"
+  },
+  "baseline_files": {
+    "verify.py": "7bff1ec998bad0382ce44b621c8d6ab92c1d845c7395a36425737f1b8a9f62d2",
+    "inputs.json": "01e6720b7734a377e127fff6c3b6dd28f757d28dfe7bc7d685910ca29f2233c2",
+    "constraints.txt": "68884739c4c2791e82988bb1662a0f5fff2b886a658ab405edb7c7b6f991ae7b",
+    "v2/Dockerfile": "c852559849ad42d834801ae8aaf611cdc7313aca476ad5ce7f27b4e55aed24c0",
+    "v2/Dockerfile.dockerignore": "5f93995da3476fd7a790e50b6a6b5629a5504f3c854014bdd71c5829c90d64a8",
+    "v2/build.sh": "5afd546131c06a093bce039f54e7210fef6b325fcaeca2e1ee7be7e261e85e26",
+    "v2/dependencies.lock": "4226793ede95587568f7821554efd792eb5022100ce88377a1cc5dea52ecb480",
+    "v2/os-packages.lock": "87294c96f7a7451101ed851e9c7fc14077f7c23d4c737473ecd478a3b2be30bb",
+    "v2/environment.json": "80029eb41a74c0a13ccbb3699fd8dc921e69fef78518476e54a1edb965d67504"
+  }
+}

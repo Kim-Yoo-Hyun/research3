@@ -1,0 +1,4 @@
+env cpu torch.Size([1, 42]) Box(-1.0, 1.0, (8,), float32)
+final {'elapsed_steps': tensor([50], dtype=torch.int32), 'success': tensor([True]), 'is_obj_placed': tensor([True]), 'is_robot_static': tensor([True]), 'is_grasped': tensor([True])} state keys dict_keys(['actors', 'articulations'])
+demo_count 1000 first_keys ['obs', 'actions', 'terminated', 'truncated', 'success', 'env_states', 'rewards']
+demo_env_states ['actors', 'articulations']

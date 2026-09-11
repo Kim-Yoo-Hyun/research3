@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-10",
+  "scope": "Q12 Stage 4 read-only source and public metadata audit; no code import, build, inference, model or dataset payload download. ZIP reads are metadata ranges only.",
+  "source_file_count": 32,
+  "source_bytes": 350305,
+  "sources": [
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/README.md",
+      "bytes": 3384,
+      "sha256": "f0d98084e5e576fc10fedb935dc157a4ea31143d74597fd3daf276af8020d5e2"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "INSTALLATION.md",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/INSTALLATION.md",
+      "bytes": 3294,
+      "sha256": "214a04395afe5abe2013719f4f4ba8b6dcd0d6f3ebbed9f1629470bbeba52a96"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/LICENSE",
+      "bytes": 1081,
+      "sha256": "6d6531c033c540a3bdd8f901fc6dca73e5db5de6cca1c2c598a443854cfa3209"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "G3FlowDP/scripts/get_G3Flow_dataset.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/G3FlowDP/scripts/get_G3Flow_dataset.py",
+      "bytes": 11437,
+      "sha256": "40f1b7ee650545306f6203c4fc822ad88d797c0ebdff118526657fca6bbe39ad"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "G3FlowDP/featureTracking.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/G3FlowDP/featureTracking.py",
+      "bytes": 10430,
+      "sha256": "4628ea6b4957cb7f9e34c5ecb4d7430e57ef83c36a597a4b4f6018461bcc0f84"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "G3FlowDP/dp/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/G3FlowDP/dp/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+      "bytes": 11330,
+      "sha256": "3f1ba0a091acad9a099cefe57643b916121003682f4d12d415ea9c82f12a5a3f"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "G3FlowDP/dp/diffusion_policy_3d/policy/G3FlowDP.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/G3FlowDP/dp/diffusion_policy_3d/policy/G3FlowDP.py",
+      "bytes": 14183,
+      "sha256": "97fdad41550dc1d6fe43fe368ed3974cb2ebe1971342f477a2ecc5f755b66dff"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "G3FlowDP/dp/diffusion_policy_3d/config/G3FlowDP.yaml",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/G3FlowDP/dp/diffusion_policy_3d/config/G3FlowDP.yaml",
+      "bytes": 3358,
+      "sha256": "adf766a4a39da655e78fa6ea4cfc11063b70ed9e637a6fe266f4a9c0ea6810a2"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "G3FlowDP/dp/diffusion_policy_3d/config/task/bottle_adjust_T.yaml",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/G3FlowDP/dp/diffusion_policy_3d/config/task/bottle_adjust_T.yaml",
+      "bytes": 855,
+      "sha256": "66e42aa26edd00c93f7edb27b6ae90a9b8b8e02388d1cb49e42c6b01b64c32ad"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "RoboTwin_Benchmark/envs/bottle_adjust_T.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/RoboTwin_Benchmark/envs/bottle_adjust_T.py",
+      "bytes": 3864,
+      "sha256": "d2be0ff47a8ab9adae840e95b9c15efae72478941d9f295e63b744a8465cbe9b"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "RoboTwin_Benchmark/envs/utils/create_actor.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/RoboTwin_Benchmark/envs/utils/create_actor.py",
+      "bytes": 9470,
+      "sha256": "5022751931af1f84bd0cf1a6dd0dcfc26001c87b1998e42b5caa2a5376cff47a"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "RoboTwin_Benchmark/task_config/bottle_adjust_T.yml",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/RoboTwin_Benchmark/task_config/bottle_adjust_T.yml",
+      "bytes": 425,
+      "sha256": "27694d9975e1d941f1f13d499e91240b765283ad505be8bb053123d036f437bb"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "RoboTwin_Benchmark/script/eval_policy_G3FlowDP.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/RoboTwin_Benchmark/script/eval_policy_G3FlowDP.py",
+      "bytes": 6374,
+      "sha256": "fe47ea53fa54da65723d8faab42801b9744cb196084431fac6a83b78aaa48b5f"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "RoboTwin_Benchmark/script/eval_policy_dp3.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/RoboTwin_Benchmark/script/eval_policy_dp3.py",
+      "bytes": 5135,
+      "sha256": "aa234d92e4fc9dec975e6a96bbc52cbfe78ae8663a1e5b6ecab676d08b852d25"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "RoboTwin_Benchmark/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/config/task/bottle_adjust_T_100.yaml",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/RoboTwin_Benchmark/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/config/task/bottle_adjust_T_100.yaml",
+      "bytes": 700,
+      "sha256": "cfa3a901adc611737e79f9958c8e8ed976bf7f9145bb8803fd7d20c3da12868e"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "RoboTwin_Benchmark/envs/base_task.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/RoboTwin_Benchmark/envs/base_task.py",
+      "bytes": 101993,
+      "sha256": "91adcbbf350864a1f5ace2e06c651b547215f51a2bd485d34f5de13dd0ef5a21"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "RoboTwin_Benchmark/envs/utils/rand_create_actor.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/RoboTwin_Benchmark/envs/utils/rand_create_actor.py",
+      "bytes": 4239,
+      "sha256": "e8476cc5a9ae836eacbc268c84997514a5169c0580c2c7af225097f6b397d97a"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "G3FlowDP/imagineModel.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/G3FlowDP/imagineModel.py",
+      "bytes": 10189,
+      "sha256": "2587427ee7a1d631d814db66c6ce1cf4ae499ac5f7d81d2d0d3ec14edb371f8a"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "G3FlowDP/dp/diffusion_policy_3d/env_runner/G3FlowDP_runner.py",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/G3FlowDP/dp/diffusion_policy_3d/env_runner/G3FlowDP_runner.py",
+      "bytes": 4157,
+      "sha256": "8487fe2c9b5235daef896f89ee41871be22be4e12121f4fb920aa78c351dc664"
+    },
+    {
+      "repository": "TianxingChen/G3Flow",
+      "commit": "e011ba6ae5a9493b93b02b2ca7b542f9cf629835",
+      "path": "RoboTwin_Benchmark/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/config/dp3.yaml",
+      "url": "https://raw.githubusercontent.com/TianxingChen/G3Flow/e011ba6ae5a9493b93b02b2ca7b542f9cf629835/RoboTwin_Benchmark/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/config/dp3.yaml",
+      "bytes": 2988,
+      "sha256": "c4be476fc2f27ba03a060cbb69a334b96b167073ca9bdc88ba0ba2cd076d4cea"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/README.md",
+      "bytes": 10195,
+      "sha256": "1ff0acae942be740902b11ef39b5dd69ca0cc5d630bfe4967ff6538e65702bab"
+    },
+    {
+      "repository": "Stanford-TML/SpringGrasp_release",
+      "commit": "07c11318994001e42a92f342841ecbffbddd21e4",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Stanford-TML/SpringGrasp_release/07c11318994001e42a92f342841ecbffbddd21e4/README.md",
+      "bytes": 3539,
+      "sha256": "2566577443e48bd4401c64fb07d2de0465539ed249af0df99d7ae2f2c4657728"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "Dockerfile",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Dockerfile",
+      "bytes": 2828,
+      "sha256": "a1e275f1a0a28241ac75199f2da97d4d2125d99c8bf5a3e481626c96815ccf60"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "Completion/main.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/main.py",
+      "bytes": 1672,
+      "sha256": "f5d83b53c33ebcd07c00678d610e696b4b6b4776cab04a854825a9ac330b208a"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "Completion/cfgs/YCB_models/SGrasp.yaml",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/cfgs/YCB_models/SGrasp.yaml",
+      "bytes": 480,
+      "sha256": "bda4ebc8cbc62e0e84a8a923abc5687c39e914073c2f90473f52c6d410b2e86f"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/LICENSE",
+      "bytes": 1068,
+      "sha256": "8abaa1942b6c07d63922d4a3db0f084c8ec8263289a7d12bc4c9abff6aee160b"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "Completion/tools/runner.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/tools/runner.py",
+      "bytes": 10672,
+      "sha256": "3d07b8e36e08b75612d5db5ee79bcf954ffbf57632117121709274260b4d9f40"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "Completion/models/SGrasp.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/models/SGrasp.py",
+      "bytes": 16161,
+      "sha256": "888fdeacd751f5ca76afef5baa212f0efcd5e722bc596c3765cc2bac4a8e8b00"
+    },
+    {
+      "repository": "YanjieZe/3D-Diffusion-Policy",
+      "commit": "47385d9d6f5bde3f2ebdf2400ecb8261cc9e6b97",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/YanjieZe/3D-Diffusion-Policy/47385d9d6f5bde3f2ebdf2400ecb8261cc9e6b97/README.md",
+      "bytes": 14663,
+      "sha256": "4b44fc2d44817c9c5c984f9ba10ddeb0b1ff1d6481a922d8c9fb8deef5130a9a"
+    },
+    {
+      "repository": "YanjieZe/3D-Diffusion-Policy",
+      "commit": "47385d9d6f5bde3f2ebdf2400ecb8261cc9e6b97",
+      "path": "3D-Diffusion-Policy/diffusion_policy_3d/config/simple_dp3.yaml",
+      "url": "https://raw.githubusercontent.com/YanjieZe/3D-Diffusion-Policy/47385d9d6f5bde3f2ebdf2400ecb8261cc9e6b97/3D-Diffusion-Policy/diffusion_policy_3d/config/simple_dp3.yaml",
+      "bytes": 3107,
+      "sha256": "b0b244e9e4c058ef1abb1e4263eb503a807e56f01e8480a39cce1c0bc5d2babd"
+    },
+    {
+      "repository": "YanjieZe/3D-Diffusion-Policy",
+      "commit": "47385d9d6f5bde3f2ebdf2400ecb8261cc9e6b97",
+      "path": "3D-Diffusion-Policy/diffusion_policy_3d/env/metaworld/metaworld_wrapper.py",
+      "url": "https://raw.githubusercontent.com/YanjieZe/3D-Diffusion-Policy/47385d9d6f5bde3f2ebdf2400ecb8261cc9e6b97/3D-Diffusion-Policy/diffusion_policy_3d/env/metaworld/metaworld_wrapper.py",
+      "bytes": 7634,
+      "sha256": "68ab7cf108b0e26259eb56599e62a6c60cb90794cd58d45a32b2938f7eb45db2"
+    },
+    {
+      "repository": "NunoDuarte/3DSGrasp",
+      "commit": "d6763d85e063db675d433dd119837a93e3657a29",
+      "path": "Completion/utils/Data_loader_ycb.py",
+      "url": "https://raw.githubusercontent.com/NunoDuarte/3DSGrasp/d6763d85e063db675d433dd119837a93e3657a29/Completion/utils/Data_loader_ycb.py",
+      "bytes": 69400,
+      "sha256": "b2f1e86bcc741ba8dc7eb29d5f1f9e094e5d06f360155e691542350dae60e5b5"
+    }
+  ],
+  "unsuccessful_path_probes": [
+    {
+      "path": "RoboTwin_Benchmark/envs/_base_task.py",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "G3FlowDP/scripts/pkl2zarr.py",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "g3flow_bundle": {
+    "metadata_url": "https://huggingface.co/api/datasets/TianxingChen/G3Flow/tree/57431cd3131825fd5ccd49d92a253bfae8eb3ee1?recursive=true",
+    "revision": "57431cd3131825fd5ccd49d92a253bfae8eb3ee1",
+    "tree_entries": [
+      {
+        "type": "directory",
+        "oid": "bf06f8d2cb20ba79f46f6cfaf7666156f07b3399",
+        "size": 0,
+        "path": "2023-10-28-18-33-37"
+      },
+      {
+        "type": "directory",
+        "oid": "387f61e8baa1fc7b50d810c2b17bff9add4113a9",
+        "size": 0,
+        "path": "2024-01-11-20-02-45"
+      },
+      {
+        "type": "file",
+        "oid": "febef1a57589afe38d7d806768e21795bdaa2e09",
+        "size": 6655,
+        "path": ".gitattributes"
+      },
+      {
+        "type": "file",
+        "oid": "d962a1d9a713fcb5f3e125e4fac7cdff3fd59c2f",
+        "size": 708,
+        "path": "2023-10-28-18-33-37/config.yml"
+      },
+      {
+        "type": "file",
+        "oid": "9cb47b3f6babe6e415ea8a9905170bb670ab8a14",
+        "size": 68220109,
+        "lfs": {
+          "oid": "774700586ddc435d408fc01c9809c43e151232936369dfbea0f0f964ba471d60",
+          "size": 68220109,
+          "pointerSize": 133
+        },
+        "xetHash": "86f73e9183b0791fc6a893f2de850a8ab248c7d2c70491e27a1b45eaa20fcd80",
+        "path": "2023-10-28-18-33-37/model_best.pth"
+      },
+      {
+        "type": "file",
+        "oid": "69cf5c058495cc5dda87fe845fe6efd6188ceb7b",
+        "size": 778,
+        "path": "2024-01-11-20-02-45/config.yml"
+      },
+      {
+        "type": "file",
+        "oid": "0322d30546694ad55de90ef320e67e30f9a64eae",
+        "size": 190229389,
+        "lfs": {
+          "oid": "81924d384bf5c26c646ee4783104982ae3d1e049c181c36641b6a7aeae494c26",
+          "size": 190229389,
+          "pointerSize": 134
+        },
+        "xetHash": "34fdc21aa868ae4ac870309bb8d8fc23af4db0f7a386dec11f98a73c62bd25f3",
+        "path": "2024-01-11-20-02-45/model_best.pth"
+      },
+      {
+        "type": "file",
+        "oid": "500e3f63848415fd52403d5b168f6e6ff3b305de",
+        "size": 857,
+        "path": "hubconf.py"
+      },
+      {
+        "type": "file",
+        "oid": "126111322500f09a25932dd49a431ef2459e1514",
+        "size": 380889034,
+        "lfs": {
+          "oid": "39ebfa1ae24ac49e183fe99cafc7b4f10c6dface7cd90e5f7777fbdeb07bab79",
+          "size": 380889034,
+          "pointerSize": 134
+        },
+        "xetHash": "d18d35c555ff1fda8f7ff8b24e6f345d5627666a0e962c390b68e92d918e2b05",
+        "path": "robotwin_assets.zip"
+      },
+      {
+        "type": "file",
+        "oid": "8523acce9ddab1cf7e355628a08b1aab8ce08a72",
+        "size": 2564550879,
+        "lfs": {
+          "oid": "a7bf3b02f3ebf1267aba913ff637d9a2d5c33d3173bb679e46d9f338c26f262e",
+          "size": 2564550879,
+          "pointerSize": 135
+        },
+        "xetHash": "a7b2b9235e9823eda3b96cc61659a8918ff646fac3083540eedd13ddd576f1c5",
+        "path": "sam_vit_h_4b8939.pth"
+      }
+    ],
+    "zip_index": {
+      "url": "https://huggingface.co/datasets/TianxingChen/G3Flow/resolve/57431cd3131825fd5ccd49d92a253bfae8eb3ee1/robotwin_assets.zip",
+      "revision": "57431cd3131825fd5ccd49d92a253bfae8eb3ee1",
+      "zip_bytes": 380889034,
+      "expected_lfs_sha256": "39ebfa1ae24ac49e183fe99cafc7b4f10c6dface7cd90e5f7777fbdeb07bab79",
+      "whole_zip_verified": false,
+      "index_entry_count": 454,
+      "index_offset": 380841687,
+      "index_bytes": 47325,
+      "metadata_reads": [
+        {
+          "start": 380823477,
+          "end": 380889033,
+          "bytes": 65557,
+          "sha256": "0d5de0b18b067bd667ed5843cf122c304ff29b3b9cd38ceeece4cf8f98859692"
+        },
+        {
+          "start": 380841687,
+          "end": 380889011,
+          "bytes": 47325,
+          "sha256": "b6510f20894e3f191b23d02077c54aa723d9fee0e3f5d53ad0b59b6d5b90748d"
+        }
+      ],
+      "metadata_transfer_bytes": 112882,
+      "member_bodies_downloaded": false,
+      "nested_archives_inspected": false,
+      "selected_entries": [
+        {
+          "name": "models/tools/obj/camera_obj.zip",
+          "compressed_bytes": 3670852,
+          "uncompressed_bytes": 3670852,
+          "crc32": "730b5732",
+          "method": 0,
+          "local_offset": 38491516,
+          "flags": 0
+        },
+        {
+          "name": "models/bottles/obj/textured13.obj",
+          "compressed_bytes": 566860,
+          "uncompressed_bytes": 1705274,
+          "crc32": "76fd70fb",
+          "method": 8,
+          "local_offset": 85934681,
+          "flags": 0
+        },
+        {
+          "name": "models/bottles/obj/model_data13.json",
+          "compressed_bytes": 268,
+          "uncompressed_bytes": 1652,
+          "crc32": "fb483bc3",
+          "method": 8,
+          "local_offset": 91935902,
+          "flags": 0
+        },
+        {
+          "name": "models/bottles/model_data13.json",
+          "compressed_bytes": 259,
+          "uncompressed_bytes": 1548,
+          "crc32": "83100cca",
+          "method": 8,
+          "local_offset": 137189381,
+          "flags": 0
+        },
+        {
+          "name": "models/bottles/base13.glb",
+          "compressed_bytes": 1953014,
+          "uncompressed_bytes": 2168148,
+          "crc32": "f1803aba",
+          "method": 8,
+          "local_offset": 146901357,
+          "flags": 0
+        }
+      ]
+    }
+  },
+  "alternative_asset_pages": [
+    {
+      "url": "https://drive.google.com/file/d/11vTsY0MQw9pzsqz3MyvCKjQT2rQ9VxVi/view",
+      "viewer_http_status": 200,
+      "viewer_title": "3dsgrasp_model.pth - Google Drive",
+      "saved_html_bytes": 80398,
+      "saved_html_sha256": "f937b245ba66ae5e0a4881247c5089daeaac4fe54c4737c49a7ec6ef534976ee",
+      "payload_downloaded": false,
+      "payload_size_verified": false,
+      "payload_checksum_verified": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1rnJP3Q2zvcj5uImxRu8yYwgk0O7md8dJ/view",
+      "viewer_http_status": 200,
+      "viewer_title": "3dsgrasp_ycb_train_test_split.zip - Google Drive",
+      "saved_html_bytes": 80617,
+      "saved_html_sha256": "5fb61e66e77649dc1c3ead7991b5f935fd423e1eb869a9be81163b2275b5e5fa",
+      "payload_downloaded": false,
+      "payload_size_verified": false,
+      "payload_checksum_verified": false
+    }
+  ],
+  "recovery": {
+    "temporary_audit_path": "/tmp/research3-q12-source-audit-20260910",
+    "source_retrieval": "GET each pinned sources[].url as text; verify bytes and SHA-256; do not import or execute.",
+    "zip_metadata_retrieval": "GET zip_index.url with Range: bytes=start-end for each metadata_reads item; require HTTP 206, matching Content-Range and bytes/SHA-256. Parse ZIP central directory, including entry count, without extracting or fetching member bodies.",
+    "preservation_boundary": "This is a source/metadata receipt, not a dataset/checkpoint backup or reproduction bundle. Whole-ZIP expected LFS SHA-256 is remote metadata, not a completed payload verification. Drive pages are mutable and do not pin payload content."
+  }
+}

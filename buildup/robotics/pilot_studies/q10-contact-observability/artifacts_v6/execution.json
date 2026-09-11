@@ -1,0 +1,16 @@
+{
+  "frozen_at_utc": "2026-09-08T01:02:56.469900+00:00",
+  "source_sha256": {
+    "probe.py": "370b61c50a44504cebadff0ee69ddcb0069d4850f2566386080da88b061007c3",
+    "verify_probe.py": "6a47ef8f8bc567f46b6b979eba6996a53afecb26ec81a732a5a6e2a55a7fdc87",
+    "test_probe.py": "608d6b9427579f687a9b3cfb6b48d25c79f91e2b312c02ad76ffb35a012df9fe",
+    "run_probe_v6.sh": "cadc6cdea8a7cade19660fa32da69382e5baf3428d1b15f3b6c7941003571291",
+    "Dockerfile_v6": "b406551fafcb58d58bb361785979b125f214f4a0e3249819d3c7dd0d0ef5ab84",
+    "protocol_v6.json": "0fa06e424870090b8fc46f205aaaa0748c3a04ca4aaedcfff5e214903c465dd4",
+    "requirements_v6.txt": "3cb7c0882738a2e0c748e3d31fb9184ba05d32d186d711f632993905f42752e2"
+  },
+  "device": "cpu",
+  "memory_bytes": 4294967296,
+  "threads": 1,
+  "wall_clock_cap_seconds": 1800
+}

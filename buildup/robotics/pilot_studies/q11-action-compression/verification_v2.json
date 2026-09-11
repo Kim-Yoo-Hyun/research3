@@ -1,0 +1,504 @@
+{
+  "status": "PASS",
+  "failure_cases": [
+    {
+      "seed": 2000,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": true,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": true
+    },
+    {
+      "seed": 2001,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2001,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2001,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false,
+      "ever_on": false
+    },
+    {
+      "seed": 2002,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2002,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2002,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2003,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": true,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": true
+    },
+    {
+      "seed": 2003,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2004,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false,
+      "ever_on": false
+    },
+    {
+      "seed": 2004,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false,
+      "ever_on": false
+    },
+    {
+      "seed": 2004,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false,
+      "ever_on": false
+    },
+    {
+      "seed": 2005,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2005,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2005,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2006,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false,
+      "ever_on": false
+    },
+    {
+      "seed": 2006,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false,
+      "ever_on": false
+    },
+    {
+      "seed": 2007,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2007,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2007,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2009,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": true
+    },
+    {
+      "seed": 2009,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": true
+    },
+    {
+      "seed": 2009,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2010,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2010,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2011,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": true,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": true
+    },
+    {
+      "seed": 2011,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": true,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": true
+    },
+    {
+      "seed": 2011,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false,
+      "ever_on": false
+    },
+    {
+      "seed": 2012,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2012,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2013,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": true
+    },
+    {
+      "seed": 2013,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": false,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": true
+    },
+    {
+      "seed": 2013,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false,
+      "ever_on": false
+    },
+    {
+      "seed": 2014,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2014,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2014,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2015,
+      "method": "fast_joint",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2015,
+      "method": "fast_joint_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": true,
+      "ever_on": false
+    },
+    {
+      "seed": 2015,
+      "method": "linear_gripper",
+      "original_success": true,
+      "final_on": false,
+      "final_static": true,
+      "final_grasped": false,
+      "ever_grasped": false,
+      "ever_on": false
+    }
+  ],
+  "original_success": {
+    "calibration": 8,
+    "heldout": 16
+  },
+  "scientific_reruns": 0,
+  "output_hashes": 617,
+  "workers": 194,
+  "control_actions": 20570,
+  "physical_labels": 83056,
+  "replay_full_state_max_abs": 0.0,
+  "independent_decoded_chunks": 460,
+  "calibration_grid_points_checked": 46,
+  "calibration_chunks_checked": 2208,
+  "decode_max_abs": 0.0,
+  "calibration_selection_and_split_order": true,
+  "planned_before_outcomes": true,
+  "codec_table": {
+    "fast_joint": {
+      "n": 16,
+      "success": 2,
+      "lost": 14,
+      "gained": 0,
+      "bytes": 4349,
+      "chunks": 92,
+      "steps": 1686,
+      "clips": 1392,
+      "bytes_per_chunk": 47.27173913043478,
+      "arm_mse": 9.559306556968967e-05,
+      "gripper_mse": 0.0002629749564989863
+    },
+    "fast_quantile": {
+      "n": 16,
+      "success": 16,
+      "lost": 0,
+      "gained": 0,
+      "bytes": 4958,
+      "chunks": 92,
+      "steps": 1686,
+      "clips": 1392,
+      "bytes_per_chunk": 53.891304347826086,
+      "arm_mse": 8.321904049735937e-06,
+      "gripper_mse": 0.0002629749564989863
+    },
+    "fast_joint_gripper": {
+      "n": 16,
+      "success": 2,
+      "lost": 14,
+      "gained": 0,
+      "bytes": 3161,
+      "chunks": 92,
+      "steps": 1686,
+      "clips": 0,
+      "bytes_per_chunk": 34.358695652173914,
+      "arm_mse": 9.559306556968967e-05,
+      "gripper_mse": 0.0
+    },
+    "fast_quantile_gripper": {
+      "n": 16,
+      "success": 16,
+      "lost": 0,
+      "gained": 0,
+      "bytes": 3801,
+      "chunks": 92,
+      "steps": 1686,
+      "clips": 0,
+      "bytes_per_chunk": 41.31521739130435,
+      "arm_mse": 8.321904049735937e-06,
+      "gripper_mse": 0.0
+    },
+    "linear_gripper": {
+      "n": 16,
+      "success": 5,
+      "lost": 11,
+      "gained": 0,
+      "bytes": 2952,
+      "chunks": 92,
+      "steps": 1686,
+      "clips": 0,
+      "bytes_per_chunk": 32.08695652173913,
+      "arm_mse": 0.00023871142072261035,
+      "gripper_mse": 0.0
+    }
+  },
+  "event_eligibility": {
+    "grasp:eligible": 9,
+    "release:eligible": 12,
+    "grasp:no_speed_matched_noncontact": 7,
+    "release:no_speed_matched_noncontact": 4
+  },
+  "localization": {
+    "grasp": {
+      "n": 9,
+      "event_success": 9,
+      "free_success": 9,
+      "lost": 0,
+      "opposite": 0,
+      "p": 1.0
+    },
+    "release": {
+      "n": 12,
+      "event_success": 12,
+      "free_success": 12,
+      "lost": 0,
+      "opposite": 0,
+      "p": 1.0
+    }
+  },
+  "decision": "INCOMPLETE_CODEC_SUPPORT",
+  "audit_source_sha256": "9282361a2f967ba53b0d79e636b9de910447b1772e31bc2f68ca32c18a689b9e"
+}

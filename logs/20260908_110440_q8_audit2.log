@@ -1,0 +1,11 @@
+pd_joint_delta_pos 101 restore 12 / 45
+pd_joint_delta_pos 102 restore 21 / 45
+pd_joint_delta_pos 103 restore 21 / 45
+pd_joint_delta_pos 104 restore 21 / 45
+pd_joint_delta_pos 105 restore 21 / 45
+pd_joint_delta_pos 106 restore 21 / 45
+pd_joint_delta_pos 107 restore 21 / 45
+pd_joint_delta_pos 108 restore 21 / 45
+pd_ee_delta_pos 101 restore 12 / 45
+pd_ee_delta_pos 102 restore 21 / 45
+completed /outputs/audit_2.json seconds 42.440478522796184

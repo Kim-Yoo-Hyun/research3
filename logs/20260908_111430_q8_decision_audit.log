@@ -1,0 +1,33 @@
+{
+  "per_process": [
+    {
+      "zero_passed": 9,
+      "zero_total": 13,
+      "qualified_rows": 98,
+      "qualified_nonzero": 89,
+      "qualified_success": 98
+    },
+    {
+      "zero_passed": 9,
+      "zero_total": 13,
+      "qualified_rows": 98,
+      "qualified_nonzero": 89,
+      "qualified_success": 98
+    },
+    {
+      "zero_passed": 9,
+      "zero_total": 13,
+      "qualified_rows": 98,
+      "qualified_nonzero": 89,
+      "qualified_success": 98
+    }
+  ],
+  "demonstration": {
+    "passed": 9,
+    "n": 27,
+    "max_next_state_error": 0.0003961955662816763,
+    "mid_trajectory_passed": 0,
+    "mid_trajectory_n": 18
+  },
+  "decision": "REFINE_Q8; TESTED_GRID_UNINFORMATIVE; RECOMMEND_Q1_STAGE6"
+}

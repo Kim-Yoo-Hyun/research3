@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/verify_probe.py", line 217, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/verify_probe.py", line 152, in main
+    for k,v in measured.items():close(v,reports[split]['scores'][method][action][k])
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/verify_probe.py", line 18, in close
+    def close(x,y):assert math.isclose(float(x),float(y),abs_tol=1e-10,rel_tol=1e-9),(x,y)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (0.7032746679486243, 0.7032748690573952)

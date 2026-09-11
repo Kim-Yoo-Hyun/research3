@@ -1,0 +1,1 @@
+{"status": "PASS_SYNTHETIC_PIPELINE", "synthetic_model_forwards": 8, "production_predict_and_verify_cli": true, "independent_process_repeat": true, "refreshed_hash_copied_suffix_tampering_rejected": true, "four_case_denominator_preserved": true, "real_checkpoint_or_xyz_mounted": false}

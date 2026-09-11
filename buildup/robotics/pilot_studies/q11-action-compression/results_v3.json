@@ -1,0 +1,166 @@
+{
+  "decision": "STOP_NO_CONTACT_LOCALIZATION_SIGNAL",
+  "heldout_eligible": 24,
+  "codec_table": {
+    "fast_joint_gripper": {
+      "eligible_originals": 24,
+      "verified_variants": 24,
+      "unavailable_or_invalid": 0,
+      "source_success": 24,
+      "codec_success": 10,
+      "paired_success_delta": -0.5833333333333334,
+      "paired_bootstrap_95": [
+        -0.7510416666666666,
+        -0.375
+      ],
+      "lost_success": 14,
+      "gained_success": 0
+    },
+    "fast_quantile_gripper": {
+      "eligible_originals": 24,
+      "verified_variants": 24,
+      "unavailable_or_invalid": 0,
+      "source_success": 24,
+      "codec_success": 23,
+      "paired_success_delta": -0.041666666666666664,
+      "paired_bootstrap_95": [
+        -0.125,
+        0.0
+      ],
+      "lost_success": 1,
+      "gained_success": 0
+    },
+    "linear_gripper": {
+      "eligible_originals": 24,
+      "verified_variants": 24,
+      "unavailable_or_invalid": 0,
+      "source_success": 24,
+      "codec_success": 4,
+      "paired_success_delta": -0.8333333333333334,
+      "paired_bootstrap_95": [
+        -0.9583333333333334,
+        -0.6666666666666666
+      ],
+      "lost_success": 20,
+      "gained_success": 0
+    }
+  },
+  "rate_error_support": {
+    "fast_joint_gripper": {
+      "reference": "fast_joint_gripper",
+      "episodes": 24,
+      "reference_bytes": 34.153284671532845,
+      "control_bytes": 34.153284671532845,
+      "reference_arm_mse": 9.636623980910887e-05,
+      "control_arm_mse": 9.636623980910887e-05,
+      "rate_matched": true,
+      "error_matched": true
+    },
+    "fast_quantile_gripper": {
+      "reference": "fast_joint_gripper",
+      "episodes": 24,
+      "reference_bytes": 34.153284671532845,
+      "control_bytes": 41.37956204379562,
+      "reference_arm_mse": 9.636623980910887e-05,
+      "control_arm_mse": 8.45146967054459e-06,
+      "rate_matched": false,
+      "error_matched": false
+    },
+    "linear_gripper": {
+      "reference": "fast_joint_gripper",
+      "episodes": 24,
+      "reference_bytes": 34.153284671532845,
+      "control_bytes": 36.63503649635037,
+      "reference_arm_mse": 9.636623980910887e-05,
+      "control_arm_mse": 9.059532224741804e-05,
+      "rate_matched": true,
+      "error_matched": true
+    }
+  },
+  "localization": {
+    "grasp": {
+      "eligible_pairs": 13,
+      "event_fails_free_succeeds": 1,
+      "event_succeeds_free_fails": 0,
+      "exact_paired_two_sided_p": 1.0,
+      "bonferroni_alpha": 0.025,
+      "diagnostic_signal": false,
+      "remaining_confounding": "robot configuration, clearance and acceleration are not randomized; this is not contact causality proof"
+    },
+    "release": {
+      "eligible_pairs": 16,
+      "event_fails_free_succeeds": 4,
+      "event_succeeds_free_fails": 0,
+      "exact_paired_two_sided_p": 0.125,
+      "bonferroni_alpha": 0.025,
+      "diagnostic_signal": false,
+      "remaining_confounding": "robot configuration, clearance and acceleration are not randomized; this is not contact causality proof"
+    }
+  },
+  "no_automatic_hypothesis_selection": true,
+  "pre_intervention_support": {
+    "decision": "READY_FOR_INTERVENTION",
+    "originals": 24,
+    "available": {
+      "fast_joint_gripper": 24,
+      "fast_quantile_gripper": 24,
+      "linear_gripper": 24
+    },
+    "eligible_events": {
+      "grasp": 13,
+      "release": 16
+    },
+    "metrics": {
+      "fast_joint_gripper": {
+        "episodes": 24,
+        "bytes_per_chunk": 34.153284671532845,
+        "arm_mse": 9.636623980910887e-05
+      },
+      "fast_quantile_gripper": {
+        "episodes": 24,
+        "bytes_per_chunk": 41.37956204379562,
+        "arm_mse": 8.45146967054459e-06
+      },
+      "linear_gripper": {
+        "episodes": 24,
+        "bytes_per_chunk": 36.63503649635037,
+        "arm_mse": 9.059532224741804e-05
+      }
+    },
+    "joint_linear_rate_overlap": true,
+    "joint_linear_mse_overlap": true,
+    "minimum_originals": 16,
+    "minimum_pairs_each_event": 8,
+    "success_outcomes_used": false,
+    "subgroup_selection": false
+  },
+  "linear_vs_joint": {
+    "episodes": 24,
+    "linear_minus_joint_success": -0.25,
+    "bootstrap_95": [
+      -0.5416666666666666,
+      0.041666666666666664
+    ],
+    "lost": 10,
+    "gained": 4,
+    "interpretation": "approximately matched rate/MSE, not equal budget or a causal contact contrast"
+  },
+  "post_v2_revision": true,
+  "provenance": {
+    "runs/q11_v3/analysis.json": "be723ac6263b84999d2b5a80fe7a9fc496168481bf096878b00fd229a60de3ee",
+    "runs/q11_v3/job.json": "1a568b56176a6c7b2fafdf0a941b2c1faea4ebfdf6bcffbcc9a223dad2802e7b",
+    "runs/q11_v3/support.json": "9709699abc96ce81d5ffe7388df5436e6473847824ebbb447a2b2632fb2f0746",
+    "runs/q11_v3/outputs.sha256.json": "c1bd5470a92cc7fc021ce779b3b3fa5a0d4abf257dedd94ccfadf11a230d83e5",
+    "runs/q11_v3/plans.sha256.json": "1676c204b0541b834ad0e93c1c1bced37b08021b2d6832520a52d2a71bc7ee77",
+    "runs/q11_v3/freeze.json": "e3a029ef3a460bae6d0559ecfcd1e5ea27780d67ac07f93c44d63f0e8c58d311"
+  },
+  "runtime_seconds": 603.4245278835297,
+  "population": {
+    "attempted_originals": 24,
+    "completed_replay_valid_originals": 24,
+    "original_replays": 48,
+    "codec_rollouts": 72,
+    "localized_rollouts": 58,
+    "total_trajectories": 202
+  }
+}

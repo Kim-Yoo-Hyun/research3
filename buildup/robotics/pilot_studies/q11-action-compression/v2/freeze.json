@@ -1,0 +1,27 @@
+{
+  "frozen_at_utc": "2026-09-08T05:33:47.112106+00:00",
+  "scope": "physical pilot v2; no real v2 calibration/held-out/outcome data observed",
+  "files": {
+    "Dockerfile": "c852559849ad42d834801ae8aaf611cdc7313aca476ad5ce7f27b4e55aed24c0",
+    "Dockerfile.dockerignore": "5f93995da3476fd7a790e50b6a6b5629a5504f3c854014bdd71c5829c90d64a8",
+    "build.sh": "5afd546131c06a093bce039f54e7210fef6b325fcaeca2e1ee7be7e261e85e26",
+    "check.sh": "ebf35b4175bbaae17dbe062a414b0a7f78182b8b0b78c8f670259c76633fb834",
+    "codecs_impl.py": "4bc705167857958c476aecd6b3cc7c910e5ce23b3760b6c5694b3016ad51b944",
+    "collect.py": "47159cb5e3820d3d81dffc19efa84bc42112b9ffa84da42ca7bd0bbb59e8499b",
+    "dependencies.lock": "4226793ede95587568f7821554efd792eb5022100ce88377a1cc5dea52ecb480",
+    "environment.json": "80029eb41a74c0a13ccbb3699fd8dc921e69fef78518476e54a1edb965d67504",
+    "evaluate.py": "9e67f779d0bb17b45afac2d307955755282fb7bd3dc34f0da6ef2925b5735a83",
+    "job.py": "6a8efdba8b3e1d716d2a0ab24fe140f2e53b03a0012e072bb3b0b9dee8ffcc9c",
+    "os-packages.lock": "87294c96f7a7451101ed851e9c7fc14077f7c23d4c737473ecd478a3b2be30bb",
+    "preflight.json": "463f6e1c35a9dcd2a765a0aded23da653ba64af49a95f8c7d5e147f4d012475a",
+    "preflight.py": "5f5359d6c328d6396a798f5ae864d5d96d087ce3cd9a69ad4685335287603730",
+    "prepare.py": "bcf7ff78537c761fe7a0c1f6b922d58fadf3f7f7ca9dd2ee636d236f799a878e",
+    "protocol.json": "3abc698d17441892a062458a84617b3b05486c277cbfadef4c8ab0c7433c17c2",
+    "run.sh": "eb31ad771b82b41c56f7942b2c9942a8260e1c40ac8f79f4d88bf19a19ac1d41"
+  },
+  "baseline_files": {
+    "verify.py": "7bff1ec998bad0382ce44b621c8d6ab92c1d845c7395a36425737f1b8a9f62d2",
+    "inputs.json": "01e6720b7734a377e127fff6c3b6dd28f757d28dfe7bc7d685910ca29f2233c2",
+    "constraints.txt": "68884739c4c2791e82988bb1662a0f5fff2b886a658ab405edb7c7b6f991ae7b"
+  }
+}

@@ -1,0 +1,1 @@
+{"seed": 3011, "mode": "linear_gripper", "status": "completed", "started": 1789006133.448332, "steps": 118, "action_dtype": "float64", "action_sha256": "e46e309d7b62d1ee61ab1956a9dd2a13de27b087c955481d0a6e6b2412f8531b", "elapsed_seconds": 0.9019222259521484, "final_success": false}

@@ -1,0 +1,229 @@
+{
+  "status": "completed",
+  "date": "2026-09-10",
+  "root": "/home/yoohyun/research3/datasets/q12",
+  "selection_rule": "lexicographically first two test objects, first two paired partials per object; basename final x -> y",
+  "caps": {
+    "network_bytes": 4294967296,
+    "storage_bytes": 6442450944,
+    "wall_seconds": 1800
+  },
+  "assets": [
+    {
+      "name": "3dsgrasp_ycb_train_test_split.zip",
+      "url": "https://drive.usercontent.google.com/download?id=1rnJP3Q2zvcj5uImxRu8yYwgk0O7md8dJ&export=download&confirm=t",
+      "bytes": 1836233634,
+      "sha256": "85ee4808694de50fc565754baee359af65af4d95bcd4e4f5796bc62389330e2d",
+      "publisher_checksum_available": false
+    },
+    {
+      "name": "3dsgrasp_model.pth",
+      "url": "https://drive.usercontent.google.com/download?id=11vTsY0MQw9pzsqz3MyvCKjQT2rQ9VxVi&export=download&confirm=t",
+      "bytes": 505668417,
+      "sha256": "1cf1d7cc25f310c08a3fa2bb130dcd2bffe02189d6ab8ae3558492fbbd04ffda",
+      "publisher_checksum_available": false
+    }
+  ],
+  "inner_archives": [
+    {
+      "member": "input.zip",
+      "path": "archives/input.zip",
+      "bytes": 492023401,
+      "zip_crc32": "5d22215b",
+      "crc_verified_on_read": true,
+      "sha256": "cc612590087ef45454d108289962924cb54ee84c6105119402b3ad7f0d7cdd34"
+    },
+    {
+      "member": "gt.zip",
+      "path": "archives/gt.zip",
+      "bytes": 1388709954,
+      "zip_crc32": "319d0752",
+      "crc_verified_on_read": true,
+      "sha256": "ba61cf17af28b83b7f798a9e574641486a103653b51657bd50dd65711ae9c182"
+    }
+  ],
+  "network_body_bytes_this_invocation": 2341902051,
+  "elapsed_seconds": 199.413,
+  "input_member_count": 41360,
+  "input_total_uncompressed_bytes": 6459173047,
+  "gt_member_count": 41360,
+  "gt_total_uncompressed_bytes": 25788260672,
+  "eligible_objects": [
+    "banana_poisson_002",
+    "binder_poisson_004",
+    "black_and_decker_lithium_drill_driver",
+    "boltcutter_poisson_000",
+    "book_poisson_000",
+    "box_poisson_019",
+    "box_poisson_020",
+    "box_poisson_021",
+    "box_poisson_022",
+    "box_poisson_023",
+    "box_poisson_026",
+    "brine_mini_soccer_ball",
+    "campbells_condensed_tomato_soup",
+    "can_poisson_002",
+    "can_poisson_009",
+    "cellphone_poisson_008",
+    "cellphone_poisson_013",
+    "clorox_disinfecting_wipes_35",
+    "comet_lemon_fresh_bleach",
+    "detergent_bottle_poisson_004",
+    "domino_sugar_1lb",
+    "donut_poisson_006",
+    "flashlight_poisson_002",
+    "frenchs_classic_yellow_mustard_14oz",
+    "jar_poisson_001",
+    "jar_poisson_006",
+    "knife_poisson_004",
+    "knife_poisson_011",
+    "knife_poisson_019",
+    "light_bulb_poisson_001",
+    "lime_poisson_001",
+    "melissa_doug_farm_fresh_fruit_lemon",
+    "morton_salt_shaker",
+    "mushroom_poisson_005",
+    "play_go_rainbow_stakin_cups_1_yellow",
+    "pliers_poisson_015",
+    "pringles_original",
+    "remote_poisson_006",
+    "remote_poisson_008",
+    "remote_poisson_009",
+    "remote_poisson_012",
+    "rubbermaid_ice_guard_pitcher_blue",
+    "saucepan_poisson_000",
+    "screwdriver_poisson_000",
+    "screwdriver_poisson_013",
+    "shovel_poisson_000",
+    "soft_scrub_2lb_4oz",
+    "sponge_with_textured_cover",
+    "stapler_poisson_007",
+    "tetra_pak_poisson_020",
+    "toy_poisson_001",
+    "toy_poisson_008",
+    "trash_can_poisson_023",
+    "trash_can_poisson_031",
+    "wrench_poisson_012",
+    "wrench_poisson_014"
+  ],
+  "unpaired_test_partial_count": 0,
+  "selected_pairs": [
+    {
+      "object": "banana_poisson_002",
+      "partial_member": "input/banana_poisson_002/test/_0_0_5_x.xyz",
+      "gt_member": "gt/banana_poisson_002/test/_0_0_5_y.xyz"
+    },
+    {
+      "object": "banana_poisson_002",
+      "partial_member": "input/banana_poisson_002/test/_0_0_7_x.xyz",
+      "gt_member": "gt/banana_poisson_002/test/_0_0_7_y.xyz"
+    },
+    {
+      "object": "binder_poisson_004",
+      "partial_member": "input/binder_poisson_004/test/_0_0_1_x.xyz",
+      "gt_member": "gt/binder_poisson_004/test/_0_0_1_y.xyz"
+    },
+    {
+      "object": "binder_poisson_004",
+      "partial_member": "input/binder_poisson_004/test/_0_0_2_x.xyz",
+      "gt_member": "gt/binder_poisson_004/test/_0_0_2_y.xyz"
+    }
+  ],
+  "selected_files": [
+    {
+      "member": "input/banana_poisson_002/test/_0_0_5_x.xyz",
+      "path": "subset/input/banana_poisson_002/test/_0_0_5_x.xyz",
+      "bytes": 156797,
+      "zip_crc32": "02fbe7d7",
+      "crc_verified_on_read": true,
+      "sha256": "d26fe43f66c24951c21745e9886d202eea4d3fd2f9fb96f3bb8852bdfb3de256"
+    },
+    {
+      "member": "gt/banana_poisson_002/test/_0_0_5_y.xyz",
+      "path": "subset/gt/banana_poisson_002/test/_0_0_5_y.xyz",
+      "bytes": 627140,
+      "zip_crc32": "47633870",
+      "crc_verified_on_read": true,
+      "sha256": "104353cd53e1e0d7fca83224152e30970f1391195b90c51720c6bdc7987acc49"
+    },
+    {
+      "member": "input/banana_poisson_002/test/_0_0_7_x.xyz",
+      "path": "subset/input/banana_poisson_002/test/_0_0_7_x.xyz",
+      "bytes": 156666,
+      "zip_crc32": "8dd11b5c",
+      "crc_verified_on_read": true,
+      "sha256": "e910ff756c03230fc8d7415f927463ae3f46f5b88bad1a7ec9bc761ca316e588"
+    },
+    {
+      "member": "gt/banana_poisson_002/test/_0_0_7_y.xyz",
+      "path": "subset/gt/banana_poisson_002/test/_0_0_7_y.xyz",
+      "bytes": 631320,
+      "zip_crc32": "b112f8da",
+      "crc_verified_on_read": true,
+      "sha256": "c6d19c8eb07ea9d225ae358d0d8d6e4cd945ef3a163d6de219c0060c9f577044"
+    },
+    {
+      "member": "input/binder_poisson_004/test/_0_0_1_x.xyz",
+      "path": "subset/input/binder_poisson_004/test/_0_0_1_x.xyz",
+      "bytes": 157009,
+      "zip_crc32": "27995fc5",
+      "crc_verified_on_read": true,
+      "sha256": "9c57e04a9d8000439ae3918475fd44c6751430820f8fb2518ba28dd82881176e"
+    },
+    {
+      "member": "gt/binder_poisson_004/test/_0_0_1_y.xyz",
+      "path": "subset/gt/binder_poisson_004/test/_0_0_1_y.xyz",
+      "bytes": 622283,
+      "zip_crc32": "c42a4076",
+      "crc_verified_on_read": true,
+      "sha256": "412abd3cd6a21fe04de99e8b5fb7fb7fffeb8b96c0733f9b5ff051b0675ca5db"
+    },
+    {
+      "member": "input/binder_poisson_004/test/_0_0_2_x.xyz",
+      "path": "subset/input/binder_poisson_004/test/_0_0_2_x.xyz",
+      "bytes": 156844,
+      "zip_crc32": "f4c2fa59",
+      "crc_verified_on_read": true,
+      "sha256": "168a4f4d9668553e620f20642a49ac7f5031f23e8d8ab00e49d57220660a2117"
+    },
+    {
+      "member": "gt/binder_poisson_004/test/_0_0_2_y.xyz",
+      "path": "subset/gt/binder_poisson_004/test/_0_0_2_y.xyz",
+      "bytes": 623965,
+      "zip_crc32": "bb177152",
+      "crc_verified_on_read": true,
+      "sha256": "917a3727305b6cd61000e8c1d925b4f59fafcf6eef71cc6a4075daec09efc01a"
+    }
+  ],
+  "arrays_evaluated": false,
+  "model_loaded": false,
+  "metric_frame_verified": false,
+  "index_hashes": {
+    "input-index.json": "4c639193434e15bc90978c5bb8e136db02fa9b77ddc3aa43a39d523c52534ce9",
+    "gt-index.json": "1e31b772a8d217203d1365b1fbd3b7e84dff955c7b1a1055a367529918d2df88"
+  },
+  "source_class_membership": {
+    "banana_poisson_002": {
+      "YcbTrain": true,
+      "YcbTest": true,
+      "YcbVal": true
+    },
+    "binder_poisson_004": {
+      "YcbTrain": true,
+      "YcbTest": true,
+      "YcbVal": true
+    }
+  },
+  "selected_object_split_counts": {
+    "banana_poisson_002": {
+      "test": 133,
+      "train": 593
+    },
+    "binder_poisson_004": {
+      "test": 143,
+      "train": 583
+    }
+  },
+  "archive_total_objects": 56,
+  "metadata_terms_candidates": []
+}

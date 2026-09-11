@@ -1,0 +1,50 @@
+{
+  "status": "PASS_OUTPUT_BYTE_AUDIT",
+  "pairs": [
+    {
+      "index": 0,
+      "repeat_npy_bytes_equal": true,
+      "dense_copy_bytes_equal": true,
+      "sparse_copy_bytes_equal": true,
+      "archive_sha256": [
+        "3ee77eadedda8628b476b47f55f5da54e5d62108e166219b9165e40608af5fe4",
+        "3ee77eadedda8628b476b47f55f5da54e5d62108e166219b9165e40608af5fe4"
+      ]
+    },
+    {
+      "index": 1,
+      "repeat_npy_bytes_equal": true,
+      "dense_copy_bytes_equal": true,
+      "sparse_copy_bytes_equal": true,
+      "archive_sha256": [
+        "9470070d8faae8a823d8793c8da89e0f3ef1c79d4c59ec8e3092b06d218aab5c",
+        "9470070d8faae8a823d8793c8da89e0f3ef1c79d4c59ec8e3092b06d218aab5c"
+      ]
+    },
+    {
+      "index": 2,
+      "repeat_npy_bytes_equal": true,
+      "dense_copy_bytes_equal": true,
+      "sparse_copy_bytes_equal": true,
+      "archive_sha256": [
+        "44903311f052fa6d9f1b206e576ff43812c36b031f09b95b3ebdc0913647a336",
+        "44903311f052fa6d9f1b206e576ff43812c36b031f09b95b3ebdc0913647a336"
+      ]
+    },
+    {
+      "index": 3,
+      "repeat_npy_bytes_equal": true,
+      "dense_copy_bytes_equal": true,
+      "sparse_copy_bytes_equal": true,
+      "archive_sha256": [
+        "c0ff04ae07e16bff7a0c2375767432fef08ebba9a7990b470bc30cc67a0e9da6",
+        "c0ff04ae07e16bff7a0c2375767432fef08ebba9a7990b470bc30cc67a0e9da6"
+      ]
+    }
+  ],
+  "archive_count": 8,
+  "npy_member_count": 48,
+  "verification_sha256": "2186013d2dc980e6b0af801dcd985f9c9240ba87bbd5766197ba9cfd98e4427c",
+  "new_model_forwards": 0,
+  "audit_scope": "post-run verification of literal bit equality, including signed zero; no new metric"
+}

@@ -1,0 +1,46 @@
+recording_id	split	condition	segment_index	start	end	success	text	external_rgb_samples	hand_rgb_samples	force_samples	proprioception_samples	excluded_official_issue	matched_usable
+2025-01-11-14-43-37	test_split1.txt	no documented issue	0	1736603018.4308324	1736603020.581422	True	No action.	64	60	2153	1243	False	True
+2025-01-11-14-43-37	test_split1.txt	no documented issue	1	1736603020.597623	1736603034.9809134	False	Pick square peg 3.	431	395	14381	8371	False	True
+2025-01-11-14-43-37	test_split1.txt	no documented issue	2	1736603034.99778	1736603040.697478	True	No action.	171	161	5700	3250	False	True
+2025-01-11-14-43-37	test_split1.txt	no documented issue	3	1736603040.7141714	1736603041.6476667	True	No action.	28	25	934	494	False	True
+2025-01-13-17-51-11	train_split1.txt	no documented issue	0	1736787072.0854783	1736787074.4289346	True	No action.	71	64	2344	1378	False	True
+2025-01-13-17-51-11	train_split1.txt	no documented issue	1	1736787074.4456282	1736787079.462247	True	Remove D-SUB.	151	133	5016	2878	False	True
+2025-01-13-17-51-11	train_split1.txt	no documented issue	2	1736787079.478934	1736787082.728975	True	Place D-SUB.	98	90	3250	1857	False	True
+2025-01-13-17-51-11	train_split1.txt	no documented issue	3	1736787082.7456431	1736787093.7957635	False	Remove bolt 4.	332	309	11050	6458	False	True
+2025-01-13-17-51-11	train_split1.txt	no documented issue	4	1736787093.8127024	1736787095.5790415	True	No action.	53	52	1768	1000	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	0	1736606108.5816712	1736606112.9481752	True	No action.	131	117	4366	2483	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	1	1736606112.964894	1736606119.531691	True	Pick bolt 4.	197	181	6569	3691	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	2	1736606119.549388	1736606131.1648552	True	Insert bolt 4.	348	320	11614	6523	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	3	1736606131.1837742	1736606137.6648293	True	Pick Ethernet.	194	179	6480	3627	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	4	1736606137.6815643	1736606154.3815544	True	Insert Ethernet.	501	459	16700	9459	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	5	1736606154.3980966	1736606161.781531	True	Pick D-SUB.	222	204	7385	4060	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	6	1736606161.7982297	1736606176.3981545	True	Insert D-SUB.	438	409	14599	8215	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	7	1736606176.415841	1736606182.8982294	True	Pick USB.	194	187	6482	3641	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	8	1736606182.9150715	1736606196.1148565	True	Insert USB.	396	361	13204	7462	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	9	1736606196.1318235	1736606208.0481803	True	Pick large gear.	358	330	11917	6716	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	10	1736606208.0654814	1736606223.981648	True	Insert large gear.	478	445	15915	9024	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	11	1736606223.9981675	1736606230.7981002	True	Pick medium gear.	204	187	6800	3817	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	12	1736606230.8148232	1736606248.881508	True	Insert medium gear.	542	504	18064	10304	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	13	1736606248.8982286	1736606256.6817603	True	Pick small gear.	234	212	7786	4417	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	14	1736606256.6982038	1736606284.1982045	False	Insert small gear.	825	754	20173	15905	False	True
+2025-01-11-15-35-08	train_split1.txt	force/torque not valid for last action	15	1736606284.2149043	1736606288.614845	True	No action.	132	124	0	2454	True	False
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	0	1736519331.4279895	1736519333.7946332	True	No action.	71	0	2367	1376	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	1	1736519333.811616	1736519344.911281	True	Pick BNC.	333	0	11099	6608	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	2	1736519344.9279914	1736519378.6946049	True	Insert BNC.	1013	369	33769	19852	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	3	1736519378.711637	1736519389.0279815	True	Pick D-SUB.	309	299	10319	5956	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	4	1736519389.0446646	1736519423.8279707	False	Insert D-SUB.	1043	965	34784	20522	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	5	1736519423.8459544	1736519430.8946607	True	Pick D-SUB.	211	193	7049	4033	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	6	1736519430.9135878	1736519435.4611692	True	Place D-SUB.	136	123	4549	2641	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	7	1736519435.4779992	1736519441.8946304	True	Pick medium gear.	192	179	6416	3770	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	8	1736519441.9113216	1736519452.678128	True	Insert medium gear.	322	298	10767	6396	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	9	1736519452.6946115	1736519459.644612	True	Pick large gear.	210	189	6950	4059	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	10	1736519459.661384	1736519473.0112925	True	Insert large gear.	401	368	13350	7871	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	11	1736519473.027989	1736519480.5946455	True	Pick Ethernet.	227	209	7568	4407	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	12	1736519480.6112902	1736519500.9279833	True	Insert Ethernet.	609	557	20316	11772	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	13	1736519500.9447484	1736519511.144628	True	Pick square peg 4.	306	284	10201	5786	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	14	1736519511.161429	1736519529.161496	True	Insert square peg 4.	540	508	18000	10292	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	15	1736519529.1779718	1736519538.42795	True	Pick USB.	277	267	9248	5273	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	16	1736519538.444887	1736519551.7779434	True	Insert USB.	400	383	13334	7655	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	17	1736519551.7946656	1736519561.344671	True	Pick small gear.	287	276	9551	5517	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	18	1736519561.3612905	1736519592.3779085	True	Insert small gear.	931	855	31016	18150	False	True
+2025-01-10-15-28-50	train_split1.txt	hand camera missing at beginning	19	1736519592.394661	1736519594.7112484	True	No action.	70	61	2318	1239	False	True

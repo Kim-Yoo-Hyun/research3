@@ -1,0 +1,43 @@
+{
+  "pointnet_repository": "https://github.com/erikwijmans/Pointnet2_PyTorch",
+  "pointnet_commit": "b5ceb6d9ca0467ea34beb81023f96ee82228f626",
+  "original_3dsgrasp_dependency_unpinned": true,
+  "files": [
+    {
+      "path": "operators/pointnet2_ops_lib/pointnet2_ops/pointnet2_utils.py",
+      "upstream_path": "pointnet2_ops_lib/pointnet2_ops/pointnet2_utils.py",
+      "sha256": "8558f8c958551ad7eb46990d08b563a095a8cd4038b4527f1c63609ee6c9bc6d"
+    },
+    {
+      "path": "operators/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/sampling_gpu.cu",
+      "upstream_path": "pointnet2_ops_lib/pointnet2_ops/_ext-src/src/sampling_gpu.cu",
+      "sha256": "a1ec92aabdb6e4ab3ad0b982ebb28fa79b1b1fc95e3accbfaa511ef9bc317fe4"
+    },
+    {
+      "path": "operators/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/sampling.cpp",
+      "upstream_path": "pointnet2_ops_lib/pointnet2_ops/_ext-src/src/sampling.cpp",
+      "sha256": "eb800bdb22cc5b2a3742eae1c125cd6883969c329a3e36c8c4d3d9de98246312"
+    },
+    {
+      "path": "operators/pointnet2_ops_lib/pointnet2_ops/_ext-src/include/sampling.h",
+      "upstream_path": "pointnet2_ops_lib/pointnet2_ops/_ext-src/include/sampling.h",
+      "sha256": "e1b919a8bacf4c077dff6d86d2226df4eeb041e5d135be2a2d829c5de933d068"
+    },
+    {
+      "path": "operators/UNLICENSE",
+      "upstream_path": "UNLICENSE",
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+    },
+    {
+      "path": "operators/pointnet2_ops_lib/pointnet2_ops/_ext-src/include/cuda_utils.h",
+      "upstream_path": "pointnet2_ops_lib/pointnet2_ops/_ext-src/include/cuda_utils.h",
+      "sha256": "de26c10e6748e61da7f6516863f2a20d923ccd78e539efdfe18db8a0aeb0a288"
+    }
+  ],
+  "knn_source_access": {
+    "date": "2026-09-10",
+    "result": "HTTP 404 for GitHub API repository/ref and raw master URLs; cached web wrapper is not a verified build source",
+    "url": "https://github.com/unlimblue/KNN_CUDA"
+  },
+  "native_parity_verified": false
+}

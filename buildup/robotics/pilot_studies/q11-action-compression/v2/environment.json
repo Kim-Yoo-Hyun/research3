@@ -1,0 +1,9 @@
+{
+  "image_id": "sha256:fb9c530b6d664536b7665a3647c28459c729b250e5b1300cc47494820c388b5f",
+  "tag": "research3-q11-pilot:v2",
+  "base": "python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250",
+  "locks": {
+    "dependencies.lock": "4226793ede95587568f7821554efd792eb5022100ce88377a1cc5dea52ecb480",
+    "os-packages.lock": "87294c96f7a7451101ed851e9c7fc14077f7c23d4c737473ecd478a3b2be30bb"
+  }
+}

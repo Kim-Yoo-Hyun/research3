@@ -1,0 +1,106 @@
+{
+  "date": "2026-09-11",
+  "recorded_at": "2026-09-11T00:51:16.167694+00:00",
+  "status": "completed",
+  "working_directory": "/home/yoohyun/research3",
+  "image_id": "sha256:9977f452f5bb84734c210e911110d23a2dacf9fb38d94c260d864c65da1444d6",
+  "completion_freeze_sha256": "f8325aef30dbbfa2fff1a6f1eb358132096ba1621ea651d7ca7280c6de46cbb4",
+  "protocol_sha256": "fee7802bc13f010c012f03286c2bba18c1cbdda828bfa8d38851397e12a4ed87",
+  "command": "tmux new-session -d -s research3_q12_completion_reference 'bash /home/yoohyun/research3/buildup/robotics/pilot_studies/q12-generated-geometry/model/run_completion.sh'",
+  "run_script_sha256": "51bd06260c2e07aa356a7e19bc437030251c591c76f63dbbe8a475018fec2053",
+  "device": "cpu",
+  "cpus": 4,
+  "memory_limit_gib": 4,
+  "peak_memory_measured": false,
+  "seed": 12021,
+  "pair_count": 4,
+  "process_count": 2,
+  "model_forward_count": 8,
+  "additional_model_forwards": 0,
+  "protocol_modified": false,
+  "native_cuda_executed": false,
+  "training": false,
+  "physical_rollout": false,
+  "gt_mounted_in_predictor": false,
+  "independent_verification": "frozen NumPy verifier, then post-run standard-library NPY byte audit",
+  "byte_audit": {
+    "script_sha256": "fa9c0cf67aa07879c2caca08d641c0a3f41908a45efa611a694612c43330cec8",
+    "command_script_sha256": "c49a8ced1ef35d3f64d9deac5d5fdf04a9ec92f548fc0fb26137e0b1ff8af01c",
+    "result_path": "runs/q12_completion_reference_v1_audit/audit.json",
+    "result_sha256": "d47347a08ff5d65373e770808059aab4aa6b1ed765875d7742c3c8359c887cc7"
+  },
+  "logs": [
+    {
+      "path": "logs/20260911_094852_q12_completion_reference.log",
+      "sha256": "3074ee05778516abfd71119c7ec8b718681549ded65576c4a090341ea06b12ef",
+      "exit_path": "logs/20260911_094852_q12_completion_reference.exit",
+      "exit_code": 0
+    },
+    {
+      "path": "logs/20260911_095031_q12_output_bytes.log",
+      "sha256": "1d7a7bd4603c8f55997ee97dd96066d70cd77cd2c192f87ee540cde8159a90da",
+      "exit_path": "logs/20260911_095031_q12_output_bytes.exit",
+      "exit_code": 0
+    }
+  ],
+  "output_count": 11,
+  "output_bytes": 1023523,
+  "output_cap_bytes": 67108864,
+  "outputs": [
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/0/0.npz",
+      "bytes": 127114,
+      "sha256": "3ee77eadedda8628b476b47f55f5da54e5d62108e166219b9165e40608af5fe4"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/0/1.npz",
+      "bytes": 127114,
+      "sha256": "9470070d8faae8a823d8793c8da89e0f3ef1c79d4c59ec8e3092b06d218aab5c"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/0/2.npz",
+      "bytes": 127114,
+      "sha256": "44903311f052fa6d9f1b206e576ff43812c36b031f09b95b3ebdc0913647a336"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/0/3.npz",
+      "bytes": 127114,
+      "sha256": "c0ff04ae07e16bff7a0c2375767432fef08ebba9a7990b470bc30cc67a0e9da6"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/0/result.json",
+      "bytes": 2107,
+      "sha256": "d22acd8607696db1114b0c30559a8d071397e3e990266abe25a586e1b43de6b6"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/1/0.npz",
+      "bytes": 127114,
+      "sha256": "3ee77eadedda8628b476b47f55f5da54e5d62108e166219b9165e40608af5fe4"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/1/1.npz",
+      "bytes": 127114,
+      "sha256": "9470070d8faae8a823d8793c8da89e0f3ef1c79d4c59ec8e3092b06d218aab5c"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/1/2.npz",
+      "bytes": 127114,
+      "sha256": "44903311f052fa6d9f1b206e576ff43812c36b031f09b95b3ebdc0913647a336"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/1/3.npz",
+      "bytes": 127114,
+      "sha256": "c0ff04ae07e16bff7a0c2375767432fef08ebba9a7990b470bc30cc67a0e9da6"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/predictions/1/result.json",
+      "bytes": 2107,
+      "sha256": "2fbf6966fb5453b536bfcd31c88fb5d2cc5ff7f9509d7b91c6db1389ea77929e"
+    },
+    {
+      "path": "runs/q12_completion_reference_v1/verification/verification.json",
+      "bytes": 2397,
+      "sha256": "2186013d2dc980e6b0af801dcd985f9c9240ba87bbd5766197ba9cfd98e4427c"
+    }
+  ]
+}

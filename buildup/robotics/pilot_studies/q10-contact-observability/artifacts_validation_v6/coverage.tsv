@@ -1,0 +1,7 @@
+split	action	n	success	failure	recordings	success_recordings	failure_recordings	max_failures_in_one_recording	max_failure_share
+train	pick	110	104	6	11	11	5	2	0.3333333333333333
+train	insert	110	85	25	11	10	9	5	0.2
+train	remove	89	80	9	6	6	5	4	0.4444444444444444
+test	pick	43	39	4	4	3	2	3	0.75
+test	insert	42	38	4	3	3	3	2	0.5
+test	remove	19	17	2	1	1	1	2	1.0

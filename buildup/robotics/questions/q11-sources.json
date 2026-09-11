@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-08",
+  "question": "Q11",
+  "stage": "4-5",
+  "runtime_executed": false,
+  "maniskill_commit": "a4a4f9272ad64b1564035874b605ceb687b63ed8",
+  "maniskill_files": [
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/stack_cube.py",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/stack_cube.py",
+      "sha256": "ff14d7a4a1822da564f3bdbdbd95a7486cbc3832f722e8f18a80421a8fc8b697",
+      "inspection": "source_text_only",
+      "immutable_remote_match": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/robots/panda/panda.py",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/robots/panda/panda.py",
+      "sha256": "2a98a2133b49e5a94a83d05019c0ab833ad6767f85ff1bf66265cd9247cb0fda",
+      "inspection": "source_text_only",
+      "immutable_remote_match": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/pd_joint_pos.py",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/pd_joint_pos.py",
+      "sha256": "ce05feb05c4370ec2be58c60465082dde15fd97e6398a187a648a5e932a4d58e",
+      "inspection": "source_text_only",
+      "immutable_remote_match": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/base_controller.py",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/base_controller.py",
+      "sha256": "a39aa1ec3666ccca4820d0c8c42d3422b266a5a2561c0ca38ab34e42a9d5c249",
+      "inspection": "source_text_only",
+      "immutable_remote_match": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/scene.py",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/scene.py",
+      "sha256": "2e875f4a053fb5687bee3b7858716be3196bd8d6cae35fbf9ad110b031156fed",
+      "inspection": "source_text_only",
+      "immutable_remote_match": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/structs/types.py",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/structs/types.py",
+      "sha256": "86451c45e986ce7f789e01edecaa9ba6c3f89a08c3960ddb212ca0cf4499e156",
+      "inspection": "source_text_only",
+      "immutable_remote_match": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/examples/motionplanning/panda/run.py",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/examples/motionplanning/panda/run.py",
+      "sha256": "3ccd29e36e0c7c0fb055cbd72562a59c84ca198348fc50b7081663222097dfb5",
+      "inspection": "source_text_only",
+      "immutable_remote_match": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/examples/motionplanning/panda/solutions/stack_cube.py",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/examples/motionplanning/panda/solutions/stack_cube.py",
+      "sha256": "07a818658955f0bf30efc5754ed6cf90eda059ebe7b15ef514717941d0323643",
+      "inspection": "source_text_only",
+      "immutable_remote_match": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/examples/motionplanning/two_finger_gripper/motionplanner.py",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/examples/motionplanning/two_finger_gripper/motionplanner.py",
+      "sha256": "a4797dfe3f52103c5700b3a006672aa789cb96dfb6f414fd8b7b799c84f47667",
+      "inspection": "source_text_only",
+      "immutable_remote_match": true
+    }
+  ],
+  "fast_revision": "ec4d7aa71691cac0b8bed6942be45684db2110f4",
+  "fast_files": [
+    {
+      "url": "https://huggingface.co/physical-intelligence/fast/resolve/ec4d7aa71691cac0b8bed6942be45684db2110f4/processor_config.json",
+      "sha256": "f40cfbb1020858fe1d48c0f946b0c1315a90d6e84aa82710036f24f4c167706a",
+      "inspection": "source_text_or_json_only",
+      "saved_runtime_payload": false
+    },
+    {
+      "url": "https://huggingface.co/physical-intelligence/fast/resolve/ec4d7aa71691cac0b8bed6942be45684db2110f4/processing_action_tokenizer.py",
+      "sha256": "6f021ca1f4c1b194ab6fa399d80baf3d642eadb17efb8f73301e4ac401522c20",
+      "inspection": "source_text_or_json_only",
+      "saved_runtime_payload": false
+    }
+  ],
+  "boundary": "Source equality/access does not validate simulator, tokenizer runtime, generated data or contact events."
+}

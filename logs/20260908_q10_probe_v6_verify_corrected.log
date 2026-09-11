@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "fit_models": 16488,
+  "inner_predictions": 111240,
+  "tuning_records": 288,
+  "nested_predictions": 5253,
+  "test_predictions": 1768,
+  "decision": "NO_USEFUL_SUMMARY_GAIN",
+  "checks": [
+    "immutable protocol/input/source hashes",
+    "fold-local scalers and class counts",
+    "all inner numeric prediction replay",
+    "independent C/threshold choice",
+    "sealed final bundle",
+    "nested and test numerical replay",
+    "independent BA/Brier/logloss/ECE",
+    "paired bootstrap arithmetic",
+    "decision branches"
+  ]
+}

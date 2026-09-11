@@ -1,0 +1,10 @@
+test_decision_does_not_substitute_duration_augmented_score (test_probe.ProbeTests.test_decision_does_not_substitute_duration_augmented_score) ... ok
+test_fitting_partition_scaler_and_numeric_replay (test_probe.ProbeTests.test_fitting_partition_scaler_and_numeric_replay) ... ok
+test_imbalance_threshold_keeps_probability_score (test_probe.ProbeTests.test_imbalance_threshold_keeps_probability_score) ... ok
+test_metric_ties_prefer_regularization_then_threshold (test_probe.ProbeTests.test_metric_ties_prefer_regularization_then_threshold) ... ok
+test_nested_tuning_excludes_each_validation_group (test_probe.ProbeTests.test_nested_tuning_excludes_each_validation_group) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK

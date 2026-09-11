@@ -1,0 +1,1 @@
+{"seed": 3005, "mode": "fast_quantile_gripper", "status": "completed", "started": 1789006034.824798, "steps": 104, "action_dtype": "float64", "action_sha256": "c222d1f01e40db029cd8cebe809cd08706f0de17adbcc1f713ce7d5d23d5cdb4", "elapsed_seconds": 0.8894124031066895, "final_success": true}

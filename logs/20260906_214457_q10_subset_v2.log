@@ -1,0 +1,47 @@
+{
+  "archive_url": "https://researchdata.tuwien.ac.at/api/records/0ewrv-8cb44/files/data.zip/content",
+  "archive_size": 58881334586,
+  "selection": "subset_v2.json",
+  "central_directory_range_requests": 8,
+  "central_directory_bytes_transferred": 17626,
+  "members": [
+    {
+      "recording_id": "2025-01-11-14-43-37",
+      "archive_member": "data/2025-01-11-14-43-37.h5",
+      "compressed_bytes_transferred": 23977315,
+      "extracted_bytes": 102449944,
+      "crc32": "1f3985c6",
+      "sha256": "bef0903e9c3a4172cf0598dbc14f9bd1d5b8f25ed5f6f31ca99c7178726ec603",
+      "output": "2025-01-11-14-43-37.h5"
+    },
+    {
+      "recording_id": "2025-01-13-17-51-11",
+      "archive_member": "data/2025-01-13-17-51-11.h5",
+      "compressed_bytes_transferred": 34116508,
+      "extracted_bytes": 159616702,
+      "crc32": "88331672",
+      "sha256": "835e10bdd57cdc837be966f98b36fe06caab203de7a46eca41848e97de8bd4bd",
+      "output": "2025-01-13-17-51-11.h5"
+    },
+    {
+      "recording_id": "2025-01-11-15-35-08",
+      "archive_member": "data/2025-01-11-15-35-08.h5",
+      "compressed_bytes_transferred": 206364858,
+      "extracted_bytes": 904787849,
+      "crc32": "f669f57d",
+      "sha256": "96dfe7c9e2e67a6e4624f55075023143888d51d6639fd16a4d9d6a203e58d997",
+      "output": "2025-01-11-15-35-08.h5"
+    },
+    {
+      "recording_id": "2025-01-10-15-28-50",
+      "archive_member": "data/2025-01-10-15-28-50.h5",
+      "compressed_bytes_transferred": 277895994,
+      "extracted_bytes": 1194577758,
+      "crc32": "57ac837a",
+      "sha256": "a68337b8ef0510c0bf4cbe4fa60f4e5b4ba78d2eee315b4c3149cd501d51613d",
+      "output": "2025-01-10-15-28-50.h5"
+    }
+  ],
+  "total_compressed_bytes_transferred": 542354675,
+  "total_extracted_bytes": 2361432253
+}

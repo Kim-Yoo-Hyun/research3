@@ -1,0 +1,30 @@
+{
+  "id": "q12-input-v1",
+  "frozen_at": "2026-09-10T05:00:31.444965+00:00",
+  "stage": "Stage 6 input audit preparation",
+  "real_input_arrays_inspected_before_freeze": false,
+  "model_loaded_before_freeze": false,
+  "synthetic_preflight": "PASS",
+  "image_id": "sha256:9cddc2624d3c0223628386fe002b8b853d971457ef0675479f4f5d5f59910647",
+  "files": {
+    "Dockerfile": "1b30ff1dd8f4cc37653fce83472a3589c72f63fd865f45cd0e6440b5d4ea3df9",
+    "requirements.txt": "26c8cddc59b0e6e63371ed4d70c83c981061558a574bcbf9d488e78744abd834",
+    "environment.txt": "412b0d7671c51e6883a0a2235fbb778b5c5e867453b9967c122eaab56aa2c3c9",
+    "image_id.txt": "070f585bfe9e0babe909a1f4453e5a1d2d8133cc33e35551cea7172661ae99de",
+    "sources.json": "6c2c424a29eadfc4bddced33500c7f88ebff2beb76d70f4bef12df308c9a23ed",
+    "inputs.json": "536886cbe6ccb88a764df4e33e5660d7ba03ac17549bcda501d3f72d61ff4661",
+    "protocol.json": "9e5447715b1f0c445be4701f0bc02750b50c013b82d78a7d219c72c36a4f80d8",
+    "preflight.json": "bbbac85d16c358e72ffb9eef77c499636cbf56db1dcd18b13a7a8f3b48d31653",
+    "prepare_inputs.py": "895cfca099ae6bf19ab62dbc0d613f1808b393c95f5fe6f7e971f585aa1046ad",
+    "acquire.sh": "11a6e72fa11728e3d150b804a1618ee4b4bfec0ab175f6632ec902891b8651be",
+    "build.sh": "0d4ed7bee6b42a0df896030633ebf1af4bb8f57714817ffc53b539a7a52f3ebf",
+    "audit.py": "ca2db65e29941b19250d139b14b456ce586ab41a071c45ab00ca063da7cf4ac4",
+    "verify.py": "74706721f3564e997d57ac02acf4317769490823084cb3230da7ae82cd780fa2",
+    "selftest.py": "2dbc1963def005d6dcbe8a76bc89a9823e3c6d85e8d1f4719732ca34d6dbb94c",
+    "run.sh": "60fa0c7325e3e611f769aa79ad5b87a12d47237ef96ad7ba4f572c195edd00d7",
+    "upstream/runner.py": "3d07b8e36e08b75612d5db5ee79bcf954ffbf57632117121709274260b4d9f40",
+    "upstream/LICENSE": "8abaa1942b6c07d63922d4a3db0f084c8ec8263289a7d12bc4c9abff6aee160b"
+  },
+  "raw_inputs": "inputs.json selected_files; selected paired XYZ only mounted for v1",
+  "claim_boundary": "Input controls only; not full completion readiness or physical frame verification"
+}

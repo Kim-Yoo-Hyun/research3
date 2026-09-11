@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "population_rows": 413,
+  "predictions": 1144,
+  "selected_errors": 23,
+  "decision": "UNCERTAIN_RESIDUAL",
+  "checks": [
+    "frozen sources",
+    "train before test seal",
+    "fixed denominator",
+    "split disjointness",
+    "prediction replay",
+    "independent metrics",
+    "error rows",
+    "decision arithmetic"
+  ]
+}
