@@ -1,0 +1,95 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 545B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#2 DONE 1.1s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 73B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#5 resolve docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d 0.0s done
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 212B done
+#6 DONE 0.0s
+
+#7 [2/4] COPY requirements.lock /opt/requirements.lock
+#7 DONE 0.0s
+
+#8 [3/4] RUN pip install --no-cache-dir --only-binary=:all: -r /opt/requirements.lock --extra-index-url https://download.pytorch.org/whl/cpu && pip freeze --all > /opt/dependencies.lock
+#8 0.914 Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cpu
+#8 1.179 Collecting filelock==3.32.3 (from -r /opt/requirements.lock (line 1))
+#8 1.210   Downloading filelock-3.32.3-py3-none-any.whl.metadata (2.0 kB)
+#8 1.243 Collecting fsspec==2026.7.0 (from -r /opt/requirements.lock (line 2))
+#8 1.246   Downloading fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)
+#8 1.263 Collecting Jinja2==3.1.6 (from -r /opt/requirements.lock (line 3))
+#8 1.268   Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+#8 1.319 Collecting MarkupSafe==3.0.3 (from -r /opt/requirements.lock (line 4))
+#8 1.324   Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+#8 1.342 Collecting mpmath==1.3.0 (from -r /opt/requirements.lock (line 5))
+#8 1.345   Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+#8 1.379 Collecting networkx==3.6.1 (from -r /opt/requirements.lock (line 6))
+#8 1.383   Downloading networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+#8 1.648 Collecting numpy==2.2.6 (from -r /opt/requirements.lock (line 7))
+#8 1.651   Downloading numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+#8 1.657      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 13.4 MB/s eta 0:00:00
+#8 1.680 Collecting sympy==1.14.0 (from -r /opt/requirements.lock (line 8))
+#8 1.683   Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+#8 1.760 Collecting torch==2.8.0+cpu (from -r /opt/requirements.lock (line 9))
+#8 1.969   Downloading https://download-r2.pytorch.org/whl/cpu/torch-2.8.0%2Bcpu-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (29 kB)
+#8 1.994 Collecting typing_extensions==4.16.0 (from -r /opt/requirements.lock (line 10))
+#8 1.997   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#8 2.081 Downloading filelock-3.32.3-py3-none-any.whl (98 kB)
+#8 2.083    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.9/98.9 kB 107.6 MB/s eta 0:00:00
+#8 2.086 Downloading fsspec-2026.7.0-py3-none-any.whl (206 kB)
+#8 2.089    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 206.6/206.6 kB 125.8 MB/s eta 0:00:00
+#8 2.094 Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (134 kB)
+#8 2.102    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 19.0 MB/s eta 0:00:00
+#8 2.108 Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+#8 2.113 Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+#8 2.118    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 135.3 MB/s eta 0:00:00
+#8 2.121 Downloading networkx-3.6.1-py3-none-any.whl (2.1 MB)
+#8 2.152    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 68.7 MB/s eta 0:00:00
+#8 2.156 Downloading numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+#8 2.981    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 23.1 MB/s eta 0:00:00
+#8 2.985 Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+#8 3.104    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 53.6 MB/s eta 0:00:00
+#8 3.114 Downloading https://download-r2.pytorch.org/whl/cpu/torch-2.8.0%2Bcpu-cp311-cp311-manylinux_2_28_x86_64.whl (184.1 MB)
+#8 14.71    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.1/184.1 MB 14.2 MB/s eta 0:00:00
+#8 14.72 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#8 14.72    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 391.0 MB/s eta 0:00:00
+#8 14.96 Installing collected packages: mpmath, typing_extensions, sympy, numpy, networkx, MarkupSafe, fsspec, filelock, Jinja2, torch
+#8 23.55 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 23.55 Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.3 filelock-3.32.3 fsspec-2026.7.0 mpmath-1.3.0 networkx-3.6.1 numpy-2.2.6 sympy-1.14.0 torch-2.8.0+cpu typing_extensions-4.16.0
+#8 DONE 24.6s
+
+#9 [4/4] WORKDIR /study
+#9 DONE 0.1s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 19.7s done
+#10 exporting manifest sha256:89f652aec1179ba5a4da02513f138219b7dda67a5a69283a0343edc3e37b6e44 0.0s done
+#10 exporting config sha256:f25343dd1f065242df57babdbe149b4d6fc51bd4f32f96dcb6046b9bd39a0e98 0.0s done
+#10 exporting attestation manifest sha256:c91e2ab515d878b91e4dee7ca491c78a4a53dd388715ffdb881a5af9e5252fcf 0.1s done
+#10 exporting manifest list sha256:24d9be0793b5e9e663b0ab675ca6a768358fd615f460b63706a9f09e0c8d8f33
+#10 exporting manifest list sha256:24d9be0793b5e9e663b0ab675ca6a768358fd615f460b63706a9f09e0c8d8f33 0.0s done
+#10 naming to docker.io/library/research3-q14-frame-errors:v1 done
+#10 unpacking to docker.io/library/research3-q14-frame-errors:v1
+#10 unpacking to docker.io/library/research3-q14-frame-errors:v1 2.6s done
+#10 DONE 22.5s

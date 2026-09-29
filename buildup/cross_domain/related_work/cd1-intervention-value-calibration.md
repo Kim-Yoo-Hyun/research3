@@ -1,6 +1,11 @@
 # CD1 Intervention-Value Calibration: Preliminary Prior Audit
 
-Updated: 2026-09-04
+Updated: 2026-09-22
+
+2026-09-22 갱신은 [CD5/CD1/Q8 비교](../../robotics/related_work/policy-geometry.md#cd5-cd1-q8-comparison-2026-09-22)가
+소유한다. Modular-query의 public synthetic module graph와 confidence/cost 비교 source를
+확인했으며 이 실행 경로의 접근성은 인정한다. Robot retry/replan/defer counterfactual
+artifact와는 구분한다. 아래는 2026-09-04 audit 당시의 기록이며 현재 선택은 CD1 보류 유지다.
 
 ## Audit Boundary
 

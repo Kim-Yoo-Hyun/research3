@@ -1,0 +1,188 @@
+{
+  "run_id": "20260918_v2",
+  "previous_failed_run": "20260918_v1",
+  "output_root": "runs/q4-planning/20260918_v2/observation",
+  "image_tag": "research3-q4-planning:v1",
+  "image_id": "sha256:cf36dd836af9c48a0d96326124b4f13363e8b44ce5c77446cae639ce8fc6db95",
+  "repo_digests": [
+    "research3-q4-planning@sha256:cf36dd836af9c48a0d96326124b4f13363e8b44ce5c77446cae639ce8fc6db95"
+  ],
+  "base_image": "python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d",
+  "output_manifest": "runs/q4-planning/20260918_v2/observation/output_manifest.json",
+  "output_manifest_sha256": "17831d55a994f1c3987dfb5de9584f8fa4d0fa0fbaced5f39c50ee0e60835dca",
+  "summary_sha256": "a440ea050a7946324a409ac990a35dd4eb0fe1c3f6b0ab3be04bda4f95e2dfd0",
+  "diagnosis_path": "runs/q4-planning/20260918_v2/observation/diagnosis.json",
+  "diagnosis_sha256": "974514441ecfd2c370d7c196d851342f282aaf1e32d407ed64e92fe8e9079569",
+  "cleanup": {
+    "time": "2026-09-18T10:39:19.709702+09:00",
+    "containers": [
+      {
+        "container_id": "7463bd29aa179eb67862b64c5a789e2f2c861d874f53cb73843d2a4cbd83013b",
+        "name": "research3_q4_prepare_20260918_102644",
+        "stage": "prepare",
+        "run_id": "20260918_v1",
+        "receipt": "runs/q4-planning/20260918_v1/containers/research3_q4_prepare_20260918_102644.json",
+        "log": "logs/20260918_102644_q4_prepare.log",
+        "exit_code": 0,
+        "removed": true
+      },
+      {
+        "container_id": "a0a35bd1db0381dce583e9f905b44e200e4feb8221771b84483fd21b1003289b",
+        "name": "research3_q4_run_20260918_102710",
+        "stage": "run",
+        "run_id": "20260918_v1",
+        "receipt": "runs/q4-planning/20260918_v1/containers/research3_q4_run_20260918_102710.json",
+        "log": "logs/20260918_102710_q4_run.log",
+        "exit_code": 137,
+        "removed": true
+      },
+      {
+        "container_id": "1fdefb0a6da297d9858cbd69186f00ee01ffb29bcdcd860418f1536e2f8465cd",
+        "name": "research3_q4_analyze_20260918_103300",
+        "stage": "analyze",
+        "run_id": "20260918_v2",
+        "receipt": "runs/q4-planning/20260918_v2/containers/research3_q4_analyze_20260918_103300.json",
+        "log": "logs/20260918_103300_q4_analyze.log",
+        "exit_code": 0,
+        "removed": true
+      },
+      {
+        "container_id": "096d304d62ca6be7e3fe174eeb59761de091c53641d8a9e012cddf4a4b7e70bc",
+        "name": "research3_q4_diagnose_20260918_103546",
+        "stage": "diagnose",
+        "run_id": "20260918_v2",
+        "receipt": "runs/q4-planning/20260918_v2/containers/research3_q4_diagnose_20260918_103546.json",
+        "log": "logs/20260918_103546_q4_diagnose.log",
+        "exit_code": 0,
+        "removed": true
+      },
+      {
+        "container_id": "50db8709b35e251a0477dc65dd3a5da2f5562f14d63d059318ed4c3616884c3a",
+        "name": "research3_q4_finalize_20260918_103816",
+        "stage": "finalize",
+        "run_id": "20260918_v2",
+        "receipt": "runs/q4-planning/20260918_v2/containers/research3_q4_finalize_20260918_103816.json",
+        "log": "logs/20260918_103816_q4_finalize.log",
+        "exit_code": 0,
+        "removed": true
+      },
+      {
+        "container_id": "fc03d7a653c6efb59f5e1c72c5d6be42f50e71dae3cc89d408aad196472f70e9",
+        "name": "research3_q4_prepare_20260918_102907",
+        "stage": "prepare",
+        "run_id": "20260918_v2",
+        "receipt": "runs/q4-planning/20260918_v2/containers/research3_q4_prepare_20260918_102907.json",
+        "log": "logs/20260918_102907_q4_prepare.log",
+        "exit_code": 0,
+        "removed": true
+      },
+      {
+        "container_id": "9c2cda13c4142505c350a5a98c6e27ad6962da116d4f032beecfe90b08284d52",
+        "name": "research3_q4_run_20260918_102908",
+        "stage": "run",
+        "run_id": "20260918_v2",
+        "receipt": "runs/q4-planning/20260918_v2/containers/research3_q4_run_20260918_102908.json",
+        "log": "logs/20260918_102908_q4_run.log",
+        "exit_code": 0,
+        "removed": true
+      },
+      {
+        "container_id": "089763a50cd6e391dd883cc0329ee3c0912f315c0ed01b86733bc0f41f5471a0",
+        "name": "research3_q4_verify_20260918_103202",
+        "stage": "verify",
+        "run_id": "20260918_v2",
+        "receipt": "runs/q4-planning/20260918_v2/containers/research3_q4_verify_20260918_103202.json",
+        "log": "logs/20260918_103202_q4_verify.log",
+        "exit_code": 1,
+        "removed": true
+      },
+      {
+        "container_id": "4154b9c7f62f07b89a422548baff7abd6d4436b38f2e85bda0aa22db4fc3cff5",
+        "name": "research3_q4_verify_20260918_103219",
+        "stage": "verify",
+        "run_id": "20260918_v2",
+        "receipt": "runs/q4-planning/20260918_v2/containers/research3_q4_verify_20260918_103219.json",
+        "log": "logs/20260918_103219_q4_verify.log",
+        "exit_code": 1,
+        "removed": true
+      },
+      {
+        "container_id": "f089671d0a005a9657e25e55c1ecb6ac6bb321084443d16c2eed6832c0ee0a0a",
+        "name": "research3_q4_verify_20260918_103254",
+        "stage": "verify",
+        "run_id": "20260918_v2",
+        "receipt": "runs/q4-planning/20260918_v2/containers/research3_q4_verify_20260918_103254.json",
+        "log": "logs/20260918_103254_q4_verify.log",
+        "exit_code": 0,
+        "removed": true
+      }
+    ],
+    "verified_output_files": 447,
+    "image_retained": "research3-q4-planning:v1",
+    "scope": "Only exact IDs with creation receipts and verified workspace/run mounts. Other containers/images/data untouched."
+  },
+  "build_log": "logs/20260918_102221_q4_build.log",
+  "recovery": "Use inputs.json immutable URLs; Dockerfile public pinned base and planner commits; stage commands in README. Raw output and receipts are ignored and need separate transfer. No external backup verified.",
+  "goal_followup": {
+    "run_id": "20260918_goal_v1",
+    "reference_run": "20260918_v2",
+    "output_root": "runs/q4-planning/20260918_goal_v1/observation",
+    "image_id": "sha256:cf36dd836af9c48a0d96326124b4f13363e8b44ce5c77446cae639ce8fc6db95",
+    "output_manifest_sha256": "3728c547c2fb7d6c23c98d41d43a565f37c09c05802746b47b589d7a26c35121",
+    "summary_sha256": "f9d28b4610f48c01ce2cac319eb732630230cd48a5b21b1a35eeb5fa8bfc8d2b",
+    "verification_sha256": "2138ad66409111eea9b9c102f2fe2d74180160a5ec681c9067b7912e993ea4e2",
+    "compact_summary": "goal_results.json",
+    "compact_summary_sha256": "ccc83172811f5707745657289acb2c19cb3132bfbde6a3b3e9da9fafbe564079",
+    "cleanup": {
+      "time": "2026-09-18T11:01:24.717319+09:00",
+      "containers": [
+        {
+          "container_id": "bb280815c828c3274b3199089a1630a1d04be34ec4a9b96bd99158498a890635",
+          "name": "research3_q4_goal_analyze_20260918_110004",
+          "stage": "goal_analyze",
+          "run_id": "20260918_goal_v1",
+          "receipt": "runs/q4-planning/20260918_goal_v1/containers/research3_q4_goal_analyze_20260918_110004.json",
+          "log": "logs/20260918_110004_q4_goal_analyze.log",
+          "exit_code": 0,
+          "removed": true
+        },
+        {
+          "container_id": "731273b0e812a193ddf710d3e852a987d8487d42a166beef2b5d9a4a00024d1d",
+          "name": "research3_q4_goal_prepare_20260918_110001",
+          "stage": "goal_prepare",
+          "run_id": "20260918_goal_v1",
+          "receipt": "runs/q4-planning/20260918_goal_v1/containers/research3_q4_goal_prepare_20260918_110001.json",
+          "log": "logs/20260918_110001_q4_goal_prepare.log",
+          "exit_code": 0,
+          "removed": true
+        },
+        {
+          "container_id": "8c01ee061bdf8ddec9aa4f2c9752c394555108d707be0700116b25dadd6fe5b0",
+          "name": "research3_q4_goal_verify_20260918_110003",
+          "stage": "goal_verify",
+          "run_id": "20260918_goal_v1",
+          "receipt": "runs/q4-planning/20260918_goal_v1/containers/research3_q4_goal_verify_20260918_110003.json",
+          "log": "logs/20260918_110003_q4_goal_verify.log",
+          "exit_code": 0,
+          "removed": true
+        },
+        {
+          "container_id": "3b2fb625b1854cc16809dcad59095b2ba8edc16c6697da51b8bd8f739e944791",
+          "name": "research3_q4_run_20260918_110001",
+          "stage": "run",
+          "run_id": "20260918_goal_v1",
+          "receipt": "runs/q4-planning/20260918_goal_v1/containers/research3_q4_run_20260918_110001.json",
+          "log": "logs/20260918_110001_q4_run.log",
+          "exit_code": 0,
+          "removed": true
+        }
+      ],
+      "verified_output_files": 113,
+      "image_retained": "research3-q4-planning:v1",
+      "scope": "Only exact IDs with creation receipts and verified workspace/run mounts. Other containers/images/data untouched."
+    },
+    "job_log": "logs/20260918_110000_q4_goal_job.log",
+    "job_exit_note": "Outer tmux zsh wrapper did not write an aggregate exit file (reserved status variable); all four Docker stage exit files and receipts record exit 0. No experiment rerun or outcome relabeling.",
+    "recovery": "Original 447-file reference manifest and follow-up 113-file manifest are both required; copy run-specific code/environment and receipts. Reproduction uses new run ID, pinned image and read-only reference. Local preservation, not an off-host backup."
+  }
+}

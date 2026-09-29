@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-09-18T13:49:24.657347+09:00",
+  "kind": "lightweight documentation/source validation; no research execution",
+  "markdown_files": 10,
+  "relative_links_checked": 396,
+  "missing_local_links": [],
+  "selected_anchor_checks": 39,
+  "source_hashes_verified": 11,
+  "protocol_arithmetic": "pass",
+  "current_question_statuses": "Q3 deferred, Q15 feasibility_study",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "a202caeba7ddb476275de36a263d69d24f3539576ab72e1113f2f3c93f32e2ed"
+    },
+    {
+      "path": "TODO.md",
+      "sha256": "8ac9b24b0cc722ecb4f6f3af61e026f989d0ad50e0b81354d9faf3ca621cd3bf"
+    },
+    {
+      "path": "summary.md",
+      "sha256": "b0a5bb84c2d5de3c1e4ad2f6f4fa17555e6031030c277ec769baea804c13bdb1"
+    },
+    {
+      "path": "buildup/README.md",
+      "sha256": "4f3c0d4e9e122bfffe70fd6ccf1f434c2d81673d52cf40f41bdf1a124fd32538"
+    },
+    {
+      "path": "buildup/selection.md",
+      "sha256": "5f720424e45b383c1b5c10dafe8db66454f9f8f20a5087c7d248457785949fa0"
+    },
+    {
+      "path": "buildup/robotics/README.md",
+      "sha256": "b737b242aa1115c49f3f5c3a21a56d26e74e899f546dc03b0031b36d87fd8608"
+    },
+    {
+      "path": "buildup/robotics/questions/physics-ranking-stability.md",
+      "sha256": "09fe7f1181e7b1c47773e2934f442c0a3c0f813dbf7ed68cb5d5a4229831f8a9"
+    },
+    {
+      "path": "buildup/robotics/questions/reward-dynamics-transfer.md",
+      "sha256": "ae9a74d510ef960afbbd81b01def19805617e77c88566b590d4a02ec6830ead9"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q3-timestep/README.md",
+      "sha256": "6dd7494b2f83ac78aa91788d8298499f9ec04106e449f0d7561cfa94c4f7353a"
+    },
+    {
+      "path": "buildup/robotics/related_work/policy-geometry.md",
+      "sha256": "8615e626f5b79ff5af322d327de10f3f5faf521521ca2ace04ebfeace0a2f390"
+    }
+  ]
+}

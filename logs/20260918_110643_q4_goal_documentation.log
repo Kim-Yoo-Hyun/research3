@@ -1,0 +1,8 @@
+PASS Python AST and shell syntax
+PASS 369 local links and 247 anchors
+PASS 20260918_v2: 447 output hashes/bytes
+PASS 20260918_goal_v1: 113 output hashes/bytes
+PASS compact/provenance digests
+PASS four exact new container IDs absent; four successful stage receipts/logs preserved
+PASS orchestration job exited
+Verification note: initial absence check expected capitalized Docker error text; retried case-insensitively. No container or research result changed.

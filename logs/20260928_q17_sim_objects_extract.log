@@ -1,0 +1,8 @@
+{
+  "dataset": "TianxingChen/RoboTwin2.0",
+  "revision": "3dc3b798668feb99ac61cc9086d84cbcc3d79186",
+  "archive_size": 3737778549,
+  "archive_sha256": "6aa56b3cf1e1064f7c809308144da36b00815f8b137fef2d7e4de856f8becf27",
+  "extracted_file_count": 9368,
+  "target": "/sim/assets/objects"
+}

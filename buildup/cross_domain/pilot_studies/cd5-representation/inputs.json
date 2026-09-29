@@ -1,0 +1,260 @@
+{
+  "status": "selected_not_executed",
+  "selected_at": "2026-09-22",
+  "source_commit": "a2967bd33e15196ff139e3c62d8a7356bfdb65e3",
+  "source_path": "runs/reserve_review/20260922/lookplan/benchmarks/grasif/behaviour1k/behaviour177.json",
+  "source_sha256": "e261117a1d21844ad73aabd976e2c1d1573f5cb86afda069f5a90a470e524ce7",
+  "source_records": 178,
+  "eligibility": "6 <= raw initial node count <= 18; no output-based filtering",
+  "eligible_records": 159,
+  "order": "ascending SHA256 UTF-8 bytes of cd5-20260922: + task name",
+  "model_input_fields": [
+    "init",
+    "task"
+  ],
+  "evaluation_only_fields": [
+    "goal"
+  ],
+  "records": [
+    {
+      "source_index": 107,
+      "name": "picking_up_prescriptions-0",
+      "scene": "grocery_store_asian",
+      "initial_nodes": 14,
+      "split": "development",
+      "record_sha256": "373751c1e560e23c12e7d9305e787d7a1d68a9f3e701e5d5a79d840e021953fa"
+    },
+    {
+      "source_index": 94,
+      "name": "packing_fishing_gear_into_car-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 10,
+      "split": "development",
+      "record_sha256": "229301894d5d4ee73971acc3cdb26046824c6e3419c1d9caef556b0790b8e55e"
+    },
+    {
+      "source_index": 91,
+      "name": "packing_car_for_trip-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 11,
+      "split": "development",
+      "record_sha256": "094f23bfb3e01e4fa950454517750eca014a50875057055564e5cc25f4868084"
+    },
+    {
+      "source_index": 45,
+      "name": "collecting_wood-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 9,
+      "split": "development",
+      "record_sha256": "05f9fe940c1e508469d532902b29390c55d3ce7bde6c99fd5946dbc2c4ab7fc3"
+    },
+    {
+      "source_index": 109,
+      "name": "picking_up_toys-0",
+      "scene": "Beechwood_1_int",
+      "initial_nodes": 14,
+      "split": "development",
+      "record_sha256": "f3fbd3d34cb8d3fc7bd712261b99408c2305bf4ac4670e4b4a7504fae613d0cc"
+    },
+    {
+      "source_index": 43,
+      "name": "collecting_dishes_from_around_house-0",
+      "scene": "Wainscott_0_garden",
+      "initial_nodes": 11,
+      "split": "development",
+      "record_sha256": "9e27e58dd548f76616cbb0980ef4ebe6827c55e4ab044cf86f21591d5368c370"
+    },
+    {
+      "source_index": 97,
+      "name": "packing_hobby_equipment-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 11,
+      "split": "observation",
+      "record_sha256": "ea80fd66be5a6944e3068db32726209e45737d110b2f0c36227064e1b5ae3ec9"
+    },
+    {
+      "source_index": 7,
+      "name": "bringing_newspaper_in-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 7,
+      "split": "observation",
+      "record_sha256": "a436502b251a4d1981caf382302ff86bb06150c50a18d1638bd324abe40f7f15"
+    },
+    {
+      "source_index": 117,
+      "name": "prepare_an_emergency_school_kit-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 11,
+      "split": "observation",
+      "record_sha256": "212f4ab669eb350e91382d758025426f791f67040d9291dd4a719a151a98feeb"
+    },
+    {
+      "source_index": 74,
+      "name": "make_gift_bags_for_baby_showers-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 14,
+      "split": "observation",
+      "record_sha256": "0a90a7c55837f4dd42da09d2825abac20978e6828491359abb29bd91daf3ca40"
+    },
+    {
+      "source_index": 165,
+      "name": "store_tulip_bulbs-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 8,
+      "split": "observation",
+      "record_sha256": "003e63b3a5d68f65de6fda90ac1e9c5da42fa5d366badcd5636887d954689f6d"
+    },
+    {
+      "source_index": 100,
+      "name": "packing_picnic_into_car-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 16,
+      "split": "observation",
+      "record_sha256": "7785552a396fa7c341b4be0e06a7ecb0b6b34325dbe41ffbacbb74116c02964f"
+    },
+    {
+      "source_index": 120,
+      "name": "preparing_lunch_box-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 12,
+      "split": "observation",
+      "record_sha256": "cdd540b5b70bb605f182f2fdbd9e1e3209ce5a83ef94da3fafdf5315b2d9e69d"
+    },
+    {
+      "source_index": 118,
+      "name": "preparing_clothes_for_the_next_day-0",
+      "scene": "house_single_floor",
+      "initial_nodes": 13,
+      "split": "observation",
+      "record_sha256": "00e834886c66288e1922a483cd689bd52d735174933fcc4dc6fd134a11445f13"
+    },
+    {
+      "source_index": 34,
+      "name": "clean_up_broken_glass-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 7,
+      "split": "observation",
+      "record_sha256": "0f5b6be446a7196d464e16498b37f649114232cf08c1eb9b86ccdbafb0c2b3b1"
+    },
+    {
+      "source_index": 122,
+      "name": "put_togethera_basic_pruning_kit-0",
+      "scene": "Ihlen_0_int",
+      "initial_nodes": 6,
+      "split": "observation",
+      "record_sha256": "55477a57fdb322e54dd9cd5f71d1240c257fe0f3809b93117a29d759a43b884e"
+    },
+    {
+      "source_index": 130,
+      "name": "putting_meal_in_fridge_at_work-0",
+      "scene": "office_large",
+      "initial_nodes": 9,
+      "split": "observation",
+      "record_sha256": "8c7e7cc6fd37ec7c0ebe820c42a409d2c99b4948ca3f2a4d28abcad268507ec8"
+    },
+    {
+      "source_index": 18,
+      "name": "buy_eggs-0",
+      "scene": "grocery_store_cafe",
+      "initial_nodes": 14,
+      "split": "observation",
+      "record_sha256": "6fd10de0a0d92edf6c5eca9d1526a01ff86a445b39b37ca4b269eb9d84f5efd9"
+    },
+    {
+      "source_index": 36,
+      "name": "cleaning_parks-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 8,
+      "split": "observation",
+      "record_sha256": "56a7ca7885d7a01c8ee83408835969ed38c66101cd2c497e36b7b41ff3f8967e"
+    },
+    {
+      "source_index": 116,
+      "name": "prepare_a_hanging_basket-0",
+      "scene": "Pomaria_0_garden",
+      "initial_nodes": 9,
+      "split": "observation",
+      "record_sha256": "5fda1ab22e194b10e594d2ac134d66198775c4b96aee26f8ba4884cfdf2c7109"
+    },
+    {
+      "source_index": 177,
+      "name": "unpacking_suitcase-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 10,
+      "split": "observation",
+      "record_sha256": "b1b016ae8264dca804fed3f9da8dbbd2cf0cf0476568ff578a4523dcc7be4f99"
+    },
+    {
+      "source_index": 139,
+      "name": "recycling_newspapers-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 8,
+      "split": "observation",
+      "record_sha256": "53690719d38ebde8fbed266019af1f6ae9a94071421e2007d2aa62c623b3d998"
+    },
+    {
+      "source_index": 163,
+      "name": "store_produce-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 9,
+      "split": "observation",
+      "record_sha256": "0ee8b3c4e9a157bda7fddb2fcfe75f0e8b332b7f0f7544c90d6fdc7cce1b5179"
+    },
+    {
+      "source_index": 42,
+      "name": "collecting_childrens_toys-0",
+      "scene": "Merom_0_garden",
+      "initial_nodes": 13,
+      "split": "observation",
+      "record_sha256": "bff653db76592877a0ef6828ef757dc63636efdf9a63b29b9e4c4e3308e2df48"
+    },
+    {
+      "source_index": 112,
+      "name": "place_houseplants_around_your_home-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 12,
+      "split": "observation",
+      "record_sha256": "a73cfcc2f2c84f55facc19f7f2fa61cbc2aa75eea5abf218f304c3963c379026"
+    },
+    {
+      "source_index": 32,
+      "name": "carrying_out_garden_furniture-0",
+      "scene": "Pomaria_0_garden",
+      "initial_nodes": 9,
+      "split": "observation",
+      "record_sha256": "f08a76c83fd2d4bc504270e93d336f68f52dfcb2d3c76cdf5ad3cefcdc0f18c9"
+    },
+    {
+      "source_index": 6,
+      "name": "bringing_in_wood-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 8,
+      "split": "observation",
+      "record_sha256": "fc3353fb09ece0eed241890fa28efbaa7dfbdbddc4a58e76c5d868cc59ccdbfd"
+    },
+    {
+      "source_index": 55,
+      "name": "emptying_trash_cans-0",
+      "scene": "Beechwood_0_garden",
+      "initial_nodes": 12,
+      "split": "observation",
+      "record_sha256": "9eb2509b5bd4affdcd22ec038bee1ebc6a487d98758f7a26698efc670d535f80"
+    },
+    {
+      "source_index": 145,
+      "name": "setting_the_table-0",
+      "scene": "Benevolence_1_int",
+      "initial_nodes": 15,
+      "split": "observation",
+      "record_sha256": "ac97c47a85ffe012e20225cea3c911c166d4953d283693a027fbada8cc9e45f5"
+    },
+    {
+      "source_index": 29,
+      "name": "buying_postage_stamps-0",
+      "scene": "grocery_store_asian",
+      "initial_nodes": 10,
+      "split": "observation",
+      "record_sha256": "4023b0e42a98fb7ec7d729c013018894861550b7d3eaf4f72e237b875993ea91"
+    }
+  ]
+}

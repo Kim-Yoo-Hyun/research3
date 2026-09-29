@@ -1,0 +1,18 @@
+{
+  "purpose": "Exploratory initial RGB surface regions; not an independent benchmark annotation",
+  "selection_history": "Chosen after observation_v1 and visual_v1; later outcomes were already inspected. Regions themselves use initial RGB only.",
+  "coordinate_convention": "Zero-based u=column, v=row; xyxy rectangles are half-open",
+  "input_sha256": "9b4f894a63556563fe7bc856d32131948b2b5df495d1aab5b88a2dc1834b1897",
+  "cases": [
+    {"name": "metal bowl", "initial_frame": 0, "region_xyxy": [27, 193, 39, 201], "pixels_uv": [[29, 194], [33, 194], [37, 194], [29, 197], [33, 197], [37, 197], [29, 199], [33, 199], [37, 199]]},
+    {"name": "orange", "initial_frame": 2, "region_xyxy": [128, 197, 140, 209], "pixels_uv": [[130, 199], [134, 199], [138, 199], [130, 203], [134, 203], [138, 203], [130, 207], [134, 207], [138, 207]]}
+  ],
+  "interval_indices": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+  "depth_read_budget": 2,
+  "depth_limits_m": [0.1, 2.0],
+  "residual_margin_m": 0.05,
+  "minimum_support_points": 5,
+  "depth_patch": "3x3 median; at least 5 valid pixels",
+  "schedule": "earliest geometrically eligible current frame, with deadline fallback to spend exactly 2 reads; no depth access before selection",
+  "claim_boundary": "Contradiction of sampled initial surface support, not whole-object absence or localization success"
+}

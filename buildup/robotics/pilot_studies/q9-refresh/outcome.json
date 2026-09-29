@@ -1,0 +1,431 @@
+{
+  "status": "EXPLORATORY_OBSERVATION_COMPLETED_REFINE_POINT_SEED",
+  "input_sha256": "9b4f894a63556563fe7bc856d32131948b2b5df495d1aab5b88a2dc1834b1897",
+  "image": "research3-q9-refresh:v2",
+  "image_id": "sha256:7eca5af889f3bd97fb795f74f86bd6832aa3d2b2887ba283ca83503b6f109df5",
+  "raw_result": "runs/q9/observation_v1/result.json",
+  "raw_trace": "runs/q9/observation_v1/trace.jsonl",
+  "frame_count": 42,
+  "interval_indices": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "cases": {
+    "metal bowl": {
+      "oracle_initial_point": [
+        0.677054644,
+        0.87221384,
+        0.807975411
+      ],
+      "initial_states_0_to_13": {
+        "surface_consistent": 2,
+        "outside_view": 6,
+        "behind_camera": 6
+      },
+      "interior_states": {
+        "behind_camera": 3,
+        "outside_view": 5,
+        "free_space": 2
+      },
+      "free_space_indices": [
+        17,
+        22
+      ],
+      "periodic_phases_two_reads_each": [
+        {
+          "phase": 0,
+          "selected": [
+            15,
+            20
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 1,
+          "selected": [
+            16,
+            21
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 2,
+          "selected": [
+            17,
+            22
+          ],
+          "free_space_hits": 2
+        },
+        {
+          "phase": 3,
+          "selected": [
+            18,
+            23
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 4,
+          "selected": [
+            19,
+            24
+          ],
+          "free_space_hits": 0
+        }
+      ],
+      "causal_first_evidence": {
+        "selected": [
+          17
+        ],
+        "point_updates": 1,
+        "depth_frames_read": 3
+      },
+      "claim": "point-evidence coverage only; different read costs, no equal-compute gain"
+    },
+    "orange": {
+      "oracle_initial_point": [
+        0.262488157,
+        -0.893036664,
+        0.765672207
+      ],
+      "initial_states_0_to_13": {
+        "outside_view": 5,
+        "surface_consistent": 1,
+        "behind_camera": 8
+      },
+      "interior_states": {
+        "behind_camera": 5,
+        "outside_view": 4,
+        "surface_consistent": 1
+      },
+      "free_space_indices": [],
+      "periodic_phases_two_reads_each": [
+        {
+          "phase": 0,
+          "selected": [
+            15,
+            20
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 1,
+          "selected": [
+            16,
+            21
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 2,
+          "selected": [
+            17,
+            22
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 3,
+          "selected": [
+            18,
+            23
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 4,
+          "selected": [
+            19,
+            24
+          ],
+          "free_space_hits": 0
+        }
+      ],
+      "causal_first_evidence": {
+        "selected": [],
+        "point_updates": 0,
+        "depth_frames_read": 10
+      },
+      "claim": "point-evidence coverage only; different read costs, no equal-compute gain"
+    }
+  },
+  "interpretation": {
+    "seed": "approximate privileged query coordinate, not verified object surface landmark",
+    "visual_findings": [
+      "initial orange seed projects to table near fruit",
+      "bowl remains visible near projected old coordinate in frame 17"
+    ],
+    "supported": "periodic phase changes coverage of sparse depth evidence for selected points",
+    "not_supported": [
+      "object removal success",
+      "localization improvement",
+      "equal-cost superiority",
+      "population prevalence",
+      "novel method"
+    ],
+    "next": "initial observed surface regions and a cost-accounted simple visibility control",
+    "official_timing_contract": "unresolved",
+    "prior_overlap": "Memory for Attention already studies budgeted refresh, relevance, recency and observation reliability"
+  },
+  "latest_observation": "surface_comparison; original top-level observation fields retained",
+  "surface_comparison": {
+    "status": "EXPLORATORY_COMPARISON_COMPLETED_ASSESS_RESEARCH_VALUE",
+    "raw_result": "runs/q9/surface_20260915_120106/result/result.json",
+    "raw_trace": "runs/q9/surface_20260915_120106/result/trace.jsonl",
+    "previous_run": "runs/q9/surface_20260915_115726/result/",
+    "input_sha256": "9b4f894a63556563fe7bc856d32131948b2b5df495d1aab5b88a2dc1834b1897",
+    "image_id": "sha256:7eca5af889f3bd97fb795f74f86bd6832aa3d2b2887ba283ca83503b6f109df5",
+    "source_files_sha256": {
+      "surface.py": "51e3b05de71ac2afc2892c8b7dc4a237fe61fe8df29e8f4ff109cfb28b5d8cbc",
+      "regions.json": "0829ab6b860fc62d1f4a0c2bc394f151496c98741cff75db3bd33c1fdc633676",
+      "observe.py": "2b16349a0112937d6e95875cfa53b6ea5b9cfe5aed7c773dfa4d87322af9ae75",
+      "inspect_input.py": "07b8849909eba9c1b197eac02c193628cece243e31a9473402787f0253223c77",
+      "run_surface.sh": "20f0cf4e309e757e456c7b07d9237544fa3b7ff302f6a34d51ea0dc56024cb8c",
+      "Dockerfile": "6a5511600027e11953d346d75c5be1c8cea9ee2b78f45cefc3062d77fa31fd6f",
+      "requirements.lock": "010e03b38ce78b1b352dad5a7609da506dd695054212e8c0d9c8bd049769a12b"
+    },
+    "cases": {
+      "metal bowl": {
+        "initial_frame": 0,
+        "initial_control_states": {
+          "consistent": 2,
+          "unknown": 12
+        },
+        "initial_control_caveat": "not verified unchanged-object labels",
+        "interior_states": {
+          "unknown": 8,
+          "consistent": 1,
+          "contradicted": 1
+        },
+        "interval_reference_contradictions": [
+          22
+        ],
+        "schedules": [
+          {
+            "name": "periodic_phase_0",
+            "selected": [
+              15,
+              20
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 0,
+            "contradiction_indices": []
+          },
+          {
+            "name": "periodic_phase_1",
+            "selected": [
+              16,
+              21
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 0,
+            "contradiction_indices": []
+          },
+          {
+            "name": "periodic_phase_2",
+            "selected": [
+              17,
+              22
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 18,
+            "contradiction_indices": [
+              22
+            ]
+          },
+          {
+            "name": "periodic_phase_3",
+            "selected": [
+              18,
+              23
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 0,
+            "contradiction_indices": []
+          },
+          {
+            "name": "periodic_phase_4",
+            "selected": [
+              19,
+              24
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 0,
+            "contradiction_indices": []
+          },
+          {
+            "name": "visibility_first",
+            "selected": [
+              17,
+              22
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 8,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 18,
+            "contradiction_indices": [
+              22
+            ]
+          }
+        ]
+      },
+      "orange": {
+        "initial_frame": 2,
+        "initial_control_states": {
+          "consistent": 1,
+          "unknown": 10,
+          "contradicted": 1
+        },
+        "initial_control_caveat": "not verified unchanged-object labels",
+        "interior_states": {
+          "unknown": 9,
+          "contradicted": 1
+        },
+        "interval_reference_contradictions": [
+          19
+        ],
+        "schedules": [
+          {
+            "name": "periodic_phase_0",
+            "selected": [
+              15,
+              20
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 0,
+            "contradiction_indices": []
+          },
+          {
+            "name": "periodic_phase_1",
+            "selected": [
+              16,
+              21
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 0,
+            "contradiction_indices": []
+          },
+          {
+            "name": "periodic_phase_2",
+            "selected": [
+              17,
+              22
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 0,
+            "contradiction_indices": []
+          },
+          {
+            "name": "periodic_phase_3",
+            "selected": [
+              18,
+              23
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 0,
+            "contradiction_indices": []
+          },
+          {
+            "name": "periodic_phase_4",
+            "selected": [
+              19,
+              24
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 2,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 9,
+            "contradiction_indices": [
+              19
+            ]
+          },
+          {
+            "name": "visibility_first",
+            "selected": [
+              19,
+              24
+            ],
+            "depth_frame_reads": 2,
+            "pose_checks": 10,
+            "surface_point_tests": 18,
+            "depth_patch_reads": 9,
+            "contradiction_indices": [
+              19
+            ]
+          }
+        ]
+      }
+    },
+    "verification": {
+      "status": "PASS_RECORD_CONSISTENCY",
+      "scope": "serialized output/source identity checks; not independent geometric ground truth",
+      "source_sha256": "51e3b05de71ac2afc2892c8b7dc4a237fe61fe8df29e8f4ff109cfb28b5d8cbc",
+      "regions_sha256": "0829ab6b860fc62d1f4a0c2bc394f151496c98741cff75db3bd33c1fdc633676",
+      "trace_rows": 84,
+      "schedules": 12,
+      "all_schedules_depth_frame_reads": 2,
+      "previous_trace_byte_identical": true,
+      "prior_numerical_results_unchanged": true,
+      "runtime_self_checks": [
+        "1.0:consistent",
+        "1.2:contradicted",
+        "0.8:unknown",
+        "nan:unknown",
+        "out_of_view_deadline_exact_budget",
+        "causal_geometry_only_selection"
+      ],
+      "files": {
+        "metal_bowl_surface.png": "6e883b7ecf475590e2f76b12cf6023d52ae20c348e0579c0babb1551abf8ebdf",
+        "trace.jsonl": "fdb9d7206251cce748cde9a14ffe167849d2a4985f3470f8df124336f9509f1f",
+        "orange_control_surface.png": "e4267469ccee54af6f90387e7b2def4d289969f0672300829f47b00064cb8b6e",
+        "metal_bowl_control_surface.png": "83cc866ff20b6fd02f3bf5f99ad65a2b4279b7633825df826107563c631353c6",
+        "orange_surface.png": "452ebc9e71017ceab9cebb1c9e0ee552f6d789871d7c988832959f0f84ba4c16",
+        "result.json": "5daf23d2b341da8d60f4f252d723ee68e8633569ea1068a04678bbaf585ae054"
+      }
+    },
+    "visual_observations": [
+      "initial samples lie on visible bowl/fruit",
+      "bowl samples project to visible bowl at 17 and table at 22",
+      "orange remains visible near projected samples at 9 and 19; old samples project to table",
+      "orange frame 9 has a contradiction before the interval; actual movement versus registration/correspondence is unresolved"
+    ],
+    "interpretation": {
+      "supported": "simple current-view eligibility captures all measured interval surface contradictions in these cases",
+      "cost": "exactly two selected depth-frame accesses per case per schedule; one shared initial RGB-D frame; extra pose checks; not matched compute or joint multi-object scheduling",
+      "not_supported": [
+        "whole-object absence",
+        "object-event detection accuracy",
+        "expected or population superiority",
+        "need for learned scheduling",
+        "novel contribution"
+      ],
+      "next": "assess residual correspondence and cost against direct priors before choosing development, narrowing or deferral"
+    }
+  }
+}

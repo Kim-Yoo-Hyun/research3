@@ -1,0 +1,19 @@
+{
+  "removed": [
+    {
+      "id": "29c86b6397f0771f5a6b45c2298ca6a38b4a3056e397156ed7ea59273938a616",
+      "name": "research3-q16-pusht-repeat-model-20260927_001624_107223",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260927_001624_107223_model.json"
+    },
+    {
+      "id": "d82a0b13fc26bd56d2e20e4405d4a011673d9526f9b046e213729e9b37d41d11",
+      "name": "research3-q16-pusht-repeat-contrast-20260927_001637_306551",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260927_001637_306551_contrast.json"
+    },
+    {
+      "id": "2b759020bb5880439c5b35514292a23cae6d260c2853466df3655d7092867808",
+      "name": "research3-q16-pusht-repeat-contrastverify-20260927_001646_495965",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260927_001646_495965_contrastverify.json"
+    }
+  ]
+}

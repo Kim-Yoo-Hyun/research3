@@ -1,0 +1,11 @@
+gym-pusht==0.1.6
+gymnasium==0.29.1
+numpy==1.26.4
+opencv-python==4.9.0.80
+pygame==2.5.2
+pymunk==6.6.0
+shapely==2.0.3
+scikit-image==0.22.0
+scipy==1.12.0
+zarr==2.16.1
+numcodecs==0.11.0

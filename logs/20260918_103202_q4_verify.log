@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/study/verify.py", line 146, in <module>
+    verify()
+  File "/study/verify.py", line 99, in verify
+    evidence = {'id': r['id'], 'status': r['status'], 'initial_full_witnesses': witnesses(full, set(full['init'])),
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/study/verify.py", line 65, in witnesses
+    key = (itemcls[f[1]], reccls[f[2]])
+           ~~~~~~~^^^^^^
+KeyError: 'item49_potted_plant_largeitem'

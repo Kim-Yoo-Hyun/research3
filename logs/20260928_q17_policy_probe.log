@@ -1,0 +1,26 @@
+09/28 [02:05:04] INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/models/policy/checkpoints/steps_1                   
+                          00000_pytorch_model.pt`                               
+                 INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/models/policy/checkpoints/steps_1                   
+                          00000_pytorch_model.pt`                               
+                 INFO     | >> [*] Runtime override:        base_framework.py:40
+                          framework.qwenvl.base_vlm=/models                     
+                          /Qwen3-VL-2B-Instruct                                 
+                 INFO     | >> [*] Runtime override:        base_framework.py:40
+                          framework.qwenvl.base_vlm=/models                     
+                          /Qwen3-VL-2B-Instruct                                 
+[WARNING] flash_attn not installed, falling back to sdpa
+                 INFO     | >> [*] [Qwen3-VL] Loading               QWen3.py:109
+                          /models/Qwen3-VL-2B-Instruct with                     
+                          attn_implementation=sdpa                              
+{"episode": "0", "condition": "generic_full_history", "first_step_l1": 0.011487225070595741, "chunk_l1": 0.03834431990981102}
+{"episode": "0", "condition": "generic_current_only", "first_step_l1": 0.0794190764427185, "chunk_l1": 0.12910182774066925}
+{"episode": "0", "condition": "explicit_task_full_history", "first_step_l1": 0.00942892488092184, "chunk_l1": 0.019744232296943665}
+{"episode": "0", "condition": "explicit_subtask_full_history", "first_step_l1": 0.011487225070595741, "chunk_l1": 0.03834431990981102}
+{"episode": "2", "condition": "generic_full_history", "first_step_l1": 0.008173898793756962, "chunk_l1": 0.02924819476902485}
+{"episode": "2", "condition": "generic_current_only", "first_step_l1": 0.012133493088185787, "chunk_l1": 0.08156180381774902}
+{"episode": "2", "condition": "explicit_task_full_history", "first_step_l1": 0.008814148604869843, "chunk_l1": 0.012535885907709599}
+{"episode": "2", "condition": "explicit_subtask_full_history", "first_step_l1": 0.008173898793756962, "chunk_l1": 0.02924819476902485}

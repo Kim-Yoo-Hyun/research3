@@ -1,0 +1,22 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{"seed": 49000, "route": "released_dp", "steps": 300, "any_success": false, "max_coverage": 0.12095774213025665, "any_contact": false, "rollout_seconds": 9.054385716095567}
+{"seed": 49000, "route": "ridge_bc", "steps": 300, "any_success": false, "max_coverage": 0.12095774213025665, "any_contact": false, "rollout_seconds": 0.1028276989236474}
+{"seed": 49001, "route": "released_dp", "steps": 192, "any_success": true, "max_coverage": 0.9585666597032608, "any_contact": true, "rollout_seconds": 5.589503196068108}
+{"seed": 49001, "route": "ridge_bc", "steps": 300, "any_success": false, "max_coverage": 0.4425288917157507, "any_contact": true, "rollout_seconds": 0.10720550455152988}
+{"seed": 49002, "route": "released_dp", "steps": 300, "any_success": false, "max_coverage": 0.9377989498730566, "any_contact": true, "rollout_seconds": 8.813775695860386}
+{"seed": 49002, "route": "ridge_bc", "steps": 300, "any_success": false, "max_coverage": 0.0, "any_contact": false, "rollout_seconds": 0.08838809095323086}
+{"seed": 49003, "route": "released_dp", "steps": 220, "any_success": true, "max_coverage": 0.9505110556067865, "any_contact": true, "rollout_seconds": 6.4982245890423656}
+{"seed": 49003, "route": "ridge_bc", "steps": 300, "any_success": false, "max_coverage": 0.0, "any_contact": true, "rollout_seconds": 0.09142746590077877}
+{"seed": 49004, "route": "released_dp", "steps": 120, "any_success": true, "max_coverage": 0.9567706235864685, "any_contact": true, "rollout_seconds": 3.486764549277723}
+{"seed": 49004, "route": "ridge_bc", "steps": 300, "any_success": false, "max_coverage": 0.0, "any_contact": true, "rollout_seconds": 0.0899397125467658}
+/usr/local/lib/python3.11/site-packages/shapely/set_operations.py:131: RuntimeWarning: divide by zero encountered in intersection
+  return lib.intersection(a, b, **kwargs)
+{"seed": 49005, "route": "released_dp", "steps": 300, "any_success": false, "max_coverage": 0.9461831863375776, "any_contact": true, "rollout_seconds": 8.830730005167425}
+{"seed": 49005, "route": "ridge_bc", "steps": 300, "any_success": false, "max_coverage": 0.0, "any_contact": true, "rollout_seconds": 0.10020927712321281}
+{"seed": 49006, "route": "released_dp", "steps": 300, "any_success": false, "max_coverage": 0.9474054372285907, "any_contact": true, "rollout_seconds": 8.859761339612305}
+{"seed": 49006, "route": "ridge_bc", "steps": 300, "any_success": false, "max_coverage": 0.3723029406095626, "any_contact": true, "rollout_seconds": 0.09725421294569969}
+{"seed": 49007, "route": "released_dp", "steps": 265, "any_success": true, "max_coverage": 0.9781295977977945, "any_contact": true, "rollout_seconds": 7.930607934482396}
+{"seed": 49007, "route": "ridge_bc", "steps": 300, "any_success": false, "max_coverage": 0.0, "any_contact": true, "rollout_seconds": 0.10143047664314508}

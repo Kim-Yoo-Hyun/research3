@@ -1,0 +1,2 @@
+{"seed": 48007, "status": "repeatable", "model_selected": "y_minus", "baseline_repeat_max_drift": 1.1102230246251565e-16, "outcomes": {"bc": 0.3962, "feedback": 0.4237, "x_plus": 0.407, "x_minus": 0.3838, "y_plus": 0.3171, "y_minus": 0.4237}}
+{"seed": 48010, "status": "repeatable", "model_selected": "x_plus", "baseline_repeat_max_drift": 1.6653345369377348e-16, "outcomes": {"bc": 0.3714, "feedback": 0.3449, "x_plus": 0.3511, "x_minus": 0.3965, "y_plus": 0.4132, "y_minus": 0.3729}}

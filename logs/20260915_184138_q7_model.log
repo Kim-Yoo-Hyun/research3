@@ -1,0 +1,36 @@
+verified README.md 11437
+verified chat_template.json 430
+verified added_tokens.json 4739
+verified config.json 3642
+verified generation_config.json 136
+verified merges.txt 466391
+verified model.safetensors.index.json 63881
+verified preprocessor_config.json 599
+verified processor_config.json 67
+verified special_tokens_map.json 868
+verified tokenizer.json 3548256
+verified tokenizer_config.json 28627
+verified vocab.json 800662
+Traceback (most recent call last):
+  File "/home/yoohyun/research3/buildup/robotics/pilot_studies/q7-failure-source/fetch_model.py", line 34, in <module>
+    results = list(pool.map(fetch, spec['files']))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yoohyun/research3/buildup/robotics/pilot_studies/q7-failure-source/fetch_model.py", line 18, in fetch
+    subprocess.run(command, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['wget', '-c', '--quiet', '--timeout=30', '--tries=5', '-O', '/home/yoohyun/research3/checkpoints/q7/smolvlm2-2.2b/model-00001-of-00002.safetensors', 'https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct/resolve/482adb537c021c86670beed01cd58990d01e72e4/model-00001-of-00002.safetensors']' died with <Signals.SIGTERM: 15>.

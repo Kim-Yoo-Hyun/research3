@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "freezes": {
+    "freeze.json": {
+      "sha256": "7b9ad1db49e2138f5c635e477af8a3ff26834926a325d5ed8fff5e7bd99c946c",
+      "entries": 17
+    },
+    "model/schema_freeze.json": {
+      "sha256": "d5b3b73e476f9e80191a5b6008f45e321c514d5d6b31e23bb63058e867ea7b60",
+      "entries": 17
+    },
+    "model/completion_freeze.json": {
+      "sha256": "f8325aef30dbbfa2fff1a6f1eb358132096ba1621ea651d7ca7280c6de46cbb4",
+      "entries": 43
+    },
+    "geometry/freeze.json": {
+      "sha256": "014e3edac4c4456afc3efc1c3622cc72b6150358feae1b15945394c647523e1c",
+      "entries": 20
+    },
+    "geometry/preservation_freeze.json": {
+      "sha256": "2e2328e2c941c62b75fd1f1087960922ec5afc61906840d9c5c64cd6cc040072",
+      "entries": 9
+    },
+    "geometry/inspection_freeze.json": {
+      "sha256": "7cff27eecd1e0074806bd890be2c366dc540394c8d6aff7aaaba7f1c8b398bcb",
+      "entries": 5
+    },
+    "real/preparation_freeze.json": {
+      "sha256": "4375d7c0e5ed9e24016d3ee09079ff9249f359b5c5c67b6f8e253bc6114e02ff",
+      "entries": 9
+    }
+  },
+  "members": 37,
+  "range_responses": 74,
+  "response_bytes": 3384724,
+  "unpacked_bytes": 7173658,
+  "synthetic_groups": 9,
+  "image_bytes": 82234923,
+  "real_images_decoded_by_this_check": false,
+  "real_mesh_coordinates_inspected_by_this_check": false,
+  "byte_validation_only": true
+}

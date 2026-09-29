@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "markdown_files": 14,
+  "local_file_links_checked": 467,
+  "missing": [],
+  "selection_records_verified": 30,
+  "development": 6,
+  "observation": 24,
+  "source_records": 178,
+  "selection_manifest_hash_match": true,
+  "comparison_metadata_json": "valid",
+  "new_numeric_experiment": false,
+  "containers_created_or_deleted": false
+}

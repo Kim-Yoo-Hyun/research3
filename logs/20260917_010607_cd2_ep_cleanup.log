@@ -1,0 +1,277 @@
+{
+  "checked_at_utc": "2026-09-16T16:12:05.494334+00:00",
+  "preserved_files_checked": 52,
+  "logs_hashed": 14,
+  "containers": [
+    {
+      "run": "20260917_005800",
+      "phase": "inspect",
+      "cid": "c20f3ba72748fb52c0d82c54162b908aede01238198d4a509bdeeefe3a8d55a8",
+      "exit_code": 0,
+      "name": "/research3-cd2-ep-20260917_005800-inspect",
+      "command": [
+        "/study/inspect_input.py"
+      ],
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-review/20260917",
+          "Destination": "/input",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/buildup/cross_domain/pilot_studies/cd2-evaluation/episodes",
+          "Destination": "/study",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-episodes/20260917_005800",
+          "Destination": "/output",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "verified_original_inspect": "runs/cd2-episodes/20260917_005800/inspect.container.json",
+      "delete_command": [
+        "docker",
+        "rm",
+        "c20f3ba72748fb52c0d82c54162b908aede01238198d4a509bdeeefe3a8d55a8"
+      ],
+      "delete_output": "c20f3ba72748fb52c0d82c54162b908aede01238198d4a509bdeeefe3a8d55a8"
+    },
+    {
+      "run": "20260917_005800",
+      "phase": "run",
+      "cid": "7af4944f16df9f5d6847c4c89f7a669f3c2e32c25796208c7d9b3a24e9d66afb",
+      "exit_code": 1,
+      "name": "/research3-cd2-ep-20260917_005800-run",
+      "command": [
+        "/study/run.py"
+      ],
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-review/20260917",
+          "Destination": "/input",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/buildup/cross_domain/pilot_studies/cd2-evaluation/episodes",
+          "Destination": "/study",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-episodes/20260917_005800",
+          "Destination": "/output",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "verified_original_inspect": "runs/cd2-episodes/20260917_005800/run.container.json",
+      "delete_command": [
+        "docker",
+        "rm",
+        "7af4944f16df9f5d6847c4c89f7a669f3c2e32c25796208c7d9b3a24e9d66afb"
+      ],
+      "delete_output": "7af4944f16df9f5d6847c4c89f7a669f3c2e32c25796208c7d9b3a24e9d66afb"
+    },
+    {
+      "run": "20260917_005800",
+      "phase": "diagnose",
+      "cid": "3438f4d4443bee235e03ff6e222525461b2e4dcae5dc802e1bc9f062d9f9b792",
+      "exit_code": 0,
+      "name": "/research3-cd2-ep-20260917_005800-diagnose",
+      "command": [
+        "/study/diagnose_input.py"
+      ],
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-review/20260917",
+          "Destination": "/input",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/buildup/cross_domain/pilot_studies/cd2-evaluation/episodes",
+          "Destination": "/study",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-episodes/20260917_005800",
+          "Destination": "/output",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "verified_original_inspect": "runs/cd2-episodes/20260917_005800/diagnose.container.json",
+      "delete_command": [
+        "docker",
+        "rm",
+        "3438f4d4443bee235e03ff6e222525461b2e4dcae5dc802e1bc9f062d9f9b792"
+      ],
+      "delete_output": "3438f4d4443bee235e03ff6e222525461b2e4dcae5dc802e1bc9f062d9f9b792"
+    },
+    {
+      "run": "20260917_010607",
+      "phase": "run",
+      "cid": "6066042d5ffcae2e024ff897f5252a857a20cbe6a3d5fd593286623c44dbda6d",
+      "exit_code": 0,
+      "name": "/research3-cd2-ep-20260917_010607-run",
+      "command": [
+        "/study/run.py"
+      ],
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-review/20260917",
+          "Destination": "/input",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/buildup/cross_domain/pilot_studies/cd2-evaluation/episodes",
+          "Destination": "/study",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-episodes/20260917_010607",
+          "Destination": "/output",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "verified_original_inspect": "runs/cd2-episodes/20260917_010607/run.container.json",
+      "delete_command": [
+        "docker",
+        "rm",
+        "6066042d5ffcae2e024ff897f5252a857a20cbe6a3d5fd593286623c44dbda6d"
+      ],
+      "delete_output": "6066042d5ffcae2e024ff897f5252a857a20cbe6a3d5fd593286623c44dbda6d"
+    },
+    {
+      "run": "20260917_010607",
+      "phase": "verify",
+      "cid": "b82836d945c4f0c306890a8761409daae13cefa3ce55d0c213c8ecb16a16d61c",
+      "exit_code": 0,
+      "name": "/research3-cd2-ep-20260917_010607-verify",
+      "command": [
+        "/study/verify.py"
+      ],
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-episodes/20260917_010607/verification",
+          "Destination": "/verification",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-review/20260917",
+          "Destination": "/input",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/buildup/cross_domain/pilot_studies/cd2-evaluation/episodes",
+          "Destination": "/study",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-episodes/20260917_010607",
+          "Destination": "/output",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ],
+      "verified_original_inspect": "runs/cd2-episodes/20260917_010607/verify.container.json",
+      "delete_command": [
+        "docker",
+        "rm",
+        "b82836d945c4f0c306890a8761409daae13cefa3ce55d0c213c8ecb16a16d61c"
+      ],
+      "delete_output": "b82836d945c4f0c306890a8761409daae13cefa3ce55d0c213c8ecb16a16d61c"
+    },
+    {
+      "run": "20260917_010607",
+      "phase": "analyze",
+      "cid": "9e8a863d876c63c63d633ad1e80792f2e03d1c874e1ffd2f56ae173c7c93afc4",
+      "exit_code": 0,
+      "name": "/research3-cd2-ep-20260917_010607-analyze",
+      "command": [
+        "/study/analyze.py"
+      ],
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-review/20260917",
+          "Destination": "/input",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/buildup/cross_domain/pilot_studies/cd2-evaluation/episodes",
+          "Destination": "/study",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/yoohyun/research3/runs/cd2-episodes/20260917_010607",
+          "Destination": "/output",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "verified_original_inspect": "runs/cd2-episodes/20260917_010607/analyze.container.json",
+      "delete_command": [
+        "docker",
+        "rm",
+        "9e8a863d876c63c63d633ad1e80792f2e03d1c874e1ffd2f56ae173c7c93afc4"
+      ],
+      "delete_output": "9e8a863d876c63c63d633ad1e80792f2e03d1c874e1ffd2f56ae173c7c93afc4"
+    }
+  ],
+  "reason": "Workspace-created exited containers; source/input/output/logs/image identity and verification preserved",
+  "image_deleted": false,
+  "other_assets_touched": false,
+  "status": "completed"
+}

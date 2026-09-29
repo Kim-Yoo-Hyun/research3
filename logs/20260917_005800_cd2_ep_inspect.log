@@ -1,0 +1,224 @@
+c20f3ba72748fb52c0d82c54162b908aede01238198d4a509bdeeefe3a8d55a8
+{
+  "keys": [
+    "figure_4_simulation_tasks",
+    "figure_4_hardware_tasks",
+    "figure_6_simulation_tasks"
+  ],
+  "columns": [
+    "index",
+    "policy_type",
+    "skill",
+    "success",
+    "task_progress",
+    "experiment_name",
+    "num_rollouts",
+    "n_questions"
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "policy_type": "DiT_DP_stage5_finetune",
+      "skill": "BikeRotorInstall",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 13
+    },
+    {
+      "index": 1,
+      "policy_type": "DiT_DP_single_task",
+      "skill": "BikeRotorInstall",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 13
+    },
+    {
+      "index": 0,
+      "policy_type": "DiT_DP_stage5_finetune",
+      "skill": "CutAppleIntoSlices",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 14
+    },
+    {
+      "index": 1,
+      "policy_type": "DiT_DP_single_task",
+      "skill": "CutAppleIntoSlices",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 14
+    },
+    {
+      "index": 0,
+      "policy_type": "DiT_DP_stage5_finetune",
+      "skill": "CleanLitterBox",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 7
+    },
+    {
+      "index": 1,
+      "policy_type": "DiT_DP_single_task",
+      "skill": "CleanLitterBox",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 7
+    },
+    {
+      "index": 0,
+      "policy_type": "DiT_DP_stage5_finetune",
+      "skill": "ClearKitchenCounter",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 7
+    },
+    {
+      "index": 1,
+      "policy_type": "DiT_DP_single_task",
+      "skill": "ClearKitchenCounter",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 7
+    },
+    {
+      "index": 0,
+      "policy_type": "DiT_DP_stage5_finetune",
+      "skill": "SetUpBreakfastTable",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 12
+    },
+    {
+      "index": 1,
+      "policy_type": "DiT_DP_single_task",
+      "skill": "SetUpBreakfastTable",
+      "success": {
+        "shape": [
+          50
+        ],
+        "dtype": "bool"
+      },
+      "task_progress": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "experiment_name": "Unseen_tasks",
+      "num_rollouts": 50,
+      "n_questions": 12
+    }
+  ],
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "q12-bop-real-input-v1",
+  "stage": "Stage 6 input consistency audit; not physical calibration or action evaluation",
+  "selection": "selection.json",
+  "denominator": 10,
+  "image": {"width": 640, "height": 480, "depth_bit_depth": 16, "depth_color_type": 0, "mask_bit_depth": 8, "mask_color_type": 0, "rgb_bit_depth": 8, "rgb_color_type": 2, "interlace": 0},
+  "coordinates": {"model_and_translation_unit": "mm", "mm_to_m": 0.001, "depth": "stored uint16 times per-frame depth_scale gives camera Z in mm; zero is invalid", "pixel_centers": "integer u,v, as BOP misc.py; right/down/forward", "normalization": "none", "rigid_pose": "original cam_R_m2c and cam_t_m2c; no recenter, fit, correction or orthogonalization"},
+  "tolerances": {"numeric_m": 1e-10, "projection_px": 1e-8, "rotation_orthogonality": 1e-5, "rotation_determinant": 1e-5, "camera_structure": 1e-12, "model_bbox_m": 1e-6, "triangle_area_min_m2": 1e-14, "ray_intersection_m": 1e-8},
+  "tolerance_basis": "numerical/serialization sanity limits, not sensor error bounds. 1e-5 rigid-matrix checks allow finite serialization precision but reject scale/reflection; original 1e-14 m2 area requirement retained at physical units. Synthetic controls and independent implementation must verify these before actual execution.",
+  "mesh": "require finite indexed triangles; exact-coordinate classes for diagnosis only; every undirected edge has exactly two opposite incidences; preserve raw vertices and faces; no welding, removal, variant substitution or global self-intersection certificate",
+  "masks": "GT-dependent oracle annotation, not independent learned segmentation. Decode visible and full masks separately; require visible subset of full, binary 0/255, exact association by frame and GT index. Always intersect with valid positive depth; missing-depth pixels remain unknown.",
+  "diagnostic": {"rays_per_instance": 32, "selection": "uniform integer indices across row-major valid-depth AND visible-mask pixels; retain all if fewer; no depth-residual or geometry filtering", "ray": "first positive two-sided triangle hit for selected object only, camera Z parameter; no solid containment", "mesh_failure": "skip geometric residual for that object but retain camera/image checks and both case records", "residual_m": "observed Z minus model-surface ray Z; record missing intersections, signed values, median absolute error and max absolute error; no outlier removal", "sensor_acceptance_bound": null, "calibration_status": "UNRESOLVED_BEFORE_EXECUTION", "other_scene_geometry": "all five annotated models audited; per-object rays are not whole-scene or robot collision labels"},
+  "decisions": {"integrity": "INVALID_INTEGRITY", "schema_or_coordinate": "DEFER_INPUT_LINKAGE", "mesh": "DEFER_GEOMETRY", "missing_ray_support": "DEFER_RAY_SUPPORT", "numerical_pass": "INPUT_CONTROLS_VALID_CALIBRATION_UNRESOLVED"},
+  "decision_order": ["integrity", "schema_or_coordinate", "mesh", "missing_ray_support", "numerical_pass"],
+  "physical_admission": false,
+  "disconfirmation": "All ten records retained. A failed gate pauses this route without frame/object/model replacement or threshold tuning. Even numerical pass cannot establish sensor/pose uncertainty; no completion or physical/free-space claim follows. No Q13 automatic succession.",
+  "resources": {"cpu": 4, "ram_bytes": 4294967296, "runtime_verification_seconds": 1800, "output_bytes": 134217728, "network": "none", "gpu": false, "checkpoint": false, "training": false},
+  "seed": null,
+  "randomness": "none; deterministic indexed diagnostic samples"
+}

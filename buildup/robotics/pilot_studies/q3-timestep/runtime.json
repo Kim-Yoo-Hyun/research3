@@ -1,0 +1,475 @@
+{
+  "image_tag": "research3-q3-timestep:v1",
+  "image_id": "sha256:3b51ec5533d6fd6bd999903a0b66938703c38fbf6ae685a4b163bdabc6b710f0",
+  "source_commit": "a4a4f9272ad64b1564035874b605ceb687b63ed8",
+  "raw_directory": "runs/q3/timestep/v1",
+  "cache_directory": "runs/q3/timestep/cache",
+  "run_status": {
+    "status": "completed",
+    "conditions": [
+      {
+        "mode": "closed",
+        "frequency": 100,
+        "repeat": 0,
+        "exit": 0
+      },
+      {
+        "mode": "closed",
+        "frequency": 100,
+        "repeat": 1,
+        "exit": 0
+      },
+      {
+        "mode": "replay",
+        "frequency": 100,
+        "repeat": 0,
+        "exit": 0
+      },
+      {
+        "mode": "replay",
+        "frequency": 100,
+        "repeat": 1,
+        "exit": 0
+      },
+      {
+        "mode": "closed",
+        "frequency": 200,
+        "repeat": 0,
+        "exit": 0
+      },
+      {
+        "mode": "closed",
+        "frequency": 200,
+        "repeat": 1,
+        "exit": 0
+      },
+      {
+        "mode": "replay",
+        "frequency": 200,
+        "repeat": 0,
+        "exit": 0
+      },
+      {
+        "mode": "replay",
+        "frequency": 200,
+        "repeat": 1,
+        "exit": 0
+      },
+      {
+        "mode": "closed",
+        "frequency": 400,
+        "repeat": 0,
+        "exit": 0
+      },
+      {
+        "mode": "closed",
+        "frequency": 400,
+        "repeat": 1,
+        "exit": 0
+      },
+      {
+        "mode": "replay",
+        "frequency": 400,
+        "repeat": 0,
+        "exit": 0
+      },
+      {
+        "mode": "replay",
+        "frequency": 400,
+        "repeat": 1,
+        "exit": 0
+      }
+    ],
+    "seed": 20260918,
+    "seconds": 92.63364273216575,
+    "runtime_cache": [
+      {
+        "path": "/cache/.sapien/physx/105.1-physx-5.3.1.patch0/libPhysXGpu_64.so",
+        "bytes": 236705440,
+        "sha256": "4c582a16509a71faf5592fe9708586dfcc7ab61ae932eabc1ddd81f290818706"
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "stage": "build",
+      "status": "completed",
+      "attempt": "v1",
+      "command": [
+        "docker",
+        "build",
+        "--no-cache",
+        "--progress=plain",
+        "-t",
+        "research3-q3-timestep:v1",
+        "-f",
+        "/home/yoohyun/research3/buildup/robotics/pilot_studies/q3-timestep/Dockerfile",
+        "/home/yoohyun/research3"
+      ],
+      "working_directory": "/home/yoohyun/research3",
+      "log": "/home/yoohyun/research3/logs/20260918_124419_751188_q3_build.log",
+      "exit": "/home/yoohyun/research3/logs/20260918_124419_751188_q3_build.exit",
+      "image_id": null
+    },
+    {
+      "stage": "run",
+      "status": "completed",
+      "attempt": "v1",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "research3-q3-run-20260918_125407_767289",
+        "--label",
+        "research3.workspace=/home/yoohyun/research3",
+        "--label",
+        "research3.study=q3-timestep",
+        "--cpus=4",
+        "--memory=12g",
+        "--memory-swap=12g",
+        "--pids-limit=512",
+        "--user",
+        "1001:1001",
+        "--network",
+        "bridge",
+        "-e",
+        "HOME=/cache",
+        "-e",
+        "MPLCONFIGDIR=/cache/mpl",
+        "-v",
+        "/home/yoohyun/research3/buildup/robotics/pilot_studies/q3-timestep:/study:ro",
+        "-v",
+        "/home/yoohyun/research3/datasets/q8:/inputs:ro",
+        "-v",
+        "/home/yoohyun/research3/runs/q3/timestep:/output:rw",
+        "-v",
+        "/home/yoohyun/research3/runs/q3/timestep/cache:/cache:rw",
+        "--runtime=nvidia",
+        "--gpus",
+        "device=0",
+        "-e",
+        "NVIDIA_DRIVER_CAPABILITIES=graphics,utility,compute",
+        "-e",
+        "VK_ICD_FILENAMES=/opt/ManiSkill/docker/nvidia_icd.json",
+        "-e",
+        "CUDA_VISIBLE_DEVICES=0",
+        "sha256:3b51ec5533d6fd6bd999903a0b66938703c38fbf6ae685a4b163bdabc6b710f0",
+        "timeout",
+        "3600s",
+        "python",
+        "-B",
+        "-u",
+        "/study/run.py",
+        "--attempt",
+        "v1"
+      ],
+      "working_directory": "/home/yoohyun/research3",
+      "log": "/home/yoohyun/research3/logs/20260918_125407_767289_q3_run.log",
+      "exit": "/home/yoohyun/research3/logs/20260918_125407_767289_q3_run.exit",
+      "image_id": "sha256:3b51ec5533d6fd6bd999903a0b66938703c38fbf6ae685a4b163bdabc6b710f0"
+    },
+    {
+      "stage": "verify",
+      "status": "completed",
+      "attempt": "v1",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "research3-q3-verify-20260918_125545_615905",
+        "--label",
+        "research3.workspace=/home/yoohyun/research3",
+        "--label",
+        "research3.study=q3-timestep",
+        "--cpus=4",
+        "--memory=12g",
+        "--memory-swap=12g",
+        "--pids-limit=512",
+        "--user",
+        "1001:1001",
+        "--network",
+        "none",
+        "-e",
+        "HOME=/cache",
+        "-e",
+        "MPLCONFIGDIR=/cache/mpl",
+        "-v",
+        "/home/yoohyun/research3/buildup/robotics/pilot_studies/q3-timestep:/study:ro",
+        "-v",
+        "/home/yoohyun/research3/datasets/q8:/inputs:ro",
+        "-v",
+        "/home/yoohyun/research3/runs/q3/timestep:/output:rw",
+        "-v",
+        "/home/yoohyun/research3/runs/q3/timestep/cache:/cache:rw",
+        "sha256:3b51ec5533d6fd6bd999903a0b66938703c38fbf6ae685a4b163bdabc6b710f0",
+        "timeout",
+        "3600s",
+        "python",
+        "-B",
+        "-u",
+        "/study/verify.py",
+        "--attempt",
+        "v1"
+      ],
+      "working_directory": "/home/yoohyun/research3",
+      "log": "/home/yoohyun/research3/logs/20260918_125545_615905_q3_verify.log",
+      "exit": "/home/yoohyun/research3/logs/20260918_125545_615905_q3_verify.exit",
+      "image_id": "sha256:3b51ec5533d6fd6bd999903a0b66938703c38fbf6ae685a4b163bdabc6b710f0"
+    },
+    {
+      "stage": "verify",
+      "status": "completed",
+      "attempt": "v1",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "research3-q3-verify-20260918_125654_298780",
+        "--label",
+        "research3.workspace=/home/yoohyun/research3",
+        "--label",
+        "research3.study=q3-timestep",
+        "--cpus=4",
+        "--memory=12g",
+        "--memory-swap=12g",
+        "--pids-limit=512",
+        "--user",
+        "1001:1001",
+        "--network",
+        "none",
+        "-e",
+        "HOME=/cache",
+        "-e",
+        "MPLCONFIGDIR=/cache/mpl",
+        "-v",
+        "/home/yoohyun/research3/buildup/robotics/pilot_studies/q3-timestep:/study:ro",
+        "-v",
+        "/home/yoohyun/research3/datasets/q8:/inputs:ro",
+        "-v",
+        "/home/yoohyun/research3/runs/q3/timestep:/output:rw",
+        "-v",
+        "/home/yoohyun/research3/runs/q3/timestep/cache:/cache:rw",
+        "sha256:3b51ec5533d6fd6bd999903a0b66938703c38fbf6ae685a4b163bdabc6b710f0",
+        "timeout",
+        "3600s",
+        "python",
+        "-B",
+        "-u",
+        "/study/verify.py",
+        "--attempt",
+        "v1"
+      ],
+      "working_directory": "/home/yoohyun/research3",
+      "log": "/home/yoohyun/research3/logs/20260918_125654_298780_q3_verify.log",
+      "exit": "/home/yoohyun/research3/logs/20260918_125654_298780_q3_verify.exit",
+      "image_id": "sha256:3b51ec5533d6fd6bd999903a0b66938703c38fbf6ae685a4b163bdabc6b710f0"
+    }
+  ],
+  "files": [
+    {
+      "path": "runs/q3/timestep/v1/Dockerfile",
+      "bytes": 978,
+      "sha256": "074e6483e70ac3f4b0a6dac0588feb985a813702eaa367fa65588684a41c5a09"
+    },
+    {
+      "path": "runs/q3/timestep/v1/checksums.txt",
+      "bytes": 3037,
+      "sha256": "1f41711f77b6ce02a75c479e4c615bf00376514a51c86344cc6236fb24a62853"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_100_0.json",
+      "bytes": 3762,
+      "sha256": "3d21a03780d4071a679063b1cd4b6280c54f6b23cabe278dfda94e36ec590336"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_100_0.npz",
+      "bytes": 189576,
+      "sha256": "827cd330d2540e3af7026f84cdd350bd8e987994b066daba0a49d5a8f26c1156"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_100_1.json",
+      "bytes": 3761,
+      "sha256": "759bc9e5665c067a03349f2182126e40670c515e4f53e20345d097102adb4d61"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_100_1.npz",
+      "bytes": 189576,
+      "sha256": "827cd330d2540e3af7026f84cdd350bd8e987994b066daba0a49d5a8f26c1156"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_200_0.json",
+      "bytes": 3761,
+      "sha256": "437d64820fa7e93e32497e11d10a313148bcf38f448ccf76dcb44acbbfb02425"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_200_0.npz",
+      "bytes": 188787,
+      "sha256": "20b94eb24f843c488bbde9f97b94dc19ab5c538f5565e86fbbbd9ca2695f2915"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_200_1.json",
+      "bytes": 3761,
+      "sha256": "b5558e12452a5c1dd2801e44490237123273e1430c04d6f8b53b9c75252dbc18"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_200_1.npz",
+      "bytes": 188787,
+      "sha256": "20b94eb24f843c488bbde9f97b94dc19ab5c538f5565e86fbbbd9ca2695f2915"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_400_0.json",
+      "bytes": 3763,
+      "sha256": "2bb10b00a59de9c215b750cf785a863b62ca772e31f025e4f7802642931d5b2f"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_400_0.npz",
+      "bytes": 188750,
+      "sha256": "f959b078ec70827073e980eafaa6de45975fa181cfb85dff2b1d6721922a17b1"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_400_1.json",
+      "bytes": 3763,
+      "sha256": "126475d0d152b19cab1770651ea00b5733175d0563ea46d1ab6f714f3f591504"
+    },
+    {
+      "path": "runs/q3/timestep/v1/closed_400_1.npz",
+      "bytes": 188750,
+      "sha256": "f959b078ec70827073e980eafaa6de45975fa181cfb85dff2b1d6721922a17b1"
+    },
+    {
+      "path": "runs/q3/timestep/v1/episodes.csv",
+      "bytes": 7899,
+      "sha256": "026b90335f9be068f0d1a291bd76c70ede7096c4fdf13b1385e7ea5a766b1813"
+    },
+    {
+      "path": "runs/q3/timestep/v1/installed.lock",
+      "bytes": 2008,
+      "sha256": "40855c9e303f1c4d4c2133f99996395abfad3c44edee310a4fc5cbf931a0e9d8"
+    },
+    {
+      "path": "runs/q3/timestep/v1/job.py",
+      "bytes": 3967,
+      "sha256": "c94075c3a7e6fb46dc2393280c6bcc725fa82860b1bf276a6b59af969e8054d3"
+    },
+    {
+      "path": "runs/q3/timestep/v1/observe.py",
+      "bytes": 8427,
+      "sha256": "f5ade0aa27d4f5e9654692b513a05ca8f129286b8079333f1b51e8297bc9ae21"
+    },
+    {
+      "path": "runs/q3/timestep/v1/os-packages.lock",
+      "bytes": 4293,
+      "sha256": "c672f2f26e1c1742a4caa982abcd4c6d217fdaf9bd56b41d60d311ca206cafe1"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_100_0.json",
+      "bytes": 3791,
+      "sha256": "2f91d227733ae597ac12f0daee68310ddbef4793e6b989ff3cb1897ba8545426"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_100_0.npz",
+      "bytes": 177457,
+      "sha256": "3bfc13629c1a135e78fcf070545b5518b312563bc3f715eccbe14bb8ef0d6df6"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_100_1.json",
+      "bytes": 3792,
+      "sha256": "218628d5c768bfd4f77915510ca6ef901cd4050823ef48c336c4b58aa222b662"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_100_1.npz",
+      "bytes": 177457,
+      "sha256": "3bfc13629c1a135e78fcf070545b5518b312563bc3f715eccbe14bb8ef0d6df6"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_200_0.json",
+      "bytes": 3791,
+      "sha256": "6d0396671e7dc44b7003046770c281d57fa5a06a183ab9fd9735719c5905ab11"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_200_0.npz",
+      "bytes": 176819,
+      "sha256": "d59f55c7dc08b3f0197653d4c52d62f83bb03ca3b118299ead6cb1858378a05c"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_200_1.json",
+      "bytes": 3792,
+      "sha256": "b32e5da71240d0414532e0adad0583dd76e05ac7f78e1087f44e65baac5a9949"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_200_1.npz",
+      "bytes": 176819,
+      "sha256": "d59f55c7dc08b3f0197653d4c52d62f83bb03ca3b118299ead6cb1858378a05c"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_400_0.json",
+      "bytes": 3793,
+      "sha256": "6629d013e2b616b0e579288cb96eec929a043a6e5b38280efd7d379c3e3b2007"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_400_0.npz",
+      "bytes": 177066,
+      "sha256": "e6b0e951ac56e2b875ec735e7674b717c2cbaa4d174453fa2d4c1a63fca2fe08"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_400_1.json",
+      "bytes": 3793,
+      "sha256": "cad378f938478d2e1d805d018f07c2e76c47c547dc418a208fcdccfb189dc46c"
+    },
+    {
+      "path": "runs/q3/timestep/v1/replay_400_1.npz",
+      "bytes": 177066,
+      "sha256": "e6b0e951ac56e2b875ec735e7674b717c2cbaa4d174453fa2d4c1a63fca2fe08"
+    },
+    {
+      "path": "runs/q3/timestep/v1/requirements.lock",
+      "bytes": 2047,
+      "sha256": "39e3053d52920c69391f62ba6f03c4c91ca55ad4ba0180509e6dd9461b31b790"
+    },
+    {
+      "path": "runs/q3/timestep/v1/run.py",
+      "bytes": 2163,
+      "sha256": "b50f83a88655314c37f5fcf3d7a7a1eebefe6980c74eef50d47532dc34283a22"
+    },
+    {
+      "path": "runs/q3/timestep/v1/run_status.json",
+      "bytes": 1482,
+      "sha256": "0f85430a35e91b807f68951fd9e694c4438768da4a0b60708632ebdf63a2be81"
+    },
+    {
+      "path": "runs/q3/timestep/v1/summary.json",
+      "bytes": 17870,
+      "sha256": "a338561771478dd6442c71b7cbb82f44134dcf006942f339481252ad9d7e8370"
+    },
+    {
+      "path": "runs/q3/timestep/v1/verification.json",
+      "bytes": 427,
+      "sha256": "adfccfd5acbf06de7079f2b685401633d184891caac027914a6386339d31fb2b"
+    },
+    {
+      "path": "runs/q3/timestep/v1/verify.py",
+      "bytes": 7813,
+      "sha256": "969dafe64878eaf1ecac5c38af0fd7bd752692677b1eebb612633896b06a7650"
+    },
+    {
+      "path": "runs/q3/timestep/v1/verify_executed.py",
+      "bytes": 8539,
+      "sha256": "e1262417e231c76f4c4348a4ea4132969b9a3a43fdc057c91d2249eab50a68bd"
+    }
+  ],
+  "cleanup_log": "logs/20260918_125800_q3_cleanup.log",
+  "removed_containers": [
+    {
+      "name": "research3-q3-run-20260918_125407_767289",
+      "id": "93d81e262928e436627d44a0fd6fd8b1228b05156d27c481471fe519f8048226"
+    },
+    {
+      "name": "research3-q3-verify-20260918_125545_615905",
+      "id": "d66c2de7670981decb3b8f1f53ce3a97cce8423c03b29c5dbd982e14446f3484"
+    },
+    {
+      "name": "research3-q3-verify-20260918_125654_298780",
+      "id": "c5d82b56b4a3a82826eb5e12fca284d6d07e9d8a29ad2f74fb7f4971d5b26922"
+    }
+  ]
+}

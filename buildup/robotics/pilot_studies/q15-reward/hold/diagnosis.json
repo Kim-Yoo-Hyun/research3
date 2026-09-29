@@ -1,0 +1,965 @@
+{
+  "exploratory_post_hoc": true,
+  "new_rollouts": 0,
+  "cases": [
+    {
+      "variant": "half",
+      "training_seed": 101,
+      "initial_state": 4,
+      "improved": false,
+      "worsened": false,
+      "first_success_step": null,
+      "source_sha256": {
+        "continued": "beaed7e3794a03daa7806d26e3d0eadb9024ffc6d70b52d7a8c992083deb8be5",
+        "hold": "5477d8054419138b11a402e7cc667bd62e6d72bd2a9b7fb812ff05a7c690b456"
+      }
+    },
+    {
+      "variant": "half",
+      "training_seed": 101,
+      "initial_state": 14,
+      "improved": true,
+      "worsened": false,
+      "first_success_step": 19,
+      "source_sha256": {
+        "continued": "beaed7e3794a03daa7806d26e3d0eadb9024ffc6d70b52d7a8c992083deb8be5",
+        "hold": "5477d8054419138b11a402e7cc667bd62e6d72bd2a9b7fb812ff05a7c690b456"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 16.257114708423615,
+        "max_arm_velocity_rad_s": 0.16476011276245117,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.07008054107427597,
+          -0.0015275999903678894,
+          0.100919209420681
+        ],
+        "cube_angular_velocity_rad_s": [
+          -1.5350333452224731,
+          -6.219742298126221,
+          13.925765037536621
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 27.70772948861122,
+          "cube_displacement_mm": [
+            -38.94519805908203,
+            2.471923828125,
+            11.946410179138184
+          ],
+          "tcp_displacement_mm": [
+            -39.0782356262207,
+            3.147125244140625,
+            11.978387832641602
+          ],
+          "max_arm_displacement_rad": 0.13068698346614838,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 16.084132716059685,
+          "cube_displacement_mm": [
+            -0.18215179443359375,
+            -0.5025863647460938,
+            -0.48935413360595703
+          ],
+          "tcp_displacement_mm": [
+            -0.15783309936523438,
+            -0.4978179931640625,
+            -0.4798471927642822
+          ],
+          "max_arm_displacement_rad": 0.0015527456998825073,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "half",
+      "training_seed": 303,
+      "initial_state": 14,
+      "improved": false,
+      "worsened": true,
+      "first_success_step": 20,
+      "source_sha256": {
+        "continued": "9dcdc3306eecc1ed602a0e33d646eef1f194e50a824b5031bbc382d1c9adb12d",
+        "hold": "b0426de07d6c98bfb5257959bf957ec1f805c17f7ae04fa61223ac8ac17062ba"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 23.419490084052086,
+        "max_arm_velocity_rad_s": 0.12006505578756332,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.02200760692358017,
+          -0.04164661094546318,
+          0.11506344377994537
+        ],
+        "cube_angular_velocity_rad_s": [
+          -2.963391065597534,
+          1.2212589979171753,
+          2.6616830825805664
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 12.197664007544518,
+          "cube_displacement_mm": [
+            -19.43206787109375,
+            0.18835067749023438,
+            19.382030487060547
+          ],
+          "tcp_displacement_mm": [
+            -26.514530181884766,
+            -2.4361610412597656,
+            19.65233612060547
+          ],
+          "max_arm_displacement_rad": 0.1080477386713028,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 27.062421664595604,
+          "cube_displacement_mm": [
+            6.725788116455078,
+            1.1715888977050781,
+            -0.843733549118042
+          ],
+          "tcp_displacement_mm": [
+            -0.042438507080078125,
+            -0.9107589721679688,
+            -0.36093592643737793
+          ],
+          "max_arm_displacement_rad": 0.0018239319324493408,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "half",
+      "training_seed": 303,
+      "initial_state": 30,
+      "improved": false,
+      "worsened": false,
+      "first_success_step": 15,
+      "source_sha256": {
+        "continued": "9dcdc3306eecc1ed602a0e33d646eef1f194e50a824b5031bbc382d1c9adb12d",
+        "hold": "b0426de07d6c98bfb5257959bf957ec1f805c17f7ae04fa61223ac8ac17062ba"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 19.783824682235718,
+        "max_arm_velocity_rad_s": 0.11048191040754318,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.024568062275648117,
+          -0.05650928243994713,
+          0.1210833489894867
+        ],
+        "cube_angular_velocity_rad_s": [
+          0.7607335448265076,
+          -2.357849597930908,
+          -0.984004020690918
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": false,
+          "end_static": false,
+          "end_goal_distance_mm": 251.19560956954956,
+          "cube_displacement_mm": [
+            98.8779067993164,
+            -93.44005584716797,
+            -189.13499450683594
+          ],
+          "tcp_displacement_mm": [
+            111.89460754394531,
+            -87.20016479492188,
+            -132.3255157470703
+          ],
+          "max_arm_displacement_rad": 0.612901508808136,
+          "grasp_false_post_success_steps": 23
+        },
+        "hold": {
+          "end_success": false,
+          "end_grasp": false,
+          "end_static": true,
+          "end_goal_distance_mm": 207.18194544315338,
+          "cube_displacement_mm": [
+            -1.6994476318359375,
+            1.0280609130859375,
+            -189.13519287109375
+          ],
+          "tcp_displacement_mm": [
+            -0.003814697265625,
+            0.0,
+            -0.002175569534301758
+          ],
+          "max_arm_displacement_rad": 0.0021208226680755615,
+          "grasp_false_post_success_steps": 25
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 202,
+      "initial_state": 0,
+      "improved": true,
+      "worsened": false,
+      "first_success_step": 39,
+      "source_sha256": {
+        "continued": "cfa538a1619d471e0273e281803c98cf77db9ca88ca1e508294a01af7cbc955e",
+        "hold": "2d8ba6ee8d2694705b727e814ad22fa986f0fad9cd7ee673ca516ecf8d68b660"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 23.590989410877228,
+        "max_arm_velocity_rad_s": 0.10154183954000473,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.16237004101276398,
+          -0.01955019310116768,
+          0.033298805356025696
+        ],
+        "cube_angular_velocity_rad_s": [
+          2.523338794708252,
+          -6.7030839920043945,
+          -9.900821685791016
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 27.004951611161232,
+          "cube_displacement_mm": [
+            -15.87677001953125,
+            0.42724609375,
+            4.09536075592041
+          ],
+          "tcp_displacement_mm": [
+            -15.774726867675781,
+            -0.0095367431640625,
+            4.232973098754883
+          ],
+          "max_arm_displacement_rad": 0.05831056088209152,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 23.251358419656754,
+          "cube_displacement_mm": [
+            -0.14972686767578125,
+            -0.5102157592773438,
+            -0.31732022762298584
+          ],
+          "tcp_displacement_mm": [
+            -0.1373291015625,
+            -0.484466552734375,
+            -0.30168890953063965
+          ],
+          "max_arm_displacement_rad": 0.0006281137466430664,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 202,
+      "initial_state": 4,
+      "improved": true,
+      "worsened": false,
+      "first_success_step": 41,
+      "source_sha256": {
+        "continued": "cfa538a1619d471e0273e281803c98cf77db9ca88ca1e508294a01af7cbc955e",
+        "hold": "2d8ba6ee8d2694705b727e814ad22fa986f0fad9cd7ee673ca516ecf8d68b660"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 17.79470592737198,
+        "max_arm_velocity_rad_s": 0.10052964836359024,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.0804281234741211,
+          -0.03982403129339218,
+          0.09269890189170837
+        ],
+        "cube_angular_velocity_rad_s": [
+          0.008815543726086617,
+          -4.391427516937256,
+          -7.021806716918945
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 34.51881185173988,
+          "cube_displacement_mm": [
+            -0.8211135864257812,
+            -4.387855529785156,
+            19.48419189453125
+          ],
+          "tcp_displacement_mm": [
+            -0.8902549743652344,
+            -4.4708251953125,
+            18.947303771972656
+          ],
+          "max_arm_displacement_rad": 0.04257003962993622,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 17.753422260284424,
+          "cube_displacement_mm": [
+            -0.12922286987304688,
+            -0.3566741943359375,
+            -0.2823472023010254
+          ],
+          "tcp_displacement_mm": [
+            -0.125885009765625,
+            -0.34999847412109375,
+            -0.2668797969818115
+          ],
+          "max_arm_displacement_rad": 0.0010646432638168335,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 202,
+      "initial_state": 7,
+      "improved": true,
+      "worsened": false,
+      "first_success_step": 27,
+      "source_sha256": {
+        "continued": "cfa538a1619d471e0273e281803c98cf77db9ca88ca1e508294a01af7cbc955e",
+        "hold": "2d8ba6ee8d2694705b727e814ad22fa986f0fad9cd7ee673ca516ecf8d68b660"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 21.4234609156847,
+        "max_arm_velocity_rad_s": 0.1376812607049942,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.1643316149711609,
+          -0.06885954737663269,
+          -0.042998991906642914
+        ],
+        "cube_angular_velocity_rad_s": [
+          9.131175994873047,
+          -2.1961207389831543,
+          -8.432861328125
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 25.184035301208496,
+          "cube_displacement_mm": [
+            -25.99620819091797,
+            1.27410888671875,
+            19.129634857177734
+          ],
+          "tcp_displacement_mm": [
+            -25.747299194335938,
+            0.86212158203125,
+            19.407123565673828
+          ],
+          "max_arm_displacement_rad": 0.12493044883012772,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 21.34578488767147,
+          "cube_displacement_mm": [
+            -0.02574920654296875,
+            -0.6265640258789062,
+            -0.18993020057678223
+          ],
+          "tcp_displacement_mm": [
+            -0.026702880859375,
+            -0.6046295166015625,
+            -0.18605589866638184
+          ],
+          "max_arm_displacement_rad": 0.000781625509262085,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 202,
+      "initial_state": 8,
+      "improved": true,
+      "worsened": false,
+      "first_success_step": 16,
+      "source_sha256": {
+        "continued": "cfa538a1619d471e0273e281803c98cf77db9ca88ca1e508294a01af7cbc955e",
+        "hold": "2d8ba6ee8d2694705b727e814ad22fa986f0fad9cd7ee673ca516ecf8d68b660"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 14.733480289578438,
+        "max_arm_velocity_rad_s": 0.09545030444860458,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.16378340125083923,
+          -0.10464965552091599,
+          0.03874233365058899
+        ],
+        "cube_angular_velocity_rad_s": [
+          1.464565634727478,
+          -4.432947158813477,
+          14.262134552001953
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 26.34839341044426,
+          "cube_displacement_mm": [
+            -17.93670654296875,
+            -2.2335052490234375,
+            20.14061737060547
+          ],
+          "tcp_displacement_mm": [
+            -17.35544204711914,
+            -2.3784637451171875,
+            20.73903465270996
+          ],
+          "max_arm_displacement_rad": 0.09708023071289062,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 14.534506015479565,
+          "cube_displacement_mm": [
+            -0.04100799560546875,
+            -0.7047653198242188,
+            -0.34330785274505615
+          ],
+          "tcp_displacement_mm": [
+            -0.044345855712890625,
+            -0.6914138793945312,
+            -0.3366023302078247
+          ],
+          "max_arm_displacement_rad": 0.0009128153324127197,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 202,
+      "initial_state": 14,
+      "improved": true,
+      "worsened": false,
+      "first_success_step": 24,
+      "source_sha256": {
+        "continued": "cfa538a1619d471e0273e281803c98cf77db9ca88ca1e508294a01af7cbc955e",
+        "hold": "2d8ba6ee8d2694705b727e814ad22fa986f0fad9cd7ee673ca516ecf8d68b660"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 4.699347540736198,
+        "max_arm_velocity_rad_s": 0.08045415580272675,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.0508122444152832,
+          -0.06736920773983002,
+          0.050103649497032166
+        ],
+        "cube_angular_velocity_rad_s": [
+          -6.527578830718994,
+          -5.167971134185791,
+          1.6643670797348022
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 36.94533556699753,
+          "cube_displacement_mm": [
+            -19.378662109375,
+            6.001949310302734,
+            29.018848419189453
+          ],
+          "tcp_displacement_mm": [
+            -18.765926361083984,
+            5.250453948974609,
+            28.993011474609375
+          ],
+          "max_arm_displacement_rad": 0.11744630336761475,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 4.827332217246294,
+          "cube_displacement_mm": [
+            0.050067901611328125,
+            -0.5340576171875,
+            -0.18206238746643066
+          ],
+          "tcp_displacement_mm": [
+            0.042438507080078125,
+            -0.5221366882324219,
+            -0.17318129539489746
+          ],
+          "max_arm_displacement_rad": 0.0008509010076522827,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 202,
+      "initial_state": 16,
+      "improved": true,
+      "worsened": false,
+      "first_success_step": 23,
+      "source_sha256": {
+        "continued": "cfa538a1619d471e0273e281803c98cf77db9ca88ca1e508294a01af7cbc955e",
+        "hold": "2d8ba6ee8d2694705b727e814ad22fa986f0fad9cd7ee673ca516ecf8d68b660"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 19.125448539853096,
+        "max_arm_velocity_rad_s": 0.05857405439019203,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.12186899781227112,
+          -0.03298398479819298,
+          -0.008753927424550056
+        ],
+        "cube_angular_velocity_rad_s": [
+          6.173456192016602,
+          -3.378903388977051,
+          -7.375368595123291
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 26.473473757505417,
+          "cube_displacement_mm": [
+            -17.755508422851562,
+            5.278587341308594,
+            4.843711853027344
+          ],
+          "tcp_displacement_mm": [
+            -17.337799072265625,
+            4.549503326416016,
+            5.753695964813232
+          ],
+          "max_arm_displacement_rad": 0.0751289501786232,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 18.956420943140984,
+          "cube_displacement_mm": [
+            0.030517578125,
+            -0.8997917175292969,
+            -0.3846585750579834
+          ],
+          "tcp_displacement_mm": [
+            0.029087066650390625,
+            -0.8769035339355469,
+            -0.36662817001342773
+          ],
+          "max_arm_displacement_rad": 0.0009015053510665894,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 202,
+      "initial_state": 27,
+      "improved": true,
+      "worsened": false,
+      "first_success_step": 20,
+      "source_sha256": {
+        "continued": "cfa538a1619d471e0273e281803c98cf77db9ca88ca1e508294a01af7cbc955e",
+        "hold": "2d8ba6ee8d2694705b727e814ad22fa986f0fad9cd7ee673ca516ecf8d68b660"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 22.052738815546036,
+        "max_arm_velocity_rad_s": 0.09055189043283463,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.173446387052536,
+          -0.00643210718408227,
+          -0.017513301223516464
+        ],
+        "cube_angular_velocity_rad_s": [
+          12.016339302062988,
+          -0.5955284833908081,
+          0.5378285646438599
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 26.40344388782978,
+          "cube_displacement_mm": [
+            -18.883460998535156,
+            -2.330303192138672,
+            0.3809630870819092
+          ],
+          "tcp_displacement_mm": [
+            -18.593542098999023,
+            -2.257823944091797,
+            1.6383826732635498
+          ],
+          "max_arm_displacement_rad": 0.0844573974609375,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 22.056831046938896,
+          "cube_displacement_mm": [
+            -0.1746825873851776,
+            -1.087188720703125,
+            -0.17833709716796875
+          ],
+          "tcp_displacement_mm": [
+            -0.1771673560142517,
+            -1.0514259338378906,
+            -0.16990303993225098
+          ],
+          "max_arm_displacement_rad": 0.001359403133392334,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 202,
+      "initial_state": 29,
+      "improved": true,
+      "worsened": false,
+      "first_success_step": 24,
+      "source_sha256": {
+        "continued": "cfa538a1619d471e0273e281803c98cf77db9ca88ca1e508294a01af7cbc955e",
+        "hold": "2d8ba6ee8d2694705b727e814ad22fa986f0fad9cd7ee673ca516ecf8d68b660"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 13.829119503498077,
+        "max_arm_velocity_rad_s": 0.11260263621807098,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.13334885239601135,
+          -0.07198081910610199,
+          0.0054561179131269455
+        ],
+        "cube_angular_velocity_rad_s": [
+          -4.25048828125,
+          -0.31207960844039917,
+          10.655734062194824
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 26.025131344795227,
+          "cube_displacement_mm": [
+            -20.532608032226562,
+            1.35040283203125,
+            17.288536071777344
+          ],
+          "tcp_displacement_mm": [
+            -20.259857177734375,
+            0.9183883666992188,
+            17.543167114257812
+          ],
+          "max_arm_displacement_rad": 0.10680779814720154,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 13.667118735611439,
+          "cube_displacement_mm": [
+            -0.0743865966796875,
+            -0.6384849548339844,
+            -0.14290213584899902
+          ],
+          "tcp_displacement_mm": [
+            -0.08296966552734375,
+            -0.6279945373535156,
+            -0.13872981071472168
+          ],
+          "max_arm_displacement_rad": 0.00145798921585083,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 303,
+      "initial_state": 4,
+      "improved": false,
+      "worsened": false,
+      "first_success_step": null,
+      "source_sha256": {
+        "continued": "3290983b8f87f1b587bfa822844326bb496fb3b6634ce7297ac926f0a9c25124",
+        "hold": "462f0a5aea45ad913274c71c2539f8b8eab33c83cf8fd60a7907a9d602978f32"
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 303,
+      "initial_state": 16,
+      "improved": false,
+      "worsened": false,
+      "first_success_step": 24,
+      "source_sha256": {
+        "continued": "3290983b8f87f1b587bfa822844326bb496fb3b6634ce7297ac926f0a9c25124",
+        "hold": "462f0a5aea45ad913274c71c2539f8b8eab33c83cf8fd60a7907a9d602978f32"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 16.140563413500786,
+        "max_arm_velocity_rad_s": 0.11790064722299576,
+        "grasp": false,
+        "cube_velocity_m_s": [
+          -0.1454925388097763,
+          -0.16502423584461212,
+          -0.10941680520772934
+        ],
+        "cube_angular_velocity_rad_s": [
+          3.86248779296875,
+          -1.6917804479599,
+          -3.903186082839966
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": false,
+          "end_goal_distance_mm": 224.3451029062271,
+          "cube_displacement_mm": [
+            99.72525024414062,
+            -72.9074478149414,
+            -174.01705932617188
+          ],
+          "tcp_displacement_mm": [
+            101.91631317138672,
+            -81.96211242675781,
+            -179.2364959716797
+          ],
+          "max_arm_displacement_rad": 0.6922045946121216,
+          "grasp_false_post_success_steps": 21
+        },
+        "hold": {
+          "end_success": false,
+          "end_grasp": false,
+          "end_static": true,
+          "end_goal_distance_mm": 284.6112847328186,
+          "cube_displacement_mm": [
+            -22.562026977539062,
+            -63.549041748046875,
+            -271.62969970703125
+          ],
+          "tcp_displacement_mm": [
+            -0.00286102294921875,
+            -0.0019073486328125,
+            -0.0039637088775634766
+          ],
+          "max_arm_displacement_rad": 0.0007901489734649658,
+          "grasp_false_post_success_steps": 26
+        }
+      }
+    },
+    {
+      "variant": "native",
+      "training_seed": 303,
+      "initial_state": 31,
+      "improved": false,
+      "worsened": true,
+      "first_success_step": 22,
+      "source_sha256": {
+        "continued": "3290983b8f87f1b587bfa822844326bb496fb3b6634ce7297ac926f0a9c25124",
+        "hold": "462f0a5aea45ad913274c71c2539f8b8eab33c83cf8fd60a7907a9d602978f32"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 24.640901014208794,
+        "max_arm_velocity_rad_s": 0.13201095163822174,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.10429316759109497,
+          0.05162011459469795,
+          -0.03402182459831238
+        ],
+        "cube_angular_velocity_rad_s": [
+          5.748549461364746,
+          0.48260095715522766,
+          -8.662293434143066
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 11.485242284834385,
+          "cube_displacement_mm": [
+            -4.002571105957031,
+            2.6159286499023438,
+            13.885408401489258
+          ],
+          "tcp_displacement_mm": [
+            -2.9850006103515625,
+            3.9720535278320312,
+            13.657927513122559
+          ],
+          "max_arm_displacement_rad": 0.11195969581604004,
+          "grasp_false_post_success_steps": 0
+        },
+        "hold": {
+          "end_success": false,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 25.345563888549805,
+          "cube_displacement_mm": [
+            -0.19550323486328125,
+            -0.29468536376953125,
+            -0.6805062294006348
+          ],
+          "tcp_displacement_mm": [
+            -0.1926422119140625,
+            -0.29087066650390625,
+            -0.6671547889709473
+          ],
+          "max_arm_displacement_rad": 0.0005613863468170166,
+          "grasp_false_post_success_steps": 0
+        }
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "training_seed": 202,
+      "initial_state": 4,
+      "improved": false,
+      "worsened": false,
+      "first_success_step": null,
+      "source_sha256": {
+        "continued": "15370188516d874a9caa7c3f161c266e7c9634dc6945034d8a5e131b5e672fff",
+        "hold": "7b789fc96804f87bc957b40d6452ff7661cfaa7d712c5c36db82b76c3625118e"
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "training_seed": 303,
+      "initial_state": 4,
+      "improved": false,
+      "worsened": false,
+      "first_success_step": null,
+      "source_sha256": {
+        "continued": "01e3e012289bd9dd661c4f12519e7d6348d8b7fe6189707817a9eeffc3ea7b1e",
+        "hold": "e5c5986c5f9e57a8325e3ac4fc995b3e61560ca9b4b7ab12bad673566c7432ca"
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "training_seed": 303,
+      "initial_state": 9,
+      "improved": false,
+      "worsened": true,
+      "first_success_step": 11,
+      "source_sha256": {
+        "continued": "01e3e012289bd9dd661c4f12519e7d6348d8b7fe6189707817a9eeffc3ea7b1e",
+        "hold": "e5c5986c5f9e57a8325e3ac4fc995b3e61560ca9b4b7ab12bad673566c7432ca"
+      },
+      "at_first_success": {
+        "goal_distance_mm": 22.818492725491524,
+        "max_arm_velocity_rad_s": 0.11307193338871002,
+        "grasp": true,
+        "cube_velocity_m_s": [
+          -0.03941677138209343,
+          -0.031465183943510056,
+          0.05472883954644203
+        ],
+        "cube_angular_velocity_rad_s": [
+          0.3708241581916809,
+          -3.552528142929077,
+          -4.419384956359863
+        ]
+      },
+      "routes": {
+        "continued": {
+          "end_success": true,
+          "end_grasp": true,
+          "end_static": true,
+          "end_goal_distance_mm": 14.247044920921326,
+          "cube_displacement_mm": [
+            16.286182403564453,
+            7.388114929199219,
+            -15.357926368713379
+          ],
+          "tcp_displacement_mm": [
+            40.76136779785156,
+            7.866859436035156,
+            -15.716179847717285
+          ],
+          "max_arm_displacement_rad": 0.15476274490356445,
+          "grasp_false_post_success_steps": 4
+        },
+        "hold": {
+          "end_success": false,
+          "end_grasp": false,
+          "end_static": true,
+          "end_goal_distance_mm": 43.48481073975563,
+          "cube_displacement_mm": [
+            -6.885621547698975,
+            15.784263610839844,
+            -36.52516174316406
+          ],
+          "tcp_displacement_mm": [
+            0.0015012919902801514,
+            0.0,
+            0.001996755599975586
+          ],
+          "max_arm_displacement_rad": 0.001176547259092331,
+          "grasp_false_post_success_steps": 38
+        }
+      }
+    }
+  ],
+  "boundary": "State/kinematic descriptions, not contact-force or causal training-mechanism identification."
+}

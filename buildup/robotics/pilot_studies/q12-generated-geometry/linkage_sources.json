@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-11",
+  "scope": "Read-only source/metadata; no simulator/operator imports, asset downloads or runtime validation. Fork provenance does not establish checkpoint training operator version.",
+  "cache_root": "/tmp/research3-q12-linkage-20260911",
+  "repositories": [
+    {
+      "repository": "OrebroUniversity/shape_comp",
+      "commit": "4b7a1f4eff01bea994b319509ab0b8d240cf650a",
+      "commit_date": "2026-07-14T11:37:54Z",
+      "fork": false,
+      "parent": null,
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/OrebroUniversity/shape_comp/4b7a1f4eff01bea994b319509ab0b8d240cf650a/README.md",
+          "bytes": 4466,
+          "sha256": "6969ae849c9ecc268b0e7db9fb72bece0c93de82b7a87fbd7b26f92769d879c9",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/OrebroUniversity__shape_comp/README.md"
+        },
+        {
+          "path": "inference.py",
+          "url": "https://raw.githubusercontent.com/OrebroUniversity/shape_comp/4b7a1f4eff01bea994b319509ab0b8d240cf650a/inference.py",
+          "bytes": 8256,
+          "sha256": "ae5a54bdbb58e0e417e2977b2e4ee92ed4ee7b959367fa385fc849dbeb9d26e4",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/OrebroUniversity__shape_comp/inference.py"
+        }
+      ]
+    },
+    {
+      "repository": "bulletphysics/bullet3",
+      "commit": "63c4d67e337017f9d8b298c900e9aabdb69296e7",
+      "commit_date": "2025-10-22T02:13:14Z",
+      "fork": false,
+      "parent": null,
+      "files": [
+        {
+          "path": "docs/pybullet_quickstart_guide/PyBulletQuickstartGuide.md.html",
+          "url": "https://raw.githubusercontent.com/bulletphysics/bullet3/63c4d67e337017f9d8b298c900e9aabdb69296e7/docs/pybullet_quickstart_guide/PyBulletQuickstartGuide.md.html",
+          "bytes": 54525,
+          "sha256": "1c366df7e2b9bce4b86cf41e6465e12540fa4561e311338e614601098e215029",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/bulletphysics__bullet3/docs/pybullet_quickstart_guide/PyBulletQuickstartGuide.md.html"
+        },
+        {
+          "path": "examples/pybullet/examples/getCameraImageTest.py",
+          "url": "https://raw.githubusercontent.com/bulletphysics/bullet3/63c4d67e337017f9d8b298c900e9aabdb69296e7/examples/pybullet/examples/getCameraImageTest.py",
+          "bytes": 4656,
+          "sha256": "26177744561231cbd51f4bd38cc9daa35ceca7dba56d44e4e849c99a37e48e8e",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/bulletphysics__bullet3/examples/pybullet/examples/getCameraImageTest.py"
+        },
+        {
+          "path": "examples/pybullet/examples/pointCloudFromCameraImage.py",
+          "url": "https://raw.githubusercontent.com/bulletphysics/bullet3/63c4d67e337017f9d8b298c900e9aabdb69296e7/examples/pybullet/examples/pointCloudFromCameraImage.py",
+          "bytes": 5639,
+          "sha256": "6391077f0e1e8290a9f231efa68b84c0831561b3333feab9ddd09d1f87391d16",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/bulletphysics__bullet3/examples/pybullet/examples/pointCloudFromCameraImage.py"
+        },
+        {
+          "path": "examples/pybullet/pybullet.c",
+          "url": "https://raw.githubusercontent.com/bulletphysics/bullet3/63c4d67e337017f9d8b298c900e9aabdb69296e7/examples/pybullet/pybullet.c",
+          "bytes": 418494,
+          "sha256": "9c7be986f599fcb6e327542fa65786f5099f549a19bf7bae7ac8d544f52836d6",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/bulletphysics__bullet3/examples/pybullet/pybullet.c"
+        }
+      ]
+    },
+    {
+      "repository": "graspnet/graspnetAPI",
+      "commit": "eb57dd2092d8dbe05312a29c3d0c22f3226efbfc",
+      "commit_date": "2026-06-29T08:44:02Z",
+      "fork": false,
+      "parent": null,
+      "files": [
+        {
+          "path": "graspnetAPI/graspnet_eval.py",
+          "url": "https://raw.githubusercontent.com/graspnet/graspnetAPI/eb57dd2092d8dbe05312a29c3d0c22f3226efbfc/graspnetAPI/graspnet_eval.py",
+          "bytes": 12406,
+          "sha256": "c47985f3441e0daeccb4fe336be2ef0e48a754a8e313da21fdccc14abe463fc8",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/graspnet__graspnetAPI/graspnetAPI/graspnet_eval.py"
+        },
+        {
+          "path": "graspnetAPI/utils/eval_utils.py",
+          "url": "https://raw.githubusercontent.com/graspnet/graspnetAPI/eb57dd2092d8dbe05312a29c3d0c22f3226efbfc/graspnetAPI/utils/eval_utils.py",
+          "bytes": 13246,
+          "sha256": "ef9733f0d7b295bdccc037d6a94d1231b2cc5e7e50d7d4c402817dfeaf0f1912",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/graspnet__graspnetAPI/graspnetAPI/utils/eval_utils.py"
+        },
+        {
+          "path": "setup.py",
+          "url": "https://raw.githubusercontent.com/graspnet/graspnetAPI/eb57dd2092d8dbe05312a29c3d0c22f3226efbfc/setup.py",
+          "bytes": 832,
+          "sha256": "2cdc16b8f8a8b75c17ea9a8f9d894132f49c17f1b011a39eafd6cf53c448b50b",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/graspnet__graspnetAPI/setup.py"
+        }
+      ]
+    },
+    {
+      "repository": "unique1i/knn_cuda",
+      "commit": "8b21dbfc86988f56588a5ed8ca3cc354122c5656",
+      "commit_date": "2024-12-14T19:31:31Z",
+      "fork": true,
+      "parent": "unlimblue/KNN_CUDA",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/unique1i/knn_cuda/8b21dbfc86988f56588a5ed8ca3cc354122c5656/README.md",
+          "bytes": 2005,
+          "sha256": "4992305cc1ccdeacd4da00fd47aaed28e2663833fca5e3966ee5d541f10be802",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/unique1i__knn_cuda/README.md"
+        },
+        {
+          "path": "knn_cuda/__init__.py",
+          "url": "https://raw.githubusercontent.com/unique1i/knn_cuda/8b21dbfc86988f56588a5ed8ca3cc354122c5656/knn_cuda/__init__.py",
+          "bytes": 1936,
+          "sha256": "011b3a1bc276583a8c7f8e5e2f84308f595f78ac69ee17eee065e8cea1273e3f",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/unique1i__knn_cuda/knn_cuda/__init__.py"
+        },
+        {
+          "path": "knn_cuda/csrc/cuda/knn.cpp",
+          "url": "https://raw.githubusercontent.com/unique1i/knn_cuda/8b21dbfc86988f56588a5ed8ca3cc354122c5656/knn_cuda/csrc/cuda/knn.cpp",
+          "bytes": 1571,
+          "sha256": "5c78d1e58cff4fce0b97b86b14b721466803c951d611f606f03d3d2965348bbc",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/unique1i__knn_cuda/knn_cuda/csrc/cuda/knn.cpp"
+        },
+        {
+          "path": "knn_cuda/csrc/cuda/knn.cu",
+          "url": "https://raw.githubusercontent.com/unique1i/knn_cuda/8b21dbfc86988f56588a5ed8ca3cc354122c5656/knn_cuda/csrc/cuda/knn.cu",
+          "bytes": 8958,
+          "sha256": "510a86a1a4746d66037d48cc28f9a1553fbfa1ade3a04d03153f7075caf93129",
+          "cache_path": "/tmp/research3-q12-linkage-20260911/unique1i__knn_cuda/knn_cuda/csrc/cuda/knn.cu"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/index.html",
+      "bytes": 105935,
+      "sha256": "d90b97268e9fd4eaf501efc22d17e27d419e9d94f498c6f6b6f63defd2a49891",
+      "cache_path": "/tmp/research3-q12-linkage-20260911/ycb-index.html"
+    }
+  ],
+  "recovery": "Fetch each exact URL into a separate staging path and compare SHA-256. Do not execute downloaded code on the host. No runtime dependency lock or tested image is established by this receipt.",
+  "asset_access_probes": [
+    {
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/003_cracker_box_google_16k.tgz",
+      "method": "HEAD",
+      "status": 200,
+      "content_length": "11434893",
+      "etag": "\"e7b81ed593c08d77abb94c6308d37d2d-2\"",
+      "last_modified": "Wed, 27 Apr 2016 07:21:51 GMT",
+      "payload_downloaded": false
+    },
+    {
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/025_mug_google_16k.tgz",
+      "method": "HEAD",
+      "status": 200,
+      "content_length": "7658239",
+      "etag": "\"497494d2da0461518572badbc8fe10a0\"",
+      "last_modified": "Wed, 27 Apr 2016 07:29:54 GMT",
+      "payload_downloaded": false
+    }
+  ]
+}

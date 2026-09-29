@@ -1,0 +1,18 @@
+{"id": "parity_grasp_easy_naive_0_0_original", "validity": "PASS", "elapsed_seconds_including_first_compile": 11.613062039949, "terminal_step": 28, "success": true}
+{"id": "parity_grasp_easy_naive_0_0_adapter", "validity": "PASS", "elapsed_seconds_including_first_compile": 11.05224844487384, "terminal_step": 28, "success": true}
+{"id": "parity_grasp_easy_naive_0_1_original", "validity": "PASS", "elapsed_seconds_including_first_compile": 1.058606212027371, "terminal_step": 30, "success": true}
+{"id": "parity_grasp_easy_naive_0_1_adapter", "validity": "PASS", "elapsed_seconds_including_first_compile": 1.0805271524004638, "terminal_step": 30, "success": true}
+{"id": "parity_grasp_easy_naive_1_0_original", "validity": "FAIL", "elapsed_seconds_including_first_compile": 11.353716353420168, "failure": "FIRST_TERMINAL_SUBSTEP_DISAGREEMENT"}
+{"status": "DEFER_READINESS", "error": "TERMINAL_GATE:parity_grasp_easy_naive_1_0_original:FIRST_TERMINAL_SUBSTEP_DISAGREEMENT", "type": "ValueError", "completed_record_ids": ["parity_grasp_easy_naive_0_0_original", "parity_grasp_easy_naive_0_0_adapter", "parity_grasp_easy_naive_0_1_original", "parity_grasp_easy_naive_0_1_adapter", "parity_grasp_easy_naive_1_0_original"], "wall_seconds": 41.15911839483306, "heldout_records_executed": 0, "traceback": "Traceback (most recent call last):\n  File \"/study/readiness.py\", line 204, in <module>\n    main()\n  File \"/study/readiness.py\", line 176, in main\n    a = run(name, profile, delay, seed, \"original\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/study/readiness.py\", line 148, in run\n    record = store_trace(identifier, meta, trace, elapsed)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/study/readiness.py\", line 98, in store_trace\n    raise ValueError(f\"TERMINAL_GATE:{identifier}:{record['failure']}\")\nValueError: TERMINAL_GATE:parity_grasp_easy_naive_1_0_original:FIRST_TERMINAL_SUBSTEP_DISAGREEMENT\n"}
+Traceback (most recent call last):
+  File "/study/readiness.py", line 204, in <module>
+    main()
+  File "/study/readiness.py", line 176, in main
+    a = run(name, profile, delay, seed, "original")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/study/readiness.py", line 148, in run
+    record = store_trace(identifier, meta, trace, elapsed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/study/readiness.py", line 98, in store_trace
+    raise ValueError(f"TERMINAL_GATE:{identifier}:{record['failure']}")
+ValueError: TERMINAL_GATE:parity_grasp_easy_naive_1_0_original:FIRST_TERMINAL_SUBSTEP_DISAGREEMENT

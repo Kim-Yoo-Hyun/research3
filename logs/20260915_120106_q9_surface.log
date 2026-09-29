@@ -1,0 +1,156 @@
+{
+  "metal bowl": {
+    "initial": {
+      "consistent": 2,
+      "unknown": 12
+    },
+    "interior": {
+      "unknown": 8,
+      "consistent": 1,
+      "contradicted": 1
+    },
+    "schedules": [
+      {
+        "name": "periodic_phase_0",
+        "selected": [
+          15,
+          20
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": []
+      },
+      {
+        "name": "periodic_phase_1",
+        "selected": [
+          16,
+          21
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": []
+      },
+      {
+        "name": "periodic_phase_2",
+        "selected": [
+          17,
+          22
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": [
+          22
+        ]
+      },
+      {
+        "name": "periodic_phase_3",
+        "selected": [
+          18,
+          23
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": []
+      },
+      {
+        "name": "periodic_phase_4",
+        "selected": [
+          19,
+          24
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": []
+      },
+      {
+        "name": "visibility_first",
+        "selected": [
+          17,
+          22
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 8,
+        "contradiction_indices": [
+          22
+        ]
+      }
+    ]
+  },
+  "orange": {
+    "initial": {
+      "consistent": 1,
+      "unknown": 10,
+      "contradicted": 1
+    },
+    "interior": {
+      "unknown": 9,
+      "contradicted": 1
+    },
+    "schedules": [
+      {
+        "name": "periodic_phase_0",
+        "selected": [
+          15,
+          20
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": []
+      },
+      {
+        "name": "periodic_phase_1",
+        "selected": [
+          16,
+          21
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": []
+      },
+      {
+        "name": "periodic_phase_2",
+        "selected": [
+          17,
+          22
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": []
+      },
+      {
+        "name": "periodic_phase_3",
+        "selected": [
+          18,
+          23
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": []
+      },
+      {
+        "name": "periodic_phase_4",
+        "selected": [
+          19,
+          24
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 2,
+        "contradiction_indices": [
+          19
+        ]
+      },
+      {
+        "name": "visibility_first",
+        "selected": [
+          19,
+          24
+        ],
+        "depth_frame_reads": 2,
+        "pose_checks": 10,
+        "contradiction_indices": [
+          19
+        ]
+      }
+    ]
+  }
+}

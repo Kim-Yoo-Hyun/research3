@@ -1,0 +1,201 @@
+{
+  "stage": "pre-freeze synthetic measurement design correction",
+  "actual_ycb_scene_or_completion_outcomes_observed": false,
+  "original_protocol_sha256": "b3a4f04d27ac9402ef05b244c6977cb24a59bdf9d9282a523454a79f16695402",
+  "synthetic_preflight": {
+    "status": "PASS",
+    "controls": {
+      "closed_mesh_and_missing_face_rejection": "PASS",
+      "analytic_clear_surface_and_containment": "PASS",
+      "analytic_plane_depth_and_repeat": "PASS",
+      "two_view_synthetic_pipeline_and_independent_geometry": [
+        {
+          "verified_camera": true,
+          "max_ray_depth_error_m": 0.0002347714727027883,
+          "ray_sentinels": 32,
+          "candidate_count": 32,
+          "collision_mismatch_ids": []
+        },
+        {
+          "verified_camera": true,
+          "max_ray_depth_error_m": 0.0002347714727027883,
+          "ray_sentinels": 32,
+          "candidate_count": 32,
+          "collision_mismatch_ids": []
+        }
+      ],
+      "normalized_point_and_rehashed_candidate_tamper_rejection": "PASS",
+      "synthetic_four_case_entrypoints_and_independent_verifier": {
+        "cases": 4,
+        "errors": 0,
+        "decision": "UNINFORMATIVE_CANDIDATE_SUPPORT"
+      },
+      "output_overwrite_and_frozen_source_rejection": "PASS"
+    },
+    "actual_ycb_assets_mounted": false,
+    "checkpoint_or_completion_mounted": false,
+    "claim": "implementation controls only; no actual readiness outcome"
+  },
+  "change": {
+    "field": "gripper.z_offsets_m",
+    "before": [
+      -0.025,
+      0.015
+    ],
+    "after": [
+      -0.1,
+      0.015
+    ]
+  },
+  "reason": "Near-surface-only candidate design did not provide both collision and clear support in analytic box fixtures. Add a fixed 10 cm camera-axis retreat candidate family without using GT or completion to select poses. One preparation revision; do not tune further using YCB outcomes.",
+  "unchanged": [
+    "32 candidates per case",
+    "x offsets, widths and rolls",
+    "observation-only anchor/utility",
+    "all thresholds, oracle densities and decision gates"
+  ],
+  "original_draft_protocol": {
+    "id": "q12-geometry-readiness-v1",
+    "stage": "Stage 6 measurement readiness; not completion-effect evaluation",
+    "objects": [
+      "003_cracker_box",
+      "025_mug"
+    ],
+    "asset_scale": {
+      "mode": "declared synthetic scale, not original physical dimensions",
+      "longest_aabb_extent_m": 0.12,
+      "aabb_center_world_m": [
+        0,
+        0,
+        0.1
+      ],
+      "rotation_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "camera": {
+      "width": 256,
+      "height": 256,
+      "fov_y_deg": 50.0,
+      "near_m": 0.02,
+      "far_m": 1.0,
+      "eyes_m": [
+        [
+          0.3,
+          0,
+          0.22
+        ],
+        [
+          0,
+          0.3,
+          0.22
+        ]
+      ],
+      "target_m": [
+        0,
+        0,
+        0.1
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "optical_axes": "right, down, forward; right-handed",
+      "pixel_centers": "u+0.5, v+0.5 in OpenGL NDC",
+      "renderer": "PyBullet DIRECT / ER_TINY_RENDERER",
+      "oracle_instance_mask": "shared by all conditions; no mask estimation claim"
+    },
+    "sampling": {
+      "partial_count": 2048,
+      "fps_start_index": 0,
+      "oracle_surface_count": 8192,
+      "oracle_dense_count": 32768,
+      "area_uniform_seed": 12041,
+      "preserve_full_depth_and_raw_valid_points": true
+    },
+    "gripper": {
+      "finger_half_extents_m": [
+        0.005,
+        0.0125,
+        0.03
+      ],
+      "palm_half_depth_m": 0.01,
+      "palm_center_z_m": -0.04,
+      "widths_m": [
+        0.04,
+        0.08
+      ],
+      "x_offsets_m": [
+        -0.045,
+        -0.015,
+        0.015,
+        0.045
+      ],
+      "z_offsets_m": [
+        -0.025,
+        0.015
+      ],
+      "rolls_deg": [
+        0,
+        90
+      ],
+      "anchor": "mean of full valid segmented optical cloud, no GT/completion",
+      "candidate_count": 32,
+      "order": "width, roll, z_offset, x_offset; ascending stored lists",
+      "selection_utility": "minimize x_offset^2+z_offset^2, then candidate id; independent of completion/GT",
+      "purpose": "static pose object collision only; no table, robot arm, swept path, force closure or lift"
+    },
+    "tolerances": {
+      "numeric_roundtrip_m": 1e-10,
+      "ray_depth_m": 0.00075,
+      "projection_px": 1.0,
+      "near_contact_m": 0.0005,
+      "point_in_box_m": 0.0005,
+      "mesh_area_min_m2": 1e-14,
+      "min_ray_sentinels": 32,
+      "sentinel_depth_spread_m": 0.002
+    },
+    "readiness_gates": {
+      "integrity": "all frozen hashes and asset hashes match",
+      "geometry": "finite triangles, nondegenerate area, oriented closed 2-manifold after exact duplicate-vertex welding; otherwise unresolved solid",
+      "camera": "all 4 cases have >=2048 unique pixels/points, 32 stable interior ray sentinels; explicit numeric and depth checks pass; repeat depth/seg bytes identical",
+      "collision": "independent triangle-box clipping and ray parity agree with PyBullet surface contact + solid-angle containment away from near-contact ambiguity",
+      "support": "every case retains >=1 robust collision and >=1 robust clear candidate; all 32 records retained",
+      "oracle_representation": "8192 and 32768 area-uniform GT point controls both match robust full-geometry labels exactly; otherwise point representation unresolved"
+    },
+    "baseline_plan": {
+      "status": "defined before readiness outcomes; real completion execution requires a later frozen adapter/protocol",
+      "shared_candidates": true,
+      "observed_only": "point membership in the union of the three gripper boxes, same 0.5 mm dilation for all point representations",
+      "completion": "observed points union independently generated points; copied output suffix counted once",
+      "consistent_completion": "same plus remove only generated points projecting into a valid observed ray with positive depth smaller than measured depth minus 0.75 mm; outside/invalid rays stay unknown",
+      "conservative": "Reject if any point on a fixed 2 mm lattice covering all three gripper boxes is outside a valid observed ray or is not at least 0.75 mm in front of measured depth. Include box boundaries. This is a discrete unknown-occupied control, not continuous-volume safety certification.",
+      "oracle_controls": "evaluation-only full mesh and fixed 8192/32768 area-uniform surface points",
+      "report": "per-candidate label changes, false-clear/false-collision, selected candidate truth and abstention, useful candidate rejection; all four cases, no significance/generalization claim",
+      "density": "both oracle densities must pass readiness; generated/observed source counts retained; no output-dependent density adjustment",
+      "conservative_lattice_spacing_m": 0.002
+    },
+    "decisions": {
+      "integrity_failure": "INVALID_INTEGRITY",
+      "mesh_or_frame_or_collision_failure": "REFINE_LINKAGE",
+      "support_failure": "UNINFORMATIVE_CANDIDATE_SUPPORT",
+      "oracle_failure": "REFINE_POINT_REPRESENTATION",
+      "all_pass": "READY_FOR_BOUNDED_COMPLETION_DIAGNOSTIC"
+    },
+    "resources": {
+      "cpu": 4,
+      "ram_bytes": 4294967296,
+      "runtime_and_verification_seconds": 1800,
+      "output_bytes": 134217728,
+      "network": "none during runtime",
+      "gpu": false,
+      "training": false,
+      "actual_completion_in_readiness": false
+    },
+    "disconfirmation": "No case replacement, threshold or pose-grid changes after actual readiness labels. Failure pauses interpretation. Passing is measurement support, not a robotics benefit or native-method result."
+  }
+}

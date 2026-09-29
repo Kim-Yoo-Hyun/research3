@@ -1,0 +1,67 @@
+{
+  "completed_at_utc": "2026-09-11T02:26:45.692119+00:00",
+  "command": "bash buildup/robotics/pilot_studies/q12-generated-geometry/geometry/run.sh",
+  "cwd": "/home/yoohyun/research3",
+  "image_id": "sha256:0196da1a3a01ca07186c5c2c605d7e8993193ca810b2b6401dc95943dc0b0adb",
+  "freeze_sha256": "014e3edac4c4456afc3efc1c3622cc72b6150358feae1b15945394c647523e1c",
+  "log": "logs/20260911_112642_q12_geometry_v1.log",
+  "output_bytes_before_receipt": 4149908,
+  "files": {
+    "audit/verification.json": {
+      "bytes": 2259,
+      "sha256": "71da2164b91c83d2b0bf1029dd8c6064dfed19c433023f18e53b0dd6c8f051b3"
+    },
+    "data/003_cracker_box_mesh.json": {
+      "bytes": 712,
+      "sha256": "0c6f669826f28405992e2f11121714efd35a8a8bd6067384c9973e1b91b296d8"
+    },
+    "data/003_cracker_box_v0/candidates.json": {
+      "bytes": 38785,
+      "sha256": "c4ac6e988dbb7480f9999ea346a2da432731e7db0e741975d8aff681f0a16332"
+    },
+    "data/003_cracker_box_v0/geometry.npz": {
+      "bytes": 1831738,
+      "sha256": "4a7cceb3aab2a74a857b96630eefa67df95ae2f6d65daf6874f90b2004422efa"
+    },
+    "data/003_cracker_box_v0/mesh.json": {
+      "bytes": 582,
+      "sha256": "3419eec797f94371e840f83faa89d2e847ad020673aae30a340544ff281f5975"
+    },
+    "data/003_cracker_box_v0/observation.npz": {
+      "bytes": 196291,
+      "sha256": "ae13474adca098f1d38ce5c620efc2cb13cf3ab998a92585c00bb9056aa5dc2e"
+    },
+    "data/003_cracker_box_v0/result.json": {
+      "bytes": 26033,
+      "sha256": "dc52e17d1251c3f9117c1b1229aa5362fa1b23801bc1735fb4d500354f5c88e6"
+    },
+    "data/003_cracker_box_v1/candidates.json": {
+      "bytes": 38663,
+      "sha256": "36967b294ff49271521909c54b42882545fbc9742705b093b7f66817175fe105"
+    },
+    "data/003_cracker_box_v1/geometry.npz": {
+      "bytes": 1831612,
+      "sha256": "5070ed90782366ca599ec4e5af0d31848d2211f76d5f43d34ec43883a25bc066"
+    },
+    "data/003_cracker_box_v1/mesh.json": {
+      "bytes": 582,
+      "sha256": "3419eec797f94371e840f83faa89d2e847ad020673aae30a340544ff281f5975"
+    },
+    "data/003_cracker_box_v1/observation.npz": {
+      "bytes": 155176,
+      "sha256": "111ab9c25ec1e3da91b265c36ebdf322a2eb5407a888d709cbd28d4af5f2f2bd"
+    },
+    "data/003_cracker_box_v1/result.json": {
+      "bytes": 26010,
+      "sha256": "484f4c3ae2f317c8bb4d3d5a9d722fc117f5197b7591e51ee8cad2af3f3742f7"
+    },
+    "data/025_mug_mesh.json": {
+      "bytes": 742,
+      "sha256": "1fad793f7bd4dba0952eb8c4a6f125c33f92521549f58ef22944d657ad3b9b9e"
+    },
+    "data/result.json": {
+      "bytes": 723,
+      "sha256": "9f2f2c1a2b55f23986c8dec55c05a4478021ffe2f74331158b2ee5b58d6e255c"
+    }
+  }
+}

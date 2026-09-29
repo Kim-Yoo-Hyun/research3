@@ -1,0 +1,4559 @@
+{
+  "scope": "53 user-listed stopped containers only; excludes newer transfer-s4 and unrelated containers",
+  "action": "read-only inspection; no removal/start/export",
+  "rows": [
+    {
+      "id": "ba669a099997ab201691d9d65d45ef725508b7c8a67221d954fc53a1cecdf5a8",
+      "name": "isolation_final_depth_no_msaa_relative_5090",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/depth_no_msaa_relative",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_depth_no_msaa_relative_5090",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /queue",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /output",
+        "A /analysis"
+      ],
+      "changed_roots": {
+        "/queue": 1,
+        "/home": 2,
+        "/opt": 2,
+        "/output": 1,
+        "/analysis": 1
+      }
+    },
+    {
+      "id": "1b01ff89b1b34f09860567bab7ae2af386115271f8de6b754370d2c8e8b42d73",
+      "name": "isolation_final_depth_no_msaa_verify_5090",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/depth_no_msaa_verify",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_depth_no_msaa_verify_5090",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /output",
+        "A /queue",
+        "A /analysis",
+        "C /home",
+        "A /home/revision"
+      ],
+      "changed_roots": {
+        "/opt": 2,
+        "/output": 1,
+        "/queue": 1,
+        "/analysis": 1,
+        "/home": 2
+      }
+    },
+    {
+      "id": "48e3a7cf47a38a416416dc34aaaff5de459b54326a5ac1e30357be3c5f7ee549",
+      "name": "isolation_final_depth_no_msaa",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_depth_no_msaa",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/depth_no_msaa",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /analysis",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-3909162441.conf",
+        "C /etc/ld.so.cache",
+        "A /output",
+        "C /run",
+        "A /run/nvidia-ctk-hook15f6a61b-75df-4e2f-bfa9-2cd509d64f66",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/0f0d6454-39b3-4b50-8ef8-bec012fd6c24"
+      ],
+      "changed_roots": {
+        "/analysis": 1,
+        "/home": 2,
+        "/opt": 2,
+        "/var": 4,
+        "/etc": 4,
+        "/output": 1,
+        "/run": 4
+      }
+    },
+    {
+      "id": "6f69ca1b168181c959f16c14a77fdb84781ef3cf303fec9a51cc78be71d1b1f0",
+      "name": "isolation_final_native_edge_probe",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/native_edge_probe",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_native_edge_probe",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /home",
+        "A /home/revision",
+        "A /output",
+        "A /analysis",
+        "C /opt",
+        "A /opt/torch-cache"
+      ],
+      "changed_roots": {
+        "/home": 2,
+        "/output": 1,
+        "/analysis": 1,
+        "/opt": 2
+      }
+    },
+    {
+      "id": "40b1a97043f3ef770c526c666f31b0cf3c56ec146f01ae874a3cea291525694c",
+      "name": "isolation_final_depth_relative_5090",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/depth_relative",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_depth_relative_5090",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /output",
+        "A /queue",
+        "A /analysis",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache"
+      ],
+      "changed_roots": {
+        "/output": 1,
+        "/queue": 1,
+        "/analysis": 1,
+        "/home": 2,
+        "/opt": 2
+      }
+    },
+    {
+      "id": "ca3604fdd0535c1156225cee37c13ab372454d63368c5ef5a7b0f169d57248ad",
+      "name": "isolation_final_depth_verify_5090",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/depth_verify",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_depth_verify_5090",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /output",
+        "A /queue",
+        "A /analysis",
+        "C /home",
+        "A /home/revision"
+      ],
+      "changed_roots": {
+        "/opt": 2,
+        "/output": 1,
+        "/queue": 1,
+        "/analysis": 1,
+        "/home": 2
+      }
+    },
+    {
+      "id": "ab33e4970eebd00c01bd0167d3b3aba2468183427697c66f7b82665be14c9755",
+      "name": "isolation_final_depth_light_control_v2",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_depth_light_control_v2",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/depth_light_control_v2",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /analysis",
+        "A /output",
+        "C /opt",
+        "A /opt/torch-cache",
+        "C /home",
+        "A /home/revision",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /etc",
+        "C /etc/ld.so.cache",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-215488264.conf",
+        "C /run",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/3f8f8484-a3c5-4770-b580-af9f6d9997bc",
+        "A /run/nvidia-ctk-hooke864c638-b8eb-4b7d-aa55-43fd2875fe46"
+      ],
+      "changed_roots": {
+        "/analysis": 1,
+        "/output": 1,
+        "/opt": 2,
+        "/home": 2,
+        "/var": 4,
+        "/etc": 4,
+        "/run": 4
+      }
+    },
+    {
+      "id": "93a63c43c604c736e20cd2873617d43597ba2c2b672879d558eb8145b6bf2a68",
+      "name": "isolation_final_depth_light_control",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 1,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/depth_light_control",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_depth_light_control",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "A /analysis",
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-3340091734.conf",
+        "C /etc/ld.so.cache",
+        "C /home",
+        "A /home/revision",
+        "A /output",
+        "C /run",
+        "A /run/nvidia-ctk-hook32416aae-994f-4f5b-9628-78ab0927da1f",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/c91b1f25-81ec-4839-b833-8ef0ec80a00b",
+        "C /opt",
+        "A /opt/torch-cache"
+      ],
+      "changed_roots": {
+        "/var": 4,
+        "/analysis": 1,
+        "/etc": 4,
+        "/home": 2,
+        "/output": 1,
+        "/run": 4,
+        "/opt": 2
+      }
+    },
+    {
+      "id": "dfc6de004e89a3af8162b456eb44b28e49155d3b6f1674ea189a4898af85ca07",
+      "name": "isolation_final_safety_5090",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/safety",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_safety_5090",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /analysis",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /output",
+        "A /queue"
+      ],
+      "changed_roots": {
+        "/analysis": 1,
+        "/home": 2,
+        "/opt": 2,
+        "/output": 1,
+        "/queue": 1
+      }
+    },
+    {
+      "id": "01b7746ac9dc55fc957d2875004a47c1441c6392bbfb7748be57967023ad6aca",
+      "name": "isolation_final_statistics_5090",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_statistics_5090",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/statistics",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /output",
+        "A /analysis",
+        "A /queue"
+      ],
+      "changed_roots": {
+        "/home": 2,
+        "/opt": 2,
+        "/output": 1,
+        "/analysis": 1,
+        "/queue": 1
+      }
+    },
+    {
+      "id": "c68fa2c2521ec60442096ac3c3558082de02f38a5a8105678841ae423f838dc8",
+      "name": "isolation_final_depth_supplement",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/depth_supplement",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_depth_supplement",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /output",
+        "C /home",
+        "A /home/revision",
+        "C /run",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/98415e87-4d12-4d0e-acc2-e70fe8c4675c",
+        "A /run/nvidia-ctk-hook3f1d86de-fa1d-4b71-b77b-9a8f3182a042",
+        "A /analysis",
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-1136411466.conf",
+        "C /etc/ld.so.cache",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache"
+      ],
+      "changed_roots": {
+        "/opt": 2,
+        "/output": 1,
+        "/home": 2,
+        "/run": 4,
+        "/analysis": 1,
+        "/etc": 4,
+        "/var": 4
+      }
+    },
+    {
+      "id": "a0e4add597672ad718e5c234da9af2f666a4e2df173e20927d6d4bf588288bc7",
+      "name": "isolation_final_camera_diagnosis",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_camera_diagnosis",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/camera_diagnosis",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /analysis",
+        "A /output",
+        "C /opt",
+        "A /opt/torch-cache",
+        "C /home",
+        "A /home/revision"
+      ],
+      "changed_roots": {
+        "/analysis": 1,
+        "/output": 1,
+        "/opt": 2,
+        "/home": 2
+      }
+    },
+    {
+      "id": "186500a617f311942fcba07b7a360ace4d0a00fc8cbfa06dc394633c00f43b56",
+      "name": "isolation_final_episodes_5090",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_final_episodes_5090",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_final_validation_20260914/episodes",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /analysis",
+        "A /queue",
+        "C /opt",
+        "A /opt/torch-cache",
+        "C /home",
+        "A /home/revision",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/analysis": 1,
+        "/queue": 1,
+        "/opt": 2,
+        "/home": 2,
+        "/output": 1
+      }
+    },
+    {
+      "id": "8deb07a48591501e73088a64eb124e2cd1ebab529240ac7492afd438bc5e7440",
+      "name": "transfer-s3-verify-20260914_113948",
+      "image": "sha256:349fae165dd3d25bba065f5bbe18e780f0e13316c0cc6f32347ae55e5b414b0e",
+      "image_ref": "sha256:349fae165dd3d25bba065f5bbe18e780f0e13316c0cc6f32347ae55e5b414b0e",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/query-20260914_113948",
+          "destination": "/input",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /bundle",
+        "A /data",
+        "A /data/square.hdf5",
+        "A /input",
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init"
+      ],
+      "changed_roots": {
+        "/bundle": 1,
+        "/data": 2,
+        "/input": 1,
+        "/usr": 3
+      }
+    },
+    {
+      "id": "2898c21f24e37450b73f6d796f3c2f4466c8bacce45993eccc495fee84daf363",
+      "name": "transfer-s3-20260914_113948",
+      "image": "sha256:349fae165dd3d25bba065f5bbe18e780f0e13316c0cc6f32347ae55e5b414b0e",
+      "image_ref": "sha256:349fae165dd3d25bba065f5bbe18e780f0e13316c0cc6f32347ae55e5b414b0e",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/query-20260914_113948",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /bundle",
+        "A /data",
+        "A /data/square.hdf5",
+        "A /output",
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init"
+      ],
+      "changed_roots": {
+        "/bundle": 1,
+        "/data": 2,
+        "/output": 1,
+        "/usr": 3
+      }
+    },
+    {
+      "id": "c6cecb509ca9db399a38216eb898a550f21ef507df132c1509faa5c29d944d59",
+      "name": "twojy-fair-action-eval-20260914",
+      "image": "sha256:139cbed41e3af82cef19bb349a8cbb76854927d1fda14f06ad63ff45c74ff282",
+      "image_ref": "twojy-mimvla:20260913",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/root/ros2_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/mim",
+          "destination": "/home/irasc/twojy/mim",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027",
+          "destination": "/project",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/mimvla",
+          "destination": "/home/irasc/twojy/mimvla",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-4180462128.conf",
+        "A /etc/ld.so.conf.d/00-nvcr-2412622308.conf",
+        "C /etc/ld.so.cache",
+        "C /etc/vulkan",
+        "C /etc/vulkan/implicit_layer.d",
+        "A /etc/vulkan/implicit_layer.d/nvidia_layers.json",
+        "C /etc/vulkan/icd.d",
+        "A /etc/vulkan/icd.d/nvidia_icd.json",
+        "A /project",
+        "C /run",
+        "A /run/nvidia-ctk-hook1a7f1639-03f7-4247-9b0c-1a679b733b29",
+        "A /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/977e19c7-0440-4dae-9049-19a24ba3a7d6",
+        "A /run/nvidia-persistenced",
+        "A /run/nvidia-persistenced/socket",
+        "C /usr",
+        "C /usr/bin",
+        "A /usr/bin/nvidia-persistenced",
+        "A /usr/bin/nvidia-cuda-mps-control",
+        "A /usr/bin/nvidia-debugdump",
+        "A /usr/bin/nvidia-smi",
+        "A /usr/bin/nvidia-cuda-mps-server",
+        "C /usr/share",
+        "A /usr/share/nvidia",
+        "A /usr/share/nvidia/nvoptix.bin",
+        "A /usr/share/egl",
+        "A /usr/share/egl/egl_external_platform.d",
+        "A /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json",
+        "A /usr/share/egl/egl_external_platform.d/15_nvidia_gbm.json",
+        "C /usr/share/glvnd",
+        "C /usr/share/glvnd/egl_vendor.d",
+        "A /usr/share/glvnd/egl_vendor.d/10_nvidia.json",
+        "C /usr/share/X11",
+        "A /usr/share/X11/xorg.conf.d",
+        "A /usr/share/X11/xorg.conf.d/10-nvidia.conf",
+        "C /usr/lib",
+        "C /usr/lib/x86_64-linux-gnu",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glvkspirv.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.0",
+        "C /usr/lib/x86_64-linux-gnu/libGLX_indirect.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-eglcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1.1.17",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-present.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glsi.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1.1.3",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.2",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so",
+        "C /usr/lib/x86_64-linux-gnu/vdpau",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libgallium-25.2.8-0ubuntu0.24.04.2.so",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.4",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-rtcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-gpucomp.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/nvidia",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/nvidia_drv.so",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.580.173.02",
+        "C /usr/lib/x86_64-linux-gnu/gbm",
+        "A /usr/lib/x86_64-linux-gnu/gbm/nvidia-drm_gbm.so",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.580.173.02",
+        "C /usr/lib/firmware",
+        "A /usr/lib/firmware/nvidia",
+        "A /usr/lib/firmware/nvidia/580.173.02",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_ga10x.bin",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_tu10x.bin",
+        "C /home",
+        "A /home/irasc",
+        "A /home/irasc/twojy",
+        "A /home/irasc/twojy/mim",
+        "A /home/irasc/twojy/mimvla",
+        "C /root",
+        "A /root/.nv",
+        "A /root/.nv/ComputeCache",
+        "A /root/.nv/ComputeCache/5",
+        "A /root/.nv/ComputeCache/5/f",
+        "A /root/.nv/ComputeCache/5/f/70fe490bccccb0",
+        "A /root/.nv/ComputeCache/index",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache"
+      ],
+      "changed_roots": {
+        "/etc": 10,
+        "/project": 1,
+        "/run": 6,
+        "/usr": 102,
+        "/home": 5,
+        "/root": 7,
+        "/var": 4
+      }
+    },
+    {
+      "id": "db49908139bc675f82d980fd75665e07a497d0346b292a2e7f6b666aa1e9c2d3",
+      "name": "phase2_eval_split_v2_corrected_depth_09",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914",
+          "destination": "/split",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914/outputs",
+          "destination": "/results",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/phase2_eval_split_v2_corrected_depth_09",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /run",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/3ae66dc3-a369-4bd1-9000-cba25696821e",
+        "A /run/nvidia-ctk-hook7e957dd5-864a-42e0-a728-498dc054450c",
+        "C /etc",
+        "C /etc/ld.so.cache",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-1394457586.conf",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /split",
+        "C /home",
+        "A /home/revision",
+        "A /results"
+      ],
+      "changed_roots": {
+        "/run": 4,
+        "/etc": 4,
+        "/var": 4,
+        "/opt": 2,
+        "/split": 1,
+        "/home": 2,
+        "/results": 1
+      }
+    },
+    {
+      "id": "b36e5fc3361a909aa6de0183f7839b66f6eea83278f5db09c6e6e033493023af",
+      "name": "twojy-fair-mimvla-20260914",
+      "image": "sha256:139cbed41e3af82cef19bb349a8cbb76854927d1fda14f06ad63ff45c74ff282",
+      "image_ref": "twojy-mimvla:20260913",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/root/ros2_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027",
+          "destination": "/project",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/mimvla",
+          "destination": "/home/irasc/twojy/mimvla",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/mim",
+          "destination": "/home/irasc/twojy/mim",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /project",
+        "C /run",
+        "A /run/nvidia-ctk-hook095a3d17-a624-463d-bcb2-089ac054cbbd",
+        "A /run/nvidia-persistenced",
+        "A /run/nvidia-persistenced/socket",
+        "A /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/790ac532-647f-4e48-beaf-9bc2cc29fe4d",
+        "C /root",
+        "A /root/.nv",
+        "A /root/.nv/ComputeCache",
+        "A /root/.nv/ComputeCache/5",
+        "A /root/.nv/ComputeCache/5/f",
+        "A /root/.nv/ComputeCache/5/f/70fe490bccccb0",
+        "A /root/.nv/ComputeCache/index",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /etc",
+        "C /etc/ld.so.cache",
+        "C /etc/vulkan",
+        "C /etc/vulkan/icd.d",
+        "A /etc/vulkan/icd.d/nvidia_icd.json",
+        "C /etc/vulkan/implicit_layer.d",
+        "A /etc/vulkan/implicit_layer.d/nvidia_layers.json",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-1827452028.conf",
+        "A /etc/ld.so.conf.d/00-nvcr-2863561505.conf",
+        "C /home",
+        "A /home/irasc",
+        "A /home/irasc/twojy",
+        "A /home/irasc/twojy/mim",
+        "A /home/irasc/twojy/mimvla",
+        "C /usr",
+        "C /usr/bin",
+        "A /usr/bin/nvidia-debugdump",
+        "A /usr/bin/nvidia-persistenced",
+        "A /usr/bin/nvidia-cuda-mps-control",
+        "A /usr/bin/nvidia-smi",
+        "A /usr/bin/nvidia-cuda-mps-server",
+        "C /usr/lib",
+        "C /usr/lib/firmware",
+        "A /usr/lib/firmware/nvidia",
+        "A /usr/lib/firmware/nvidia/580.173.02",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_ga10x.bin",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_tu10x.bin",
+        "C /usr/lib/x86_64-linux-gnu",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.1",
+        "A /usr/lib/x86_64-linux-gnu/nvidia",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/nvidia_drv.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glsi.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.2",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1.1.17",
+        "C /usr/lib/x86_64-linux-gnu/gbm",
+        "A /usr/lib/x86_64-linux-gnu/gbm/nvidia-drm_gbm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-eglcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-gpucomp.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-rtcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.4",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1.1.3",
+        "C /usr/lib/x86_64-linux-gnu/vdpau",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libgallium-25.2.8-0ubuntu0.24.04.2.so",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.1",
+        "C /usr/lib/x86_64-linux-gnu/libGLX_indirect.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glvkspirv.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-present.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.1",
+        "C /usr/share",
+        "A /usr/share/egl",
+        "A /usr/share/egl/egl_external_platform.d",
+        "A /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json",
+        "A /usr/share/egl/egl_external_platform.d/15_nvidia_gbm.json",
+        "A /usr/share/nvidia",
+        "A /usr/share/nvidia/nvoptix.bin",
+        "C /usr/share/glvnd",
+        "C /usr/share/glvnd/egl_vendor.d",
+        "A /usr/share/glvnd/egl_vendor.d/10_nvidia.json",
+        "C /usr/share/X11",
+        "A /usr/share/X11/xorg.conf.d",
+        "A /usr/share/X11/xorg.conf.d/10-nvidia.conf"
+      ],
+      "changed_roots": {
+        "/project": 1,
+        "/run": 6,
+        "/root": 7,
+        "/var": 4,
+        "/etc": 10,
+        "/home": 5,
+        "/usr": 102
+      }
+    },
+    {
+      "id": "139f52238a05f1d9668e14ac78dc3e648b4dcf69507b4ed37495cee1ce389c5d",
+      "name": "twojy-fair-baselines-20260914",
+      "image": "sha256:139cbed41e3af82cef19bb349a8cbb76854927d1fda14f06ad63ff45c74ff282",
+      "image_ref": "twojy-mimvla:20260913",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/root/ros2_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027",
+          "destination": "/project",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/mimvla",
+          "destination": "/home/irasc/twojy/mimvla",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /run",
+        "A /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/917ed50a-9170-40ca-b7d2-59e33b8b0b19",
+        "A /run/nvidia-persistenced",
+        "A /run/nvidia-persistenced/socket",
+        "A /run/nvidia-ctk-hookcb4792c3-a457-4041-90cd-86f911cb3b05",
+        "C /root",
+        "A /root/.nv",
+        "A /root/.nv/ComputeCache",
+        "A /root/.nv/ComputeCache/5",
+        "A /root/.nv/ComputeCache/5/f",
+        "A /root/.nv/ComputeCache/5/f/70fe490bccccb0",
+        "A /root/.nv/ComputeCache/index",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /etc",
+        "C /etc/ld.so.cache",
+        "C /etc/vulkan",
+        "C /etc/vulkan/icd.d",
+        "A /etc/vulkan/icd.d/nvidia_icd.json",
+        "C /etc/vulkan/implicit_layer.d",
+        "A /etc/vulkan/implicit_layer.d/nvidia_layers.json",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/00-nvcr-3717874774.conf",
+        "A /etc/ld.so.conf.d/zz-nvcr-1166842047.conf",
+        "C /usr",
+        "C /usr/share",
+        "C /usr/share/X11",
+        "A /usr/share/X11/xorg.conf.d",
+        "A /usr/share/X11/xorg.conf.d/10-nvidia.conf",
+        "A /usr/share/egl",
+        "A /usr/share/egl/egl_external_platform.d",
+        "A /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json",
+        "A /usr/share/egl/egl_external_platform.d/15_nvidia_gbm.json",
+        "C /usr/share/glvnd",
+        "C /usr/share/glvnd/egl_vendor.d",
+        "A /usr/share/glvnd/egl_vendor.d/10_nvidia.json",
+        "A /usr/share/nvidia",
+        "A /usr/share/nvidia/nvoptix.bin",
+        "C /usr/lib",
+        "C /usr/lib/x86_64-linux-gnu",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.580.173.02",
+        "C /usr/lib/x86_64-linux-gnu/libGLX_indirect.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-gpucomp.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1.1.3",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1.1.17",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glvkspirv.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-present.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.580.173.02",
+        "C /usr/lib/x86_64-linux-gnu/gbm",
+        "A /usr/lib/x86_64-linux-gnu/gbm/nvidia-drm_gbm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glsi.so.580.173.02",
+        "C /usr/lib/x86_64-linux-gnu/vdpau",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libgallium-25.2.8-0ubuntu0.24.04.2.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.2",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.4",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-eglcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/nvidia",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/nvidia_drv.so",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-rtcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so",
+        "C /usr/lib/firmware",
+        "A /usr/lib/firmware/nvidia",
+        "A /usr/lib/firmware/nvidia/580.173.02",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_ga10x.bin",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_tu10x.bin",
+        "C /usr/bin",
+        "A /usr/bin/nvidia-debugdump",
+        "A /usr/bin/nvidia-persistenced",
+        "A /usr/bin/nvidia-smi",
+        "A /usr/bin/nvidia-cuda-mps-server",
+        "A /usr/bin/nvidia-cuda-mps-control",
+        "A /project",
+        "C /home",
+        "A /home/irasc",
+        "A /home/irasc/twojy",
+        "A /home/irasc/twojy/mimvla"
+      ],
+      "changed_roots": {
+        "/run": 6,
+        "/root": 7,
+        "/var": 4,
+        "/etc": 10,
+        "/usr": 102,
+        "/project": 1,
+        "/home": 4
+      }
+    },
+    {
+      "id": "9ed084141f21bbbe501f7a318c61c9055abfe283f4abee6eac0a741f58bd045d",
+      "name": "phase2_eval_split_v2_corrected_rgb_09",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/phase2_eval_split_v2_corrected_rgb_09",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914",
+          "destination": "/split",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914/outputs",
+          "destination": "/results",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /results",
+        "C /run",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/02dc9931-2814-443c-a02f-342403cd370e",
+        "A /run/nvidia-ctk-hookc74dd6de-c701-4b9e-b1ea-5dbcf31a3bd6",
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-369785293.conf",
+        "C /etc/ld.so.cache",
+        "A /split",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache"
+      ],
+      "changed_roots": {
+        "/results": 1,
+        "/run": 4,
+        "/etc": 4,
+        "/split": 1,
+        "/var": 4,
+        "/home": 2,
+        "/opt": 2
+      }
+    },
+    {
+      "id": "b2cd6216cba7845d18e1de03c48b614788a806fc7dd5bf73e9e4510a1b1d3d98",
+      "name": "phase2_eval_split_v2_dev_depth_b",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914",
+          "destination": "/split",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914/outputs",
+          "destination": "/results",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/phase2_eval_split_v2_dev_depth_b",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "A /results",
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-2111912825.conf",
+        "C /etc/ld.so.cache",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache",
+        "C /run",
+        "A /run/nvidia-ctk-hook5978c9b5-ba90-4896-b73c-0239059ced5a",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/064cd463-f0be-4f91-bae3-5084f8187193",
+        "A /split"
+      ],
+      "changed_roots": {
+        "/var": 4,
+        "/results": 1,
+        "/etc": 4,
+        "/home": 2,
+        "/opt": 2,
+        "/run": 4,
+        "/split": 1
+      }
+    },
+    {
+      "id": "c53730ea37141b6433d5794082a7b38a05a8808c7ae750b4e76534c507755549",
+      "name": "phase2_eval_split_v2_dev_depth_a",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914",
+          "destination": "/split",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914/outputs",
+          "destination": "/results",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/phase2_eval_split_v2_dev_depth_a",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /results",
+        "C /run",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/9e412ba4-a400-48ad-b176-deed91f08f07",
+        "A /run/nvidia-ctk-hooka2c2a290-2c45-4c1b-a0f0-8aa02ea7749c",
+        "C /etc",
+        "C /etc/ld.so.cache",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-1067599949.conf",
+        "A /split"
+      ],
+      "changed_roots": {
+        "/var": 4,
+        "/home": 2,
+        "/opt": 2,
+        "/results": 1,
+        "/run": 4,
+        "/etc": 4,
+        "/split": 1
+      }
+    },
+    {
+      "id": "b4844df3c6675ef1b5fb5421d5f2bf5c44a39c41053f5b9458bbde807f3ef1d7",
+      "name": "phase2_eval_split_v2_dev_rgb_b",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914",
+          "destination": "/split",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914/outputs",
+          "destination": "/results",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/phase2_eval_split_v2_dev_rgb_b",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-2705295632.conf",
+        "C /etc/ld.so.cache",
+        "A /split",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /results",
+        "C /run",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/0e53685a-e4d8-4a27-85fc-8a9a5146f399",
+        "A /run/nvidia-ctk-hookbf1e04bc-8d6d-4544-8e22-e271e8e09d55"
+      ],
+      "changed_roots": {
+        "/etc": 4,
+        "/split": 1,
+        "/var": 4,
+        "/home": 2,
+        "/opt": 2,
+        "/results": 1,
+        "/run": 4
+      }
+    },
+    {
+      "id": "b18d73d0e2d6efb0d6668bbacdc92d9f1d1479dd813df9e8e47747d37dfe76f8",
+      "name": "phase2_eval_split_v2_dev_rgb_a",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/phase2_eval_split_v2_dev_rgb_a",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914",
+          "destination": "/split",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_v2_20260914/outputs",
+          "destination": "/results",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /split",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "A /results",
+        "C /etc",
+        "C /etc/ld.so.cache",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-3330381551.conf",
+        "C /opt",
+        "A /opt/torch-cache",
+        "C /run",
+        "A /run/nvidia-ctk-hook5008b37e-3e1f-4943-8405-c95e8ec8d0ac",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/823065b1-499d-423e-8d6e-7ffb10d73d4d",
+        "C /home",
+        "A /home/revision"
+      ],
+      "changed_roots": {
+        "/split": 1,
+        "/var": 4,
+        "/results": 1,
+        "/etc": 4,
+        "/opt": 2,
+        "/run": 4,
+        "/home": 2
+      }
+    },
+    {
+      "id": "6ed891f4cbb66e25b708c5b8faf61661b6f7817cc977243a3dbd64680844e3f0",
+      "name": "phase2_eval_split_dev_rgb_b",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_20260914",
+          "destination": "/split",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_20260914/outputs",
+          "destination": "/results",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/phase2_eval_split_dev_rgb_b",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /opt",
+        "A /opt/torch-cache",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-4018771901.conf",
+        "C /etc/ld.so.cache",
+        "C /home",
+        "A /home/revision",
+        "C /run",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/99b9f6d9-cec3-4ad5-8c9e-7893b393cafc",
+        "A /run/nvidia-ctk-hook14ed54a7-0ceb-41e9-9c29-241c86336133",
+        "A /split",
+        "A /results"
+      ],
+      "changed_roots": {
+        "/opt": 2,
+        "/var": 4,
+        "/etc": 4,
+        "/home": 2,
+        "/run": 4,
+        "/split": 1,
+        "/results": 1
+      }
+    },
+    {
+      "id": "0326de2cff77fc8299712af4dbe081143c752e12eb5db76e77d7da955d36fbc8",
+      "name": "phase2_eval_split_dev_rgb_a",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_20260914",
+          "destination": "/split",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_split_20260914/outputs",
+          "destination": "/results",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/phase2_eval_split_dev_rgb_a",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-4191730030.conf",
+        "C /etc/ld.so.cache",
+        "C /home",
+        "A /home/revision",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /results",
+        "A /split",
+        "C /run",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/3401a883-ccf0-4bea-9a14-6f20dcf94a3c",
+        "A /run/nvidia-ctk-hook4299709f-56f4-440b-801e-b6b9fccf1557"
+      ],
+      "changed_roots": {
+        "/etc": 4,
+        "/home": 2,
+        "/var": 4,
+        "/opt": 2,
+        "/results": 1,
+        "/split": 1,
+        "/run": 4
+      }
+    },
+    {
+      "id": "c5451ccf353a16a70dbc4309cdff62e2aa81cf1d72e3b886f5e5bc33fd813d22",
+      "name": "twojy-smolvla-banana191-b64",
+      "image": "sha256:139cbed41e3af82cef19bb349a8cbb76854927d1fda14f06ad63ff45c74ff282",
+      "image_ref": "twojy-mimvla:20260913",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/home/user/twojy/smolvla",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/smolvla",
+          "destination": "/home/user/twojy/smolvla",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/smolvla/common",
+          "destination": "/home/irasc/twojy/mimvla/common",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/datasets/banana_milk_191_verB_20260913/combined",
+          "destination": "/home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases/banana_milk_191_verB_20260913/combined",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /root",
+        "A /root/.nv",
+        "A /root/.nv/ComputeCache",
+        "A /root/.nv/ComputeCache/5",
+        "A /root/.nv/ComputeCache/5/f",
+        "A /root/.nv/ComputeCache/5/f/70fe490bccccb0",
+        "A /root/.nv/ComputeCache/index",
+        "C /etc",
+        "C /etc/vulkan",
+        "C /etc/vulkan/implicit_layer.d",
+        "A /etc/vulkan/implicit_layer.d/nvidia_layers.json",
+        "C /etc/vulkan/icd.d",
+        "A /etc/vulkan/icd.d/nvidia_icd.json",
+        "C /etc/ld.so.cache",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-118872301.conf",
+        "A /etc/ld.so.conf.d/00-nvcr-509157018.conf",
+        "C /usr",
+        "C /usr/lib",
+        "C /usr/lib/firmware",
+        "A /usr/lib/firmware/nvidia",
+        "A /usr/lib/firmware/nvidia/580.173.02",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_ga10x.bin",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_tu10x.bin",
+        "C /usr/lib/x86_64-linux-gnu",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glvkspirv.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.1",
+        "C /usr/lib/x86_64-linux-gnu/gbm",
+        "A /usr/lib/x86_64-linux-gnu/gbm/nvidia-drm_gbm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so",
+        "C /usr/lib/x86_64-linux-gnu/libGLX_indirect.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-gpucomp.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-present.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glsi.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1.1.3",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1.1.17",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.2",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-eglcore.so.580.173.02",
+        "C /usr/lib/x86_64-linux-gnu/vdpau",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libgallium-25.2.8-0ubuntu0.24.04.2.so",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.4",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-rtcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/nvidia",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/nvidia_drv.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.1",
+        "C /usr/bin",
+        "A /usr/bin/nvidia-persistenced",
+        "A /usr/bin/nvidia-debugdump",
+        "A /usr/bin/nvidia-smi",
+        "A /usr/bin/nvidia-cuda-mps-control",
+        "A /usr/bin/nvidia-cuda-mps-server",
+        "C /usr/share",
+        "C /usr/share/glvnd",
+        "C /usr/share/glvnd/egl_vendor.d",
+        "A /usr/share/glvnd/egl_vendor.d/10_nvidia.json",
+        "A /usr/share/nvidia",
+        "A /usr/share/nvidia/nvoptix.bin",
+        "C /usr/share/X11",
+        "A /usr/share/X11/xorg.conf.d",
+        "A /usr/share/X11/xorg.conf.d/10-nvidia.conf",
+        "A /usr/share/egl",
+        "A /usr/share/egl/egl_external_platform.d",
+        "A /usr/share/egl/egl_external_platform.d/15_nvidia_gbm.json",
+        "A /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json",
+        "C /home",
+        "A /home/irasc",
+        "A /home/irasc/koo",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases/banana_milk_191_verB_20260913",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases/banana_milk_191_verB_20260913/combined",
+        "A /home/irasc/twojy",
+        "A /home/irasc/twojy/mimvla",
+        "A /home/irasc/twojy/mimvla/common",
+        "A /home/user",
+        "A /home/user/twojy",
+        "A /home/user/twojy/smolvla",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /run",
+        "A /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/640c3bbf-9608-4900-984a-53cccc4489fd",
+        "A /run/nvidia-ctk-hook8a88e8ab-b6a5-49a6-9e3e-5b17d2f2a0af",
+        "A /run/nvidia-persistenced",
+        "A /run/nvidia-persistenced/socket"
+      ],
+      "changed_roots": {
+        "/root": 7,
+        "/etc": 10,
+        "/usr": 102,
+        "/home": 16,
+        "/var": 4,
+        "/run": 6
+      }
+    },
+    {
+      "id": "5f498ba2c6d9709db05f4ad92c496087efa30268384ec5e4978313806674e139",
+      "name": "twojy-icra2027-verc-banana191-b64",
+      "image": "sha256:139cbed41e3af82cef19bb349a8cbb76854927d1fda14f06ad63ff45c74ff282",
+      "image_ref": "twojy-mimvla:20260913",
+      "status": "exited",
+      "exit_code": 137,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/home/irasc/twojy/mimvla/verC/jobs/banana_milk_191_batch64_20260913",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/mimvla",
+          "destination": "/home/irasc/twojy/mimvla",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/mim",
+          "destination": "/home/irasc/twojy/mim",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/datasets/banana_milk_191_verB_20260913/combined",
+          "destination": "/home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases/banana_milk_191_verB_20260913/combined",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /tmp",
+        "A /tmp/pymp-_kj6zk9j",
+        "A /tmp/pymp-_kj6zk9j/listener-256jbmpl",
+        "A /tmp/pymp-rdauof3f",
+        "A /tmp/pymp-rdauof3f/listener-jd957oew",
+        "A /tmp/tmp_cfkf3v4",
+        "A /tmp/tmp_cfkf3v4/__pycache__",
+        "A /tmp/tmp_cfkf3v4/__pycache__/_remote_module_non_scriptable.cpython-312.pyc",
+        "A /tmp/tmp_cfkf3v4/_remote_module_non_scriptable.py",
+        "A /tmp/pymp-t8bwmsa9",
+        "A /tmp/pymp-t8bwmsa9/listener-8n8pk01q",
+        "A /tmp/pymp-xx3b4ewx",
+        "A /tmp/pymp-xx3b4ewx/listener-lxmjc7vt",
+        "A /tmp/tmpt9fjxjvm",
+        "A /tmp/tmpt9fjxjvm/__pycache__",
+        "A /tmp/tmpt9fjxjvm/__pycache__/_remote_module_non_scriptable.cpython-312.pyc",
+        "A /tmp/tmpt9fjxjvm/_remote_module_non_scriptable.py",
+        "C /etc",
+        "C /etc/ld.so.cache",
+        "C /etc/vulkan",
+        "C /etc/vulkan/icd.d",
+        "A /etc/vulkan/icd.d/nvidia_icd.json",
+        "C /etc/vulkan/implicit_layer.d",
+        "A /etc/vulkan/implicit_layer.d/nvidia_layers.json",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/00-nvcr-240483568.conf",
+        "A /etc/ld.so.conf.d/zz-nvcr-3947046606.conf",
+        "A /etc/ld.so.conf.d/zz-nvcr-1239860886.conf",
+        "C /usr",
+        "C /usr/share",
+        "C /usr/share/glvnd",
+        "C /usr/share/glvnd/egl_vendor.d",
+        "A /usr/share/glvnd/egl_vendor.d/10_nvidia.json",
+        "A /usr/share/egl",
+        "A /usr/share/egl/egl_external_platform.d",
+        "A /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json",
+        "A /usr/share/egl/egl_external_platform.d/15_nvidia_gbm.json",
+        "A /usr/share/nvidia",
+        "A /usr/share/nvidia/nvoptix.bin",
+        "C /usr/share/X11",
+        "A /usr/share/X11/xorg.conf.d",
+        "A /usr/share/X11/xorg.conf.d/10-nvidia.conf",
+        "C /usr/bin",
+        "A /usr/bin/nvidia-cuda-mps-server",
+        "A /usr/bin/nvidia-smi",
+        "A /usr/bin/nvidia-persistenced",
+        "A /usr/bin/nvidia-cuda-mps-control",
+        "A /usr/bin/nvidia-debugdump",
+        "C /usr/lib",
+        "C /usr/lib/x86_64-linux-gnu",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so",
+        "A /usr/lib/x86_64-linux-gnu/nvidia",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/nvidia_drv.so",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.1",
+        "C /usr/lib/x86_64-linux-gnu/gbm",
+        "A /usr/lib/x86_64-linux-gnu/gbm/nvidia-drm_gbm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-gpucomp.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1.1.3",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.4",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-eglcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glvkspirv.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glsi.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1",
+        "C /usr/lib/x86_64-linux-gnu/vdpau",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libgallium-25.2.8-0ubuntu0.24.04.2.so",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-rtcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1.1.17",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.2",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-present.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so",
+        "C /usr/lib/x86_64-linux-gnu/libGLX_indirect.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so",
+        "C /usr/lib/firmware",
+        "A /usr/lib/firmware/nvidia",
+        "A /usr/lib/firmware/nvidia/580.173.02",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_ga10x.bin",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_tu10x.bin",
+        "C /root",
+        "A /root/.nv",
+        "A /root/.nv/ComputeCache",
+        "A /root/.nv/ComputeCache/5",
+        "A /root/.nv/ComputeCache/5/f",
+        "A /root/.nv/ComputeCache/5/f/70fe490bccccb0",
+        "A /root/.nv/ComputeCache/index",
+        "C /run",
+        "A /run/nvidia-ctk-hook33a44273-2059-4bbb-a6f5-f92bbeda3006",
+        "A /run/nvidia-ctk-hookda5ac224-e6d3-4ab5-9593-06fecc07e721",
+        "A /run/nvidia-persistenced",
+        "A /run/nvidia-persistenced/socket",
+        "A /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/2be15f8f-7fd2-45e3-9789-fc2c194402b2",
+        "A /run/nvidia-ctk-hook/4f38f0e7-84b4-44cc-bc26-f7a48f73bbce",
+        "C /home",
+        "A /home/irasc",
+        "A /home/irasc/koo",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases/banana_milk_191_verB_20260913",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases/banana_milk_191_verB_20260913/combined",
+        "A /home/irasc/twojy",
+        "A /home/irasc/twojy/mim",
+        "A /home/irasc/twojy/mimvla",
+        "A /home/irasc/twojy/mimvla/verC",
+        "A /home/irasc/twojy/mimvla/verC/jobs",
+        "A /home/irasc/twojy/mimvla/verC/jobs/banana_milk_191_batch64_20260913",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache"
+      ],
+      "changed_roots": {
+        "/tmp": 17,
+        "/etc": 11,
+        "/usr": 102,
+        "/root": 7,
+        "/run": 8,
+        "/home": 16,
+        "/var": 4
+      }
+    },
+    {
+      "id": "0d6ba0c9066f6865c473d429af43079fd71e6659c6c09b228ae7a07e4e43fe38",
+      "name": "twojy-icra2027-verc-banana191",
+      "image": "sha256:139cbed41e3af82cef19bb349a8cbb76854927d1fda14f06ad63ff45c74ff282",
+      "image_ref": "twojy-mimvla:20260913",
+      "status": "exited",
+      "exit_code": 137,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/home/irasc/twojy/mimvla/verC/jobs/banana_milk_191_20260913",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/mimvla",
+          "destination": "/home/irasc/twojy/mimvla",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/mim",
+          "destination": "/home/irasc/twojy/mim",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/twojy/icra2027/datasets/banana_milk_191_verB_20260913/combined",
+          "destination": "/home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases/banana_milk_191_verB_20260913/combined",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /root",
+        "A /root/.nv",
+        "A /root/.nv/ComputeCache",
+        "A /root/.nv/ComputeCache/5",
+        "A /root/.nv/ComputeCache/5/f",
+        "A /root/.nv/ComputeCache/5/f/70fe490bccccb0",
+        "A /root/.nv/ComputeCache/index",
+        "C /tmp",
+        "A /tmp/tmp0j0yute0",
+        "A /tmp/tmp0j0yute0/__pycache__",
+        "A /tmp/tmp0j0yute0/__pycache__/_remote_module_non_scriptable.cpython-312.pyc",
+        "A /tmp/tmp0j0yute0/_remote_module_non_scriptable.py",
+        "A /tmp/pymp-403f715p",
+        "A /tmp/pymp-403f715p/listener-f7nskysf",
+        "A /tmp/pymp-5ro_rmvi",
+        "A /tmp/pymp-5ro_rmvi/listener-alf90qd9",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "C /etc",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/00-nvcr-3634017576.conf",
+        "A /etc/ld.so.conf.d/zz-nvcr-3778772248.conf",
+        "C /etc/ld.so.cache",
+        "C /etc/vulkan",
+        "C /etc/vulkan/implicit_layer.d",
+        "A /etc/vulkan/implicit_layer.d/nvidia_layers.json",
+        "C /etc/vulkan/icd.d",
+        "A /etc/vulkan/icd.d/nvidia_icd.json",
+        "C /home",
+        "A /home/irasc",
+        "A /home/irasc/koo",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases/banana_milk_191_verB_20260913",
+        "A /home/irasc/koo/physical_ai_tools_motor_feedback/runtime/workspace/vla_pipeline/releases/banana_milk_191_verB_20260913/combined",
+        "A /home/irasc/twojy",
+        "A /home/irasc/twojy/mim",
+        "A /home/irasc/twojy/mimvla",
+        "A /home/irasc/twojy/mimvla/verC",
+        "A /home/irasc/twojy/mimvla/verC/jobs",
+        "A /home/irasc/twojy/mimvla/verC/jobs/banana_milk_191_20260913",
+        "C /run",
+        "A /run/nvidia-ctk-hooke0df80d5-b9b8-4517-a7ba-dc1fd4a888f0",
+        "A /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/571afb46-4067-4025-a2b3-2321ba1e2994",
+        "A /run/nvidia-persistenced",
+        "A /run/nvidia-persistenced/socket",
+        "C /usr",
+        "C /usr/lib",
+        "C /usr/lib/x86_64-linux-gnu",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-eglcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glvkspirv.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-rtcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.2",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1.1.3",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.580.173.02",
+        "C /usr/lib/x86_64-linux-gnu/libGLX_indirect.so.0",
+        "C /usr/lib/x86_64-linux-gnu/vdpau",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/vdpau/libgallium-25.2.8-0ubuntu0.24.04.2.so",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.0",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11-openssl3.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ml.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so.4",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so",
+        "A /usr/lib/x86_64-linux-gnu/libcudadebugger.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glsi.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-vksc-core.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-nvvm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1.1.17",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-present.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-gpucomp.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-gbm.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvcuvid.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvoptix.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/nvidia",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/nvidia/xorg/nvidia_drv.so",
+        "C /usr/lib/x86_64-linux-gnu/gbm",
+        "A /usr/lib/x86_64-linux-gnu/gbm/nvidia-drm_gbm.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libcuda.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-fbc.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ngx.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-encode.so.1",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-pkcs11.so.580.173.02",
+        "A /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so",
+        "C /usr/lib/firmware",
+        "A /usr/lib/firmware/nvidia",
+        "A /usr/lib/firmware/nvidia/580.173.02",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_ga10x.bin",
+        "A /usr/lib/firmware/nvidia/580.173.02/gsp_tu10x.bin",
+        "C /usr/bin",
+        "A /usr/bin/nvidia-smi",
+        "A /usr/bin/nvidia-persistenced",
+        "A /usr/bin/nvidia-debugdump",
+        "A /usr/bin/nvidia-cuda-mps-server",
+        "A /usr/bin/nvidia-cuda-mps-control",
+        "C /usr/share",
+        "A /usr/share/nvidia",
+        "A /usr/share/nvidia/nvoptix.bin",
+        "A /usr/share/egl",
+        "A /usr/share/egl/egl_external_platform.d",
+        "A /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json",
+        "A /usr/share/egl/egl_external_platform.d/15_nvidia_gbm.json",
+        "C /usr/share/glvnd",
+        "C /usr/share/glvnd/egl_vendor.d",
+        "A /usr/share/glvnd/egl_vendor.d/10_nvidia.json",
+        "C /usr/share/X11",
+        "A /usr/share/X11/xorg.conf.d",
+        "A /usr/share/X11/xorg.conf.d/10-nvidia.conf"
+      ],
+      "changed_roots": {
+        "/root": 7,
+        "/tmp": 9,
+        "/var": 4,
+        "/etc": 10,
+        "/home": 16,
+        "/run": 6,
+        "/usr": 102
+      }
+    },
+    {
+      "id": "ecf4cba3a7f1b117821a05f9ae81c04e650d413fa9c30e3e2e9d5afac11676af",
+      "name": "isolation_analysis_camera_coverage_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_analysis_camera_coverage_20260913",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_parallel_analysis_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/previous",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_parallel_analysis_20260913/camera_coverage",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /previous",
+        "C /home",
+        "A /home/revision",
+        "A /analysis",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/previous": 1,
+        "/home": 2,
+        "/analysis": 1,
+        "/opt": 2,
+        "/output": 1
+      }
+    },
+    {
+      "id": "a94f3486644b14ccbd0baa8b269595b46e0506da34e6cfd023ec6eb9a1b900b8",
+      "name": "isolation_analysis_provenance_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_parallel_analysis_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/previous",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_parallel_analysis_20260913/provenance",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_analysis_provenance_20260913",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /analysis",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /output",
+        "A /previous"
+      ],
+      "changed_roots": {
+        "/analysis": 1,
+        "/home": 2,
+        "/opt": 2,
+        "/output": 1,
+        "/previous": 1
+      }
+    },
+    {
+      "id": "6dd4172ba54864059f247394d23205cdf8c639803c794e4e42fd479ce09ec894",
+      "name": "isolation_analysis_safety_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_parallel_analysis_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/previous",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_parallel_analysis_20260913/safety",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_analysis_safety_20260913",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /analysis",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /previous",
+        "C /home",
+        "A /home/revision",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/analysis": 1,
+        "/opt": 2,
+        "/previous": 1,
+        "/home": 2,
+        "/output": 1
+      }
+    },
+    {
+      "id": "bbb4b1744ab81e98a3f5b6961cc26cd097c502df412a31ed0ad5a1a4d4e07342",
+      "name": "isolation_analysis_depth_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/homes/isolation_analysis_depth_20260913",
+          "destination": "/home/revision",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/passwd",
+          "destination": "/etc/passwd",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/group",
+          "destination": "/etc/group",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_parallel_analysis_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/previous",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_parallel_analysis_20260913/depth",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_isolation_20260913/torch_cache",
+          "destination": "/opt/torch-cache",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /analysis",
+        "C /home",
+        "A /home/revision",
+        "C /opt",
+        "A /opt/torch-cache",
+        "A /previous",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/analysis": 1,
+        "/home": 2,
+        "/opt": 2,
+        "/previous": 1,
+        "/output": 1
+      }
+    },
+    {
+      "id": "cb472357dc1fa6f51393ed82a08813ecdff0873e07337bd2d2fe213a60e1e65c",
+      "name": "revision_offline_episodes_1140_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913/episodes_1140",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /queue",
+        "A /output",
+        "A /analysis"
+      ],
+      "changed_roots": {
+        "/queue": 1,
+        "/output": 1,
+        "/analysis": 1
+      }
+    },
+    {
+      "id": "2520d838222387ee486ca17fd96493315b2f515782fa7ae77c45034fc36b4787",
+      "name": "revision_offline_native_depth_v2_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913/native_depth_v2",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /output",
+        "A /queue",
+        "A /analysis",
+        "C /root",
+        "C /root/.cache",
+        "A /root/.cache/mesa_shader_cache",
+        "A /root/.cache/mesa_shader_cache/80",
+        "A /root/.cache/mesa_shader_cache/80/1a28bee76d7667901816942b043cf69d255e4b",
+        "A /root/.cache/mesa_shader_cache/90",
+        "A /root/.cache/mesa_shader_cache/90/cc7c63a6426d9d7c630559e01d94c14d859ed9",
+        "A /root/.cache/mesa_shader_cache/9a",
+        "A /root/.cache/mesa_shader_cache/9a/1a4e117b03ebfa4ce263a5a0ab33d46ea7c3ae",
+        "A /root/.cache/mesa_shader_cache/c6",
+        "A /root/.cache/mesa_shader_cache/c6/c302f3d662671646d10ee981d2a94d77630ec1",
+        "A /root/.cache/mesa_shader_cache/fb",
+        "A /root/.cache/mesa_shader_cache/fb/3582fa7e2e648b3b6c7bf0523d6400fc563286",
+        "A /root/.cache/mesa_shader_cache/index",
+        "A /root/.cache/mesa_shader_cache/be",
+        "A /root/.cache/mesa_shader_cache/be/2891c2bc37ecca094e7310e7297a97eb84615a",
+        "A /root/.cache/mesa_shader_cache/16",
+        "A /root/.cache/mesa_shader_cache/16/80d665409f7dc3f1871ecc4cbdef225fbd3159",
+        "A /root/.cache/mesa_shader_cache/2f",
+        "A /root/.cache/mesa_shader_cache/2f/53c127a09ee730621330566632242a7d3b0b1b",
+        "A /root/.cache/mesa_shader_cache/46",
+        "A /root/.cache/mesa_shader_cache/46/6075e9bd543cd8d9282bb9bd6f28ce1965ae21",
+        "A /root/.cache/mesa_shader_cache/50",
+        "A /root/.cache/mesa_shader_cache/50/2fcb434b775ba9ee8f499d3689994858c78d5d",
+        "A /root/.cache/mesa_shader_cache/55",
+        "A /root/.cache/mesa_shader_cache/55/793a7d0fcd7c054a7ea3e1ad4593b1ffce1a14",
+        "A /root/.cache/mesa_shader_cache/a5",
+        "A /root/.cache/mesa_shader_cache/a5/e12ce91ca0516ca54c9613db981420e47e8858",
+        "A /root/.cache/mesa_shader_cache/e7",
+        "A /root/.cache/mesa_shader_cache/e7/f09ed3f68894e1dfe7ff36e07afe0906da63d5",
+        "A /root/.cache/mesa_shader_cache/2c",
+        "A /root/.cache/mesa_shader_cache/2c/6fb6e648215b2aa5760a50b706d662fb5bec17",
+        "A /root/.cache/mesa_shader_cache/2c/7010e3289eaa34cae2518ae5a8922e3eb06a8c",
+        "A /root/.cache/mesa_shader_cache/61",
+        "A /root/.cache/mesa_shader_cache/61/7237712c4a46841daca318c1567b3d629d7bdd",
+        "A /root/.cache/mesa_shader_cache/b8",
+        "A /root/.cache/mesa_shader_cache/b8/96e1f79b18ccfa62da2d38003b1cfa1ee9a4d2",
+        "A /root/.cache/mesa_shader_cache/f2",
+        "A /root/.cache/mesa_shader_cache/f2/81d35cd8a54e85e0f2174de40775262db74ec6",
+        "A /root/.cache/mesa_shader_cache/7a",
+        "A /root/.cache/mesa_shader_cache/7a/d4862bf93cacbef1a797301d8383f2322fd8e0"
+      ],
+      "changed_roots": {
+        "/output": 1,
+        "/queue": 1,
+        "/analysis": 1,
+        "/root": 41
+      }
+    },
+    {
+      "id": "270ae9fe65536d16ea08a366ca67944c33707d425b5a373589fdc96bb580e8b5",
+      "name": "revision_offline_native_depth_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913/native_depth",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /queue",
+        "A /analysis",
+        "C /root",
+        "C /root/.cache",
+        "A /root/.cache/mesa_shader_cache",
+        "A /root/.cache/mesa_shader_cache/16",
+        "A /root/.cache/mesa_shader_cache/16/80d665409f7dc3f1871ecc4cbdef225fbd3159",
+        "A /root/.cache/mesa_shader_cache/46",
+        "A /root/.cache/mesa_shader_cache/46/6075e9bd543cd8d9282bb9bd6f28ce1965ae21",
+        "A /root/.cache/mesa_shader_cache/index",
+        "A /root/.cache/mesa_shader_cache/2c",
+        "A /root/.cache/mesa_shader_cache/2c/6fb6e648215b2aa5760a50b706d662fb5bec17",
+        "A /root/.cache/mesa_shader_cache/2c/7010e3289eaa34cae2518ae5a8922e3eb06a8c",
+        "A /root/.cache/mesa_shader_cache/2f",
+        "A /root/.cache/mesa_shader_cache/2f/53c127a09ee730621330566632242a7d3b0b1b",
+        "A /root/.cache/mesa_shader_cache/7a",
+        "A /root/.cache/mesa_shader_cache/7a/d4862bf93cacbef1a797301d8383f2322fd8e0",
+        "A /root/.cache/mesa_shader_cache/80",
+        "A /root/.cache/mesa_shader_cache/80/1a28bee76d7667901816942b043cf69d255e4b",
+        "A /root/.cache/mesa_shader_cache/a5",
+        "A /root/.cache/mesa_shader_cache/a5/e12ce91ca0516ca54c9613db981420e47e8858",
+        "A /root/.cache/mesa_shader_cache/c6",
+        "A /root/.cache/mesa_shader_cache/c6/c302f3d662671646d10ee981d2a94d77630ec1",
+        "A /root/.cache/mesa_shader_cache/55",
+        "A /root/.cache/mesa_shader_cache/55/793a7d0fcd7c054a7ea3e1ad4593b1ffce1a14",
+        "A /root/.cache/mesa_shader_cache/90",
+        "A /root/.cache/mesa_shader_cache/90/cc7c63a6426d9d7c630559e01d94c14d859ed9",
+        "A /root/.cache/mesa_shader_cache/e7",
+        "A /root/.cache/mesa_shader_cache/e7/f09ed3f68894e1dfe7ff36e07afe0906da63d5",
+        "A /root/.cache/mesa_shader_cache/f2",
+        "A /root/.cache/mesa_shader_cache/f2/81d35cd8a54e85e0f2174de40775262db74ec6",
+        "A /root/.cache/mesa_shader_cache/50",
+        "A /root/.cache/mesa_shader_cache/50/2fcb434b775ba9ee8f499d3689994858c78d5d",
+        "A /root/.cache/mesa_shader_cache/61",
+        "A /root/.cache/mesa_shader_cache/61/7237712c4a46841daca318c1567b3d629d7bdd",
+        "A /root/.cache/mesa_shader_cache/9a",
+        "A /root/.cache/mesa_shader_cache/9a/1a4e117b03ebfa4ce263a5a0ab33d46ea7c3ae",
+        "A /root/.cache/mesa_shader_cache/b8",
+        "A /root/.cache/mesa_shader_cache/b8/96e1f79b18ccfa62da2d38003b1cfa1ee9a4d2",
+        "A /root/.cache/mesa_shader_cache/be",
+        "A /root/.cache/mesa_shader_cache/be/2891c2bc37ecca094e7310e7297a97eb84615a",
+        "A /root/.cache/mesa_shader_cache/fb",
+        "A /root/.cache/mesa_shader_cache/fb/3582fa7e2e648b3b6c7bf0523d6400fc563286",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/queue": 1,
+        "/analysis": 1,
+        "/root": 41,
+        "/output": 1
+      }
+    },
+    {
+      "id": "dcef00605dd7ec693d8cceaf3397f919b27bd712a9532b4a2ca3c75f6c64932a",
+      "name": "revision_offline_depth_core_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913/depth_core",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /output",
+        "A /analysis",
+        "A /queue"
+      ],
+      "changed_roots": {
+        "/output": 1,
+        "/analysis": 1,
+        "/queue": 1
+      }
+    },
+    {
+      "id": "c08a84322c671a0dd2013d48a3d39d01dfd4558ac2821630d7735135804dca52",
+      "name": "revision_offline_episodes_v2_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913/episodes_v2",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /queue",
+        "A /analysis",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/queue": 1,
+        "/analysis": 1,
+        "/output": 1
+      }
+    },
+    {
+      "id": "b14f14ca6ef0ebe2b499f1fea3adf8234ac35d9af6d57232d90d6256cb08753a",
+      "name": "revision_offline_episodes_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913/episodes",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /analysis",
+        "A /output",
+        "A /queue"
+      ],
+      "changed_roots": {
+        "/analysis": 1,
+        "/output": 1,
+        "/queue": 1
+      }
+    },
+    {
+      "id": "a14d4abcf9ebdc6ea6764c92f462fcf36fcf0caa1b2d41154e787b14e24a19ec",
+      "name": "revision_offline_depth_20260913",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/workspace/lerobot",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913",
+          "destination": "/analysis",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_deadline_20260912",
+          "destination": "/queue",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_offline_audit_20260913/depth",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /queue",
+        "A /analysis",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/queue": 1,
+        "/analysis": 1,
+        "/output": 1
+      }
+    },
+    {
+      "id": "7e7d3ce9a953fa6dd9111de80f80041152ac9c5129db8b708aef5db51d127237",
+      "name": "phase2_training_5090",
+      "image": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "image_ref": "sha256:32f2ab0ca1019eda8afbd9b8418a4b64abe8eac9318e9dd4e722eb8d820692fb",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": false,
+      "working_dir": "/workspace/mujoco_ws",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws/.hf/datasets",
+          "destination": "/workspace/mujoco_ws/.hf/datasets",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws/ckpt/revision_phase2_depth_seed0_true_b16_d150_100k_20260912",
+          "destination": "/workspace/mujoco_ws/ckpt/revision_phase2_depth_seed0_true_b16_d150_100k_20260912",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws/logs/revision_phase2_depth_seed0_true_b16_d150_100k_20260912",
+          "destination": "/workspace/mujoco_ws/logs/revision_phase2_depth_seed0_true_b16_d150_100k_20260912",
+          "rw": true,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/irasc/koo/AST_mujoco/mujoco_ws",
+          "destination": "/workspace/mujoco_ws",
+          "rw": false,
+          "host_exists": "permission_denied"
+        },
+        {
+          "type": "bind",
+          "source": "/home/user/revision_phase2_20260912",
+          "destination": "/phase2",
+          "rw": true,
+          "host_exists": "permission_denied"
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /run",
+        "A /run/nvidia-ctk-hook17fbed98-1722-4aea-8187-8c10e8990f0c",
+        "C /run/nvidia-ctk-hook",
+        "A /run/nvidia-ctk-hook/2f0e148f-ec5e-47cd-bc38-c32f0d62f2fb",
+        "C /var",
+        "C /var/cache",
+        "C /var/cache/ldconfig",
+        "C /var/cache/ldconfig/aux-cache",
+        "A /phase2",
+        "C /etc",
+        "C /etc/ld.so.cache",
+        "C /etc/ld.so.conf.d",
+        "A /etc/ld.so.conf.d/zz-nvcr-682168334.conf"
+      ],
+      "changed_roots": {
+        "/run": 4,
+        "/var": 4,
+        "/phase2": 1,
+        "/etc": 4
+      }
+    },
+    {
+      "id": "193809d55ad631e7a21bfb5596f6deee73745d4be4dc5e3854847059dac3bf48",
+      "name": "transfer-s2-check-20260911_114500",
+      "image": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "image_ref": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/contact-check-20260911_114500",
+          "destination": "/check",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/contact-20260911_114600",
+          "destination": "/input",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/contact-case-20260911_114300",
+          "destination": "/case",
+          "rw": false,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /case",
+        "A /bundle",
+        "A /check",
+        "A /input",
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init"
+      ],
+      "changed_roots": {
+        "/case": 1,
+        "/bundle": 1,
+        "/check": 1,
+        "/input": 1,
+        "/usr": 3
+      }
+    },
+    {
+      "id": "4a15d47aad4195ec905007b13528a422fe9a6929e1b95cc560af8e02af1e6e68",
+      "name": "transfer-s2-case-20260911_114300",
+      "image": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "image_ref": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/contact-20260911_114600",
+          "destination": "/prior",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/contact-case-20260911_114300",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /data",
+        "A /data/square.hdf5",
+        "A /prior",
+        "A /output",
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init",
+        "A /bundle"
+      ],
+      "changed_roots": {
+        "/data": 2,
+        "/prior": 1,
+        "/output": 1,
+        "/usr": 3,
+        "/bundle": 1
+      }
+    },
+    {
+      "id": "1ce939f60451b64fa470bf7ff33f06419be6ae09630c0278ec35bad741db63ab",
+      "name": "transfer-s2-20260911_114600",
+      "image": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "image_ref": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "status": "exited",
+      "exit_code": 1,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer",
+          "destination": "/study",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/contact-20260911_114600",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init",
+        "A /bundle",
+        "A /output",
+        "A /data",
+        "A /data/square.hdf5"
+      ],
+      "changed_roots": {
+        "/usr": 3,
+        "/bundle": 1,
+        "/output": 1,
+        "/data": 2
+      }
+    },
+    {
+      "id": "4b123645fd0b8ca208bdd4763a75eb0014146faadc6401ce84b8f006867f7262",
+      "name": "transfer-s2-normalize-20260911_114201",
+      "image": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "image_ref": "r2/transfer:s2-r1",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer",
+          "destination": "/study",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /bundle"
+      ],
+      "changed_roots": {
+        "/bundle": 1
+      }
+    },
+    {
+      "id": "d8257cd27490fd9d3e69f3e8da2b051bcbb70d7caec65d8ecabd0f1aed56bd6f",
+      "name": "transfer-s2-normalize-20260911_114200",
+      "image": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "image_ref": "r2/transfer:s2-r1",
+      "status": "exited",
+      "exit_code": 1,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer",
+          "destination": "/study",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /bundle"
+      ],
+      "changed_roots": {
+        "/bundle": 1
+      }
+    },
+    {
+      "id": "d9eafcb9dbfd1b1e5acc5540b1dc986a972b8d0000ee31bb61c1bb57d179176b",
+      "name": "transfer-s2-20260911_114000",
+      "image": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "image_ref": "sha256:7e6b12748eb0905690bc4896a7f826f01b39f24b8b357d610d5eb85c1dcb5f17",
+      "status": "exited",
+      "exit_code": 1,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer",
+          "destination": "/study",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/contact-20260911_114000",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /data",
+        "A /data/square.hdf5",
+        "A /output",
+        "A /bundle",
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init"
+      ],
+      "changed_roots": {
+        "/data": 2,
+        "/output": 1,
+        "/bundle": 1,
+        "/usr": 3
+      }
+    },
+    {
+      "id": "d5cd0015a8ad1822ee5c31420dc93ed5a2712967ccf714e9ac6ae22549050c67",
+      "name": "transfer-drift-20260911_101547",
+      "image": "sha256:eef8db525881a9a38b91867ab8298204b805043085ff2bd97fe4d89a1a3a1b7a",
+      "image_ref": "sha256:eef8db525881a9a38b91867ab8298204b805043085ff2bd97fe4d89a1a3a1b7a",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer",
+          "destination": "/study",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/verify-20260911_095757/result.json",
+          "destination": "/verified.json",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init",
+        "A /verified.json",
+        "A /bundle",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/usr": 3,
+        "/verified.json": 1,
+        "/bundle": 1,
+        "/output": 1
+      }
+    },
+    {
+      "id": "51c118647d684c58c02ccc1173c06baa6e6c5d012ee46bcd4a4e8e3fc9e6e3c6",
+      "name": "transfer-s1-verify-20260911_095757",
+      "image": "sha256:72b2b8ce5feb50ae98b0eb99d008385ca9fadc62f31632ca5df078177ee8a9f7",
+      "image_ref": "sha256:72b2b8ce5feb50ae98b0eb99d008385ca9fadc62f31632ca5df078177ee8a9f7",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095757",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/verify-20260911_095757",
+          "destination": "/verification",
+          "rw": true,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /data",
+        "A /data/square.hdf5",
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init",
+        "A /verification",
+        "A /bundle"
+      ],
+      "changed_roots": {
+        "/data": 2,
+        "/usr": 3,
+        "/verification": 1,
+        "/bundle": 1
+      }
+    },
+    {
+      "id": "ec2deb8b09e6c5721724ca23581deda376193aaa9927be638fc9c72750db677e",
+      "name": "transfer-s1-run-20260911_095757",
+      "image": "sha256:72b2b8ce5feb50ae98b0eb99d008385ca9fadc62f31632ca5df078177ee8a9f7",
+      "image_ref": "sha256:72b2b8ce5feb50ae98b0eb99d008385ca9fadc62f31632ca5df078177ee8a9f7",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer",
+          "destination": "/study",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init",
+        "A /output",
+        "A /data",
+        "A /data/square.hdf5"
+      ],
+      "changed_roots": {
+        "/usr": 3,
+        "/output": 1,
+        "/data": 2
+      }
+    },
+    {
+      "id": "f686bd78506f45456566c22ec2704b281f0785ef39c38a8db69becdfbf2a503c",
+      "name": "transfer-s1-verify-20260911_095513",
+      "image": "sha256:72b2b8ce5feb50ae98b0eb99d008385ca9fadc62f31632ca5df078177ee8a9f7",
+      "image_ref": "sha256:72b2b8ce5feb50ae98b0eb99d008385ca9fadc62f31632ca5df078177ee8a9f7",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/run-20260911_095513",
+          "destination": "/bundle",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts/verify-20260911_095513",
+          "destination": "/verification",
+          "rw": true,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /data",
+        "A /data/square.hdf5",
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init",
+        "A /bundle",
+        "A /verification"
+      ],
+      "changed_roots": {
+        "/data": 2,
+        "/usr": 3,
+        "/bundle": 1,
+        "/verification": 1
+      }
+    },
+    {
+      "id": "d03ce993de2faf78cda8f5545da0f6b90ce70f475926d734ad71222acfffc6b2",
+      "name": "transfer-s1-run-20260911_095513",
+      "image": "sha256:72b2b8ce5feb50ae98b0eb99d008385ca9fadc62f31632ca5df078177ee8a9f7",
+      "image_ref": "sha256:72b2b8ce5feb50ae98b0eb99d008385ca9fadc62f31632ca5df078177ee8a9f7",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer",
+          "destination": "/study",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /data",
+        "A /data/square.hdf5",
+        "C /usr",
+        "C /usr/sbin",
+        "A /usr/sbin/docker-init",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/data": 2,
+        "/usr": 3,
+        "/output": 1
+      }
+    },
+    {
+      "id": "22c2d366a1f3f50fdff39e69ce5f8d2632055a9d34948d173be32ac161311e11",
+      "name": "transfer-s1-check-20260910_155531",
+      "image": "sha256:72b2b8ce5feb50ae98b0eb99d008385ca9fadc62f31632ca5df078177ee8a9f7",
+      "image_ref": "r2/transfer:s1-r1",
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "readonly_rootfs": true,
+      "working_dir": "/study",
+      "mounts": [
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer",
+          "destination": "/study",
+          "rw": false,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/buildup/robotic-autonomy/pilot_studies/transfer/artifacts",
+          "destination": "/output",
+          "rw": true,
+          "host_exists": true
+        },
+        {
+          "type": "bind",
+          "source": "/home/yoohyun/research2/local_dataset/mimicgen/source/square.hdf5",
+          "destination": "/data/square.hdf5",
+          "rw": false,
+          "host_exists": true
+        }
+      ],
+      "diff_returncode": 0,
+      "layer_changes": [
+        "A /data",
+        "A /data/square.hdf5",
+        "A /output"
+      ],
+      "changed_roots": {
+        "/data": 2,
+        "/output": 1
+      }
+    }
+  ]
+}

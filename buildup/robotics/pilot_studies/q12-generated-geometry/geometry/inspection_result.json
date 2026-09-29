@@ -1,0 +1,1556 @@
+{
+  "id": "q12-preservation-failure-inspection-v1",
+  "status": "COMPLETED",
+  "decision": "DEFER_CURRENT_ASSET_ROUTE",
+  "object": "025_mug",
+  "exact_surface_proof": {
+    "exact_surface_equal": true,
+    "positive_face_count": 16378,
+    "removed_face_ids": [
+      3007,
+      3572,
+      9916,
+      9919,
+      12329,
+      12333
+    ],
+    "removed_support_witnesses": [
+      {
+        "removed_raw_face_id": 3007,
+        "retained_raw_face_id": 3006,
+        "derived_face_id": 3006,
+        "support": "segment"
+      },
+      {
+        "removed_raw_face_id": 3572,
+        "retained_raw_face_id": 3570,
+        "derived_face_id": 3569,
+        "support": "segment"
+      },
+      {
+        "removed_raw_face_id": 9916,
+        "retained_raw_face_id": 9917,
+        "derived_face_id": 9914,
+        "support": "segment"
+      },
+      {
+        "removed_raw_face_id": 9919,
+        "retained_raw_face_id": 9918,
+        "derived_face_id": 9915,
+        "support": "segment"
+      },
+      {
+        "removed_raw_face_id": 12329,
+        "retained_raw_face_id": 12330,
+        "derived_face_id": 12325,
+        "support": "segment"
+      },
+      {
+        "removed_raw_face_id": 12333,
+        "retained_raw_face_id": 12332,
+        "derived_face_id": 12327,
+        "support": "segment"
+      }
+    ]
+  },
+  "derived_edge_degree_histogram": {
+    "2": 24561,
+    "4": 3
+  },
+  "bad_edge_count": 3,
+  "orientation_failures": 0,
+  "minimum_triangle_area_m2": 7.155919175423525e-11,
+  "original_area_gate_pass": true,
+  "remaining_bad_edges": [
+    {
+      "derived_vertex_ids": [
+        1708,
+        1709
+      ],
+      "exact_coordinates": [
+        [
+          "4189/250000",
+          "227/250000",
+          "5153/100000"
+        ],
+        [
+          "167/10000",
+          "779/1000000",
+          "10317/200000"
+        ]
+      ],
+      "degree": 4,
+      "orientation_sum": 0,
+      "incident_faces": [
+        {
+          "derived_id": 3006,
+          "raw_id": 3006,
+          "derived_vertex_ids": [
+            1707,
+            1708,
+            1709
+          ],
+          "exact_coordinates": [
+            [
+              "3467/200000",
+              "449/200000",
+              "49979/1000000"
+            ],
+            [
+              "4189/250000",
+              "227/250000",
+              "5153/100000"
+            ],
+            [
+              "167/10000",
+              "779/1000000",
+              "10317/200000"
+            ]
+          ],
+          "positive_area_exact": true
+        },
+        {
+          "derived_id": 3569,
+          "raw_id": 3570,
+          "derived_vertex_ids": [
+            1708,
+            1709,
+            1951
+          ],
+          "exact_coordinates": [
+            [
+              "4189/250000",
+              "227/250000",
+              "5153/100000"
+            ],
+            [
+              "167/10000",
+              "779/1000000",
+              "10317/200000"
+            ],
+            [
+              "2091/125000",
+              "211/250000",
+              "1611/31250"
+            ]
+          ],
+          "positive_area_exact": true
+        },
+        {
+          "derived_id": 3570,
+          "raw_id": 3571,
+          "derived_vertex_ids": [
+            1709,
+            1708,
+            1951
+          ],
+          "exact_coordinates": [
+            [
+              "167/10000",
+              "779/1000000",
+              "10317/200000"
+            ],
+            [
+              "4189/250000",
+              "227/250000",
+              "5153/100000"
+            ],
+            [
+              "2091/125000",
+              "211/250000",
+              "1611/31250"
+            ]
+          ],
+          "positive_area_exact": true
+        },
+        {
+          "derived_id": 3571,
+          "raw_id": 3573,
+          "derived_vertex_ids": [
+            1714,
+            1709,
+            1708
+          ],
+          "exact_coordinates": [
+            [
+              "8551/500000",
+              "1431/1000000",
+              "53069/1000000"
+            ],
+            [
+              "167/10000",
+              "779/1000000",
+              "10317/200000"
+            ],
+            [
+              "4189/250000",
+              "227/250000",
+              "5153/100000"
+            ]
+          ],
+          "positive_area_exact": true
+        }
+      ]
+    },
+    {
+      "derived_vertex_ids": [
+        5271,
+        5272
+      ],
+      "exact_coordinates": [
+        [
+          "-60459/1000000",
+          "2753/100000",
+          "28081/500000"
+        ],
+        [
+          "-12081/200000",
+          "27661/1000000",
+          "56137/1000000"
+        ]
+      ],
+      "degree": 4,
+      "orientation_sum": 0,
+      "incident_faces": [
+        {
+          "derived_id": 9914,
+          "raw_id": 9917,
+          "derived_vertex_ids": [
+            5267,
+            5271,
+            5272
+          ],
+          "exact_coordinates": [
+            [
+              "-151/2500",
+              "27679/1000000",
+              "27239/500000"
+            ],
+            [
+              "-60459/1000000",
+              "2753/100000",
+              "28081/500000"
+            ],
+            [
+              "-12081/200000",
+              "27661/1000000",
+              "56137/1000000"
+            ]
+          ],
+          "positive_area_exact": true
+        },
+        {
+          "derived_id": 9915,
+          "raw_id": 9918,
+          "derived_vertex_ids": [
+            5272,
+            5271,
+            5273
+          ],
+          "exact_coordinates": [
+            [
+              "-12081/200000",
+              "27661/1000000",
+              "56137/1000000"
+            ],
+            [
+              "-60459/1000000",
+              "2753/100000",
+              "28081/500000"
+            ],
+            [
+              "-60431/1000000",
+              "27593/1000000",
+              "11227/200000"
+            ]
+          ],
+          "positive_area_exact": true
+        },
+        {
+          "derived_id": 9916,
+          "raw_id": 9920,
+          "derived_vertex_ids": [
+            5271,
+            5272,
+            5273
+          ],
+          "exact_coordinates": [
+            [
+              "-60459/1000000",
+              "2753/100000",
+              "28081/500000"
+            ],
+            [
+              "-12081/200000",
+              "27661/1000000",
+              "56137/1000000"
+            ],
+            [
+              "-60431/1000000",
+              "27593/1000000",
+              "11227/200000"
+            ]
+          ],
+          "positive_area_exact": true
+        },
+        {
+          "derived_id": 9920,
+          "raw_id": 9924,
+          "derived_vertex_ids": [
+            5270,
+            5272,
+            5271
+          ],
+          "exact_coordinates": [
+            [
+              "-12127/200000",
+              "3389/125000",
+              "28327/500000"
+            ],
+            [
+              "-12081/200000",
+              "27661/1000000",
+              "56137/1000000"
+            ],
+            [
+              "-60459/1000000",
+              "2753/100000",
+              "28081/500000"
+            ]
+          ],
+          "positive_area_exact": true
+        }
+      ]
+    },
+    {
+      "derived_vertex_ids": [
+        6287,
+        6288
+      ],
+      "exact_coordinates": [
+        [
+          "-59087/1000000",
+          "31893/1000000",
+          "16461/500000"
+        ],
+        [
+          "-29567/500000",
+          "31753/1000000",
+          "32959/1000000"
+        ]
+      ],
+      "degree": 4,
+      "orientation_sum": 0,
+      "incident_faces": [
+        {
+          "derived_id": 12323,
+          "raw_id": 12327,
+          "derived_vertex_ids": [
+            6287,
+            6269,
+            6288
+          ],
+          "exact_coordinates": [
+            [
+              "-59087/1000000",
+              "31893/1000000",
+              "16461/500000"
+            ],
+            [
+              "-59587/1000000",
+              "30059/1000000",
+              "6421/200000"
+            ],
+            [
+              "-29567/500000",
+              "31753/1000000",
+              "32959/1000000"
+            ]
+          ],
+          "positive_area_exact": true
+        },
+        {
+          "derived_id": 12325,
+          "raw_id": 12330,
+          "derived_vertex_ids": [
+            6288,
+            6287,
+            6289
+          ],
+          "exact_coordinates": [
+            [
+              "-29567/500000",
+              "31753/1000000",
+              "32959/1000000"
+            ],
+            [
+              "-59087/1000000",
+              "31893/1000000",
+              "16461/500000"
+            ],
+            [
+              "-59111/1000000",
+              "31821/1000000",
+              "32943/1000000"
+            ]
+          ],
+          "positive_area_exact": true
+        },
+        {
+          "derived_id": 12326,
+          "raw_id": 12331,
+          "derived_vertex_ids": [
+            6287,
+            6288,
+            6289
+          ],
+          "exact_coordinates": [
+            [
+              "-59087/1000000",
+              "31893/1000000",
+              "16461/500000"
+            ],
+            [
+              "-29567/500000",
+              "31753/1000000",
+              "32959/1000000"
+            ],
+            [
+              "-59111/1000000",
+              "31821/1000000",
+              "32943/1000000"
+            ]
+          ],
+          "positive_area_exact": true
+        },
+        {
+          "derived_id": 12331,
+          "raw_id": 12337,
+          "derived_vertex_ids": [
+            6272,
+            6287,
+            6288
+          ],
+          "exact_coordinates": [
+            [
+              "-7289/125000",
+              "33723/1000000",
+              "32683/1000000"
+            ],
+            [
+              "-59087/1000000",
+              "31893/1000000",
+              "16461/500000"
+            ],
+            [
+              "-29567/500000",
+              "31753/1000000",
+              "32959/1000000"
+            ]
+          ],
+          "positive_area_exact": true
+        }
+      ]
+    }
+  ],
+  "duplicate_unoriented_positive_triangle_groups": [
+    {
+      "multiplicity": 2,
+      "derived_face_ids": [
+        3569,
+        3570
+      ],
+      "raw_face_ids": [
+        3570,
+        3571
+      ]
+    },
+    {
+      "multiplicity": 2,
+      "derived_face_ids": [
+        9915,
+        9916
+      ],
+      "raw_face_ids": [
+        9918,
+        9920
+      ]
+    },
+    {
+      "multiplicity": 2,
+      "derived_face_ids": [
+        12325,
+        12326
+      ],
+      "raw_face_ids": [
+        12330,
+        12331
+      ]
+    }
+  ],
+  "mug_query_cases": [
+    {
+      "id": "025_mug_v0",
+      "verified": true,
+      "independent_labels": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "box_centers": [
+        {
+          "candidate_id": 0,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 0,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 0,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 5,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 5,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 5,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 6,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 6,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 6,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 12,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 12,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 12,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 13,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 13,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 13,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 14,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 14,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 14,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 29,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 29,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 29,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 30,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 30,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 30,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 2,
+          "independent_inside": false
+        }
+      ],
+      "robust_candidates": 31,
+      "near_contact_ids": [
+        13
+      ],
+      "max_distance_delta_m": 0.0,
+      "max_winding_delta": 2.220446049250313e-16,
+      "observations_candidates_oracle_equal": true
+    },
+    {
+      "id": "025_mug_v1",
+      "verified": true,
+      "independent_labels": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "box_centers": [
+        {
+          "candidate_id": 0,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 0,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 0,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 5,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 5,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 5,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 6,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 6,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 6,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 12,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 12,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 12,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 13,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 13,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 13,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 14,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 14,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 14,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 15,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 29,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 29,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 29,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 30,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 30,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 30,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 2,
+          "independent_inside": false
+        }
+      ],
+      "robust_candidates": 31,
+      "near_contact_ids": [
+        14
+      ],
+      "max_distance_delta_m": 0.0,
+      "max_winding_delta": 1.1102230246251565e-16,
+      "observations_candidates_oracle_equal": true
+    }
+  ],
+  "query_errors": [],
+  "box_query_cases": "verified in immutable first audit; not reexecuted",
+  "study_denominator": 4,
+  "readiness_v1_decision_unchanged": "REFINE_LINKAGE",
+  "producer_and_original_audit_modified": false,
+  "further_mesh_modification": false,
+  "paired_execution_sha256": "ba59e4e4d672f47a0836cfcbb1e9e2d19b19b512a6121e5df0fdc62a65ee8a08",
+  "inspection_freeze_sha256": "7cff27eecd1e0074806bd890be2c366dc540394c8d6aff7aaaba7f1c8b398bcb",
+  "boundary": "surface set equality and finite-query agreement do not resolve non-two-incidence edges; no readiness/completion promotion"
+}

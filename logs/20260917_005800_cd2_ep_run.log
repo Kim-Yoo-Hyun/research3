@@ -1,0 +1,11 @@
+7af4944f16df9f5d6847c4c89f7a669f3c2e32c25796208c7d9b3a24e9d66afb
+Traceback (most recent call last):
+  File "/study/run.py", line 235, in <module>
+    main()
+  File "/study/run.py", line 182, in main
+    normal = normalize(cfg)
+             ^^^^^^^^^^^^^^
+  File "/study/run.py", line 85, in normalize
+    assert matches, (path, 'no column mapping matches original pickle')
+           ^^^^^^^
+AssertionError: ('nscore/data/LBM/Part2/BikeRotorInstall.npy', 'no column mapping matches original pickle')

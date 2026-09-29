@@ -1,0 +1,3 @@
+/home/yoohyun/research3/datasets/q17/model/qwen3-vl-2b/model.safetensors: OK
+/home/yoohyun/research3/datasets/q17/model/oft_subtask_action_12_ws/checkpoints/steps_100000_pytorch_model.pt: OK
+Q17 model assets verified

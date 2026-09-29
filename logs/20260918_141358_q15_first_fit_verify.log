@@ -1,0 +1,15 @@
+{
+  "command": [
+    "docker",
+    "exec",
+    "research3-q15-run-20260918_140535_277414",
+    "python",
+    "-B",
+    "-c",
+    "import json\nfrom pathlib import Path\nimport numpy as np\nfrom verify import check_reward,digest\np=Path('/output/v1/fits/native_101')\nrows=[json.loads(x) for x in (p/'training.jsonl').read_text().splitlines()]\nassert len(rows)==195 and rows[-1]['transitions']==9984000 and rows[-1]['reward_calls']==9750\nchecks=0\nfor f in json.loads((p/'reward_audit.json').read_text()):\n    f={k:np.asarray(v) for k,v in f.items()}\n    checks+=check_reward(f,'native',f['reward'])\nfor it in [97,195]:\n    c=json.loads((p/f'checkpoint_{it}.json').read_text())\n    assert c['sha256']==digest(p/f'checkpoint_{it}.pt') and c['transitions']==it*51200\nprint(json.dumps(dict(status='passed',training_updates=195,transitions=9984000,reward_samples=checks,checkpoints=2)))\n"
+  ],
+  "parent_job": "runs/q15/reward/jobs/20260918_140535_277414_run.json",
+  "exit": 0,
+  "stdout": "{\"status\": \"passed\", \"training_updates\": 195, \"transitions\": 9984000, \"reward_samples\": 64, \"checkpoints\": 2}\n",
+  "stderr": ""
+}

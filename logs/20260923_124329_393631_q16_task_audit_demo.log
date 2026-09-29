@@ -1,0 +1,47 @@
+{
+  "episodes": 888,
+  "source_commit": "baab60ede2e89167c1b7aaed41a9aa8e690a9d1e",
+  "first_layout": {
+    "actions": [
+      93,
+      3
+    ],
+    "env_states/actors/Tee": [
+      94,
+      13
+    ],
+    "env_states/actors/goal_Tee": [
+      94,
+      13
+    ],
+    "env_states/actors/goal_ee": [
+      94,
+      13
+    ],
+    "env_states/actors/table-workspace": [
+      94,
+      13
+    ],
+    "env_states/articulations/panda_stick": [
+      94,
+      27
+    ],
+    "success": [
+      93
+    ],
+    "terminated": [
+      93
+    ],
+    "truncated": [
+      93
+    ]
+  }
+}
+{"episode_id": 0, "steps": 93, "replay_initial_metric": 0.2715151607990265, "replay_final_metric": 0.0, "replay_final_success": false}
+{"episode_id": 3, "steps": 100, "replay_initial_metric": 0.035151515156030655, "replay_final_metric": 0.0, "replay_final_success": false}
+{"episode_id": 4, "steps": 99, "replay_initial_metric": 0.4060606062412262, "replay_final_metric": 0.035151515156030655, "replay_final_success": false}
+{"episode_id": 5, "steps": 100, "replay_initial_metric": 0.3672727346420288, "replay_final_metric": 0.0, "replay_final_success": false}
+{"episode_id": 6, "steps": 100, "replay_initial_metric": 0.15030303597450256, "replay_final_metric": 0.036363635212183, "replay_final_success": false}
+{"episode_id": 7, "steps": 100, "replay_initial_metric": 0.31757575273513794, "replay_final_metric": 0.0, "replay_final_success": false}
+{"episode_id": 8, "steps": 100, "replay_initial_metric": 0.3951515257358551, "replay_final_metric": 0.47999998927116394, "replay_final_success": false}
+{"episode_id": 9, "steps": 100, "replay_initial_metric": 0.2824242413043976, "replay_final_metric": 0.2836363613605499, "replay_final_success": false}

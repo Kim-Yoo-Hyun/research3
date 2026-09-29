@@ -1,0 +1,22 @@
+93d81e262928e436627d44a0fd6fd8b1228b05156d27c481471fe519f8048226
+d66c2de7670981decb3b8f1f53ce3a97cce8423c03b29c5dbd982e14446f3484
+c5d82b56b4a3a82826eb5e12fca284d6d07e9d8a29ad2f74fb7f4971d5b26922
+{
+  "removed": [
+    {
+      "container": "research3-q3-run-20260918_125407_767289",
+      "id": "93d81e262928e436627d44a0fd6fd8b1228b05156d27c481471fe519f8048226",
+      "files": 38
+    },
+    {
+      "container": "research3-q3-verify-20260918_125545_615905",
+      "id": "d66c2de7670981decb3b8f1f53ce3a97cce8423c03b29c5dbd982e14446f3484",
+      "files": 38
+    },
+    {
+      "container": "research3-q3-verify-20260918_125654_298780",
+      "id": "c5d82b56b4a3a82826eb5e12fca284d6d07e9d8a29ad2f74fb7f4971d5b26922",
+      "files": 38
+    }
+  ]
+}

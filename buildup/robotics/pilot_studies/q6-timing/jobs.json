@@ -1,0 +1,141 @@
+{
+  "jobs": [
+    {
+      "name": "research3-q6-schema-20260915_100733",
+      "status": "completed",
+      "image": "sha256:d558ddf6158302871270e39c4eb7abfcfc339fdb6ed2eeeebf05b79dd185245a",
+      "started_at": "2026-09-15T01:07:33.723448785Z",
+      "finished_at": "2026-09-15T01:07:40.255540938Z",
+      "exit_code": 0,
+      "cpu_quota": 8000000000,
+      "cpuset": "0,1,2,3,4,5,6,7",
+      "memory_bytes": 25769803776,
+      "gpu_requests": null,
+      "mounts": [
+        {
+          "source": "/home/yoohyun/research3/datasets/q6",
+          "destination": "/data",
+          "writable": false
+        },
+        {
+          "source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q6-timing",
+          "destination": "/study",
+          "writable": false
+        },
+        {
+          "source": "/home/yoohyun/research3/runs/q6/readiness",
+          "destination": "/output",
+          "writable": true
+        },
+        {
+          "source": "/home/yoohyun/research3/external/q6",
+          "destination": "/source",
+          "writable": false
+        }
+      ]
+    },
+    {
+      "name": "research3-q6-preflight-20260915_101038",
+      "status": "completed",
+      "image": "sha256:d558ddf6158302871270e39c4eb7abfcfc339fdb6ed2eeeebf05b79dd185245a",
+      "started_at": "2026-09-15T01:10:38.464330815Z",
+      "finished_at": "2026-09-15T01:10:40.894964083Z",
+      "exit_code": 0,
+      "cpu_quota": 8000000000,
+      "cpuset": "0,1,2,3,4,5,6,7",
+      "memory_bytes": 25769803776,
+      "gpu_requests": null,
+      "mounts": [
+        {
+          "source": "/home/yoohyun/research3/runs/q6/readiness",
+          "destination": "/output",
+          "writable": true
+        },
+        {
+          "source": "/home/yoohyun/research3/external/q6",
+          "destination": "/source",
+          "writable": false
+        },
+        {
+          "source": "/home/yoohyun/research3/datasets/q6",
+          "destination": "/data",
+          "writable": false
+        },
+        {
+          "source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q6-timing",
+          "destination": "/study",
+          "writable": false
+        }
+      ]
+    },
+    {
+      "name": "research3-q6-readiness-20260915_101321",
+      "status": "failed_prespecified_gate",
+      "image": "sha256:d558ddf6158302871270e39c4eb7abfcfc339fdb6ed2eeeebf05b79dd185245a",
+      "started_at": "2026-09-15T01:13:22.223511738Z",
+      "finished_at": "2026-09-15T01:14:06.182206573Z",
+      "exit_code": 1,
+      "cpu_quota": 8000000000,
+      "cpuset": "0,1,2,3,4,5,6,7",
+      "memory_bytes": 25769803776,
+      "gpu_requests": null,
+      "mounts": [
+        {
+          "source": "/home/yoohyun/research3/external/q6",
+          "destination": "/source",
+          "writable": false
+        },
+        {
+          "source": "/home/yoohyun/research3/datasets/q6",
+          "destination": "/data",
+          "writable": false
+        },
+        {
+          "source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q6-timing",
+          "destination": "/study",
+          "writable": false
+        },
+        {
+          "source": "/home/yoohyun/research3/runs/q6/readiness",
+          "destination": "/output",
+          "writable": true
+        }
+      ]
+    },
+    {
+      "name": "research3-q6-verify-20260915_101603",
+      "status": "completed",
+      "image": "sha256:d558ddf6158302871270e39c4eb7abfcfc339fdb6ed2eeeebf05b79dd185245a",
+      "started_at": "2026-09-15T01:16:04.147787046Z",
+      "finished_at": "2026-09-15T01:16:20.932254614Z",
+      "exit_code": 0,
+      "cpu_quota": 8000000000,
+      "cpuset": "0,1,2,3,4,5,6,7",
+      "memory_bytes": 25769803776,
+      "gpu_requests": null,
+      "mounts": [
+        {
+          "source": "/home/yoohyun/research3/runs/q6/readiness",
+          "destination": "/output",
+          "writable": true
+        },
+        {
+          "source": "/home/yoohyun/research3/external/q6",
+          "destination": "/source",
+          "writable": false
+        },
+        {
+          "source": "/home/yoohyun/research3/datasets/q6",
+          "destination": "/data",
+          "writable": false
+        },
+        {
+          "source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q6-timing",
+          "destination": "/study",
+          "writable": false
+        }
+      ]
+    }
+  ],
+  "checked_at": "2026-09-15T01:20:28.483549+00:00"
+}

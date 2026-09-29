@@ -1,0 +1,34 @@
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+INPUTS_READY 30
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.09it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.01it/s]
+PREDICTION 1 lemon_source_failure end_only invalid_json 0.911
+PREDICTION 2 lemon_source_failure start_end invalid_json 0.331
+PREDICTION 3 lemon_source_success start_end invalid_json 0.371
+PREDICTION 4 lemon_source_success end_only invalid_json 0.259
+PREDICTION 5 lemon_constructed end_only invalid_json 0.273
+PREDICTION 6 lemon_constructed start_end invalid_json 0.242
+PREDICTION 7 drawer_ball_source_failure start_end invalid_json 0.416
+PREDICTION 8 drawer_ball_source_failure end_only invalid_json 0.169
+PREDICTION 9 drawer_ball_source_success end_only invalid_json 0.154
+PREDICTION 10 drawer_ball_source_success start_end invalid_json 0.281
+PREDICTION 11 drawer_ball_constructed start_end invalid_json 0.269
+PREDICTION 12 drawer_ball_constructed end_only invalid_json 0.314
+PREDICTION 13 sport_ball_source_failure end_only invalid_json 0.132
+PREDICTION 14 sport_ball_source_failure start_end invalid_json 0.292
+PREDICTION 15 sport_ball_source_success start_end invalid_json 0.26
+PREDICTION 16 sport_ball_source_success end_only invalid_json 0.21
+PREDICTION 17 sport_ball_constructed end_only invalid_json 0.278
+PREDICTION 18 sport_ball_constructed start_end invalid_json 0.239
+PREDICTION 19 fruit_source_failure start_end invalid_json 0.264
+PREDICTION 20 fruit_source_failure end_only invalid_json 0.223
+PREDICTION 21 fruit_source_success end_only invalid_json 0.213
+PREDICTION 22 fruit_source_success start_end invalid_json 0.43
+PREDICTION 23 fruit_constructed start_end invalid_json 0.521
+PREDICTION 24 fruit_constructed end_only invalid_json 0.227
+PREDICTION 25 control_76 end_only invalid_json 0.314
+PREDICTION 26 control_76 start_end invalid_json 0.245
+PREDICTION 27 control_121 start_end invalid_json 0.228
+PREDICTION 28 control_121 end_only invalid_json 0.213
+PREDICTION 29 control_122 end_only invalid_json 0.216
+PREDICTION 30 control_122 start_end invalid_json 0.393
+COMPLETED 30

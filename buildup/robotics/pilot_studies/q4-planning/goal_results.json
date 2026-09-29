@@ -1,0 +1,185 @@
+{
+  "attempts": 6,
+  "comparisons": {
+    "lexical_b0": {
+      "equal": 0,
+      "longer": 1,
+      "mean_difference": -35.833333333333336,
+      "paired_valid": 6,
+      "shorter": 5
+    },
+    "nearest_b0": {
+      "equal": 1,
+      "longer": 1,
+      "mean_difference": -8.333333333333334,
+      "paired_valid": 6,
+      "shorter": 4
+    },
+    "scrub": {
+      "equal": 0,
+      "longer": 2,
+      "mean_difference": -1.8333333333333333,
+      "paired_valid": 6,
+      "shorter": 4
+    }
+  },
+  "interpretation_boundary": "Proxy optimum is not plan optimum. Rejected plan transfer excludes only that particular plan.",
+  "mean_objects": 140.5,
+  "mean_plan_length_valid": 69.33333333333333,
+  "mean_planning_seconds": 0.29773797079299885,
+  "mean_preprocess_seconds": 0.004281829887380202,
+  "mean_selection_seconds": 0.0037219603545963764,
+  "mode": "single exploratory follow-up, reused six problems; no new held-out evidence",
+  "table": [
+    {
+      "action_counts": {
+        "gotolocation": 6,
+        "gotoplace": 15,
+        "gotoroom": 17,
+        "pickupiteminreceptacle": 3,
+        "pickupitemnoreceptacle": 2,
+        "putiteminreceptacle": 5
+      },
+      "full": 38,
+      "goal_b0": 48,
+      "goal_proxy": 38,
+      "lexical_b0": 106,
+      "nearest_b0": 70,
+      "nearest_proxy": 44,
+      "objects": 141,
+      "planning_seconds": 0.31462637707591057,
+      "problem_id": 40,
+      "scrub": 38,
+      "selection_seconds": 0.004789064172655344,
+      "status": "valid"
+    },
+    {
+      "action_counts": {
+        "gotolocation": 2,
+        "gotoplace": 29,
+        "gotoroom": 69,
+        "openreceptacle": 2,
+        "pickupiteminreceptacle": 4,
+        "pickupitemnoreceptacle": 4,
+        "putiteminopeningreceptacle": 3,
+        "putiteminreceptacle": 5
+      },
+      "full": "timeout",
+      "goal_b0": 118,
+      "goal_proxy": 45,
+      "lexical_b0": 169,
+      "nearest_b0": 118,
+      "nearest_proxy": 45,
+      "objects": 134,
+      "planning_seconds": 0.314229188952595,
+      "problem_id": 41,
+      "scrub": 110,
+      "selection_seconds": 0.0028459811583161354,
+      "status": "valid"
+    },
+    {
+      "action_counts": {
+        "gotolocation": 6,
+        "gotoplace": 19,
+        "gotoroom": 28,
+        "pickupiteminreceptacle": 4,
+        "pickupitemnoreceptacle": 2,
+        "putiteminreceptacle": 6
+      },
+      "full": 66,
+      "goal_b0": 65,
+      "goal_proxy": 56,
+      "lexical_b0": 61,
+      "nearest_b0": 72,
+      "nearest_proxy": 68,
+      "objects": 138,
+      "planning_seconds": 0.31417488073930144,
+      "problem_id": 42,
+      "scrub": 67,
+      "selection_seconds": 0.0028699422255158424,
+      "status": "valid"
+    },
+    {
+      "action_counts": {
+        "gotoplace": 21,
+        "gotoroom": 37,
+        "openreceptacle": 1,
+        "pickupiteminreceptacle": 1,
+        "pickupitemnoreceptacle": 5,
+        "putiteminopeningreceptacle": 1,
+        "putiteminreceptacle": 5
+      },
+      "full": 79,
+      "goal_b0": 71,
+      "goal_proxy": 33,
+      "lexical_b0": 101,
+      "nearest_b0": 51,
+      "nearest_proxy": 33,
+      "objects": 135,
+      "planning_seconds": 0.2645942000672221,
+      "problem_id": 43,
+      "scrub": 79,
+      "selection_seconds": 0.003953271079808474,
+      "status": "valid"
+    },
+    {
+      "action_counts": {
+        "gotoplace": 18,
+        "gotoroom": 35,
+        "openreceptacle": 1,
+        "pickupitemnoreceptacle": 5,
+        "putiteminopeningreceptacle": 1,
+        "putiteminreceptacle": 4
+      },
+      "full": 78,
+      "goal_b0": 64,
+      "goal_proxy": 53,
+      "lexical_b0": 115,
+      "nearest_b0": 88,
+      "nearest_proxy": 55,
+      "objects": 135,
+      "planning_seconds": 0.2642490458674729,
+      "problem_id": 44,
+      "scrub": 78,
+      "selection_seconds": 0.003950293641537428,
+      "status": "valid"
+    },
+    {
+      "action_counts": {
+        "gotolocation": 6,
+        "gotoplace": 18,
+        "gotoroom": 15,
+        "openreceptacle": 1,
+        "pickupiteminreceptacle": 4,
+        "pickupitemnoreceptacle": 1,
+        "putiteminopeningreceptacle": 1,
+        "putiteminreceptacle": 4
+      },
+      "full": 56,
+      "goal_b0": 50,
+      "goal_proxy": 42,
+      "lexical_b0": 79,
+      "nearest_b0": 67,
+      "nearest_proxy": 52,
+      "objects": 160,
+      "planning_seconds": 0.3145541320554912,
+      "problem_id": 45,
+      "scrub": 55,
+      "selection_seconds": 0.003923209849745035,
+      "status": "valid"
+    }
+  ],
+  "timing_boundary": "Descriptive single-pass CPU wall time. Prior baselines reused; not a repeated latency or total system comparison.",
+  "valid": 6,
+  "verification": {
+    "boundary": "Independent assignment enumeration and distance formula; separate transition replay plus external VAL. Shared PDDL tokenizer. No physical semantics claim.",
+    "cases": 6,
+    "exhaustive_assignment_checks": 6254,
+    "navigation_distance_checks": 30670,
+    "old_selection_parity_cases": 24,
+    "prior_files_unchanged": 447,
+    "source_hash_checks": 24,
+    "status": "PASS",
+    "transition_goal_checks": 8052
+  }
+}

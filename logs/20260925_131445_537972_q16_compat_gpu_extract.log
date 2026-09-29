@@ -1,0 +1,13 @@
+/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.11/site-packages/sapien/_vulkan_tricks.py:37: UserWarning: Failed to find Vulkan ICD file. This is probably due to an incorrect or partial installation of the NVIDIA driver. SAPIEN will attempt to provide an ICD file anyway but it may not work.
+  warn(
+{"processed": 8, "elapsed_s": 1.6}
+{"processed": 16, "elapsed_s": 3.2}
+{"processed": 24, "elapsed_s": 4.8}
+{"processed": 32, "elapsed_s": 6.2}
+{"processed": 40, "elapsed_s": 7.8}
+{"processed": 48, "elapsed_s": 9.3}
+{"processed": 56, "elapsed_s": 11.0}
+{"processed": 64, "elapsed_s": 12.5}
+{"processed": 72, "elapsed_s": 14.1}

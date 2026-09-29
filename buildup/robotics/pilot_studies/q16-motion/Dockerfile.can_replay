@@ -1,0 +1,15 @@
+FROM python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential linux-libc-dev libgl1 libglib2.0-0 libx11-6 libxext6 libxrender1 libxi6 libxkbcommon-x11-0 && rm -rf /var/lib/apt/lists/*
+COPY requirements.can_replay.lock /recipe/requirements.can_replay.lock
+RUN pip install --no-cache-dir -r /recipe/requirements.can_replay.lock
+COPY --from=source /robosuite-51cc01785bab80ffeed20da15e67d7dd4140e76a/setup.py /opt/robosuite/setup.py
+COPY --from=source /robosuite-51cc01785bab80ffeed20da15e67d7dd4140e76a/README.md /opt/robosuite/README.md
+COPY --from=source /robosuite-51cc01785bab80ffeed20da15e67d7dd4140e76a/MANIFEST.in /opt/robosuite/MANIFEST.in
+COPY --from=source /robosuite-51cc01785bab80ffeed20da15e67d7dd4140e76a/robosuite /opt/robosuite/robosuite
+COPY --from=source /robomimic-ae5799f0fae05c4559ee1f9645b0f77eb5251929/robomimic/envs/env_robosuite.py /reference/robomimic_v050_env_robosuite.py
+COPY --from=source /robomimic-ae5799f0fae05c4559ee1f9645b0f77eb5251929/robomimic/scripts/playback_dataset.py /reference/robomimic_v050_playback_dataset.py
+RUN pip install --no-cache-dir --no-deps /opt/robosuite && pip check && pip freeze --all > /recipe/installed.can_replay.lock
+RUN groupadd -g 1001 research && useradd -m -u 1001 -g 1001 research
+USER 1001:1001
+WORKDIR /study

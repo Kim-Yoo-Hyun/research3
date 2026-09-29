@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-18",
+  "scope": "Documentation, source bytes and static PDDL syntax/goal/domain consistency only; no method imports, planner or numerical runtime",
+  "local_link_targets_checked": 382,
+  "missing_links": [],
+  "source_sha256_verified": 32,
+  "pddl_parentheses_checked": 24,
+  "full_scrub_goal_pairs_equal": 8,
+  "full_scrub_domain_pairs_equal_except_name": 2,
+  "new_anchors_checked": 4,
+  "containers_created": 0,
+  "files_deleted": 0
+}

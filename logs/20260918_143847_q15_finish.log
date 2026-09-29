@@ -1,0 +1,10 @@
+{
+  "pid": 1979642,
+  "record": "/home/yoohyun/research3/runs/q15/reward/jobs/20260918_151757_542531_verify.json",
+  "log": "/home/yoohyun/research3/logs/20260918_151757_542531_q15_verify.log"
+}
+Traceback (most recent call last):
+  File "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward/finish.py", line 36, in <module>
+    assert state['status']=='completed',state.get('log')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: /home/yoohyun/research3/logs/20260918_151757_542531_q15_verify.log

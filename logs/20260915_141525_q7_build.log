@@ -1,0 +1,41 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 371B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#2 DONE 1.2s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#5 resolve docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d 0.0s done
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 2B done
+#6 DONE 0.0s
+
+#7 [2/4] COPY requirements.lock /tmp/requirements.lock
+#7 ERROR: failed to calculate checksum of ref qorrh6lbjzj9jrjdru0lbadjd::vkd3aw4qsl4fqavlt92jsbt49: "/requirements.lock": not found
+------
+ > [2/4] COPY requirements.lock /tmp/requirements.lock:
+------
+Dockerfile:3
+--------------------
+   1 |     FROM python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+   2 |     ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+   3 | >>> COPY requirements.lock /tmp/requirements.lock
+   4 |     RUN pip install --no-cache-dir --require-hashes --only-binary=:all: -r /tmp/requirements.lock
+   5 |     WORKDIR /study
+--------------------
+ERROR: failed to build: failed to solve: failed to compute cache key: failed to calculate checksum of ref qorrh6lbjzj9jrjdru0lbadjd::vkd3aw4qsl4fqavlt92jsbt49: "/requirements.lock": not found

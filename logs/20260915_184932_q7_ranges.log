@@ -1,0 +1,137 @@
+range_complete model-00001-of-00002.safetensors 1013372363 1080481226
+range_complete model-00001-of-00002.safetensors 1080481227 1147590090
+range_complete model-00001-of-00002.safetensors 1281807819 1348916682
+range_complete model-00001-of-00002.safetensors 1214698955 1281807818
+range_complete model-00001-of-00002.safetensors 812045771 879154634
+range_complete model-00001-of-00002.safetensors 946263499 1013372362
+range_complete model-00001-of-00002.safetensors 879154635 946263498
+range_complete model-00001-of-00002.safetensors 1483134411 1550243274
+range_complete model-00001-of-00002.safetensors 1416025547 1483134410
+range_complete model-00001-of-00002.safetensors 1147590091 1214698954
+range_complete model-00001-of-00002.safetensors 1751569867 1818678730
+range_complete model-00001-of-00002.safetensors 1348916683 1416025546
+range_complete model-00001-of-00002.safetensors 1550243275 1617352138
+range_complete model-00001-of-00002.safetensors 1885787595 1952896458
+range_complete model-00001-of-00002.safetensors 2221331915 2288440778
+range_complete model-00001-of-00002.safetensors 1617352139 1684461002
+range_complete model-00001-of-00002.safetensors 1952896459 2020005322
+range_complete model-00001-of-00002.safetensors 2355549643 2422658506
+range_complete model-00001-of-00002.safetensors 1818678731 1885787594
+range_complete model-00001-of-00002.safetensors 2087114187 2154223050
+range_retry model-00001-of-00002.safetensors 1684461003 0 AssertionError (1743977404, 1751569866)
+range_complete model-00001-of-00002.safetensors 2623985099 2691093962
+range_complete model-00001-of-00002.safetensors 1684461003 1751569866
+range_retry model-00001-of-00002.safetensors 2020005323 0 AssertionError (2070805977, 2087114186)
+range_complete model-00001-of-00002.safetensors 2288440779 2355549642
+range_complete model-00001-of-00002.safetensors 2691093963 2758202826
+range_complete model-00001-of-00002.safetensors 2758202827 2825311690
+range_complete model-00001-of-00002.safetensors 2892420555 2959529418
+range_complete model-00001-of-00002.safetensors 2556876235 2623985098
+range_retry model-00001-of-00002.safetensors 2422658507 0 TimeoutError The read operation timed out
+range_complete model-00001-of-00002.safetensors 2489767371 2556876234
+range_complete model-00001-of-00002.safetensors 2020005323 2087114186
+range_complete model-00001-of-00002.safetensors 2154223051 2221331914
+range_retry model-00001-of-00002.safetensors 2825311691 0 AssertionError (2870509377, 2892420554)
+range_complete model-00001-of-00002.safetensors 3160856011 3227964874
+range_complete model-00001-of-00002.safetensors 3026638283 3093747146
+range_complete model-00001-of-00002.safetensors 3227964875 3295073738
+range_complete model-00001-of-00002.safetensors 2422658507 2489767370
+range_complete model-00001-of-00002.safetensors 2825311691 2892420554
+range_complete model-00001-of-00002.safetensors 2959529419 3026638282
+range_complete model-00001-of-00002.safetensors 3630618059 3697726922
+range_complete model-00001-of-00002.safetensors 3295073739 3362182602
+range_complete model-00001-of-00002.safetensors 3496400331 3563509194
+range_complete model-00001-of-00002.safetensors 3429291467 3496400330
+range_complete model-00001-of-00002.safetensors 3764835787 3831944650
+range_complete model-00001-of-00002.safetensors 3697726923 3764835786
+range_complete model-00001-of-00002.safetensors 3093747147 3160856010
+range_complete model-00001-of-00002.safetensors 3563509195 3630618058
+range_complete model-00001-of-00002.safetensors 4100380107 4167488970
+range_complete model-00001-of-00002.safetensors 3899053515 3966162378
+range_retry model-00001-of-00002.safetensors 3831944651 0 AssertionError (3888870375, 3899053514)
+range_complete model-00001-of-00002.safetensors 4033271243 4100380106
+range_complete model-00001-of-00002.safetensors 4234597835 4301706698
+range_complete model-00001-of-00002.safetensors 3966162379 4033271242
+range_complete model-00001-of-00002.safetensors 4167488971 4234597834
+range_retry model-00001-of-00002.safetensors 3362182603 0 AssertionError (3395411685, 3429291466)
+range_complete model-00001-of-00002.safetensors 4435924427 4503033290
+range_complete model-00001-of-00002.safetensors 4570142155 4637251018
+range_complete model-00001-of-00002.safetensors 3831944651 3899053514
+range_complete model-00001-of-00002.safetensors 4503033291 4570142154
+range_complete model-00001-of-00002.safetensors 4368815563 4435924426
+range_complete model-00001-of-00002.safetensors 4637251019 4704359882
+range_complete model-00001-of-00002.safetensors 4301706699 4368815562
+range_complete model-00001-of-00002.safetensors 4838577611 4905686474
+range_complete model-00002-of-00002.safetensors 854488858 921597721
+range_complete model-00001-of-00002.safetensors 3362182603 3429291466
+range_complete model-00001-of-00002.safetensors 4905686475 4959390583
+range_complete model-00002-of-00002.safetensors 1122924314 1190033177
+range_complete model-00002-of-00002.safetensors 787379994 854488857
+range_complete model-00001-of-00002.safetensors 4771468747 4838577610
+range_complete model-00002-of-00002.safetensors 1055815450 1122924313
+range_complete model-00002-of-00002.safetensors 1324250906 1391359769
+range_complete model-00002-of-00002.safetensors 1391359770 1458468633
+range_complete model-00002-of-00002.safetensors 1190033178 1257142041
+range_complete model-00002-of-00002.safetensors 1659795226 1726904089
+range_complete model-00002-of-00002.safetensors 988706586 1055815449
+range_complete model-00002-of-00002.safetensors 1592686362 1659795225
+range_complete model-00002-of-00002.safetensors 1257142042 1324250905
+range_complete model-00002-of-00002.safetensors 1726904090 1794012953
+range_complete model-00002-of-00002.safetensors 1928230682 1995339545
+range_complete model-00002-of-00002.safetensors 1794012954 1861121817
+range_complete model-00002-of-00002.safetensors 1458468634 1525577497
+range_retry model-00001-of-00002.safetensors 4704359883 0 AssertionError (4734989027, 4771468746)
+range_complete model-00002-of-00002.safetensors 2062448410 2129557273
+range_complete model-00002-of-00002.safetensors 1861121818 1928230681
+range_complete model-00002-of-00002.safetensors 2129557274 2196666137
+range_complete model-00002-of-00002.safetensors 2196666138 2263775001
+range_complete model-00002-of-00002.safetensors 1995339546 2062448409
+range_complete model-00002-of-00002.safetensors 1525577498 1592686361
+range_complete model-00002-of-00002.safetensors 2330883866 2397992729
+range_complete model-00002-of-00002.safetensors 2397992730 2465101593
+range_complete model-00002-of-00002.safetensors 2465101594 2532210457
+range_complete model-00002-of-00002.safetensors 2263775002 2330883865
+range_retry model-00002-of-00002.safetensors 921597722 0 TimeoutError The read operation timed out
+range_complete model-00002-of-00002.safetensors 2666428186 2733537049
+range_complete model-00002-of-00002.safetensors 2532210458 2599319321
+range_complete model-00002-of-00002.safetensors 2800645914 2867754777
+range_complete model-00002-of-00002.safetensors 3001972506 3069081369
+range_complete model-00002-of-00002.safetensors 2733537050 2800645913
+range_complete model-00002-of-00002.safetensors 2599319322 2666428185
+range_complete model-00002-of-00002.safetensors 3069081370 3136190233
+range_complete model-00002-of-00002.safetensors 3270407962 3337516825
+range_complete model-00002-of-00002.safetensors 2867754778 2934863641
+range_complete model-00002-of-00002.safetensors 3203299098 3270407961
+range_complete model-00002-of-00002.safetensors 3404625690 3471734553
+range_complete model-00002-of-00002.safetensors 3337516826 3404625689
+range_complete model-00002-of-00002.safetensors 3538843418 3605952281
+range_complete model-00002-of-00002.safetensors 3471734554 3538843417
+range_retry model-00002-of-00002.safetensors 2934863642 0 AssertionError (2986275520, 3001972505)
+range_complete model-00002-of-00002.safetensors 921597722 988706585
+range_complete model-00002-of-00002.safetensors 3136190234 3203299097
+range_complete model-00002-of-00002.safetensors 3807278874 3874387737
+range_complete model-00002-of-00002.safetensors 3740170010 3807278873
+range_complete model-00002-of-00002.safetensors 3874387738 3941496601
+range_retry model-00001-of-00002.safetensors 4704359883 1 TimeoutError The read operation timed out
+range_complete model-00002-of-00002.safetensors 3673061146 3740170009
+range_complete model-00002-of-00002.safetensors 3941496602 4008605465
+range_complete model-00002-of-00002.safetensors 4008605466 4027833471
+range_complete model-00002-of-00002.safetensors 3605952282 3673061145
+range_complete model-00002-of-00002.safetensors 2934863642 3001972505
+range_complete model-00001-of-00002.safetensors 4704359883 4771468746
+verified chat_template.json 430
+verified added_tokens.json 4739
+verified README.md 11437
+verified config.json 3642
+verified merges.txt 466391
+verified generation_config.json 136
+verified model.safetensors.index.json 63881
+verified preprocessor_config.json 599
+verified processor_config.json 67
+verified special_tokens_map.json 868
+verified tokenizer.json 3548256
+verified tokenizer_config.json 28627
+verified vocab.json 800662
+verified model-00002-of-00002.safetensors 4027833472
+verified model-00001-of-00002.safetensors 4959390584
+COMPLETED 15 files 8992153791 bytes

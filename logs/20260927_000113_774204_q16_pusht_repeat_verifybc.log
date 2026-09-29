@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "fit_sha256": "923a3bfc50d3015587ad948d2c7eb15e0dd193d96cd6dee89de9e901b1a7f088",
+  "evaluation_sha256": "9ad30a31cf5b744fb484cd039e531a2fcf865d3e0a0d44ec6b825ddadb7b163e",
+  "dataset_episodes": 206,
+  "dataset_rows": 25650,
+  "evaluation_seeds": 16,
+  "trace_count": 32,
+  "counts": {
+    "hold": {
+      "success": 0,
+      "contact_failure": 1,
+      "contact": 1
+    },
+    "ridge_bc": {
+      "success": 0,
+      "contact_failure": 16,
+      "contact": 16
+    }
+  }
+}

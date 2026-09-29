@@ -1,0 +1,207 @@
+{
+  "study": "Q16 delayed object observation on collision-only PushCube",
+  "status": "verified exploratory observation",
+  "source_commit": "a4a4f9272ad64b1564035874b605ceb687b63ed8",
+  "image_id": "sha256:d08597a264007e3254686db6fb7cc8659b2ef1cb9ac00387df06d5dbe72fd421",
+  "lag_steps": 4,
+  "lag_seconds": 0.2,
+  "native_goal_radius_m": 0.1,
+  "episode_steps": 50,
+  "teacher": {
+    "nominal_train": {
+      "n": 96,
+      "native_success": 96
+    },
+    "nominal_val": {
+      "n": 24,
+      "native_success": 24
+    },
+    "extra_train": {
+      "n": 32,
+      "native_success": 32
+    },
+    "extra_val": {
+      "n": 8,
+      "native_success": 8
+    }
+  },
+  "model_fit": {
+    "frozen_policy": {
+      "train_windows": 4128,
+      "val_windows": 1032,
+      "parameters": 202816,
+      "best_epoch": 60
+    },
+    "updated_policy": {
+      "train_windows": 5504,
+      "val_windows": 1376,
+      "parameters": 202816,
+      "best_epoch": 60
+    },
+    "dynamics": {
+      "train_windows": 5504,
+      "val_windows": 1376,
+      "parameters": 108592,
+      "best_epoch": 60
+    }
+  },
+  "dynamics_val_object_rmse_m": 0.005807758774608374,
+  "evaluation": {
+    "seed_start": 44000,
+    "seed_count": 16,
+    "routes": [
+      "delayed_feedback",
+      "velocity_feedback",
+      "frozen",
+      "updated",
+      "model_guided",
+      "clean_feedback"
+    ],
+    "groups": {
+      "nominal/delayed_feedback": {
+        "n": 16,
+        "successes": 16,
+        "mean_final_xy_error_m": 0.04669873882085085,
+        "median_final_xy_error_m": 0.04131701402366161,
+        "mean_latency_ms": 0.043718633241951466
+      },
+      "nominal/velocity_feedback": {
+        "n": 16,
+        "successes": 16,
+        "mean_final_xy_error_m": 0.04668006161227822,
+        "median_final_xy_error_m": 0.0412957388907671,
+        "mean_latency_ms": 0.049435533583164215
+      },
+      "nominal/frozen": {
+        "n": 16,
+        "successes": 9,
+        "mean_final_xy_error_m": 0.09649882931262255,
+        "median_final_xy_error_m": 0.0892961286008358,
+        "mean_latency_ms": 1.016259805765003
+      },
+      "nominal/updated": {
+        "n": 16,
+        "successes": 10,
+        "mean_final_xy_error_m": 0.07902934704907238,
+        "median_final_xy_error_m": 0.07641617953777313,
+        "mean_latency_ms": 1.0156322363764048
+      },
+      "nominal/model_guided": {
+        "n": 16,
+        "successes": 6,
+        "mean_final_xy_error_m": 0.09849761065561324,
+        "median_final_xy_error_m": 0.10642869770526886,
+        "mean_latency_ms": 1.1184214451350272
+      },
+      "nominal/clean_feedback": {
+        "n": 16,
+        "successes": 16,
+        "mean_final_xy_error_m": 0.046717199264094234,
+        "median_final_xy_error_m": 0.04130481369793415,
+        "mean_latency_ms": 0.04356492776423693
+      },
+      "low_friction/delayed_feedback": {
+        "n": 16,
+        "successes": 16,
+        "mean_final_xy_error_m": 0.01701694085204508,
+        "median_final_xy_error_m": 0.012724244967103004,
+        "mean_latency_ms": 0.042939072009176016
+      },
+      "low_friction/velocity_feedback": {
+        "n": 16,
+        "successes": 16,
+        "mean_final_xy_error_m": 0.01669490142376162,
+        "median_final_xy_error_m": 0.012856469955295324,
+        "mean_latency_ms": 0.04655103664845228
+      },
+      "low_friction/frozen": {
+        "n": 16,
+        "successes": 9,
+        "mean_final_xy_error_m": 0.07485810306388885,
+        "median_final_xy_error_m": 0.06966226175427437,
+        "mean_latency_ms": 1.0118167917244136
+      },
+      "low_friction/updated": {
+        "n": 16,
+        "successes": 10,
+        "mean_final_xy_error_m": 0.08345036022365093,
+        "median_final_xy_error_m": 0.059083424508571625,
+        "mean_latency_ms": 1.0193029348738492
+      },
+      "low_friction/model_guided": {
+        "n": 16,
+        "successes": 9,
+        "mean_final_xy_error_m": 0.09583670302527025,
+        "median_final_xy_error_m": 0.09285518527030945,
+        "mean_latency_ms": 1.091187265701592
+      },
+      "low_friction/clean_feedback": {
+        "n": 16,
+        "successes": 16,
+        "mean_final_xy_error_m": 0.01980375818675384,
+        "median_final_xy_error_m": 0.013845990877598524,
+        "mean_latency_ms": 0.04431253997609019
+      }
+    },
+    "paired_vs_frozen": {
+      "nominal": {
+        "delayed_feedback": {
+          "rescued": 7,
+          "harmed": 0,
+          "unchanged": 9
+        },
+        "velocity_feedback": {
+          "rescued": 7,
+          "harmed": 0,
+          "unchanged": 9
+        },
+        "updated": {
+          "rescued": 2,
+          "harmed": 1,
+          "unchanged": 13
+        },
+        "model_guided": {
+          "rescued": 0,
+          "harmed": 3,
+          "unchanged": 13
+        },
+        "clean_feedback": {
+          "rescued": 7,
+          "harmed": 0,
+          "unchanged": 9
+        }
+      },
+      "low_friction": {
+        "delayed_feedback": {
+          "rescued": 7,
+          "harmed": 0,
+          "unchanged": 9
+        },
+        "velocity_feedback": {
+          "rescued": 7,
+          "harmed": 0,
+          "unchanged": 9
+        },
+        "updated": {
+          "rescued": 2,
+          "harmed": 1,
+          "unchanged": 13
+        },
+        "model_guided": {
+          "rescued": 2,
+          "harmed": 2,
+          "unchanged": 12
+        },
+        "clean_feedback": {
+          "rescued": 7,
+          "harmed": 0,
+          "unchanged": 9
+        }
+      }
+    },
+    "episodes": 192,
+    "states": 9792,
+    "checked_checksums": 352
+  },
+  "claim_boundary": "Constructed exact-state 0.2 s latency; clean feedback is privileged reference. No visual, real-world, multi-object or paper-level claim."
+}

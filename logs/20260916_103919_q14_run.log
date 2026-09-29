@@ -1,0 +1,5 @@
+{"model": "joint_0", "mode": "joint", "seed": 0, "updates": 1000, "batch_size": 128, "parameter_count": 4996, "initial_training_loss": 0.6731778979301453, "final_training_loss": 0.002254036720842123, "seconds": 0.3629418150521815}
+{"model": "direct_0", "mode": "direct", "seed": 0, "updates": 1000, "batch_size": 128, "parameter_count": 4866, "initial_training_loss": 0.09156934916973114, "final_training_loss": 0.0029148159082978964, "seconds": 0.3064065482467413}
+{"model": "joint_1", "mode": "joint", "seed": 1, "updates": 1000, "batch_size": 128, "parameter_count": 4996, "initial_training_loss": 0.6741520762443542, "final_training_loss": 0.002205225406214595, "seconds": 0.36244546389207244}
+{"model": "direct_1", "mode": "direct", "seed": 1, "updates": 1000, "batch_size": 128, "parameter_count": 4866, "initial_training_loss": 0.10162584483623505, "final_training_loss": 0.00362425297498703, "seconds": 0.30870755203068256}
+{"status": "completed; needs verification", "seconds": 1.7754400372505188}

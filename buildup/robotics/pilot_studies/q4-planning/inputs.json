@@ -1,0 +1,231 @@
+{
+  "owner": "buildup/robotics/related_work/comparison_sources.json:q3_q4_comparison_20260918",
+  "files": [
+    {
+      "path": "pddlgym/pddl/taskographyv2tiny1.pddl",
+      "bytes": 4731,
+      "sha256": "101d9b4b017794cf2b39b3dbdc93198d0f26c1d20d689ad10bc0503786c29d33",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv2tiny1/problem0.pddl",
+      "bytes": 42821,
+      "sha256": "05e6a000ec5cff6faafd544aec9489b0bf1723ed2d32f7aacf05f83a10b4fccd",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1/problem0.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv2tiny1scrub/problem0.pddl",
+      "bytes": 42826,
+      "sha256": "a86b1f43cfcfdc6a945829aba5c15dca8ba0249b863f79f88780d68da5635dde",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1scrub/problem0.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5.pddl",
+      "bytes": 5298,
+      "sha256": "6d25cfba01a4e788019e760070aff1247ff9bddbeefc51544fb0ff37e66e11dd",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5/problem0.pddl",
+      "bytes": 47138,
+      "sha256": "4fdc186855b661b51d87ea01107ab516fccf9a90dab82d0dfc2bc30b2ef830b0",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5/problem0.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5scrub/problem0.pddl",
+      "bytes": 47143,
+      "sha256": "488356aeba84c51a8101eca08ec78f96be24a66bb6d5475f80248ba409205420",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub/problem0.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv2tiny1scrub.pddl",
+      "bytes": 4736,
+      "sha256": "b409f673d1f3f6c291b9cd3b342a39f73362c4b343b7b3a85e36c0a99b811b50",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1scrub.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5scrub.pddl",
+      "bytes": 5303,
+      "sha256": "6fda82d0671c9364168c890270d8ed06821c192cc327de15fcdecb6e44cdfa74",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv2tiny1_test/problem40.pddl",
+      "bytes": 49668,
+      "sha256": "c22f3622331133c382a75e9b5b4c84526c260ad7bb1d4c5696abeaef3425e8ff",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1_test/problem40.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv2tiny1scrub_test/problem40.pddl",
+      "bytes": 13995,
+      "sha256": "bd56d4400800f87c194d1049a9f556976f2aad2f51b44f463065801a57408b3c",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1scrub_test/problem40.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv2tiny1_test/problem41.pddl",
+      "bytes": 49680,
+      "sha256": "e60d6d56eff34e0095f2509fcc71c0292c66e83450ba38b30251d30349f9f78e",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1_test/problem41.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv2tiny1scrub_test/problem41.pddl",
+      "bytes": 13999,
+      "sha256": "9ba885618c9dbc4c087b6672516f010da66de45a5b20ea448f22d4f3f3beabb9",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1scrub_test/problem41.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5_test/problem40.pddl",
+      "bytes": 46594,
+      "sha256": "a8f5388beb92241c6fb162061c533ad58dfe185db3339400f5afa96c7147cfaa",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem40.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem40.pddl",
+      "bytes": 38704,
+      "sha256": "520eaf9aaca5bdb27cb468c2b74eb0c04512e64de063f784c966f6ed234785e0",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem40.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5_test/problem41.pddl",
+      "bytes": 46604,
+      "sha256": "6b2be1d585bea8805be65c00dcf7b128ba45dbaaeb5beae6c665c7eb90dba276",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem41.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem41.pddl",
+      "bytes": 36837,
+      "sha256": "939d14833faf6af2352cbeea690d2970c6d4bf1ddd97cfbf20bd091e7a26e74d",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem41.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5_test/problem42.pddl",
+      "bytes": 46600,
+      "sha256": "39d22870e55876b70f8ea3a8ed6f9e7a54096bff494cd9d37ec7f55af6c90bf7",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem42.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem42.pddl",
+      "bytes": 41435,
+      "sha256": "32596c63e29c9e3730380b54c6de20962e6af233ed2db9dc2646360fb7616ba7",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem42.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5_test/problem43.pddl",
+      "bytes": 46591,
+      "sha256": "0bf9ad5452e0471a532da66f3c2e514ef38372ad36ae0b4d8047df9782eca747",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem43.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem43.pddl",
+      "bytes": 41923,
+      "sha256": "ed4d964001eef9203d2ed26915fe5ec6268ba7c89be5c36f120073d5670c02df",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem43.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5_test/problem44.pddl",
+      "bytes": 46622,
+      "sha256": "7377d20d055974f51eb4426c6e18e74e38fc6fa94eb6299cfded47d8f019b21c",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem44.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem44.pddl",
+      "bytes": 39649,
+      "sha256": "f8d888107987b245ed3110620f3f81544c4933395a692372b5262fe25d6d5251",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem44.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5_test/problem45.pddl",
+      "bytes": 45027,
+      "sha256": "ee1260db2ec0366ecca17817c947609fc8134575e3271546ab9d62f2041daa14",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem45.pddl"
+    },
+    {
+      "path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem45.pddl",
+      "bytes": 41446,
+      "sha256": "25f5a7be54575d528aa5f9aeb015283eae6c4eeb89a070842e5124feec76abd6",
+      "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+      "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem45.pddl"
+    }
+  ],
+  "selected": [
+    {
+      "domain": "taskographyv2tiny1",
+      "problem_id": 40,
+      "full_source_path": "pddlgym/pddl/taskographyv2tiny1_test/problem40.pddl",
+      "scrub_source_path": "pddlgym/pddl/taskographyv2tiny1scrub_test/problem40.pddl",
+      "role": "grounded_sanity"
+    },
+    {
+      "domain": "taskographyv2tiny1",
+      "problem_id": 41,
+      "full_source_path": "pddlgym/pddl/taskographyv2tiny1_test/problem41.pddl",
+      "scrub_source_path": "pddlgym/pddl/taskographyv2tiny1scrub_test/problem41.pddl",
+      "role": "grounded_sanity"
+    },
+    {
+      "domain": "taskographyv4tiny5",
+      "problem_id": 40,
+      "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem40.pddl",
+      "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem40.pddl",
+      "role": "lifted_primary"
+    },
+    {
+      "domain": "taskographyv4tiny5",
+      "problem_id": 41,
+      "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem41.pddl",
+      "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem41.pddl",
+      "role": "lifted_primary"
+    },
+    {
+      "domain": "taskographyv4tiny5",
+      "problem_id": 42,
+      "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem42.pddl",
+      "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem42.pddl",
+      "role": "lifted_primary"
+    },
+    {
+      "domain": "taskographyv4tiny5",
+      "problem_id": 43,
+      "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem43.pddl",
+      "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem43.pddl",
+      "role": "lifted_primary"
+    },
+    {
+      "domain": "taskographyv4tiny5",
+      "problem_id": 44,
+      "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem44.pddl",
+      "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem44.pddl",
+      "role": "lifted_primary"
+    },
+    {
+      "domain": "taskographyv4tiny5",
+      "problem_id": 45,
+      "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem45.pddl",
+      "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem45.pddl",
+      "role": "lifted_primary"
+    }
+  ]
+}

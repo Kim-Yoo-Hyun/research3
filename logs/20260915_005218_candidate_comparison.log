@@ -1,0 +1,14 @@
+{
+  "markdown_files": 17,
+  "local_links": 340,
+  "heading_targets": 146,
+  "errors": [],
+  "cached_files": 21,
+  "cached_bytes": 609154,
+  "source_blobs": 11,
+  "PaperReview_notes_unchanged": 8,
+  "PaperReview_registry_unchanged": true,
+  "checked_at": "2026-09-15T00:52:18.044667+09:00",
+  "git_diff_check": "PASS",
+  "scope": "source metadata and Markdown validation only; no method execution"
+}

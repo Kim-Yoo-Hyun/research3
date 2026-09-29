@@ -1,0 +1,25 @@
+{
+  "id": "q12-preservation-failure-inspection-v1",
+  "status": "completed",
+  "recorded_at_utc": "2026-09-14T02:23:39.178449+00:00",
+  "working_directory": "/home/yoohyun/research3",
+  "image_id": "sha256:0196da1a3a01ca07186c5c2c605d7e8993193ca810b2b6401dc95943dc0b0adb",
+  "source_freeze_sha256": "7cff27eecd1e0074806bd890be2c366dc540394c8d6aff7aaaba7f1c8b398bcb",
+  "launcher": "buildup/robotics/pilot_studies/q12-generated-geometry/geometry/inspection.sh",
+  "launcher_sha256": "ce9b12e9c437674274eb5670415c80c26f492a766dc4bc404254427b2cf300d2",
+  "device": "cpu",
+  "resources": {
+    "cpus": 2,
+    "ram_bytes": 2147483648,
+    "runtime_seconds_cap": 600,
+    "network": "none"
+  },
+  "log": "logs/20260914_112130_q12_preservation_inspection.log",
+  "log_sha256": "ad3cf66250ac6816890457e70fce1c70150091edf84f88d98519f102694e821f",
+  "exit": 0,
+  "exit_file": "logs/20260914_112130_q12_preservation_inspection.exit",
+  "output": "runs/q12_mesh_preservation_v1_inspection/verification.json",
+  "output_bytes": 33779,
+  "output_sha256": "b2bb551a8babb9c6f24cdbb7451fd299271f50e82171186f5e24ee4c24f05236",
+  "prior_paired_execution_sha256": "ba59e4e4d672f47a0836cfcbb1e9e2d19b19b512a6121e5df0fdc62a65ee8a08"
+}

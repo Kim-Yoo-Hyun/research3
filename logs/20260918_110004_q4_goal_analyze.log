@@ -1,0 +1,175 @@
+{
+  "mode": "single exploratory follow-up, reused six problems; no new held-out evidence",
+  "attempts": 6,
+  "valid": 6,
+  "mean_plan_length_valid": 69.33333333333333,
+  "mean_objects": 140.5,
+  "mean_selection_seconds": 0.0037219603545963764,
+  "mean_preprocess_seconds": 0.004281829887380202,
+  "mean_planning_seconds": 0.29773797079299885,
+  "comparisons": {
+    "nearest_b0": {
+      "paired_valid": 6,
+      "shorter": 4,
+      "equal": 1,
+      "longer": 1,
+      "mean_difference": -8.333333333333334
+    },
+    "scrub": {
+      "paired_valid": 6,
+      "shorter": 4,
+      "equal": 0,
+      "longer": 2,
+      "mean_difference": -1.8333333333333333
+    },
+    "lexical_b0": {
+      "paired_valid": 6,
+      "shorter": 5,
+      "equal": 0,
+      "longer": 1,
+      "mean_difference": -35.833333333333336
+    }
+  },
+  "table": [
+    {
+      "problem_id": 40,
+      "status": "valid",
+      "goal_b0": 48,
+      "goal_proxy": 38,
+      "nearest_proxy": 44,
+      "objects": 141,
+      "selection_seconds": 0.004789064172655344,
+      "planning_seconds": 0.31462637707591057,
+      "action_counts": {
+        "gotoroom": 17,
+        "gotoplace": 15,
+        "pickupitemnoreceptacle": 2,
+        "putiteminreceptacle": 5,
+        "gotolocation": 6,
+        "pickupiteminreceptacle": 3
+      },
+      "full": 38,
+      "scrub": 38,
+      "lexical_b0": 106,
+      "nearest_b0": 70
+    },
+    {
+      "problem_id": 41,
+      "status": "valid",
+      "goal_b0": 118,
+      "goal_proxy": 45,
+      "nearest_proxy": 45,
+      "objects": 134,
+      "selection_seconds": 0.0028459811583161354,
+      "planning_seconds": 0.314229188952595,
+      "action_counts": {
+        "gotoroom": 69,
+        "gotoplace": 29,
+        "pickupitemnoreceptacle": 4,
+        "openreceptacle": 2,
+        "putiteminreceptacle": 5,
+        "gotolocation": 2,
+        "pickupiteminreceptacle": 4,
+        "putiteminopeningreceptacle": 3
+      },
+      "full": "timeout",
+      "scrub": 110,
+      "lexical_b0": 169,
+      "nearest_b0": 118
+    },
+    {
+      "problem_id": 42,
+      "status": "valid",
+      "goal_b0": 65,
+      "goal_proxy": 56,
+      "nearest_proxy": 68,
+      "objects": 138,
+      "selection_seconds": 0.0028699422255158424,
+      "planning_seconds": 0.31417488073930144,
+      "action_counts": {
+        "gotoroom": 28,
+        "gotoplace": 19,
+        "gotolocation": 6,
+        "pickupiteminreceptacle": 4,
+        "putiteminreceptacle": 6,
+        "pickupitemnoreceptacle": 2
+      },
+      "full": 66,
+      "scrub": 67,
+      "lexical_b0": 61,
+      "nearest_b0": 72
+    },
+    {
+      "problem_id": 43,
+      "status": "valid",
+      "goal_b0": 71,
+      "goal_proxy": 33,
+      "nearest_proxy": 33,
+      "objects": 135,
+      "selection_seconds": 0.003953271079808474,
+      "planning_seconds": 0.2645942000672221,
+      "action_counts": {
+        "gotoroom": 37,
+        "gotoplace": 21,
+        "pickupitemnoreceptacle": 5,
+        "putiteminreceptacle": 5,
+        "openreceptacle": 1,
+        "putiteminopeningreceptacle": 1,
+        "pickupiteminreceptacle": 1
+      },
+      "full": 79,
+      "scrub": 79,
+      "lexical_b0": 101,
+      "nearest_b0": 51
+    },
+    {
+      "problem_id": 44,
+      "status": "valid",
+      "goal_b0": 64,
+      "goal_proxy": 53,
+      "nearest_proxy": 55,
+      "objects": 135,
+      "selection_seconds": 0.003950293641537428,
+      "planning_seconds": 0.2642490458674729,
+      "action_counts": {
+        "gotoroom": 35,
+        "gotoplace": 18,
+        "pickupitemnoreceptacle": 5,
+        "putiteminreceptacle": 4,
+        "openreceptacle": 1,
+        "putiteminopeningreceptacle": 1
+      },
+      "full": 78,
+      "scrub": 78,
+      "lexical_b0": 115,
+      "nearest_b0": 88
+    },
+    {
+      "problem_id": 45,
+      "status": "valid",
+      "goal_b0": 50,
+      "goal_proxy": 42,
+      "nearest_proxy": 52,
+      "objects": 160,
+      "selection_seconds": 0.003923209849745035,
+      "planning_seconds": 0.3145541320554912,
+      "action_counts": {
+        "gotoroom": 15,
+        "gotoplace": 18,
+        "gotolocation": 6,
+        "pickupiteminreceptacle": 4,
+        "putiteminreceptacle": 4,
+        "openreceptacle": 1,
+        "putiteminopeningreceptacle": 1,
+        "pickupitemnoreceptacle": 1
+      },
+      "full": 56,
+      "scrub": 55,
+      "lexical_b0": 79,
+      "nearest_b0": 67
+    }
+  ],
+  "timing_boundary": "Descriptive single-pass CPU wall time. Prior baselines reused; not a repeated latency or total system comparison.",
+  "interpretation_boundary": "Proxy optimum is not plan optimum. Rejected plan transfer excludes only that particular plan."
+}
+SEALED 113 files

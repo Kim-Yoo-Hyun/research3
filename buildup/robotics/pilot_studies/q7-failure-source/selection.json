@@ -1,0 +1,14 @@
+{
+  "dataset_revision": "fedfcb3346b92f6a2bfeb14dc254635c9a5013f1",
+  "archive_bytes": 54848824,
+  "archive_sha256": "ef56f7b0c4e196a758a8571ee24acafba5f27043102b55e25d32f423d79f45e1",
+  "metadata_sha256": "541953393c7b8a2d1448360f5ac0f4a3902dafb64fe4ff0e74fb956f760e3030",
+  "pairs": [
+    {"id": "lemon", "failure": 43, "success": 41},
+    {"id": "drawer_ball", "failure": 72, "success": 73},
+    {"id": "sport_ball", "failure": 92, "success": 91},
+    {"id": "fruit", "failure": 126, "success": 127}
+  ],
+  "controls": [76, 121, 122],
+  "purpose": "Exploratory dev cases; no independent episode or causal-origin matching claim"
+}

@@ -1,0 +1,9 @@
+/home/yoohyun/research3/datasets/q17/activearena/check_block_color/data/chunk-000/episode_000000.parquet: OK
+/home/yoohyun/research3/datasets/q17/activearena/check_block_color/data/chunk-000/episode_000001.parquet: OK
+data/chunk-000/episode_000000.parquet 28601747 bytes
+data/chunk-000/episode_000001.parquet 29148209 bytes
+meta/astribot_subtask_metadata.json 307092 bytes
+meta/episodes.jsonl 17520 bytes
+meta/episodes_stats.jsonl 425524 bytes
+meta/info.json 4058 bytes
+meta/tasks.jsonl 918 bytes

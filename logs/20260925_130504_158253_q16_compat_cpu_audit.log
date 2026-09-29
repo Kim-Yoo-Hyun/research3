@@ -1,0 +1,10 @@
+/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+{"episode_id": 0, "rows": 93, "observation_dim": 31, "action_dim": 3, "trace": "traj_0.npz", "sha256": "1ad54ad3befa9491d0079ea03911eff71e0542eccdfb31077f7ad1d210353fd7"}
+{"episode_id": 3, "rows": 100, "observation_dim": 31, "action_dim": 3, "trace": "traj_3.npz", "sha256": "9275ab898ce885bbac746b54cdebdd7e849c1d6d6c067349aa35c21372981ce3"}
+{"episode_id": 4, "rows": 99, "observation_dim": 31, "action_dim": 3, "trace": "traj_4.npz", "sha256": "768f8dd1ca39c7fe1b26264e70b330d7e5d58016963b20e1b5d76f9a647b0958"}
+{"episode_id": 5, "rows": 100, "observation_dim": 31, "action_dim": 3, "trace": "traj_5.npz", "sha256": "e51574f7b45125eef369d13f3acc7a0cd384512cfa077f28a5c81aa8dd4a8122"}
+{"episode_id": 6, "rows": 100, "observation_dim": 31, "action_dim": 3, "trace": "traj_6.npz", "sha256": "527447e3653f22ff9484e035fab269f6b003c2b2f012d0dbec3d1e3500417fd7"}
+{"episode_id": 7, "rows": 100, "observation_dim": 31, "action_dim": 3, "trace": "traj_7.npz", "sha256": "74fa0585fda9f2dad09347ce675ec3127497c2840ac59e1c73ae7c36c78c8634"}
+{"episode_id": 8, "rows": 100, "observation_dim": 31, "action_dim": 3, "trace": "traj_8.npz", "sha256": "b4dd9b8c00eee79516396507dd5fa869b94e2160bb92101fce416ac8d825f37a"}
+{"episode_id": 9, "rows": 100, "observation_dim": 31, "action_dim": 3, "trace": "traj_9.npz", "sha256": "5716d31d94a15981a5bd657fe177419d7edac963cd71a03b0699016ace0cf9ba"}

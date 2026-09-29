@@ -1,0 +1,163 @@
+{
+  "evaluation_episodes": 256,
+  "states": 13056,
+  "teacher_episodes": 160,
+  "checked_checksum_count": 416,
+  "groups": {
+    "nominal/feedback": {
+      "n": 16,
+      "successes": 16,
+      "mean_final_xy_error_m": 0.04864676552824676,
+      "median_final_xy_error_m": 0.041301971301436424,
+      "mean_latency_ms": 0.04290996119379997
+    },
+    "nominal/frozen": {
+      "n": 16,
+      "successes": 13,
+      "mean_final_xy_error_m": 0.06487593171186745,
+      "median_final_xy_error_m": 0.044391559436917305,
+      "mean_latency_ms": 0.9865002986043692
+    },
+    "nominal/replan1": {
+      "n": 16,
+      "successes": 7,
+      "mean_final_xy_error_m": 0.12174097215756774,
+      "median_final_xy_error_m": 0.14850762486457825,
+      "mean_latency_ms": 0.9526221896521747
+    },
+    "nominal/updated": {
+      "n": 16,
+      "successes": 13,
+      "mean_final_xy_error_m": 0.0696035111322999,
+      "median_final_xy_error_m": 0.040597086772322655,
+      "mean_latency_ms": 0.9915280621498823
+    },
+    "nominal/predictive": {
+      "n": 16,
+      "successes": 4,
+      "mean_final_xy_error_m": 0.14161265827715397,
+      "median_final_xy_error_m": 0.13109439611434937,
+      "mean_latency_ms": 1.168722533620894
+    },
+    "nominal/prediction_feedback": {
+      "n": 16,
+      "successes": 3,
+      "mean_final_xy_error_m": 0.140922914724797,
+      "median_final_xy_error_m": 0.12680594623088837,
+      "mean_latency_ms": 1.1738443397916853
+    },
+    "nominal/contact_gated": {
+      "n": 16,
+      "successes": 6,
+      "mean_final_xy_error_m": 0.10674225213006139,
+      "median_final_xy_error_m": 0.12014706805348396,
+      "mean_latency_ms": 1.1408429150469601
+    },
+    "nominal/contact_gated_feedback": {
+      "n": 16,
+      "successes": 5,
+      "mean_final_xy_error_m": 0.11814030644018203,
+      "median_final_xy_error_m": 0.13514373824000359,
+      "mean_latency_ms": 1.1246294970624149
+    },
+    "low_friction/feedback": {
+      "n": 16,
+      "successes": 16,
+      "mean_final_xy_error_m": 0.020917774658300914,
+      "median_final_xy_error_m": 0.01593283610418439,
+      "mean_latency_ms": 0.0408642808906734
+    },
+    "low_friction/frozen": {
+      "n": 16,
+      "successes": 13,
+      "mean_final_xy_error_m": 0.05713926278986037,
+      "median_final_xy_error_m": 0.03689357452094555,
+      "mean_latency_ms": 1.004587730858475
+    },
+    "low_friction/replan1": {
+      "n": 16,
+      "successes": 7,
+      "mean_final_xy_error_m": 0.11131010763347149,
+      "median_final_xy_error_m": 0.14856382459402084,
+      "mean_latency_ms": 0.9490173554513603
+    },
+    "low_friction/updated": {
+      "n": 16,
+      "successes": 13,
+      "mean_final_xy_error_m": 0.05731460580136627,
+      "median_final_xy_error_m": 0.03198723588138819,
+      "mean_latency_ms": 0.9804183314554393
+    },
+    "low_friction/predictive": {
+      "n": 16,
+      "successes": 2,
+      "mean_final_xy_error_m": 0.1302571352571249,
+      "median_final_xy_error_m": 0.12751823663711548,
+      "mean_latency_ms": 1.1990079726092517
+    },
+    "low_friction/prediction_feedback": {
+      "n": 16,
+      "successes": 2,
+      "mean_final_xy_error_m": 0.1346033327281475,
+      "median_final_xy_error_m": 0.12838537991046906,
+      "mean_latency_ms": 1.1850005318410695
+    },
+    "low_friction/contact_gated": {
+      "n": 16,
+      "successes": 6,
+      "mean_final_xy_error_m": 0.11105386761482805,
+      "median_final_xy_error_m": 0.10267353057861328,
+      "mean_latency_ms": 1.1224988149479032
+    },
+    "low_friction/contact_gated_feedback": {
+      "n": 16,
+      "successes": 9,
+      "mean_final_xy_error_m": 0.09328574128448963,
+      "median_final_xy_error_m": 0.09653616324067116,
+      "mean_latency_ms": 1.1585425795055926
+    }
+  },
+  "paired_seeds": {
+    "nominal": [
+      42016,
+      42017,
+      42018,
+      42019,
+      42020,
+      42021,
+      42022,
+      42023,
+      42024,
+      42025,
+      42026,
+      42027,
+      42028,
+      42029,
+      42030,
+      42031
+    ],
+    "low_friction": [
+      42016,
+      42017,
+      42018,
+      42019,
+      42020,
+      42021,
+      42022,
+      42023,
+      42024,
+      42025,
+      42026,
+      42027,
+      42028,
+      42029,
+      42030,
+      42031
+    ]
+  },
+  "models_sha256": {
+    "frozen/policy.pt": "d9e1ad099d248b84c5d1592eb6cc7cf7da037a93da763b7cd0e732c7dd5d61b2",
+    "updated/policy.pt": "29e07bad83d7972899d30e278f23305498dfc202ef338061d55892f06c2e14bf",
+    "world.pt": "6d5c0aebc102883b7518ca359cf456a1172ac55344cbae3de077b0d12a843454"
+  }
+}

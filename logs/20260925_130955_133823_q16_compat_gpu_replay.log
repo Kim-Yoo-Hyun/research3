@@ -1,0 +1,12 @@
+/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.11/site-packages/sapien/_vulkan_tricks.py:37: UserWarning: Failed to find Vulkan ICD file. This is probably due to an incorrect or partial installation of the NVIDIA driver. SAPIEN will attempt to provide an ICD file anyway but it may not work.
+  warn(
+{"episode_id": 0, "replay_final_success": true, "first_step_position_error": 2.4710780976988644e-08, "final_position_error": 0.0029755104333162308}
+{"episode_id": 3, "replay_final_success": false, "first_step_position_error": 3.158611860953897e-08, "final_position_error": 0.03776601329445839}
+{"episode_id": 4, "replay_final_success": false, "first_step_position_error": 4.485843518864385e-08, "final_position_error": 0.020235788077116013}
+{"episode_id": 5, "replay_final_success": false, "first_step_position_error": 4.726863522819258e-08, "final_position_error": 0.07278802245855331}
+{"episode_id": 6, "replay_final_success": true, "first_step_position_error": 1.6763806343078613e-08, "final_position_error": 0.002843638649210334}
+{"episode_id": 7, "replay_final_success": false, "first_step_position_error": 1.4901161193847656e-08, "final_position_error": 0.01762019656598568}
+{"episode_id": 8, "replay_final_success": false, "first_step_position_error": 4.251566565471876e-08, "final_position_error": 0.00699962954968214}
+{"episode_id": 9, "replay_final_success": false, "first_step_position_error": 3.3785322983703736e-08, "final_position_error": 0.015179290436208248}

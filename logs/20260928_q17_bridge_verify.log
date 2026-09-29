@@ -1,0 +1,41 @@
+09/28 [02:48:32] INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/models/policy/checkpoints/steps_1                   
+                          00000_pytorch_model.pt`                               
+                 INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/models/policy/checkpoints/steps_1                   
+                          00000_pytorch_model.pt`                               
+                 INFO     | >> [*] Runtime override:        base_framework.py:40
+                          framework.qwenvl.base_vlm=/models                     
+                          /Qwen3-VL-2B-Instruct                                 
+                 INFO     | >> [*] Runtime override:        base_framework.py:40
+                          framework.qwenvl.base_vlm=/models                     
+                          /Qwen3-VL-2B-Instruct                                 
+[WARNING] flash_attn not installed, falling back to sdpa
+                 INFO     | >> [*] [Qwen3-VL] Loading               QWen3.py:109
+                          /models/Qwen3-VL-2B-Instruct with                     
+                          attn_implementation=sdpa                              
+{"event": "ready", "metadata": {"action_chunk_size": 16, "available_unnorm_keys": ["new_embodiment"], "default_unnorm_key": "new_embodiment", "state_keys": ["state.astribot"], "action_keys": ["action.astribot"], "bridge": "direct_minmax_exploratory"}}
+{"event": "inference", "request_count": 1, "instruction": ["Place the gray block on the pad matching its back-side color."], "num_frames": [13], "actions_sha256": "28daa166ff8b41916729d5b47bc837d539a665b8e4121a58f025bc11fcf83070"}
+{"event": "inference", "request_count": 2, "instruction": ["Place the gray block on the pad matching its back-side color."], "num_frames": [10], "actions_sha256": "48b682a7f399128ce720681628ff2deb2329041f604ee1fec2590b62ca59ff26"}
+{
+  "0": {
+    "max_abs_action_difference": 0.0,
+    "actual_sha256": "28daa166ff8b41916729d5b47bc837d539a665b8e4121a58f025bc11fcf83070",
+    "reference_sha256": "28daa166ff8b41916729d5b47bc837d539a665b8e4121a58f025bc11fcf83070",
+    "shape": [
+      16,
+      18
+    ]
+  },
+  "2": {
+    "max_abs_action_difference": 0.0,
+    "actual_sha256": "48b682a7f399128ce720681628ff2deb2329041f604ee1fec2590b62ca59ff26",
+    "reference_sha256": "48b682a7f399128ce720681628ff2deb2329041f604ee1fec2590b62ca59ff26",
+    "shape": [
+      16,
+      18
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "assessment_sha256": "f1fdff554412183fa26af3340404741f19340853310721dc73916713de460dc1",
+  "case_count": 2,
+  "repeatable_count": 2,
+  "cases": [
+    {
+      "seed": 48007,
+      "status": "repeatable",
+      "selected_step": 10,
+      "baseline_repeat_max_drift": 0.0,
+      "changed_final_object_distance": 2.280380336232385
+    },
+    {
+      "seed": 48010,
+      "status": "repeatable",
+      "selected_step": 112,
+      "baseline_repeat_max_drift": 1.6653345369377348e-16,
+      "changed_final_object_distance": 30.978517827045682
+    }
+  ]
+}

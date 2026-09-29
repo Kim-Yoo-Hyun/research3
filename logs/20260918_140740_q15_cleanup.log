@@ -1,0 +1,1082 @@
+{
+  "removed": [
+    {
+      "id": "15dacb25b9c4391a2cfca7db8ba7baca0a834f1e0bff8d890050b3940f9b7394",
+      "name": "/research3-q15-ready-20260918_140257_065793",
+      "job_record": "runs/q15/reward/jobs/20260918_140257_065793_ready.json",
+      "inspection": {
+        "Id": "15dacb25b9c4391a2cfca7db8ba7baca0a834f1e0bff8d890050b3940f9b7394",
+        "Created": "2026-09-18T05:02:57.125763942Z",
+        "Path": "timeout",
+        "Args": [
+          "3600s",
+          "python",
+          "-B",
+          "-u",
+          "/study/ready.py",
+          "--attempt",
+          "ready_v1"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 1,
+          "Error": "",
+          "StartedAt": "2026-09-18T05:02:57.212554247Z",
+          "FinishedAt": "2026-09-18T05:03:52.042181444Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/15dacb25b9c4391a2cfca7db8ba7baca0a834f1e0bff8d890050b3940f9b7394/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/15dacb25b9c4391a2cfca7db8ba7baca0a834f1e0bff8d890050b3940f9b7394/hostname",
+        "HostsPath": "/var/lib/docker/containers/15dacb25b9c4391a2cfca7db8ba7baca0a834f1e0bff8d890050b3940f9b7394/hosts",
+        "LogPath": "/var/lib/docker/containers/15dacb25b9c4391a2cfca7db8ba7baca0a834f1e0bff8d890050b3940f9b7394/15dacb25b9c4391a2cfca7db8ba7baca0a834f1e0bff8d890050b3940f9b7394-json.log",
+        "Name": "/research3-q15-ready-20260918_140257_065793",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro",
+            "/home/yoohyun/research3/runs/q15/reward:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "bridge",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "nvidia",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": [
+            {
+              "Driver": "",
+              "Count": 0,
+              "DeviceIDs": [
+                "0"
+              ],
+              "Capabilities": [
+                [
+                  "gpu"
+                ]
+              ],
+              "Options": {}
+            }
+          ],
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "15dacb25b9c4",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "MPLCONFIGDIR=/home/research/mpl",
+            "NVIDIA_DRIVER_CAPABILITIES=graphics,utility,compute",
+            "VK_ICD_FILENAMES=/opt/ManiSkill/docker/nvidia_icd.json",
+            "CUDA_VISIBLE_DEVICES=0",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "3600s",
+            "python",
+            "-B",
+            "-u",
+            "/study/ready.py",
+            "--attempt",
+            "ready_v1"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-reward",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "bridge": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "634a7ca7611c241d5535b412a4bbd5a180f77e74ba6fce1d9aea77e75d6dce86",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "log_sha256": "0ff1b27293f1a73f54fbdeba998faf692420a2760351b513436af5695cc07784",
+      "removed": true
+    },
+    {
+      "id": "6876268026b39a300d84a24d886fa73bc72473f278b2be7dfc02c9c224fb1342",
+      "name": "/research3-q15-ready-20260918_140506_694573",
+      "job_record": "runs/q15/reward/jobs/20260918_140506_694573_ready.json",
+      "inspection": {
+        "Id": "6876268026b39a300d84a24d886fa73bc72473f278b2be7dfc02c9c224fb1342",
+        "Created": "2026-09-18T05:05:06.757722762Z",
+        "Path": "timeout",
+        "Args": [
+          "3600s",
+          "python",
+          "-B",
+          "-u",
+          "/study/ready.py",
+          "--attempt",
+          "ready_v1"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 0,
+          "Error": "",
+          "StartedAt": "2026-09-18T05:05:06.835910441Z",
+          "FinishedAt": "2026-09-18T05:05:22.813137439Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/6876268026b39a300d84a24d886fa73bc72473f278b2be7dfc02c9c224fb1342/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/6876268026b39a300d84a24d886fa73bc72473f278b2be7dfc02c9c224fb1342/hostname",
+        "HostsPath": "/var/lib/docker/containers/6876268026b39a300d84a24d886fa73bc72473f278b2be7dfc02c9c224fb1342/hosts",
+        "LogPath": "/var/lib/docker/containers/6876268026b39a300d84a24d886fa73bc72473f278b2be7dfc02c9c224fb1342/6876268026b39a300d84a24d886fa73bc72473f278b2be7dfc02c9c224fb1342-json.log",
+        "Name": "/research3-q15-ready-20260918_140506_694573",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro",
+            "/home/yoohyun/research3/runs/q15/reward:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "bridge",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "nvidia",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": [
+            {
+              "Driver": "",
+              "Count": 0,
+              "DeviceIDs": [
+                "0"
+              ],
+              "Capabilities": [
+                [
+                  "gpu"
+                ]
+              ],
+              "Options": {}
+            }
+          ],
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "6876268026b3",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "MPLCONFIGDIR=/home/research/mpl",
+            "NVIDIA_DRIVER_CAPABILITIES=graphics,utility,compute",
+            "VK_ICD_FILENAMES=/opt/ManiSkill/docker/nvidia_icd.json",
+            "CUDA_VISIBLE_DEVICES=0",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "3600s",
+            "python",
+            "-B",
+            "-u",
+            "/study/ready.py",
+            "--attempt",
+            "ready_v1"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-reward",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "bridge": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "634a7ca7611c241d5535b412a4bbd5a180f77e74ba6fce1d9aea77e75d6dce86",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "log_sha256": "067a752b2743f701fa8db2ca844d80cf928a0efb38fd588dd736f0a847280e4d",
+      "removed": true
+    }
+  ],
+  "skipped": [],
+  "preserved_files": [
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/0/2/5c5da01e9ef0de",
+      "bytes": 810411,
+      "sha256": "768e7a9bcd836a0ea5ec16830e4c58711de1d2007d7fdb74fa3f987ab48ba790"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/0/3/7cbabf9ddc162a",
+      "bytes": 242926,
+      "sha256": "544b660954a396c988916d13bb7735da15458609974f43e0ede64561ca230564"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/0/5/b0460670ecfe0f",
+      "bytes": 990334,
+      "sha256": "b90900a6961ff0e1dc616ef438744497e31dfe0f1891a4c16a3e56909b913ca3"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/1/7/7ad91a21273950",
+      "bytes": 2081513,
+      "sha256": "d4c11e64427ba4854ccaf9cfb7fa76ce7447809c0de08c7b3da00e78afabaa5b"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/1/d/fce47c6307167d",
+      "bytes": 1046647,
+      "sha256": "473c937abd43c3e3f8ec329a5d5be4dc59302e059bf8303fabcbb996154b10f2"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/1/e/e77972b475bc45",
+      "bytes": 134898,
+      "sha256": "31fc85e6ce8ff787135206ebad85ad7655e465ad7d2b5397bca5cd000fcaee45"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/0/7bfabcac6f2f86",
+      "bytes": 85590,
+      "sha256": "23b6a8058c633092dc0f8e481c10337c4cfb28c583c1db50c56c05f2c420acc9"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/4/b31cbb29f5bcea",
+      "bytes": 979566,
+      "sha256": "b0e5f51513aaea73f2e09c4c0c53ce9a0c5c11ae0c16f30c7419c8908f862497"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/5/21f278e642bb20",
+      "bytes": 415363,
+      "sha256": "1a6e40eb708578d4c650aa6986c97c826cc07a31dc3038371094e7284317bece"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/5/97613cae181f8f",
+      "bytes": 1432164,
+      "sha256": "6b5935277eec1d727d3825f5e1750c6568e445ae77aa30f9f99644a04f94d711"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/d/6ac2e2d295583f",
+      "bytes": 745385,
+      "sha256": "914607a077c6101327db4d1b647258b8ca828a0d862a64148e85fbd02e901094"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/3/2/c0987044e8540a",
+      "bytes": 148731,
+      "sha256": "316b612480ba218e6d3a353e2b064978b8a6fc138f293ed0abaf7210786f8080"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/3/3/685c756fdd81d1",
+      "bytes": 160287,
+      "sha256": "dd9006941c0694a006615ce8866debb01fd2717cc3a5af2439dda65f2beffd6f"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/3/5/293ffbfac70abf",
+      "bytes": 1096701,
+      "sha256": "88eb8f1bd2676c5f553403adaf5520811512253aaa3533f477aef70fe241af77"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/3/8/d5c418a949f148",
+      "bytes": 297932,
+      "sha256": "4c6cd67d5c56eba1c0d4801592966fd2f5ed7d6c8dbcfb2df5e625ab8f4813c4"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/4/4/b7337da99e93b7",
+      "bytes": 143063,
+      "sha256": "aaa2a59fe4bbebc201a6c1b582602cec97cc814dca14156024303445a122d208"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/2/28cf9f163c81bd",
+      "bytes": 239970,
+      "sha256": "108808cdd9a9049d0ca777fe948a3799cb9888667cf660cd8927e3f5f98b1241"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/6/53dd76a0ce1ef4",
+      "bytes": 3758597,
+      "sha256": "ec79b6e028c0e34cf86343d2e111929d7c3e72329a0d0302276fa01784f8b507"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/7/af0454d772925a",
+      "bytes": 1253307,
+      "sha256": "63de4244528400b35d7f4bb33b6477aceae56b88f39cb037dcdc395ce3e34684"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/9/ee827f65a1f332",
+      "bytes": 272251,
+      "sha256": "46263b467acc059561567daad774f7ceb1ac8dc2143f0d3da8329e8fa1e75b17"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/a/4dacf4fe77c8d9",
+      "bytes": 339505,
+      "sha256": "585e96e73525942735cb16c58b5eaa6a9cc278c4e242d0d41b60b0097b57ccea"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/6/4/aa4d9b881a505c",
+      "bytes": 9840568,
+      "sha256": "c4954bbdc6c4d01e6bad7a78dd3185d9650ff69f273937801401e05b982d4783"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/6/a/6736e9dd2c9d80",
+      "bytes": 3203,
+      "sha256": "745731387b76acc4339da6a0a937fcc7bf35da1955e82a386f9ad605adca52d5"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/6/e/b32e100322d652",
+      "bytes": 830634,
+      "sha256": "be47208411483e69d372d679a2c9540734c1108c88c0fcb01356d68449c5a740"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/6/f/ad045126d240cd",
+      "bytes": 376302,
+      "sha256": "9ba5729ed6af1f1999adb77c267679d383b67ab2e65235c77aa500be2c39db23"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/7/4/1399db9b213ff1",
+      "bytes": 1817878,
+      "sha256": "368142f95c9d5627602bfb74708249b6ec2db50d59bc1d3307e2c184e1b45c16"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/7/4/4dea6775dfb979",
+      "bytes": 5604601,
+      "sha256": "d9538ad90f8127250b548c0bfb1fa4e4b534c946b50b7304a19377afe9ae7a6d"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/7/6/305a8a4c0d44d8",
+      "bytes": 250373,
+      "sha256": "31d34f9fec306f456ff9f9717025197d42e1806c3b0501a6eabcd1a6b1d0ed47"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/7/7/264889fc71e837",
+      "bytes": 132504,
+      "sha256": "a9f3046d46c3e8d50a07c9549649dadd35e004fb3b4b3debdc557c3bd3d8ae6c"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/8/1/c6098b4e4df1aa",
+      "bytes": 903886,
+      "sha256": "eb64b7025ab310587ac42d62716696cb7b86b5a46d2c38d0cf97afd96089c125"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/8/5/6a8bd1c65670f4",
+      "bytes": 735430,
+      "sha256": "9b1285c273203c48b7bb194bbcbc8089fe5e0b7b381a42d686e3f724eebe732f"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/8/b/ab4c30cc6b9009",
+      "bytes": 198812,
+      "sha256": "1d4ae03488e504b0b1b05e148605bf87b09253d067d48ab6e3a4764ff2d7a087"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/8/d/0b3350595c0190",
+      "bytes": 624428,
+      "sha256": "5cb407f6605785c1b1e250486d6c54c509491cf6f7c83f1cc3ace8d765a855b2"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/2/fea77d447dea7a",
+      "bytes": 3001278,
+      "sha256": "ee6549f4e3465a7115f18e868c4c4e091e5fcb4464c2c49d21d22c9ef092541f"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/4/5db7e10d11e98a",
+      "bytes": 613541,
+      "sha256": "9d7a45fa6dc117343ae386071acc3cd61f4cfb5784e38c214deb4d070773e714"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/6/514032f4bc0aa6",
+      "bytes": 408165,
+      "sha256": "c8e3c98f5fdbc317e5883c28fe01b6e1955fd876dbad8a8491d204084a938d63"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/7/9be3be66ebf870",
+      "bytes": 266659,
+      "sha256": "bbd5ac2602f9d3325b37d055d60a9a8b630da913d12864c6a550a98ff27a0bea"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/8/06ba5927377d93",
+      "bytes": 3735087,
+      "sha256": "f942491ef5a1a815c333578d474b85c2bc9fa182da313c7c76261b996cfb259d"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/e/ae754bf7daf582",
+      "bytes": 83780,
+      "sha256": "65615709565f43d9c1a21c2e53895657cab5b00e9ca872e17612dc14046d609e"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/a/a/35c12939cd84f3",
+      "bytes": 160819,
+      "sha256": "211ec880855d2c00edc0e7f675102f88db959f2effc378222bcdda18ee4d1115"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/a/d/ff6d2dee8dbb97",
+      "bytes": 528770,
+      "sha256": "0ee5787876c333ed495418c3f95de94107738c8963969d562b40eafccbe519d9"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/a/e/e1380e2df82022",
+      "bytes": 846125,
+      "sha256": "65484f032bed1935aaf78a7bd6b097be5c03d1595ed8d9c0e0f32ef3d5dd683e"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/0/2b27a0d716612a",
+      "bytes": 356026,
+      "sha256": "baaa14808a379ef079e2de452de26cd01885a529aed69fafe291e61e17e62586"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/1/80eb5a4f3d651c",
+      "bytes": 111493,
+      "sha256": "3189497e25f5c663ffd058f9679f9e5a28d2fb01bf28967e53e65a9c866cd408"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/2/962d1779809dd2",
+      "bytes": 485505,
+      "sha256": "05c540543bbbf954b82da456bdf9459d190098b2d860a4f53d47182625168115"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/4/d07e74c0e063cf",
+      "bytes": 1924325,
+      "sha256": "fb8c03903f6f82958637b387258e874a6640d212adf623d97c546c1d7f14c4a2"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/8/4b4659a9bcaca0",
+      "bytes": 134782,
+      "sha256": "c92d77ed72cff63f211e63af449aaae4a7b14225ae4f5ac9b4b8cb30aebe5887"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/9/8499108b4c5dac",
+      "bytes": 161453,
+      "sha256": "a193066b5d32e55552c4bb77c8e06c19a4da7e8d43070513e3a10242b39de244"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/d/bfc1884f02cc1f",
+      "bytes": 5411589,
+      "sha256": "b810b2575562b6976137600e149518102886c621c68ec1e507f5db984736a7db"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/c/3/899e8ff5af8b18",
+      "bytes": 1763655,
+      "sha256": "9b37ad5ed5d81b514cad1f1960114f5435a62cd60d9d2e606cd0ff3ae5df3664"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/c/3/8c77807b5bdb77",
+      "bytes": 395150,
+      "sha256": "b27b32b58e962567a4c236f6a036dc06eb2b4bcb97d2c7f9f84c32f0687c6136"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/5/3770ddaf6bb33f",
+      "bytes": 87763,
+      "sha256": "4dd651f122b394413da6025cdccfecabfe092e2e5d24e789d1085dbd22b5d4cb"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/7/6d71f6e2f2318c",
+      "bytes": 345016,
+      "sha256": "59b2cc7d8ebf5d6e142c0ff6f6e628f9bd95586ec693b18a3edb161d22001119"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/8/7f25e7bc12296f",
+      "bytes": 713528,
+      "sha256": "4481634cf2022a09142f60590a18e31759e263071e31edf87d5541c84ad7f90e"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/c/bc9fbddbd2590a",
+      "bytes": 452261,
+      "sha256": "0e9788b6197f130dbd12ead27a500026f84a461fd0ad2bc2452bcd5aabcbb353"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/e/d04676148c7a15",
+      "bytes": 227501,
+      "sha256": "6a633c9cb1394890a20a140fa232bce35e8ead2d32d9da7c6f5895bd60f0a0a4"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/f/6ee263bf54b189",
+      "bytes": 5386,
+      "sha256": "5a80d96b3d585d3c3dd850e8613404bfd5ea1ba205937ae4c5bddc452bc06ffb"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/1/370504d3eba625",
+      "bytes": 313387,
+      "sha256": "8394214b66adfcc214cf13c838e0483b6a15cab6d1b8499c9e28dfcbbd8c2bea"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/1/76e5a4524a68f4",
+      "bytes": 193729,
+      "sha256": "6374d0f1ac8f2ade7af2feb5658b7012be95c00e1e6a94356ee5066ef7d4379b"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/3/c350dff0743280",
+      "bytes": 3300547,
+      "sha256": "9e8e7b75980b9c282432f27584608b002e5a15321ad2349eb368d74d65f5a35f"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/7/95b6d13dc687d1",
+      "bytes": 87555,
+      "sha256": "230d79586cb4a81a02b4289532e72d040cf708a6bbe9e88756b8941d53ea2373"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/b/6594a0ed75665a",
+      "bytes": 224437,
+      "sha256": "95a6c82c91cf44937ea340d8592bf4d9063c0638729614a9a4067eba153d8679"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/d/cdd408a47c35c0",
+      "bytes": 156981,
+      "sha256": "6669b7f7caf7c2f5f79f9b0b8c847b39eb5f0fc1b24f7c84012658d80eeff3f5"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/f/0/731eaa04545aab",
+      "bytes": 249944,
+      "sha256": "d083ac70e2f32d0c6e897b948a6787f65001785af015d9346aed472a68dcc3ca"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/f/4/865006921f93e4",
+      "bytes": 810000,
+      "sha256": "60fb7f0964617a6b3166702a73ea4379ac9e009c07f4fc6cf93f3922e123873c"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/f/c/1db06d5047a21e",
+      "bytes": 6496,
+      "sha256": "8266891978a68809efc6192234359d2ddb5272eec94739f2436b639bf69046ad"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/f/e/6b625009f28470",
+      "bytes": 24281,
+      "sha256": "8bb043e53fbc2b3c62bbf78c648a7c04e3cecc1a36429bc806c91103fcb24aaa"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/index",
+      "bytes": 1088,
+      "sha256": "5ddb03c7dc54d1e1b8a172b640339559b92c8c3f5686dd728570b1aa149a5498"
+    },
+    {
+      "path": "runs/q15/reward/cache/.sapien/physx/105.1-physx-5.3.1.patch0/libPhysXGpu_64.so",
+      "bytes": 236705440,
+      "sha256": "4c582a16509a71faf5592fe9708586dfcc7ab61ae932eabc1ddd81f290818706"
+    },
+    {
+      "path": "runs/q15/reward/cache/mpl/fontlist-v3.11.0.json",
+      "bytes": 26961,
+      "sha256": "f1f2faf9e98cf300fc0c1cbcccc82b3f7231e8d82e70a364bef1268ebff50ec9"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_135306_663399_build.json",
+      "bytes": 3499,
+      "sha256": "b119554199b6e0f72e90b6dafc94ca7bacd475aa2ec7e11ae5e38d62b2bc34d8"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_140257_065793_ready.json",
+      "bytes": 10253,
+      "sha256": "93f3b444d90e8e698d58cd1fb66a2b20e39a7e0366585364276a82b9c1d8b6cf"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_140506_694573_ready.json",
+      "bytes": 10256,
+      "sha256": "c10b8a52dc782b91a6a0009f413be38f2e29e093b4594bfddc7f11bbce1a0663"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_140535_277414_run.json",
+      "bytes": 1557,
+      "sha256": "9fbd4645d8c95972d864e489493b1ede0e9d0ee0c37655870227ddca237be9f2"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/formula.npz",
+      "bytes": 2314,
+      "sha256": "cd7ce833117cff79ba59f5f0d0c57462801e8d8190c274a76ca166c87a3dd43b"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/friction.json",
+      "bytes": 109669,
+      "sha256": "7b1c73e8f808c85c0be4b9499c31fd7d107f3d71eec354904f73e5885bb1b23b"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/friction.npz",
+      "bytes": 408091,
+      "sha256": "03be1a67b841b7d5f11efea552a5d38f083b4ad9f2eb704283b9460fb0b8e805"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/half.json",
+      "bytes": 109665,
+      "sha256": "84a2fadd29af60179a7afcf5a63bae38dae38b3f25981792dd2ad6f3d710320f"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/half.npz",
+      "bytes": 408062,
+      "sha256": "b214803325ea761744c2ad320fc26aca3add70f5c8f1e98eea45c9ed662904c5"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/joint.json",
+      "bytes": 109576,
+      "sha256": "b1cad94e24eea35e1fb62918175a93eeb6170be4099048617af91afd7a30daaf"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/joint.npz",
+      "bytes": 407900,
+      "sha256": "6a83542a989fd28f69c7120c9c4661043e0f92248958c815bdec5bb3c358dc3b"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/mass.json",
+      "bytes": 109574,
+      "sha256": "1c46487fbe007219c7e6b1d0c1a65d0dff1ae15cf6d1b2771b0e003fbb8b7585"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/mass.npz",
+      "bytes": 408004,
+      "sha256": "6e032a489cbd210241d6f29715e239a47648154d0946d21a0b397ac9028ccc28"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/native.json",
+      "bytes": 109667,
+      "sha256": "0fc16e693ff9ae4e10783b020b4e59d98346537dee331d70660601fe45d10b40"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/native.npz",
+      "bytes": 408028,
+      "sha256": "b0d58ff9edd1c49a36330c2b773dba7e34a0f184c1ef558b16aa3c0f2d1732d1"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/no_grasp.json",
+      "bytes": 109670,
+      "sha256": "8348655ef68645bddfbd5d0de8b78e1b5bfdc8ee555dab7d349332824ac65cf7"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/no_grasp.npz",
+      "bytes": 408028,
+      "sha256": "b0d58ff9edd1c49a36330c2b773dba7e34a0f184c1ef558b16aa3c0f2d1732d1"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/official.json",
+      "bytes": 109667,
+      "sha256": "f0e9f37652a3dc1863bef1fb2c5ef8fc857e00065f6dc6f71266fb70bbd40241"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/official.npz",
+      "bytes": 408028,
+      "sha256": "b0d58ff9edd1c49a36330c2b773dba7e34a0f184c1ef558b16aa3c0f2d1732d1"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/ready.json",
+      "bytes": 1558,
+      "sha256": "9bc74637477ee3035df4f73698d8a0596e64e4d36d602ad4e961153e1c1029ab"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/adapter.json",
+      "bytes": 1025,
+      "sha256": "34abdd247d31f13f14ba2f83fb3a7a1e39758a430eda67f94ba45b9c2b4be0a0"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/checkpoint_2.json",
+      "bytes": 384,
+      "sha256": "c71711e56cd35b04ce3f87a8febc34bc0fefe1a2ad73015e29bb674d898671ef"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/checkpoint_2.pt",
+      "bytes": 1156579,
+      "sha256": "22c8dfc7883ab3a43b6a30bffea9b19c99e5d58bd0192d9aa3c672feb318b499"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/config.json",
+      "bytes": 3415869,
+      "sha256": "7ec7f6b57eb2cdcfbb2e4b809b330b9710ff224b733893760c8aab240b448938"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/executed_ppo.py",
+      "bytes": 23213,
+      "sha256": "9314b877fbc3d5424ae0db32ce25f93e2e41b22fc814fdce866fb11d0ccc1dd0"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/reward_audit.json",
+      "bytes": 11332,
+      "sha256": "e284e84c54f3a4508c98240f835765ede151cc272762b1e6c272181eaec5c700"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/runs/fit/events.out.tfevents.1789707915.6876268026b3.59.0",
+      "bytes": 4499,
+      "sha256": "c5018750855eb2012ab7da4ea70402e489fdbd3745758807a46382d56e560bb6"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/stdout.log",
+      "bytes": 443,
+      "sha256": "d66774dfdfa15f7ed8a334ad906163f201696e343ff824cede5ee6d31cb976fd"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/training.jsonl",
+      "bytes": 400,
+      "sha256": "e7a3cf6545782bc354d2b1006657020bcb9bd5a6d2ebc1c66e3ff4235cdb2052"
+    }
+  ]
+}

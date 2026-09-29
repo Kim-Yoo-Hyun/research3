@@ -1,0 +1,72 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{"seed": 49100, "route": "frozen", "any_success": false, "max_coverage": 0.9333075967444667, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 9.001205438748002}
+{"seed": 49100, "route": "feedback", "any_success": true, "max_coverage": 0.9723494277843991, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 8.655920059420168}
+{"seed": 49100, "route": "prediction", "any_success": false, "max_coverage": 0.9431304053491211, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 8.911294501274824}
+/usr/local/lib/python3.11/site-packages/shapely/set_operations.py:131: RuntimeWarning: divide by zero encountered in intersection
+  return lib.intersection(a, b, **kwargs)
+{"seed": 49100, "route": "updated", "any_success": false, "max_coverage": 0.8692821578139127, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.88785938732326}
+{"seed": 49101, "route": "frozen", "any_success": true, "max_coverage": 0.9621030296274663, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 3.041915502399206}
+{"seed": 49101, "route": "feedback", "any_success": true, "max_coverage": 0.9572176884136233, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 3.0455511324107647}
+{"seed": 49101, "route": "prediction", "any_success": true, "max_coverage": 0.9621030296274663, "intervention_attempted": true, "intervention_changed": false, "rollout_seconds": 3.047866323031485}
+{"seed": 49101, "route": "updated", "any_success": false, "max_coverage": 0.9180122711344453, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.878158296458423}
+{"seed": 49102, "route": "frozen", "any_success": false, "max_coverage": 0.8987325783781103, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.893677212297916}
+/usr/local/lib/python3.11/site-packages/shapely/set_operations.py:131: RuntimeWarning: invalid value encountered in intersection
+  return lib.intersection(a, b, **kwargs)
+{"seed": 49102, "route": "feedback", "any_success": false, "max_coverage": 0.8987325783781105, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.93047415278852}
+{"seed": 49102, "route": "prediction", "any_success": false, "max_coverage": 0.8987325783781103, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.922885484062135}
+{"seed": 49102, "route": "updated", "any_success": true, "max_coverage": 0.9611213513545168, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 4.213418077677488}
+{"seed": 49103, "route": "frozen", "any_success": false, "max_coverage": 0.9177715676106212, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.903562165796757}
+{"seed": 49103, "route": "feedback", "any_success": false, "max_coverage": 0.9177715676106212, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.917963883839548}
+{"seed": 49103, "route": "prediction", "any_success": false, "max_coverage": 0.9177715676106212, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.90882175322622}
+{"seed": 49103, "route": "updated", "any_success": false, "max_coverage": 0.8964979378058863, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.871537200175226}
+{"seed": 49104, "route": "frozen", "any_success": true, "max_coverage": 0.9505311055040743, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 2.107320779003203}
+{"seed": 49104, "route": "feedback", "any_success": true, "max_coverage": 0.9505311055040743, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 2.114487838000059}
+{"seed": 49104, "route": "prediction", "any_success": true, "max_coverage": 0.9505311055040743, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 2.1095178266987205}
+{"seed": 49104, "route": "updated", "any_success": false, "max_coverage": 0.9287655024153728, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.870182155631483}
+{"seed": 49105, "route": "frozen", "any_success": true, "max_coverage": 0.9600028766136096, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 3.2700520493090153}
+{"seed": 49105, "route": "feedback", "any_success": true, "max_coverage": 0.9600028766136096, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 3.2758283875882626}
+{"seed": 49105, "route": "prediction", "any_success": true, "max_coverage": 0.9600028766136096, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 3.2731363903731108}
+{"seed": 49105, "route": "updated", "any_success": true, "max_coverage": 0.9539327142051529, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.858874646946788}
+{"seed": 49106, "route": "frozen", "any_success": true, "max_coverage": 0.9637525280440224, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 5.383720675483346}
+{"seed": 49106, "route": "feedback", "any_success": true, "max_coverage": 0.9555824498755453, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 5.392421551980078}
+{"seed": 49106, "route": "prediction", "any_success": true, "max_coverage": 0.9637525280440224, "intervention_attempted": true, "intervention_changed": false, "rollout_seconds": 5.39591708034277}
+{"seed": 49106, "route": "updated", "any_success": false, "max_coverage": 0.9156493956005352, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.875863782130182}
+{"seed": 49107, "route": "frozen", "any_success": false, "max_coverage": 0.907400076721909, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.885445858351886}
+{"seed": 49107, "route": "feedback", "any_success": false, "max_coverage": 0.907400076721909, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.892919139936566}
+{"seed": 49107, "route": "prediction", "any_success": false, "max_coverage": 0.907400076721909, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.899515476077795}
+{"seed": 49107, "route": "updated", "any_success": false, "max_coverage": 0.9459286897255902, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.866692706942558}
+{"seed": 49108, "route": "frozen", "any_success": false, "max_coverage": 0.9482235153362262, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.888363050296903}
+{"seed": 49108, "route": "feedback", "any_success": false, "max_coverage": 0.9494764152379644, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 8.893848242238164}
+{"seed": 49108, "route": "prediction", "any_success": false, "max_coverage": 0.9229569632005001, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 8.892197065986693}
+{"seed": 49108, "route": "updated", "any_success": false, "max_coverage": 0.9133092827790144, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.867323321290314}
+{"seed": 49109, "route": "frozen", "any_success": true, "max_coverage": 0.9724777885064284, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 6.565172671340406}
+{"seed": 49109, "route": "feedback", "any_success": false, "max_coverage": 0.9389017208181495, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 8.90236511733383}
+{"seed": 49109, "route": "prediction", "any_success": true, "max_coverage": 0.9612591366676355, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 6.0758471274748445}
+{"seed": 49109, "route": "updated", "any_success": false, "max_coverage": 0.9274546262029173, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.861236629076302}
+{"seed": 49110, "route": "frozen", "any_success": true, "max_coverage": 0.9567732050554419, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 4.441805246286094}
+{"seed": 49110, "route": "feedback", "any_success": true, "max_coverage": 0.9535516390713901, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 4.922302375547588}
+{"seed": 49110, "route": "prediction", "any_success": true, "max_coverage": 0.9567732050554419, "intervention_attempted": true, "intervention_changed": false, "rollout_seconds": 4.449130356311798}
+{"seed": 49110, "route": "updated", "any_success": false, "max_coverage": 0.7346492819091844, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.857366955839097}
+{"seed": 49111, "route": "frozen", "any_success": false, "max_coverage": 0.9479880440554574, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.88649549242109}
+{"seed": 49111, "route": "feedback", "any_success": false, "max_coverage": 0.9477914777858027, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 8.897041795775294}
+{"seed": 49111, "route": "prediction", "any_success": false, "max_coverage": 0.9479880440554574, "intervention_attempted": true, "intervention_changed": false, "rollout_seconds": 8.898551288992167}
+{"seed": 49111, "route": "updated", "any_success": false, "max_coverage": 0.936570443074559, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.876814864575863}
+{"seed": 49112, "route": "frozen", "any_success": true, "max_coverage": 0.9670605774085586, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 5.608160915784538}
+{"seed": 49112, "route": "feedback", "any_success": true, "max_coverage": 0.9683295597380264, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 5.6165185030549765}
+{"seed": 49112, "route": "prediction", "any_success": true, "max_coverage": 0.9670605774085586, "intervention_attempted": true, "intervention_changed": false, "rollout_seconds": 5.62248355243355}
+{"seed": 49112, "route": "updated", "any_success": true, "max_coverage": 0.9642326225741934, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 5.3710399912670255}
+{"seed": 49113, "route": "frozen", "any_success": true, "max_coverage": 0.9511260616484566, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 4.697499271482229}
+{"seed": 49113, "route": "feedback", "any_success": true, "max_coverage": 0.9511260616484566, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 4.702458664774895}
+{"seed": 49113, "route": "prediction", "any_success": true, "max_coverage": 0.9511260616484566, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 4.704425564035773}
+{"seed": 49113, "route": "updated", "any_success": false, "max_coverage": 0.925347024314839, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.911904409527779}
+{"seed": 49114, "route": "frozen", "any_success": false, "max_coverage": 0.0, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.985055861063302}
+{"seed": 49114, "route": "feedback", "any_success": false, "max_coverage": 0.0, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.884106265380979}
+{"seed": 49114, "route": "prediction", "any_success": false, "max_coverage": 0.0, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.886152046732605}
+{"seed": 49114, "route": "updated", "any_success": false, "max_coverage": 0.9221122789617762, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.878358560614288}
+{"seed": 49115, "route": "frozen", "any_success": false, "max_coverage": 0.9290704370392017, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 8.89883382152766}
+{"seed": 49115, "route": "feedback", "any_success": false, "max_coverage": 0.9292360331476911, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 8.903372707776725}
+{"seed": 49115, "route": "prediction", "any_success": false, "max_coverage": 0.9401568432730589, "intervention_attempted": true, "intervention_changed": true, "rollout_seconds": 8.906647050753236}
+{"seed": 49115, "route": "updated", "any_success": true, "max_coverage": 0.9606911885829121, "intervention_attempted": false, "intervention_changed": false, "rollout_seconds": 4.670962028205395}

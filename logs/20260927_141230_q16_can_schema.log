@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "episodes": 200,
+  "total_rows": 23207,
+  "action_shapes": [
+    [
+      7
+    ]
+  ],
+  "policy_observation_dim": 23,
+  "model_xml_episode_count": 200
+}

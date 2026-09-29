@@ -1,0 +1,25 @@
+{
+  "device": "gpu",
+  "removed": [
+    {
+      "name": "research3-q16-compat-gpu-extract-20260925_131709_653962",
+      "id": "5df6980594752e8f746b08a21f2cd5a3c52b64fa7175ef9a126108867b68baa9",
+      "record": "/home/yoohyun/research3/runs/q16/compat_gpu/jobs/20260925_131709_653962_extract.json"
+    },
+    {
+      "name": "research3-q16-compat-gpu-fit-20260925_132009_332854",
+      "id": "219b9a309cccc89f1c8813f1575161ab62825d3029247158c4066e58805b7da9",
+      "record": "/home/yoohyun/research3/runs/q16/compat_gpu/jobs/20260925_132009_332854_fit.json"
+    },
+    {
+      "name": "research3-q16-compat-gpu-evaluate-20260925_132042_555966",
+      "id": "d9c3971a74a297be61d02153310dc9540ddde94b9ff484016fad6c0a430fd292",
+      "record": "/home/yoohyun/research3/runs/q16/compat_gpu/jobs/20260925_132042_555966_evaluate.json"
+    },
+    {
+      "name": "research3-q16-compat-gpu-validate-20260925_132142_674594",
+      "id": "7625320f98fc7cfa3a7077aa79fae2ea233e090f31396f9bf04133af6b182498",
+      "record": "/home/yoohyun/research3/runs/q16/compat_gpu/jobs/20260925_132142_674594_validate.json"
+    }
+  ]
+}

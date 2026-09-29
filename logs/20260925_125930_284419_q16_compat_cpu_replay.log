@@ -1,0 +1,10 @@
+/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+{"episode_id": 0, "replay_final_success": false, "first_step_position_error": 5.972094641037984e-08, "final_position_error": 0.3026818633079529}
+{"episode_id": 3, "replay_final_success": false, "first_step_position_error": 4.656845575823354e-08, "final_position_error": 0.20241717994213104}
+{"episode_id": 4, "replay_final_success": false, "first_step_position_error": 5.845857842246005e-08, "final_position_error": 0.13966143131256104}
+{"episode_id": 5, "replay_final_success": false, "first_step_position_error": 5.783205736520358e-08, "final_position_error": 0.2159002721309662}
+{"episode_id": 6, "replay_final_success": false, "first_step_position_error": 5.066942776466021e-08, "final_position_error": 0.1877831220626831}
+{"episode_id": 7, "replay_final_success": false, "first_step_position_error": 5.698598215531092e-08, "final_position_error": 0.24293169379234314}
+{"episode_id": 8, "replay_final_success": false, "first_step_position_error": 5.138335623655621e-08, "final_position_error": 0.014910747297108173}
+{"episode_id": 9, "replay_final_success": false, "first_step_position_error": 7.028863535651908e-08, "final_position_error": 0.055409133434295654}

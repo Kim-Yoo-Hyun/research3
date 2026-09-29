@@ -1,0 +1,174 @@
+{
+  "id": "q12-mesh-preservation-v1",
+  "image_id": "sha256:0196da1a3a01ca07186c5c2c605d7e8993193ca810b2b6401dc95943dc0b0adb",
+  "device": "cpu",
+  "started_at_utc": "2026-09-14T02:18:54Z",
+  "completed_at_utc": "2026-09-14T02:19:04.857061+00:00",
+  "log": "logs/20260914_111854_q12_preservation.log",
+  "working_directory": "/home/yoohyun/research3",
+  "launcher": "buildup/robotics/pilot_studies/q12-generated-geometry/geometry/preservation.sh",
+  "launcher_sha256": "0ec5c3e47ccc47c5cd254b11395986f14953ac7c102851c8b1a1a6becbaed798",
+  "freeze_sha256": "2e2328e2c941c62b75fd1f1087960922ec5afc61906840d9c5c64cd6cc040072",
+  "resources": {
+    "cpus": 4,
+    "ram_bytes": 4294967296,
+    "runtime_seconds_cap": 1800,
+    "network": "none"
+  },
+  "files": {
+    "audit/verification.json": {
+      "bytes": 24317,
+      "sha256": "885f6d36f0e8ae77f5ba85422d527bd38cd84f9ff3e71c87f7c9dd3f11d29ec4"
+    },
+    "data/derived/003_cracker_box_v0/candidates.json": {
+      "bytes": 38785,
+      "sha256": "c4ac6e988dbb7480f9999ea346a2da432731e7db0e741975d8aff681f0a16332"
+    },
+    "data/derived/003_cracker_box_v0/geometry.npz": {
+      "bytes": 1831738,
+      "sha256": "4a7cceb3aab2a74a857b96630eefa67df95ae2f6d65daf6874f90b2004422efa"
+    },
+    "data/derived/003_cracker_box_v0/observation.npz": {
+      "bytes": 196291,
+      "sha256": "ae13474adca098f1d38ce5c620efc2cb13cf3ab998a92585c00bb9056aa5dc2e"
+    },
+    "data/derived/003_cracker_box_v0/result.json": {
+      "bytes": 26033,
+      "sha256": "dc52e17d1251c3f9117c1b1229aa5362fa1b23801bc1735fb4d500354f5c88e6"
+    },
+    "data/derived/003_cracker_box_v1/candidates.json": {
+      "bytes": 38663,
+      "sha256": "36967b294ff49271521909c54b42882545fbc9742705b093b7f66817175fe105"
+    },
+    "data/derived/003_cracker_box_v1/geometry.npz": {
+      "bytes": 1831612,
+      "sha256": "5070ed90782366ca599ec4e5af0d31848d2211f76d5f43d34ec43883a25bc066"
+    },
+    "data/derived/003_cracker_box_v1/observation.npz": {
+      "bytes": 155176,
+      "sha256": "111ab9c25ec1e3da91b265c36ebdf322a2eb5407a888d709cbd28d4af5f2f2bd"
+    },
+    "data/derived/003_cracker_box_v1/result.json": {
+      "bytes": 26010,
+      "sha256": "484f4c3ae2f317c8bb4d3d5a9d722fc117f5197b7591e51ee8cad2af3f3742f7"
+    },
+    "data/derived/025_mug_v0/candidates.json": {
+      "bytes": 38797,
+      "sha256": "4a32c8087357feaa80431acfddd8b6f7855ec4fa97316d2a4bd8ffae018704e9"
+    },
+    "data/derived/025_mug_v0/geometry.npz": {
+      "bytes": 1839321,
+      "sha256": "a2f77d85497cbb5596bdb70f167a1e5e8542d0ee5713d56080c26a915566811b"
+    },
+    "data/derived/025_mug_v0/observation.npz": {
+      "bytes": 183237,
+      "sha256": "5895012925fe5ab574a8cf13152323930545e6e60bf0cb825a7e1ad96ed9899f"
+    },
+    "data/derived/025_mug_v0/result.json": {
+      "bytes": 26257,
+      "sha256": "aaf479f1c4455d79c5663fdf20c8ed5ae4c9959adf5806ae8b252f3c7e47d329"
+    },
+    "data/derived/025_mug_v1/candidates.json": {
+      "bytes": 38679,
+      "sha256": "121fa716895ffb21913ca7a11016ecb7ead3ad3a9357a88f0ed664443a9f67ae"
+    },
+    "data/derived/025_mug_v1/geometry.npz": {
+      "bytes": 1839412,
+      "sha256": "b45e48e527aed4c3431bb7dc996d1cb93f80b06cc81b220504e6f9ed74b358df"
+    },
+    "data/derived/025_mug_v1/observation.npz": {
+      "bytes": 195355,
+      "sha256": "b14b8ad69bf00d91cee6071f9b949aeed9839247d843156324028831de587183"
+    },
+    "data/derived/025_mug_v1/result.json": {
+      "bytes": 26256,
+      "sha256": "a8c52188d5bf363ddc1ef635d7d3b4877609175e2ecee659ce397e4696f1d9c6"
+    },
+    "data/meshes/003_cracker_box.npz": {
+      "bytes": 50333,
+      "sha256": "b90b7f5c3ed7ca4cb0c979c6ff506dab29702b868a11c9bb8c4ca98e82bfac97"
+    },
+    "data/meshes/003_cracker_box.obj": {
+      "bytes": 519189,
+      "sha256": "6469516e0da027072dbb2fd7b85889d3b5ff26a952b4fdd450f65c4ad9aea1f5"
+    },
+    "data/meshes/025_mug.npz": {
+      "bytes": 50297,
+      "sha256": "5dc7d9ddfc8aab11cbe87c25efd7333b154cec1dc92f83c687df36bd8c0907f0"
+    },
+    "data/meshes/025_mug.obj": {
+      "bytes": 517225,
+      "sha256": "a4ebc8ddc6d4a06ffae57b66e1597fa3fe7e6ff557c07d1ad1aae1972e98622b"
+    },
+    "data/raw/003_cracker_box_v0/candidates.json": {
+      "bytes": 38785,
+      "sha256": "c4ac6e988dbb7480f9999ea346a2da432731e7db0e741975d8aff681f0a16332"
+    },
+    "data/raw/003_cracker_box_v0/geometry.npz": {
+      "bytes": 1831738,
+      "sha256": "4a7cceb3aab2a74a857b96630eefa67df95ae2f6d65daf6874f90b2004422efa"
+    },
+    "data/raw/003_cracker_box_v0/observation.npz": {
+      "bytes": 196291,
+      "sha256": "ae13474adca098f1d38ce5c620efc2cb13cf3ab998a92585c00bb9056aa5dc2e"
+    },
+    "data/raw/003_cracker_box_v0/result.json": {
+      "bytes": 26033,
+      "sha256": "dc52e17d1251c3f9117c1b1229aa5362fa1b23801bc1735fb4d500354f5c88e6"
+    },
+    "data/raw/003_cracker_box_v1/candidates.json": {
+      "bytes": 38663,
+      "sha256": "36967b294ff49271521909c54b42882545fbc9742705b093b7f66817175fe105"
+    },
+    "data/raw/003_cracker_box_v1/geometry.npz": {
+      "bytes": 1831612,
+      "sha256": "5070ed90782366ca599ec4e5af0d31848d2211f76d5f43d34ec43883a25bc066"
+    },
+    "data/raw/003_cracker_box_v1/observation.npz": {
+      "bytes": 155176,
+      "sha256": "111ab9c25ec1e3da91b265c36ebdf322a2eb5407a888d709cbd28d4af5f2f2bd"
+    },
+    "data/raw/003_cracker_box_v1/result.json": {
+      "bytes": 26010,
+      "sha256": "484f4c3ae2f317c8bb4d3d5a9d722fc117f5197b7591e51ee8cad2af3f3742f7"
+    },
+    "data/raw/025_mug_v0/candidates.json": {
+      "bytes": 38797,
+      "sha256": "4a32c8087357feaa80431acfddd8b6f7855ec4fa97316d2a4bd8ffae018704e9"
+    },
+    "data/raw/025_mug_v0/geometry.npz": {
+      "bytes": 1839344,
+      "sha256": "d0d592c575064500d9962f0786438202842d2284ee36a406399d6437e5335d67"
+    },
+    "data/raw/025_mug_v0/observation.npz": {
+      "bytes": 183237,
+      "sha256": "5895012925fe5ab574a8cf13152323930545e6e60bf0cb825a7e1ad96ed9899f"
+    },
+    "data/raw/025_mug_v0/result.json": {
+      "bytes": 26235,
+      "sha256": "699a5ebc03fb3b1e48a5489444729826bcba052016fd2235cae4c7d558b6b701"
+    },
+    "data/raw/025_mug_v1/candidates.json": {
+      "bytes": 38679,
+      "sha256": "121fa716895ffb21913ca7a11016ecb7ead3ad3a9357a88f0ed664443a9f67ae"
+    },
+    "data/raw/025_mug_v1/geometry.npz": {
+      "bytes": 1839445,
+      "sha256": "83c5ebf77e53074145e1492535500d368960e8ec43b4620daeb6333f0e416eaf"
+    },
+    "data/raw/025_mug_v1/observation.npz": {
+      "bytes": 195355,
+      "sha256": "b14b8ad69bf00d91cee6071f9b949aeed9839247d843156324028831de587183"
+    },
+    "data/raw/025_mug_v1/result.json": {
+      "bytes": 26305,
+      "sha256": "c71cc16c39f6744441af150e6757674388f25fb4cb2ce6b70ee0c5667d4d619b"
+    },
+    "data/result.json": {
+      "bytes": 12659,
+      "sha256": "0b21dcb55bf9a24a6c3996e6b2ccb8b46687b5928f0ecebe88d9a17a080cd5de"
+    }
+  },
+  "total_bytes_before_execution_receipt": 17837347,
+  "decision": "SURFACE_OR_QUERY_CHANGE_UNRESOLVED; retain all cases/errors; do not tune thresholds, replace mug or start completion"
+}

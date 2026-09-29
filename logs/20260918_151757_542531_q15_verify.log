@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/study/verify.py", line 150, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/study/verify.py", line 84, in main
+    assert np.array_equal(placed,f['is_obj_placed']) and np.array_equal(static,f['is_robot_static'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

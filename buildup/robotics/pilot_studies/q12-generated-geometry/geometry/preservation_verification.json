@@ -1,0 +1,1116 @@
+{
+  "status": "NEEDS_ASSESSMENT",
+  "decision": "SURFACE_OR_QUERY_CHANGE_UNRESOLVED; retain all cases/errors; do not tune thresholds, replace mug or start completion",
+  "denominator": 4,
+  "surface_proofs": [
+    {
+      "exact_surface_equal": true,
+      "positive_face_count": 16384,
+      "removed_face_ids": [],
+      "removed_support_witnesses": [],
+      "object": "003_cracker_box",
+      "derived_sha256": "6469516e0da027072dbb2fd7b85889d3b5ff26a952b4fdd450f65c4ad9aea1f5",
+      "topology": {
+        "vertices": 8194,
+        "faces": 16384,
+        "edge_degree_histogram": {
+          "2": 24576
+        },
+        "bad_edges": 0,
+        "orientation_failures": 0,
+        "minimum_triangle_area_m2": 1.9419380369271778e-08
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "003_cracker_box_v0",
+      "verified": true,
+      "independent_labels": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "box_centers": [
+        {
+          "candidate_id": 0,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 0,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 0,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 4,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 5,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 5,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 5,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 6,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 6,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 6,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 7,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 12,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 12,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 12,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 13,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 13,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 13,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 14,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 14,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 14,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 20,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 21,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 22,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 23,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 28,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 29,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 29,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 29,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 30,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 30,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 30,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 2,
+          "independent_inside": false
+        }
+      ],
+      "robust_candidates": 31,
+      "near_contact_ids": [
+        14
+      ],
+      "max_distance_delta_m": 0.0,
+      "max_winding_delta": 0.0,
+      "observations_candidates_oracle_equal": true
+    },
+    {
+      "id": "003_cracker_box_v1",
+      "verified": true,
+      "independent_labels": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "box_centers": [
+        {
+          "candidate_id": 0,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 0,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 0,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 1,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 2,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 3,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 4,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 5,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 5,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 5,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 6,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 6,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 6,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 7,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 8,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 9,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 10,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 11,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 12,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 12,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 12,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 13,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 13,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 13,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 14,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 14,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 14,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 15,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 16,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 17,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 18,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 19,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 20,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 20,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 21,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 22,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 23,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 23,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 24,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 25,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 26,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 27,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 28,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 29,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 29,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 29,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 30,
+          "box": 0,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 30,
+          "box": 1,
+          "independent_inside": true
+        },
+        {
+          "candidate_id": 30,
+          "box": 2,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 0,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 1,
+          "independent_inside": false
+        },
+        {
+          "candidate_id": 31,
+          "box": 2,
+          "independent_inside": false
+        }
+      ],
+      "robust_candidates": 32,
+      "near_contact_ids": [],
+      "max_distance_delta_m": 0.0,
+      "max_winding_delta": 0.0,
+      "observations_candidates_oracle_equal": true
+    },
+    {
+      "id": "025_mug_v0",
+      "verified": false,
+      "error": "surface audit failed"
+    },
+    {
+      "id": "025_mug_v1",
+      "verified": false,
+      "error": "surface audit failed"
+    }
+  ],
+  "errors": [
+    {
+      "object": "025_mug",
+      "error": "AssertionError: corrected edge gate failed"
+    }
+  ],
+  "self_tests": {
+    "positive_control_passed": true,
+    "negative_controls_rejected": [
+      "orientation",
+      "coordinate_motion",
+      "positive_face_removal",
+      "positive_face_duplication",
+      "uncovered_zero_area_support"
+    ]
+  },
+  "source_result_sha256": "0b21dcb55bf9a24a6c3996e6b2ccb8b46687b5928f0ecebe88d9a17a080cd5de",
+  "freeze_sha256": "2e2328e2c941c62b75fd1f1087960922ec5afc61906840d9c5c64cd6cc040072",
+  "readiness_v1_decision_unchanged": "REFINE_LINKAGE",
+  "readiness_revision_executed": false,
+  "boundary": [
+    "finite static queries",
+    "untextured depth/segmentation only",
+    "no global self-intersection or vertex-manifold certificate",
+    "no native parity, completion or policy effect",
+    "synthetic scale, not original physical dimensions"
+  ]
+}

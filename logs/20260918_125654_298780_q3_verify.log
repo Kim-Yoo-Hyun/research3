@@ -1,0 +1,1 @@
+{"status": "PASS", "checks": {"conditions": 12, "reconstructed_step_labels": 14400, "matching_initial_arrays": 132, "replay_target_elements": 21600, "buffer_target_elements": 43200, "reconstructed_action_targets": 21600}, "episodes": 96, "final_goal_distance_range_mm": [7.052710745483637, 14.910903759300709]}

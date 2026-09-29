@@ -1,0 +1,17 @@
+{
+  "id": "q12-bop-preparation-v1",
+  "frozen_at_utc": "2026-09-14T02:55:28.285696+00:00",
+  "image_or_mesh_members_obtained_before_freeze": false,
+  "basis": "metadata-only previous route selection; numeric/physical boundary declared before acquisition",
+  "files": {
+    "selection.json": "c44de4a4758b94c01b2cf720693a83c5fa1d7d573e53861879913176cc9bfad8",
+    "protocol.json": "d43fb481929462f63bffe4c4d32a5f1a328c4845f7a52756d09d219ee6bcef58",
+    "acquire.py": "bf1c05e11ba6b494a9135adc44819e86ae5f29ead88e5af83e39d8b68cc0e1df",
+    "acquire.sh": "8188f6743d41f5fe708016a1ed13e65bcece2659aff4fb004c78190e9df17890",
+    "sources.json": "499428736eedd1b8b99d083ac27fac390430eae185d88be19520f81c377b5a32",
+    "sources/bop_datasets_format.md": "6994afd65c29c2a198ea6e08e138f586ace316aaacda21ae3c498b37d1535222",
+    "sources/calc_gt_masks.py": "d135e8759ae90f31a98bad5b227b9112a34f3553fcd729db7a4cc6a63eb2ffb5",
+    "sources/misc.py": "44de1e832c10d8d50c3a6dd30161ea16ca484db91449d996aeb392bbde361547",
+    "sources/visibility.py": "3776fd4e242a09d87403f6d164e2a2faff290c2b2435679e57077f6b854119f9"
+  }
+}

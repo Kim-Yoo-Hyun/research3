@@ -1,19 +1,31 @@
 # CD1 Intervention-Value Calibration
 
-Updated: 2026-09-04
+Updated: 2026-09-22
 
 ## Status
 
 `deferred`
 
-Stage 7 decision은 `refine`이다. Named sequential system, finite intervention set,
-common cost unit과 counterfactual evaluator를 공개 artifact로 고정할 수 있을 때만
-다시 진행한다.
+현재 판단은 `refine` / `deferred`다. 아래 2026-09-04 원안의 접근성 설명은 다음 갱신과
+구분한다. 최종 novelty나 모든 counterfactual log 확보를 작은 관찰의 선행 gate로 삼지 않는다.
+
+## Reassessment 2026-09-22
+
+[CD5/CD1/Q8 비교](../../robotics/related_work/policy-geometry.md#cd5-cd1-q8-comparison-2026-09-22)에서
+공식 [modular-query](https://github.com/empriselab/modular-query)의 module graph와
+confidence-only/cost-aware query source를 확인했다. 따라서 public synthetic 실행 경로까지
+없다는 일반적 판단은 유지하지 않는다. 이번에는 source만 읽었으며 실행 결과는 없다.
+
+해당 [HRI 2026 논문](https://arxiv.org/html/2602.10289v1)은 confidence·dependency·query cost를
+함께 비교하는 직접 선행이다. CPU에서 작은 사례를 구성할 수 있지만 그 broad 결과의
+반복보다 CD5의 행동 오류 비교를 우선한다. 실제 robot의 동일 상태에서 retry/replan/defer를
+대조한 입력은 여전히 확보하지 않았다. Q15의 oracle-trigger continued/hold 관찰은 calibration
+또는 multi-action monitor benchmark가 아니다. 구체적인 행동·비용 질문이 생기면 재비교한다.
 
 ## Facts
 
-- 이 workspace에서는 sequential intervention dataset이나 simulator를 아직 실행하지
-  않았다.
+- CD1용 sequential monitor/intervention benchmark는 실행하지 않았다. 별도 Q15의
+  continued/hold intervention 결과는 calibration evidence와 구분한다.
 - 한 장의 workstation GPU와 6개월 일정 안에서 frozen trace 또는 lightweight
   simulation을 우선해야 한다.
 - 현재 candidate에 선택된 benchmark, policy와 intervention cost는 없다.

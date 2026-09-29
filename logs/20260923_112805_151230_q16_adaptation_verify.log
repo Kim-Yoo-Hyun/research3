@@ -1,0 +1,200 @@
+{
+  "verification": {
+    "status": "passed",
+    "evaluation_episodes": 120,
+    "raw_states": 9720,
+    "paired_initial_conditions": 24,
+    "collection_episodes": 224,
+    "checks": [
+      "source trace sha256",
+      "force/direction grasp",
+      "goal and sustained success",
+      "paired initial state",
+      "episode separation",
+      "finite values",
+      "policy and world checkpoint identity"
+    ]
+  },
+  "results": [
+    {
+      "condition": "static",
+      "route": "cv",
+      "episodes": 8,
+      "success": 8,
+      "grasp_once": 8,
+      "releases": 0,
+      "mean_final_distance_m": 0.0005920357507420704,
+      "mean_latency_ms": 0.04963680694345385,
+      "mean_correction_norm": 0.0,
+      "mean_prefix_prediction_error_m": null
+    },
+    {
+      "condition": "static",
+      "route": "policy2",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.18118170648813248,
+      "mean_latency_ms": 0.9611023997422308,
+      "mean_correction_norm": 0.0,
+      "mean_prefix_prediction_error_m": null
+    },
+    {
+      "condition": "static",
+      "route": "policy1",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.17443783208727837,
+      "mean_latency_ms": 0.9184935144730844,
+      "mean_correction_norm": 0.0,
+      "mean_prefix_prediction_error_m": null
+    },
+    {
+      "condition": "static",
+      "route": "fixed",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.21879399940371513,
+      "mean_latency_ms": 1.158794219372794,
+      "mean_correction_norm": 0.21546526199672372,
+      "mean_prefix_prediction_error_m": 0.010619212260644419
+    },
+    {
+      "condition": "static",
+      "route": "feedback",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.1942194290459156,
+      "mean_latency_ms": 1.167654144228436,
+      "mean_correction_norm": 0.21690378850325942,
+      "mean_prefix_prediction_error_m": 0.023471289958433773
+    },
+    {
+      "condition": "moving",
+      "route": "cv",
+      "episodes": 8,
+      "success": 8,
+      "grasp_once": 8,
+      "releases": 0,
+      "mean_final_distance_m": 0.0005916609734413214,
+      "mean_latency_ms": 0.05053396744187921,
+      "mean_correction_norm": 0.0,
+      "mean_prefix_prediction_error_m": null
+    },
+    {
+      "condition": "moving",
+      "route": "policy2",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.24408689700067043,
+      "mean_latency_ms": 0.9532924654195085,
+      "mean_correction_norm": 0.0,
+      "mean_prefix_prediction_error_m": null
+    },
+    {
+      "condition": "moving",
+      "route": "policy1",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.20095195807516575,
+      "mean_latency_ms": 0.9211645403411239,
+      "mean_correction_norm": 0.0,
+      "mean_prefix_prediction_error_m": null
+    },
+    {
+      "condition": "moving",
+      "route": "fixed",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.21175753325223923,
+      "mean_latency_ms": 1.1580892343772575,
+      "mean_correction_norm": 0.21734287501312793,
+      "mean_prefix_prediction_error_m": 0.0088323803156527
+    },
+    {
+      "condition": "moving",
+      "route": "feedback",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.20871610008180141,
+      "mean_latency_ms": 1.1642684316029772,
+      "mean_correction_norm": 0.21868485240265728,
+      "mean_prefix_prediction_error_m": 0.024275792754815485
+    },
+    {
+      "condition": "friction",
+      "route": "cv",
+      "episodes": 8,
+      "success": 8,
+      "grasp_once": 8,
+      "releases": 0,
+      "mean_final_distance_m": 0.0005920154508203268,
+      "mean_latency_ms": 0.05121992726344615,
+      "mean_correction_norm": 0.0,
+      "mean_prefix_prediction_error_m": null
+    },
+    {
+      "condition": "friction",
+      "route": "policy2",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.18063612282276154,
+      "mean_latency_ms": 0.9639543335651979,
+      "mean_correction_norm": 0.0,
+      "mean_prefix_prediction_error_m": null
+    },
+    {
+      "condition": "friction",
+      "route": "policy1",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 0,
+      "releases": 0,
+      "mean_final_distance_m": 0.18072432652115822,
+      "mean_latency_ms": 0.9211267461068928,
+      "mean_correction_norm": 0.0,
+      "mean_prefix_prediction_error_m": null
+    },
+    {
+      "condition": "friction",
+      "route": "fixed",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 1,
+      "releases": 1,
+      "mean_final_distance_m": 0.16822471842169762,
+      "mean_latency_ms": 1.1488212883705273,
+      "mean_correction_norm": 0.2206058692652732,
+      "mean_prefix_prediction_error_m": 0.006111948621855845
+    },
+    {
+      "condition": "friction",
+      "route": "feedback",
+      "episodes": 8,
+      "success": 0,
+      "grasp_once": 1,
+      "releases": 0,
+      "mean_final_distance_m": 0.15628371434286237,
+      "mean_latency_ms": 1.1525657289894298,
+      "mean_correction_norm": 0.22332398132421077,
+      "mean_prefix_prediction_error_m": 0.02559339469516999
+    }
+  ]
+}

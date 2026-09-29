@@ -1,0 +1,9 @@
+CD2 follow-up investment review completed
+Decision: one bounded LBM episode-level observation selected; no numerical execution
+Source SHA256/size checks: 23 payload files and 4 API cache files passed
+NPY header checks: 10 passed; semantic/numerical checks: not run
+Markdown validation: 11 owner documents, 405 local links, 258 anchors passed
+Git diff --check: passed
+Docker created/run/deleted: none
+No host baseline imports, installs, unpickling or numerical evaluation
+Source record: buildup/robotics/related_work/comparison_sources.json (cd2_followup_20260917)

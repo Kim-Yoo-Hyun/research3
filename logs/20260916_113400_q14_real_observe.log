@@ -1,0 +1,30 @@
+`network.py`.  `DreamNetwork:__init()` ----------
+  Manipulator: panda
+  Keypoint names: ['panda_link0', 'panda_link2', 'panda_link3', 'panda_link4', 'panda_link6', 'panda_link7', 'panda_hand']
+  Friendly keypoint names: ['Base', 'Joint2', 'Joint3', 'Joint4', 'Joint6', 'Joint7', 'Hand']
+  Architecture type: vgg
+000000 points 7 ADD {'official': 0.013123, 'robust': 0.013123, 'oracle_common': 0.0, 'oracle_all': 0.0}
+000258 points 7 ADD {'official': 0.00985, 'robust': 0.00985, 'oracle_common': 0.0, 'oracle_all': 0.0}
+000516 points 7 ADD {'official': 0.041434, 'robust': 0.05221, 'oracle_common': 0.0, 'oracle_all': 0.0}
+000775 points 7 ADD {'official': 0.015914, 'robust': 0.013084, 'oracle_common': 0.0, 'oracle_all': 0.0}
+001033 points 7 ADD {'official': 0.018865, 'robust': 0.258119, 'oracle_common': 0.0, 'oracle_all': 0.0}
+001291 points 7 ADD {'official': 0.011556, 'robust': 0.011556, 'oracle_common': 0.0, 'oracle_all': 0.0}
+001550 points 7 ADD {'official': 0.018423, 'robust': 0.008278, 'oracle_common': 0.0, 'oracle_all': 0.0}
+001808 points 7 ADD {'official': 0.317027, 'robust': 0.015698, 'oracle_common': 0.0, 'oracle_all': 0.0}
+002067 points 7 ADD {'official': 0.019308, 'robust': 0.047127, 'oracle_common': 0.0, 'oracle_all': 0.0}
+002325 points 7 ADD {'official': 0.007444, 'robust': 0.010678, 'oracle_common': 0.0, 'oracle_all': 0.0}
+002583 points 5 ADD {'official': 0.046179, 'robust': 0.046179, 'oracle_common': 0.0, 'oracle_all': 0.0}
+002842 points 7 ADD {'official': 0.010885, 'robust': 0.010885, 'oracle_common': 0.0, 'oracle_all': 0.0}
+003100 points 7 ADD {'official': 0.010204, 'robust': 0.010204, 'oracle_common': 0.0, 'oracle_all': 0.0}
+003359 points 7 ADD {'official': 0.014146, 'robust': 0.014146, 'oracle_common': 0.0, 'oracle_all': 0.0}
+003617 points 7 ADD {'official': 0.012263, 'robust': 0.011069, 'oracle_common': 0.0, 'oracle_all': 0.0}
+003875 points 7 ADD {'official': 0.025674, 'robust': 0.027791, 'oracle_common': 0.0, 'oracle_all': 0.0}
+004134 points 7 ADD {'official': 0.018397, 'robust': 0.018397, 'oracle_common': 0.0, 'oracle_all': 0.0}
+004392 points 7 ADD {'official': 0.01723, 'robust': 0.01723, 'oracle_common': 0.0, 'oracle_all': 0.0}
+004651 points 7 ADD {'official': 0.007638, 'robust': 0.007638, 'oracle_common': 0.0, 'oracle_all': 0.0}
+004909 points 7 ADD {'official': 0.01044, 'robust': 0.01044, 'oracle_common': 0.0, 'oracle_all': 0.0}
+005167 points 7 ADD {'official': 0.00607, 'robust': 0.00607, 'oracle_common': 0.0, 'oracle_all': 0.0}
+005426 points 7 ADD {'official': 0.02999, 'robust': 0.02999, 'oracle_common': 0.0, 'oracle_all': 0.0}
+005684 points 7 ADD {'official': 0.014152, 'robust': 0.014152, 'oracle_common': 0.0, 'oracle_all': 0.0}
+005943 points 7 ADD {'official': 0.012004, 'robust': 0.017464, 'oracle_common': 0.0, 'oracle_all': 0.0}
+{"frames": 24, "inferred": 24, "elapsed_seconds": 16.62545869499445, "solvers": {"official": {"successes": 24, "failures": 0, "mean_add_all_success_only": 0.02950906671894944, "median_add_all_success_only": 0.014148901915925983, "max_add_all_success_only": 0.31702736763837297}, "robust": {"successes": 24, "failures": 0, "mean_add_all_success_only": 0.028390795986341106, "median_add_all_success_only": 0.01363416201275083, "max_add_all_success_only": 0.2581194307076888}, "oracle_common": {"successes": 24, "failures": 0, "mean_add_all_success_only": 2.2063403527579542e-16, "median_add_all_success_only": 2.1072421941604722e-16, "max_add_all_success_only": 5.530979517357311e-16}, "oracle_all": {"successes": 24, "failures": 0, "mean_add_all_success_only": 2.2063403527579542e-16, "median_add_all_success_only": 2.1072421941604722e-16, "max_add_all_success_only": 5.530979517357311e-16}}}

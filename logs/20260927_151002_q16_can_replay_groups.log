@@ -1,0 +1,51 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /usr/local/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+{
+  "status": "diverged",
+  "maxima": {
+    "demo_0": {
+      "initial_state": 0.0,
+      "initial_obs": 1.1920928955078125e-07,
+      "post_state": 19.44885196352051,
+      "post_qpos": 0.6727926052664063,
+      "post_qvel": 19.44885196352051,
+      "post_obs": 0.0009959342423826456,
+      "state_groups": {
+        "robot_qpos": 0.0005934991806966564,
+        "other_object_qpos": 0.6727926052664063,
+        "can_qpos": 0.0008464364362958993,
+        "robot_qvel": 0.02623453853695775,
+        "other_object_qvel": 19.44885196352051,
+        "can_qvel": 0.556907634608805
+      }
+    },
+    "demo_1": {
+      "initial_state": 0.0,
+      "initial_obs": 5.960464477539063e-08,
+      "post_state": 19.44885196309467,
+      "post_qpos": 0.6727926052995656,
+      "post_qvel": 19.44885196309467,
+      "post_obs": 0.0008981419428922867,
+      "state_groups": {
+        "robot_qpos": 0.0005977529386261629,
+        "other_object_qpos": 0.6727926052995656,
+        "can_qpos": 0.0007963022555468359,
+        "robot_qvel": 0.026309258509133807,
+        "other_object_qvel": 19.44885196309467,
+        "can_qvel": 0.5543172756770205
+      }
+    }
+  },
+  "repeat": {
+    "source": "demo_0",
+    "steps": 32,
+    "state_max_abs": 0.0,
+    "observation_max_abs": 0.0,
+    "state_exact_steps": 32,
+    "second_rollout_status": "diverged"
+  },
+  "error": null
+}

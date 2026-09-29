@@ -1,0 +1,719 @@
+{
+  "boundary": "Descriptive matched evaluation states with only three independent training seeds per reward; no population significance claim.",
+  "comparisons": [
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "native",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "lost": 2,
+      "gained": 4,
+      "lost_units": [
+        {
+          "seed": 202,
+          "state": 13,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 13.952723704278469,
+          "final_arm_speed_rad_s": 0.4070630669593811,
+          "final_arm_max_abs_velocity_rad_s": 0.24508313834667206
+        },
+        {
+          "seed": 202,
+          "state": 30,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 23.08991365134716,
+          "final_arm_speed_rad_s": 0.33696919679641724,
+          "final_arm_max_abs_velocity_rad_s": 0.22984585165977478
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "native",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 1,
+      "gained": 4,
+      "lost_units": [
+        {
+          "seed": 303,
+          "state": 12,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 4.823683761060238,
+          "final_arm_speed_rad_s": 0.3505372703075409,
+          "final_arm_max_abs_velocity_rad_s": 0.24841095507144928
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "native",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 3,
+      "gained": 3,
+      "lost_units": [
+        {
+          "seed": 202,
+          "state": 13,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 13.514711521565914,
+          "final_arm_speed_rad_s": 0.4075174629688263,
+          "final_arm_max_abs_velocity_rad_s": 0.24424876272678375
+        },
+        {
+          "seed": 303,
+          "state": 8,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 12.605280615389347,
+          "final_arm_speed_rad_s": 0.7217775583267212,
+          "final_arm_max_abs_velocity_rad_s": 0.5890285968780518
+        },
+        {
+          "seed": 303,
+          "state": 12,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 4.379888065159321,
+          "final_arm_speed_rad_s": 0.7328433990478516,
+          "final_arm_max_abs_velocity_rad_s": 0.543493390083313
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "native",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "lost": 0,
+      "gained": 3,
+      "lost_units": []
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "native",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 1,
+      "gained": 1,
+      "lost_units": [
+        {
+          "seed": 303,
+          "state": 0,
+          "failure": "goal_not_reached_at_end",
+          "final_goal_distance_mm": 370.6006407737732,
+          "final_arm_speed_rad_s": 0.3894692063331604,
+          "final_arm_max_abs_velocity_rad_s": 0.3126102685928345
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "native",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 1,
+      "gained": 4,
+      "lost_units": [
+        {
+          "seed": 303,
+          "state": 0,
+          "failure": "goal_not_reached_at_end",
+          "final_goal_distance_mm": 368.8915967941284,
+          "final_arm_speed_rad_s": 0.39760449528694153,
+          "final_arm_max_abs_velocity_rad_s": 0.3053664565086365
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "lost": 1,
+      "gained": 0,
+      "lost_units": [
+        {
+          "seed": 303,
+          "state": 12,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 13.88877909630537,
+          "final_arm_speed_rad_s": 0.7468788623809814,
+          "final_arm_max_abs_velocity_rad_s": 0.6576728224754333
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 0,
+      "gained": 1,
+      "lost_units": []
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 0,
+      "gained": 1,
+      "lost_units": []
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "lost": 2,
+      "gained": 0,
+      "lost_units": [
+        {
+          "seed": 101,
+          "state": 4,
+          "failure": "goal_not_reached_at_end",
+          "final_goal_distance_mm": 329.41141724586487,
+          "final_arm_speed_rad_s": 0.6387080550193787,
+          "final_arm_max_abs_velocity_rad_s": 0.39884981513023376
+        },
+        {
+          "seed": 303,
+          "state": 9,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 173.87346923351288,
+          "final_arm_speed_rad_s": 0.7647292017936707,
+          "final_arm_max_abs_velocity_rad_s": 0.6123866438865662
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 0,
+      "gained": 1,
+      "lost_units": []
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 1,
+      "gained": 0,
+      "lost_units": [
+        {
+          "seed": 303,
+          "state": 9,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 289.8099422454834,
+          "final_arm_speed_rad_s": 0.4837874174118042,
+          "final_arm_max_abs_velocity_rad_s": 0.28351256251335144
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "half",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "lost": 0,
+      "gained": 1,
+      "lost_units": []
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "half",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 1,
+      "gained": 1,
+      "lost_units": [
+        {
+          "seed": 303,
+          "state": 26,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 25.839587673544884,
+          "final_arm_speed_rad_s": 0.17701812088489532,
+          "final_arm_max_abs_velocity_rad_s": 0.09811443835496902
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "half",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 1,
+      "gained": 1,
+      "lost_units": [
+        {
+          "seed": 202,
+          "state": 11,
+          "failure": "left_after_success",
+          "final_goal_distance_mm": 95.96401453018188,
+          "final_arm_speed_rad_s": 0.6703529953956604,
+          "final_arm_max_abs_velocity_rad_s": 0.37880656123161316
+        }
+      ]
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "half",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "lost": 0,
+      "gained": 1,
+      "lost_units": []
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "half",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 0,
+      "gained": 1,
+      "lost_units": []
+    },
+    {
+      "kind": "shift_vs_nominal",
+      "variant": "half",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "lost": 0,
+      "gained": 1,
+      "lost_units": []
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 1.0,
+      "friction": 1.0,
+      "n": 96,
+      "native_only": 5,
+      "alternative_only": 14,
+      "same_both_fail": 3
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "native_only": 7,
+      "alternative_only": 13,
+      "same_both_fail": 2
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "native_only": 5,
+      "alternative_only": 12,
+      "same_both_fail": 2
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "native_only": 3,
+      "alternative_only": 13,
+      "same_both_fail": 4
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 1.0,
+      "friction": 1.0,
+      "n": 96,
+      "native_only": 0,
+      "alternative_only": 8,
+      "same_both_fail": 2
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "native_only": 2,
+      "alternative_only": 5,
+      "same_both_fail": 2
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "native_only": 0,
+      "alternative_only": 9,
+      "same_both_fail": 1
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "native_only": 1,
+      "alternative_only": 5,
+      "same_both_fail": 2
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "half",
+      "update": 97,
+      "density": 1.0,
+      "friction": 1.0,
+      "n": 96,
+      "native_only": 22,
+      "alternative_only": 8,
+      "same_both_fail": 9
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "half",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "native_only": 23,
+      "alternative_only": 8,
+      "same_both_fail": 7
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "half",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "native_only": 24,
+      "alternative_only": 7,
+      "same_both_fail": 7
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "half",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "native_only": 21,
+      "alternative_only": 7,
+      "same_both_fail": 10
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "half",
+      "update": 195,
+      "density": 1.0,
+      "friction": 1.0,
+      "n": 96,
+      "native_only": 3,
+      "alternative_only": 10,
+      "same_both_fail": 0
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "half",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "n": 96,
+      "native_only": 2,
+      "alternative_only": 7,
+      "same_both_fail": 0
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "half",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "n": 96,
+      "native_only": 2,
+      "alternative_only": 10,
+      "same_both_fail": 0
+    },
+    {
+      "kind": "reward_vs_native",
+      "variant": "half",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "n": 96,
+      "native_only": 2,
+      "alternative_only": 7,
+      "same_both_fail": 0
+    }
+  ],
+  "behavior": [
+    {
+      "variant": "native",
+      "update": 97,
+      "density": 1.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8804166666666667,
+      "final_distance_median_mm": 10.105836670845747,
+      "final_arm_speed_median_rad_s": 0.07866021245718002
+    },
+    {
+      "variant": "native",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8802083333333334,
+      "final_distance_median_mm": 10.865694377571344,
+      "final_arm_speed_median_rad_s": 0.0865262858569622
+    },
+    {
+      "variant": "native",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8802083333333334,
+      "final_distance_median_mm": 10.332860052585602,
+      "final_arm_speed_median_rad_s": 0.0765644833445549
+    },
+    {
+      "variant": "native",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8802083333333334,
+      "final_distance_median_mm": 11.016564909368753,
+      "final_arm_speed_median_rad_s": 0.08368624001741409
+    },
+    {
+      "variant": "native",
+      "update": 195,
+      "density": 1.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8722916666666668,
+      "final_distance_median_mm": 11.261851526796818,
+      "final_arm_speed_median_rad_s": 0.055705489590764046
+    },
+    {
+      "variant": "native",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8735416666666668,
+      "final_distance_median_mm": 11.367556173354387,
+      "final_arm_speed_median_rad_s": 0.06139054894447327
+    },
+    {
+      "variant": "native",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8595833333333335,
+      "final_distance_median_mm": 11.936728842556477,
+      "final_arm_speed_median_rad_s": 0.055309779942035675
+    },
+    {
+      "variant": "native",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8633333333333333,
+      "final_distance_median_mm": 11.535787489265203,
+      "final_arm_speed_median_rad_s": 0.06064695306122303
+    },
+    {
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 1.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8608333333333333,
+      "final_distance_median_mm": 6.637639598920941,
+      "final_arm_speed_median_rad_s": 0.06017858535051346
+    },
+    {
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8606250000000001,
+      "final_distance_median_mm": 6.527776597067714,
+      "final_arm_speed_median_rad_s": 0.06860551238059998
+    },
+    {
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8610416666666666,
+      "final_distance_median_mm": 6.719682132825255,
+      "final_arm_speed_median_rad_s": 0.05837252922356129
+    },
+    {
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8608333333333333,
+      "final_distance_median_mm": 6.536406930536032,
+      "final_arm_speed_median_rad_s": 0.06766901910305023
+    },
+    {
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 1.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8581250000000001,
+      "final_distance_median_mm": 9.247205685824156,
+      "final_arm_speed_median_rad_s": 0.05908976309001446
+    },
+    {
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8452083333333335,
+      "final_distance_median_mm": 9.335299022495747,
+      "final_arm_speed_median_rad_s": 0.06989598646759987
+    },
+    {
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8595833333333335,
+      "final_distance_median_mm": 9.246048517525196,
+      "final_arm_speed_median_rad_s": 0.056992292404174805
+    },
+    {
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8516666666666669,
+      "final_distance_median_mm": 9.35465283691883,
+      "final_arm_speed_median_rad_s": 0.06589037925004959
+    },
+    {
+      "variant": "half",
+      "update": 97,
+      "density": 1.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8764583333333335,
+      "final_distance_median_mm": 11.986707337200642,
+      "final_arm_speed_median_rad_s": 0.131619393825531
+    },
+    {
+      "variant": "half",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8779166666666667,
+      "final_distance_median_mm": 12.621814385056496,
+      "final_arm_speed_median_rad_s": 0.14054905623197556
+    },
+    {
+      "variant": "half",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8760416666666667,
+      "final_distance_median_mm": 11.834119912236929,
+      "final_arm_speed_median_rad_s": 0.12995777279138565
+    },
+    {
+      "variant": "half",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8710416666666667,
+      "final_distance_median_mm": 13.365230988711119,
+      "final_arm_speed_median_rad_s": 0.13619829714298248
+    },
+    {
+      "variant": "half",
+      "update": 195,
+      "density": 1.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.874375,
+      "final_distance_median_mm": 11.33342832326889,
+      "final_arm_speed_median_rad_s": 0.054712917655706406
+    },
+    {
+      "variant": "half",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "grasp_fraction_mean": 0.8747916666666667,
+      "final_distance_median_mm": 11.03869266808033,
+      "final_arm_speed_median_rad_s": 0.05992980673909187
+    },
+    {
+      "variant": "half",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8722916666666666,
+      "final_distance_median_mm": 11.3003458827734,
+      "final_arm_speed_median_rad_s": 0.05386832542717457
+    },
+    {
+      "variant": "half",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "grasp_fraction_mean": 0.8720833333333333,
+      "final_distance_median_mm": 10.951997246593237,
+      "final_arm_speed_median_rad_s": 0.05844764783978462
+    }
+  ]
+}

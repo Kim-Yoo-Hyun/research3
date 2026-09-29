@@ -1,0 +1,13 @@
+{
+  "id": "q12-preservation-failure-inspection-v1",
+  "frozen_at_utc": "2026-09-14T02:21:30.218145+00:00",
+  "image_id": "sha256:0196da1a3a01ca07186c5c2c605d7e8993193ca810b2b6401dc95943dc0b0adb",
+  "basis": "paired diagnostic failed corrected mug edge gate; detailed inspection and skipped query audit only",
+  "files": {
+    "inspection_plan.json": "7c89fa78154d11dc3c629538d24d5dd3f3703f5b454ddb459edf0a6add30f26c",
+    "inspect_preservation.py": "0acc0abe09f5dab66971208b3de2a1f302c93149c9a905d42b0dd559f1093eb3",
+    "inspection.sh": "ce9b12e9c437674274eb5670415c80c26f492a766dc4bc404254427b2cf300d2",
+    "preservation_freeze.json": "2e2328e2c941c62b75fd1f1087960922ec5afc61906840d9c5c64cd6cc040072",
+    "preservation_execution.json": "ba59e4e4d672f47a0836cfcbb1e9e2d19b19b512a6121e5df0fdc62a65ee8a08"
+  }
+}

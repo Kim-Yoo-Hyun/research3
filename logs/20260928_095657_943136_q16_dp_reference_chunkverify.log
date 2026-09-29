@@ -1,0 +1,22 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/usr/local/lib/python3.11/site-packages/shapely/set_operations.py:131: RuntimeWarning: invalid value encountered in intersection
+  return lib.intersection(a, b, **kwargs)
+/usr/local/lib/python3.11/site-packages/shapely/set_operations.py:131: RuntimeWarning: divide by zero encountered in intersection
+  return lib.intersection(a, b, **kwargs)
+{
+  "status": "passed",
+  "checked_traces": 32,
+  "max_replay_drift": 6.661338147750939e-16,
+  "rescue_seeds": [
+    49203,
+    49211
+  ],
+  "harm_seeds": [
+    49201,
+    49205,
+    49214
+  ]
+}

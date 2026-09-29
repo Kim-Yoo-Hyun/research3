@@ -1,0 +1,33 @@
+09/28 [03:52:53] INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/models/policy/checkpoints/steps_1                   
+                          00000_pytorch_model.pt`                               
+                 INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/models/policy/checkpoints/steps_1                   
+                          00000_pytorch_model.pt`                               
+                 INFO     | >> [*] Runtime override:        base_framework.py:40
+                          framework.qwenvl.base_vlm=/models                     
+                          /Qwen3-VL-2B-Instruct                                 
+                 INFO     | >> [*] Runtime override:        base_framework.py:40
+                          framework.qwenvl.base_vlm=/models                     
+                          /Qwen3-VL-2B-Instruct                                 
+[WARNING] flash_attn not installed, falling back to sdpa
+                 INFO     | >> [*] [Qwen3-VL] Loading               QWen3.py:109
+                          /models/Qwen3-VL-2B-Instruct with                     
+                          attn_implementation=sdpa                              
+{"event": "ready", "metadata": {"action_chunk_size": 16, "available_unnorm_keys": ["new_embodiment"], "default_unnorm_key": "new_embodiment", "state_keys": ["state.astribot"], "action_keys": ["action.astribot"], "bridge": "direct_minmax_exploratory"}}
+09/28 [03:53:02] INFO     | >> server listening on 0.0.0.0:7980    server.py:341
+09/28 [03:53:03] INFO     | >> connection open                     server.py:531
+                 INFO     | >> Connection from     websocket_policy_server.py:66
+                          ('172.18.0.3', 44488)                                 
+                          opened                                                
+{"event": "inference", "request_count": 1, "instruction": ["Count the different block colors and press the matching number button; left to right means 1, 2, and 3."], "num_frames": [1], "actions_sha256": "a4cffaf587ed6e0e91ac89ec4a78d29a388f49f3f277123d8fa032667899529a"}
+{"event": "inference", "request_count": 2, "instruction": ["Count the different block colors and press the matching number button; left to right means 1, 2, and 3."], "num_frames": [2], "actions_sha256": "be241209ec952662748d94d5e6d993c5c559047f4dc79b65a371aaf2dc836192"}
+{"event": "inference", "request_count": 3, "instruction": ["Count the different block colors and press the matching number button; left to right means 1, 2, and 3."], "num_frames": [3], "actions_sha256": "62f9db8c29661c3a0985f71af3f979edf1d4fd4b90770cc4edd3cb1dcc46d246"}
+{"event": "inference", "request_count": 4, "instruction": ["Count the different block colors and press the matching number button; left to right means 1, 2, and 3."], "num_frames": [4], "actions_sha256": "d1217cfd0f4d0e7e1ec7c333d3e72e17537ae3958fd795152d7151fad0f6640e"}
+{"event": "inference", "request_count": 5, "instruction": ["Count the different block colors and press the matching number button; left to right means 1, 2, and 3."], "num_frames": [5], "actions_sha256": "71a89aeedd3df8a75f49b9c7adc19a820ffbe306d7374e809029d2e335d0aad4"}
+{"event": "inference", "request_count": 6, "instruction": ["Count the different block colors and press the matching number button; left to right means 1, 2, and 3."], "num_frames": [6], "actions_sha256": "09750938375c4020347b273f8d94a12aedeea226b92eff069fa3ab25c619cebc"}
+09/28 [03:53:24] INFO     | >> Connection from     websocket_policy_server.py:78
+                          ('172.18.0.3', 44488)                                 
+                          closed                                                

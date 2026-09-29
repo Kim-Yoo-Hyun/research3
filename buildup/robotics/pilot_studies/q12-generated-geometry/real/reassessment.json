@@ -1,0 +1,170 @@
+{
+  "id": "q12-measurement-reassessment-20260914",
+  "completed_at_utc": "2026-09-14T05:31:40.026914+00:00",
+  "scope": "single source and existing-record assessment; no new numerical measurements",
+  "decision": "defer further Q12 investment",
+  "question_status": "deferred",
+  "stage_7": "refine; inactive pending concrete study design",
+  "preserved_audit_decision": "DEFER_RAY_SUPPORT",
+  "physical_admission": false,
+  "calibration_status": "UNRESOLVED_BEFORE_EXECUTION",
+  "research_phenomenon": "unmeasured; neither supported nor disconfirmed by input readiness",
+  "owner": "README.md#reassessment-2026-09-14",
+  "sources": {
+    "existing_pinned_source_receipt": {
+      "path": "sources.json",
+      "sha256": "499428736eedd1b8b99d083ac27fac390430eae185d88be19520f81c377b5a32"
+    },
+    "bop_toolkit_commit": "cea62d651c7e395b2e1962b9749e4e89693c6ac4",
+    "new_cached_source": {
+      "url": "https://raw.githubusercontent.com/thodan/bop_toolkit/cea62d651c7e395b2e1962b9749e4e89693c6ac4/bop_toolkit_lib/rendering/renderer_vispy.py",
+      "path": "sources/renderer_vispy.py",
+      "bytes": 21453,
+      "sha256": "01bed6ae71dcef1cb908198da027280dcefaf384607a841a8fefb79e97874243",
+      "locator": "_calc_calib_proj; render_object; on_draw; _draw_depth",
+      "purpose": "projection/raster convention source inspection only; never imported or run"
+    },
+    "web_primary_sources": [
+      {
+        "url": "https://rse-lab.cs.washington.edu/papers/posecnn_rss18.pdf",
+        "publication": "PoseCNN, RSS 2018",
+        "locator": "Section IV-A/B, PDF page 5",
+        "accessed": "2026-09-14",
+        "purpose": "depth-based annotation procedure and stated error sources; no selected-frame numeric calibration bound found",
+        "local_copy": false
+      },
+      {
+        "url": "https://bop.felk.cvut.cz/datasets/#YCB-V",
+        "locator": "YCB-V dataset differences",
+        "accessed": "2026-09-14",
+        "purpose": "curated test frames and model/pose conversion; no selected-frame calibrated error bound found",
+        "local_copy": false
+      },
+      {
+        "url": "https://registry.khronos.org/OpenGL/extensions/ARB/ARB_fragment_coord_conventions.txt",
+        "locator": "Overview; fragment-coordinate qualifiers do not change rasterization",
+        "accessed": "2026-09-14",
+        "purpose": "half-integer default fragment centers; cannot establish archive mask lineage",
+        "local_copy": false
+      }
+    ],
+    "existing_dataset_info": {
+      "path": "../../../../../datasets/q12/bop_v1/dataset_info.md",
+      "sha256": "4766684f25f165c1c312745e3583fe248161c56c35a862bfa04134141151882e"
+    }
+  },
+  "findings": [
+    {
+      "type": "source_fact",
+      "finding": "Positive distances use D_model - D_test <= delta in bop18 and bop19; bop19 additionally allows missing test depth.",
+      "evidence": "sources/visibility.py:_estimate_visib_mask"
+    },
+    {
+      "type": "logical_inference",
+      "finding": "One-sided visibility cannot upper-bound positive observed-minus-model residuals.",
+      "boundary": "Compatible with retained large residual; physical source and archive producer not identified."
+    },
+    {
+      "type": "unconfirmed_explanation",
+      "finding": "Integer ray grid versus renderer raster conventions may affect support.",
+      "boundary": "No renderer parity, shifted-ray test or per-miss attribution; no sample changes."
+    },
+    {
+      "type": "source_based_inference",
+      "finding": "Annotated model/pose is independent of completion checkpoint, but was fitted using depth observations.",
+      "boundary": "No justified physical error bound for selected frames in inspected sources."
+    },
+    {
+      "type": "research_decision",
+      "finding": "Defer current investment; numerical raster agreement alone has insufficient information about action reliance.",
+      "boundary": "Controlled modeled-geometry studies remain possible, pending concrete action contrast, input controls, costs and stop criteria."
+    }
+  ],
+  "prior_results": {
+    "outcome.json": {
+      "sha256": "1ef3e3824493bbc260261ee5523fd579b4af2428851398044b2fa8c31200cf66",
+      "bytes": 13001
+    },
+    "verification.json": {
+      "sha256": "f754d327aa91aeac67af0f2b2b03eed2c4864bca57cfdd854a268c13b9808cd5",
+      "bytes": 4252
+    },
+    "execution.json": {
+      "sha256": "a6f67cdccc71da58048ab5a2ed695cd6a75882a56c6c1d7023cb23080cc9bcca",
+      "bytes": 3786
+    }
+  },
+  "new_numerical_execution": false,
+  "method_dependencies_imported_on_host": false,
+  "protocol_or_sample_mutations": false,
+  "new_dataset_or_model_payload": false,
+  "asset_deletion": false,
+  "external_backup_verification": false,
+  "artifact_verification": {
+    "status": "PASS",
+    "freezes": {
+      "freeze.json": {
+        "sha256": "7b9ad1db49e2138f5c635e477af8a3ff26834926a325d5ed8fff5e7bd99c946c",
+        "entries": 17
+      },
+      "model/schema_freeze.json": {
+        "sha256": "d5b3b73e476f9e80191a5b6008f45e321c514d5d6b31e23bb63058e867ea7b60",
+        "entries": 17
+      },
+      "model/completion_freeze.json": {
+        "sha256": "f8325aef30dbbfa2fff1a6f1eb358132096ba1621ea651d7ca7280c6de46cbb4",
+        "entries": 43
+      },
+      "geometry/freeze.json": {
+        "sha256": "014e3edac4c4456afc3efc1c3622cc72b6150358feae1b15945394c647523e1c",
+        "entries": 20
+      },
+      "geometry/preservation_freeze.json": {
+        "sha256": "2e2328e2c941c62b75fd1f1087960922ec5afc61906840d9c5c64cd6cc040072",
+        "entries": 9
+      },
+      "geometry/inspection_freeze.json": {
+        "sha256": "7cff27eecd1e0074806bd890be2c366dc540394c8d6aff7aaaba7f1c8b398bcb",
+        "entries": 5
+      },
+      "real/preparation_freeze.json": {
+        "sha256": "4375d7c0e5ed9e24016d3ee09079ff9249f359b5c5c67b6f8e253bc6114e02ff",
+        "entries": 9
+      },
+      "real/freeze.json": {
+        "sha256": "30398fce4e7aa90a79219e54ba45020c323d6b432501d0bbd0cfe93523b60d8f",
+        "entries": 29
+      }
+    },
+    "members": 37,
+    "range_responses": 74,
+    "response_bytes": 3384724,
+    "unpacked_bytes": 7173658,
+    "synthetic_groups": 9,
+    "image_bytes": 82234923,
+    "real_images_decoded_by_this_check": false,
+    "real_mesh_coordinates_inspected_by_this_check": false,
+    "byte_validation_only": true
+  },
+  "output_verification": {
+    "status": "PASS",
+    "root": "runs/q12_real_input_v1",
+    "inventory_entries": 17,
+    "total_files_including_execution_receipt": 18,
+    "total_bytes": 1136510,
+    "compact_receipts_byte_identical": true,
+    "frozen_result_sha256_matches": true
+  },
+  "verification_boundary": "Byte/hash/JSON/source syntax checks only; earlier Docker numerical results reused, not rerun.",
+  "closing_verification": {
+    "status": "PASS",
+    "markdown_documents": 12,
+    "local_links": 324,
+    "heading_links": 141,
+    "source_and_prior_record_hashes": "PASS",
+    "status_consistency": "PASS",
+    "diff_whitespace": "PASS",
+    "numerical_execution": false,
+    "log": "logs/20260914_143521_q12_reassessment.log"
+  }
+}

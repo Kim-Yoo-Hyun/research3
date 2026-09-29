@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "python_syntax_files": 5,
+  "local_links": 423,
+  "episode_rows": 576,
+  "paired_improvements": 9,
+  "paired_worsenings": 3,
+  "compact_matches_raw": true,
+  "cleanup_log": "logs/20260922_110416_q15_hold_cleanup.log",
+  "one_off_overview": "not updated in this research task"
+}

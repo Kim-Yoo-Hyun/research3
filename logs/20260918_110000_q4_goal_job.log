@@ -1,0 +1,4 @@
+completed /home/yoohyun/research3/runs/q4-planning/20260918_goal_v1/containers/research3_q4_goal_prepare_20260918_110001.json log /home/yoohyun/research3/logs/20260918_110001_q4_goal_prepare.log
+completed /home/yoohyun/research3/runs/q4-planning/20260918_goal_v1/containers/research3_q4_run_20260918_110001.json log /home/yoohyun/research3/logs/20260918_110001_q4_run.log
+completed /home/yoohyun/research3/runs/q4-planning/20260918_goal_v1/containers/research3_q4_goal_verify_20260918_110003.json log /home/yoohyun/research3/logs/20260918_110003_q4_goal_verify.log
+completed /home/yoohyun/research3/runs/q4-planning/20260918_goal_v1/containers/research3_q4_goal_analyze_20260918_110004.json log /home/yoohyun/research3/logs/20260918_110004_q4_goal_analyze.log

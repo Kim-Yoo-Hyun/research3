@@ -1,0 +1,3659 @@
+{
+  "removed": [
+    {
+      "id": "2adb9d1a35e113a4544e090470b4cde0219e56559a29610b0d6870cd3def285e",
+      "name": "/research3-q15-run-20260918_140535_277414",
+      "job_record": "runs/q15/reward/jobs/20260918_140535_277414_run.json",
+      "inspection": {
+        "Id": "2adb9d1a35e113a4544e090470b4cde0219e56559a29610b0d6870cd3def285e",
+        "Created": "2026-09-18T05:05:35.345927733Z",
+        "Path": "timeout",
+        "Args": [
+          "15000s",
+          "python",
+          "-B",
+          "-u",
+          "/study/run.py",
+          "--attempt",
+          "v1"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 0,
+          "Error": "",
+          "StartedAt": "2026-09-18T05:05:35.428480162Z",
+          "FinishedAt": "2026-09-18T06:17:53.698238747Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/2adb9d1a35e113a4544e090470b4cde0219e56559a29610b0d6870cd3def285e/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/2adb9d1a35e113a4544e090470b4cde0219e56559a29610b0d6870cd3def285e/hostname",
+        "HostsPath": "/var/lib/docker/containers/2adb9d1a35e113a4544e090470b4cde0219e56559a29610b0d6870cd3def285e/hosts",
+        "LogPath": "/var/lib/docker/containers/2adb9d1a35e113a4544e090470b4cde0219e56559a29610b0d6870cd3def285e/2adb9d1a35e113a4544e090470b4cde0219e56559a29610b0d6870cd3def285e-json.log",
+        "Name": "/research3-q15-run-20260918_140535_277414",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro",
+            "/home/yoohyun/research3/runs/q15/reward:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "bridge",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "nvidia",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": [
+            {
+              "Driver": "",
+              "Count": 0,
+              "DeviceIDs": [
+                "0"
+              ],
+              "Capabilities": [
+                [
+                  "gpu"
+                ]
+              ],
+              "Options": {}
+            }
+          ],
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "2adb9d1a35e1",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "NVIDIA_DRIVER_CAPABILITIES=graphics,utility,compute",
+            "VK_ICD_FILENAMES=/opt/ManiSkill/docker/nvidia_icd.json",
+            "CUDA_VISIBLE_DEVICES=0",
+            "MPLCONFIGDIR=/home/research/mpl",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "15000s",
+            "python",
+            "-B",
+            "-u",
+            "/study/run.py",
+            "--attempt",
+            "v1"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-reward",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "bridge": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "634a7ca7611c241d5535b412a4bbd5a180f77e74ba6fce1d9aea77e75d6dce86",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "log_sha256": "ae7ec22b13c589c3e58e71918514e7958914f0bdc4f71e8e3fb71572a86bc65b",
+      "removed": true
+    },
+    {
+      "id": "51c62edbb0355c8346c38f5c0d61bcfcc903e67dd83780c30595af4a3adfb0f6",
+      "name": "/research3-q15-verify-20260918_151757_542531",
+      "job_record": "runs/q15/reward/jobs/20260918_151757_542531_verify.json",
+      "inspection": {
+        "Id": "51c62edbb0355c8346c38f5c0d61bcfcc903e67dd83780c30595af4a3adfb0f6",
+        "Created": "2026-09-18T06:17:57.618975594Z",
+        "Path": "timeout",
+        "Args": [
+          "3600s",
+          "python",
+          "-B",
+          "-u",
+          "/study/verify.py",
+          "--attempt",
+          "v1"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 1,
+          "Error": "",
+          "StartedAt": "2026-09-18T06:17:57.694328396Z",
+          "FinishedAt": "2026-09-18T06:17:57.96162096Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/51c62edbb0355c8346c38f5c0d61bcfcc903e67dd83780c30595af4a3adfb0f6/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/51c62edbb0355c8346c38f5c0d61bcfcc903e67dd83780c30595af4a3adfb0f6/hostname",
+        "HostsPath": "/var/lib/docker/containers/51c62edbb0355c8346c38f5c0d61bcfcc903e67dd83780c30595af4a3adfb0f6/hosts",
+        "LogPath": "/var/lib/docker/containers/51c62edbb0355c8346c38f5c0d61bcfcc903e67dd83780c30595af4a3adfb0f6/51c62edbb0355c8346c38f5c0d61bcfcc903e67dd83780c30595af4a3adfb0f6-json.log",
+        "Name": "/research3-q15-verify-20260918_151757_542531",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro",
+            "/home/yoohyun/research3/runs/q15/reward:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "none",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "runc",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": null,
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "51c62edbb035",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "MPLCONFIGDIR=/home/research/mpl",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "3600s",
+            "python",
+            "-B",
+            "-u",
+            "/study/verify.py",
+            "--attempt",
+            "v1"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-reward",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "none": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "7db6384d71c27de0ffc1f6e9df5a18469991384f0ee8d5e88287093aa40a1bd8",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "log_sha256": "e15d5dda18fbbb611ef270dc27e79007c5d49adabcee5fb4291622ca7080b583",
+      "removed": true
+    },
+    {
+      "id": "0f20f8357b01abce3f6f70a673f2e05ca1b540ed49392508063633b74f23ebbe",
+      "name": "/research3-q15-verify-20260918_151918_167233",
+      "job_record": "runs/q15/reward/jobs/20260918_151918_167233_verify.json",
+      "inspection": {
+        "Id": "0f20f8357b01abce3f6f70a673f2e05ca1b540ed49392508063633b74f23ebbe",
+        "Created": "2026-09-18T06:19:18.235707936Z",
+        "Path": "timeout",
+        "Args": [
+          "3600s",
+          "python",
+          "-B",
+          "-u",
+          "/study/verify.py",
+          "--attempt",
+          "v1"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 1,
+          "Error": "",
+          "StartedAt": "2026-09-18T06:19:18.319042762Z",
+          "FinishedAt": "2026-09-18T06:19:18.746668839Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/0f20f8357b01abce3f6f70a673f2e05ca1b540ed49392508063633b74f23ebbe/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/0f20f8357b01abce3f6f70a673f2e05ca1b540ed49392508063633b74f23ebbe/hostname",
+        "HostsPath": "/var/lib/docker/containers/0f20f8357b01abce3f6f70a673f2e05ca1b540ed49392508063633b74f23ebbe/hosts",
+        "LogPath": "/var/lib/docker/containers/0f20f8357b01abce3f6f70a673f2e05ca1b540ed49392508063633b74f23ebbe/0f20f8357b01abce3f6f70a673f2e05ca1b540ed49392508063633b74f23ebbe-json.log",
+        "Name": "/research3-q15-verify-20260918_151918_167233",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro",
+            "/home/yoohyun/research3/runs/q15/reward:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "none",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "runc",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": null,
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "0f20f8357b01",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "MPLCONFIGDIR=/home/research/mpl",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "3600s",
+            "python",
+            "-B",
+            "-u",
+            "/study/verify.py",
+            "--attempt",
+            "v1"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-reward",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "none": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "7db6384d71c27de0ffc1f6e9df5a18469991384f0ee8d5e88287093aa40a1bd8",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "log_sha256": "60f0d0a9d2c683e057c281e163b72f4e5a79d4bc82008c4d8a803689ec7e7f46",
+      "removed": true
+    },
+    {
+      "id": "28b25499fa40672e6ce027d455ec863d240c52a514da0f96b975935c6dd55df7",
+      "name": "/research3-q15-verify-20260918_152028_145317",
+      "job_record": "runs/q15/reward/jobs/20260918_152028_145317_verify.json",
+      "inspection": {
+        "Id": "28b25499fa40672e6ce027d455ec863d240c52a514da0f96b975935c6dd55df7",
+        "Created": "2026-09-18T06:20:28.21288671Z",
+        "Path": "timeout",
+        "Args": [
+          "3600s",
+          "python",
+          "-B",
+          "-u",
+          "/study/verify.py",
+          "--attempt",
+          "v1"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 0,
+          "Error": "",
+          "StartedAt": "2026-09-18T06:20:28.287702159Z",
+          "FinishedAt": "2026-09-18T06:20:29.236542518Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/28b25499fa40672e6ce027d455ec863d240c52a514da0f96b975935c6dd55df7/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/28b25499fa40672e6ce027d455ec863d240c52a514da0f96b975935c6dd55df7/hostname",
+        "HostsPath": "/var/lib/docker/containers/28b25499fa40672e6ce027d455ec863d240c52a514da0f96b975935c6dd55df7/hosts",
+        "LogPath": "/var/lib/docker/containers/28b25499fa40672e6ce027d455ec863d240c52a514da0f96b975935c6dd55df7/28b25499fa40672e6ce027d455ec863d240c52a514da0f96b975935c6dd55df7-json.log",
+        "Name": "/research3-q15-verify-20260918_152028_145317",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro",
+            "/home/yoohyun/research3/runs/q15/reward:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "none",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "runc",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": null,
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "28b25499fa40",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "MPLCONFIGDIR=/home/research/mpl",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "3600s",
+            "python",
+            "-B",
+            "-u",
+            "/study/verify.py",
+            "--attempt",
+            "v1"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-reward",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "none": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "7db6384d71c27de0ffc1f6e9df5a18469991384f0ee8d5e88287093aa40a1bd8",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "log_sha256": "778a9ab1be271a6403663d39159fa3971b3d92e10c2459758584c57de1f9ecbf",
+      "removed": true
+    },
+    {
+      "id": "5c0ff83b066f2d3d09246248d85b8318e56a260c07ffc66410c91187026c7d1a",
+      "name": "/research3-q15-cases-20260918_152154_280535",
+      "job_record": "runs/q15/reward/jobs/20260918_152154_280535_cases.json",
+      "inspection": {
+        "Id": "5c0ff83b066f2d3d09246248d85b8318e56a260c07ffc66410c91187026c7d1a",
+        "Created": "2026-09-18T06:21:54.353520097Z",
+        "Path": "timeout",
+        "Args": [
+          "3600s",
+          "python",
+          "-B",
+          "-u",
+          "/study/cases.py",
+          "--attempt",
+          "v1"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 0,
+          "Error": "",
+          "StartedAt": "2026-09-18T06:21:54.433619486Z",
+          "FinishedAt": "2026-09-18T06:21:54.72430442Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/5c0ff83b066f2d3d09246248d85b8318e56a260c07ffc66410c91187026c7d1a/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/5c0ff83b066f2d3d09246248d85b8318e56a260c07ffc66410c91187026c7d1a/hostname",
+        "HostsPath": "/var/lib/docker/containers/5c0ff83b066f2d3d09246248d85b8318e56a260c07ffc66410c91187026c7d1a/hosts",
+        "LogPath": "/var/lib/docker/containers/5c0ff83b066f2d3d09246248d85b8318e56a260c07ffc66410c91187026c7d1a/5c0ff83b066f2d3d09246248d85b8318e56a260c07ffc66410c91187026c7d1a-json.log",
+        "Name": "/research3-q15-cases-20260918_152154_280535",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/runs/q15/reward:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw",
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "none",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "runc",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": null,
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "5c0ff83b066f",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "MPLCONFIGDIR=/home/research/mpl",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "3600s",
+            "python",
+            "-B",
+            "-u",
+            "/study/cases.py",
+            "--attempt",
+            "v1"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-reward",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "none": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "7db6384d71c27de0ffc1f6e9df5a18469991384f0ee8d5e88287093aa40a1bd8",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "log_sha256": "d382eaded17262cb495231acf84afa2aa197eb11c42f8ead3364e2f5cf7f6e7b",
+      "removed": true
+    }
+  ],
+  "skipped": [],
+  "preserved_files": [
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/0/2/5c5da01e9ef0de",
+      "bytes": 810411,
+      "sha256": "768e7a9bcd836a0ea5ec16830e4c58711de1d2007d7fdb74fa3f987ab48ba790"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/0/3/7cbabf9ddc162a",
+      "bytes": 242926,
+      "sha256": "544b660954a396c988916d13bb7735da15458609974f43e0ede64561ca230564"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/0/5/b0460670ecfe0f",
+      "bytes": 990334,
+      "sha256": "b90900a6961ff0e1dc616ef438744497e31dfe0f1891a4c16a3e56909b913ca3"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/1/7/7ad91a21273950",
+      "bytes": 2081513,
+      "sha256": "d4c11e64427ba4854ccaf9cfb7fa76ce7447809c0de08c7b3da00e78afabaa5b"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/1/d/fce47c6307167d",
+      "bytes": 1046647,
+      "sha256": "473c937abd43c3e3f8ec329a5d5be4dc59302e059bf8303fabcbb996154b10f2"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/1/e/e77972b475bc45",
+      "bytes": 134898,
+      "sha256": "31fc85e6ce8ff787135206ebad85ad7655e465ad7d2b5397bca5cd000fcaee45"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/0/7bfabcac6f2f86",
+      "bytes": 85590,
+      "sha256": "23b6a8058c633092dc0f8e481c10337c4cfb28c583c1db50c56c05f2c420acc9"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/4/b31cbb29f5bcea",
+      "bytes": 979566,
+      "sha256": "b0e5f51513aaea73f2e09c4c0c53ce9a0c5c11ae0c16f30c7419c8908f862497"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/5/21f278e642bb20",
+      "bytes": 415363,
+      "sha256": "1a6e40eb708578d4c650aa6986c97c826cc07a31dc3038371094e7284317bece"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/5/97613cae181f8f",
+      "bytes": 1432164,
+      "sha256": "6b5935277eec1d727d3825f5e1750c6568e445ae77aa30f9f99644a04f94d711"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/2/d/6ac2e2d295583f",
+      "bytes": 745385,
+      "sha256": "914607a077c6101327db4d1b647258b8ca828a0d862a64148e85fbd02e901094"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/3/2/c0987044e8540a",
+      "bytes": 148731,
+      "sha256": "316b612480ba218e6d3a353e2b064978b8a6fc138f293ed0abaf7210786f8080"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/3/3/685c756fdd81d1",
+      "bytes": 160287,
+      "sha256": "dd9006941c0694a006615ce8866debb01fd2717cc3a5af2439dda65f2beffd6f"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/3/5/293ffbfac70abf",
+      "bytes": 1096701,
+      "sha256": "88eb8f1bd2676c5f553403adaf5520811512253aaa3533f477aef70fe241af77"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/3/8/d5c418a949f148",
+      "bytes": 297932,
+      "sha256": "4c6cd67d5c56eba1c0d4801592966fd2f5ed7d6c8dbcfb2df5e625ab8f4813c4"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/4/4/b7337da99e93b7",
+      "bytes": 143063,
+      "sha256": "aaa2a59fe4bbebc201a6c1b582602cec97cc814dca14156024303445a122d208"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/2/28cf9f163c81bd",
+      "bytes": 239970,
+      "sha256": "108808cdd9a9049d0ca777fe948a3799cb9888667cf660cd8927e3f5f98b1241"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/6/53dd76a0ce1ef4",
+      "bytes": 3758597,
+      "sha256": "ec79b6e028c0e34cf86343d2e111929d7c3e72329a0d0302276fa01784f8b507"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/7/af0454d772925a",
+      "bytes": 1253307,
+      "sha256": "63de4244528400b35d7f4bb33b6477aceae56b88f39cb037dcdc395ce3e34684"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/9/ee827f65a1f332",
+      "bytes": 272251,
+      "sha256": "46263b467acc059561567daad774f7ceb1ac8dc2143f0d3da8329e8fa1e75b17"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/5/a/4dacf4fe77c8d9",
+      "bytes": 339505,
+      "sha256": "585e96e73525942735cb16c58b5eaa6a9cc278c4e242d0d41b60b0097b57ccea"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/6/4/aa4d9b881a505c",
+      "bytes": 9840568,
+      "sha256": "c4954bbdc6c4d01e6bad7a78dd3185d9650ff69f273937801401e05b982d4783"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/6/a/6736e9dd2c9d80",
+      "bytes": 3203,
+      "sha256": "745731387b76acc4339da6a0a937fcc7bf35da1955e82a386f9ad605adca52d5"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/6/e/b32e100322d652",
+      "bytes": 830634,
+      "sha256": "be47208411483e69d372d679a2c9540734c1108c88c0fcb01356d68449c5a740"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/6/f/ad045126d240cd",
+      "bytes": 376302,
+      "sha256": "9ba5729ed6af1f1999adb77c267679d383b67ab2e65235c77aa500be2c39db23"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/7/4/1399db9b213ff1",
+      "bytes": 1817878,
+      "sha256": "368142f95c9d5627602bfb74708249b6ec2db50d59bc1d3307e2c184e1b45c16"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/7/4/4dea6775dfb979",
+      "bytes": 5604601,
+      "sha256": "d9538ad90f8127250b548c0bfb1fa4e4b534c946b50b7304a19377afe9ae7a6d"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/7/6/305a8a4c0d44d8",
+      "bytes": 250373,
+      "sha256": "31d34f9fec306f456ff9f9717025197d42e1806c3b0501a6eabcd1a6b1d0ed47"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/7/7/264889fc71e837",
+      "bytes": 132504,
+      "sha256": "a9f3046d46c3e8d50a07c9549649dadd35e004fb3b4b3debdc557c3bd3d8ae6c"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/8/1/c6098b4e4df1aa",
+      "bytes": 903886,
+      "sha256": "eb64b7025ab310587ac42d62716696cb7b86b5a46d2c38d0cf97afd96089c125"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/8/5/6a8bd1c65670f4",
+      "bytes": 735430,
+      "sha256": "9b1285c273203c48b7bb194bbcbc8089fe5e0b7b381a42d686e3f724eebe732f"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/8/b/ab4c30cc6b9009",
+      "bytes": 198812,
+      "sha256": "1d4ae03488e504b0b1b05e148605bf87b09253d067d48ab6e3a4764ff2d7a087"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/8/d/0b3350595c0190",
+      "bytes": 624428,
+      "sha256": "5cb407f6605785c1b1e250486d6c54c509491cf6f7c83f1cc3ace8d765a855b2"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/2/fea77d447dea7a",
+      "bytes": 3001278,
+      "sha256": "ee6549f4e3465a7115f18e868c4c4e091e5fcb4464c2c49d21d22c9ef092541f"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/4/5db7e10d11e98a",
+      "bytes": 613541,
+      "sha256": "9d7a45fa6dc117343ae386071acc3cd61f4cfb5784e38c214deb4d070773e714"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/6/514032f4bc0aa6",
+      "bytes": 408165,
+      "sha256": "c8e3c98f5fdbc317e5883c28fe01b6e1955fd876dbad8a8491d204084a938d63"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/7/9be3be66ebf870",
+      "bytes": 266659,
+      "sha256": "bbd5ac2602f9d3325b37d055d60a9a8b630da913d12864c6a550a98ff27a0bea"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/8/06ba5927377d93",
+      "bytes": 3735087,
+      "sha256": "f942491ef5a1a815c333578d474b85c2bc9fa182da313c7c76261b996cfb259d"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/9/e/ae754bf7daf582",
+      "bytes": 83780,
+      "sha256": "65615709565f43d9c1a21c2e53895657cab5b00e9ca872e17612dc14046d609e"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/a/a/35c12939cd84f3",
+      "bytes": 160819,
+      "sha256": "211ec880855d2c00edc0e7f675102f88db959f2effc378222bcdda18ee4d1115"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/a/d/ff6d2dee8dbb97",
+      "bytes": 528770,
+      "sha256": "0ee5787876c333ed495418c3f95de94107738c8963969d562b40eafccbe519d9"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/a/e/e1380e2df82022",
+      "bytes": 846125,
+      "sha256": "65484f032bed1935aaf78a7bd6b097be5c03d1595ed8d9c0e0f32ef3d5dd683e"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/0/2b27a0d716612a",
+      "bytes": 356026,
+      "sha256": "baaa14808a379ef079e2de452de26cd01885a529aed69fafe291e61e17e62586"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/1/80eb5a4f3d651c",
+      "bytes": 111493,
+      "sha256": "3189497e25f5c663ffd058f9679f9e5a28d2fb01bf28967e53e65a9c866cd408"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/2/962d1779809dd2",
+      "bytes": 485505,
+      "sha256": "05c540543bbbf954b82da456bdf9459d190098b2d860a4f53d47182625168115"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/4/d07e74c0e063cf",
+      "bytes": 1924325,
+      "sha256": "fb8c03903f6f82958637b387258e874a6640d212adf623d97c546c1d7f14c4a2"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/8/4b4659a9bcaca0",
+      "bytes": 134782,
+      "sha256": "c92d77ed72cff63f211e63af449aaae4a7b14225ae4f5ac9b4b8cb30aebe5887"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/9/8499108b4c5dac",
+      "bytes": 161453,
+      "sha256": "a193066b5d32e55552c4bb77c8e06c19a4da7e8d43070513e3a10242b39de244"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/b/d/bfc1884f02cc1f",
+      "bytes": 5411589,
+      "sha256": "b810b2575562b6976137600e149518102886c621c68ec1e507f5db984736a7db"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/c/3/899e8ff5af8b18",
+      "bytes": 1763655,
+      "sha256": "9b37ad5ed5d81b514cad1f1960114f5435a62cd60d9d2e606cd0ff3ae5df3664"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/c/3/8c77807b5bdb77",
+      "bytes": 395150,
+      "sha256": "b27b32b58e962567a4c236f6a036dc06eb2b4bcb97d2c7f9f84c32f0687c6136"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/5/3770ddaf6bb33f",
+      "bytes": 87763,
+      "sha256": "4dd651f122b394413da6025cdccfecabfe092e2e5d24e789d1085dbd22b5d4cb"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/7/6d71f6e2f2318c",
+      "bytes": 345016,
+      "sha256": "59b2cc7d8ebf5d6e142c0ff6f6e628f9bd95586ec693b18a3edb161d22001119"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/8/7f25e7bc12296f",
+      "bytes": 713528,
+      "sha256": "4481634cf2022a09142f60590a18e31759e263071e31edf87d5541c84ad7f90e"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/c/bc9fbddbd2590a",
+      "bytes": 452261,
+      "sha256": "0e9788b6197f130dbd12ead27a500026f84a461fd0ad2bc2452bcd5aabcbb353"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/e/d04676148c7a15",
+      "bytes": 227501,
+      "sha256": "6a633c9cb1394890a20a140fa232bce35e8ead2d32d9da7c6f5895bd60f0a0a4"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/d/f/6ee263bf54b189",
+      "bytes": 5386,
+      "sha256": "5a80d96b3d585d3c3dd850e8613404bfd5ea1ba205937ae4c5bddc452bc06ffb"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/1/370504d3eba625",
+      "bytes": 313387,
+      "sha256": "8394214b66adfcc214cf13c838e0483b6a15cab6d1b8499c9e28dfcbbd8c2bea"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/1/76e5a4524a68f4",
+      "bytes": 193729,
+      "sha256": "6374d0f1ac8f2ade7af2feb5658b7012be95c00e1e6a94356ee5066ef7d4379b"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/3/c350dff0743280",
+      "bytes": 3300547,
+      "sha256": "9e8e7b75980b9c282432f27584608b002e5a15321ad2349eb368d74d65f5a35f"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/7/95b6d13dc687d1",
+      "bytes": 87555,
+      "sha256": "230d79586cb4a81a02b4289532e72d040cf708a6bbe9e88756b8941d53ea2373"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/b/6594a0ed75665a",
+      "bytes": 224437,
+      "sha256": "95a6c82c91cf44937ea340d8592bf4d9063c0638729614a9a4067eba153d8679"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/e/d/cdd408a47c35c0",
+      "bytes": 156981,
+      "sha256": "6669b7f7caf7c2f5f79f9b0b8c847b39eb5f0fc1b24f7c84012658d80eeff3f5"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/f/0/731eaa04545aab",
+      "bytes": 249944,
+      "sha256": "d083ac70e2f32d0c6e897b948a6787f65001785af015d9346aed472a68dcc3ca"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/f/4/865006921f93e4",
+      "bytes": 810000,
+      "sha256": "60fb7f0964617a6b3166702a73ea4379ac9e009c07f4fc6cf93f3922e123873c"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/f/c/1db06d5047a21e",
+      "bytes": 6496,
+      "sha256": "8266891978a68809efc6192234359d2ddb5272eec94739f2436b639bf69046ad"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/f/e/6b625009f28470",
+      "bytes": 24281,
+      "sha256": "8bb043e53fbc2b3c62bbf78c648a7c04e3cecc1a36429bc806c91103fcb24aaa"
+    },
+    {
+      "path": "runs/q15/reward/cache/.nv/ComputeCache/index",
+      "bytes": 1088,
+      "sha256": "5ddb03c7dc54d1e1b8a172b640339559b92c8c3f5686dd728570b1aa149a5498"
+    },
+    {
+      "path": "runs/q15/reward/cache/.sapien/physx/105.1-physx-5.3.1.patch0/libPhysXGpu_64.so",
+      "bytes": 236705440,
+      "sha256": "4c582a16509a71faf5592fe9708586dfcc7ab61ae932eabc1ddd81f290818706"
+    },
+    {
+      "path": "runs/q15/reward/cache/mpl/fontlist-v3.11.0.json",
+      "bytes": 26961,
+      "sha256": "f1f2faf9e98cf300fc0c1cbcccc82b3f7231e8d82e70a364bef1268ebff50ec9"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_135306_663399_build.json",
+      "bytes": 3564,
+      "sha256": "48b939b82bc3cbf91a2074a35934b5bc810a1dbe0c17673fc69bd85ac781ebda"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_140257_065793_ready.json",
+      "bytes": 10253,
+      "sha256": "93f3b444d90e8e698d58cd1fb66a2b20e39a7e0366585364276a82b9c1d8b6cf"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_140506_694573_ready.json",
+      "bytes": 10256,
+      "sha256": "c10b8a52dc782b91a6a0009f413be38f2e29e093b4594bfddc7f11bbce1a0663"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_140535_277414_run.json",
+      "bytes": 10211,
+      "sha256": "8ea8ec553ac6927ed0940cf1d3359a8727f6e09ecc16d4656348cda251713a14"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_143735_finish.json",
+      "bytes": 514,
+      "sha256": "7a0a29a74973d17795647dc197df8676113510f01aa6bfdd213f0f370a656c88"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_143847_finish.json",
+      "bytes": 386,
+      "sha256": "138ca39bc8286e827c8a50c4b755377c1fb1d1b849dfca092ca103580fe6136a"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_151757_542531_verify.json",
+      "bytes": 9587,
+      "sha256": "c6f0ad0407c8bd2b1613f4b65dad31beca0ac5717cbdb4e95b498bdaf7e69c83"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_151918_167233_verify.json",
+      "bytes": 9588,
+      "sha256": "db24a6e1c44e611ee7db1e357c2c31c64573313e729bf8c82029ab3c8c32b2dd"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_152028_145317_verify.json",
+      "bytes": 9590,
+      "sha256": "5e61dc1f09711239ee34604b3b48574a967b135cb1f1a97f19c2acad65ccd924"
+    },
+    {
+      "path": "runs/q15/reward/jobs/20260918_152154_280535_cases.json",
+      "bytes": 9581,
+      "sha256": "813eb02162ea1e4c0db2ea8c3c29cc1f575d40f09e5b7bed11adc10f2591abfb"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/formula.npz",
+      "bytes": 2314,
+      "sha256": "cd7ce833117cff79ba59f5f0d0c57462801e8d8190c274a76ca166c87a3dd43b"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/friction.json",
+      "bytes": 109669,
+      "sha256": "7b1c73e8f808c85c0be4b9499c31fd7d107f3d71eec354904f73e5885bb1b23b"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/friction.npz",
+      "bytes": 408091,
+      "sha256": "03be1a67b841b7d5f11efea552a5d38f083b4ad9f2eb704283b9460fb0b8e805"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/half.json",
+      "bytes": 109665,
+      "sha256": "84a2fadd29af60179a7afcf5a63bae38dae38b3f25981792dd2ad6f3d710320f"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/half.npz",
+      "bytes": 408062,
+      "sha256": "b214803325ea761744c2ad320fc26aca3add70f5c8f1e98eea45c9ed662904c5"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/joint.json",
+      "bytes": 109576,
+      "sha256": "b1cad94e24eea35e1fb62918175a93eeb6170be4099048617af91afd7a30daaf"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/joint.npz",
+      "bytes": 407900,
+      "sha256": "6a83542a989fd28f69c7120c9c4661043e0f92248958c815bdec5bb3c358dc3b"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/mass.json",
+      "bytes": 109574,
+      "sha256": "1c46487fbe007219c7e6b1d0c1a65d0dff1ae15cf6d1b2771b0e003fbb8b7585"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/mass.npz",
+      "bytes": 408004,
+      "sha256": "6e032a489cbd210241d6f29715e239a47648154d0946d21a0b397ac9028ccc28"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/native.json",
+      "bytes": 109667,
+      "sha256": "0fc16e693ff9ae4e10783b020b4e59d98346537dee331d70660601fe45d10b40"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/native.npz",
+      "bytes": 408028,
+      "sha256": "b0d58ff9edd1c49a36330c2b773dba7e34a0f184c1ef558b16aa3c0f2d1732d1"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/no_grasp.json",
+      "bytes": 109670,
+      "sha256": "8348655ef68645bddfbd5d0de8b78e1b5bfdc8ee555dab7d349332824ac65cf7"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/no_grasp.npz",
+      "bytes": 408028,
+      "sha256": "b0d58ff9edd1c49a36330c2b773dba7e34a0f184c1ef558b16aa3c0f2d1732d1"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/official.json",
+      "bytes": 109667,
+      "sha256": "f0e9f37652a3dc1863bef1fb2c5ef8fc857e00065f6dc6f71266fb70bbd40241"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/official.npz",
+      "bytes": 408028,
+      "sha256": "b0d58ff9edd1c49a36330c2b773dba7e34a0f184c1ef558b16aa3c0f2d1732d1"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/ready.json",
+      "bytes": 1558,
+      "sha256": "9bc74637477ee3035df4f73698d8a0596e64e4d36d602ad4e961153e1c1029ab"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/adapter.json",
+      "bytes": 1025,
+      "sha256": "34abdd247d31f13f14ba2f83fb3a7a1e39758a430eda67f94ba45b9c2b4be0a0"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/checkpoint_2.json",
+      "bytes": 384,
+      "sha256": "c71711e56cd35b04ce3f87a8febc34bc0fefe1a2ad73015e29bb674d898671ef"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/checkpoint_2.pt",
+      "bytes": 1156579,
+      "sha256": "22c8dfc7883ab3a43b6a30bffea9b19c99e5d58bd0192d9aa3c672feb318b499"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/config.json",
+      "bytes": 3415869,
+      "sha256": "7ec7f6b57eb2cdcfbb2e4b809b330b9710ff224b733893760c8aab240b448938"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/executed_ppo.py",
+      "bytes": 23213,
+      "sha256": "9314b877fbc3d5424ae0db32ce25f93e2e41b22fc814fdce866fb11d0ccc1dd0"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/reward_audit.json",
+      "bytes": 11332,
+      "sha256": "e284e84c54f3a4508c98240f835765ede151cc272762b1e6c272181eaec5c700"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/runs/fit/events.out.tfevents.1789707915.6876268026b3.59.0",
+      "bytes": 4499,
+      "sha256": "c5018750855eb2012ab7da4ea70402e489fdbd3745758807a46382d56e560bb6"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/stdout.log",
+      "bytes": 443,
+      "sha256": "d66774dfdfa15f7ed8a334ad906163f201696e343ff824cede5ee6d31cb976fd"
+    },
+    {
+      "path": "runs/q15/reward/ready_v1/training_smoke/training.jsonl",
+      "bytes": 400,
+      "sha256": "e7a3cf6545782bc354d2b1006657020bcb9bd5a6d2ebc1c66e3ff4235cdb2052"
+    },
+    {
+      "path": "runs/q15/reward/v1/analysis.json",
+      "bytes": 18228,
+      "sha256": "b004338b6867f67a3eba459139e7a7903e68c0782479f7d7a7f3a912110988d1"
+    },
+    {
+      "path": "runs/q15/reward/v1/case_analysis/cases.json",
+      "bytes": 34096,
+      "sha256": "04c32d60b0da77fc5ed2ef99490c6528e69143a55f98242125144c3f0ef24dec"
+    },
+    {
+      "path": "runs/q15/reward/v1/case_analysis/cases.py",
+      "bytes": 2913,
+      "sha256": "df3850cfde88d848a73248370ee30510c94ca83eb1afcd1bde43c4b392ddd527"
+    },
+    {
+      "path": "runs/q15/reward/v1/case_analysis/manifest.json",
+      "bytes": 300,
+      "sha256": "d17a21aa057faa0cd8c10caa984aaa1fa960190acb32f8fb960a9bb3d06e7cd1"
+    },
+    {
+      "path": "runs/q15/reward/v1/episodes.csv",
+      "bytes": 294128,
+      "sha256": "be1ac9afa1c3d700850464f3f15e0449d84b53eeb2fa092b9ed862e0227d2826"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d1_f0.5.log",
+      "bytes": 37,
+      "sha256": "abf56d636ed76c6cb6a3f7eb39f1515116602e1d9a15f73b7e996d04c3dc1f68"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d1_f0.json",
+      "bytes": 109773,
+      "sha256": "5db396530329049f4fd4902998be75366e3fb9310a371cc8a7179415b7db6205"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d1_f0.npz",
+      "bytes": 508436,
+      "sha256": "bc8f0598085004d90b5c66e20daa6571414f5c708b957acd8362b502e1c3f0e0"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d1_f1.json",
+      "bytes": 109773,
+      "sha256": "8706bdae1da09f57470c690dd395e6059458556bd6e1fd09d24bf06053a94386"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d1_f1.log",
+      "bytes": 35,
+      "sha256": "c215ca1c2b996d1480d501c140a4540b2e939d40e456a9204e71fd9ae93da798"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d1_f1.npz",
+      "bytes": 508468,
+      "sha256": "2bc65159e52719796b9ca2b7f27ea2b32a8388fd1047cdd9130724cba8dbbbd6"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d2_f0.5.log",
+      "bytes": 37,
+      "sha256": "84b0d0f5b9231a1ec768d727340e3eeb3b7476eb8289334aba9722c670e26214"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d2_f0.json",
+      "bytes": 109676,
+      "sha256": "09eb23cff0e75db1c12b6ccc1841d8bc751d2e05124d85fda793b5767387e7ad"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d2_f0.npz",
+      "bytes": 508397,
+      "sha256": "e6c9a06398a6b974e5b1baab470aad8ab01105f48b927bba40240ebadf659b6f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d2_f1.json",
+      "bytes": 109677,
+      "sha256": "4806fe4cb008a51929a1849cc43e65709fa63b3832f2e832a0af78747666c40b"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d2_f1.log",
+      "bytes": 35,
+      "sha256": "01e38dabe8d7cd3f83e615b62daffbf17ed72fb14e88bcb542f5fed2beeab6e2"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u195_d2_f1.npz",
+      "bytes": 508467,
+      "sha256": "5a65696f6135d787e3ceb64b31fcf9dd398f9acd13c920c759669977ff970e55"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d1_f0.5.log",
+      "bytes": 36,
+      "sha256": "089855b69593b51cce2481e2f0a4a90c012ff808cf6d0f7023e65c7a9e155d42"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d1_f0.json",
+      "bytes": 109772,
+      "sha256": "d4c5bfbd794d9f153293925a9c234e82b8316741321ea647de8b3b3fc2ab74bf"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d1_f0.npz",
+      "bytes": 509804,
+      "sha256": "708ab116b7635063f849710d91e3f336e48e0fc399a47d86a05c8a6492cff7c3"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d1_f1.json",
+      "bytes": 109772,
+      "sha256": "27e6a91bb64d2b929a45066a824833d3291dfb6965678331c1e0567f3a24226a"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d1_f1.log",
+      "bytes": 34,
+      "sha256": "dc6802d995df7af3bbeed288abd1d8f574e837075949de18e5739a5fc72b1da4"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d1_f1.npz",
+      "bytes": 509626,
+      "sha256": "6d8d7fa63e381e7c5563c6b370631dfe6e80b79af4841b52457bb3b17437a5ac"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d2_f0.5.log",
+      "bytes": 36,
+      "sha256": "bd137f3608704d70516e930706cd74884a910416115a6d356d9d424bf63c7ba9"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d2_f0.json",
+      "bytes": 109676,
+      "sha256": "ecf8c948286e2da12547bedc9fd6059d58d3f4792acd6702b8fb3847931e1689"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d2_f0.npz",
+      "bytes": 509720,
+      "sha256": "2cc11e73d6c8ab653654a8d1fca010239735a01a0912d3b61e5495999f512d1f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d2_f1.json",
+      "bytes": 109676,
+      "sha256": "1555cf7e6d0ccdd925732c1d361680d4e0b04cf514935583b6a4161f7499745d"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d2_f1.log",
+      "bytes": 34,
+      "sha256": "3c9ca09f3db4c2a54248f8243134318f9a8be76423fcafa342c9ae60f067c466"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_101_u97_d2_f1.npz",
+      "bytes": 509696,
+      "sha256": "5f7abe4252221f3a7eb89bfbb5a56819eb614ab023fa733dba09efccfde7ccaf"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d1_f0.5.log",
+      "bytes": 37,
+      "sha256": "e6286625696c94a79badb2a68d09d9216a74feea878bd65ea51b1a3e24bd52f6"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d1_f0.json",
+      "bytes": 109772,
+      "sha256": "66607fb661bee4ecbe4175c81dfd81522e4abbfe55a8c984369c7670daa28f01"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d1_f0.npz",
+      "bytes": 508956,
+      "sha256": "51c81f96d518e25db25568ea9e253ea52ccee7f7cc3c3ee84ecf285d0bd5cf05"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d1_f1.json",
+      "bytes": 109772,
+      "sha256": "bb878bd1cdfefdf2002db0d1a632e2125c3f9575f71560d5c0aae5b083eb697b"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d1_f1.log",
+      "bytes": 35,
+      "sha256": "a1aee086bc4cac30bc6caf10873a3f4528e34c63fa5af689431c9c2717dc2b15"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d1_f1.npz",
+      "bytes": 509031,
+      "sha256": "34d39d542357adf42b3d90be9a691c5cd345e4100535821e714b6d23142b6cb4"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d2_f0.5.log",
+      "bytes": 37,
+      "sha256": "1c0eb6c6c39b027ef54e3cf30f456aa63c47e33c803f8cf1279bb877be68ac27"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d2_f0.json",
+      "bytes": 109677,
+      "sha256": "66e625ea247d33cc88f1eec016d14c86cc158e1688eb37c356f78b83a9599eac"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d2_f0.npz",
+      "bytes": 509225,
+      "sha256": "e9871bb741607a3512bd543a6c4a080682475f688d7b43d2c2f7fe3f135f943b"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d2_f1.json",
+      "bytes": 109677,
+      "sha256": "0eba72480cd42dec4e2f870b70cda8e0c304e4f79c9a94e06374c006786ff415"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d2_f1.log",
+      "bytes": 35,
+      "sha256": "04d9adf62e83df327a4aa57a435dcd75c8dea12ed20522c371854a758220c9e9"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u195_d2_f1.npz",
+      "bytes": 509384,
+      "sha256": "c6f91897b76841b633883c63660fbb7b363b4b03f3d2a4fc50856a238acc09d9"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d1_f0.5.log",
+      "bytes": 36,
+      "sha256": "bd84d1547b172278b479112ba93f6523d22adec8865483bfb7cbb849f8684468"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d1_f0.json",
+      "bytes": 109772,
+      "sha256": "8ea468b94480a50a6755f5c281258586c7432645b23db05b2285de6460f5eb99"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d1_f0.npz",
+      "bytes": 510436,
+      "sha256": "0ea905c94f5bc919acef495778edf3cd6fd4b03aca03287136b4a472754693a4"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d1_f1.json",
+      "bytes": 109772,
+      "sha256": "fed917d991b0f61662c37c18a5769517baed7d5bddee09959b9cd3bf51ed3e5a"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d1_f1.log",
+      "bytes": 34,
+      "sha256": "4bdb5ce681aca5934be020c0d1a0f37f7b32651c4819cda40ed1f4ebd3b76393"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d1_f1.npz",
+      "bytes": 510385,
+      "sha256": "b93c871f22a328e35df13301285199e08e00a142c8ea698e3a27f1649473137f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d2_f0.5.log",
+      "bytes": 36,
+      "sha256": "9fd2dfd21868df8f9731d94f7dd8de1293863ac8e5ba40498fb89cd83ed0e65f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d2_f0.json",
+      "bytes": 109676,
+      "sha256": "0e03770df7e98ba8e4adab9d70cf0475c9ab5ad77c762609945aadcfddfe942c"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d2_f0.npz",
+      "bytes": 510661,
+      "sha256": "c628a7396e7dfd754b184c85076070ee5eddd20b6f4918e7c661f581b6b01c27"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d2_f1.json",
+      "bytes": 109676,
+      "sha256": "b4ff96b0e7d338c3cfec6fdd3c020765d3dbf281a9519f6318d578ae065c37de"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d2_f1.log",
+      "bytes": 34,
+      "sha256": "a02168b9b2f32aad4c66540b4670252e8f34777a92aa5795465b10fbfb265272"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_202_u97_d2_f1.npz",
+      "bytes": 510433,
+      "sha256": "4a64a2ccd849ee4a264f014cd0a306d02156abac4c9584c6867ee033a0be3d3f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d1_f0.5.log",
+      "bytes": 37,
+      "sha256": "75aafd68972be916f2efd3f8ab3185d170a2422fb2845231663732d91e29d92d"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d1_f0.json",
+      "bytes": 109772,
+      "sha256": "adeec6cfcc77bc23a3d6fbaf83de4ff7429c46645f1d9498c2591c69d318475f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d1_f0.npz",
+      "bytes": 509441,
+      "sha256": "efcede0b66bf56647e9951e9675282ef647e9e865e563c06782ca939433f2c6d"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d1_f1.json",
+      "bytes": 109772,
+      "sha256": "9f45126c4040a010cc824e87dd7daa371650330cc604f2ff996981ed816eda87"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d1_f1.log",
+      "bytes": 35,
+      "sha256": "ade0958080fd48acb4c3f8d53fea4353367c75ce30b7465666a14ec4389cad8e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d1_f1.npz",
+      "bytes": 509604,
+      "sha256": "d86ca0fe9460d00087254b37d5404823ed0f039e2c22c32fcd542d7166841a26"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d2_f0.5.log",
+      "bytes": 37,
+      "sha256": "c01d36689d1be7cace4abd1638e227ef515083cc28e0e3c13ce80a5fe0be7526"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d2_f0.json",
+      "bytes": 109677,
+      "sha256": "4f6bd1d2bdeb0a10f3d74106f8536185f16cf30751fd5df3d87de5203740fc0b"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d2_f0.npz",
+      "bytes": 509821,
+      "sha256": "72fad7b4992b9d7b4a940338f7d63dc3656ca07a10d4bfe8084b0cb225c8116c"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d2_f1.json",
+      "bytes": 109676,
+      "sha256": "00949c5d1002b725631f2d2f0749c8f52673fc47f552f1b4cac230b877c968b7"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d2_f1.log",
+      "bytes": 35,
+      "sha256": "bb1dad71b26b1c25ababb9c8180e3dabb6fed3730046fbb96f2394c6d62f6eab"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u195_d2_f1.npz",
+      "bytes": 509926,
+      "sha256": "9854b12168dfd043264aa8a18d2c215d17826d98dc4c60dc382b79dbff18c111"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d1_f0.5.log",
+      "bytes": 34,
+      "sha256": "4296adb1ab167c8dc421c547b8973e8dbcd6f942b3b471f32fc5baae7442e1b7"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d1_f0.json",
+      "bytes": 109771,
+      "sha256": "11ed606892b577ae53e38c0ff01d3ca9cce8bad1d5ab22e03c060dd311cd3df7"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d1_f0.npz",
+      "bytes": 511914,
+      "sha256": "bd575de0d1a79bc94aaa867952682ef0ce51992f5a1c7881c56b60d1215c723e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d1_f1.json",
+      "bytes": 109770,
+      "sha256": "470fc6ccced663775d89d234c4c98915f6607236c985ed354aa544922ef89d56"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d1_f1.log",
+      "bytes": 32,
+      "sha256": "9b851357a44dc244029235f315e1465e6294b9b0028ddfa2c7e262f0a822befe"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d1_f1.npz",
+      "bytes": 511876,
+      "sha256": "263a88f07b7dc2a7d850609f4909fe3a02477ca6289236f2893d6681e9850f2e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d2_f0.5.log",
+      "bytes": 34,
+      "sha256": "f6d5dd64e4067280a03170b715982eb4dce75d1581b4398a9b4877d1318ba62e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d2_f0.json",
+      "bytes": 109675,
+      "sha256": "1b9f214ae8eb13ae508c50aaf616204639f912446f1b0765727da6858cffdd42"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d2_f0.npz",
+      "bytes": 512071,
+      "sha256": "a39986d6b2489178f80e20a4b4c89f1b96cfba0bde67b7e944fce53badae13ef"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d2_f1.json",
+      "bytes": 109676,
+      "sha256": "16b3a7b12158813ac0cc998dde5962ee213b8a7f8b8719336ac444c167681ba3"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d2_f1.log",
+      "bytes": 32,
+      "sha256": "db1f4c3c1fe3a5c2134877f3a2738d06b1e47faf389e2c1e8794122ba68cb04f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/half_303_u97_d2_f1.npz",
+      "bytes": 512063,
+      "sha256": "c06c68c3f5610af54d5e71e20904b168981011bccc5f9b22f2080c3232eb3575"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d1_f0.5.log",
+      "bytes": 39,
+      "sha256": "6e70fd7ab73a97bde795d44ff3415b9380c2f1c4ef97acbb28abc3edcdcf1d16"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d1_f0.json",
+      "bytes": 109776,
+      "sha256": "eb3aa2bec417961e0f248fe1f043e1d8c7d3308cdb616766f3616c096ea55098"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d1_f0.npz",
+      "bytes": 508866,
+      "sha256": "4e983cfff298d903f0c16b37ab85c0af03e03a87b087cc4d3b3898bab358bbd5"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d1_f1.json",
+      "bytes": 109777,
+      "sha256": "a8f5ff1d3e1877b999826c02a838655c764593e9822630820581ec2f6966d71f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d1_f1.log",
+      "bytes": 37,
+      "sha256": "1df3a87ef64fdb513448e428d082c87b78e4f4a79da1e34daa571c50afb02cf6"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d1_f1.npz",
+      "bytes": 508915,
+      "sha256": "98804ccd8cb78fe3a728ba281eb91fd148b9ae95824045aadcd6f5ad07e7a584"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d2_f0.5.log",
+      "bytes": 39,
+      "sha256": "3275efcfab05e5b4ee9df0d99549b54a5dd66a127a2024beea297c778a906551"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d2_f0.json",
+      "bytes": 109681,
+      "sha256": "91930a31e0f999b6ffa96875bf7b570877b8d6632b03ee6349f9faf47e58c932"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d2_f0.npz",
+      "bytes": 508762,
+      "sha256": "4fd394f02908daf219d1b71309e76d039f3a1d30e70ee10b8a4d4fbd79152c06"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d2_f1.json",
+      "bytes": 109681,
+      "sha256": "d0e48141a322d0a2bc0626b855a76f8435a3d981bb41c0b0b1e20f2ce81ad09a"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d2_f1.log",
+      "bytes": 37,
+      "sha256": "cbc3c6c9f3d81161b7d333a7ba0b51e51ffdb216ac9d28de4120d02bc9419c47"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u195_d2_f1.npz",
+      "bytes": 508662,
+      "sha256": "a2d7bcc93b135461aade9f2ed32f4bcd8c8605acd9f044ed7809929e8ef75f46"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d1_f0.5.log",
+      "bytes": 38,
+      "sha256": "6e3db032cf2a3769e651119bc8d89a26f74360c8aa4e59a6899d9454e0a701c3"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d1_f0.json",
+      "bytes": 109776,
+      "sha256": "14618e1f6ab2a3f0bdc4b5771f4fa43b80d44ff74a83651e801bb0d2dcec8c36"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d1_f0.npz",
+      "bytes": 505687,
+      "sha256": "57b5f32975319636955d7b88e38909922db85ccc72e177a0fb329fb1487d97c3"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d1_f1.json",
+      "bytes": 109775,
+      "sha256": "8becb0b5a15d6b11c2bf5e93dfadca3ccd3f0d8c0053cee97ff07a9e7ae497eb"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d1_f1.log",
+      "bytes": 36,
+      "sha256": "f125ccafef21cc4ece982da2b01919940b3c549c714a6c9bcabac7d77fed5c3c"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d1_f1.npz",
+      "bytes": 505659,
+      "sha256": "c653140556991edec99d0f7e9eb43213f52172a68f5adef8f2a1b012d8f2da5d"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d2_f0.5.log",
+      "bytes": 38,
+      "sha256": "5cdc093a21530a47dd283a0b08cf9cefa79a182a011fa8e87aeba92b99e3d1da"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d2_f0.json",
+      "bytes": 109679,
+      "sha256": "72eb864bbb36f1010ea75205168a409030367e9070019c75c9f5df938e602ac8"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d2_f0.npz",
+      "bytes": 505592,
+      "sha256": "268d062eda3cf4f315ab5c67826e5dc6838eaf898545e1ac4d960fe8e16d4e4e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d2_f1.json",
+      "bytes": 109679,
+      "sha256": "46bd32a67c71ce591981ba8a933eda39fa0083cb7c9c6965b76ea1aef7fc4e30"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d2_f1.log",
+      "bytes": 36,
+      "sha256": "a2f80c139f855a3768bfa572e529b13c272f12eb824332e58269102fbd9f484d"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_101_u97_d2_f1.npz",
+      "bytes": 505923,
+      "sha256": "1b850dff5887f9beadbf484997c2d70a421928ac00bb4de764f973cbc2fdc844"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d1_f0.5.log",
+      "bytes": 39,
+      "sha256": "4600ae8bacda72fd6bee42f802332aa67388509a9b2973bd7c8794fa06530125"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d1_f0.json",
+      "bytes": 109777,
+      "sha256": "a61fd700c8ced044defe9f0a09cb2402a5d8c2725103417fb09b218317c659d1"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d1_f0.npz",
+      "bytes": 508187,
+      "sha256": "2ede7a838c2191b9473a149c8c9ad24618d4ae8d8bb55a27ca1e0d2e57a9d59b"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d1_f1.json",
+      "bytes": 109777,
+      "sha256": "85fbc833ca663ecaf22454bd660c5c6708da737a89a2467db64f6fa9bc70d086"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d1_f1.log",
+      "bytes": 37,
+      "sha256": "eee87023d6b069b7f3eb906954efe31cb7cc23c4e7f7a4be37cd6b0e68df64fb"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d1_f1.npz",
+      "bytes": 508384,
+      "sha256": "d189b1bee9c1296a17dfb9339035cb1b7e0bb5e02888bb3d4c02222de6331415"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d2_f0.5.log",
+      "bytes": 39,
+      "sha256": "0ad843b5d708527b1b7e431bf3a7e21f89cf42b28b527eb490dc791ab1a64d9a"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d2_f0.json",
+      "bytes": 109681,
+      "sha256": "0322f81195bc1becfbb9126f09a7a08678840f1139b2ce6c1cfd2f7172cda062"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d2_f0.npz",
+      "bytes": 508338,
+      "sha256": "a463768e68642bc494f2d68bf0c5416afe80ed1f842131bcbfadb56b1d3e32d2"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d2_f1.json",
+      "bytes": 109681,
+      "sha256": "aff906820895a7b99a98e8a11be3cf0cea961f941682980e73181aa6700384b3"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d2_f1.log",
+      "bytes": 37,
+      "sha256": "75b82da7c1a8b90f7964b02d499f11a4ac7e6fd46ba679e89c2b29403de2e9b1"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u195_d2_f1.npz",
+      "bytes": 508633,
+      "sha256": "1af4045a2a7d5ae29f3682f6372a5b4ed70c4d2f296a7f7377cda01bd46ccf9b"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d1_f0.5.log",
+      "bytes": 38,
+      "sha256": "b94e2ab2b2df81e6cb1fdafddb4f5f7d4c8b15512215a7d17bfb05db79c1bc86"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d1_f0.json",
+      "bytes": 109776,
+      "sha256": "6647614fb55fc2f657b858cf86327ab45b09a3c50c0e8c6b85416846efd866fd"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d1_f0.npz",
+      "bytes": 511526,
+      "sha256": "6c856fd0b0659d65673d186f53a603795b3a669185f51f2a11e59a0cf14f187c"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d1_f1.json",
+      "bytes": 109776,
+      "sha256": "67b4c06afa19a5aa8c6a3d51aabb7cbcdc126e55f5fa3b9027c2b4a461a62e0e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d1_f1.log",
+      "bytes": 36,
+      "sha256": "49d2ff24061480789d9ae0c39156031bd10e8af182e25880c003f96e34e69c99"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d1_f1.npz",
+      "bytes": 511420,
+      "sha256": "e29731e9dbab61ec1feb7338954a885b97000055d2ffb16bc86fbdefc6c28bad"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d2_f0.5.log",
+      "bytes": 38,
+      "sha256": "2cbdfb67f2eab4f83db35f418116d45bbc05f0be4c80d71620d4e1244531afd6"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d2_f0.json",
+      "bytes": 109680,
+      "sha256": "d3009551c653e87b005056046c27b3cb0501aae08302f1b019bfc2d4acd503a4"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d2_f0.npz",
+      "bytes": 511818,
+      "sha256": "277fec7766aec95974ba9f3ab92546bc63f5ba79a6066253237af867e54aef51"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d2_f1.json",
+      "bytes": 109680,
+      "sha256": "42978e90126ab410bf76cb90556c4aba68ab0105de9319290ac852cbeb34ae3e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d2_f1.log",
+      "bytes": 36,
+      "sha256": "edafc9b6bfe38f84bbdb999080f9fb1595b4ce4fb6dd3f58e9c5813f8671bd73"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_202_u97_d2_f1.npz",
+      "bytes": 511557,
+      "sha256": "8825765fbc71ffde45e2d18092ad54464ea8f42e9b91a00c4abeeb520d008e72"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d1_f0.5.log",
+      "bytes": 39,
+      "sha256": "5a81567b4b2dfffda7390f13c9a55b8f1599b1426244aa127d31b17231d21a63"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d1_f0.json",
+      "bytes": 109776,
+      "sha256": "a992948cc06a06552cee51c9b4d07c8a70307b40cc2d12186d15eb69e6a74aa9"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d1_f0.npz",
+      "bytes": 509293,
+      "sha256": "8f5186f8025ed0c9930e55e7079a66f4a36fc71323802d9191d6c307577b0d8e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d1_f1.json",
+      "bytes": 109777,
+      "sha256": "11ff705b34350a0119be5552bd7545bd6310aaa5c3bcc9c343b363bc57289830"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d1_f1.log",
+      "bytes": 37,
+      "sha256": "210b2ef915a8f10efd43a2494b2a00f57e6c3f6787600ea80698e5dc2bc5fc99"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d1_f1.npz",
+      "bytes": 509240,
+      "sha256": "0f5fe8c5fe64dfb380eccd7475802cad79bce064c79b2e8fd9be48c115faf38f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d2_f0.5.log",
+      "bytes": 39,
+      "sha256": "f7a6058aa94edc75b1c5e6c6bfbd22109c214dab1fef1d4c24189d88655cfc55"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d2_f0.json",
+      "bytes": 109680,
+      "sha256": "b210a3faa70b1ce7d766918fcb70ff241538b4902eb94020ee7ad9524e1651ea"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d2_f0.npz",
+      "bytes": 509257,
+      "sha256": "8709baed6f386a785b4e8a0ebdcb7bea3146ee0d5dcb6b363d423f388777144d"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d2_f1.json",
+      "bytes": 109681,
+      "sha256": "7cf7d86df028c4a68659513581441295ed41dbd66425d5a8b55e9b040edd25a4"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d2_f1.log",
+      "bytes": 37,
+      "sha256": "82b711f568815ae39881668eb973fb7297798d38fe6a2d90ac6a49f5fe482963"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u195_d2_f1.npz",
+      "bytes": 509118,
+      "sha256": "a18496b8991d67b5ec96155f8eb1cb1ff98d92317a2a4429d4b17c260126d310"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d1_f0.5.log",
+      "bytes": 38,
+      "sha256": "372022ca1785439abe0158a9b807f6e108c6379bc72f2794a57f92db44109afa"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d1_f0.json",
+      "bytes": 109776,
+      "sha256": "0dc69ae95437c6c7532559d80d49a24cb96e02e541c2ef96af4c2827211f15d6"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d1_f0.npz",
+      "bytes": 512108,
+      "sha256": "0b23c0409a2c1a0e1b27102b75cd515579b25b7082eac8bfb8be848704bf6e8f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d1_f1.json",
+      "bytes": 109775,
+      "sha256": "29db249a493334a32f1482bb618277c7c4173a32810e543351a30e7a0dd8c311"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d1_f1.log",
+      "bytes": 36,
+      "sha256": "42602960415d3437f54e9129029defd39b4d82741f0eef4b0626fbd57d5dfc08"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d1_f1.npz",
+      "bytes": 511927,
+      "sha256": "88f0068770892ef40b8bd72c9d5f37de7e1d4183a930031dfe279c2d52b730ae"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d2_f0.5.log",
+      "bytes": 38,
+      "sha256": "e422282d7fd14e4e4f47b7601a87d4e0e445e0a41de5612c483478fb3f14439e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d2_f0.json",
+      "bytes": 109680,
+      "sha256": "6662658f9c1a00f0d942c9cc6530b92c11d34114007abdf9b419ef59a443e2e5"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d2_f0.npz",
+      "bytes": 512190,
+      "sha256": "09d6db604a31a65d2d366688fb1b333bdc49f3b4082843261a27ba92ed7ea847"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d2_f1.json",
+      "bytes": 109680,
+      "sha256": "f3a3b8718f8563c14a4031cb89301d8a7bdc4fef5fcbcef2e0bec2aaa24fbe2e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d2_f1.log",
+      "bytes": 36,
+      "sha256": "097c5c0b95ca9bb06a8280d7211d8d5e40e72144ab731200dfa2c4a40265fcb3"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/native_303_u97_d2_f1.npz",
+      "bytes": 511976,
+      "sha256": "b7a077e25ba7d74a9587d8faf4fe44d736255ea86a2e45049c576cc57ab151a8"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d1_f0.5.log",
+      "bytes": 41,
+      "sha256": "747ac921fe85f15870bfc1cface5a193d1348fad98adb3cd697880636322e17c"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d1_f0.json",
+      "bytes": 109781,
+      "sha256": "e34e734eea06489b13d3249a816b2e458b11f117bcd291c5a58840ec3451d2aa"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d1_f0.npz",
+      "bytes": 507268,
+      "sha256": "107d11f61d89de99462ab19682d714db8488312bab776e4905eced4aad715e40"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d1_f1.json",
+      "bytes": 109781,
+      "sha256": "856010af9291a99cfaac22771f834ed2d5745fbdc985f3074e8874644b6c7ce7"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d1_f1.log",
+      "bytes": 39,
+      "sha256": "04e0a944671b25e46cc3dc6c79e1a39eb14110a296ded551160c2d196e32a6d5"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d1_f1.npz",
+      "bytes": 506781,
+      "sha256": "ee0002a22903d1edbadc27ff692ae5e1f7906287c82b5133009c5c959030d060"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d2_f0.5.log",
+      "bytes": 41,
+      "sha256": "12a9fcdc81f4af6dd062a0110c003a3fb5fdcf6df065b113b1553d6fca9508ab"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d2_f0.json",
+      "bytes": 109684,
+      "sha256": "b50d1563335659ef23d7dc385ef28f39eb29e176b02bc227ddd844c8e327d46d"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d2_f0.npz",
+      "bytes": 507456,
+      "sha256": "a512d12b2713ac8331ec4bafc48e43f8015e933719e12cfff095d76d8ab954c1"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d2_f1.json",
+      "bytes": 109684,
+      "sha256": "f42f1569dbd579cf97acf4ff50a8fa3cc16661ba71ad4bcbca3751fcf834701b"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d2_f1.log",
+      "bytes": 39,
+      "sha256": "b2186c30712997853e155f255d1a275d3a5dccfbd26ce431d1a3942fb3fcf137"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u195_d2_f1.npz",
+      "bytes": 507299,
+      "sha256": "c6cb47e9342014204e018c5c7ef496f515cdbcda78da2cb3a4743d8189f888f5"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d1_f0.5.log",
+      "bytes": 40,
+      "sha256": "0f0132790640b344f270b9c4e7eb5ceb226cf34ec7a75a3d2550cc5b0a9a87ee"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d1_f0.json",
+      "bytes": 109779,
+      "sha256": "72e1cf16cb1ca92bf7a55506612599cbff700ee5df9cfd4579e0165780305803"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d1_f0.npz",
+      "bytes": 505339,
+      "sha256": "50cb367d202936e23d8f12094ac2b4e14ff26d682bf179b5938711c149572820"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d1_f1.json",
+      "bytes": 109780,
+      "sha256": "f20cfb4624d00b0eeb48d9804be0732538130a6da271ab55a7ae91679765c55f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d1_f1.log",
+      "bytes": 38,
+      "sha256": "2c9c37c9c6235dc59d48706a52102df188c17f02403b9039ce935a41e934f081"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d1_f1.npz",
+      "bytes": 505212,
+      "sha256": "06419fc997a34b5661b5e6d4fa20b0c00f1fb45579f5694290832293796f1116"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d2_f0.5.log",
+      "bytes": 40,
+      "sha256": "17ac23f144e2c152b7e2a40f247ab290a30e5598cb0c77e28eee85c9e725d16f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d2_f0.json",
+      "bytes": 109684,
+      "sha256": "26aaccab13274a46051043866e7ca4239927833f0fbe51a24b6520252a122e85"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d2_f0.npz",
+      "bytes": 505751,
+      "sha256": "1434fe61a6d68c4a3837a0bb097e30a02b07965606afaad855b6bb9c3a7c8111"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d2_f1.json",
+      "bytes": 109683,
+      "sha256": "056af1c661dabd5af743c593e032df957bd687370ffe0f403763caea01397ca4"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d2_f1.log",
+      "bytes": 38,
+      "sha256": "1d7d005335ccf91c3a21645b0cf9d6daa1d4064562f2a2d9007062b7f93a1acb"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_101_u97_d2_f1.npz",
+      "bytes": 505596,
+      "sha256": "057253dc541f8bb9a43542346c9be9a478d140a1610b98e12bc785fe23a7330b"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d1_f0.5.log",
+      "bytes": 41,
+      "sha256": "8cb60a81f20daf3e99ce46d791bb20eb69666a706734a95cf38f38fc0896b9e5"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d1_f0.json",
+      "bytes": 109781,
+      "sha256": "2df65cec1e9799dba26d4c67647a61cb2708b8ce45625133ee68dc068f302da9"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d1_f0.npz",
+      "bytes": 504589,
+      "sha256": "1aba816545d9ccf4136d22e225b402063293d4b66c9580e23dbc46ab7fd7c5ef"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d1_f1.json",
+      "bytes": 109781,
+      "sha256": "9a47b6d4c80ff5bb06cfde1e8aa5cf5516f394585836e230962cb3f9777b6757"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d1_f1.log",
+      "bytes": 39,
+      "sha256": "5a8c70d8b3fd2b97d4d634123a5ab9f9c7409cb825ff62d289e7cfd8a2c2516b"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d1_f1.npz",
+      "bytes": 504394,
+      "sha256": "27eec915f2248c6b1aba2745bcad9f9e4c32e9fbf12f217a49a3f0b0ac62490f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d2_f0.5.log",
+      "bytes": 41,
+      "sha256": "c2585221baefc3b6b560ab5ea4d82fff8cfb24f377b179384ba3c5dd3286eeeb"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d2_f0.json",
+      "bytes": 109685,
+      "sha256": "ce90c2c5606aa88821024f2b35b87b8bce7ac7ea88e7ed6341893865e84b4587"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d2_f0.npz",
+      "bytes": 504940,
+      "sha256": "50620dd8e3e4cab90c4c12e35012edacc30e99d3033c5ef141521eef0626a960"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d2_f1.json",
+      "bytes": 109685,
+      "sha256": "0517c446268c40643826659e80ec6518821eeec90b6851e440b2b7603bdb9524"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d2_f1.log",
+      "bytes": 39,
+      "sha256": "0be80fb7bbcfd738df303a55567007611db8baa24c7f6c015efc4ae3f0030b17"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u195_d2_f1.npz",
+      "bytes": 504977,
+      "sha256": "2584fc7ef1375829e7ea5477432c032953d2bf0ef734f00605e3f26d5cf09f6c"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d1_f0.5.log",
+      "bytes": 40,
+      "sha256": "b8f53fc1bf81abf690ae980091174239f8244f6e84488f3beadc93ac563a781a"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d1_f0.json",
+      "bytes": 109780,
+      "sha256": "2f6a3cd2756cfc70f53df422bb4d19275026633304d91e6cd0a53f2e91b86b54"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d1_f0.npz",
+      "bytes": 504578,
+      "sha256": "6dc9a53e8de30c36b8db5dbd6baf1ef7db54a940af9d42fbbd600123069883b5"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d1_f1.json",
+      "bytes": 109779,
+      "sha256": "f2c10788dcab90e3121ca3a1e9ea38a1ef9b627129f8b2577c8de3f4ac0b3b35"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d1_f1.log",
+      "bytes": 38,
+      "sha256": "caa1915b983af653788f9b3698ff91fe146954dd2ebb88a843b240f147518d41"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d1_f1.npz",
+      "bytes": 504341,
+      "sha256": "457ecf2ca7ad347d6c7532125551d78b1c04c2396e112f8bcbaf7ddd4b4d2cbf"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d2_f0.5.log",
+      "bytes": 40,
+      "sha256": "6b5f90a96e5d490aa2787b5d45798149c2df7d87b776621ecac2c11519da5372"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d2_f0.json",
+      "bytes": 109683,
+      "sha256": "44c8c137b84e6adb33caa3410e570ec4323fa3a9f58078ac2513366e9af3661c"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d2_f0.npz",
+      "bytes": 504818,
+      "sha256": "c7773fca3b039b20f8f5783a89393479ea530dc24ea11f053fd7467229aea707"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d2_f1.json",
+      "bytes": 109683,
+      "sha256": "ee99b44f677596c3276f3726114ce47813950db35b9da475d5b3c6b0974a7aa8"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d2_f1.log",
+      "bytes": 38,
+      "sha256": "1e369a5ea8a364a6b75bd0e8cf6458ad2e587cccf65aab15f6749b7f2d28b962"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_202_u97_d2_f1.npz",
+      "bytes": 504685,
+      "sha256": "9cda58145fc2cbd5953ff8a324b899cebece5da875af4155feafd1a350324b95"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d1_f0.5.log",
+      "bytes": 41,
+      "sha256": "17e824a2bd56627da54746a99f1b7c3fe2e6ebfca8b91fcf521eee87978fb6e6"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d1_f0.json",
+      "bytes": 109781,
+      "sha256": "804bd6dfeb16b3bfa96e436c33762eb7652a20f2f6f8d794a0956abafa1b2a4a"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d1_f0.npz",
+      "bytes": 509123,
+      "sha256": "bbf1cc91f227274b5d82011e2f1cc80f2881549ee3224c0a1f9d047248eee94e"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d1_f1.json",
+      "bytes": 109781,
+      "sha256": "f2905a28b380491e68a3669c1fec60652f6b3013a03bed7616805e9cfec75273"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d1_f1.log",
+      "bytes": 39,
+      "sha256": "7807ee8fd768431f54fc037e3ec11890fc4215c0b4c10c44c358f08feea7961f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d1_f1.npz",
+      "bytes": 509022,
+      "sha256": "ee5a6bddb48c5fcde52ab01e25d40f5100354c57ebb43607a628318904b3c8a8"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d2_f0.5.log",
+      "bytes": 41,
+      "sha256": "a3289ba27f712015935580fe643225b94790a08734ebe41c892a78540baa3a21"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d2_f0.json",
+      "bytes": 109684,
+      "sha256": "ccccfd2af6f300d3da6f61f684f0bd1513a2ee2fc698a6cd38642401da6a9332"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d2_f0.npz",
+      "bytes": 509600,
+      "sha256": "223f244daadd47727214869b60f80e84d99c54a1798cf4ee5e23e65e788e2332"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d2_f1.json",
+      "bytes": 109684,
+      "sha256": "a9eee0cb001aee9604dbc0e500deeea7e9a934eb8efdbcfb7302f6552f05e4f4"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d2_f1.log",
+      "bytes": 39,
+      "sha256": "a41a177bfad4e87a8bbe73f801ed4919789192ac1077c79d97b04c6c993c8ebd"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u195_d2_f1.npz",
+      "bytes": 509723,
+      "sha256": "a0ea67450a5b8c1405a8350a2d23da7a7dd64bc7bbd0597af6a7e973fb7e4157"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d1_f0.5.log",
+      "bytes": 40,
+      "sha256": "7b2475ea215f0c45036ea18dd952331b253b75871fa7763987eb34a21e64d131"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d1_f0.json",
+      "bytes": 109780,
+      "sha256": "39773b2cdf46a9c73255cee589ad303cc4046223f08c1ed162132a09c5cb3dbb"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d1_f0.npz",
+      "bytes": 512843,
+      "sha256": "9feaed524c44bf3b7470976a2d780e7b4570d413519375fb45a63b3962a09059"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d1_f1.json",
+      "bytes": 109780,
+      "sha256": "61700a1d589975db776cf151bd7baa341b05571153051b2157560685dd8928b1"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d1_f1.log",
+      "bytes": 38,
+      "sha256": "e5b79ae026cc9be58f087d5b64a6633715e671ab0b75dfa9041f93b1a85d4206"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d1_f1.npz",
+      "bytes": 512872,
+      "sha256": "1cdd41fb21fa544d3a0843bdf1f271347c3b09c1f9db63bf482fb6f844e04e35"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d2_f0.5.log",
+      "bytes": 40,
+      "sha256": "c1a7587d1d2a040a1306aa153c4e224a237eeaa8aa19526ad6a5ba0fd7f4ea5c"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d2_f0.json",
+      "bytes": 109684,
+      "sha256": "3a2a10b9bf1f38a10c175896ab9f0e67a0794c0d22b9d09eadc478f76f9be792"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d2_f0.npz",
+      "bytes": 512960,
+      "sha256": "b3831153293eb59d29cb53e8bcfefae7c69b7f5c41300552d58684be9666ca2f"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d2_f1.json",
+      "bytes": 109683,
+      "sha256": "14c4f8654254dc6f8f8b3f0b5a91596a3e22cef13012430eef5aef1891d6d8ed"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d2_f1.log",
+      "bytes": 38,
+      "sha256": "446f64eff51a9cec89aa58f296fb5df6e07fc0ecc748a1599143c1e8cb5c0074"
+    },
+    {
+      "path": "runs/q15/reward/v1/evaluation/no_grasp_303_u97_d2_f1.npz",
+      "bytes": 513002,
+      "sha256": "98e97a4d0ba5628b0677e92302d4a2b963abd5478350e08ee84191ba5217091a"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/adapter.json",
+      "bytes": 1023,
+      "sha256": "13659cd15edac577ce13a32b049dd95cd267661ad9a48ba081a47b68ed026f4f"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/checkpoint_195.json",
+      "bytes": 389,
+      "sha256": "2246cd0e26666214e41d50bfc7492088fe7b7a87562c6f13b6a95f53ce186794"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/checkpoint_195.pt",
+      "bytes": 1156625,
+      "sha256": "128b05cc3c520e9d758dad28f9233e8bcbb26d9c8caaf9c36224b9db2280d434"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/checkpoint_97.json",
+      "bytes": 388,
+      "sha256": "10fe3a1beb269a0ccee21232f2cc9e24c3ed566b02e1d0b84508dcbecf742132"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/checkpoint_97.pt",
+      "bytes": 1156602,
+      "sha256": "0dbbd6b70154f8d1ff1c0da5c3cf8bca58d6189aaa6b43a8cf4dfe8c48ee6995"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/config.json",
+      "bytes": 3415872,
+      "sha256": "a28bd4e199eb67f46773367e4deab962004c1a64f5945aeb804974c405369d92"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/executed_ppo.py",
+      "bytes": 23211,
+      "sha256": "670bd116d3c5b54bf18ba815d490b63972525f302b3c11107a14a18df630a69b"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/reward_audit.json",
+      "bytes": 45246,
+      "sha256": "e730e3230b39f526668a8128f3560c17e3f61e3b4692d7b42593414099e3c5cd"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/runs/fit/events.out.tfevents.1789708805.2adb9d1a35e1.106.0",
+      "bytes": 1883906,
+      "sha256": "d9603968d69ed0929e6a69ede22c3e35a4f12b27d7cb2c910a73885c95f5ec4e"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/stdout.log",
+      "bytes": 10097,
+      "sha256": "cc9cb119f2ef09b1f88fa41c66c6ef6c62b46caf72ea6c5d2273fab3b698a9ae"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_101/training.jsonl",
+      "bytes": 40121,
+      "sha256": "e8240014164680e3ff4bd9b81ce9ca80337290f7c23d90c01c824b3ec5e0af54"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/adapter.json",
+      "bytes": 1023,
+      "sha256": "99e682148d98639cdbdbc9181cc7b293678e6ca6a433300866f7a083035a6c39"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/checkpoint_195.json",
+      "bytes": 389,
+      "sha256": "39b561c2d2b36f64a2fcc1a0944eb740e248fbd6952e04faffeef02bd1d9abdc"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/checkpoint_195.pt",
+      "bytes": 1156625,
+      "sha256": "fe81992ef3a0a203b312f417e33502b40cccb39f887bc51ee06915355b2a0a75"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/checkpoint_97.json",
+      "bytes": 388,
+      "sha256": "678a8479e643aae0208deb394490fbe0c8f06de6ec0701beb64d66de154fbf02"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/checkpoint_97.pt",
+      "bytes": 1156602,
+      "sha256": "4c067b8b780b46ee857f66b2e0c8e1c8e11489929a0b41297c22a74564ba5a8c"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/config.json",
+      "bytes": 3415872,
+      "sha256": "d1d3ba1535214a823f1fe04db2db39ee80ae6d3a3620b492e0b2e65fe2b2b628"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/executed_ppo.py",
+      "bytes": 23211,
+      "sha256": "670bd116d3c5b54bf18ba815d490b63972525f302b3c11107a14a18df630a69b"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/reward_audit.json",
+      "bytes": 45222,
+      "sha256": "3eaa8d37d94546631d1dd27a3c70c1c81e82647bd61f801dfa2568932758e84d"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/runs/fit/events.out.tfevents.1789710129.2adb9d1a35e1.178.0",
+      "bytes": 1882206,
+      "sha256": "486991ed1c726ede948a7a1ee6cdb332998a7820538ebac785f7d47ba5fe1aa2"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/stdout.log",
+      "bytes": 10106,
+      "sha256": "5d49f8bbff0b2d2799bbc3d1fa72a69aa832d7143351f71e07e0652167d0c704"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_202/training.jsonl",
+      "bytes": 40087,
+      "sha256": "ed47e46f72fd5274a8a5af5285a9322f111c0f2582e21c38df7fb67db7055bca"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/adapter.json",
+      "bytes": 1023,
+      "sha256": "1f058b019091b040a0fffb6d4e6ecceeed5eed8e9b7c0a6c49dc1d50b2fb4be6"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/checkpoint_195.json",
+      "bytes": 390,
+      "sha256": "9d26d71d128a285d7ab9c1f47068e7930982157118d819ddf5756b4af502c55c"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/checkpoint_195.pt",
+      "bytes": 1156625,
+      "sha256": "01b1eca58cef6c1b12f27d548d72780b6ad75db643528842ce170a90444df3bc"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/checkpoint_97.json",
+      "bytes": 388,
+      "sha256": "64aca09460e0311addcebd0fbc27c9f9e20fca6d9efc8a53624398d39f81a944"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/checkpoint_97.pt",
+      "bytes": 1156602,
+      "sha256": "7ee9a77c53d0828d034eeeb9da1c594877b0863de7bcae9b51caf1b264152836"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/config.json",
+      "bytes": 3415872,
+      "sha256": "50e7cc40ecdaa7aac2f74e9700ca01d59984ae4d6a3888ad4344d6d91250e436"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/executed_ppo.py",
+      "bytes": 23211,
+      "sha256": "670bd116d3c5b54bf18ba815d490b63972525f302b3c11107a14a18df630a69b"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/reward_audit.json",
+      "bytes": 45280,
+      "sha256": "64f918579eac802dca7606d2fc38530735a35f286bd172be2c02231d58fcbaa0"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/runs/fit/events.out.tfevents.1789711464.2adb9d1a35e1.250.0",
+      "bytes": 1890170,
+      "sha256": "f7d85f4b6ed054f6a1e1d0039ac7beec7853e6e591fbaca66fbe16837e861c6d"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/stdout.log",
+      "bytes": 10105,
+      "sha256": "1d6e242e09b6fccc380991c2ecfaed1a9ffc686678d80589ec7d27034e5c0c82"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/half_303/training.jsonl",
+      "bytes": 40096,
+      "sha256": "b5c5b238ef3687983ddb3c974dc13b27fbf2056468cbcc49731c70a6dad66e30"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/adapter.json",
+      "bytes": 1027,
+      "sha256": "5f963c6e99ee66eb6ec1f10ce199ae6dcb1169ec428a270518e8f2becada5c02"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/checkpoint_195.json",
+      "bytes": 390,
+      "sha256": "9007468e9e33e241df9ecebd7f5058f844875e458f5d81a24949da7c405e7a22"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/checkpoint_195.pt",
+      "bytes": 1156625,
+      "sha256": "4a239af3e8e6176944b1909e80ccb5db6321b09d17ebede290ab1c99b541154d"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/checkpoint_97.json",
+      "bytes": 391,
+      "sha256": "7effc28122488175fa11627ce6592d375e194d63e633899cdc53f8fecee0a333"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/checkpoint_97.pt",
+      "bytes": 1156602,
+      "sha256": "3dfe76164d556ad8025d33f5f258d4ecf73113e2ef447fef34f8c7c66a800ecc"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/config.json",
+      "bytes": 3415872,
+      "sha256": "a28bd4e199eb67f46773367e4deab962004c1a64f5945aeb804974c405369d92"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/executed_ppo.py",
+      "bytes": 23213,
+      "sha256": "9314b877fbc3d5424ae0db32ce25f93e2e41b22fc814fdce866fb11d0ccc1dd0"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/reward_audit.json",
+      "bytes": 45117,
+      "sha256": "9e2ef927ad16b49a3564ecef62e92549edf0dce2a603e9042913d237e2e71f30"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/runs/fit/events.out.tfevents.1789707941.2adb9d1a35e1.52.0",
+      "bytes": 1936480,
+      "sha256": "9071b54335c56de2b8f0377590e2167c79149fcccfb7d2116a96a50b2995c778"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/stdout.log",
+      "bytes": 10093,
+      "sha256": "fcec6232c1e5a2871229cf1a6c6c9f55c4e43bcb204c6434e1a9e4b81d8625aa"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_101/training.jsonl",
+      "bytes": 40160,
+      "sha256": "27f0e270993ca64a4f80795e276ad963c4feef6f639548cbc1ab067c511342f0"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/adapter.json",
+      "bytes": 1027,
+      "sha256": "bd143c324dd52c037e339649b7d1ac3edb2f9fcaa10470129216ba285eda7253"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/checkpoint_195.json",
+      "bytes": 391,
+      "sha256": "f6a63daac3002fbce299a1786f2290b62e6e1405fac730830e656a01bcd304cf"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/checkpoint_195.pt",
+      "bytes": 1156625,
+      "sha256": "484d123523397fd2fc036c8f575a389eef184037437fc1ddac4751d1895cf39e"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/checkpoint_97.json",
+      "bytes": 389,
+      "sha256": "f40bc764509babd49f55346da6bdb59025b4a99e031348d602e3065daf71d4b1"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/checkpoint_97.pt",
+      "bytes": 1156602,
+      "sha256": "5ba843aefdfaa7bd21f85ae7f3d6362d7b26fc1407408755282724feab5decbd"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/config.json",
+      "bytes": 3415872,
+      "sha256": "d1d3ba1535214a823f1fe04db2db39ee80ae6d3a3620b492e0b2e65fe2b2b628"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/executed_ppo.py",
+      "bytes": 23213,
+      "sha256": "9314b877fbc3d5424ae0db32ce25f93e2e41b22fc814fdce866fb11d0ccc1dd0"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/reward_audit.json",
+      "bytes": 45222,
+      "sha256": "4646399a2cf92c39a95633ab55d959a4ab5cc89ed5970e62672355bdbf628f6b"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/runs/fit/events.out.tfevents.1789709255.2adb9d1a35e1.130.0",
+      "bytes": 1925717,
+      "sha256": "8036f27cc99e5732d92614842e8b25af10c7f42827d6317630af08337781e2c0"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/stdout.log",
+      "bytes": 10091,
+      "sha256": "970b1932360a1bb2d67496983c098dfd2b111606824868ea55bff6e6b13f6ce7"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_202/training.jsonl",
+      "bytes": 40151,
+      "sha256": "2c6918f1792fb6bada3d3dd70bf3b9fa846885c1ac3b7591988c370245703198"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/adapter.json",
+      "bytes": 1027,
+      "sha256": "7213f2972071f19c18c564ae1d90c6ebb9f1ef6023967049d61e273522e9fdf7"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/checkpoint_195.json",
+      "bytes": 391,
+      "sha256": "fa4444ab0962e8faf3a6dfde6c963fd7f154293531a30a55ebc37825965d1d66"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/checkpoint_195.pt",
+      "bytes": 1156625,
+      "sha256": "edf6d586c2b309b1fa37c0688c95355453f9dd6a5b246e61c7c3dac840a6203b"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/checkpoint_97.json",
+      "bytes": 391,
+      "sha256": "d08109a4081def825d741e3e6cea860ede14fef5074983fc7c883d51c0258818"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/checkpoint_97.pt",
+      "bytes": 1156602,
+      "sha256": "64a1eb566fe323a84fb1982ad41c531b184a5dbd9d375607e38a54a1bb9a77bf"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/config.json",
+      "bytes": 3415872,
+      "sha256": "50e7cc40ecdaa7aac2f74e9700ca01d59984ae4d6a3888ad4344d6d91250e436"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/executed_ppo.py",
+      "bytes": 23213,
+      "sha256": "9314b877fbc3d5424ae0db32ce25f93e2e41b22fc814fdce866fb11d0ccc1dd0"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/reward_audit.json",
+      "bytes": 45136,
+      "sha256": "c7d435d6167b7758b748790af1822e30f9dc26bdfddaeae619d313504a3a834a"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/runs/fit/events.out.tfevents.1789710578.2adb9d1a35e1.202.0",
+      "bytes": 1913098,
+      "sha256": "40aaf01563e8a3e053302b03abce393c9515f3332dbede44d224712aa9ca973c"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/stdout.log",
+      "bytes": 10099,
+      "sha256": "214ae7919d4f1e5dc74f55756ff646cdab47dabe257f277e46270810b99ae159"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/native_303/training.jsonl",
+      "bytes": 40147,
+      "sha256": "cf1e21815837b3b9099a830d7a1a0cc35407d738c2d2e92c561b17a58d9bbf9b"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/adapter.json",
+      "bytes": 1031,
+      "sha256": "71829841877541e9da70044a9841fc7641866142e0b7a7a6f8b762e34d16ed7c"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/checkpoint_195.json",
+      "bytes": 392,
+      "sha256": "23c8490e25ff01bbaa81e5119a0dc1a9805e191ce55f5300a12f0e1cb7844be8"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/checkpoint_195.pt",
+      "bytes": 1156625,
+      "sha256": "c20a88c01a355a5839146ea91e2859ddcae25e0ee4ed343db6474e1e147eb920"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/checkpoint_97.json",
+      "bytes": 393,
+      "sha256": "65dd3a6eec3597ac06a608752bca245631405c54966d0ebb786aea6a8187151e"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/checkpoint_97.pt",
+      "bytes": 1156602,
+      "sha256": "f308abbdc8cc15f3a2d741efc461a27b697d12fe9db296b8c1a57074ceaef007"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/config.json",
+      "bytes": 3415872,
+      "sha256": "a28bd4e199eb67f46773367e4deab962004c1a64f5945aeb804974c405369d92"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/executed_ppo.py",
+      "bytes": 23215,
+      "sha256": "dfb37be7407f5ae9585db1bb9f40d148ecb9f3a3982642ebbe30c7212324fe46"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/reward_audit.json",
+      "bytes": 45238,
+      "sha256": "399e1d5cf940605347f476e73ed11c091da550c6cf069061c2bb17cbf8c45e10"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/runs/fit/events.out.tfevents.1789708377.2adb9d1a35e1.76.0",
+      "bytes": 1972158,
+      "sha256": "92c7202aaaa41f6d225ebca9adfb2d2ef821ff257ed1304b5b24c4584fd65672"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/stdout.log",
+      "bytes": 10091,
+      "sha256": "99654aebca57678e0edd4323332756bf391b2f85fc6e31ab601cc169a137441f"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_101/training.jsonl",
+      "bytes": 40198,
+      "sha256": "a4d992a68ef51720b55b185deeafab6bc10d9e4d91aedf98ded2693613db9c2a"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/adapter.json",
+      "bytes": 1031,
+      "sha256": "f3f11d541801e484c02251801c7a8fa9b24edcbecd7c27abd3372b6acc8dd954"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/checkpoint_195.json",
+      "bytes": 392,
+      "sha256": "a3e9e2445e8167520b64924b5941f2a86a52f8b384c64cf59cdceda152db721a"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/checkpoint_195.pt",
+      "bytes": 1156625,
+      "sha256": "2559a13610a7011fd504f06d6c8be6d780d612bd51f3f7698bdb15b5494e07d6"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/checkpoint_97.json",
+      "bytes": 393,
+      "sha256": "0ad609f722ddb21a8f8c66302073143442b494da4e22c8a6cecd997ea8fa27ee"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/checkpoint_97.pt",
+      "bytes": 1156602,
+      "sha256": "e21a285e788c64a42643b60bd4bca960b319d18b6b983113a8931a56e70a4ef4"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/config.json",
+      "bytes": 3415872,
+      "sha256": "d1d3ba1535214a823f1fe04db2db39ee80ae6d3a3620b492e0b2e65fe2b2b628"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/executed_ppo.py",
+      "bytes": 23215,
+      "sha256": "dfb37be7407f5ae9585db1bb9f40d148ecb9f3a3982642ebbe30c7212324fe46"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/reward_audit.json",
+      "bytes": 45218,
+      "sha256": "30f95553257acc508fe360c0a82ab1226cb297cc7a4fa00432bd042847e7046e"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/runs/fit/events.out.tfevents.1789709699.2adb9d1a35e1.154.0",
+      "bytes": 1978509,
+      "sha256": "b7b588a6f3fa5a1274c524ec55db6b09fe20b1b887cd0bd67dbd17029ba99c86"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/stdout.log",
+      "bytes": 10092,
+      "sha256": "9a2f243fed33816b748102e7d0eec9a0d63f7cc1f5d723c524989cfb2a44847c"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_202/training.jsonl",
+      "bytes": 40207,
+      "sha256": "eb90208d3f35a049e9c8276b7145c7b7658387acfc1e4dcd869b57c258407640"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/adapter.json",
+      "bytes": 1031,
+      "sha256": "8e3f1524581a0fd58f5b6de3002f69a59bea1266bb12215b698ac1bc4f16f2a7"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/checkpoint_195.json",
+      "bytes": 392,
+      "sha256": "dc20d4d22f45f5522c2bf75101ff6d8e16a7b28bceb0cd1f76902afc9d167b33"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/checkpoint_195.pt",
+      "bytes": 1156625,
+      "sha256": "e27486275cf05de1d7c33c40af86fa037fef2d8419dccab0d2b5cab15906a09e"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/checkpoint_97.json",
+      "bytes": 392,
+      "sha256": "153972f1a71a8974e8a06ba41beddf6df601ff8ca3399df03ffdc9991c22b458"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/checkpoint_97.pt",
+      "bytes": 1156602,
+      "sha256": "adf6f12c3d7f515d7bdbf3124c6e8a98e1e44fa10d332ade013cf363c423919b"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/config.json",
+      "bytes": 3415872,
+      "sha256": "50e7cc40ecdaa7aac2f74e9700ca01d59984ae4d6a3888ad4344d6d91250e436"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/executed_ppo.py",
+      "bytes": 23215,
+      "sha256": "dfb37be7407f5ae9585db1bb9f40d148ecb9f3a3982642ebbe30c7212324fe46"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/reward_audit.json",
+      "bytes": 45279,
+      "sha256": "0c4ce12fbe63803144f006230868d2a961371355fb9ac9cf8e97eedc4c822b3e"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/runs/fit/events.out.tfevents.1789711020.2adb9d1a35e1.226.0",
+      "bytes": 1949202,
+      "sha256": "fd49350f50ee7908cb603e1bad1c24f694561723710dbd377e5a02f551068411"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/stdout.log",
+      "bytes": 10101,
+      "sha256": "1707b13125e3be063e5bf54d449f2264a165e23d1711e3148776720c720e3658"
+    },
+    {
+      "path": "runs/q15/reward/v1/fits/no_grasp_303/training.jsonl",
+      "bytes": 40155,
+      "sha256": "a42e624e5be9d15fe9cbe7d2e2df0331f786b3da0eb0b88e43d8dc64e294ba6f"
+    },
+    {
+      "path": "runs/q15/reward/v1/installed.lock",
+      "bytes": 2008,
+      "sha256": "40855c9e303f1c4d4c2133f99996395abfad3c44edee310a4fc5cbf931a0e9d8"
+    },
+    {
+      "path": "runs/q15/reward/v1/manifest.json",
+      "bytes": 55301,
+      "sha256": "b346c89e0e1610275a3956df79e7ff4dca52a58ce4f212a14c5927f4ecd4a665"
+    },
+    {
+      "path": "runs/q15/reward/v1/os-packages.lock",
+      "bytes": 4293,
+      "sha256": "c672f2f26e1c1742a4caa982abcd4c6d217fdaf9bd56b41d60d311ca206cafe1"
+    },
+    {
+      "path": "runs/q15/reward/v1/requirements.lock",
+      "bytes": 2047,
+      "sha256": "39e3053d52920c69391f62ba6f03c4c91ca55ad4ba0180509e6dd9461b31b790"
+    },
+    {
+      "path": "runs/q15/reward/v1/run_status.json",
+      "bytes": 38131,
+      "sha256": "f93cada182e17d739fa609c66c042943ba90b75748a6ad91a5b85fece1d2262f"
+    },
+    {
+      "path": "runs/q15/reward/v1/runtime.json",
+      "bytes": 1962,
+      "sha256": "70d4d0555c8675d0f4614ad887655a85bab1b5ccab2af407db4017955718116c"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/Dockerfile",
+      "bytes": 1061,
+      "sha256": "ef12d0cf6aa4648b54945084c6cc996a51b51325adb786db76a95528c4751bb1"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/Dockerfile.dockerignore",
+      "bytes": 327,
+      "sha256": "e32a0f8da0d46698ca593ddcb9cea3facb0c35753960829f697a0975e8a37fb1"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/README.md",
+      "bytes": 3642,
+      "sha256": "ad57097006740c0273493dfbdec0dc4eb1b829abfd88028c16609819c5fb84a7"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/cleanup.py",
+      "bytes": 2487,
+      "sha256": "21b1d4ff4750decf84753ab3c00c3b0045f26e0bcd6593f202a442b65436d961"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/common.py",
+      "bytes": 3057,
+      "sha256": "e5b8a2c33e3caa7ad677ebe0561f351971ef39e22649c578cfa75756cdb0e910"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/evaluate.py",
+      "bytes": 3684,
+      "sha256": "e921547590dd598098445b4e14b4602b3606a36af8457ea1b271ce01eadab0c3"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/formula.py",
+      "bytes": 1862,
+      "sha256": "f86ace5a73cf919e5b156527b55cc23c68e7f5eb6d139bdf023d02d0f010449b"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/job.py",
+      "bytes": 3945,
+      "sha256": "1e53dad19c80d718429fa915ecd0744dd127acc87f4b421d4918b07ad8df1cc3"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/ready.py",
+      "bytes": 2513,
+      "sha256": "2fc00f853311b69e2932eaf86242cd2b049eeae15ba291704c9a297ad14e0312"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/record.py",
+      "bytes": 1613,
+      "sha256": "df0ce9cca6cf11d00f3f514b7b84ed8ec0ed99bf172dd48b490939e47a390a91"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/requirements.lock",
+      "bytes": 2047,
+      "sha256": "39e3053d52920c69391f62ba6f03c4c91ca55ad4ba0180509e6dd9461b31b790"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/run.py",
+      "bytes": 3276,
+      "sha256": "1cc2af27b9ead8dbd87d128a755d6f1dc85701b891e2b9072b2b73958c785c3b"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/task.py",
+      "bytes": 2684,
+      "sha256": "eb2b31545211fd74016f851bc711aadeafcc378b66dbe766d98bc10cf8f5954b"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/train.py",
+      "bytes": 1970,
+      "sha256": "1de49585e6d2f416bddaa8b3d6e2d4d5f09421778846d59720ce8bba0106c136"
+    },
+    {
+      "path": "runs/q15/reward/v1/source/verify.py",
+      "bytes": 9016,
+      "sha256": "8da096f3bba5e725548d859e768f898330a3ac1cfd8624aa929d6b3cf18599f2"
+    },
+    {
+      "path": "runs/q15/reward/v1/summary.json",
+      "bytes": 9865,
+      "sha256": "7ec64db902fea1f5d2398af5c617014744d13c1e57e8dbd8b89641779c4128b0"
+    },
+    {
+      "path": "runs/q15/reward/v1/verification.json",
+      "bytes": 431,
+      "sha256": "cdd44cba1e2182e5f3bb1be600065a1ca35e281bfa3540a94cdfe9db8ae36e6a"
+    },
+    {
+      "path": "runs/q15/reward/v1/verification_source/analyze.py",
+      "bytes": 3250,
+      "sha256": "1177e0a3a0c047c581471ff37578f4386f7680d18e6d0f37cfda9bace45c4b0b"
+    },
+    {
+      "path": "runs/q15/reward/v1/verification_source/verify.py",
+      "bytes": 10681,
+      "sha256": "47b6d793bc06944f9d9633c43289d8019b9be1e6931c2a76e787627d585ecfe7"
+    },
+    {
+      "path": "runs/q15/reward/v1/verification_source_failed_fractional_path/analyze.py",
+      "bytes": 3250,
+      "sha256": "1177e0a3a0c047c581471ff37578f4386f7680d18e6d0f37cfda9bace45c4b0b"
+    },
+    {
+      "path": "runs/q15/reward/v1/verification_source_failed_fractional_path/verify.py",
+      "bytes": 10157,
+      "sha256": "1a8b0050d131244998b8094b1030c0e33014d9cca7a8927315a9eed3d4e9fb3e"
+    },
+    {
+      "path": "runs/q15/reward/v1/verification_source_failed_static_l2/analyze.py",
+      "bytes": 3144,
+      "sha256": "cad43185b97fce40dac82f4c4a0d055576a042109e867d72d71c585dfb54cd93"
+    },
+    {
+      "path": "runs/q15/reward/v1/verification_source_failed_static_l2/verify.py",
+      "bytes": 9693,
+      "sha256": "f0786d68b18d4a5443e1391d0835963309baace707ba3c74da95fc1ba5d69b01"
+    }
+  ]
+}

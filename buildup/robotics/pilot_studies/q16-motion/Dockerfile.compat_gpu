@@ -1,0 +1,12 @@
+FROM python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+RUN apt-get update && apt-get install -y --no-install-recommends libgl1 libegl1 libglib2.0-0 libvulkan1 libgomp1 libx11-6 libxext6 libsm6 libice6 && rm -rf /var/lib/apt/lists/*
+COPY buildup/robotics/pilot_studies/q16-motion/requirements.compat.lock /recipe/requirements.compat.lock
+RUN pip install --no-cache-dir torch==2.7.1 --index-url https://download.pytorch.org/whl/cu128
+COPY external/q16/ManiSkill-baab60ede2e89167c1b7aaed41a9aa8e690a9d1e /opt/ManiSkill
+RUN python -c 'import xml.etree.ElementTree as ET; p="/opt/ManiSkill/mani_skill/assets/robots/panda/panda_stick.urdf"; t=ET.parse(p); n=sum(1 for link in t.getroot().iter("link") for visual in list(link.findall("visual")) if not link.remove(visual)); assert n == 10, n; t.write(p, encoding="unicode")'
+RUN pip install --no-cache-dir -c /recipe/requirements.compat.lock /opt/ManiSkill \
+ && pip check && pip freeze --all > /recipe/installed.lock && dpkg-query -W > /recipe/os-packages.lock
+RUN groupadd -g 1001 research && useradd -m -u 1001 -g 1001 research
+USER 1001:1001
+WORKDIR /study

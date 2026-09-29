@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-15T01:13:21.940628+00:00",
+  "scope": "pre-readiness execution identity; not a passed pilot freeze",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 47,
+      "sha256": "1635be5072361e470cdf95273e526ce43b1b378d58cbc4140a7fce08d21fbc3d"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 768,
+      "sha256": "3f7fcf026306a229971c65b97cbf284eef47f251c9444ee6c3cd7417fad335eb"
+    },
+    {
+      "path": "acquire.py",
+      "bytes": 4376,
+      "sha256": "b2de424781130f4751122d195c50ac9f58042b5fec76ecfe189f2aee95bd66a8"
+    },
+    {
+      "path": "adapter.py",
+      "bytes": 2540,
+      "sha256": "185d883aff25482f6f72fde799567a20c95b8de98e01af1dc6656f94e908702a"
+    },
+    {
+      "path": "assets.json",
+      "bytes": 69703,
+      "sha256": "4e2ed459f297fa0c2532fc3e73997449f5498b99f971f8252d06a7b9593913ff"
+    },
+    {
+      "path": "bootstrap.txt",
+      "bytes": 177,
+      "sha256": "3870a11d22538a0a5a09a6ea78c5373a64e74044f290b86d12e7494b3535adcd"
+    },
+    {
+      "path": "checks.py",
+      "bytes": 3241,
+      "sha256": "d2a8881c1fca99979f10aa856cab224c4061931efea13fa47b3a1d5ac7f1f9a5"
+    },
+    {
+      "path": "config.json",
+      "bytes": 1415,
+      "sha256": "ef65a094c0aa1e37019a0ba1512e0c52c87ab90558f4a60573c512c41d62b357"
+    },
+    {
+      "path": "instrument.py",
+      "bytes": 2822,
+      "sha256": "99ba8d12be0c665b06c777d4bfe362db7cb3f695d9a867c40ba2acbb3a7ad773"
+    },
+    {
+      "path": "launch.py",
+      "bytes": 2421,
+      "sha256": "0026f1a50932323f14220f462af01818c004abdd08e5f6dd3b46cd364f7edda8"
+    },
+    {
+      "path": "preflight.py",
+      "bytes": 3668,
+      "sha256": "ab81cd1278bf0c18ff4e94eabc2617d03c43bc5952c5735ab75e1afbca7cfa66"
+    },
+    {
+      "path": "project_lock.py",
+      "bytes": 1163,
+      "sha256": "9fd9fcae9b319a65d92d8106710ad468bf27efbdfb09e77152a97c34b71f666d"
+    },
+    {
+      "path": "readiness.py",
+      "bytes": 11034,
+      "sha256": "73a2f88200899ef3c2788b6b506c9245a0af2d4671d20205573c698c88f17c74"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 60672,
+      "sha256": "ae8df7e05e424883604a2f6fd7fa0a52250d8e4329cc2dbecd841670d72e463e"
+    },
+    {
+      "path": "schema.py",
+      "bytes": 3683,
+      "sha256": "9005d5b3ff6d2466e6dc16c84909596227f026c59966b9b545c19e98ad2e853c"
+    },
+    {
+      "path": "timing.py",
+      "bytes": 1558,
+      "sha256": "c870e1780328921d78d3983e1bd61d936787553c19b75b0abda686a4a6e194fc"
+    }
+  ]
+}

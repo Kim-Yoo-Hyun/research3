@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-09-18T14:16:07.544202",
+  "host_kernel": "7.0.0-28-generic",
+  "machine": "x86_64",
+  "gpu_query_command": [
+    "nvidia-smi",
+    "--query-gpu=index,uuid,name,driver_version,memory.total",
+    "--format=csv,noheader"
+  ],
+  "gpu": "0, GPU-90cacfcf-72fe-4b1c-1bd4-cffb389ff9ea, NVIDIA GeForce RTX 5090, 580.173.02, 32607 MiB",
+  "docker_version": {
+    "Platform": {
+      "Name": "Docker Engine - Community"
+    },
+    "Version": "29.6.1",
+    "ApiVersion": "1.55",
+    "MinAPIVersion": "1.40",
+    "Os": "linux",
+    "Arch": "amd64",
+    "Components": [
+      {
+        "Name": "Engine",
+        "Version": "29.6.1",
+        "Details": {
+          "ApiVersion": "1.55",
+          "Arch": "amd64",
+          "BuildTime": "Fri Jun 26 11:40:19 2026",
+          "Experimental": "false",
+          "GitCommit": "8ec5ab3",
+          "GoVersion": "go1.26.4",
+          "KernelVersion": "7.0.0-28-generic",
+          "MinAPIVersion": "1.40",
+          "Module": "github.com/moby/moby/v2",
+          "ModuleVersion": "v2.0.0+unknown",
+          "Os": "linux"
+        }
+      },
+      {
+        "Name": "containerd",
+        "Version": "v2.2.5",
+        "Details": {
+          "GitCommit": "e53c7c1516c3b2bff98eb76f1f4117477e6f4e66"
+        }
+      },
+      {
+        "Name": "runc",
+        "Version": "1.3.6",
+        "Details": {
+          "GitCommit": "v1.3.6-0-g491b69ba"
+        }
+      },
+      {
+        "Name": "docker-init",
+        "Version": "0.19.0",
+        "Details": {
+          "GitCommit": "de40ad0"
+        }
+      }
+    ],
+    "GitCommit": "8ec5ab3",
+    "GoVersion": "go1.26.4",
+    "KernelVersion": "7.0.0-28-generic",
+    "BuildTime": "2026-06-26T11:40:19.000000000+00:00"
+  },
+  "physx_runtime": [
+    {
+      "path": "runs/q15/reward/cache/.sapien/physx/105.1-physx-5.3.1.patch0/libPhysXGpu_64.so",
+      "bytes": 236705440,
+      "sha256": "4c582a16509a71faf5592fe9708586dfcc7ab61ae932eabc1ddd81f290818706"
+    }
+  ]
+}

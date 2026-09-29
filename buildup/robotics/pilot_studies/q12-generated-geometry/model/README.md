@@ -1,6 +1,8 @@
 # Completion Model Readiness
 
-Updated: 2026-09-11 · actual CPU reference outputs executed and independently verified
+Updated: 2026-09-14 · actual CPU reference outputs executed and independently verified
+
+Runtime 정리·복구 조건은 [Docker cleanup assessment](../../../../../docs/reproducibility.md#docker-cleanup-assessment--2026-09-14)를 따른다. Image 실제 삭제는 없다.
 
 ## Current result
 
@@ -8,8 +10,10 @@ Frozen CPU reference protocol을 실제 네 입력에 두 process로 실행했�
 네 case의 독립 output 검증이 모두 통과**했다. 고정 판정은
 `REFERENCE_OUTPUT_VERIFIED_NATIVE_AND_PHYSICAL_UNRESOLVED`이며
 [실제 결과](#verified-completion-results-2026-09-11)가 이번 실행의 범위를 소유한다.
-Native CUDA 동등성·물리 연결은 미검증이다. 다음은 이 결과와 남은 연결 비용에 근거해
-후속 action-linked 검증의 정보 가치 또는 refine/defer를 판단하는 것이다.
+Native CUDA 동등성·물리 연결은 미검증이다. 후속 [경로 비교](../README.md#linkage-route-assessment-2026-09-11)는
+known geometry/camera와 고정 gripper pose의 collision diagnostic 준비를 선택했다.
+이후 [BOP 실패/calibration 재평가](../real/README.md#reassessment-2026-09-14)로 Q12 추가 투자는
+보류됐다. 이 폴더의 output/freeze는 그대로 유지하며 재추론은 현재 TODO가 아니다.
 
 앞선 construction-only [schema result](schema_result.json)의
 `STATE_COMPATIBLE_FORWARD_UNVERIFIED`와 [독립 metadata receipt](schema_verification.json)는
@@ -181,8 +185,8 @@ GT 입력 없이 생성하고, copied/generated 출처와 좌표 복원·반복 
 Native CUDA/역사적 training operator와의 동등성, GT의 물리적 정확성, per-file metric frame와
 camera/ray 연결, object-disjoint generalization 및 로봇 action/outcome 효과는 미확인이다.
 현재 결과로 completion bias·robotics benefit/harm·novelty를 주장하거나 hypothesis로 승격하지
-않는다. 다음 TODO는 native parity와 physical/camera linkage를 확보하는 각 경로의 비용·정보
-가치를 비교해 후속 검증 또는 refine/defer를 판단하는 것이다. 자동 재실행·학습 확대와 Q13
+않는다. 후속 비교와 준비 범위는 [parent study](../README.md#linkage-route-assessment-2026-09-11)가
+소유한다. 원본 네 입력/출력을 새 scene에 맞춰 바꾸지 않으며 자동 재실행·학습 확대와 Q13
 승계는 없다.
 
 Compact 결과 보존에는 이 폴더의 result/audit/실행 manifest와 frozen source·protocol을,

@@ -1,6 +1,6 @@
 # Literature Workflow
 
-Updated: 2026-09-01
+Updated: 2026-09-15
 
 ## Purpose
 
@@ -8,8 +8,8 @@ Updated: 2026-09-01
 
 1. `Scoping Literature Review`: 사용자가 정한 research scope에서 candidate
    research questions, nearest related work와 accessible study design을 찾는다.
-2. `Admission Audit`: 승격된 lead의 problem ownership, executable
-   denominator, simple-baseline pressure와 method boundary를 판정한다.
+2. `Admission Audit`: focused validation 근거가 생긴 hypothesis의 기여 차이,
+   평가 타당성과 paper claim에 필요한 비교를 검토한다.
 
 Early buildup에 paper-level admission criteria를 미리 적용하지 않는다.
 Topic discovery의 stage와 산출물은 `docs/buildup.md`를 따른다.
@@ -20,7 +20,8 @@ Topic discovery의 stage와 산출물은 `docs/buildup.md`를 따른다.
 Research scope가 정해지기 전에는 특정 과거 연구 방향을 새 review의
 기본값으로 사용하지 않는다.
 
-각 candidate research question은 다음을 한 문장씩 고정한다.
+다음 내용으로 질문 초안을 구체화한다. 형식과 항목 수를 별도 gate로 삼지 않고
+미확정 사항은 첫 관찰에서 알아낼 내용으로 남긴다.
 
 1. existing limitation
 2. 선택한 research area에서 왜 중요한가
@@ -37,20 +38,26 @@ scoping literature review의 entry condition이 아니다.
 1. Research scope의 representative recent work, active groups와 benchmark를
    얕게 map한다.
 2. anomaly, limitation, conflicting result, missing evaluation과 resource
-   opportunity에서 서로 다른 candidate research questions 3--5개를 만든다.
-3. 각 question의 nearest primary papers 1--3개와 official artifact를 확인한다.
+   opportunity에서 후보를 비교한다. 보통 3–5개로 시작하지만 이미 선택한 질문에
+   새 후보 수를 채우기 위한 탐색을 요구하지 않는다.
+3. 각 question의 nearest primary papers부터 읽는다(보통 1–3개). Official artifact나
+   허용된 작은 study construction 경로를 확인한다.
 4. observable target, simplest baseline, critical assumption과
    feasibility를 기록한다.
-5. 상위 1--2개만 deeper review와 feasibility/pilot study로 넘긴다.
+5. 소수의 질문에 집중해 문헌과 작은 관찰·설명 수정을 오간다.
 
 Broad survey의 완료를 feasibility study의 선행조건으로 삼지 않는다. 반대로 novelty와
 artifact readiness의 최종 판단은 primary paper, appendix, official code/data로
 재검증한다.
 
+가까운 선행의 존재는 기각 근거가 아니다. 질문·조건·대안·새로 배울 내용의 실제 중복을
+설명한다. 자료를 얻지 못하면 확인한 판본과 미확정 범위를 남긴다. 그 자료가 다음 관찰의
+타당성을 좌우하지 않으면 전체 review/실행을 막지 않는다.
+
 ## Admission Audit Start Condition
 
-`docs/buildup.md`에서 lead가 승격되고 paper-oriented feasibility를 판단할 때
-다음을 고정한다.
+Hypothesis의 focused validation 근거로 paper-level 투자를 판단할 때 다음을 고정한다.
+이 admission audit을 buildup 진입이나 설명 초안 작성에 적용하지 않는다.
 
 1. exact existing limitation과 nearest prior
 2. selected research area에서의 substantive relevance

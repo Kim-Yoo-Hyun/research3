@@ -1,0 +1,883 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-09-15T01:45:01.046627+00:00",
+  "checked_at_kst": "2026-09-15T10:45:01.046627+09:00",
+  "status": "COMPLETED_SOURCE_REASSESSMENT_SELECT_Q9_REVIEW",
+  "scope": {
+    "allowed": "source reading, small text/metadata download, preserved-record inspection, stdlib byte/CSV/JSON/AST validation",
+    "new_method_execution": false,
+    "new_docker_build_or_run": false,
+    "new_sequence_pickle_or_checkpoint_download": false,
+    "pickle_deserialization": false,
+    "deletion": false,
+    "literature_exhaustive": false
+  },
+  "decision": {
+    "Q6": "deferred; prospective first-event contract remains conditional reserve; original gate/result unchanged",
+    "Q9": "under_review; selected next Stage 4-5; causal input and cost/label design not yet validated",
+    "Q7_Q14": "exploratory, lower execution priority",
+    "Q12_Q13": "deferred, existing re-entry conditions",
+    "hypothesis_selected": false
+  },
+  "prior_receipts": [
+    {
+      "path": "buildup/robotics/related_work/comparison_sources.json",
+      "bytes": 23427,
+      "sha256": "f29929b9bf98da3159c81b9a5a392d97bc76e9f07c890f32758b66e289eda695"
+    },
+    {
+      "path": "buildup/robotics/related_work/q6_sources.json",
+      "bytes": 11137,
+      "sha256": "06da5394de4fa9d2bc6ec96255bbf8dba127fe5d1fb6b7e46623fa983766b13d"
+    }
+  ],
+  "q6_preserved_evidence": {
+    "preservation": {
+      "path": "buildup/robotics/pilot_studies/q6-timing/preservation.json",
+      "bytes": 7439,
+      "sha256": "f2c3b48dca1144a55d125f7ed3fd96692b1564986f50e32d11e4b024426e3b9f"
+    },
+    "outputs": {
+      "path": "buildup/robotics/pilot_studies/q6-timing/outputs.json",
+      "bytes": 4250,
+      "sha256": "facb8d0c21f9ea8e12e14e6815679c85c3249342ab28eaee297f095afd2acfb7"
+    },
+    "assets": {
+      "path": "buildup/robotics/pilot_studies/q6-timing/assets.json",
+      "bytes": 69703,
+      "sha256": "4e2ed459f297fa0c2532fc3e73997449f5498b99f971f8252d06a7b9593913ff"
+    },
+    "verification": {
+      "path": "buildup/robotics/pilot_studies/q6-timing/verification.json",
+      "bytes": 2162,
+      "sha256": "00fec9d67e1f9f31079589f5a4adf8586b0a1c638d76a8fd0f7c37b15fed68ea"
+    },
+    "checked": {
+      "scope": "host stdlib byte/hash, source AST and CSV/JSON metadata only; no method execution",
+      "q6_preservation_files": 28,
+      "q6_preservation_logs": 10,
+      "q6_raw_output_files": 22,
+      "q6_source_files": 265,
+      "q6_policy_payload_sha256_files": 2,
+      "new_source_files": 5,
+      "new_source_ast_files": 4,
+      "new_annotation_time_files": 37,
+      "query_rows": 639,
+      "empty_coordinate_and_tolerance_rows": 156,
+      "time_txt_csv_key_matches": 9,
+      "all_checks_passed": true,
+      "draft_correction": "An initial prose aggregate of 162 empty-coordinate rows failed validation; fresh CSV parsing and the prior per-file audit both give 156. Corrected prose; downloaded metadata unchanged."
+    },
+    "original_five_records_unchanged": true,
+    "new_endpoint_runtime_verified": false
+  },
+  "dynamem_source": {
+    "repository": "hello-robot/stretch_ai",
+    "commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+    "commit_date": "2026-07-02T21:40:05Z",
+    "files": [
+      {
+        "repo": "hello-robot/stretch_ai",
+        "commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+        "path": "src/stretch/mapping/voxel/voxel_dynamem.py",
+        "url": "https://raw.githubusercontent.com/hello-robot/stretch_ai/6272b28e3ff7be482af3b427a4551d1772ebf7d7/src/stretch/mapping/voxel/voxel_dynamem.py",
+        "cache": "/tmp/research3-q6-reassessment-20260915/voxel_dynamem.py",
+        "bytes": 53858,
+        "sha256": "b80dc7b3ae88ce7b3a5a197e0c53aa66d63f64fbb0e7e34f850fbeeadd5a6096",
+        "git_blob_sha1": "0d24ec4455519a2cbb336d72f4a1eef7e9534ac0"
+      },
+      {
+        "repo": "hello-robot/stretch_ai",
+        "commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+        "path": "src/stretch/mapping/voxel/voxel_map_dynamem.py",
+        "url": "https://raw.githubusercontent.com/hello-robot/stretch_ai/6272b28e3ff7be482af3b427a4551d1772ebf7d7/src/stretch/mapping/voxel/voxel_map_dynamem.py",
+        "cache": "/tmp/research3-q6-reassessment-20260915/voxel_map_dynamem.py",
+        "bytes": 14069,
+        "sha256": "3cf1bb83a21a1917c8b51b089deb53295675251e7e8674bec9617605cec85ebb",
+        "git_blob_sha1": "b0c742870280c73e188d5b3613a2710a000344c3"
+      },
+      {
+        "repo": "hello-robot/stretch_ai",
+        "commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+        "path": "src/stretch/agent/robot_agent_dynamem.py",
+        "url": "https://raw.githubusercontent.com/hello-robot/stretch_ai/6272b28e3ff7be482af3b427a4551d1772ebf7d7/src/stretch/agent/robot_agent_dynamem.py",
+        "cache": "/tmp/research3-q6-reassessment-20260915/robot_agent_dynamem.py",
+        "bytes": 37991,
+        "sha256": "78c6cfba236eac7e778f8b9a36488ab9a468e38f9a3e95b17043a1218d8f9133",
+        "git_blob_sha1": "5e6319b31a730109f7c76883559814572335ba13"
+      },
+      {
+        "repo": "hello-robot/stretch_ai",
+        "commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+        "path": "src/stretch/app/run_dynamem.py",
+        "url": "https://raw.githubusercontent.com/hello-robot/stretch_ai/6272b28e3ff7be482af3b427a4551d1772ebf7d7/src/stretch/app/run_dynamem.py",
+        "cache": "/tmp/research3-q6-reassessment-20260915/run_dynamem.py",
+        "bytes": 6208,
+        "sha256": "e7f4a4e843d76724588bc369e07ca02c9e7f4098794d760acc6d34e7a5e7d5e5",
+        "git_blob_sha1": "bccd52cfb8ea23f235cfb6dd72807a291fa35a67"
+      },
+      {
+        "repo": "hello-robot/stretch_ai",
+        "commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+        "path": "docs/dynamem.md",
+        "url": "https://raw.githubusercontent.com/hello-robot/stretch_ai/6272b28e3ff7be482af3b427a4551d1772ebf7d7/docs/dynamem.md",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynamem.md",
+        "bytes": 19751,
+        "sha256": "8538acb0a2ae529e8d43149f4f37e3b86a90d18fc96926933cbf4ea1ac614a63",
+        "git_blob_sha1": "bdfb161180f59746ee2dfccc7e997d2de0596fdc"
+      }
+    ],
+    "total_bytes": 131877,
+    "verified": "bytes, SHA-256, Git blob SHA-1 and pinned tree; four Python files parsed without import",
+    "runtime_verified": false,
+    "causal_prefix_inference": "read_from_pickle bounds obstacle loop but restores combined semantic fields without that bound; actual leakage depends on uninspected payload; raw causal replay must be audited",
+    "cpu_boundary": "documented reduced perception/matching configuration is neither local runtime proof nor matched CPU/GPU ablation",
+    "live_cli_boundary": "constructs robot client; no CLI was executed"
+  },
+  "dynabench": {
+    "repository": "hello-peiqi/DynaMem-DynaBench",
+    "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench",
+    "revision": "1d561e2de8718addf398e5e967f2c44dc015c366",
+    "gated": false,
+    "last_modified": "2025-06-29T23:27:22.000Z",
+    "listed_file_count": 47,
+    "listed_total_bytes": 5458780654,
+    "listed_pickle_total_bytes": 5458748303,
+    "dataset_card_present": false,
+    "metadata_files": [
+      {
+        "path": "env1/14.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env1/14.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env1/14.csv",
+        "bytes": 768,
+        "sha256": "c782a6d7e4c5a7dc2b4dcc5fe58122d5c8217f705589dec0970015497474562c",
+        "git_blob_sha1": "5f7b21aec562e28ccaf6cd6b69db467e8e353513"
+      },
+      {
+        "path": "env1/26.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env1/26.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env1/26.csv",
+        "bytes": 730,
+        "sha256": "7659b0e377c874609426b35ea6beded594c21312f684f073947fac4c123916a8",
+        "git_blob_sha1": "edee2b55f2f037685644a71b0e0b14a7f005df5e"
+      },
+      {
+        "path": "env1/41.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env1/41.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env1/41.csv",
+        "bytes": 693,
+        "sha256": "8559f993db860bdaad482e69cabcbb99840d79c9fff60274677493261f7009df",
+        "git_blob_sha1": "14a44a8aaab2d769c386368579cc9148c5d402d4"
+      },
+      {
+        "path": "env1/time.txt",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env1/time.txt",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env1/time.txt",
+        "bytes": 8,
+        "sha256": "6da8c66f683bafb7ac3e326240b05247cb236edffe892e5d1809779241a2410d",
+        "git_blob_sha1": "f6471b2fd5de8b447e6f7e724e5f94f5acc4a76a"
+      },
+      {
+        "path": "env2/18.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env2/18.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env2/18.csv",
+        "bytes": 797,
+        "sha256": "576482dbdc9ff6226707215320a42f6ec7a0351dff49362b6ffad75be332d7b2",
+        "git_blob_sha1": "5086f65ab856aba9bf1d3bd602969969f9f93751"
+      },
+      {
+        "path": "env2/36.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env2/36.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env2/36.csv",
+        "bytes": 879,
+        "sha256": "d2426dd66948cb8e73d861af9cfcf5e704951f925b8b91571f750ee630e2d621",
+        "git_blob_sha1": "85a409678044c6528db6ca1aece7c20564e187d3"
+      },
+      {
+        "path": "env2/54.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env2/54.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env2/54.csv",
+        "bytes": 944,
+        "sha256": "b6bd76cd57608adc3c37f711a4a7d9dfba303a38a53656adec245e6cba155448",
+        "git_blob_sha1": "7f6df210c7acf9349d65bc95eeb28e1a01755dc7"
+      },
+      {
+        "path": "env2/time.txt",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env2/time.txt",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env2/time.txt",
+        "bytes": 8,
+        "sha256": "663c1c742eb4ac241dc7fbd91d2d913999b9af985ba93963f5a8bd4879768cae",
+        "git_blob_sha1": "5b059acb860fbf4532a36e1bcc0e5a8e785cd218"
+      },
+      {
+        "path": "env3/107.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env3/107.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env3/107.csv",
+        "bytes": 841,
+        "sha256": "ef575d73bbd66e82e117d8eb17cba5ec2fe61851875e03332f4fc07fe22fcbe7",
+        "git_blob_sha1": "043605f7488ad8757d1d0b1d9728f0568656e0b6"
+      },
+      {
+        "path": "env3/143.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env3/143.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env3/143.csv",
+        "bytes": 838,
+        "sha256": "a3c8989b3c0daef4fefaa6f27c7d6df2180c3d1eb8e8e4a2a116fc1673ec19d3",
+        "git_blob_sha1": "addb50e4c77805f71a980cb4a0d1b45398bce718"
+      },
+      {
+        "path": "env3/35.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env3/35.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env3/35.csv",
+        "bytes": 833,
+        "sha256": "f5e1f88fedd92f9bf7629be693013cedb63f187ef43ca90aa98d48026ce60737",
+        "git_blob_sha1": "d63e846963e7da6aaeaec65a0c5598242c32fd5c"
+      },
+      {
+        "path": "env3/77.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env3/77.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env3/77.csv",
+        "bytes": 830,
+        "sha256": "ab893fbeac1fdf61e876843721614476f6c36bdc49c774b0d448f22ce6760f2e",
+        "git_blob_sha1": "a778448b10080e3a132e03dca110257ed305c075"
+      },
+      {
+        "path": "env3/time.txt",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env3/time.txt",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env3/time.txt",
+        "bytes": 13,
+        "sha256": "1eae691153f788547092bfc9b5f8b04e9437fe7bec23959e1c0fca8c460b44f5",
+        "git_blob_sha1": "4df2db560d8751475cd4c1d62d90b7e6364a7c8c"
+      },
+      {
+        "path": "env4/181.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env4/181.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env4/181.csv",
+        "bytes": 748,
+        "sha256": "3722e6ada3457883bfb2296ba3ea06ec9b49882b559544229e65e9137d74abe6",
+        "git_blob_sha1": "49454bbc018b5fde7d2e2cf8b98c5e0165a8007c"
+      },
+      {
+        "path": "env4/30.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env4/30.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env4/30.csv",
+        "bytes": 741,
+        "sha256": "dae8b9ab38fdff432249325da434ca6ba4576e0abdac04d9341088cf5554e16e",
+        "git_blob_sha1": "81fb9c8abf692ac30999c3b557f5b38e699915fa"
+      },
+      {
+        "path": "env4/71.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env4/71.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env4/71.csv",
+        "bytes": 751,
+        "sha256": "0a12cd771dbaaaede05066f654e2bfdb51bcc806ecb4026f8128b85728b8effe",
+        "git_blob_sha1": "71f5e32abae51d61cc9f0b3309cdb68576272a3b"
+      },
+      {
+        "path": "env4/time.txt",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env4/time.txt",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env4/time.txt",
+        "bytes": 9,
+        "sha256": "250ef2987859a81908b5fcf66bde567040a4a32137093434bd8f2b72c5b719d2",
+        "git_blob_sha1": "b690c83832e359677add169900051442c8d965f8"
+      },
+      {
+        "path": "env5/102.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env5/102.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env5/102.csv",
+        "bytes": 602,
+        "sha256": "f79af581069d04e2f172ff1123b453cb42076896957fa97aabf71ea27190fcc3",
+        "git_blob_sha1": "abaa5fa4b0c1a45ad296a9556a974f2959c464b8"
+      },
+      {
+        "path": "env5/28.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env5/28.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env5/28.csv",
+        "bytes": 788,
+        "sha256": "a991c6ac53510ecd3052580f5c90a4f6620faa4e1e13a6c4ddbc97e03a461ab3",
+        "git_blob_sha1": "2b837ec53cdf7f04dad2b6037bdd58b37bc6b3db"
+      },
+      {
+        "path": "env5/66.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env5/66.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env5/66.csv",
+        "bytes": 745,
+        "sha256": "d605fb6d4a526024c67914be0fdf46ae9482967737c053907c8efb85cf3b0844",
+        "git_blob_sha1": "af800e0222e426c4722be0d46aa37d1fabfd2abc"
+      },
+      {
+        "path": "env5/time.txt",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env5/time.txt",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env5/time.txt",
+        "bytes": 9,
+        "sha256": "b9ca91e889dd329d2f78cab4177aac3f300b2bdfb53f5b8b71c9a649dd524723",
+        "git_blob_sha1": "37c4eeb8ed03a380dac1102518d262a4f18b0a26"
+      },
+      {
+        "path": "env6/141.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env6/141.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env6/141.csv",
+        "bytes": 1560,
+        "sha256": "0f0816f80459f2398ad6f08de936247e0ec1907d34277dfc240e9aa40e2c17e0",
+        "git_blob_sha1": "96bb366fce912fadc87f8da62c1bfc3022f608e0"
+      },
+      {
+        "path": "env6/207.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env6/207.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env6/207.csv",
+        "bytes": 1503,
+        "sha256": "7fd50bd9e80f87ad443e701672c31d3cb4432822b0add343be0efec9a6a3d135",
+        "git_blob_sha1": "84acc7f43a07386eaf64fa7b260e61ffbf5dfd1d"
+      },
+      {
+        "path": "env6/64.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env6/64.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env6/64.csv",
+        "bytes": 1349,
+        "sha256": "d131901bef769343a85760222f8e6d7d4156a980258caf05cd12412fe130dc22",
+        "git_blob_sha1": "67f609cc8c8d551f81d7d86b310234aa21183e4b"
+      },
+      {
+        "path": "env6/time.txt",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env6/time.txt",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env6/time.txt",
+        "bytes": 10,
+        "sha256": "9b677858ed1d5c9567d1cb0dab4151bd64fbaf5ba6fae2b370ee320c9b9a2126",
+        "git_blob_sha1": "27c0b490df0e49d39a732b65292de821ea596008"
+      },
+      {
+        "path": "env7/30.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env7/30.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env7/30.csv",
+        "bytes": 1525,
+        "sha256": "e903e92595141b508d322ea94f67c9f284a21bfa714060b82a882dbbbcaf0676",
+        "git_blob_sha1": "8fae8ca9527f5c9150d2a6c3907bc2370f0775df"
+      },
+      {
+        "path": "env7/61.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env7/61.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env7/61.csv",
+        "bytes": 1625,
+        "sha256": "ba6f84e5f7f083c66625f673cf104b1de3314b65d3807105ad78870e46b9871e",
+        "git_blob_sha1": "e8577aaff306cf5bb0fe8975812ea3388a31de36"
+      },
+      {
+        "path": "env7/97.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env7/97.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env7/97.csv",
+        "bytes": 1650,
+        "sha256": "dce57863147bd41d23b5db52cb1b94c35f3f98d352f58a192ae2d4c3dc837a98",
+        "git_blob_sha1": "800a7da2d8b6c9ecc2c1d17a342178278d937f2f"
+      },
+      {
+        "path": "env7/time.txt",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env7/time.txt",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env7/time.txt",
+        "bytes": 8,
+        "sha256": "1ee21dbe00bd5cd0fb3976a2a1493d8c42ba1ac68028d3305d5e0523c2a1f701",
+        "git_blob_sha1": "3b098321baca4dc380fec3be1e63c0f4baa8b745"
+      },
+      {
+        "path": "env8/22.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env8/22.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env8/22.csv",
+        "bytes": 1182,
+        "sha256": "e2e8c70bd98a660b7887886f7789db0fca6702d5b9b8674a5f88fe8d91daed0a",
+        "git_blob_sha1": "4be4b0170c8715a34e5cb4c9f6838639d06b0579"
+      },
+      {
+        "path": "env8/46.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env8/46.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env8/46.csv",
+        "bytes": 1202,
+        "sha256": "9519ed87c478c86d46e393d3210b0252761fc0d87f6fa9eaf30e6ebfcb69ba86",
+        "git_blob_sha1": "a3d1549d07019fabbbc6931243a17643655a00b5"
+      },
+      {
+        "path": "env8/69.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env8/69.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env8/69.csv",
+        "bytes": 1167,
+        "sha256": "36e46fddf5858ddfac8014861cb2a90370675b532428230d888fd4d3317b5d92",
+        "git_blob_sha1": "2601487816419d1aee007599507080f89f9b8a94"
+      },
+      {
+        "path": "env8/time.txt",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env8/time.txt",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env8/time.txt",
+        "bytes": 8,
+        "sha256": "7e412ca30e6d83134da9c1bfe080094cd8462fb884c7783f7736f26dd55fdfcf",
+        "git_blob_sha1": "e118b0d8d2664fcfde0b422bc7ff137745946850"
+      },
+      {
+        "path": "env9/100.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env9/100.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env9/100.csv",
+        "bytes": 1540,
+        "sha256": "5cb667a48eac900c23e8d9278f074011a2eb2aed7decc6dc6770b96049c1f415",
+        "git_blob_sha1": "7707f17f7fa3d8057ea13556bef807c85436cbe2"
+      },
+      {
+        "path": "env9/162.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env9/162.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env9/162.csv",
+        "bytes": 1505,
+        "sha256": "e5070faf2add60d8f959bf0256cd891377ff18bc8a604b77813b321ee1660067",
+        "git_blob_sha1": "9c2aa25ebf20199f8bfea87afce594b7c7131187"
+      },
+      {
+        "path": "env9/42.csv",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env9/42.csv",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env9/42.csv",
+        "bytes": 1471,
+        "sha256": "a53d1fc4d1b9a50326009553e74b679eaa9eccfda090843366c7cb0f38f3908c",
+        "git_blob_sha1": "f26dd76e7e00b38e02290c19bd0e573f67837081"
+      },
+      {
+        "path": "env9/time.txt",
+        "url": "https://huggingface.co/datasets/hello-peiqi/DynaMem-DynaBench/resolve/1d561e2de8718addf398e5e967f2c44dc015c366/env9/time.txt",
+        "cache": "/tmp/research3-q6-reassessment-20260915/dynabench/env9/time.txt",
+        "bytes": 10,
+        "sha256": "e9804287838dcacd190301b7aa1af4dc94fb70e25bdf5c5e49cd165246ef20e8",
+        "git_blob_sha1": "ede7c9637b7fe71d00089b603b32b6dedd9d3e72"
+      }
+    ],
+    "metadata_total_bytes": 29890,
+    "annotation_structure": [
+      {
+        "environment": "env1",
+        "time_keys": [
+          "14",
+          "26",
+          "41"
+        ],
+        "time_unit_verified": false,
+        "snapshots": [
+          {
+            "time_key": "14",
+            "rows": 18,
+            "all_coordinate_and_tolerance_fields_empty": 5
+          },
+          {
+            "time_key": "26",
+            "rows": 18,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          },
+          {
+            "time_key": "41",
+            "rows": 18,
+            "all_coordinate_and_tolerance_fields_empty": 7
+          }
+        ]
+      },
+      {
+        "environment": "env2",
+        "time_keys": [
+          "18",
+          "36",
+          "54"
+        ],
+        "time_unit_verified": false,
+        "snapshots": [
+          {
+            "time_key": "18",
+            "rows": 22,
+            "all_coordinate_and_tolerance_fields_empty": 10
+          },
+          {
+            "time_key": "36",
+            "rows": 22,
+            "all_coordinate_and_tolerance_fields_empty": 8
+          },
+          {
+            "time_key": "54",
+            "rows": 22,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          }
+        ]
+      },
+      {
+        "environment": "env3",
+        "time_keys": [
+          "35",
+          "77",
+          "107",
+          "143"
+        ],
+        "time_unit_verified": false,
+        "snapshots": [
+          {
+            "time_key": "35",
+            "rows": 20,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          },
+          {
+            "time_key": "77",
+            "rows": 20,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          },
+          {
+            "time_key": "107",
+            "rows": 20,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          },
+          {
+            "time_key": "143",
+            "rows": 20,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          }
+        ]
+      },
+      {
+        "environment": "env4",
+        "time_keys": [
+          "30",
+          "71",
+          "181"
+        ],
+        "time_unit_verified": false,
+        "snapshots": [
+          {
+            "time_key": "30",
+            "rows": 18,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          },
+          {
+            "time_key": "71",
+            "rows": 18,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          },
+          {
+            "time_key": "181",
+            "rows": 18,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          }
+        ]
+      },
+      {
+        "environment": "env5",
+        "time_keys": [
+          "28",
+          "66",
+          "102"
+        ],
+        "time_unit_verified": false,
+        "snapshots": [
+          {
+            "time_key": "28",
+            "rows": 17,
+            "all_coordinate_and_tolerance_fields_empty": 4
+          },
+          {
+            "time_key": "66",
+            "rows": 17,
+            "all_coordinate_and_tolerance_fields_empty": 5
+          },
+          {
+            "time_key": "102",
+            "rows": 17,
+            "all_coordinate_and_tolerance_fields_empty": 9
+          }
+        ]
+      },
+      {
+        "environment": "env6",
+        "time_keys": [
+          "64",
+          "141",
+          "207"
+        ],
+        "time_unit_verified": false,
+        "snapshots": [
+          {
+            "time_key": "64",
+            "rows": 27,
+            "all_coordinate_and_tolerance_fields_empty": 5
+          },
+          {
+            "time_key": "141",
+            "rows": 29,
+            "all_coordinate_and_tolerance_fields_empty": 3
+          },
+          {
+            "time_key": "207",
+            "rows": 29,
+            "all_coordinate_and_tolerance_fields_empty": 4
+          }
+        ]
+      },
+      {
+        "environment": "env7",
+        "time_keys": [
+          "30",
+          "61",
+          "97"
+        ],
+        "time_unit_verified": false,
+        "snapshots": [
+          {
+            "time_key": "30",
+            "rows": 29,
+            "all_coordinate_and_tolerance_fields_empty": 4
+          },
+          {
+            "time_key": "61",
+            "rows": 30,
+            "all_coordinate_and_tolerance_fields_empty": 3
+          },
+          {
+            "time_key": "97",
+            "rows": 31,
+            "all_coordinate_and_tolerance_fields_empty": 3
+          }
+        ]
+      },
+      {
+        "environment": "env8",
+        "time_keys": [
+          "22",
+          "46",
+          "69"
+        ],
+        "time_unit_verified": false,
+        "snapshots": [
+          {
+            "time_key": "22",
+            "rows": 25,
+            "all_coordinate_and_tolerance_fields_empty": 7
+          },
+          {
+            "time_key": "46",
+            "rows": 25,
+            "all_coordinate_and_tolerance_fields_empty": 6
+          },
+          {
+            "time_key": "69",
+            "rows": 25,
+            "all_coordinate_and_tolerance_fields_empty": 7
+          }
+        ]
+      },
+      {
+        "environment": "env9",
+        "time_keys": [
+          "42",
+          "100",
+          "162"
+        ],
+        "time_unit_verified": false,
+        "snapshots": [
+          {
+            "time_key": "42",
+            "rows": 27,
+            "all_coordinate_and_tolerance_fields_empty": 4
+          },
+          {
+            "time_key": "100",
+            "rows": 28,
+            "all_coordinate_and_tolerance_fields_empty": 3
+          },
+          {
+            "time_key": "162",
+            "rows": 29,
+            "all_coordinate_and_tolerance_fields_empty": 5
+          }
+        ]
+      }
+    ],
+    "query_rows": 639,
+    "coordinate_and_tolerance_empty_rows": 156,
+    "nonempty_coordinate_rows": 483,
+    "pickles_metadata_only": [
+      {
+        "path": "env1/env.pkl",
+        "listed_bytes": 54700824,
+        "listed_lfs_sha256": "9b4f894a63556563fe7bc856d32131948b2b5df495d1aab5b88a2dc1834b1897",
+        "payload_downloaded": false,
+        "payload_hash_verified": false,
+        "deserialized": false
+      },
+      {
+        "path": "env2/env.pkl",
+        "listed_bytes": 266189387,
+        "listed_lfs_sha256": "28d20c60b5d3e4a0f941e14cf9abc9684fcc2cf1fa11e55ab65db52d9f75c510",
+        "payload_downloaded": false,
+        "payload_hash_verified": false,
+        "deserialized": false
+      },
+      {
+        "path": "env3/env.pkl",
+        "listed_bytes": 1415629329,
+        "listed_lfs_sha256": "744b832937fd3fd47ba10c99ffa82512a93d60832b680b108469c6d7b79a16e6",
+        "payload_downloaded": false,
+        "payload_hash_verified": false,
+        "deserialized": false
+      },
+      {
+        "path": "env4/env.pkl",
+        "listed_bytes": 615074886,
+        "listed_lfs_sha256": "a21cb479be570da602e4e533c973f54efc835cd348f625c497fff2479fbea6ca",
+        "payload_downloaded": false,
+        "payload_hash_verified": false,
+        "deserialized": false
+      },
+      {
+        "path": "env5/env.pkl",
+        "listed_bytes": 498499120,
+        "listed_lfs_sha256": "9a07b50bc5b8e4aa700e8fb0487487811c959d22572f89571062ba91e4d8e102",
+        "payload_downloaded": false,
+        "payload_hash_verified": false,
+        "deserialized": false
+      },
+      {
+        "path": "env6/env.pkl",
+        "listed_bytes": 1006679268,
+        "listed_lfs_sha256": "b5b838fd5034cfe7ca5936e2608e330d6c12480a615186b87e700d6761e9c1d3",
+        "payload_downloaded": false,
+        "payload_hash_verified": false,
+        "deserialized": false
+      },
+      {
+        "path": "env7/env.pkl",
+        "listed_bytes": 474300929,
+        "listed_lfs_sha256": "70b538301de3d7ac31fa59b5cf31f7787fd75e6eab09af1a442dd838167c3578",
+        "payload_downloaded": false,
+        "payload_hash_verified": false,
+        "deserialized": false
+      },
+      {
+        "path": "env8/env.pkl",
+        "listed_bytes": 338786436,
+        "listed_lfs_sha256": "97093041c3d1f7941f6f1fb935c528d9e0032ffbd9c1d64a1d2c540e98f9b1b4",
+        "payload_downloaded": false,
+        "payload_hash_verified": false,
+        "deserialized": false
+      },
+      {
+        "path": "env9/env.pkl",
+        "listed_bytes": 788888124,
+        "listed_lfs_sha256": "c8c60a93ccc2b12b27ee6d24dacb897d391173606beb5ed4e29b5a7ab83e7d4e",
+        "payload_downloaded": false,
+        "payload_hash_verified": false,
+        "deserialized": false
+      }
+    ],
+    "unverified": [
+      "time units and frame inclusivity",
+      "per-frame camera/pose/feature provenance and causal availability",
+      "stable object identity across query wording",
+      "removed versus never-observed negative distinction",
+      "exact paper/source/upload compatibility",
+      "pickle contents and LFS payload identities",
+      "offline evaluator/native-adapter parity",
+      "cost-matched update intervention",
+      "downstream robot behavior effect"
+    ]
+  },
+  "api_snapshots": [
+    {
+      "url": "https://api.github.com/repos/hello-robot/stretch_ai/commits/6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+      "path": "/tmp/research3-q6-reassessment-20260915/dynamem_commit.json",
+      "bytes": 5380,
+      "sha256": "727ced1fc19869dc6a88475cf59a069996b3a7209961eea071d3eb99e64594c2",
+      "scope": "cached API snapshot; metadata is not payload verification"
+    },
+    {
+      "url": "https://api.github.com/repos/hello-robot/stretch_ai/git/trees/6272b28e3ff7be482af3b427a4551d1772ebf7d7?recursive=1",
+      "path": "/tmp/research3-q6-reassessment-20260915/dynamem_tree.json",
+      "bytes": 121166,
+      "sha256": "155a40e2067695f00b35703a0472b0b60ec6e67541c49653a112217fc2f88a74",
+      "scope": "cached API snapshot; metadata is not payload verification"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/hello-peiqi/DynaMem-DynaBench",
+      "path": "/tmp/research3-q6-reassessment-20260915/dynabench_info.json",
+      "bytes": 2807,
+      "sha256": "a26af22a1ebb8cdeaa05a3d674b90ba5dd42b3b6d813fd1f7ed676ba22bf4328",
+      "scope": "cached API snapshot; metadata is not payload verification"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/hello-peiqi/DynaMem-DynaBench/tree/1d561e2de8718addf398e5e967f2c44dc015c366?recursive=true&expand=false&limit=1000",
+      "path": "/tmp/research3-q6-reassessment-20260915/dynabench_tree.json",
+      "bytes": 7226,
+      "sha256": "80ee6a1bfee50c950125a9fee53edcaa027378e53a077d04b2e2f711e9c1c344",
+      "scope": "cached API snapshot; metadata is not payload verification"
+    },
+    {
+      "url": "https://api.github.com/repos/hello-robot/stretch_ai/issues/269/comments",
+      "path": "/tmp/research3-q6-reassessment-20260915/dynamem_release_comments.json",
+      "bytes": 1695,
+      "sha256": "3d30118ad68f2b21fe9ac1d2358cb43524de63c8ac8808e7d7c8c1a33b9636f9",
+      "scope": "cached API snapshot; metadata is not payload verification"
+    }
+  ],
+  "web_sources": [
+    {
+      "title": "Kinetix",
+      "url": "https://arxiv.org/html/2410.23208v1#S3.SS2",
+      "finding": "v1 section 3.2: goal/failure contact terminates the task; distinguish task definition from source reward aggregation."
+    },
+    {
+      "title": "DynaMem",
+      "url": "https://arxiv.org/html/2411.04999v2",
+      "finding": "v2 sections 3.2-4.3: dynamic point removal and query verification; offline DynaBench does not evaluate navigation/exploration/manipulation."
+    },
+    {
+      "title": "DynaMem project",
+      "url": "https://dynamem.github.io/",
+      "finding": "Method/project discovery, not uploaded-payload equivalence."
+    },
+    {
+      "title": "MIF project",
+      "url": "https://ziya-jiang.github.io/MIF-homepage/",
+      "finding": "Code Coming Soon; code button targets github.com homepage."
+    },
+    {
+      "title": "CamVLA project",
+      "url": "https://alibaba-damo-academy.github.io/CamVLA/",
+      "finding": "Code Coming Soon; no matched runtime bundle established."
+    },
+    {
+      "title": "FailBench",
+      "url": "https://arxiv.org/abs/2609.03611",
+      "finding": "No matched sample manifest identified in this bounded check; similarly named releases are not interchangeable."
+    },
+    {
+      "title": "DynaBench release discussion",
+      "url": "https://github.com/hello-robot/stretch_ai/issues/269",
+      "finding": "Author association supported by hello-peiqi response, not paper-to-upload equivalence."
+    }
+  ],
+  "access_limits": [
+    "DynaMem guessed v3 HTML returned 404; inspected version is v2, not v3.",
+    "HF dataset web tree open failed in browser tool; repository API listing and all 37 small metadata downloads succeeded.",
+    "REMAC final OpenReview PDF remains unverified from prior review and was not retried here; v1 Appendix F citation remains version-bounded.",
+    "Paper/project pages read online; no local full-paper preservation is claimed."
+  ],
+  "recovery": "Fetch immutable source/annotation URLs into fresh staging; compare size, SHA-256 and Git blob SHA-1. Mutable API metadata can change on refetch. /tmp cache is not a durable dataset copy. Do not import methods or unpickle on host.",
+  "validation_log": {
+    "path": "logs/20260915_104501_q6_reassessment.log",
+    "bytes": 1330,
+    "sha256": "ed58976753aa8ada425d49080c7db8ffaf8fa80178b8f9e3527f8f8ee2d992cf"
+  },
+  "documentation_validation": {
+    "status": "passed",
+    "checked_at_utc": "2026-09-15T01:46:24.866080+00:00",
+    "documents": [
+      "README.md",
+      "TODO.md",
+      "summary.md",
+      "buildup/README.md",
+      "buildup/robotics/README.md",
+      "buildup/selection.md",
+      "buildup/robotics/related_work/policy-geometry.md",
+      "buildup/robotics/questions/temporal-mismatch-decomposition.md",
+      "buildup/robotics/questions/spatial-memory-refresh.md",
+      "docs/reproducibility.md"
+    ],
+    "local_links": 241,
+    "heading_targets": 128,
+    "git_diff_check": "passed",
+    "source_imports_or_experiment_tests": false
+  }
+}

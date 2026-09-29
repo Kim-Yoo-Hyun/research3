@@ -1,0 +1,44 @@
+{
+  "removed": [
+    {
+      "id": "e8c95d55efb40f9e71e75af1f2dc1bd1d23e69e631597b04c0fadabdf040f28b",
+      "name": "research3-q16-pusht-repeat-lock-20260926_235650_387957",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260926_235650_387957_lock.json"
+    },
+    {
+      "id": "b48b7926464ef094892686fb46cac3569af39cb08822bc648da59a886fbb075d",
+      "name": "research3-q16-pusht-repeat-probe-20260926_235650_493340",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260926_235650_493340_probe.json"
+    },
+    {
+      "id": "9561b7e508aa638afbfba88211c98e413b59f0d22f5155ab4a7b4ab483360248",
+      "name": "research3-q16-pusht-repeat-verify-20260926_235714_423573",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260926_235714_423573_verify.json"
+    },
+    {
+      "id": "dcde6f092ce4522bafc91b15798ffc99383055552f4bbeb3f1e60183f3702215",
+      "name": "research3-q16-pusht-repeat-fitbc-20260927_000053_488301",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260927_000053_488301_fitbc.json"
+    },
+    {
+      "id": "0db6ceb137c59ab82a2d434889c6cba93644afe543598e431136c20ce2946b84",
+      "name": "research3-q16-pusht-repeat-evalbc-20260927_000101_463790",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260927_000101_463790_evalbc.json"
+    },
+    {
+      "id": "d9ee64c64120fb016b67459ef4e11a54ef74f588157698d6404e97e6f96f3e5c",
+      "name": "research3-q16-pusht-repeat-verifybc-20260927_000113_774204",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260927_000113_774204_verifybc.json"
+    },
+    {
+      "id": "320070afaec085de04961a3e1d7c78df997183744008a7a9de738a2f2c29fa0b",
+      "name": "research3-q16-pusht-repeat-failureprobe-20260927_000356_393630",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260927_000356_393630_failureprobe.json"
+    },
+    {
+      "id": "01293db383b27a56ea88a48f1143466dde43f9c8d01c99c3a90f30646292b8a2",
+      "name": "research3-q16-pusht-repeat-failureverify-20260927_000405_265289",
+      "job": "/home/yoohyun/research3/runs/q16/pusht_repeat/jobs/20260927_000405_265289_failureverify.json"
+    }
+  ]
+}

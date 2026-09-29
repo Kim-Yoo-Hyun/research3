@@ -1,0 +1,205 @@
+{
+  "created_at": "2026-09-15T01:21:33.120952+00:00",
+  "status": "VERIFIED_DEFER_TERMINAL_SEMANTICS",
+  "scope": "preservation of failed readiness; NOT ready for held-out pilot",
+  "files": [
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/.dockerignore",
+      "bytes": 47,
+      "sha256": "1635be5072361e470cdf95273e526ce43b1b378d58cbc4140a7fce08d21fbc3d"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/Dockerfile",
+      "bytes": 768,
+      "sha256": "3f7fcf026306a229971c65b97cbf284eef47f251c9444ee6c3cd7417fad335eb"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/README.md",
+      "bytes": 11093,
+      "sha256": "5b663505739dce54f7b800991fe3d9954aa167937306119d93ffce68e079617c"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/acquire.py",
+      "bytes": 4376,
+      "sha256": "b2de424781130f4751122d195c50ac9f58042b5fec76ecfe189f2aee95bd66a8"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/adapter.py",
+      "bytes": 2540,
+      "sha256": "185d883aff25482f6f72fde799567a20c95b8de98e01af1dc6656f94e908702a"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/assets.json",
+      "bytes": 69703,
+      "sha256": "4e2ed459f297fa0c2532fc3e73997449f5498b99f971f8252d06a7b9593913ff"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/bootstrap.txt",
+      "bytes": 177,
+      "sha256": "3870a11d22538a0a5a09a6ea78c5373a64e74044f290b86d12e7494b3535adcd"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/checks.py",
+      "bytes": 3241,
+      "sha256": "d2a8881c1fca99979f10aa856cab224c4061931efea13fa47b3a1d5ac7f1f9a5"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/config.json",
+      "bytes": 1415,
+      "sha256": "ef65a094c0aa1e37019a0ba1512e0c52c87ab90558f4a60573c512c41d62b357"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/cpu_install.json",
+      "bytes": 1278008,
+      "sha256": "58a9528f1e8c9630b474e03175306617ea5d6da7e463c81410ab87423a3d5bc8"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/failure.json",
+      "bytes": 1162,
+      "sha256": "1473b3a3a4050bbf45f1199b26daf281dfbbb1f94726de8b6b6ae4b59e85af7f"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/installed.txt",
+      "bytes": 1745,
+      "sha256": "40d230d2bd4a96630a334a85bc4da60563f8486e9e78f4ab21ab673fb738ac85"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/instrument.py",
+      "bytes": 2822,
+      "sha256": "99ba8d12be0c665b06c777d4bfe362db7cb3f695d9a867c40ba2acbb3a7ad773"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/jobs.json",
+      "bytes": 4400,
+      "sha256": "27f6d30e5dc9902f77ff04fdb009ab18f79a39942ca16c1fd0ac1eea65a732ac"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/launch.py",
+      "bytes": 2421,
+      "sha256": "0026f1a50932323f14220f462af01818c004abdd08e5f6dd3b46cd364f7edda8"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/output_schema.json",
+      "bytes": 2530,
+      "sha256": "cfd21a44570e08eb0e0b301952876f3b7d9240403d4d719cda8ca3c15c6b5e84"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/outputs.json",
+      "bytes": 4250,
+      "sha256": "facb8d0c21f9ea8e12e14e6815679c85c3249342ab28eaee297f095afd2acfb7"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/pre_execution.json",
+      "bytes": 2487,
+      "sha256": "84ceccdd7b42a214de7099c5606843100741f222ba68baac67f862b80c8c7b0d"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/preflight.json",
+      "bytes": 683,
+      "sha256": "464c7ba05192d8a7dce1c1f6d13b56860ae1c0b76927194c5087b515f39a81c5"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/preflight.py",
+      "bytes": 3668,
+      "sha256": "ab81cd1278bf0c18ff4e94eabc2617d03c43bc5952c5735ab75e1afbca7cfa66"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/project_lock.py",
+      "bytes": 1163,
+      "sha256": "9fd9fcae9b319a65d92d8106710ad468bf27efbdfb09e77152a97c34b71f666d"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/readiness.py",
+      "bytes": 11034,
+      "sha256": "73a2f88200899ef3c2788b6b506c9245a0af2d4671d20205573c698c88f17c74"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/requirements.txt",
+      "bytes": 60672,
+      "sha256": "ae8df7e05e424883604a2f6fd7fa0a52250d8e4329cc2dbecd841670d72e463e"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/schema.json",
+      "bytes": 14637,
+      "sha256": "6ff35a3f013721c53d53ea56e8ef36a145c588d6f86a37be8f33364a141b7ae8"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/schema.py",
+      "bytes": 3683,
+      "sha256": "9005d5b3ff6d2466e6dc16c84909596227f026c59966b9b545c19e98ad2e853c"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/timing.py",
+      "bytes": 1558,
+      "sha256": "c870e1780328921d78d3983e1bd61d936787553c19b75b0abda686a4a6e194fc"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/verification.json",
+      "bytes": 2162,
+      "sha256": "00fec9d67e1f9f31079589f5a4adf8586b0a1c638d76a8fd0f7c37b15fed68ea"
+    },
+    {
+      "path": "buildup/robotics/pilot_studies/q6-timing/verify.py",
+      "bytes": 9085,
+      "sha256": "3508d0b8ad33c025181276fa6fad9b23f862e167fe48701789a64ffbafc3ca0c"
+    }
+  ],
+  "logs": [
+    {
+      "path": "logs/20260915_100733_q6_schema.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "logs/20260915_100733_q6_schema.log",
+      "bytes": 381,
+      "sha256": "35e64654a738de6ec1de63b72d9086d2afbdaf1a2ad9bddf34f6bb931902e457"
+    },
+    {
+      "path": "logs/20260915_101038_q6_preflight.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "logs/20260915_101038_q6_preflight.log",
+      "bytes": 589,
+      "sha256": "6ff3294dbb792d909526dfd83961eedbcb666368476531dbe7a9316fdb047c51"
+    },
+    {
+      "path": "logs/20260915_101321_q6_readiness.exit",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "logs/20260915_101321_q6_readiness.log",
+      "bytes": 2607,
+      "sha256": "b9fc7844858a34e56e92c157ceff41dcf18650c408f06ae3a9175dbb7379182b"
+    },
+    {
+      "path": "logs/20260915_101603_q6_verify.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "logs/20260915_101603_q6_verify.log",
+      "bytes": 1650,
+      "sha256": "4b8eee5e4430c77feee67e6d2ae9c8ed2073122717fd051ad4cf181cb2ea4d6f"
+    },
+    {
+      "path": "logs/20260915_q6_acquire.log",
+      "bytes": 149,
+      "sha256": "946bc218caeb944a75a9ed88d98fe60422492555d074c1a7a218788c87a74e72"
+    },
+    {
+      "path": "logs/20260915_q6_build.log",
+      "bytes": 36109,
+      "sha256": "6a083d5a0f6cfbd54d48e8c084a9b464908f0e8f466b8d457dc916dc8ca42bfa"
+    }
+  ],
+  "raw_output_inventory": "outputs.json",
+  "image_id": "sha256:d558ddf6158302871270e39c4eb7abfcfc339fdb6ed2eeeebf05b79dd185245a",
+  "completed_readiness_records": 5,
+  "unexecuted_readiness_records": 135,
+  "heldout_records_executed": 0,
+  "external_backup_verified": false
+}

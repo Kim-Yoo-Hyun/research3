@@ -1,0 +1,1972 @@
+{
+  "dynamic_contact": [
+    {
+      "mode": "servo",
+      "episodes": 24,
+      "speed_before_contact_median": 0.08016140013933182,
+      "speed_before_contact_range": [
+        0.04857642948627472,
+        0.3198140263557434
+      ],
+      "median_slide_before_contact_m": 0.06561769172549248,
+      "modeled_contact_decisions": 0
+    },
+    {
+      "mode": "cv",
+      "episodes": 24,
+      "speed_before_contact_median": 0.08511676639318466,
+      "speed_before_contact_range": [
+        0.048562586307525635,
+        0.12980599701404572
+      ],
+      "median_slide_before_contact_m": 0.05861072987318039,
+      "modeled_contact_decisions": 0
+    },
+    {
+      "mode": "history",
+      "episodes": 24,
+      "speed_before_contact_median": 0.09953458979725838,
+      "speed_before_contact_range": [
+        0.04303169995546341,
+        0.32575881481170654
+      ],
+      "median_slide_before_contact_m": 0.05861072987318039,
+      "modeled_contact_decisions": 72
+    },
+    {
+      "mode": "action",
+      "episodes": 24,
+      "speed_before_contact_median": 0.09566302224993706,
+      "speed_before_contact_range": [
+        0.04303169995546341,
+        0.3063180446624756
+      ],
+      "median_slide_before_contact_m": 0.05861072987318039,
+      "modeled_contact_decisions": 72
+    },
+    {
+      "mode": "fast",
+      "episodes": 24,
+      "speed_before_contact_median": 0.08756927773356438,
+      "speed_before_contact_range": [
+        0.04857642948627472,
+        0.26209837198257446
+      ],
+      "median_slide_before_contact_m": 0.0571355652064085,
+      "modeled_contact_decisions": 0
+    }
+  ],
+  "selected_candidate_counts": {
+    "history": [
+      34,
+      44,
+      14,
+      35,
+      24,
+      21,
+      10,
+      10,
+      6
+    ],
+    "action": [
+      29,
+      30,
+      19,
+      39,
+      38,
+      21,
+      4,
+      12,
+      6
+    ]
+  },
+  "dynamic_paired_trajectories": [
+    {
+      "seed": 20000,
+      "action_difference_rms": 0.0,
+      "cube_trajectory_rms_m": 0.0
+    },
+    {
+      "seed": 20001,
+      "action_difference_rms": 0.011127728968858719,
+      "cube_trajectory_rms_m": 0.00363626005128026
+    },
+    {
+      "seed": 20002,
+      "action_difference_rms": 0.0,
+      "cube_trajectory_rms_m": 0.0
+    },
+    {
+      "seed": 20003,
+      "action_difference_rms": 0.013773428276181221,
+      "cube_trajectory_rms_m": 0.004041109699755907
+    },
+    {
+      "seed": 20004,
+      "action_difference_rms": 0.03460763022303581,
+      "cube_trajectory_rms_m": 0.008610078133642673
+    },
+    {
+      "seed": 20005,
+      "action_difference_rms": 0.010244232602417469,
+      "cube_trajectory_rms_m": 0.003688401309773326
+    },
+    {
+      "seed": 20006,
+      "action_difference_rms": 0.00940551608800888,
+      "cube_trajectory_rms_m": 0.003942254465073347
+    },
+    {
+      "seed": 20007,
+      "action_difference_rms": 0.00878726877272129,
+      "cube_trajectory_rms_m": 0.002764257835224271
+    },
+    {
+      "seed": 20008,
+      "action_difference_rms": 0.011619893833994865,
+      "cube_trajectory_rms_m": 0.004728334024548531
+    },
+    {
+      "seed": 20009,
+      "action_difference_rms": 0.009433195926249027,
+      "cube_trajectory_rms_m": 0.002816329011693597
+    },
+    {
+      "seed": 20010,
+      "action_difference_rms": 0.0,
+      "cube_trajectory_rms_m": 0.0
+    },
+    {
+      "seed": 20011,
+      "action_difference_rms": 0.008893842808902264,
+      "cube_trajectory_rms_m": 0.0029858206398785114
+    },
+    {
+      "seed": 20012,
+      "action_difference_rms": 0.000151409549289383,
+      "cube_trajectory_rms_m": 7.401776383630931e-05
+    },
+    {
+      "seed": 20013,
+      "action_difference_rms": 0.004562700632959604,
+      "cube_trajectory_rms_m": 0.0013380212476477027
+    },
+    {
+      "seed": 20014,
+      "action_difference_rms": 0.00999680906534195,
+      "cube_trajectory_rms_m": 0.004158461466431618
+    },
+    {
+      "seed": 20015,
+      "action_difference_rms": 0.002886936068534851,
+      "cube_trajectory_rms_m": 0.0005483030108734965
+    },
+    {
+      "seed": 20016,
+      "action_difference_rms": 0.005253133364021778,
+      "cube_trajectory_rms_m": 0.0024573346599936485
+    },
+    {
+      "seed": 20017,
+      "action_difference_rms": 0.006723872851580381,
+      "cube_trajectory_rms_m": 0.0016341718146577477
+    },
+    {
+      "seed": 20018,
+      "action_difference_rms": 0.0017867013812065125,
+      "cube_trajectory_rms_m": 0.0006298471707850695
+    },
+    {
+      "seed": 20019,
+      "action_difference_rms": 0.00610559806227684,
+      "cube_trajectory_rms_m": 0.0019390382803976536
+    },
+    {
+      "seed": 20020,
+      "action_difference_rms": 0.012923812493681908,
+      "cube_trajectory_rms_m": 0.005251442547887564
+    },
+    {
+      "seed": 20021,
+      "action_difference_rms": 0.010658597573637962,
+      "cube_trajectory_rms_m": 0.004652069881558418
+    },
+    {
+      "seed": 20022,
+      "action_difference_rms": 0.01190932560712099,
+      "cube_trajectory_rms_m": 0.004597265273332596
+    },
+    {
+      "seed": 20023,
+      "action_difference_rms": 0.011671136133372784,
+      "cube_trajectory_rms_m": 0.00347705720923841
+    }
+  ],
+  "cases": [
+    {
+      "seed": 20000,
+      "mode": "servo",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.05284179374575615,
+      "distance_slid_before_contact_m": 0.038571055978536606,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20001,
+      "mode": "servo",
+      "first_contact_step": 19,
+      "speed_before_first_contact_m_s": 0.08853220194578171,
+      "distance_slid_before_contact_m": 0.11919958144426346,
+      "first_grasp_step": 20,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20002,
+      "mode": "servo",
+      "first_contact_step": 13,
+      "speed_before_first_contact_m_s": 0.10388694703578949,
+      "distance_slid_before_contact_m": 0.0798536017537117,
+      "first_grasp_step": 14,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20003,
+      "mode": "servo",
+      "first_contact_step": 17,
+      "speed_before_first_contact_m_s": 0.09068163484334946,
+      "distance_slid_before_contact_m": 0.10375144332647324,
+      "first_grasp_step": 18,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20004,
+      "mode": "servo",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.3198140263557434,
+      "distance_slid_before_contact_m": 0.03743486478924751,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20005,
+      "mode": "servo",
+      "first_contact_step": 17,
+      "speed_before_first_contact_m_s": 0.09473937004804611,
+      "distance_slid_before_contact_m": 0.10699789226055145,
+      "first_grasp_step": 18,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20006,
+      "mode": "servo",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06213587149977684,
+      "distance_slid_before_contact_m": 0.04321812093257904,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20007,
+      "mode": "servo",
+      "first_contact_step": 19,
+      "speed_before_first_contact_m_s": 0.09056630730628967,
+      "distance_slid_before_contact_m": 0.12102967500686646,
+      "first_grasp_step": 20,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20008,
+      "mode": "servo",
+      "first_contact_step": 19,
+      "speed_before_first_contact_m_s": 0.07564494013786316,
+      "distance_slid_before_contact_m": 0.10760036110877991,
+      "first_grasp_step": 20,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20009,
+      "mode": "servo",
+      "first_contact_step": 13,
+      "speed_before_first_contact_m_s": 0.08044913411140442,
+      "distance_slid_before_contact_m": 0.0657900869846344,
+      "first_grasp_step": 14,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20010,
+      "mode": "servo",
+      "first_contact_step": 17,
+      "speed_before_first_contact_m_s": 0.09510287642478943,
+      "distance_slid_before_contact_m": 0.10728894919157028,
+      "first_grasp_step": 18,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20011,
+      "mode": "servo",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.04857642948627472,
+      "distance_slid_before_contact_m": 0.04143007844686508,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20012,
+      "mode": "servo",
+      "first_contact_step": 13,
+      "speed_before_first_contact_m_s": 0.07987366616725922,
+      "distance_slid_before_contact_m": 0.06544529646635056,
+      "first_grasp_step": 14,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20013,
+      "mode": "servo",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.053467754274606705,
+      "distance_slid_before_contact_m": 0.03888436406850815,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20014,
+      "mode": "servo",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.07041547447443008,
+      "distance_slid_before_contact_m": 0.04735751822590828,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20015,
+      "mode": "servo",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.2816043794155121,
+      "distance_slid_before_contact_m": 0.039844732731580734,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20016,
+      "mode": "servo",
+      "first_contact_step": 17,
+      "speed_before_first_contact_m_s": 0.08559104800224304,
+      "distance_slid_before_contact_m": 0.0996791273355484,
+      "first_grasp_step": 18,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20017,
+      "mode": "servo",
+      "first_contact_step": 17,
+      "speed_before_first_contact_m_s": 0.07389817386865616,
+      "distance_slid_before_contact_m": 0.09032496064901352,
+      "first_grasp_step": 18,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20018,
+      "mode": "servo",
+      "first_contact_step": 16,
+      "speed_before_first_contact_m_s": 0.29258057475090027,
+      "distance_slid_before_contact_m": 0.0796787217259407,
+      "first_grasp_step": 16,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20019,
+      "mode": "servo",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.28212714195251465,
+      "distance_slid_before_contact_m": 0.03662390634417534,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20020,
+      "mode": "servo",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.07676929980516434,
+      "distance_slid_before_contact_m": 0.050534848123788834,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20021,
+      "mode": "servo",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06683269888162613,
+      "distance_slid_before_contact_m": 0.04556635022163391,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20022,
+      "mode": "servo",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06680594384670258,
+      "distance_slid_before_contact_m": 0.04555322974920273,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20023,
+      "mode": "servo",
+      "first_contact_step": 15,
+      "speed_before_first_contact_m_s": 0.07596556097269058,
+      "distance_slid_before_contact_m": 0.07704828679561615,
+      "first_grasp_step": 16,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20000,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.05284179374575615,
+      "distance_slid_before_contact_m": 0.038571055978536606,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20001,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12777265906333923,
+      "distance_slid_before_contact_m": 0.07603646069765091,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20002,
+      "mode": "cv",
+      "first_contact_step": 13,
+      "speed_before_first_contact_m_s": 0.10388694703578949,
+      "distance_slid_before_contact_m": 0.0798536017537117,
+      "first_grasp_step": 14,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20003,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12011203169822693,
+      "distance_slid_before_contact_m": 0.0722060278058052,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20004,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.052291225641965866,
+      "distance_slid_before_contact_m": 0.038295503705739975,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20005,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12416989356279373,
+      "distance_slid_before_contact_m": 0.07423509657382965,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20006,
+      "mode": "cv",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.057230859994888306,
+      "distance_slid_before_contact_m": 0.04619007185101509,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20007,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12980599701404572,
+      "distance_slid_before_contact_m": 0.07705315947532654,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20008,
+      "mode": "cv",
+      "first_contact_step": 17,
+      "speed_before_first_contact_m_s": 0.08545485138893127,
+      "distance_slid_before_contact_m": 0.09956976771354675,
+      "first_grasp_step": 18,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20009,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09025891125202179,
+      "distance_slid_before_contact_m": 0.05727919191122055,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20010,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12453334778547287,
+      "distance_slid_before_contact_m": 0.07441708445549011,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20011,
+      "mode": "cv",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.04857642948627472,
+      "distance_slid_before_contact_m": 0.04143007844686508,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20012,
+      "mode": "cv",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.08477868139743805,
+      "distance_slid_before_contact_m": 0.06134121119976044,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20013,
+      "mode": "cv",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.048562586307525635,
+      "distance_slid_before_contact_m": 0.041422903537750244,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20014,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.07041547447443008,
+      "distance_slid_before_contact_m": 0.04735751822590828,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20015,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.063376784324646,
+      "distance_slid_before_contact_m": 0.04383886605501175,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20016,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.11502137780189514,
+      "distance_slid_before_contact_m": 0.0696607455611229,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20017,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.10332848131656647,
+      "distance_slid_before_contact_m": 0.06381423771381378,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20018,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09574069827795029,
+      "distance_slid_before_contact_m": 0.06002049520611763,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20019,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.05652164667844772,
+      "distance_slid_before_contact_m": 0.04041101783514023,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20020,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.07676929980516434,
+      "distance_slid_before_contact_m": 0.050534848123788834,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20021,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06683269888162613,
+      "distance_slid_before_contact_m": 0.04556635022163391,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20022,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06680594384670258,
+      "distance_slid_before_contact_m": 0.04555322974920273,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20023,
+      "mode": "cv",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09558534622192383,
+      "distance_slid_before_contact_m": 0.05994226783514023,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20000,
+      "mode": "history",
+      "first_contact_step": 13,
+      "speed_before_first_contact_m_s": 0.04303169995546341,
+      "distance_slid_before_contact_m": 0.04334022104740143,
+      "first_grasp_step": 14,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 9,
+      "decision_indices": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20001,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12777265906333923,
+      "distance_slid_before_contact_m": 0.07603646069765091,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "seed": 20002,
+      "mode": "history",
+      "first_contact_step": 14,
+      "speed_before_first_contact_m_s": 0.3063180446624756,
+      "distance_slid_before_contact_m": 0.08118751645088196,
+      "first_grasp_step": 14,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 9,
+      "decision_indices": [
+        0,
+        5,
+        8,
+        8,
+        8,
+        8,
+        8,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20003,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12011203169822693,
+      "distance_slid_before_contact_m": 0.0722060278058052,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "seed": 20004,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.052291225641965866,
+      "distance_slid_before_contact_m": 0.038295503705739975,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "seed": 20005,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12416989356279373,
+      "distance_slid_before_contact_m": 0.07423509657382965,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "seed": 20006,
+      "mode": "history",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.32575881481170654,
+      "distance_slid_before_contact_m": 0.042004574090242386,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        5,
+        7,
+        7,
+        6,
+        6,
+        6,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20007,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12980599701404572,
+      "distance_slid_before_contact_m": 0.07705315947532654,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        0,
+        3,
+        3,
+        6,
+        6,
+        3,
+        4
+      ]
+    },
+    {
+      "seed": 20008,
+      "mode": "history",
+      "first_contact_step": 19,
+      "speed_before_first_contact_m_s": 0.07564494013786316,
+      "distance_slid_before_contact_m": 0.10760036110877991,
+      "first_grasp_step": 20,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 12,
+      "decision_indices": [
+        4,
+        4,
+        5,
+        8,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "seed": 20009,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09025891125202179,
+      "distance_slid_before_contact_m": 0.05727919191122055,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        2,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "seed": 20010,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12453334778547287,
+      "distance_slid_before_contact_m": 0.07441708445549011,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        2,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "seed": 20011,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.05348148196935654,
+      "distance_slid_before_contact_m": 0.03889088332653046,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "seed": 20012,
+      "mode": "history",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.08477868139743805,
+      "distance_slid_before_contact_m": 0.06134121119976044,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20013,
+      "mode": "history",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.29212749004364014,
+      "distance_slid_before_contact_m": 0.034958865493535995,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        3,
+        1,
+        1,
+        2,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20014,
+      "mode": "history",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.288830429315567,
+      "distance_slid_before_contact_m": 0.043811243027448654,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        4,
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "seed": 20015,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.063376784324646,
+      "distance_slid_before_contact_m": 0.04383886605501175,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        0,
+        1,
+        2,
+        5,
+        5,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "seed": 20016,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.11502137780189514,
+      "distance_slid_before_contact_m": 0.0696607455611229,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        5,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": 20017,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.10332848131656647,
+      "distance_slid_before_contact_m": 0.06381423771381378,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "seed": 20018,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09574069827795029,
+      "distance_slid_before_contact_m": 0.06002049520611763,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "seed": 20019,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.05652164667844772,
+      "distance_slid_before_contact_m": 0.04041101783514023,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "seed": 20020,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.07676929980516434,
+      "distance_slid_before_contact_m": 0.050534848123788834,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "seed": 20021,
+      "mode": "history",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.28154003620147705,
+      "distance_slid_before_contact_m": 0.04203849658370018,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "seed": 20022,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06680594384670258,
+      "distance_slid_before_contact_m": 0.04555322974920273,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "seed": 20023,
+      "mode": "history",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09558534622192383,
+      "distance_slid_before_contact_m": 0.05994226783514023,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        1,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20000,
+      "mode": "action",
+      "first_contact_step": 13,
+      "speed_before_first_contact_m_s": 0.04303169995546341,
+      "distance_slid_before_contact_m": 0.04334022104740143,
+      "first_grasp_step": 14,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 9,
+      "decision_indices": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20001,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12777265906333923,
+      "distance_slid_before_contact_m": 0.07603646069765091,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "seed": 20002,
+      "mode": "action",
+      "first_contact_step": 14,
+      "speed_before_first_contact_m_s": 0.3063180446624756,
+      "distance_slid_before_contact_m": 0.08118751645088196,
+      "first_grasp_step": 14,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 9,
+      "decision_indices": [
+        0,
+        5,
+        8,
+        8,
+        8,
+        8,
+        8,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20003,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12011203169822693,
+      "distance_slid_before_contact_m": 0.0722060278058052,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "seed": 20004,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.052291225641965866,
+      "distance_slid_before_contact_m": 0.038295503705739975,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "seed": 20005,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12416989356279373,
+      "distance_slid_before_contact_m": 0.07423509657382965,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        4
+      ]
+    },
+    {
+      "seed": 20006,
+      "mode": "action",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.05719352513551712,
+      "distance_slid_before_contact_m": 0.04618997871875763,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        5,
+        7,
+        7,
+        7,
+        7,
+        7,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20007,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12980599701404572,
+      "distance_slid_before_contact_m": 0.07705315947532654,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "seed": 20008,
+      "mode": "action",
+      "first_contact_step": 19,
+      "speed_before_first_contact_m_s": 0.07564494013786316,
+      "distance_slid_before_contact_m": 0.10760036110877991,
+      "first_grasp_step": 20,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 12,
+      "decision_indices": [
+        4,
+        4,
+        8,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "seed": 20009,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09025891125202179,
+      "distance_slid_before_contact_m": 0.05727919191122055,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        2,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20010,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12453334778547287,
+      "distance_slid_before_contact_m": 0.07441708445549011,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        2,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "seed": 20011,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.05348148196935654,
+      "distance_slid_before_contact_m": 0.03889088332653046,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        5,
+        5,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1
+      ]
+    },
+    {
+      "seed": 20012,
+      "mode": "action",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.08477868139743805,
+      "distance_slid_before_contact_m": 0.06134121119976044,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20013,
+      "mode": "action",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.29212749004364014,
+      "distance_slid_before_contact_m": 0.034958865493535995,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        3,
+        1,
+        1,
+        2,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20014,
+      "mode": "action",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.288830429315567,
+      "distance_slid_before_contact_m": 0.043811243027448654,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        4,
+        0,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20015,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.063376784324646,
+      "distance_slid_before_contact_m": 0.04383886605501175,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        0,
+        1,
+        2,
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20016,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.11502137780189514,
+      "distance_slid_before_contact_m": 0.0696607455611229,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        5,
+        7,
+        6,
+        6,
+        6,
+        6,
+        3,
+        4
+      ]
+    },
+    {
+      "seed": 20017,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.10332848131656647,
+      "distance_slid_before_contact_m": 0.06381423771381378,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "seed": 20018,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09574069827795029,
+      "distance_slid_before_contact_m": 0.06002049520611763,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "seed": 20019,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.05652164667844772,
+      "distance_slid_before_contact_m": 0.04041101783514023,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20020,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.07676929980516434,
+      "distance_slid_before_contact_m": 0.050534848123788834,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "seed": 20021,
+      "mode": "action",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.28154003620147705,
+      "distance_slid_before_contact_m": 0.04203849658370018,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20022,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06680594384670258,
+      "distance_slid_before_contact_m": 0.04555322974920273,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "seed": 20023,
+      "mode": "action",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09558534622192383,
+      "distance_slid_before_contact_m": 0.05994226783514023,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 3,
+      "predicted_decisions": 8,
+      "decision_indices": [
+        1,
+        2,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "seed": 20000,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.05284179374575615,
+      "distance_slid_before_contact_m": 0.038571055978536606,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20001,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12777265906333923,
+      "distance_slid_before_contact_m": 0.07603646069765091,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20002,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.11369714140892029,
+      "distance_slid_before_contact_m": 0.06899900734424591,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20003,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.12011203169822693,
+      "distance_slid_before_contact_m": 0.0722060278058052,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20004,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.052291225641965866,
+      "distance_slid_before_contact_m": 0.038295503705739975,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20005,
+      "mode": "fast",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.25386887788772583,
+      "distance_slid_before_contact_m": 0.07777700573205948,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20006,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06213587149977684,
+      "distance_slid_before_contact_m": 0.04321812093257904,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20007,
+      "mode": "fast",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.26209837198257446,
+      "distance_slid_before_contact_m": 0.08152738958597183,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20008,
+      "mode": "fast",
+      "first_contact_step": 17,
+      "speed_before_first_contact_m_s": 0.08545485138893127,
+      "distance_slid_before_contact_m": 0.09956976771354675,
+      "first_grasp_step": 18,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20009,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09025891125202179,
+      "distance_slid_before_contact_m": 0.05727919191122055,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20010,
+      "mode": "fast",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.24722345173358917,
+      "distance_slid_before_contact_m": 0.07784441858530045,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20011,
+      "mode": "fast",
+      "first_contact_step": 12,
+      "speed_before_first_contact_m_s": 0.04857642948627472,
+      "distance_slid_before_contact_m": 0.04143007844686508,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20012,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.08968370407819748,
+      "distance_slid_before_contact_m": 0.05699193850159645,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20013,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.053467754274606705,
+      "distance_slid_before_contact_m": 0.03888436406850815,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20014,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.07041547447443008,
+      "distance_slid_before_contact_m": 0.04735751822590828,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20015,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.063376784324646,
+      "distance_slid_before_contact_m": 0.04383886605501175,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20016,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.11502137780189514,
+      "distance_slid_before_contact_m": 0.0696607455611229,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20017,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.10332848131656647,
+      "distance_slid_before_contact_m": 0.06381423771381378,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20018,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09574069827795029,
+      "distance_slid_before_contact_m": 0.06002049520611763,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20019,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.05652164667844772,
+      "distance_slid_before_contact_m": 0.04041101783514023,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20020,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.07676929980516434,
+      "distance_slid_before_contact_m": 0.050534848123788834,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20021,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06683269888162613,
+      "distance_slid_before_contact_m": 0.04556635022163391,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20022,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.06680594384670258,
+      "distance_slid_before_contact_m": 0.04555322974920273,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    },
+    {
+      "seed": 20023,
+      "mode": "fast",
+      "first_contact_step": 11,
+      "speed_before_first_contact_m_s": 0.09558534622192383,
+      "distance_slid_before_contact_m": 0.05994226783514023,
+      "first_grasp_step": 12,
+      "modeled_contact_decisions": 0,
+      "predicted_decisions": 0,
+      "decision_indices": []
+    }
+  ],
+  "interpretation": "Prediction accuracy and executed actions differ, but all tested routes succeed; no closed-loop success benefit established."
+}

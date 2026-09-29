@@ -1,0 +1,18 @@
+{
+  "id": "q12-mesh-preservation-v1",
+  "purpose": "post-failure surface/evaluator sensitivity assessment; not a readiness revision",
+  "basis": "independently confirmed mug duplicate coordinates and six collapsed faces in unchanged readiness v1",
+  "old_freeze_sha256": "014e3edac4c4456afc3efc1c3622cc72b6150358feae1b15945394c647523e1c",
+  "objects": ["003_cracker_box", "025_mug"],
+  "views": [0, 1],
+  "denominator": 4,
+  "correction": "merge exactly equal coordinates in first-occurrence order; remove only exactly zero cross-product faces with repeated coordinates; preserve remaining oriented triangles in original order and multiplicity; original AABB transform",
+  "surface_gate": "independent rational coordinates prove retained oriented triangle sequence equality, first-occurrence coordinate classes, and every removed point/segment contained in a retained vertex/edge; corrected original edge/area gates must pass",
+  "runtime_gate": "reuse original camera/gripper/sampling/seed configuration; paired observations, candidates, oracle points and mapped triangle IDs exact; all labels and near-contact masks equal; distances and winding within original numeric_roundtrip_m",
+  "independent_gate": "no scene or PyBullet import; all raw/derived candidate clipping/ray labels equal; compare all 3 box centers by three-ray parity to recorded solid-angle labels; robust producer labels agree with independent labels",
+  "camera_and_oracle_readiness": "not the decision target; not promoted from this paired diagnostic; require separate readiness revision",
+  "failure": "SURFACE_OR_QUERY_CHANGE_UNRESOLVED; retain all cases/errors; do not tune thresholds, replace mug or start completion",
+  "success": "CORRECTION_SUPPORTED_FOR_SEPARATE_READINESS_REVISION",
+  "limits": ["finite static queries", "untextured depth/segmentation only", "no global self-intersection or vertex-manifold certificate", "no native parity, completion or policy effect", "synthetic scale, not original physical dimensions"],
+  "resources": {"cpu": 4, "ram_bytes": 4294967296, "seconds": 1800, "output_bytes": 134217728, "network": "none", "gpu": false}
+}

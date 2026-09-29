@@ -1,0 +1,13 @@
+{
+  "status": "INVALID_PRE_EXECUTION_PACKAGE",
+  "attempt": "freeze_attempt.json",
+  "attempt_sha256": "abfca903a2fa4617c0f8dd5937637a42e7ef1b2d917cb4327ef1f4d767b812fc",
+  "cause": "Shell redirection created an empty validation.json before validator scanned JSON files; a subsequent separate command wrote the freeze despite that failed check.",
+  "preserved_payload_mapping": {
+    "validation.json": "validation.empty"
+  },
+  "all_attempt_payload_hashes_preserved": true,
+  "correction": "Validate via a temporary file outside the study; create the execution freeze only after successful validation.",
+  "protocol_or_selection_changed": false,
+  "real_numerical_execution": false
+}

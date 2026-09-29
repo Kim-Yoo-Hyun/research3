@@ -1,0 +1,14 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{"seed": 49006, "route": "control_first", "branch_step": 248, "any_success": false, "max_coverage": 0.9474054372285907, "prefix_max_drift": 2.220446049250313e-16, "original_control_max_drift": 2.220446049250313e-16}
+{"seed": 49006, "route": "feedback", "branch_step": 248, "any_success": false, "max_coverage": 0.9419162075638725, "prefix_max_drift": 0.0, "original_control_max_drift": null}
+{"seed": 49006, "route": "plus_x", "branch_step": 248, "any_success": false, "max_coverage": 0.9419002922890414, "prefix_max_drift": 0.0, "original_control_max_drift": null}
+{"seed": 49006, "route": "control_last", "branch_step": 248, "any_success": false, "max_coverage": 0.9474054372285907, "prefix_max_drift": 0.0, "original_control_max_drift": 0.0}
+/usr/local/lib/python3.11/site-packages/shapely/set_operations.py:131: RuntimeWarning: divide by zero encountered in intersection
+  return lib.intersection(a, b, **kwargs)
+{"seed": 49005, "route": "control_first", "branch_step": 200, "any_success": false, "max_coverage": 0.9461831863375777, "prefix_max_drift": 3.3306690738754696e-16, "original_control_max_drift": 3.3306690738754696e-16}
+{"seed": 49005, "route": "feedback", "branch_step": 200, "any_success": true, "max_coverage": 0.9554606191257801, "prefix_max_drift": 3.3306690738754696e-16, "original_control_max_drift": null}
+{"seed": 49005, "route": "plus_x", "branch_step": 200, "any_success": true, "max_coverage": 0.953655291310294, "prefix_max_drift": 0.0, "original_control_max_drift": null}
+{"seed": 49005, "route": "control_last", "branch_step": 200, "any_success": false, "max_coverage": 0.9461831863375776, "prefix_max_drift": 0.0, "original_control_max_drift": 0.0}

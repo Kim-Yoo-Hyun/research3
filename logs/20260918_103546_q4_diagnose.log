@@ -1,0 +1,429 @@
+{
+  "mode": "post-hoc interpretation; no new planner executions",
+  "nearest_formula_checks": 550,
+  "primary_static_layout_signatures": {
+    "0bfef0295cb0841bc1fc2fb5c0587c588403a25b4c52828f99cdee694630457d": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "24e49ce17ada66aff3113cf9491d193b633be0d93c99f7ca28b91b23ff0ee5d0": [
+      45
+    ]
+  },
+  "primary_initial_state_signatures": {
+    "27fb60d29dca8763da0c23948830350ab345f61b259900dbf8026314a46aa6d1": [
+      40,
+      42
+    ],
+    "78def0d40c18d7ade774cfa12fde923834d6896131f9108a8c8bf050e1adabf0": [
+      41
+    ],
+    "97e4ba455fee9a485ed0233e93586afda5d667580ecc1a1e57451ab306dbe0e8": [
+      43
+    ],
+    "79a1977fea7c7c2ac48ca97d73f465dcd2b609a76708a7a490c0df23a9899a3e": [
+      44
+    ],
+    "86e6aaaa6f7469997b32594da8f3efeab73f417596392140eb14aa288ceafefd": [
+      45
+    ]
+  },
+  "length_table": [
+    {
+      "problem_id": 40,
+      "full": 38,
+      "scrub": 38,
+      "lexical_b0": 106,
+      "lexical_b1": 90,
+      "nearest_b0": 70,
+      "nearest_b1": 89
+    },
+    {
+      "problem_id": 41,
+      "full": "timeout",
+      "scrub": 110,
+      "lexical_b0": 169,
+      "lexical_b1": 221,
+      "nearest_b0": 118,
+      "nearest_b1": 108
+    },
+    {
+      "problem_id": 42,
+      "full": 66,
+      "scrub": 67,
+      "lexical_b0": 61,
+      "lexical_b1": 85,
+      "nearest_b0": 72,
+      "nearest_b1": 67
+    },
+    {
+      "problem_id": 43,
+      "full": 79,
+      "scrub": 79,
+      "lexical_b0": 101,
+      "lexical_b1": 103,
+      "nearest_b0": 51,
+      "nearest_b1": 73
+    },
+    {
+      "problem_id": 44,
+      "full": 78,
+      "scrub": 78,
+      "lexical_b0": 115,
+      "lexical_b1": 102,
+      "nearest_b0": 88,
+      "nearest_b1": 87
+    },
+    {
+      "problem_id": 45,
+      "full": 56,
+      "scrub": 55,
+      "lexical_b0": 79,
+      "lexical_b1": 109,
+      "nearest_b0": 67,
+      "nearest_b1": 85
+    }
+  ],
+  "longer_b1_plan_transfers": [
+    {
+      "label": "40_nearest_b0_to_b1",
+      "source": "taskographyv4tiny5_40_nearest_b0",
+      "target": "taskographyv4tiny5_40_nearest_b1",
+      "source_plan_length": 70,
+      "target_plan_length": 89,
+      "transferred_plan_valid": true,
+      "missing_objects": [],
+      "first_failure": null,
+      "transition_checks": 651,
+      "val_returncode": 0
+    },
+    {
+      "label": "41_lexical_b0_to_b1",
+      "source": "taskographyv4tiny5_41_lexical_b0",
+      "target": "taskographyv4tiny5_41_lexical_b1",
+      "source_plan_length": 169,
+      "target_plan_length": 221,
+      "transferred_plan_valid": true,
+      "missing_objects": [],
+      "first_failure": null,
+      "transition_checks": 1740,
+      "val_returncode": 0
+    },
+    {
+      "label": "42_lexical_b0_to_b1",
+      "source": "taskographyv4tiny5_42_lexical_b0",
+      "target": "taskographyv4tiny5_42_lexical_b1",
+      "source_plan_length": 61,
+      "target_plan_length": 85,
+      "transferred_plan_valid": true,
+      "missing_objects": [],
+      "first_failure": null,
+      "transition_checks": 579,
+      "val_returncode": 0
+    },
+    {
+      "label": "43_lexical_b0_to_b1",
+      "source": "taskographyv4tiny5_43_lexical_b0",
+      "target": "taskographyv4tiny5_43_lexical_b1",
+      "source_plan_length": 101,
+      "target_plan_length": 103,
+      "transferred_plan_valid": true,
+      "missing_objects": [],
+      "first_failure": null,
+      "transition_checks": 1040,
+      "val_returncode": 0
+    },
+    {
+      "label": "43_nearest_b0_to_b1",
+      "source": "taskographyv4tiny5_43_nearest_b0",
+      "target": "taskographyv4tiny5_43_nearest_b1",
+      "source_plan_length": 51,
+      "target_plan_length": 73,
+      "transferred_plan_valid": true,
+      "missing_objects": [],
+      "first_failure": null,
+      "transition_checks": 489,
+      "val_returncode": 0
+    },
+    {
+      "label": "45_lexical_b0_to_b1",
+      "source": "taskographyv4tiny5_45_lexical_b0",
+      "target": "taskographyv4tiny5_45_lexical_b1",
+      "source_plan_length": 79,
+      "target_plan_length": 109,
+      "transferred_plan_valid": true,
+      "missing_objects": [],
+      "first_failure": null,
+      "transition_checks": 748,
+      "val_returncode": 0
+    },
+    {
+      "label": "45_nearest_b0_to_b1",
+      "source": "taskographyv4tiny5_45_nearest_b0",
+      "target": "taskographyv4tiny5_45_nearest_b1",
+      "source_plan_length": 67,
+      "target_plan_length": 85,
+      "transferred_plan_valid": true,
+      "missing_objects": [],
+      "first_failure": null,
+      "transition_checks": 641,
+      "val_returncode": 0
+    }
+  ],
+  "scrub_plan_transfers": [
+    {
+      "label": "40_scrub_to_nearest_b0",
+      "source": "taskographyv4tiny5_40_scrub",
+      "target": "taskographyv4tiny5_40_nearest_b0",
+      "source_plan_length": 38,
+      "target_plan_length": 70,
+      "transferred_plan_valid": false,
+      "missing_objects": [
+        "item28_vase_mediumitem",
+        "item67_potted_plant_largeitem",
+        "location_xneg21_ypos13_place72_room15_floora",
+        "location_xneg4_ypos19_place62_room15_floora",
+        "location_xpos11_yneg2_place33_room6_floorb",
+        "location_xpos2_ypos14_place62_room15_floora",
+        "place33_item28_vase",
+        "place62_receptacle48_chair",
+        "place72_receptacle58_couch",
+        "receptacle48_chair",
+        "receptacle58_couch"
+      ],
+      "first_failure": {
+        "step": 5,
+        "invalid_parameters": [
+          "gotoplace",
+          "robot",
+          "place8_door_room6_bedroom",
+          "place33_item28_vase",
+          "location_xneg11_ypos4_place8_room6_floorb",
+          "location_xpos11_yneg2_place33_room6_floorb",
+          "room6_bedroom"
+        ]
+      },
+      "transition_checks": 60,
+      "val_returncode": 255
+    },
+    {
+      "label": "41_scrub_to_nearest_b0",
+      "source": "taskographyv4tiny5_41_scrub",
+      "target": "taskographyv4tiny5_41_nearest_b0",
+      "source_plan_length": 110,
+      "target_plan_length": 118,
+      "transferred_plan_valid": false,
+      "missing_objects": [
+        "item26_vase_mediumitem",
+        "location_xneg21_ypos13_place72_room15_floora",
+        "location_xneg4_yneg21_place31_room15_floora",
+        "location_xpos30_ypos31_place48_room13_floora",
+        "place31_item26_vase",
+        "place48_receptacle5_sink",
+        "place72_receptacle58_couch",
+        "receptacle5_sink"
+      ],
+      "first_failure": {
+        "step": 12,
+        "invalid_parameters": [
+          "gotoplace",
+          "robot",
+          "place7_door_room15_living_room",
+          "place31_item26_vase",
+          "location_xneg10_ypos3_place7_room15_floora",
+          "location_xneg4_yneg21_place31_room15_floora",
+          "room15_living_room"
+        ]
+      },
+      "transition_checks": 119,
+      "val_returncode": 255
+    },
+    {
+      "label": "42_scrub_to_nearest_b0",
+      "source": "taskographyv4tiny5_42_scrub",
+      "target": "taskographyv4tiny5_42_nearest_b0",
+      "source_plan_length": 67,
+      "target_plan_length": 72,
+      "transferred_plan_valid": false,
+      "missing_objects": [
+        "item35_bottle_smallitem",
+        "item73_tv_largeitem",
+        "item9_book_smallitem",
+        "location_xneg14_ypos65_place49_room3_floorb",
+        "location_xneg16_ypos59_place38_room9_floorb",
+        "location_xneg4_ypos133_place20_room19_floorb",
+        "location_xneg5_ypos119_place43_room19_floorb",
+        "location_xpos42_ypos123_place73_room19_floorb",
+        "place20_item9_book",
+        "place38_item35_bottle",
+        "place43_item73_tv",
+        "place49_receptacle6_sink",
+        "place73_receptacle59_couch",
+        "receptacle59_couch",
+        "receptacle6_sink"
+      ],
+      "first_failure": {
+        "step": 22,
+        "invalid_parameters": [
+          "gotoplace",
+          "robot",
+          "place0_door_room19_television_room",
+          "place43_item73_tv",
+          "location_xpos22_ypos118_place0_room19_floorb",
+          "location_xneg5_ypos119_place43_room19_floorb",
+          "room19_television_room"
+        ]
+      },
+      "transition_checks": 234,
+      "val_returncode": 255
+    },
+    {
+      "label": "43_scrub_to_nearest_b0",
+      "source": "taskographyv4tiny5_43_scrub",
+      "target": "taskographyv4tiny5_43_nearest_b0",
+      "source_plan_length": 79,
+      "target_plan_length": 51,
+      "transferred_plan_valid": false,
+      "missing_objects": [
+        "item15_cup_smallitem",
+        "item24_vase_mediumitem",
+        "item33_bottle_smallitem",
+        "item34_bottle_smallitem",
+        "item74_tv_largeitem",
+        "location_xneg13_yneg22_place44_room15_floora",
+        "location_xneg23_ypos0_place76_room6_floorb",
+        "location_xpos11_yneg2_place33_room6_floorb",
+        "location_xpos15_ypos4_place37_room1_floorb",
+        "location_xpos15_ypos5_place36_room1_floorb",
+        "location_xpos17_yneg21_place47_room1_floorb",
+        "location_xpos19_yneg19_place47_room1_floorb",
+        "location_xpos23_ypos23_place55_room13_floora",
+        "location_xpos28_ypos17_place55_room13_floora",
+        "location_xpos45_ypos5_place69_room13_floora",
+        "location_xpos47_ypos1_place52_room2_floorb",
+        "location_xpos8_yneg5_place59_room15_floora",
+        "place33_item28_vase",
+        "place36_item33_bottle",
+        "place37_item34_bottle",
+        "place44_item74_tv",
+        "place47_receptacle4_sink",
+        "place52_receptacle38_toilet",
+        "place55_receptacle41_chair",
+        "place59_receptacle45_chair",
+        "place69_receptacle55_chair",
+        "place76_receptacle69_bed",
+        "receptacle38_toilet",
+        "receptacle41_chair",
+        "receptacle4_sink",
+        "receptacle55_chair",
+        "receptacle69_bed"
+      ],
+      "first_failure": {
+        "step": 13,
+        "invalid_parameters": [
+          "gotoplace",
+          "robot",
+          "place7_door_room15_living_room",
+          "place44_item74_tv",
+          "location_xneg10_ypos3_place7_room15_floora",
+          "location_xneg13_yneg22_place44_room15_floora",
+          "room15_living_room"
+        ]
+      },
+      "transition_checks": 142,
+      "val_returncode": 255
+    },
+    {
+      "label": "44_scrub_to_nearest_b0",
+      "source": "taskographyv4tiny5_44_scrub",
+      "target": "taskographyv4tiny5_44_nearest_b0",
+      "source_plan_length": 78,
+      "target_plan_length": 88,
+      "transferred_plan_valid": false,
+      "missing_objects": [
+        "item12_book_smallitem",
+        "item20_vase_mediumitem",
+        "item33_bottle_smallitem",
+        "item34_bottle_smallitem",
+        "item74_tv_largeitem",
+        "location_xneg13_yneg22_place44_room15_floora",
+        "location_xneg21_ypos13_place72_room15_floora",
+        "location_xneg27_ypos43_place56_room12_floora",
+        "location_xneg28_ypos28_place79_room12_floora",
+        "location_xneg30_ypos26_place79_room12_floora",
+        "location_xneg4_yneg21_place31_room15_floora",
+        "location_xneg4_ypos66_place27_room12_floora",
+        "location_xpos15_ypos4_place37_room1_floorb",
+        "location_xpos15_ypos5_place36_room1_floorb",
+        "place27_item20_vase",
+        "place31_item26_vase",
+        "place36_item33_bottle",
+        "place37_item34_bottle",
+        "place44_item74_tv",
+        "place56_receptacle42_chair",
+        "place72_receptacle58_couch",
+        "place79_receptacle72_dining_table",
+        "receptacle42_chair",
+        "receptacle58_couch",
+        "receptacle72_dining_table"
+      ],
+      "first_failure": {
+        "step": 17,
+        "invalid_parameters": [
+          "gotoplace",
+          "robot",
+          "place77_receptacle70_dining_table",
+          "place79_receptacle72_dining_table",
+          "location_xneg16_ypos44_place77_room12_floora",
+          "location_xneg30_ypos26_place79_room12_floora",
+          "room12_dining_room"
+        ]
+      },
+      "transition_checks": 187,
+      "val_returncode": 255
+    },
+    {
+      "label": "45_scrub_to_nearest_b0",
+      "source": "taskographyv4tiny5_45_scrub",
+      "target": "taskographyv4tiny5_45_nearest_b0",
+      "source_plan_length": 55,
+      "target_plan_length": 67,
+      "transferred_plan_valid": false,
+      "missing_objects": [
+        "item59_potted_plant_largeitem",
+        "item60_potted_plant_largeitem",
+        "location_xpos5_yneg44_place68_room11_floorb",
+        "location_xpos7_yneg45_place74_room11_floorb",
+        "location_xpos7_yneg46_place74_room11_floorb",
+        "location_xpos8_ypos12_place47_room17_floorb",
+        "location_xpos9_yneg79_place56_room2_floorb",
+        "place47_receptacle4_sink",
+        "place56_receptacle36_toilet",
+        "place68_receptacle48_chair",
+        "place74_receptacle63_dining_table",
+        "receptacle36_toilet",
+        "receptacle48_chair",
+        "receptacle4_sink",
+        "receptacle63_dining_table"
+      ],
+      "first_failure": {
+        "step": 10,
+        "invalid_parameters": [
+          "gotoplace",
+          "robot",
+          "place1_door_room17_kitchen",
+          "place47_receptacle4_sink",
+          "location_xneg11_yneg6_place1_room17_floorb",
+          "location_xpos8_ypos12_place47_room17_floorb",
+          "room17_kitchen"
+        ]
+      },
+      "transition_checks": 90,
+      "val_returncode": 255
+    }
+  ],
+  "boundary": "A feasible shorter plan demonstrates search suboptimality, not optimal cost. Rejected transfer shows a particular plan excluded; it does not prove absence of another short plan."
+}

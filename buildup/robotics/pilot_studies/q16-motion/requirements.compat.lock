@@ -1,0 +1,11 @@
+# Direct pins for the pinned 2025 ManiSkill source replay; full resolved locks are saved by Docker build.
+numpy==1.26.4
+scipy==1.15.3
+gymnasium==0.29.1
+sapien==3.0.0b1
+h5py==3.12.1
+pytorch-kinematics==0.7.4
+fast-kinematics==0.2.2
+mplib==0.1.1
+tyro==0.8.5
+transforms3d==0.4.2

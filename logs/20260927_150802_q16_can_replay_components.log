@@ -1,0 +1,35 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /usr/local/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+{
+  "status": "diverged",
+  "maxima": {
+    "demo_0": {
+      "initial_state": 0.0,
+      "initial_obs": 1.1920928955078125e-07,
+      "post_state": 19.44885196352051,
+      "post_qpos": 0.6727926052664063,
+      "post_qvel": 19.44885196352051,
+      "post_obs": 0.0009959342423826456
+    },
+    "demo_1": {
+      "initial_state": 0.0,
+      "initial_obs": 5.960464477539063e-08,
+      "post_state": 19.44885196309467,
+      "post_qpos": 0.6727926052995656,
+      "post_qvel": 19.44885196309467,
+      "post_obs": 0.0008981419428922867
+    }
+  },
+  "repeat": {
+    "source": "demo_0",
+    "steps": 32,
+    "state_max_abs": 0.0,
+    "observation_max_abs": 0.0,
+    "state_exact_steps": 32,
+    "second_rollout_status": "diverged"
+  },
+  "error": null
+}

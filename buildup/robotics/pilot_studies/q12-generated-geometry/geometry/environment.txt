@@ -1,0 +1,11 @@
+{
+  "python": "3.11.13 (main, Sep 30 2025, 00:39:50) [GCC 12.2.0]",
+  "packages": {
+    "pip": "24.0",
+    "setuptools": "65.5.1",
+    "wheel": "0.45.1",
+    "numpy": "1.26.4",
+    "pybullet": "3.2.7"
+  },
+  "pybullet_api": 202010061
+}

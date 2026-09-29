@@ -1,0 +1,30 @@
+{
+  "id": "q12-geometry-readiness-v1",
+  "denominator": 4,
+  "cases": [
+    {
+      "id": "003_cracker_box_v0",
+      "object": "003_cracker_box",
+      "view_index": 0
+    },
+    {
+      "id": "003_cracker_box_v1",
+      "object": "003_cracker_box",
+      "view_index": 1
+    },
+    {
+      "id": "025_mug_v0",
+      "object": "025_mug",
+      "view_index": 0,
+      "error": "AssertionError: mesh solid topology unresolved"
+    },
+    {
+      "id": "025_mug_v1",
+      "object": "025_mug",
+      "view_index": 1,
+      "error": "AssertionError: mesh solid topology unresolved"
+    }
+  ],
+  "freeze_sha256": "014e3edac4c4456afc3efc1c3622cc72b6150358feae1b15945394c647523e1c",
+  "completion_or_checkpoint_mounted": false
+}

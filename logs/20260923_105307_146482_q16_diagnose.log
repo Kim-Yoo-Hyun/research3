@@ -1,0 +1,60 @@
+{
+  "dynamic_contact": [
+    {
+      "mode": "servo",
+      "episodes": 24,
+      "speed_before_contact_median": 0.08016140013933182,
+      "speed_before_contact_range": [
+        0.04857642948627472,
+        0.3198140263557434
+      ],
+      "median_slide_before_contact_m": 0.06561769172549248,
+      "modeled_contact_decisions": 0
+    },
+    {
+      "mode": "cv",
+      "episodes": 24,
+      "speed_before_contact_median": 0.08511676639318466,
+      "speed_before_contact_range": [
+        0.048562586307525635,
+        0.12980599701404572
+      ],
+      "median_slide_before_contact_m": 0.05861072987318039,
+      "modeled_contact_decisions": 0
+    },
+    {
+      "mode": "history",
+      "episodes": 24,
+      "speed_before_contact_median": 0.09953458979725838,
+      "speed_before_contact_range": [
+        0.04303169995546341,
+        0.32575881481170654
+      ],
+      "median_slide_before_contact_m": 0.05861072987318039,
+      "modeled_contact_decisions": 72
+    },
+    {
+      "mode": "action",
+      "episodes": 24,
+      "speed_before_contact_median": 0.09566302224993706,
+      "speed_before_contact_range": [
+        0.04303169995546341,
+        0.3063180446624756
+      ],
+      "median_slide_before_contact_m": 0.05861072987318039,
+      "modeled_contact_decisions": 72
+    },
+    {
+      "mode": "fast",
+      "episodes": 24,
+      "speed_before_contact_median": 0.08756927773356438,
+      "speed_before_contact_range": [
+        0.04857642948627472,
+        0.26209837198257446
+      ],
+      "median_slide_before_contact_m": 0.0571355652064085,
+      "modeled_contact_decisions": 0
+    }
+  ],
+  "paired_cases": 24
+}

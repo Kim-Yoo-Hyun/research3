@@ -1,6 +1,6 @@
 # Cross-Domain Research Buildup
 
-Updated: 2026-09-04
+Updated: 2026-09-28
 
 ## Status
 
@@ -9,6 +9,16 @@ Updated: 2026-09-04
 이 scope는 Robotics를 출발점으로 유지하되 연구 질문의 원리를 Robotics에 가두지
 않는다. 6개월, 공개 benchmark, 한 장의 workstation GPU, simulation/dataset-first,
 foundation-scale training 제외라는 실행 경계는 그대로 적용한다.
+
+CD5는 2026-09-23 사용자 요청으로 실행 전 `deferred`로 바꿨다.
+[기존 설계·입력](pilot_studies/cd5-representation/README.md)은 보존하며 model inference는 없다.
+Robotics의 [Q16](../robotics/questions/interaction-conditioned-motion.md) 현 경로도
+보류돼, 다음 제한된 탐색은 [Q17](../robotics/questions/evidence-conditioned-action-selection.md)로
+선택했다. Cross-domain reserve의 재진입 조건은 유지한다.
+CD1의 public synthetic source 확인과 CD2/Q4의 기존 관찰·보류 판단은 유지한다.
+
+실행 recipe·raw-output 위치·결과 해석은 [CD2 study](pilot_studies/cd2-evaluation/README.md)가
+소유한다. Question record는 질문·비교의 근거를 소유한다.
 
 ## Gap-First Abstraction
 
@@ -31,12 +41,20 @@ simple baseline과 oracle test로 기각할 수 있는 gap이다.
 | ID | candidate | core gap | status |
 | --- | --- | --- | --- |
 | CD1 | [Intervention-Value Calibration](questions/intervention-value-calibration.md) | calibrated confidence does not imply useful retry/replan/defer decisions | `deferred` |
-| CD2 | [Tail-Preserving Efficient Evaluation](questions/tail-preserving-efficient-evaluation.md) | rank-efficient sampling may erase rare failure coverage | `exploratory` |
+| CD2 | [Tail-Preserving Efficient Evaluation](questions/tail-preserving-efficient-evaluation.md) | Aggregate and episode observations verified; current mean/profile route explained by simple sampling; rare/severe failure question unresolved | `deferred` |
 | CD3 | [Temporal Outcome Semantics](questions/temporal-outcome-semantics.md) | first-hit, terminal and sustained success may support different conclusions | `deferred` |
 | CD4 | [Counterfactual Failure Attribution](questions/counterfactual-failure-attribution.md) | trajectory diagnosis is correlational without minimal replay interventions | `deferred` |
-| CD5 | [Information-Budgeted Representation Utility](questions/information-budgeted-representation-utility.md) | structured/raw representation comparisons often mismatch information budget | `exploratory` |
+| CD5 | [Information-Budgeted Representation Utility](questions/information-budgeted-representation-utility.md) | same-information symbolic planning; selection withdrawn by user before execution; protocol preserved | `deferred` |
 
 ## Recent-Prior Anchors And Collision Warnings
+
+현재 CD5/CD1/Q8의 선행·source 재검토는
+[2026-09-22 비교](../robotics/related_work/policy-geometry.md#cd5-cd1-q8-comparison-2026-09-22)가 소유한다.
+CD1의 public synthetic 접근성과 CD5의 symbolic task/evaluator를 반영했다.
+2026-09-16의 robotics evaluation 선행·공개 입력 재검토는
+[현재 비교](../robotics/related_work/policy-geometry.md#remaining-candidate-comparison-2026-09-16)가
+소유한다. 아래는 초기 prior map이다. Exact novelty·positive residual을 작은 관찰의
+진입 gate로 사용하지 않는다.
 
 - NeurIPS 2024 [Collaborative Computerized Adaptive Testing](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ad48f017e6c3d474caf511208e600459-Abstract-Conference.html)
   directly addresses adaptive testing for ranking consistency. CD2 must add tail-failure
@@ -60,6 +78,10 @@ simple baseline과 oracle test로 기각할 수 있는 gap이다.
 These are collision anchors from the completed preliminary review, not a complete novelty audit.
 
 ## Comparative Assessment
+
+아래 ratings와 Stage 3/4/7 서술은 초기 비교 기록이다. 현재 우선순위·접근성·실행 선택은
+위 갱신과 Current Decision을 따른다. 과거 exact novelty/공개 artifact 조건을 새로운 진행
+gate로 적용하지 않는다.
 
 `H/M/L`은 높음/중간/낮음이며 overlap만 H가 위험하다.
 
@@ -125,5 +147,9 @@ feasibility protocol을 만들지 않는다.
 
 ## Current Decision
 
-Cross-domain candidate 중 `ready_for_hypothesis`는 없다. CD1/CD4와 CD3는 `deferred`,
-CD2/CD5는 `exploratory`다. `PaperReview`는 read-only로만 참조했고 수정하지 않았다.
+Cross-domain candidate 다섯 개는 현재 `deferred`이며 `ready_for_hypothesis`는 없다.
+[CD5의 2026-09-22 선택](../selection.md#cd5-observation-selection-2026-09-22)은 준비 당시의 기록이다.
+사용자 요청으로 다음 후보를 [Q16으로 교체](../selection.md#q16-selection-2026-09-23)했다.
+이후 [Q16 현 경로도 보류](../selection.md#q16-shorter-chunk-outcome-and-investment-decision-2026-09-28)돼
+다음 연구 질문은 미선택이다. CD5 입력·미실행 protocol과 CD2/Q4의 기존 결과는
+보존한다. `PaperReview`는 수정하지 않았다.

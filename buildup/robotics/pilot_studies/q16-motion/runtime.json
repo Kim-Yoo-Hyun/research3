@@ -1,0 +1,144 @@
+{
+  "device": "cpu",
+  "torch_version": "2.7.1+cpu",
+  "sim_config": {
+    "spacing": 5,
+    "sim_freq": 200,
+    "control_freq": 20,
+    "gpu_memory_config": {
+      "temp_buffer_capacity": 16777216,
+      "max_rigid_contact_count": 524288,
+      "max_rigid_patch_count": 262144,
+      "heap_capacity": 67108864,
+      "found_lost_pairs_capacity": 33554432,
+      "found_lost_aggregate_pairs_capacity": 1024,
+      "total_aggregate_pairs_capacity": 1024,
+      "collision_stack_size": 4194304
+    },
+    "scene_config": {
+      "gravity": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "bounce_threshold": 2.0,
+      "sleep_threshold": 0.005,
+      "contact_offset": 0.02,
+      "rest_offset": 0,
+      "solver_position_iterations": 15,
+      "solver_velocity_iterations": 1,
+      "enable_pcm": true,
+      "enable_tgs": true,
+      "enable_ccd": false,
+      "enable_enhanced_determinism": false,
+      "enable_friction_every_iteration": true,
+      "cpu_workers": 0
+    },
+    "default_materials_config": {
+      "static_friction": 0.3,
+      "dynamic_friction": 0.3,
+      "restitution": 0
+    }
+  },
+  "control_mode": "pd_ee_delta_pos",
+  "controllers": {
+    "arm": {
+      "joint_names": [
+        "panda_joint1",
+        "panda_joint2",
+        "panda_joint3",
+        "panda_joint4",
+        "panda_joint5",
+        "panda_joint6",
+        "panda_joint7"
+      ],
+      "pos_lower": -0.1,
+      "pos_upper": 0.1,
+      "stiffness": 1000.0,
+      "damping": 100.0,
+      "force_limit": 100,
+      "friction": 0.0,
+      "ee_link": "panda_hand_tcp",
+      "urdf_path": "/usr/local/lib/python3.11/site-packages/mani_skill/assets/robots/panda/panda_v2.urdf",
+      "frame": "root_translation",
+      "root_link_name": null,
+      "use_delta": true,
+      "use_target": false,
+      "interpolate": false,
+      "normalize_action": true,
+      "delta_solver_config": {
+        "type": "levenberg_marquardt",
+        "alpha": 1.0
+      },
+      "drive_mode": "force"
+    },
+    "gripper": {
+      "joint_names": [
+        "panda_finger_joint1",
+        "panda_finger_joint2"
+      ],
+      "lower": -0.01,
+      "upper": 0.04,
+      "stiffness": 1000.0,
+      "damping": 100.0,
+      "force_limit": 100,
+      "friction": 0.0,
+      "use_delta": false,
+      "use_target": false,
+      "interpolate": false,
+      "normalize_action": true,
+      "drive_mode": "force",
+      "mimic": {
+        "panda_finger_joint2": {
+          "joint": "panda_finger_joint1"
+        }
+      }
+    }
+  },
+  "materials": {
+    "cube": [
+      {
+        "mass": 0.06400000303983688,
+        "materials": [
+          {
+            "static_friction": 0.009999999776482582,
+            "dynamic_friction": 0.009999999776482582
+          }
+        ]
+      }
+    ],
+    "table": [
+      {
+        "mass": 2688.44921875,
+        "materials": [
+          {
+            "static_friction": 0.009999999776482582,
+            "dynamic_friction": 0.009999999776482582
+          }
+        ]
+      }
+    ]
+  },
+  "goal": [
+    0.07999999821186066,
+    -0.07999999821186066,
+    0.1599999964237213
+  ],
+  "dt": 0.05,
+  "steps": 80,
+  "horizon": 2,
+  "source_commit": "a4a4f9272ad64b1564035874b605ceb687b63ed8",
+  "allowed_inputs": [
+    "cube pose",
+    "cube linear/angular velocity",
+    "TCP pose",
+    "qpos",
+    "qvel",
+    "past cube displacement"
+  ],
+  "evaluation_only": [
+    "contact forces",
+    "grasp flag",
+    "success flag"
+  ]
+}

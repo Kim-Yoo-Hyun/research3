@@ -1,0 +1,19 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{
+  "status": "incompatible",
+  "sampled_dataset_rows": 24,
+  "sampled_live_states": 96,
+  "max_dataset_keypoint_px": 0.27198272077916386,
+  "max_live_inverse_pose_px_or_rad": 1.1368683772161603e-13,
+  "max_live_native_overlap_difference": 1.9984014443252818e-15
+}
+Traceback (most recent call last):
+  File "/study/dp_obs_audit.py", line 82, in <module>
+    main()
+  File "/study/dp_obs_audit.py", line 78, in main
+    assert maximum<=1e-5, f'Observation/data contract drift: {maximum}'
+           ^^^^^^^^^^^^^
+AssertionError: Observation/data contract drift: 0.27198272077916386

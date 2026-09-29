@@ -1,0 +1,95 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 276B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.14-slim-bookworm
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.14-slim-bookworm
+#2 DONE 2.0s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 2.40kB done
+#5 DONE 0.1s
+
+#6 [1/4] FROM docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#6 resolve docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d 0.0s done
+#6 DONE 0.1s
+
+#6 [1/4] FROM docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#6 sha256:bb97a7af197171e22da5f49bb0438bcf85be410ef8d48d967d1adf18cb633e5c 0B / 249B 0.2s
+#6 sha256:4afda7e4a7673cf65d863abdb88d853796bf7fac06fabcd56f37de493f6b65e6 0B / 15.93MB 0.2s
+#6 sha256:0ca4ca8e967fc50bfed3e6bc1475579b5b3d1b72b17330364f0b8bb59ee23653 0B / 3.52MB 0.2s
+#6 sha256:84a2afebaf4de2e8eb885634a69abd0087b79c947c53fa4f0481235d6dfadc6c 0B / 28.24MB 0.2s
+#6 sha256:0ca4ca8e967fc50bfed3e6bc1475579b5b3d1b72b17330364f0b8bb59ee23653 3.52MB / 3.52MB 0.6s done
+#6 sha256:4afda7e4a7673cf65d863abdb88d853796bf7fac06fabcd56f37de493f6b65e6 4.19MB / 15.93MB 0.8s
+#6 sha256:84a2afebaf4de2e8eb885634a69abd0087b79c947c53fa4f0481235d6dfadc6c 3.15MB / 28.24MB 0.8s
+#6 sha256:4afda7e4a7673cf65d863abdb88d853796bf7fac06fabcd56f37de493f6b65e6 8.39MB / 15.93MB 1.5s
+#6 sha256:84a2afebaf4de2e8eb885634a69abd0087b79c947c53fa4f0481235d6dfadc6c 7.34MB / 28.24MB 1.5s
+#6 sha256:4afda7e4a7673cf65d863abdb88d853796bf7fac06fabcd56f37de493f6b65e6 11.53MB / 15.93MB 1.8s
+#6 sha256:4afda7e4a7673cf65d863abdb88d853796bf7fac06fabcd56f37de493f6b65e6 13.63MB / 15.93MB 2.0s
+#6 sha256:84a2afebaf4de2e8eb885634a69abd0087b79c947c53fa4f0481235d6dfadc6c 10.49MB / 28.24MB 2.0s
+#6 sha256:4afda7e4a7673cf65d863abdb88d853796bf7fac06fabcd56f37de493f6b65e6 15.93MB / 15.93MB 2.5s done
+#6 sha256:84a2afebaf4de2e8eb885634a69abd0087b79c947c53fa4f0481235d6dfadc6c 17.83MB / 28.24MB 2.7s
+#6 sha256:84a2afebaf4de2e8eb885634a69abd0087b79c947c53fa4f0481235d6dfadc6c 26.21MB / 28.24MB 3.0s
+#6 sha256:84a2afebaf4de2e8eb885634a69abd0087b79c947c53fa4f0481235d6dfadc6c 28.24MB / 28.24MB 3.7s done
+#6 extracting sha256:84a2afebaf4de2e8eb885634a69abd0087b79c947c53fa4f0481235d6dfadc6c
+#6 sha256:bb97a7af197171e22da5f49bb0438bcf85be410ef8d48d967d1adf18cb633e5c 249B / 249B 4.1s done
+#6 extracting sha256:84a2afebaf4de2e8eb885634a69abd0087b79c947c53fa4f0481235d6dfadc6c 0.4s done
+#6 extracting sha256:0ca4ca8e967fc50bfed3e6bc1475579b5b3d1b72b17330364f0b8bb59ee23653 0.1s done
+#6 DONE 4.3s
+
+#6 [1/4] FROM docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#6 extracting sha256:4afda7e4a7673cf65d863abdb88d853796bf7fac06fabcd56f37de493f6b65e6
+#6 extracting sha256:4afda7e4a7673cf65d863abdb88d853796bf7fac06fabcd56f37de493f6b65e6 0.2s done
+#6 DONE 4.6s
+
+#6 [1/4] FROM docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#6 extracting sha256:bb97a7af197171e22da5f49bb0438bcf85be410ef8d48d967d1adf18cb633e5c 0.0s done
+#6 DONE 4.6s
+
+#7 [2/4] RUN pip install --no-cache-dir numpy==2.2.6
+#7 0.998 Collecting numpy==2.2.6
+#7 1.025   Downloading numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+#7 1.035      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 14.4 MB/s eta 0:00:00
+#7 1.046 Downloading numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+#7 1.987    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 54.4 MB/s eta 0:00:00
+#7 2.030 Installing collected packages: numpy
+#7 2.976 Successfully installed numpy-2.2.6
+#7 2.976 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 3.020 
+#7 3.020 [notice] A new release of pip is available: 24.0 -> 26.2.1
+#7 3.020 [notice] To update, run: pip install --upgrade pip
+#7 DONE 3.2s
+
+#8 [3/4] WORKDIR /study
+#8 DONE 0.1s
+
+#9 [4/4] COPY inspect_input.py /study/inspect_input.py
+#9 DONE 0.1s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 1.6s done
+#10 exporting manifest sha256:368ad07e39996ab4a03c7338ca2e5409cda26ac944a26afc83273fb26d03e391
+#10 exporting manifest sha256:368ad07e39996ab4a03c7338ca2e5409cda26ac944a26afc83273fb26d03e391 0.0s done
+#10 exporting config sha256:b7b286a070ceb2d4d0237101c5fa43399374529eee326f18a203a5932bd59d8f 0.0s done
+#10 exporting attestation manifest sha256:3dc74790a409ed58bb895a3b762cd1ff51b8e1cc1c9cc36f4d434373f20f4355 0.1s done
+#10 exporting manifest list sha256:ad32f46c6d79e854bd78cbe228f3bd06847c84640efa15cc55ff4e5f403f15f7
+#10 exporting manifest list sha256:ad32f46c6d79e854bd78cbe228f3bd06847c84640efa15cc55ff4e5f403f15f7 0.0s done
+#10 naming to docker.io/library/research3-q9-refresh:v1 done
+#10 unpacking to docker.io/library/research3-q9-refresh:v1
+#10 unpacking to docker.io/library/research3-q9-refresh:v1 0.3s done
+#10 DONE 2.1s

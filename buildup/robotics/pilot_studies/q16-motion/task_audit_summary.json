@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "trace_checks": 48,
+  "paired_seeds": 8,
+  "summary": {
+    "push_t": {
+      "hold": {
+        "final_success": 0,
+        "any_success": 0,
+        "mean_initial_metric": 0.2884848527610302,
+        "mean_final_metric": 0.2884848527610302,
+        "mean_best_metric": 0.2884848527610302,
+        "mean_object_xy_displacement": 3.1134231748275454e-08,
+        "mean_elapsed_seconds": 0.16181224258616567,
+        "mean_push_phase_steps": 0.0
+      },
+      "feedback": {
+        "final_success": 0,
+        "any_success": 0,
+        "mean_initial_metric": 0.2884848527610302,
+        "mean_final_metric": 0.375,
+        "mean_best_metric": 0.3934848513454199,
+        "mean_object_xy_displacement": 0.03679084887198769,
+        "mean_elapsed_seconds": 0.17553817853331566,
+        "mean_push_phase_steps": 41.5
+      },
+      "fixed_reference": {
+        "final_success": 0,
+        "any_success": 0,
+        "mean_initial_metric": 0.2884848527610302,
+        "mean_final_metric": 0.33136364072561264,
+        "mean_best_metric": 0.3477272745221853,
+        "mean_object_xy_displacement": 0.027912395797102363,
+        "mean_elapsed_seconds": 0.1750133220339194,
+        "mean_push_phase_steps": 41.5
+      }
+    },
+    "roll_ball": {
+      "hold": {
+        "final_success": 0,
+        "any_success": 0,
+        "mean_initial_metric": 1.4514681100845337,
+        "mean_final_metric": 1.4514681100845337,
+        "mean_best_metric": 1.4514681100845337,
+        "mean_object_xy_displacement": 1.5203841030597687e-07,
+        "mean_elapsed_seconds": 0.09071792790200561,
+        "mean_push_phase_steps": 0.0
+      },
+      "feedback": {
+        "final_success": 0,
+        "any_success": 0,
+        "mean_initial_metric": 1.4514681100845337,
+        "mean_final_metric": 1.4392366856336594,
+        "mean_best_metric": 1.4392366856336594,
+        "mean_object_xy_displacement": 0.012242234544828534,
+        "mean_elapsed_seconds": 0.10355650109704584,
+        "mean_push_phase_steps": 30.375
+      },
+      "fixed_reference": {
+        "final_success": 0,
+        "any_success": 0,
+        "mean_initial_metric": 1.4514681100845337,
+        "mean_final_metric": 1.4401094019412994,
+        "mean_best_metric": 1.4401094019412994,
+        "mean_object_xy_displacement": 0.011359588475897908,
+        "mean_elapsed_seconds": 0.10270473314449191,
+        "mean_push_phase_steps": 30.375
+      }
+    }
+  },
+  "source_attempts": {
+    "push_t": "push_t3",
+    "roll_ball": "roll_ball3"
+  }
+}

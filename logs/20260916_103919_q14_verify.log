@@ -1,0 +1,159 @@
+{
+  "status": "verified",
+  "scope": "exploratory SO(2) keypoint regression; no VLA/robot claim",
+  "fits": 4,
+  "scenes": 16,
+  "noisy_observations": 1024,
+  "noiseless_observations": 16,
+  "prediction_rows": 5200,
+  "composition_metric_rows": 96,
+  "direct_metric_rows": 96,
+  "checks": 2926,
+  "max_numeric_difference": 7.48404019281309e-16,
+  "checkpoint_prediction_max_difference": 0.0,
+  "analytic_cancellation_control": {
+    "mse": 2.567906592516315e-33,
+    "g2": 0.0168992041746182,
+    "a2": 0.016899204174618196,
+    "cross": -0.03379840834923639,
+    "bias_cross": -0.004455929532339659,
+    "centered_cross": -0.029342478816896733
+  },
+  "composition_summary": [
+    {
+      "model": "geometry",
+      "angle_deg": 0.0,
+      "scenes": 8,
+      "paired_mse": 0.00047187839240633975,
+      "product_mse": 0.0004715519343024054,
+      "oracle_mse": 0.00039520463945914017,
+      "product_minus_paired": -3.264581039343336e-07,
+      "delta_min": -0.00017948836355182027,
+      "delta_max": 0.00016948777667555835,
+      "paired_better_scenes": 4,
+      "angular_mse": 0.0004456128484436982,
+      "g2": 7.800619571332835e-05,
+      "a2": 0.00039520463945914017,
+      "cross": -1.3324427661286792e-06
+    },
+    {
+      "model": "geometry",
+      "angle_deg": 90.0,
+      "scenes": 8,
+      "paired_mse": 0.00048608999691655873,
+      "product_mse": 0.0005010465805864769,
+      "oracle_mse": 0.0004174138715411791,
+      "product_minus_paired": 1.495658366991816e-05,
+      "delta_min": -8.617538260177694e-05,
+      "delta_max": 0.00016207160472210547,
+      "paired_better_scenes": 4,
+      "angular_mse": 0.0004818203633317763,
+      "g2": 8.248847711672609e-05,
+      "a2": 0.0004174138715411791,
+      "cross": -1.3812351741346401e-05
+    },
+    {
+      "model": "joint_0",
+      "angle_deg": 0.0,
+      "scenes": 8,
+      "paired_mse": 0.0011380249757312931,
+      "product_mse": 0.0011344899265919948,
+      "oracle_mse": 0.0010210208457007972,
+      "product_minus_paired": -3.535049139298207e-06,
+      "delta_min": -0.00018637221867395717,
+      "delta_max": 0.00015379118073286738,
+      "paired_better_scenes": 3,
+      "angular_mse": 0.001753262055189176,
+      "g2": 0.00022808261834893423,
+      "a2": 0.0010210208457007972,
+      "cross": -0.00011107848831843839
+    },
+    {
+      "model": "joint_0",
+      "angle_deg": 90.0,
+      "scenes": 8,
+      "paired_mse": 0.03168128965110482,
+      "product_mse": 0.03168397634429102,
+      "oracle_mse": 0.0018037911423164743,
+      "product_minus_paired": 2.686693186207444e-06,
+      "delta_min": -6.141950017245212e-05,
+      "delta_max": 7.198570811051824e-05,
+      "paired_better_scenes": 4,
+      "angular_mse": 0.17522494110702022,
+      "g2": 0.030502883335634647,
+      "a2": 0.001803791142316474,
+      "cross": -0.000625384826846307
+    },
+    {
+      "model": "joint_1",
+      "angle_deg": 0.0,
+      "scenes": 8,
+      "paired_mse": 0.0011465994860216768,
+      "product_mse": 0.0011419350126792055,
+      "oracle_mse": 0.0008051302906593835,
+      "product_minus_paired": -4.664473342471374e-06,
+      "delta_min": -0.0001571333828345586,
+      "delta_max": 0.0002048436757309312,
+      "paired_better_scenes": 3,
+      "angular_mse": 0.003468520182977798,
+      "g2": 0.0005389130422650157,
+      "a2": 0.0008051302906593835,
+      "cross": -0.00019744384690272265
+    },
+    {
+      "model": "joint_1",
+      "angle_deg": 90.0,
+      "scenes": 8,
+      "paired_mse": 0.029238564355171574,
+      "product_mse": 0.029235589488151775,
+      "oracle_mse": 0.0029094734630316743,
+      "product_minus_paired": -2.9748670197977424e-06,
+      "delta_min": -7.028402919510846e-05,
+      "delta_max": 0.00012460730197855208,
+      "paired_better_scenes": 2,
+      "angular_mse": 0.1550695385072926,
+      "g2": 0.027249858812816483,
+      "a2": 0.0029094734630316743,
+      "cross": -0.0009207679206765817
+    }
+  ],
+  "direct_summary": [
+    {
+      "model": "direct_0",
+      "angle_deg": 0.0,
+      "scenes": 8,
+      "mse": 0.0029240511735110115
+    },
+    {
+      "model": "direct_0",
+      "angle_deg": 90.0,
+      "scenes": 8,
+      "mse": 0.12020168376822254
+    },
+    {
+      "model": "direct_1",
+      "angle_deg": 0.0,
+      "scenes": 8,
+      "mse": 0.004119509555337179
+    },
+    {
+      "model": "direct_1",
+      "angle_deg": 90.0,
+      "scenes": 8,
+      "mse": 0.10354254707299708
+    },
+    {
+      "model": "zero",
+      "angle_deg": 0.0,
+      "scenes": 8,
+      "mse": 0.1673850850577572
+    },
+    {
+      "model": "zero",
+      "angle_deg": 90.0,
+      "scenes": 8,
+      "mse": 0.1673850850577572
+    }
+  ],
+  "input_manifest_sha256": "fe60d5dcf584add15b681de1df4624f8cb6a8d1f738fba0ae87d0b02b4a67119"
+}

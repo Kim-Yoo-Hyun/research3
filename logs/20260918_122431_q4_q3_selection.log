@@ -1,0 +1,3 @@
+PASS 9 pinned local source byte/hash records and 1 checkpoint byte/hash record.
+PASS previous comparison manifest fields unchanged.
+No method imports, numerical experiments, new downloads or Docker operations.

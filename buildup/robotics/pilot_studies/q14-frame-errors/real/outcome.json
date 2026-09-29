@@ -1,0 +1,231 @@
+{
+  "status": "completed; verified",
+  "checked_at": "2026-09-16T02:39:06.954387+00:00",
+  "decision": "refine / under_review: simple saved-pose selection explains two large errors; generic learned residual remains unsupported; assess remaining action-relevant question or defer",
+  "scope": "24 fixed-camera frames, one pretrained detector, privileged annotated 3D geometry, no action-head or camera-extrapolation evidence",
+  "source_revision": "3360f2aa45f66a58eaa70d0d40f2c46c2682c0bb",
+  "image": "sha256:9c8a10f15a70841aabb72be506768aa7cf17331fc36a02172d453693b85ddf1d",
+  "raw_run": "runs/q14/real_20260916_113000",
+  "planned_summary": {
+    "frames": 24,
+    "inferred": 24,
+    "elapsed_seconds": 16.62545869499445,
+    "solvers": {
+      "official": {
+        "successes": 24,
+        "failures": 0,
+        "mean_add_all_success_only": 0.02950906671894944,
+        "median_add_all_success_only": 0.014148901915925983,
+        "max_add_all_success_only": 0.31702736763837297
+      },
+      "robust": {
+        "successes": 24,
+        "failures": 0,
+        "mean_add_all_success_only": 0.028390795986341106,
+        "median_add_all_success_only": 0.01363416201275083,
+        "max_add_all_success_only": 0.2581194307076888
+      },
+      "oracle_common": {
+        "successes": 24,
+        "failures": 0,
+        "mean_add_all_success_only": 2.2063403527579542e-16,
+        "median_add_all_success_only": 2.1072421941604722e-16,
+        "max_add_all_success_only": 5.530979517357311e-16
+      },
+      "oracle_all": {
+        "successes": 24,
+        "failures": 0,
+        "mean_add_all_success_only": 2.2063403527579542e-16,
+        "median_add_all_success_only": 2.1072421941604722e-16,
+        "max_add_all_success_only": 5.530979517357311e-16
+      }
+    }
+  },
+  "verification": {
+    "status": "pass",
+    "numeric_comparisons": 1745,
+    "max_numeric_difference": 1.1114664744127367e-11,
+    "input_hashes": 49,
+    "output_hashes": 54,
+    "synthetic_pose_and_frame_composition": "pass",
+    "baseline_direct_opencv_reconstruction": "pass",
+    "heatmap_peak_and_resize_reconstruction": "pass",
+    "ransac_and_refinement_reconstruction": "pass",
+    "independent_homogeneous_metric_calculation": "pass",
+    "no_new_model_inference": true
+  },
+  "posthoc_selection": {
+    "scope": "post hoc saved-pose selection; evaluated on same 24 frames that prompted it",
+    "selection_access": [
+      "predicted 2D keypoints",
+      "privileged camera-frame 3D points",
+      "K",
+      "two saved pose estimates"
+    ],
+    "GT_2D_and_ADD_used_for_selection": false,
+    "new_detector_inferences": 0,
+    "new_fits": 0,
+    "successes": 24,
+    "failures": 0,
+    "mean_add_all": 0.016953693975975907,
+    "median_add_all": 0.014148901915925985,
+    "max_add_all": 0.04617920483989585,
+    "selected_robust": 7,
+    "lower_reprojection_but_higher_add_ids": [
+      "000775",
+      "001550",
+      "003617"
+    ],
+    "no_missing_inframe_keypoint": true
+  },
+  "case_diagnosis": [
+    {
+      "id": "001033",
+      "available": 7,
+      "inliers": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "keypoint_errors_px": [
+        5.234183055411207,
+        3.2865331696637927,
+        4.844680849996616,
+        2.406528105153789,
+        5.67140368781741,
+        1.2327287958365805,
+        3.5711698918923256
+      ],
+      "official_add": 0.018865397245824672,
+      "robust_add": 0.2581194307076888,
+      "ransac_unrefined_add": 0.24269524725714028,
+      "robust_minus_official": 0.2392540334618641,
+      "official_angle_deg": 0.30402921755804524,
+      "robust_angle_deg": 81.5060019706833,
+      "official_reprojection": 2.8770053019355046,
+      "robust_all_reprojection": 13.490715051699384,
+      "robust_inlier_reprojection": 6.731623547006169
+    },
+    {
+      "id": "001808",
+      "available": 7,
+      "inliers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "keypoint_errors_px": [
+        3.9738007265324233,
+        3.772719861724256,
+        4.175644283727082,
+        4.5580771917241565,
+        7.207613354512241,
+        4.107123273610951,
+        11.605220455673466
+      ],
+      "official_add": 0.31702736763837297,
+      "robust_add": 0.015698421768620473,
+      "ransac_unrefined_add": 0.014282926566758378,
+      "robust_minus_official": -0.3013289458697525,
+      "official_angle_deg": 103.07117645795799,
+      "robust_angle_deg": 3.809757836587048,
+      "official_reprojection": 10.280125838447598,
+      "robust_all_reprojection": 3.200550037382025,
+      "robust_inlier_reprojection": 2.530246224020743
+    },
+    {
+      "id": "002583",
+      "available": 5,
+      "inliers": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "keypoint_errors_px": [
+        4.564900995301564,
+        7.383827554969862,
+        8.287212410748632,
+        2.7598544105122826,
+        5.793722389115592,
+        null,
+        null
+      ],
+      "official_add": 0.04617920480197207,
+      "robust_add": 0.04617920483989585,
+      "ransac_unrefined_add": 0.02515510749080983,
+      "robust_minus_official": 3.792378217015724e-11,
+      "official_angle_deg": 5.22423215304161,
+      "robust_angle_deg": 5.224232157008319,
+      "official_reprojection": 2.818853627692846,
+      "robust_all_reprojection": 2.8188536277707055,
+      "robust_inlier_reprojection": 2.8188536277707055
+    }
+  ],
+  "unit_note": "Primary values are native annotation coordinates. The runtime metadata labels these as metres in DREAM convention; metric scale was not independently calibrated here, so no mm conversion or physical-accuracy claim is made.",
+  "annotation_note": "GT 2D is numerically the projection of the same GT 3D/K; near-zero oracle ADD checks consistency and is not independent annotation-accuracy evidence.",
+  "all_detected_inframe_correspondences": true,
+  "raw_artifact_sha256": {
+    "runs/q14/real_20260916_113000/observe/summary.json": "0e6c0cd41446e82c8a6332c683dde63692ecf074a3aec241ddbb18ef370a54ac",
+    "runs/q14/real_20260916_113000/observe/execution.json": "c56d1e4caa57c71caf86eaba5bc631874ef58e112477348129adf005a23fc8b5",
+    "runs/q14/real_20260916_113000/observe/input_manifest.json": "a416f5c71b40a73ed76ba6af5641755d8ec5d5595388f872aec4513c16f10631",
+    "runs/q14/real_20260916_113000/observe/output_manifest.json": "55ce254528297e6cdbf382339f0ec0d374adfff2e1b2c7634994f00a9865de85",
+    "runs/q14/real_20260916_113000/verify/verification.json": "d0b14ff1ac6b7ef0b1ff7500b2bc6322aff2178304cec7768d21582d3b541f0b",
+    "runs/q14/real_20260916_113000/verify/diagnosis.json": "5cb64719488eb2defe96e85412c75d4715bb837aca11d8b6466d912edb582043",
+    "runs/q14/real_20260916_113000/analyze/selection.json": "f528d7c62311a1e5361703960dbc16976fa07ab07b7822d5ccaf11f60a212d9d",
+    "runs/q14/real_20260916_113000/commands.jsonl": "c8b22f5b35afd541e4fd66059ce438277dcc3446a54e977fa4aa5d84a272e03f",
+    "runs/q14/real_20260916_113000/image.id": "fb18306aa4ed14f696ac3833f7a3cd76f86d9eba111ecd0d626c28cc90cf4d14",
+    "runs/q14/real_20260916_113000/correct/metrics.json": "d638c704add1c07c850ebeab1ba23483338dd0e0fc8c76e7b4ce33351cb65f25",
+    "runs/q14/real_20260916_113000/cleanup.json": "6710ab37fc03c0ebf3df72dc9208a87ddd0ee62eac2a6bed69f363c85c8732c7"
+  },
+  "payloads": [
+    {
+      "name": "source.zip",
+      "bytes": 194099,
+      "sha256": "36e08f1bdc69f6156357cd9fec7c4466dc8988b3cedb9caa6ff1941855634e79"
+    },
+    {
+      "name": "panda_dream_vgg_q.yaml",
+      "bytes": 1890,
+      "sha256": "bd93ac654d2acad3c7b8a11e536a11ec2a14d01df455683b02bcd5f10edcd961"
+    },
+    {
+      "name": "panda_dream_vgg_q.pth",
+      "bytes": 88892045,
+      "sha256": "b1f8cccb8d9eede9f3a4c924d56fb8591cdd039c8c5251f3e372804e257e9272"
+    },
+    {
+      "name": "panda-3cam_realsense.archive",
+      "bytes": 359107934,
+      "sha256": "ba67852bc7c032de9d3ead970b3b2ca26a1647c4282c1d9da3e9a9c8fc1b1af9"
+    }
+  ],
+  "no_new_training": true,
+  "model_inference_frames": 24,
+  "PaperReview_modified": false,
+  "diagnostic_correction": {
+    "status": "pass",
+    "numeric_checks": 672,
+    "new_model_inferences": 0,
+    "reason": "Original unused reprojection_all_mean_px included missing-point sentinels in 002583 official/robust; use null when full-point reprojection is unavailable and separately report available-point residual.",
+    "unchanged": "All poses, ADD, input-point residuals, oracle comparisons and post hoc selection.",
+    "path": "runs/q14/real_20260916_113000/correct/metrics.json"
+  },
+  "cleanup": {
+    "record": "runs/q14/real_20260916_113000/cleanup.json",
+    "removed_container_ids": [
+      "ac47df0486fcde59b4bedf5eb0d58aefd3576fc7d48a8adcde94748f0fd56ba1",
+      "102c79786906b733f00ba30eeb601d380dafab253a3257316339dadbe0f88279",
+      "afd3a57bd3425de27d426053926714c73ed4e82acedf996aa0fd6724790ff5d2",
+      "1cb03d7ae2efc0dbb8b0673760c0449f7d4debdd31a7f62e51d5686ac0646942"
+    ],
+    "other_assets_touched": false
+  }
+}

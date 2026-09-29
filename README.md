@@ -1,23 +1,22 @@
 # Research Workspace
 
-업데이트: 2026-09-11
+업데이트: 2026-09-28
 
 ## Current State
 
-현재 phase는 `research scoping active`이다. Active research scope는 Robotics이며
-3D Vision은 robot state estimation과 behavior에 기여하는 부차적 축으로 다룬다.
-Robotics와 cross-domain candidate 20개를 기록했다. Q12/Q13의 Stage 4–5 검토와 비교를 마치고,
-Q12의 CPU input/schema/coordinate protocol v1을 실제 네 쌍에 실행·독립 검증했다.
-입력 controls는 통과했으나 physical frame은 미확정이다. Q12는 `feasibility_study`,
-Q13은 `deferred`, Q14는 reserve다. Checkpoint strict loading 후
-[실제 네 입력의 CPU reference completion](buildup/robotics/pilot_studies/q12-generated-geometry/model/README.md#verified-completion-results-2026-09-11)을
-실행·독립 검증했다. Output provenance와 반복 재현성은 통과했으며 native CUDA 동등성과
-physical/camera 연결은 미검증이다. 다음은 이 연결 경로의 비용·정보 가치 비교다.
-종료된 후보들의 결과 요약은 아래 `literature/README.md`를 따른다.
-최신 선택 결정은
-[buildup/selection.md](buildup/selection.md), 종료된 연구 요약은
-[literature/README.md](literature/README.md)가 소유한다. 선택된 hypothesis,
-experiment와 paper claim은 아직 없다.
+현재 phase는 `research scoping active`이다. 사용자가 선택한 주 연구 범위는
+Robotics이며, 3D Vision은 robot behavior에 기여하는 부차적 축이다. Robotics와
+cross-domain의 candidate question 22개를 기록했다.
+
+최근 개발 후보 [Q16 Predictive Policy Adaptation](buildup/robotics/questions/interaction-conditioned-motion.md)의
+현재 2D 방법 경로는 [8-step 대 2-step 대조](buildup/robotics/pilot_studies/q16-motion/README.md#shorter-action-chunk-comparison-2026-09-27-prospective-protocol)에서
+순구제가 없고 비용이 늘어 보류했다. Can PH 자료의 행동 재생 경로도 사전 일치
+기준을 통과하지 못해 보류 중이다. 이는 예측 기반 적응 질문 전체의 반증이 아니다.
+[최신 선택](buildup/selection.md#q17-selection-2026-09-28)에
+따라 [Q17 Evidence-Conditioned Action Selection](buildup/robotics/questions/evidence-conditioned-action-selection.md)의
+작은 관찰을 다음으로 진행한다. 선택된 formal
+hypothesis, paper experiment 또는 contribution claim은 없다. 자세한 근거는
+[summary](summary.md)와 각 study owner가 소유한다.
 
 ## Research Pipeline
 
@@ -34,12 +33,16 @@ experiments/ paper-level scale, baselines, ablation, robustness, artifacts
 - 충분히 검증된 hypothesis만 `experiments/`로 넘겨 paper-level 작업을 한다.
 - 각 단계의 live 내용과 결과는 다음 단계나 다른 index에 중복하지 않는다.
 
+Buildup은 작은 관찰과 설명·방법 수정을 반복한다. [운영 기준](docs/buildup.md)을 따르며,
+최종 paper 기준은 유지한다. `paper/`는 최종 실험 완료 후 실제 논문 작성 시
+[일곱 조건](docs/paper.md#paper-folder-gate)을 모두 충족해 연다.
+
 ## Active Workspace
 
 | Path | Role |
 | --- | --- |
 | [AGENTS.md](AGENTS.md) | 작업 규칙, novelty discipline, Docker-only 원칙 |
-| [TODO.md](TODO.md) | 현재 상태와 다음 승인 경계 |
+| [TODO.md](TODO.md) | 현재 과제와 다음 작업 |
 | [summary.md](summary.md) | 현재 active research의 top-level summary |
 | [docs/](docs/) | buildup, literature, hypothesis, experiment, paper, reproducibility workflow |
 | [buildup/](buildup/) | research scope, candidate questions, related work, feasibility studies와 selection decision |
@@ -49,6 +52,6 @@ experiments/ paper-level scale, baselines, ablation, robustness, artifacts
 
 ## Next
 
-1. [Q12 출력 검증 결과](buildup/robotics/pilot_studies/q12-generated-geometry/model/README.md#verified-completion-results-2026-09-11)와 native CUDA parity·physical/camera 연결의 남은 비용을 비교해 후속 검증 또는 수정·보류를 판단한다.
-2. 진행 근거가 있는 경로만 다음 검증 protocol로 구체화한다.
-3. Entry To Hypothesis Formulation 조건을 충족하고 선택한 question만 `hypothesis/`로 넘긴다.
+ActiveArena의 첫 hidden-color 사례는 정보 획득 이전에서 멈춰,
+색 종류 확인 뒤 버튼 선택을 살필 대체 과업의 작은 관찰을 진행한다. 현재 작업은
+[TODO.md](TODO.md)를 따른다.

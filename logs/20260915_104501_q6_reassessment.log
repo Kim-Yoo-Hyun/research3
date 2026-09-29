@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-09-15T01:45:01.046627+00:00",
+  "checks": {
+    "scope": "host stdlib byte/hash, source AST and CSV/JSON metadata only; no method execution",
+    "q6_preservation_files": 28,
+    "q6_preservation_logs": 10,
+    "q6_raw_output_files": 22,
+    "q6_source_files": 265,
+    "q6_policy_payload_sha256_files": 2,
+    "new_source_files": 5,
+    "new_source_ast_files": 4,
+    "new_annotation_time_files": 37,
+    "query_rows": 639,
+    "empty_coordinate_and_tolerance_rows": 156,
+    "time_txt_csv_key_matches": 9,
+    "all_checks_passed": true,
+    "draft_correction": "An initial prose aggregate of 162 empty-coordinate rows failed validation; fresh CSV parsing and the prior per-file audit both give 156. Corrected prose; downloaded metadata unchanged."
+  }
+}
+{"documentation_validation": {"status": "passed", "checked_at_utc": "2026-09-15T01:46:24.866080+00:00", "documents": ["README.md", "TODO.md", "summary.md", "buildup/README.md", "buildup/robotics/README.md", "buildup/selection.md", "buildup/robotics/related_work/policy-geometry.md", "buildup/robotics/questions/temporal-mismatch-decomposition.md", "buildup/robotics/questions/spatial-memory-refresh.md", "docs/reproducibility.md"], "local_links": 241, "heading_targets": 128, "git_diff_check": "passed", "source_imports_or_experiment_tests": false}}

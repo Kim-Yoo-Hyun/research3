@@ -1,0 +1,11 @@
+# The parent image is built by this workspace from Dockerfile.sim-source.
+FROM research3-q17-sim:v3
+
+ENV PYTHONPATH=/sim:/vla
+
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN python -m pip install --no-cache-dir --retries 10 --timeout 180 \
+    websockets==16.1.1 \
+    msgpack==1.1.2

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "rows": 25650,
+  "train_rows": 19538,
+  "validation_rows": 2669,
+  "dataset_sha256": "fb67ce41d3f032cf70bb97120a246ded9def43d56e133f5b441038b3d2ce47f8"
+}

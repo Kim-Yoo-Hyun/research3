@@ -1,0 +1,402 @@
+{
+  "study": "Q16 collision-only PushCube feasibility",
+  "status": "verified exploratory observation",
+  "source_commit": "a4a4f9272ad64b1564035874b605ceb687b63ed8",
+  "native_goal_radius_m": 0.1,
+  "episode_steps": 50,
+  "image_id": "sha256:24d557c58ecd8fc6d5fe050a2219412c42d0d0a5cad432c60f8761a15639b9b1",
+  "teacher": {
+    "nominal_train": {
+      "n": 96,
+      "native_success": 96
+    },
+    "nominal_val": {
+      "n": 24,
+      "native_success": 24
+    },
+    "extra_train": {
+      "n": 32,
+      "native_success": 31
+    },
+    "extra_val": {
+      "n": 8,
+      "native_success": 8
+    }
+  },
+  "model_fit": {
+    "frozen_policy": {
+      "train_windows": 4128,
+      "val_windows": 1032,
+      "parameters": 202816,
+      "best_epoch": 60
+    },
+    "updated_policy": {
+      "train_windows": 5504,
+      "val_windows": 1376,
+      "parameters": 202816,
+      "best_epoch": 60
+    },
+    "dynamics": {
+      "train_windows": 5504,
+      "val_windows": 1376,
+      "parameters": 108592,
+      "best_epoch": 58
+    }
+  },
+  "dynamics_val_object_rmse_m": 0.00396514730527997,
+  "verification": {
+    "first": {
+      "episodes": 192,
+      "states": 9792,
+      "checked_checksums": 352
+    },
+    "revision": {
+      "episodes": 256,
+      "states": 13056,
+      "checked_checksums": 416
+    }
+  },
+  "evaluation": {
+    "eval1": {
+      "seed_start": 42000,
+      "seed_count": 16,
+      "groups": {
+        "nominal/feedback": {
+          "n": 16,
+          "successes": 16,
+          "mean_final_xy_error_m": 0.04559144261293113,
+          "median_final_xy_error_m": 0.04129680618643761,
+          "mean_latency_ms": 0.04210063721984625
+        },
+        "nominal/frozen": {
+          "n": 16,
+          "successes": 11,
+          "mean_final_xy_error_m": 0.07933575881179422,
+          "median_final_xy_error_m": 0.043206777423620224,
+          "mean_latency_ms": 0.9980291151441634
+        },
+        "nominal/replan1": {
+          "n": 16,
+          "successes": 6,
+          "mean_final_xy_error_m": 0.1298498691758141,
+          "median_final_xy_error_m": 0.16325531154870987,
+          "mean_latency_ms": 0.9532108914572746
+        },
+        "nominal/updated": {
+          "n": 16,
+          "successes": 12,
+          "mean_final_xy_error_m": 0.07255167292896658,
+          "median_final_xy_error_m": 0.041558608412742615,
+          "mean_latency_ms": 0.9939021966420114
+        },
+        "nominal/predictive": {
+          "n": 16,
+          "successes": 1,
+          "mean_final_xy_error_m": 0.17345163831487298,
+          "median_final_xy_error_m": 0.19518449902534485,
+          "mean_latency_ms": 1.182453976944089
+        },
+        "nominal/prediction_feedback": {
+          "n": 16,
+          "successes": 0,
+          "mean_final_xy_error_m": 0.17227246519178152,
+          "median_final_xy_error_m": 0.19421999901533127,
+          "mean_latency_ms": 1.177988036070019
+        },
+        "low_friction/feedback": {
+          "n": 16,
+          "successes": 16,
+          "mean_final_xy_error_m": 0.010491931352589745,
+          "median_final_xy_error_m": 0.007857002317905426,
+          "mean_latency_ms": 0.042294436134397984
+        },
+        "low_friction/frozen": {
+          "n": 16,
+          "successes": 11,
+          "mean_final_xy_error_m": 0.06923167454078794,
+          "median_final_xy_error_m": 0.03295411169528961,
+          "mean_latency_ms": 0.9995310963131487
+        },
+        "low_friction/replan1": {
+          "n": 16,
+          "successes": 6,
+          "mean_final_xy_error_m": 0.11621350742643699,
+          "median_final_xy_error_m": 0.1323806792497635,
+          "mean_latency_ms": 0.9533474943600595
+        },
+        "low_friction/updated": {
+          "n": 16,
+          "successes": 13,
+          "mean_final_xy_error_m": 0.05599096493097022,
+          "median_final_xy_error_m": 0.0318711819127202,
+          "mean_latency_ms": 0.9911348205059767
+        },
+        "low_friction/predictive": {
+          "n": 16,
+          "successes": 3,
+          "mean_final_xy_error_m": 0.1269512614235282,
+          "median_final_xy_error_m": 0.12928837537765503,
+          "mean_latency_ms": 1.1677133664488792
+        },
+        "low_friction/prediction_feedback": {
+          "n": 16,
+          "successes": 4,
+          "mean_final_xy_error_m": 0.12720827106386423,
+          "median_final_xy_error_m": 0.1278945691883564,
+          "mean_latency_ms": 1.1863123369403183
+        }
+      },
+      "paired": {
+        "nominal": {
+          "feedback": {
+            "rescued": 5,
+            "harmed": 0,
+            "unchanged": 11
+          },
+          "replan1": {
+            "rescued": 0,
+            "harmed": 5,
+            "unchanged": 11
+          },
+          "updated": {
+            "rescued": 1,
+            "harmed": 0,
+            "unchanged": 15
+          },
+          "predictive": {
+            "rescued": 0,
+            "harmed": 10,
+            "unchanged": 6
+          },
+          "prediction_feedback": {
+            "rescued": 0,
+            "harmed": 11,
+            "unchanged": 5
+          }
+        },
+        "low_friction": {
+          "feedback": {
+            "rescued": 5,
+            "harmed": 0,
+            "unchanged": 11
+          },
+          "replan1": {
+            "rescued": 0,
+            "harmed": 5,
+            "unchanged": 11
+          },
+          "updated": {
+            "rescued": 2,
+            "harmed": 0,
+            "unchanged": 14
+          },
+          "predictive": {
+            "rescued": 3,
+            "harmed": 11,
+            "unchanged": 2
+          },
+          "prediction_feedback": {
+            "rescued": 3,
+            "harmed": 10,
+            "unchanged": 3
+          }
+        }
+      }
+    },
+    "eval2": {
+      "seed_start": 42016,
+      "seed_count": 16,
+      "groups": {
+        "nominal/feedback": {
+          "n": 16,
+          "successes": 16,
+          "mean_final_xy_error_m": 0.04864676552824676,
+          "median_final_xy_error_m": 0.041301971301436424,
+          "mean_latency_ms": 0.04290996119379997
+        },
+        "nominal/frozen": {
+          "n": 16,
+          "successes": 13,
+          "mean_final_xy_error_m": 0.06487593171186745,
+          "median_final_xy_error_m": 0.044391559436917305,
+          "mean_latency_ms": 0.9865002986043692
+        },
+        "nominal/replan1": {
+          "n": 16,
+          "successes": 7,
+          "mean_final_xy_error_m": 0.12174097215756774,
+          "median_final_xy_error_m": 0.14850762486457825,
+          "mean_latency_ms": 0.9526221896521747
+        },
+        "nominal/updated": {
+          "n": 16,
+          "successes": 13,
+          "mean_final_xy_error_m": 0.0696035111322999,
+          "median_final_xy_error_m": 0.040597086772322655,
+          "mean_latency_ms": 0.9915280621498823
+        },
+        "nominal/predictive": {
+          "n": 16,
+          "successes": 4,
+          "mean_final_xy_error_m": 0.14161265827715397,
+          "median_final_xy_error_m": 0.13109439611434937,
+          "mean_latency_ms": 1.168722533620894
+        },
+        "nominal/prediction_feedback": {
+          "n": 16,
+          "successes": 3,
+          "mean_final_xy_error_m": 0.140922914724797,
+          "median_final_xy_error_m": 0.12680594623088837,
+          "mean_latency_ms": 1.1738443397916853
+        },
+        "nominal/contact_gated": {
+          "n": 16,
+          "successes": 6,
+          "mean_final_xy_error_m": 0.10674225213006139,
+          "median_final_xy_error_m": 0.12014706805348396,
+          "mean_latency_ms": 1.1408429150469601
+        },
+        "nominal/contact_gated_feedback": {
+          "n": 16,
+          "successes": 5,
+          "mean_final_xy_error_m": 0.11814030644018203,
+          "median_final_xy_error_m": 0.13514373824000359,
+          "mean_latency_ms": 1.1246294970624149
+        },
+        "low_friction/feedback": {
+          "n": 16,
+          "successes": 16,
+          "mean_final_xy_error_m": 0.020917774658300914,
+          "median_final_xy_error_m": 0.01593283610418439,
+          "mean_latency_ms": 0.0408642808906734
+        },
+        "low_friction/frozen": {
+          "n": 16,
+          "successes": 13,
+          "mean_final_xy_error_m": 0.05713926278986037,
+          "median_final_xy_error_m": 0.03689357452094555,
+          "mean_latency_ms": 1.004587730858475
+        },
+        "low_friction/replan1": {
+          "n": 16,
+          "successes": 7,
+          "mean_final_xy_error_m": 0.11131010763347149,
+          "median_final_xy_error_m": 0.14856382459402084,
+          "mean_latency_ms": 0.9490173554513603
+        },
+        "low_friction/updated": {
+          "n": 16,
+          "successes": 13,
+          "mean_final_xy_error_m": 0.05731460580136627,
+          "median_final_xy_error_m": 0.03198723588138819,
+          "mean_latency_ms": 0.9804183314554393
+        },
+        "low_friction/predictive": {
+          "n": 16,
+          "successes": 2,
+          "mean_final_xy_error_m": 0.1302571352571249,
+          "median_final_xy_error_m": 0.12751823663711548,
+          "mean_latency_ms": 1.1990079726092517
+        },
+        "low_friction/prediction_feedback": {
+          "n": 16,
+          "successes": 2,
+          "mean_final_xy_error_m": 0.1346033327281475,
+          "median_final_xy_error_m": 0.12838537991046906,
+          "mean_latency_ms": 1.1850005318410695
+        },
+        "low_friction/contact_gated": {
+          "n": 16,
+          "successes": 6,
+          "mean_final_xy_error_m": 0.11105386761482805,
+          "median_final_xy_error_m": 0.10267353057861328,
+          "mean_latency_ms": 1.1224988149479032
+        },
+        "low_friction/contact_gated_feedback": {
+          "n": 16,
+          "successes": 9,
+          "mean_final_xy_error_m": 0.09328574128448963,
+          "median_final_xy_error_m": 0.09653616324067116,
+          "mean_latency_ms": 1.1585425795055926
+        }
+      },
+      "paired": {
+        "nominal": {
+          "feedback": {
+            "rescued": 3,
+            "harmed": 0,
+            "unchanged": 13
+          },
+          "replan1": {
+            "rescued": 0,
+            "harmed": 6,
+            "unchanged": 10
+          },
+          "updated": {
+            "rescued": 0,
+            "harmed": 0,
+            "unchanged": 16
+          },
+          "predictive": {
+            "rescued": 1,
+            "harmed": 10,
+            "unchanged": 5
+          },
+          "prediction_feedback": {
+            "rescued": 1,
+            "harmed": 11,
+            "unchanged": 4
+          },
+          "contact_gated": {
+            "rescued": 0,
+            "harmed": 7,
+            "unchanged": 9
+          },
+          "contact_gated_feedback": {
+            "rescued": 0,
+            "harmed": 8,
+            "unchanged": 8
+          }
+        },
+        "low_friction": {
+          "feedback": {
+            "rescued": 3,
+            "harmed": 0,
+            "unchanged": 13
+          },
+          "replan1": {
+            "rescued": 0,
+            "harmed": 6,
+            "unchanged": 10
+          },
+          "updated": {
+            "rescued": 0,
+            "harmed": 0,
+            "unchanged": 16
+          },
+          "predictive": {
+            "rescued": 1,
+            "harmed": 12,
+            "unchanged": 3
+          },
+          "prediction_feedback": {
+            "rescued": 1,
+            "harmed": 12,
+            "unchanged": 3
+          },
+          "contact_gated": {
+            "rescued": 0,
+            "harmed": 7,
+            "unchanged": 9
+          },
+          "contact_gated_feedback": {
+            "rescued": 1,
+            "harmed": 5,
+            "unchanged": 10
+          }
+        }
+      }
+    }
+  },
+  "claim_boundary": "Full-state single-shape feasibility only; no positive prediction-correction, data-efficiency, visual or generality claim."
+}

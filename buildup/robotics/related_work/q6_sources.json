@@ -1,0 +1,250 @@
+{
+  "id": "q6-stage4-5-20260915",
+  "checked_at": "2026-09-14T16:06:26.502284+00:00",
+  "scope": "literature, source, level JSON metadata and measurement design; no numerical method execution",
+  "previous_receipt": "comparison_sources.json",
+  "repositories": [
+    {
+      "repo": "Physical-Intelligence/real-time-chunking-kinetix",
+      "commit": "9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b",
+      "tree_truncated": false
+    },
+    {
+      "repo": "FlairOx/Kinetix",
+      "commit": "cf7453ea103fa0b77348af1a39f689c658161613",
+      "tree_truncated": false
+    }
+  ],
+  "source_files": [
+    {
+      "repo": "Physical-Intelligence/real-time-chunking-kinetix",
+      "commit": "9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b",
+      "path": "worlds/l/grasp_easy.json",
+      "url": "https://raw.githubusercontent.com/Physical-Intelligence/real-time-chunking-kinetix/9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b/worlds/l/grasp_easy.json",
+      "cache": "/tmp/research3-q6-review-20260915/rtc_worlds_l_grasp_easy.json",
+      "bytes": 52287,
+      "sha256": "a1d41d62a35234ba2a1874d05a8a9a386bb35c4664fcf53d047fd7799e0071a5",
+      "git_blob_sha1": "7c5cc0e6584ae3f9500b5a226f1048866515f3a2"
+    },
+    {
+      "repo": "Physical-Intelligence/real-time-chunking-kinetix",
+      "commit": "9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b",
+      "path": "worlds/l/catcher_v3.json",
+      "url": "https://raw.githubusercontent.com/Physical-Intelligence/real-time-chunking-kinetix/9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b/worlds/l/catcher_v3.json",
+      "cache": "/tmp/research3-q6-review-20260915/rtc_worlds_l_catcher_v3.json",
+      "bytes": 112795,
+      "sha256": "295e345ba2ae4933f60ed68f9fb02388075eef91fec748a892710d098cd652a3",
+      "git_blob_sha1": "ea58de9d619176f50031c0821f97db77c208843a"
+    },
+    {
+      "repo": "Physical-Intelligence/real-time-chunking-kinetix",
+      "commit": "9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b",
+      "path": "uv.lock",
+      "url": "https://raw.githubusercontent.com/Physical-Intelligence/real-time-chunking-kinetix/9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b/uv.lock",
+      "cache": "/tmp/research3-q6-review-20260915/rtc_uv.lock",
+      "bytes": 241509,
+      "sha256": "18a9eba93c55f905976ea199d3c72560bbf25693f948d1f4d4b0602ebe97e2f5",
+      "git_blob_sha1": "abdb40970c2a5a2261547f65843a0657dc00c69a"
+    },
+    {
+      "repo": "FlairOx/Kinetix",
+      "commit": "cf7453ea103fa0b77348af1a39f689c658161613",
+      "path": "kinetix/environment/env.py",
+      "url": "https://raw.githubusercontent.com/FlairOx/Kinetix/cf7453ea103fa0b77348af1a39f689c658161613/kinetix/environment/env.py",
+      "cache": "/tmp/research3-q6-review-20260915/kinetix_kinetix_environment_env.py",
+      "bytes": 31318,
+      "sha256": "fa05bedd4a3164e7219f91ce5ac8d0f928133371fd5fa18eafbec03ea734bf15",
+      "git_blob_sha1": "7e2689975694fdbb917a16a01003fed8a44d60a1"
+    },
+    {
+      "repo": "FlairOx/Kinetix",
+      "commit": "cf7453ea103fa0b77348af1a39f689c658161613",
+      "path": "kinetix/environment/env_state.py",
+      "url": "https://raw.githubusercontent.com/FlairOx/Kinetix/cf7453ea103fa0b77348af1a39f689c658161613/kinetix/environment/env_state.py",
+      "cache": "/tmp/research3-q6-review-20260915/kinetix_kinetix_environment_env_state.py",
+      "bytes": 948,
+      "sha256": "7ea88302ffc091e2314a3c5e09f7c76bbc754468d5e28f6447c12f518335d3ea",
+      "git_blob_sha1": "34b630e60d9a7ecd960c32242849c6e123892763"
+    },
+    {
+      "repo": "FlairOx/Kinetix",
+      "commit": "cf7453ea103fa0b77348af1a39f689c658161613",
+      "path": "kinetix/environment/wrappers.py",
+      "url": "https://raw.githubusercontent.com/FlairOx/Kinetix/cf7453ea103fa0b77348af1a39f689c658161613/kinetix/environment/wrappers.py",
+      "cache": "/tmp/research3-q6-review-20260915/kinetix_kinetix_environment_wrappers.py",
+      "bytes": 11932,
+      "sha256": "b3e86d334b443f90c8a732f3a44560231959da4f3602880d40c80a2ab8740937",
+      "git_blob_sha1": "047f72a1bca764e1b8b08db3b9be7484a730a121"
+    },
+    {
+      "repo": "FlairOx/Kinetix",
+      "commit": "cf7453ea103fa0b77348af1a39f689c658161613",
+      "path": "kinetix/util/saving.py",
+      "url": "https://raw.githubusercontent.com/FlairOx/Kinetix/cf7453ea103fa0b77348af1a39f689c658161613/kinetix/util/saving.py",
+      "cache": "/tmp/research3-q6-review-20260915/kinetix_kinetix_util_saving.py",
+      "bytes": 22440,
+      "sha256": "f5ef9dce9fb8f12bc6c725d3f247a909bf3111c96cbc43977af8a22adaa88298",
+      "git_blob_sha1": "e3291a58da66fab041eb3b0e47fd7e7420830010"
+    },
+    {
+      "repo": "FlairOx/Kinetix",
+      "commit": "cf7453ea103fa0b77348af1a39f689c658161613",
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/FlairOx/Kinetix/cf7453ea103fa0b77348af1a39f689c658161613/pyproject.toml",
+      "cache": "/tmp/research3-q6-review-20260915/kinetix_pyproject.toml",
+      "bytes": 1186,
+      "sha256": "f7b66c40d19e98e240985c6f6f5c32422a4d7077e85276cff13a0eaa92540bd3",
+      "git_blob_sha1": "a1ef0201a3afe6bda8a6c86adc149d6c43f311d2"
+    },
+    {
+      "repo": "Physical-Intelligence/real-time-chunking-kinetix",
+      "commit": "9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b",
+      "path": "src/train_expert.py",
+      "url": "https://raw.githubusercontent.com/Physical-Intelligence/real-time-chunking-kinetix/9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b/src/train_expert.py",
+      "cache": "/tmp/research3-q6-review-20260915/rtc_train_expert.py",
+      "bytes": 22682,
+      "sha256": "47b72a15303f6030db425480a616c2de1c0e8fad1fdd6a70958cca73a6a19b70",
+      "git_blob_sha1": "f7f882849fcc310fe2d00563e58a774d4a5c8650"
+    }
+  ],
+  "web_sources": [
+    {
+      "title": "RTC",
+      "url": "https://arxiv.org/html/2506.07339v1",
+      "scope": "Algorithm 1 and simulation setup; causal estimator and asynchronous switch",
+      "full_local_snapshot": false
+    },
+    {
+      "title": "REMAC",
+      "url": "https://arxiv.org/html/2601.20130v1",
+      "scope": "Section 3, Appendix F; fixed true simulation delay vs corrupted inputs; real delay variation",
+      "full_local_snapshot": false
+    },
+    {
+      "title": "REMAC version history",
+      "url": "https://arxiv.org/abs/2601.20130",
+      "scope": "v1 only listed at access time; final PDF not verified",
+      "full_local_snapshot": false
+    },
+    {
+      "title": "Training-Time RTC",
+      "url": "https://arxiv.org/html/2512.05964v1",
+      "scope": "training-time prefix conditioning; not a released-base checkpoint claim",
+      "full_local_snapshot": false
+    },
+    {
+      "title": "Action-Prior Denoising for Smooth Real-Time Chunking",
+      "url": "https://arxiv.org/html/2605.25537v1",
+      "scope": "Section V and runtime comparison; fixed s=4, d=0..4, five flow steps",
+      "full_local_snapshot": false
+    },
+    {
+      "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
+      "url": "https://arxiv.org/html/2608.00337v1",
+      "scope": "Appendix A.6 independent lognormal link delays; Appendix A.8 boundary-index confounding",
+      "full_local_snapshot": false
+    },
+    {
+      "title": "Understanding Asynchronous Inference Methods for Vision-Language-Action Models",
+      "url": "https://arxiv.org/html/2605.08168v1",
+      "scope": "Section 3 and limitations: fixed integer delay; oracle-state and time-to-solve boundaries",
+      "full_local_snapshot": false
+    },
+    {
+      "title": "VLASH",
+      "url": "https://arxiv.org/html/2512.01031v1",
+      "scope": "Section 5.1.1 fixed-delay Kinetix setting and future-state conditioning",
+      "full_local_snapshot": false
+    },
+    {
+      "title": "CloudEdgeVLA",
+      "url": "https://arxiv.org/html/2608.00569v1",
+      "scope": "Evaluation conditions and Appendix latency protocol: sampled observation age, current proprioception",
+      "full_local_snapshot": false
+    },
+    {
+      "title": "Predictive control for networked systems affected by correlated packet loss",
+      "url": "https://www.eng.newcastle.edu.au/~mf140/home/Papers/IJRNC_2017_2.pdf",
+      "scope": "Abstract/introduction: correlated loss, history-aware control; not identical to bounded action inference delay",
+      "full_local_snapshot": false
+    }
+  ],
+  "version_access_limitations": [
+    {
+      "url": "https://openreview.net/forum?id=r0RGJ1j9on",
+      "result": "browser challenge"
+    },
+    {
+      "url": "https://openreview.net/pdf/a5202f5021ad815a7b54e5023b2677dbd57b667f.pdf",
+      "result": "browser challenge; search-index text not used as verified final paper"
+    },
+    {
+      "url": "https://api2.openreview.net/notes?id=r0RGJ1j9on",
+      "result": "HTTP 403"
+    }
+  ],
+  "checkpoints": [
+    {
+      "level": "grasp_easy",
+      "name": "bc/31/policies/worlds_l_grasp_easy.pkl",
+      "url": "https://storage.googleapis.com/rtc-assets/bc/31/policies/worlds_l_grasp_easy.pkl?generation=1753991740812919",
+      "generation": "1753991740812919",
+      "bytes": 12290914,
+      "listed_md5_base64": "VNLdwqohsp052EKbU9LLDg==",
+      "listed_crc32c_base64": "tb6/Ng==",
+      "verified_scope": "prior listing/HEAD metadata only; checkpoint not downloaded or loaded"
+    },
+    {
+      "level": "catcher_v3",
+      "name": "bc/31/policies/worlds_l_catcher_v3.pkl",
+      "url": "https://storage.googleapis.com/rtc-assets/bc/31/policies/worlds_l_catcher_v3.pkl?generation=1753991740809092",
+      "generation": "1753991740809092",
+      "bytes": 12290914,
+      "listed_md5_base64": "D9l/UYq5yV5simp3718YKQ==",
+      "listed_crc32c_base64": "RC92LA==",
+      "verified_scope": "prior listing/HEAD metadata only; checkpoint not downloaded or loaded"
+    }
+  ],
+  "execution": {
+    "Docker": false,
+    "method_import": false,
+    "weights_download": false,
+    "training": false,
+    "level_json_source_downloads": 2
+  },
+  "validation": {
+    "new_source_blob_hashes": "PASS",
+    "new_source_files": 9,
+    "source_ast_parse": "PASS",
+    "checkpoint_schema": "UNVERIFIED",
+    "terminal_numeric_semantics": "UNVERIFIED"
+  },
+  "previous_receipt_sha256": "f29929b9bf98da3159c81b9a5a392d97bc76e9f07c890f32758b66e289eda695",
+  "additional_tree_receipt": {
+    "url": "https://api.github.com/repos/FlairOx/Kinetix/git/trees/cf7453ea103fa0b77348af1a39f689c658161613?recursive=1",
+    "cache": "/tmp/research3-q6-review-20260915/kinetix_tree.json",
+    "bytes": 50103,
+    "sha256": "029ece89b2c15abddb9edafcda62266b53b3aad35c7bd602e62aae56f8806c82",
+    "truncated": false
+  },
+  "closing_verification": {
+    "markdown_files": 17,
+    "local_links": 347,
+    "heading_targets": 153,
+    "errors": [],
+    "new_sources": 9,
+    "new_source_bytes": 497097,
+    "prior_cache_files": 21,
+    "q12_freeze_files_unchanged": 8,
+    "q12_scope": "freeze bytes only; no re-evaluation or full frozen-entry validation",
+    "pilot_arithmetic": {
+      "heldout_records": 2048,
+      "max_scored_control_steps": 524288,
+      "readiness_records": 140
+    },
+    "checked_at": "2026-09-15T01:14:28.076663+09:00",
+    "git_diff_check": "PASS",
+    "scope": "documentation and source/metadata identity checks; no numerical method execution",
+    "log": "logs/20260915_011428_q6_design.log"
+  }
+}

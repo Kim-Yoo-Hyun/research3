@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "assessment_sha256": "00e270361c4f5c064fa72728904d6f6a00fc2b0dd5beb8655a3d0ae68e476f16",
+  "cases": [
+    {
+      "seed": 48007,
+      "selected": "y_minus",
+      "repeat_drift": 1.1102230246251565e-16,
+      "bc": 0.39616529268546014,
+      "feedback": 0.42374991512128585,
+      "model": 0.42374991512128585
+    },
+    {
+      "seed": 48010,
+      "selected": "x_plus",
+      "repeat_drift": 1.6653345369377348e-16,
+      "bc": 0.37135788828428495,
+      "feedback": 0.3449038886131883,
+      "model": 0.35106145946399436
+    }
+  ],
+  "checked_candidates": 12,
+  "checked_traces": 14
+}

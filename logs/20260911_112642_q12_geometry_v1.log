@@ -1,0 +1,9 @@
+sha256:0196da1a3a01ca07186c5c2c605d7e8993193ca810b2b6401dc95943dc0b0adb
+Frozen source identity verified
+pybullet build time: Jan 29 2025 23:17:20
+{"id": "003_cracker_box_v0", "object": "003_cracker_box", "view_index": 0}
+{"id": "003_cracker_box_v1", "object": "003_cracker_box", "view_index": 1}
+{"id": "025_mug_v0", "object": "025_mug", "view_index": 0, "error": "AssertionError: mesh solid topology unresolved"}
+{"id": "025_mug_v1", "object": "025_mug", "view_index": 1, "error": "AssertionError: mesh solid topology unresolved"}
+{"decision": "REFINE_LINKAGE", "cases": 2, "errors": 2}
+Verification decision: REFINE_LINKAGE

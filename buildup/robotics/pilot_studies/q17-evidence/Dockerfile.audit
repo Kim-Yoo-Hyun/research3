@@ -1,0 +1,9 @@
+FROM python:3.10.16-slim-bookworm
+
+RUN python -m pip install --no-cache-dir \
+    pyarrow==20.0.0 \
+    PyYAML==6.0.2
+
+WORKDIR /analysis
+COPY audit.py /analysis/audit.py
+ENTRYPOINT ["python", "-u", "/analysis/audit.py"]

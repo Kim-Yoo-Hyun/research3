@@ -1,0 +1,333 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.8.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+INFO: Vulkan Loader Version 1.3.204
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version ԣu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version ֣u[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version գu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/explicit_layer.d
+LAYER:       /etc/xdg/vulkan/explicit_layer.d
+LAYER:       /etc/vulkan/explicit_layer.d
+LAYER:       /root/.local/share/vulkan/explicit_layer.d
+LAYER:       /usr/local/share/vulkan/explicit_layer.d
+LAYER:       /usr/share/vulkan/explicit_layer.d
+LAYER:    Found no files
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version գu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version գu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/explicit_layer.d
+LAYER:       /etc/xdg/vulkan/explicit_layer.d
+LAYER:       /etc/vulkan/explicit_layer.d
+LAYER:       /root/.local/share/vulkan/explicit_layer.d
+LAYER:       /usr/local/share/vulkan/explicit_layer.d
+LAYER:       /usr/share/vulkan/explicit_layer.d
+LAYER:    Found no files
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version գu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version ԣu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/explicit_layer.d
+LAYER:       /etc/xdg/vulkan/explicit_layer.d
+LAYER:       /etc/vulkan/explicit_layer.d
+LAYER:       /root/.local/share/vulkan/explicit_layer.d
+LAYER:       /usr/local/share/vulkan/explicit_layer.d
+LAYER:       /usr/share/vulkan/explicit_layer.d
+LAYER:    Found no files
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version ֣u[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version գu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/explicit_layer.d
+LAYER:       /etc/xdg/vulkan/explicit_layer.d
+LAYER:       /etc/vulkan/explicit_layer.d
+LAYER:       /root/.local/share/vulkan/explicit_layer.d
+LAYER:       /usr/local/share/vulkan/explicit_layer.d
+LAYER:       /usr/share/vulkan/explicit_layer.d
+LAYER:    Found no files
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version գu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version ֣u[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/explicit_layer.d
+LAYER:       /etc/xdg/vulkan/explicit_layer.d
+LAYER:       /etc/vulkan/explicit_layer.d
+LAYER:       /root/.local/share/vulkan/explicit_layer.d
+LAYER:       /usr/local/share/vulkan/explicit_layer.d
+LAYER:       /usr/share/vulkan/explicit_layer.d
+LAYER:    Found no files
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version գu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version գu[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/explicit_layer.d
+LAYER:       /etc/xdg/vulkan/explicit_layer.d
+LAYER:       /etc/vulkan/explicit_layer.d
+LAYER:       /root/.local/share/vulkan/explicit_layer.d
+LAYER:       /usr/local/share/vulkan/explicit_layer.d
+LAYER:       /usr/share/vulkan/explicit_layer.d
+LAYER:    Found no files
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version ԣu[
+DRIVER: Searching for driver manifest files
+DRIVER:    In following folders:
+DRIVER:       /etc/vulkan/icd.d/nvidia_icd.json
+DRIVER:    Found the following files:
+DRIVER:       /etc/vulkan/icd.d/nvidia_icd.json
+INFO: Found ICD manifest file /etc/vulkan/icd.d/nvidia_icd.json, version "1.0.1"
+DEBUG: Searching for ICD drivers named libGLX_nvidia.so.0
+ERROR: loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+DRIVER: Searching for driver manifest files
+DRIVER:    In following folders:
+DRIVER:       /etc/vulkan/icd.d/nvidia_icd.json
+DRIVER:    Found the following files:
+DRIVER:       /etc/vulkan/icd.d/nvidia_icd.json
+INFO: Found ICD manifest file /etc/vulkan/icd.d/nvidia_icd.json, version "1.0.1"
+DEBUG: Searching for ICD drivers named libGLX_nvidia.so.0
+ERROR: loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+DEBUG: Build ICD instance extension list
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version 9�u[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version 8�u[
+DRIVER: Searching for driver manifest files
+DRIVER:    In following folders:
+DRIVER:       /etc/vulkan/icd.d/nvidia_icd.json
+DRIVER:    Found the following files:
+DRIVER:       /etc/vulkan/icd.d/nvidia_icd.json
+INFO: Found ICD manifest file /etc/vulkan/icd.d/nvidia_icd.json, version "1.0.1"
+DEBUG: Searching for ICD drivers named libGLX_nvidia.so.0
+ERROR: loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+DEBUG: Build ICD instance extension list
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version 9�u[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/implicit_layer.d
+LAYER:       /etc/xdg/vulkan/implicit_layer.d
+LAYER:       /etc/vulkan/implicit_layer.d
+LAYER:       /root/.local/share/vulkan/implicit_layer.d
+LAYER:       /usr/local/share/vulkan/implicit_layer.d
+LAYER:       /usr/share/vulkan/implicit_layer.d
+LAYER:    Found the following files:
+LAYER:       /etc/vulkan/implicit_layer.d/nvidia_layers.json
+INFO: Found manifest file /etc/vulkan/implicit_layer.d/nvidia_layers.json (file version "1.0.1")
+WARNING | LAYER: loader_add_layer_properties: 'layers' tag not supported until file version 1.0.1, but /etc/vulkan/implicit_layer.d/nvidia_layers.json is reporting version :�u[
+LAYER: Searching for layer manifest files
+LAYER:    In following folders:
+LAYER:       /root/.config/vulkan/explicit_layer.d
+LAYER:       /etc/xdg/vulkan/explicit_layer.d
+LAYER:       /etc/vulkan/explicit_layer.d
+LAYER:       /root/.local/share/vulkan/explicit_layer.d
+LAYER:       /usr/local/share/vulkan/explicit_layer.d
+LAYER:       /usr/share/vulkan/explicit_layer.d
+LAYER:    Found no files
+DRIVER: Searching for driver manifest files
+DRIVER:    In following folders:
+DRIVER:       /etc/vulkan/icd.d/nvidia_icd.json
+DRIVER:    Found the following files:
+DRIVER:       /etc/vulkan/icd.d/nvidia_icd.json
+INFO: Found ICD manifest file /etc/vulkan/icd.d/nvidia_icd.json, version "1.0.1"
+DEBUG: Searching for ICD drivers named libGLX_nvidia.so.0
+ERROR: [Loader Message] Code 0 : loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+ERROR: loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+Cannot create Vulkan instance.
+This problem is often caused by a faulty installation of the Vulkan driver or attempting to use a GPU that does not support Vulkan.
+ERROR at ./vulkaninfo/vulkaninfo.h:649:vkCreateInstance failed with ERROR_INCOMPATIBLE_DRIVER

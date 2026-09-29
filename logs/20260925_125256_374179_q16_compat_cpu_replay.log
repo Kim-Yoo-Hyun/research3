@@ -1,0 +1,29 @@
+/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Traceback (most recent call last):
+  File "/study/compat_replay.py", line 147, in <module>
+    replay(args.attempt, args.count)
+  File "/study/compat_replay.py", line 45, in replay
+    env = make_env('push_t')
+          ^^^^^^^^^^^^^^^^^^
+  File "/study/compat_env.py", line 92, in make_env
+    return gym.make(uid, num_envs=1, obs_mode='none', reward_mode='none',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/gymnasium/envs/registration.py", line 802, in make
+    env = env_creator(**env_spec_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/utils/registration.py", line 182, in make
+    env = env_spec.make(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/utils/registration.py", line 79, in make
+    return self.cls(**_kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/tasks/tabletop/push_t.py", line 122, in __init__
+    super().__init__(*args, robot_uids=robot_uids, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/sapien_env.py", line 236, in __init__
+    self.sim_backend = parse_sim_and_render_backend(sim_backend, render_backend)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/utils/system/backend.py", line 42, in parse_sim_and_render_backend
+    render_backend = render_backend_name_mapping[render_backend]
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'none'

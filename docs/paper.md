@@ -1,6 +1,6 @@
 # Paper Workflow
 
-Updated: 2026-09-01
+Updated: 2026-09-15
 
 이 문서는 특정 claim ledger가 아니라 `experiments/`의 paper-level 작업을
 top-tier paper로 구성하는 판단 규칙을 관리한다.
@@ -11,7 +11,9 @@ top-tier paper로 구성하는 판단 규칙을 관리한다.
 - `buildup/`과 `hypothesis/`는 paper-level result를 만드는 단계가 아니다.
 - `docs/hypothesis.md`의 gate를 통과한 work만 `experiments/`에서 scaled
   evidence, ablation, robustness와 reproducibility를 구축한다.
-- `paper/`는 thesis, main result table, method figure, target venue, claim-evidence ledger가 concrete해질 때만 만든다.
+- `paper/`는 최종 실험을 모두 마치고 실제 논문을 작성할 때만 만든다.
+  아래 Paper Folder Gate의 일곱 조건을 모두 충족해야 한다. 그 전의 method sketch,
+  table/figure 준비와 claim 검토는 현재 buildup/hypothesis/experiment owner에 둔다.
 
 ## Claim Construction
 
@@ -27,6 +29,9 @@ top-tier paper로 구성하는 판단 규칙을 관리한다.
 `we propose`를 지워도 남는 mechanism insight가 없으면 contribution으로 승격하지 않는다.
 
 ## Promotion Gates
+
+아래 최종 paper 기준은 유지한다. Buildup의 아이디어 등록·첫 관찰이나 hypothesis 초안의
+진입 조건으로 앞당기지 않는다.
 
 | Gate | Minimum evidence |
 | --- | --- |
@@ -64,7 +69,8 @@ top-tier paper로 구성하는 판단 규칙을 관리한다.
 
 ## Paper Folder Gate
 
-다음이 모두 준비되기 전에는 `paper/`를 만들지 않는다.
+최종 실험을 모두 마쳤고 실제 paper 작성에 들어갈 때, 다음이 모두 준비되어 있어야
+`paper/`를 만든다. 계획만으로 생성하거나 일부 조건만 갖춘 채 미리 열지 않는다.
 
 - stable one-sentence thesis
 - failure-derived method

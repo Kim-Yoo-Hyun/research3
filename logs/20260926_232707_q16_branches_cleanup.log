@@ -1,0 +1,24 @@
+{
+  "removed": [
+    {
+      "id": "e88d0ddec6ee21c7304cc61a1ca5562f9ba8ff02cf3fe03132d5dfd9832917e2",
+      "name": "research3-q16-branches-fit-20260926_232136_464551",
+      "job": "/home/yoohyun/research3/runs/q16/branches/jobs/20260926_232136_464551_fit.json"
+    },
+    {
+      "id": "7415c17905c9f5ccf32d412cabbd61682b1e709b29a02f6f9704a52730a1866e",
+      "name": "research3-q16-branches-diagnose-20260926_232202_894163",
+      "job": "/home/yoohyun/research3/runs/q16/branches/jobs/20260926_232202_894163_diagnose.json"
+    },
+    {
+      "id": "63e05d086c4925895989480695b257a59908ccac865e6c09220be3c6ef88c0e3",
+      "name": "research3-q16-branches-diagnose-20260926_232350_558804",
+      "job": "/home/yoohyun/research3/runs/q16/branches/jobs/20260926_232350_558804_diagnose.json"
+    },
+    {
+      "id": "3190e716bb325cf06b90ed9f9348a551a8a7fbdf27f89bad695b5c307fb35954",
+      "name": "research3-q16-branches-diagnose-20260926_232546_221001",
+      "job": "/home/yoohyun/research3/runs/q16/branches/jobs/20260926_232546_221001_diagnose.json"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Hypotheses
 
-Updated: 2026-09-01
+Updated: 2026-09-15
 
 ## Role
 
@@ -21,12 +21,13 @@ validation을 수행하는 유일한 저장 위치다.
 
 ## Active Gate
 
-없음. 현재 research scope가 정해지지 않았으며 `buildup/`에
-`ready_for_hypothesis` research question이 없다.
+없음. Research scope는 선택됐지만 아직 hypothesis로 handoff한 question은 없다.
+현재 검토 대상과 다음 관찰은 [buildup/README.md](../buildup/README.md)가 소유한다.
 
 새 candidate를 열 때 source research-question path와 scoping handoff evidence를 반드시
-기록한다. 세부 entry와 experiment handoff 기준은 `docs/hypothesis.md`를
-따른다.
+기록한다. [Entry 기준](../docs/buildup.md#entry-to-hypothesis-formulation)은
+가설의 양의 결과를 요구하지 않는다. Paper-level experiment로 넘기는 기존
+[Experiment Handoff Gate](../docs/hypothesis.md#experiment-handoff-gate)는 유지한다.
 
 ## Hypothesis Registry
 

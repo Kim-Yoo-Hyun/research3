@@ -1,0 +1,1045 @@
+{
+  "study": "Q7 exploratory image-change observation",
+  "completed_at_utc": "2026-09-15T05:24:16.521464+00:00",
+  "status": "completed",
+  "git_head_at_execution": "fdb730c37d166f3f54cec0fcba4af1fb710a9743",
+  "source_state": "uncommitted workspace files identified by SHA256 below",
+  "source_files": {
+    "Dockerfile": "faeb7778e1e84b0be6dda797f1943bc10c4b235a0e9f6c95adb1e6a85701ad65",
+    "requirements.lock": "4d735787423cf8a508c0d87dccb148d3ba32bf4f49d54e8199388cd4c94e0578",
+    "selection.json": "b40973c3aac89ccbc2017c3701ca022d45ea9eb74aaa7ce36eb069db83f2621b",
+    "observe.py": "1d912f4d8390c3e24e265de3a265faf9795a0b73a9d4ce667078c07b0726ccdd",
+    "verify.py": "d64deaded8b7c743bd4c8b3ff63711c583f9201472969da428cae44b1a786eb9",
+    "aggregate.py": "634fd2007341e3fe5f2b66dfe8dd5b4138638ba080d77a3ac9c5596c0b013d96",
+    "annotations.json": "739f2d91ed584b5485265246f57f2ad26f804eebd9758fa0f7429b2dba983a45",
+    "run.sh": "da9f303b68873d2de6affb7808aafec1d3487289227dfd1fb658c08d02a8c526",
+    "launch.sh": "a86ca4d70de10772cde2236c513bae539583fb9171b175ec54473cca2122bab9"
+  },
+  "docker_image": {
+    "tag": "research3-q7-failure-source:v1",
+    "id": "sha256:8879500c0f9da0f593ada4251ad592360c140defd1f01804fee8a29466c0d3c6",
+    "repo_digests": [
+      "research3-q7-failure-source@sha256:8879500c0f9da0f593ada4251ad592360c140defd1f01804fee8a29466c0d3c6"
+    ]
+  },
+  "environment": {
+    "python": "3.11.14",
+    "numpy": "2.2.6",
+    "pillow": "11.3.0",
+    "device": "cpu",
+    "seed": null
+  },
+  "input": {
+    "spec": {
+      "dataset_revision": "fedfcb3346b92f6a2bfeb14dc254635c9a5013f1",
+      "archive_bytes": 54848824,
+      "archive_sha256": "ef56f7b0c4e196a758a8571ee24acafba5f27043102b55e25d32f423d79f45e1",
+      "metadata_sha256": "541953393c7b8a2d1448360f5ac0f4a3902dafb64fe4ff0e74fb956f760e3030",
+      "pairs": [
+        {
+          "id": "lemon",
+          "failure": 43,
+          "success": 41
+        },
+        {
+          "id": "drawer_ball",
+          "failure": 72,
+          "success": 73
+        },
+        {
+          "id": "sport_ball",
+          "failure": 92,
+          "success": 91
+        },
+        {
+          "id": "fruit",
+          "failure": 126,
+          "success": 127
+        }
+      ],
+      "controls": [
+        76,
+        121,
+        122
+      ],
+      "purpose": "Exploratory dev cases; no independent episode or causal-origin matching claim"
+    },
+    "source_rows": 11,
+    "unique_images": 45,
+    "cases": 15,
+    "native_size": [
+      256,
+      256
+    ]
+  },
+  "metric": "Mean absolute RGB pixel difference divided by 255; native resolution; per camera; no alignment or fitted threshold",
+  "per_camera_comparison": [
+    {
+      "group": "lemon",
+      "view_index": 0,
+      "failure_change": 0.06154364292917688,
+      "success_change": 0.06700461393867443,
+      "failure_minus_success": -0.0054609710094975575
+    },
+    {
+      "group": "lemon",
+      "view_index": 1,
+      "failure_change": 0.05009683845869077,
+      "success_change": 0.058751304476868875,
+      "failure_minus_success": -0.008654466018178104
+    },
+    {
+      "group": "lemon",
+      "view_index": 2,
+      "failure_change": 0.045929852653952205,
+      "success_change": 0.06548804987489787,
+      "failure_minus_success": -0.019558197220945664
+    },
+    {
+      "group": "drawer_ball",
+      "view_index": 0,
+      "failure_change": 0.0616268980736826,
+      "success_change": 0.07761729121987336,
+      "failure_minus_success": -0.01599039314619076
+    },
+    {
+      "group": "drawer_ball",
+      "view_index": 1,
+      "failure_change": 0.07266392925985497,
+      "success_change": 0.10616275562959558,
+      "failure_minus_success": -0.03349882636974061
+    },
+    {
+      "group": "drawer_ball",
+      "view_index": 2,
+      "failure_change": 0.029419364181219362,
+      "success_change": 0.0503299089818219,
+      "failure_minus_success": -0.02091054480060254
+    },
+    {
+      "group": "sport_ball",
+      "view_index": 0,
+      "failure_change": 0.044382611443014704,
+      "success_change": 0.04076392479192197,
+      "failure_minus_success": 0.0036186866510927312
+    },
+    {
+      "group": "sport_ball",
+      "view_index": 1,
+      "failure_change": 0.046362524094924425,
+      "success_change": 0.05503689635033701,
+      "failure_minus_success": -0.008674372255412587
+    },
+    {
+      "group": "sport_ball",
+      "view_index": 2,
+      "failure_change": 0.046875398922589864,
+      "success_change": 0.06377884609247345,
+      "failure_minus_success": -0.01690344716988358
+    },
+    {
+      "group": "fruit",
+      "view_index": 0,
+      "failure_change": 0.0703802570018893,
+      "success_change": 0.06809239605672998,
+      "failure_minus_success": 0.0022878609451593146
+    },
+    {
+      "group": "fruit",
+      "view_index": 1,
+      "failure_change": 0.05917354409211602,
+      "success_change": 0.05721262015548407,
+      "failure_minus_success": 0.001960923936631949
+    },
+    {
+      "group": "fruit",
+      "view_index": 2,
+      "failure_change": 0.06655157749948938,
+      "success_change": 0.06950450224034926,
+      "failure_minus_success": -0.002952924740859883
+    }
+  ],
+  "post_hoc_multiview": {
+    "purpose": "Post-score exploratory control; not preplanned confirmatory analysis",
+    "independent_pairs_claimed": false,
+    "groups": [
+      {
+        "group": "drawer_ball",
+        "mean": {
+          "failure": 0.05457006383825231,
+          "success": 0.07803665194376361,
+          "failure_minus_success": -0.023466588105511298
+        },
+        "median": {
+          "failure": 0.0616268980736826,
+          "success": 0.07761729121987336,
+          "failure_minus_success": -0.01599039314619076
+        }
+      },
+      {
+        "group": "fruit",
+        "mean": {
+          "failure": 0.0653684595311649,
+          "success": 0.06493650615085444,
+          "failure_minus_success": 0.0004319533803104486
+        },
+        "median": {
+          "failure": 0.06655157749948938,
+          "success": 0.06809239605672998,
+          "failure_minus_success": -0.0015408185572406002
+        }
+      },
+      {
+        "group": "lemon",
+        "mean": {
+          "failure": 0.052523444680606615,
+          "success": 0.06374798943014706,
+          "failure_minus_success": -0.011224544749540447
+        },
+        "median": {
+          "failure": 0.05009683845869077,
+          "success": 0.06548804987489787,
+          "failure_minus_success": -0.015391211416207098
+        }
+      },
+      {
+        "group": "sport_ball",
+        "mean": {
+          "failure": 0.045873511486842995,
+          "success": 0.05319322241157748,
+          "failure_minus_success": -0.0073197109247344835
+        },
+        "median": {
+          "failure": 0.046362524094924425,
+          "success": 0.05503689635033701,
+          "failure_minus_success": -0.008674372255412587
+        }
+      }
+    ],
+    "performance_claim": null,
+    "source_rows_unchanged": true
+  },
+  "verification": {
+    "status": "PASS",
+    "independently_reconstructed_rows": 45,
+    "max_absolute_mean_error": 1.3877787807814457e-17,
+    "cases": 15,
+    "method": "Pillow ImageChops unsigned difference histogram, integer weighted sum; no NumPy import",
+    "scores_sha256": "429fdf6f3b07b0f9c22a5764f8665096ca0ac62054e31d3f03ae5e5047301017",
+    "verify_source_sha256": "d64deaded8b7c743bd4c8b3ff63711c583f9201472969da428cae44b1a786eb9",
+    "limitations": "Same image decoder; verifies numeric arithmetic and row mapping, not source labels or failure provenance."
+  },
+  "artifacts": {
+    "runs/q7/prepared/input.json": "a86bb1ac1583a08d33ba26e05de214f5ef725fb428e9b615940765ab7c707a41",
+    "runs/q7/prepared/cases.json": "2423e5915ba20809b534dc0d55759189beded2730456155404c4271eeabc82d4",
+    "runs/q7/scored/scores.jsonl": "429fdf6f3b07b0f9c22a5764f8665096ca0ac62054e31d3f03ae5e5047301017",
+    "runs/q7/scored/summary.json": "f8727fbbfefec1aefc1cc209fdc637a0ac1aff67addd3d3b479490e3d4c83530",
+    "runs/q7/scored/aggregation.json": "49f8ebf2d7d0846e472834cd8ef50ed3ee08484b169a7404a675aefe013b7664",
+    "runs/q7/verification.json": "7c0cc0047d21c5042634237129768ae33a47e87b2d7ec962c52bb61e418109dc"
+  },
+  "limitations": [
+    "15 exploratory inputs with shared images, not independent episodes.",
+    "Visual notes were written before numeric scores, with source labels known.",
+    "Mean/median multi-view aggregation was added after seeing per-camera scores.",
+    "Source labels and terminal timing are not independently verified.",
+    "No learned detector, ranking transfer or new-method contribution was evaluated."
+  ],
+  "vlm_comparison": {
+    "completed_at_utc": "2026-09-15T10:08:41.097211+00:00",
+    "execution_status": "completed",
+    "task_interface_status": "all_30_outputs_invalid_json",
+    "task_predictions": 30,
+    "training": false,
+    "prediction_reruns": 0,
+    "model": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "model_revision": "482adb537c021c86670beed01cd58990d01e72e4",
+    "docker_environment": {
+      "image_tag": "research3-q7-vlm:v1",
+      "image_id": "sha256:0ceebb0f0fabbbfe4ab1d0ee7a29326ac99a210b51cc12faf0c6aa567d3f015e",
+      "repo_digests": [
+        "research3-q7-vlm@sha256:0ceebb0f0fabbbfe4ab1d0ee7a29326ac99a210b51cc12faf0c6aa567d3f015e"
+      ],
+      "check_container": "research3-q7-vlm-check-20260915_185244",
+      "inference_container": "research3-q7-vlm-infer-20260915_190023",
+      "review_container": "research3-q7-vlm-review-20260915_190234"
+    },
+    "source_state": "uncommitted workspace files identified by SHA256",
+    "source_files": {
+      "model.json": "213296e2694c454da86d3e2d90b76c58d18990d2ade0209fe5ec0bd4b67972f0",
+      "fetch_model.py": "6bc4a2f3a98440389c80844bf9fcf5a735316f4e267d0e40f2fe86aa73245b92",
+      "fetch_ranges.py": "e9ae114cb19cb96ea8a2409ceaf2d9ea6fa896188c025a666a345386ac1c46e3",
+      "Dockerfile.vlm": "25456e4b347aeb9f9b61a2f5fee4e7d5a42b357be9b98722b162a10026d5e00d",
+      "requirements.vlm.txt": "0f0369bca7050f7e369ae06d203fd31a2ea817b53fa0984d091fdb8e9551396e",
+      "requirements.vlm.lock": "f770103eb913f8c5ff507e60d47b709e8337caa5a1771d5012cfa193d1d3b820",
+      "vlm_environment.json": "24336367b284f721da1d32885b07466dbca8151da5255d1b34257513b580e4b0",
+      "vlm_config.json": "824ffed3445e1cd97ce370c57b91ba847fb3b8f0809a1a44446a0413102bf001",
+      "vlm.py": "2677715fe3085332417d5e90cb1c76ffcc676527a95d0f9169fc89c1abe4f55c",
+      "check_inputs.py": "b5f60c326bc2a74d3cb22033dc41ded73b6cdc33119840d001f93672fab3ebb6",
+      "review_vlm.py": "6b7b215ab340a74ec8fc37b367084e2161f0af8ac62d4ba741a8df4cdb59172c",
+      "run_vlm.sh": "73bf68369f5a4714aed18c966aaf0527a9552f38698958800c7fcaad0b044898"
+    },
+    "runtime": {
+      "python": "3.11.14",
+      "torch": "2.8.0+cu128",
+      "cuda_runtime": "12.8",
+      "transformers": "4.53.2",
+      "numpy": "2.2.6",
+      "pillow": "11.3.0",
+      "device": "cuda",
+      "dtype": "torch.bfloat16",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "source_sha256": "2677715fe3085332417d5e90cb1c76ffcc676527a95d0f9169fc89c1abe4f55c",
+      "config_sha256": "824ffed3445e1cd97ce370c57b91ba847fb3b8f0809a1a44446a0413102bf001",
+      "cases_sha256": "2423e5915ba20809b534dc0d55759189beded2730456155404c4271eeabc82d4",
+      "download_receipt_sha256": "8085f8a22055d20f68f5b6570df9dcebc08cbdbee6c059ba42bd58053a41e8a6",
+      "seed": 0,
+      "processor": {
+        "_processor_class": "SmolVLMProcessor",
+        "image_processor_type": "SmolVLMImageProcessor",
+        "video_sampling": {
+          "fps": 1,
+          "max_frames": 64,
+          "video_size": {
+            "longest_edge": 384
+          }
+        },
+        "do_convert_rgb": true,
+        "do_resize": true,
+        "size": {
+          "longest_edge": 384
+        },
+        "resample": 1,
+        "do_image_splitting": false,
+        "max_image_size": {
+          "longest_edge": 384
+        },
+        "do_rescale": true,
+        "rescale_factor": 0.00392156862745098,
+        "do_normalize": true,
+        "image_mean": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "image_std": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "do_pad": true
+      },
+      "model_load_seconds": 2.510800545103848,
+      "model_class": "SmolVLMForConditionalGeneration",
+      "parameters": 2246784880,
+      "attention_implementation": "sdpa"
+    },
+    "primary_counts": {
+      "end_only": {
+        "total": 15,
+        "reference_agreement": 0,
+        "uncertain": 0,
+        "invalid": 15,
+        "truncated": 0,
+        "false_positive": 0,
+        "false_negative": 0,
+        "INVALID": 15
+      },
+      "start_end": {
+        "total": 15,
+        "reference_agreement": 0,
+        "uncertain": 0,
+        "invalid": 15,
+        "truncated": 0,
+        "false_positive": 0,
+        "false_negative": 0,
+        "INVALID": 15
+      }
+    },
+    "primary_strata": {
+      "end_only": {
+        "source": {
+          "total": 11,
+          "reference_agreement": 0,
+          "uncertain": 0,
+          "invalid": 11,
+          "truncated": 0,
+          "false_positive": 0,
+          "false_negative": 0,
+          "INVALID": 11
+        },
+        "constructed": {
+          "total": 4,
+          "reference_agreement": 0,
+          "uncertain": 0,
+          "invalid": 4,
+          "truncated": 0,
+          "false_positive": 0,
+          "false_negative": 0,
+          "INVALID": 4
+        }
+      },
+      "start_end": {
+        "source": {
+          "total": 11,
+          "reference_agreement": 0,
+          "uncertain": 0,
+          "invalid": 11,
+          "truncated": 0,
+          "false_positive": 0,
+          "false_negative": 0,
+          "INVALID": 11
+        },
+        "constructed": {
+          "total": 4,
+          "reference_agreement": 0,
+          "uncertain": 0,
+          "invalid": 4,
+          "truncated": 0,
+          "false_positive": 0,
+          "false_negative": 0,
+          "INVALID": 4
+        }
+      }
+    },
+    "post_hoc_raw_verdict": {
+      "analysis_status": "post_hoc_diagnostic_only",
+      "regex": "The verdict is (GOAL_MET|GOAL_NOT_MET|UNCERTAIN)(?:\\.| because ([^\\n]+))",
+      "counts": {
+        "end_only": {
+          "total": 15,
+          "reference_agreement": 2,
+          "uncertain": 12,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 1,
+          "explicit_reason_present": 0,
+          "GOAL_NOT_MET": 3,
+          "UNCERTAIN": 12
+        },
+        "start_end": {
+          "total": 15,
+          "reference_agreement": 6,
+          "uncertain": 5,
+          "unextractable": 0,
+          "false_positive": 1,
+          "false_negative": 3,
+          "explicit_reason_present": 1,
+          "GOAL_NOT_MET": 8,
+          "GOAL_MET": 2,
+          "UNCERTAIN": 5
+        }
+      },
+      "strata": {
+        "end_only": {
+          "source": {
+            "total": 11,
+            "reference_agreement": 1,
+            "uncertain": 9,
+            "unextractable": 0,
+            "false_positive": 0,
+            "false_negative": 1,
+            "explicit_reason_present": 0,
+            "GOAL_NOT_MET": 2,
+            "UNCERTAIN": 9
+          },
+          "constructed": {
+            "total": 4,
+            "reference_agreement": 1,
+            "uncertain": 3,
+            "unextractable": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "explicit_reason_present": 0,
+            "GOAL_NOT_MET": 1,
+            "UNCERTAIN": 3
+          }
+        },
+        "start_end": {
+          "source": {
+            "total": 11,
+            "reference_agreement": 4,
+            "uncertain": 4,
+            "unextractable": 0,
+            "false_positive": 0,
+            "false_negative": 3,
+            "explicit_reason_present": 0,
+            "GOAL_NOT_MET": 6,
+            "GOAL_MET": 1,
+            "UNCERTAIN": 4
+          },
+          "constructed": {
+            "total": 4,
+            "reference_agreement": 2,
+            "uncertain": 1,
+            "unextractable": 0,
+            "false_positive": 1,
+            "false_negative": 0,
+            "explicit_reason_present": 1,
+            "GOAL_MET": 1,
+            "GOAL_NOT_MET": 2,
+            "UNCERTAIN": 1
+          }
+        }
+      },
+      "paired_changes": {
+        "verdict_changed": 9,
+        "gained_reference_agreement": 5,
+        "lost_reference_agreement": 1
+      },
+      "boundary": "Explicit verdict extraction after format failure; not a repaired JSON endpoint, independent evidence, held-out accuracy or proof of temporal benefit."
+    },
+    "constant_label_control": {
+      "always_GOAL_MET_reference_agreement": 6,
+      "always_GOAL_NOT_MET_reference_agreement": 9,
+      "total": 15
+    },
+    "cost": {
+      "end_only": {
+        "image_count": 3,
+        "input_tokens_range": [
+          386,
+          391
+        ],
+        "generated_tokens_total": 141,
+        "median_seconds": 0.2231977228075266,
+        "max_peak_allocated_bytes": 4649757184
+      },
+      "start_end": {
+        "image_count": 6,
+        "input_tokens_range": [
+          653,
+          658
+        ],
+        "generated_tokens_total": 162,
+        "median_seconds": 0.2808423889800906,
+        "max_peak_allocated_bytes": 4700638720
+      }
+    },
+    "verification": {
+      "status": "PASS",
+      "predictions": 30,
+      "processor_input_check": "PASS 15 cases, identical END pixels across conditions",
+      "limits": [
+        "Reference agreement on dependent dev cases, not held-out accuracy.",
+        "Four constructed negatives use agent interpretation of the initial state.",
+        "Image number and token cost differ by condition; shared GPU timings are diagnostic.",
+        "Verifies row mapping, input identities and output parsing; source labels are not independently validated."
+      ]
+    },
+    "artifacts": {
+      "runs/q7/vlm/inputs.json": "688d998c46b4aa8e7390808b8226da74bc60d42af674b53e20b0f5c2a7c93973",
+      "runs/q7/vlm/predictions.jsonl": "bd2b8ecb7437a9ff44cfe113d636132e2d27f8df5e103bd00ec59d3b9e269f44",
+      "runs/q7/vlm/runtime.json": "b9cdc0f5c9e8b0157e0c948cea38ae8e07e0bc41589817ca9333395fd13fe8af",
+      "runs/q7/vlm/completion.json": "45f8fe5e513924227ca1a1aab3ba6ca0da02b85fc5e2cccf99255402e6d57990",
+      "runs/q7/vlm/review.json": "c630e421f862e0f18d916de0ddd7521944ce68bace6283020fecf647ad7b4ef0",
+      "runs/q7/vlm/requirements.resolved.txt": "f770103eb913f8c5ff507e60d47b709e8337caa5a1771d5012cfa193d1d3b820",
+      "runs/q7/vlm_input_check.json": "9986d89926f8f48a8b89aa51cd45fcdb3db1f9c029cdeb2ab37da8eacf272c0a",
+      "checkpoints/q7/smolvlm2-2.2b/download.json": "8085f8a22055d20f68f5b6570df9dcebc08cbdbee6c059ba42bd58053a41e8a6"
+    },
+    "next_attempt": "END+END control on eight source cases; reuse seven exactly duplicated inputs after identity check; at most eight new generations.",
+    "claim_boundary": "Dev-case diagnostics after format failure; no strong baseline, temporal reasoning, natural-failure transfer, or new-method claim."
+  },
+  "end_repetition_control": {
+    "completed_at_utc": "2026-09-16T01:08:04.774656+00:00",
+    "status": "completed",
+    "new_generations": 8,
+    "reused_predictions": 7,
+    "inference_source": "unchanged vlm.py; condition name start_end keeps phase labels while pixels are END+END",
+    "source_files": {
+      "repeat_end.py": "93fb5d5f664640e510e60a305a3d4ff1f725d88a7b18e32cb1ab3e976dfdaa5d",
+      "run_repeat.sh": "b9c0ecb356569bf02526bf10b455aa625526e6366461091f620b840a1a0e321c"
+    },
+    "original_model_and_environment": "vlm_comparison above; same immutable image and pinned model, no training",
+    "counts": {
+      "all": {
+        "end_only": {
+          "total": 15,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 2,
+          "uncertain": 12,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 1,
+          "truncated": 0,
+          "GOAL_NOT_MET": 3,
+          "UNCERTAIN": 12
+        },
+        "start_end": {
+          "total": 15,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 6,
+          "uncertain": 5,
+          "unextractable": 0,
+          "false_positive": 1,
+          "false_negative": 3,
+          "truncated": 0,
+          "GOAL_NOT_MET": 8,
+          "GOAL_MET": 2,
+          "UNCERTAIN": 5
+        },
+        "end_end": {
+          "total": 15,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 6,
+          "uncertain": 5,
+          "unextractable": 0,
+          "false_positive": 1,
+          "false_negative": 3,
+          "truncated": 0,
+          "GOAL_NOT_MET": 8,
+          "GOAL_MET": 2,
+          "UNCERTAIN": 5
+        }
+      },
+      "new_8": {
+        "end_only": {
+          "total": 8,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 1,
+          "uncertain": 6,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 1,
+          "truncated": 0,
+          "GOAL_NOT_MET": 2,
+          "UNCERTAIN": 6
+        },
+        "start_end": {
+          "total": 8,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 4,
+          "uncertain": 2,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 2,
+          "truncated": 0,
+          "GOAL_NOT_MET": 5,
+          "GOAL_MET": 1,
+          "UNCERTAIN": 2
+        },
+        "end_end": {
+          "total": 8,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 4,
+          "uncertain": 2,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 2,
+          "truncated": 0,
+          "GOAL_NOT_MET": 5,
+          "GOAL_MET": 1,
+          "UNCERTAIN": 2
+        }
+      },
+      "reused_7": {
+        "end_only": {
+          "total": 7,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 1,
+          "uncertain": 6,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 0,
+          "truncated": 0,
+          "GOAL_NOT_MET": 1,
+          "UNCERTAIN": 6
+        },
+        "start_end": {
+          "total": 7,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 2,
+          "uncertain": 3,
+          "unextractable": 0,
+          "false_positive": 1,
+          "false_negative": 1,
+          "truncated": 0,
+          "GOAL_MET": 1,
+          "GOAL_NOT_MET": 3,
+          "UNCERTAIN": 3
+        },
+        "end_end": {
+          "total": 7,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 2,
+          "uncertain": 3,
+          "unextractable": 0,
+          "false_positive": 1,
+          "false_negative": 1,
+          "truncated": 0,
+          "GOAL_MET": 1,
+          "GOAL_NOT_MET": 3,
+          "UNCERTAIN": 3
+        }
+      },
+      "source": {
+        "end_only": {
+          "total": 11,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 1,
+          "uncertain": 9,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 1,
+          "truncated": 0,
+          "GOAL_NOT_MET": 2,
+          "UNCERTAIN": 9
+        },
+        "start_end": {
+          "total": 11,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 4,
+          "uncertain": 4,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 3,
+          "truncated": 0,
+          "GOAL_NOT_MET": 6,
+          "GOAL_MET": 1,
+          "UNCERTAIN": 4
+        },
+        "end_end": {
+          "total": 11,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 4,
+          "uncertain": 4,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 3,
+          "truncated": 0,
+          "GOAL_NOT_MET": 6,
+          "GOAL_MET": 1,
+          "UNCERTAIN": 4
+        }
+      },
+      "constructed": {
+        "end_only": {
+          "total": 4,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 1,
+          "uncertain": 3,
+          "unextractable": 0,
+          "false_positive": 0,
+          "false_negative": 0,
+          "truncated": 0,
+          "GOAL_NOT_MET": 1,
+          "UNCERTAIN": 3
+        },
+        "start_end": {
+          "total": 4,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 2,
+          "uncertain": 1,
+          "unextractable": 0,
+          "false_positive": 1,
+          "false_negative": 0,
+          "truncated": 0,
+          "GOAL_MET": 1,
+          "GOAL_NOT_MET": 2,
+          "UNCERTAIN": 1
+        },
+        "end_end": {
+          "total": 4,
+          "json_valid": 0,
+          "json_reference_agreement": 0,
+          "raw_reference_agreement": 2,
+          "uncertain": 1,
+          "unextractable": 0,
+          "false_positive": 1,
+          "false_negative": 0,
+          "truncated": 0,
+          "GOAL_MET": 1,
+          "GOAL_NOT_MET": 2,
+          "UNCERTAIN": 1
+        }
+      }
+    },
+    "contrasts": {
+      "end_only_to_start_end": {
+        "changed_cases": [
+          "lemon_source_success",
+          "lemon_constructed",
+          "drawer_ball_source_failure",
+          "drawer_ball_constructed",
+          "sport_ball_source_failure",
+          "sport_ball_source_success",
+          "sport_ball_constructed",
+          "fruit_source_success",
+          "control_76"
+        ],
+        "gained_reference_agreement": [
+          "lemon_source_success",
+          "drawer_ball_source_failure",
+          "drawer_ball_constructed",
+          "sport_ball_source_failure",
+          "sport_ball_constructed"
+        ],
+        "lost_reference_agreement": [
+          "lemon_constructed"
+        ]
+      },
+      "end_only_to_end_end": {
+        "changed_cases": [
+          "lemon_source_success",
+          "lemon_constructed",
+          "drawer_ball_constructed",
+          "sport_ball_source_failure",
+          "sport_ball_source_success",
+          "sport_ball_constructed",
+          "fruit_source_failure",
+          "fruit_source_success",
+          "control_76"
+        ],
+        "gained_reference_agreement": [
+          "lemon_source_success",
+          "drawer_ball_constructed",
+          "sport_ball_source_failure",
+          "sport_ball_constructed",
+          "fruit_source_failure"
+        ],
+        "lost_reference_agreement": [
+          "lemon_constructed"
+        ]
+      },
+      "end_end_to_start_end": {
+        "changed_cases": [
+          "drawer_ball_source_failure",
+          "fruit_source_failure"
+        ],
+        "gained_reference_agreement": [
+          "drawer_ball_source_failure"
+        ],
+        "lost_reference_agreement": [
+          "fruit_source_failure"
+        ]
+      }
+    },
+    "new_run_cost": {
+      "median_seconds": 0.14978781063109636,
+      "generated_tokens": 82,
+      "max_peak_allocated_bytes": 4700943360
+    },
+    "verification": "PASS",
+    "limitations": [
+      "Dependent known dev cases; unchanged unverified source labels.",
+      "Seven identity-based reuses are not new generations or repeatability evidence.",
+      "Single greedy runs on different days; execution variability is not estimated.",
+      "Image content influence does not prove correct temporal reasoning or natural-failure transfer."
+    ],
+    "artifacts": {
+      "runs/q7/end_repeat/plan.json": "3ac8f696a6f62066c2063cc1850b127de4a6cec8dc7b664180920da71fd5f9ec",
+      "runs/q7/end_repeat/review.json": "d09f20bdb47d068c09351f7cc4e853967719390d4c7107bf42a779cde4ce652d",
+      "runs/q7/end_repeat/config.json": "10a76585821af9d1bd2f7e782470c4030fdfe5929728e4711a0fea99873440e0",
+      "runs/q7/end_repeat/cases.json": "10e5a915c982d36734c7e5326d82aad5769667c92a2824368ac6ff7488229455",
+      "runs/q7/end_repeat/predictions/requirements.resolved.txt": "f770103eb913f8c5ff507e60d47b709e8337caa5a1771d5012cfa193d1d3b820",
+      "runs/q7/end_repeat/predictions/predictions.jsonl": "8269a0ae3a935bfffcc44ead38f9736925574fe2c5ee03ff2d29615113ba153f",
+      "runs/q7/end_repeat/predictions/completion.json": "6d86c8d6ae4bd650a3741f2d4eb58cc9b4f285f062a2dda543769004cdd0ba2f",
+      "runs/q7/end_repeat/predictions/inputs.json": "e5bfafc22b82a835cdc77f61cb0ff221aa020390f319967ab0ba6c6b4e64999f",
+      "runs/q7/end_repeat/predictions/runtime.json": "7f779f5c7daeec61ebb966e36f5e8b4a9a95e08dc4e177f16ca71b1eb868ca2b"
+    },
+    "logs": {
+      "logs/20260916_100415_q7_repeat_batch.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "logs/20260916_100415_q7_repeat_batch.log": "c4ecc7205b3cf9e38061f42402abfd77b941235a0d97523d2e3a94c29e191413",
+      "logs/20260916_100415_q7_repeat_prepare.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "logs/20260916_100415_q7_repeat_prepare.log": "540981c3aaef3bf2127a164bc2e9021433dccfba85ee1e9e0a1679609d9c8301",
+      "logs/20260916_100420_q7_repeat_infer.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "logs/20260916_100420_q7_repeat_infer.log": "6afd8c2f5b66226e4199d2fae221cc06b9e7dc9bc5f5f2b9ae28fe7f67b4ae6a",
+      "logs/20260916_100429_q7_repeat_review.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "logs/20260916_100429_q7_repeat_review.log": "641457c4f3cded4fdba622aed1eeec9f359857d6ce458263d64c531963ef780b"
+    },
+    "containers": [
+      {
+        "id": "e0f2dcd7823817036a0729df70502337228d50456e95202d2bd969fb1a948b2d",
+        "name": "research3-q7-repeat-prepare-20260916_100415",
+        "mode": "prepare",
+        "image": "sha256:0ceebb0f0fabbbfe4ab1d0ee7a29326ac99a210b51cc12faf0c6aa567d3f015e",
+        "command": [
+          "/study/repeat_end.py",
+          "prepare"
+        ],
+        "status_before_cleanup": "exited",
+        "exit_code": 0,
+        "created": "2026-09-16T01:04:15.199715332Z",
+        "finished_at": "2026-09-16T01:04:20.733640858Z",
+        "mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q7-failure-source",
+            "Destination": "/study",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q7/prepared",
+            "Destination": "/prepared",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q7/vlm",
+            "Destination": "/previous",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/checkpoints/q7/smolvlm2-2.2b",
+            "Destination": "/model",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q7/end_repeat",
+            "Destination": "/output",
+            "Mode": "",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "cleanup_status": "removed_after_verified_output_preservation"
+      },
+      {
+        "id": "10efc8327990bb8ed2d2bed2a71f40e2183c228ee16c7a941ee4e3ccfa469857",
+        "name": "research3-q7-repeat-infer-20260916_100420",
+        "mode": "infer",
+        "image": "sha256:0ceebb0f0fabbbfe4ab1d0ee7a29326ac99a210b51cc12faf0c6aa567d3f015e",
+        "command": [
+          "/study/repeat_end.py",
+          "infer"
+        ],
+        "status_before_cleanup": "exited",
+        "exit_code": 0,
+        "created": "2026-09-16T01:04:20.855688038Z",
+        "finished_at": "2026-09-16T01:04:29.221130178Z",
+        "mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q7-failure-source",
+            "Destination": "/study",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q7/prepared",
+            "Destination": "/prepared",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q7/vlm",
+            "Destination": "/previous",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/checkpoints/q7/smolvlm2-2.2b",
+            "Destination": "/model",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q7/end_repeat",
+            "Destination": "/output",
+            "Mode": "",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "cleanup_status": "removed_after_verified_output_preservation"
+      },
+      {
+        "id": "f5d9329b9c964d0feb2177df6e8e4019e6d38099b37ae03b06ad29ffa280ca11",
+        "name": "research3-q7-repeat-review-20260916_100429",
+        "mode": "review",
+        "image": "sha256:0ceebb0f0fabbbfe4ab1d0ee7a29326ac99a210b51cc12faf0c6aa567d3f015e",
+        "command": [
+          "/study/repeat_end.py",
+          "review"
+        ],
+        "status_before_cleanup": "exited",
+        "exit_code": 0,
+        "created": "2026-09-16T01:04:29.315716403Z",
+        "finished_at": "2026-09-16T01:04:29.567003384Z",
+        "mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q7/prepared",
+            "Destination": "/prepared",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q7/vlm",
+            "Destination": "/previous",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/checkpoints/q7/smolvlm2-2.2b",
+            "Destination": "/model",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q7/end_repeat",
+            "Destination": "/output",
+            "Mode": "",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q7-failure-source",
+            "Destination": "/study",
+            "Mode": "",
+            "RW": false,
+            "Propagation": "rprivate"
+          }
+        ],
+        "cleanup_status": "removed_after_verified_output_preservation"
+      }
+    ],
+    "decision": "Complete this fixed-input model comparison; Q7 under_review for reformulation/investment comparison with Q14; no additional inference queued.",
+    "cleanup": {
+      "completed_at_utc": "2026-09-16T01:08:04.941894+00:00",
+      "log": "logs/20260916_100804_q7_repeat_cleanup.log",
+      "log_sha256": "6aa3ac674dceef4c4e43e3b8ce4ddf4fe7b157135d1bc3c49a3eb427faeadea0",
+      "scope": "only the three containers created for this control",
+      "rationale": "Exited successfully; results/logs and exact container/image/mount/command metadata preserved; no resume needed."
+    }
+  }
+}

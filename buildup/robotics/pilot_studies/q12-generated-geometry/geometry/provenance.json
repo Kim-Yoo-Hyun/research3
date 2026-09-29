@@ -1,0 +1,13 @@
+{
+  "engine_distribution": "PyBullet 3.2.7",
+  "wheel_identity": "dependencies.json",
+  "binary_build_source_commit": null,
+  "binary_commit_boundary": "Exact source commit of the published wheel has not been authenticated; pinned wheel hash and immutable tested image define runtime.",
+  "inspected_upstream_source_commit": "63c4d67e337017f9d8b298c900e9aabdb69296e7",
+  "source_receipt": "../linkage_sources.json",
+  "source_receipt_sha256": "4c9b643389645efa856a2098e1b646039520ed1393d2b9119680afa2ab476d52",
+  "adapter_source_identity": "SHA-256 entries in freeze.json; repository-authored scene/audit/verification code",
+  "gpu_used": false,
+  "existing_external_simulator_used": false,
+  "dataset_license_url": "https://ycb-benchmarks.s3.amazonaws.com/index.html"
+}

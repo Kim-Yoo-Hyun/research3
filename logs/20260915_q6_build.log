@@ -1,0 +1,361 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 807B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context:
+#3 transferring context: 87B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47
+#4 resolve docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47 0.0s done
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 60.95kB done
+#5 DONE 0.0s
+
+#6 [2/4] COPY bootstrap.txt requirements.txt /recipe/
+#6 DONE 0.1s
+
+#7 [3/4] RUN python -m pip install --no-cache-dir --require-hashes --no-deps -r /recipe/bootstrap.txt  && python -m pip install --no-cache-dir --no-build-isolation --require-hashes --no-deps     --report /recipe/install.json -r /recipe/requirements.txt  && python -m pip check  && python -m pip freeze --all > /recipe/installed.txt
+#7 1.125 Collecting setuptools==75.8.0 (from -r /recipe/bootstrap.txt (line 1))
+#7 1.153   Downloading setuptools-75.8.0-py3-none-any.whl (1.2 MB)
+#7 1.183      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 45.0 MB/s eta 0:00:00
+#7 1.186 Installing collected packages: setuptools
+#7 1.186   Attempting uninstall: setuptools
+#7 1.187     Found existing installation: setuptools 65.5.1
+#7 1.198     Uninstalling setuptools-65.5.1:
+#7 1.260       Successfully uninstalled setuptools-65.5.1
+#7 1.581 Successfully installed setuptools-75.8.0
+#7 1.581 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 1.638 
+#7 1.638 [notice] A new release of pip is available: 24.0 -> 26.2.1
+#7 1.638 [notice] To update, run: pip install --upgrade pip
+#7 1.958 Collecting absl-py==2.1.0 (from -r /recipe/requirements.txt (line 3))
+#7 1.985   Downloading absl_py-2.1.0-py3-none-any.whl (133 kB)
+#7 1.996      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.7/133.7 kB 14.1 MB/s eta 0:00:00
+#7 2.006 Collecting annotated-types==0.7.0 (from -r /recipe/requirements.txt (line 4))
+#7 2.008   Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+#7 2.017 Collecting antlr4-python3-runtime==4.9.3 (from -r /recipe/requirements.txt (line 5))
+#7 2.021   Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+#7 2.024      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.0/117.0 kB 55.7 MB/s eta 0:00:00
+#7 2.035   Preparing metadata (setup.py): started
+#7 2.131   Preparing metadata (setup.py): finished with status 'done'
+#7 2.138 Collecting argparse==1.4.0 (from -r /recipe/requirements.txt (line 6))
+#7 2.140   Downloading argparse-1.4.0-py2.py3-none-any.whl (23 kB)
+#7 2.186 Collecting black==25.1.0 (from -r /recipe/requirements.txt (line 7))
+#7 2.190   Downloading black-25.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
+#7 2.216      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 72.3 MB/s eta 0:00:00
+#7 2.233 Collecting certifi==2025.1.31 (from -r /recipe/requirements.txt (line 8))
+#7 2.237   Downloading certifi-2025.1.31-py3-none-any.whl (166 kB)
+#7 2.239      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 kB 245.6 MB/s eta 0:00:00
+#7 2.248 Collecting cfgv==3.4.0 (from -r /recipe/requirements.txt (line 9))
+#7 2.251   Downloading cfgv-3.4.0-py2.py3-none-any.whl (7.2 kB)
+#7 2.310 Collecting charset-normalizer==3.4.1 (from -r /recipe/requirements.txt (line 10))
+#7 2.313   Downloading charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (143 kB)
+#7 2.315      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.9/143.9 kB 292.4 MB/s eta 0:00:00
+#7 2.325 Collecting chex==0.1.88 (from -r /recipe/requirements.txt (line 11))
+#7 2.329   Downloading chex-0.1.88-py3-none-any.whl (99 kB)
+#7 2.330      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.7/99.7 kB 359.1 MB/s eta 0:00:00
+#7 2.342 Collecting click==8.1.8 (from -r /recipe/requirements.txt (line 12))
+#7 2.345   Downloading click-8.1.8-py3-none-any.whl (98 kB)
+#7 2.346      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.2/98.2 kB 225.0 MB/s eta 0:00:00
+#7 2.356 Collecting cloudpickle==3.1.1 (from -r /recipe/requirements.txt (line 13))
+#7 2.359   Downloading cloudpickle-3.1.1-py3-none-any.whl (20 kB)
+#7 2.368 Collecting colorama==0.4.6 (from -r /recipe/requirements.txt (line 14))
+#7 2.372   Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+#7 2.437 Collecting contourpy==1.3.1 (from -r /recipe/requirements.txt (line 15))
+#7 2.441   Downloading contourpy-1.3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (326 kB)
+#7 2.449      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 326.2/326.2 kB 117.6 MB/s eta 0:00:00
+#7 2.460 Collecting cycler==0.12.1 (from -r /recipe/requirements.txt (line 16))
+#7 2.463   Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+#7 2.475 Collecting decorator==4.4.2 (from -r /recipe/requirements.txt (line 17))
+#7 2.479   Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+#7 2.486 Collecting distlib==0.3.9 (from -r /recipe/requirements.txt (line 18))
+#7 2.491   Downloading distlib-0.3.9-py2.py3-none-any.whl (468 kB)
+#7 2.498      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 469.0/469.0 kB 85.7 MB/s eta 0:00:00
+#7 2.691 Collecting distrax==0.1.5 (from -r /recipe/requirements.txt (line 19))
+#7 2.695   Downloading distrax-0.1.5-py3-none-any.whl (319 kB)
+#7 2.701      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 319.7/319.7 kB 64.0 MB/s eta 0:00:00
+#7 2.715 Collecting dm-tree==0.1.8 (from -r /recipe/requirements.txt (line 20))
+#7 2.718   Downloading dm_tree-0.1.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (152 kB)
+#7 2.723      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 152.8/152.8 kB 56.7 MB/s eta 0:00:00
+#7 2.730 Collecting docker-pycreds==0.4.0 (from -r /recipe/requirements.txt (line 21))
+#7 2.734   Downloading docker_pycreds-0.4.0-py2.py3-none-any.whl (9.0 kB)
+#7 2.743 Collecting docstring-parser==0.16 (from -r /recipe/requirements.txt (line 22))
+#7 2.746   Downloading docstring_parser-0.16-py3-none-any.whl (36 kB)
+#7 2.757 Collecting einops==0.8.0 (from -r /recipe/requirements.txt (line 23))
+#7 2.761   Downloading einops-0.8.0-py3-none-any.whl (43 kB)
+#7 2.762      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.2/43.2 kB 360.4 MB/s eta 0:00:00
+#7 2.774 Collecting etils==1.11.0 (from -r /recipe/requirements.txt (line 24))
+#7 2.960   Downloading etils-1.11.0-py3-none-any.whl (165 kB)
+#7 2.965      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 165.4/165.4 kB 64.6 MB/s eta 0:00:00
+#7 2.971 Collecting farama-notifications==0.0.4 (from -r /recipe/requirements.txt (line 25))
+#7 2.975   Downloading Farama_Notifications-0.0.4-py3-none-any.whl (2.5 kB)
+#7 2.990 Collecting filelock==3.17.0 (from -r /recipe/requirements.txt (line 26))
+#7 2.994   Downloading filelock-3.17.0-py3-none-any.whl (16 kB)
+#7 3.186 Collecting flax==0.10.2 (from -r /recipe/requirements.txt (line 27))
+#7 3.190   Downloading flax-0.10.2-py3-none-any.whl (424 kB)
+#7 3.199      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 424.2/424.2 kB 61.1 MB/s eta 0:00:00
+#7 3.308 Collecting fonttools==4.55.8 (from -r /recipe/requirements.txt (line 28))
+#7 3.494   Downloading fonttools-4.55.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.9 MB)
+#7 3.761      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 18.5 MB/s eta 0:00:00
+#7 3.786 Collecting fsspec==2025.2.0 (from -r /recipe/requirements.txt (line 29))
+#7 3.790   Downloading fsspec-2025.2.0-py3-none-any.whl (184 kB)
+#7 3.796      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.5/184.5 kB 55.4 MB/s eta 0:00:00
+#7 3.805 Collecting gast==0.6.0 (from -r /recipe/requirements.txt (line 30))
+#7 3.809   Downloading gast-0.6.0-py3-none-any.whl (21 kB)
+#7 3.819 Collecting gitdb==4.0.12 (from -r /recipe/requirements.txt (line 31))
+#7 3.824   Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+#7 3.826      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 774.0 MB/s eta 0:00:00
+#7 3.843 Collecting gitpython==3.1.44 (from -r /recipe/requirements.txt (line 32))
+#7 3.846   Downloading GitPython-3.1.44-py3-none-any.whl (207 kB)
+#7 3.850      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.6/207.6 kB 83.6 MB/s eta 0:00:00
+#7 3.864 Collecting gym==0.26.2 (from -r /recipe/requirements.txt (line 33))
+#7 3.868   Downloading gym-0.26.2.tar.gz (721 kB)
+#7 3.879      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 721.7/721.7 kB 70.7 MB/s eta 0:00:00
+#7 3.908   Preparing metadata (pyproject.toml): started
+#7 4.008   Preparing metadata (pyproject.toml): finished with status 'done'
+#7 4.016 Collecting gym-notices==0.0.8 (from -r /recipe/requirements.txt (line 34))
+#7 4.020   Downloading gym_notices-0.0.8-py3-none-any.whl (3.0 kB)
+#7 4.030 Collecting gymnasium==1.0.0 (from -r /recipe/requirements.txt (line 35))
+#7 4.034   Downloading gymnasium-1.0.0-py3-none-any.whl (958 kB)
+#7 4.053      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 958.1/958.1 kB 57.5 MB/s eta 0:00:00
+#7 4.257 Collecting gymnax==0.0.8 (from -r /recipe/requirements.txt (line 36))
+#7 4.260   Downloading gymnax-0.0.8-py3-none-any.whl (96 kB)
+#7 4.262      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.3/96.3 kB 120.4 MB/s eta 0:00:00
+#7 4.276 Collecting hydra-core==1.3.2 (from -r /recipe/requirements.txt (line 37))
+#7 4.280   Downloading hydra_core-1.3.2-py3-none-any.whl (154 kB)
+#7 4.283      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 154.5/154.5 kB 63.8 MB/s eta 0:00:00
+#7 4.321 Collecting identify==2.6.6 (from -r /recipe/requirements.txt (line 38))
+#7 4.324   Downloading identify-2.6.6-py2.py3-none-any.whl (99 kB)
+#7 4.326      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.1/99.1 kB 476.6 MB/s eta 0:00:00
+#7 4.338 Collecting idna==3.10 (from -r /recipe/requirements.txt (line 39))
+#7 4.343   Downloading idna-3.10-py3-none-any.whl (70 kB)
+#7 4.343      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 735.8 MB/s eta 0:00:00
+#7 4.379 Collecting imageio==2.37.0 (from -r /recipe/requirements.txt (line 40))
+#7 4.382   Downloading imageio-2.37.0-py3-none-any.whl (315 kB)
+#7 4.389      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 315.8/315.8 kB 59.6 MB/s eta 0:00:00
+#7 4.399 Collecting imageio-ffmpeg==0.6.0 (from -r /recipe/requirements.txt (line 41))
+#7 4.404   Downloading imageio_ffmpeg-0.6.0-py3-none-manylinux2014_x86_64.whl (29.5 MB)
+#7 6.623      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.5/29.5 MB 9.2 MB/s eta 0:00:00
+#7 6.655 Collecting importlib-resources==6.5.2 (from -r /recipe/requirements.txt (line 42))
+#7 6.658   Downloading importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+#7 6.676 Collecting jax==0.4.35 (from -r /recipe/requirements.txt (line 43))
+#7 6.680   Downloading jax-0.4.35-py3-none-any.whl (2.2 MB)
+#7 7.415      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 2.9 MB/s eta 0:00:00
+#7 7.606 Collecting jax2d==1.0.0 (from -r /recipe/requirements.txt (line 44))
+#7 7.790   Downloading jax2d-1.0.0-py3-none-any.whl (21 kB)
+#7 7.977 Collecting jaxgl==1.0.1 (from -r /recipe/requirements.txt (line 45))
+#7 7.985   Downloading jaxgl-1.0.1-py3-none-any.whl (6.8 kB)
+#7 8.008 Collecting jaxlib==0.4.34 (from -r /recipe/requirements.txt (line 46))
+#7 8.012   Downloading jaxlib-0.4.34-cp311-cp311-manylinux2014_x86_64.whl (86.1 MB)
+#7 14.06      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.1/86.1 MB 11.5 MB/s eta 0:00:00
+#7 14.14 Collecting kiwisolver==1.4.8 (from -r /recipe/requirements.txt (line 47))
+#7 14.15   Downloading kiwisolver-1.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.4 MB)
+#7 14.18      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 49.2 MB/s eta 0:00:00
+#7 14.19 Collecting markdown-it-py==3.0.0 (from -r /recipe/requirements.txt (line 48))
+#7 14.19   Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+#7 14.19      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 190.2 MB/s eta 0:00:00
+#7 14.27 Collecting matplotlib==3.10.0 (from -r /recipe/requirements.txt (line 49))
+#7 14.27   Downloading matplotlib-3.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.6 MB)
+#7 15.80      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.6/8.6 MB 5.6 MB/s eta 0:00:00
+#7 15.81 Collecting mdurl==0.1.2 (from -r /recipe/requirements.txt (line 50))
+#7 15.82   Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+#7 15.90 Collecting ml-dtypes==0.4.1 (from -r /recipe/requirements.txt (line 51))
+#7 15.90   Downloading ml_dtypes-0.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.2 MB)
+#7 16.05      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 17.0 MB/s eta 0:00:00
+#7 16.07 Collecting moviepy==1.0.3 (from -r /recipe/requirements.txt (line 52))
+#7 16.07   Downloading moviepy-1.0.3.tar.gz (388 kB)
+#7 16.08      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 388.3/388.3 kB 75.4 MB/s eta 0:00:00
+#7 16.09   Preparing metadata (setup.py): started
+#7 16.17   Preparing metadata (setup.py): finished with status 'done'
+#7 16.27 Collecting msgpack==1.1.0 (from -r /recipe/requirements.txt (line 53))
+#7 16.27   Downloading msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (403 kB)
+#7 16.28      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 403.7/403.7 kB 59.3 MB/s eta 0:00:00
+#7 16.29 Collecting mypy-extensions==1.0.0 (from -r /recipe/requirements.txt (line 54))
+#7 16.30   Downloading mypy_extensions-1.0.0-py3-none-any.whl (4.7 kB)
+#7 16.31 Collecting nest-asyncio==1.6.0 (from -r /recipe/requirements.txt (line 55))
+#7 16.31   Downloading nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+#7 16.32 Collecting nodeenv==1.9.1 (from -r /recipe/requirements.txt (line 56))
+#7 16.32   Downloading nodeenv-1.9.1-py2.py3-none-any.whl (22 kB)
+#7 16.44 Collecting numpy==1.26.4 (from -r /recipe/requirements.txt (line 57))
+#7 16.44   Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+#7 17.41      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 57.5 MB/s eta 0:00:00
+#7 17.45 Collecting omegaconf==2.3.0 (from -r /recipe/requirements.txt (line 58))
+#7 17.45   Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+#7 17.45      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 826.9 MB/s eta 0:00:00
+#7 17.64 Collecting opt-einsum==3.4.0 (from -r /recipe/requirements.txt (line 59))
+#7 17.64   Downloading opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+#7 17.64      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.9/71.9 kB 367.5 MB/s eta 0:00:00
+#7 17.65 Collecting optax==0.2.4 (from -r /recipe/requirements.txt (line 60))
+#7 17.66   Downloading optax-0.2.4-py3-none-any.whl (319 kB)
+#7 17.66      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 319.2/319.2 kB 95.6 MB/s eta 0:00:00
+#7 17.85 Collecting orbax==0.1.9 (from -r /recipe/requirements.txt (line 61))
+#7 17.85   Downloading orbax-0.1.9.tar.gz (1.6 kB)
+#7 17.85   Preparing metadata (setup.py): started
+#7 17.93   Preparing metadata (setup.py): finished with status 'done'
+#7 17.95 Collecting orbax-checkpoint==0.5.3 (from -r /recipe/requirements.txt (line 62))
+#7 17.95   Downloading orbax_checkpoint-0.5.3-py3-none-any.whl (143 kB)
+#7 17.95      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.0/143.0 kB 167.9 MB/s eta 0:00:00
+#7 17.96 Collecting packaging==24.2 (from -r /recipe/requirements.txt (line 63))
+#7 17.97   Downloading packaging-24.2-py3-none-any.whl (65 kB)
+#7 17.97      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB 766.3 MB/s eta 0:00:00
+#7 18.08 Collecting pandas==2.2.3 (from -r /recipe/requirements.txt (line 64))
+#7 18.08   Downloading pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
+#7 18.59      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 22.2 MB/s eta 0:00:00
+#7 18.61 Collecting pathspec==0.12.1 (from -r /recipe/requirements.txt (line 65))
+#7 18.61   Downloading pathspec-0.12.1-py3-none-any.whl (31 kB)
+#7 18.70 Collecting pillow==11.1.0 (from -r /recipe/requirements.txt (line 66))
+#7 18.71   Downloading pillow-11.1.0-cp311-cp311-manylinux_2_28_x86_64.whl (4.5 MB)
+#7 19.04      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 13.3 MB/s eta 0:00:00
+#7 19.06 Collecting platformdirs==4.3.6 (from -r /recipe/requirements.txt (line 67))
+#7 19.07   Downloading platformdirs-4.3.6-py3-none-any.whl (18 kB)
+#7 19.10 Collecting pre-commit==4.1.0 (from -r /recipe/requirements.txt (line 68))
+#7 19.10   Downloading pre_commit-4.1.0-py2.py3-none-any.whl (220 kB)
+#7 19.10      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 220.6/220.6 kB 71.8 MB/s eta 0:00:00
+#7 19.11 Collecting proglog==0.1.10 (from -r /recipe/requirements.txt (line 69))
+#7 19.12   Downloading proglog-0.1.10-py3-none-any.whl (6.1 kB)
+#7 19.27 Collecting protobuf==5.29.3 (from -r /recipe/requirements.txt (line 70))
+#7 19.27   Downloading protobuf-5.29.3-cp38-abi3-manylinux2014_x86_64.whl (319 kB)
+#7 19.28      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 319.7/319.7 kB 55.1 MB/s eta 0:00:00
+#7 19.32 Collecting psutil==6.1.1 (from -r /recipe/requirements.txt (line 71))
+#7 19.32   Downloading psutil-6.1.1-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (287 kB)
+#7 19.33      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.5/287.5 kB 59.4 MB/s eta 0:00:00
+#7 19.42 Collecting pydantic==2.10.6 (from -r /recipe/requirements.txt (line 72))
+#7 19.42   Downloading pydantic-2.10.6-py3-none-any.whl (431 kB)
+#7 19.43      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 431.7/431.7 kB 47.6 MB/s eta 0:00:00
+#7 19.90 Collecting pydantic-core==2.27.2 (from -r /recipe/requirements.txt (line 73))
+#7 19.90   Downloading pydantic_core-2.27.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+#7 19.94      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 52.3 MB/s eta 0:00:00
+#7 20.02 Collecting pygame==2.6.1 (from -r /recipe/requirements.txt (line 74))
+#7 20.02   Downloading pygame-2.6.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.0 MB)
+#7 21.06      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.0/14.0 MB 10.5 MB/s eta 0:00:00
+#7 21.26 Collecting pygame-widgets==1.1.6 (from -r /recipe/requirements.txt (line 75))
+#7 21.45   Downloading pygame_widgets-1.1.6-py3-none-any.whl (27 kB)
+#7 21.47 Collecting pygments==2.19.1 (from -r /recipe/requirements.txt (line 76))
+#7 21.47   Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+#7 21.49      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 57.2 MB/s eta 0:00:00
+#7 21.60 Collecting pyparsing==3.2.1 (from -r /recipe/requirements.txt (line 77))
+#7 21.61   Downloading pyparsing-3.2.1-py3-none-any.whl (107 kB)
+#7 21.61      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.7/107.7 kB 247.0 MB/s eta 0:00:00
+#7 21.62 Collecting python-dateutil==2.9.0.post0 (from -r /recipe/requirements.txt (line 78))
+#7 21.62   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#7 21.63      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 81.2 MB/s eta 0:00:00
+#7 21.66 Collecting pytz==2025.1 (from -r /recipe/requirements.txt (line 79))
+#7 21.94   Downloading pytz-2025.1-py2.py3-none-any.whl (507 kB)
+#7 21.95      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 507.9/507.9 kB 67.6 MB/s eta 0:00:00
+#7 21.98 Collecting pyyaml==6.0.2 (from -r /recipe/requirements.txt (line 80))
+#7 21.98   Downloading PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (762 kB)
+#7 21.99      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 763.0/763.0 kB 61.1 MB/s eta 0:00:00
+#7 22.01 Collecting requests==2.32.3 (from -r /recipe/requirements.txt (line 81))
+#7 22.01   Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+#7 22.02      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 780.6 MB/s eta 0:00:00
+#7 22.04 Collecting rich==13.9.4 (from -r /recipe/requirements.txt (line 82))
+#7 22.05   Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+#7 22.05      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.4/242.4 kB 75.7 MB/s eta 0:00:00
+#7 22.12 Collecting safetensors==0.5.2 (from -r /recipe/requirements.txt (line 83))
+#7 22.13   Downloading safetensors-0.5.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (461 kB)
+#7 22.14      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 462.0/462.0 kB 63.6 MB/s eta 0:00:00
+#7 22.23 Collecting scipy==1.15.1 (from -r /recipe/requirements.txt (line 84))
+#7 22.23   Downloading scipy-1.15.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (40.6 MB)
+#7 25.15      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.6/40.6 MB 17.1 MB/s eta 0:00:00
+#7 25.18 Collecting seaborn==0.13.2 (from -r /recipe/requirements.txt (line 85))
+#7 25.19   Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+#7 25.19      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.9/294.9 kB 60.1 MB/s eta 0:00:00
+#7 25.23 Collecting sentry-sdk==2.20.0 (from -r /recipe/requirements.txt (line 86))
+#7 25.23   Downloading sentry_sdk-2.20.0-py2.py3-none-any.whl (322 kB)
+#7 25.24      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 322.6/322.6 kB 64.8 MB/s eta 0:00:00
+#7 25.28 Collecting setproctitle==1.3.4 (from -r /recipe/requirements.txt (line 87))
+#7 25.28   Downloading setproctitle-1.3.4-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (31 kB)
+#7 25.28 Requirement already satisfied: setuptools==75.8.0 in /usr/local/lib/python3.11/site-packages (from -r /recipe/requirements.txt (line 88)) (75.8.0)
+#7 25.30 Collecting shtab==1.7.1 (from -r /recipe/requirements.txt (line 89))
+#7 25.30   Downloading shtab-1.7.1-py3-none-any.whl (14 kB)
+#7 25.31 Collecting six==1.17.0 (from -r /recipe/requirements.txt (line 90))
+#7 25.32   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#7 25.33 Collecting smmap==5.0.2 (from -r /recipe/requirements.txt (line 91))
+#7 25.33   Downloading smmap-5.0.2-py3-none-any.whl (24 kB)
+#7 25.34 Collecting tensorflow-probability==0.25.0 (from -r /recipe/requirements.txt (line 92))
+#7 25.35   Downloading tensorflow_probability-0.25.0-py2.py3-none-any.whl (7.0 MB)
+#7 25.75      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 17.1 MB/s eta 0:00:00
+#7 25.80 Collecting tensorstore==0.1.71 (from -r /recipe/requirements.txt (line 93))
+#7 25.81   Downloading tensorstore-0.1.71-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.8 MB)
+#7 27.57      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.8/17.8 MB 7.9 MB/s eta 0:00:00
+#7 27.59 Collecting toolz==1.0.0 (from -r /recipe/requirements.txt (line 94))
+#7 27.59   Downloading toolz-1.0.0-py3-none-any.whl (56 kB)
+#7 27.59      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.4/56.4 kB 629.9 MB/s eta 0:00:00
+#7 27.63 Collecting tqdm==4.67.1 (from -r /recipe/requirements.txt (line 95))
+#7 27.63   Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+#7 27.63      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 kB 751.9 MB/s eta 0:00:00
+#7 27.64 Collecting tqdm-loggable==0.2 (from -r /recipe/requirements.txt (line 96))
+#7 27.65   Downloading tqdm_loggable-0.2-py3-none-any.whl (9.3 kB)
+#7 27.66 Collecting typeguard==4.4.1 (from -r /recipe/requirements.txt (line 97))
+#7 27.66   Downloading typeguard-4.4.1-py3-none-any.whl (35 kB)
+#7 27.68 Collecting typing-extensions==4.12.2 (from -r /recipe/requirements.txt (line 98))
+#7 27.68   Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+#7 27.70 Collecting tyro==0.9.13 (from -r /recipe/requirements.txt (line 99))
+#7 27.71   Downloading tyro-0.9.13-py3-none-any.whl (115 kB)
+#7 27.71      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 115.7/115.7 kB 350.6 MB/s eta 0:00:00
+#7 27.72 Collecting tzdata==2025.1 (from -r /recipe/requirements.txt (line 100))
+#7 27.72   Downloading tzdata-2025.1-py2.py3-none-any.whl (346 kB)
+#7 27.73      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 346.8/346.8 kB 64.0 MB/s eta 0:00:00
+#7 27.75 Collecting urllib3==2.3.0 (from -r /recipe/requirements.txt (line 101))
+#7 27.76   Downloading urllib3-2.3.0-py3-none-any.whl (128 kB)
+#7 27.76      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.4/128.4 kB 63.0 MB/s eta 0:00:00
+#7 27.80 Collecting virtualenv==20.29.1 (from -r /recipe/requirements.txt (line 102))
+#7 27.80   Downloading virtualenv-20.29.1-py3-none-any.whl (4.3 MB)
+#7 28.02      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 58.1 MB/s eta 0:00:00
+#7 28.08 Collecting wandb==0.19.6 (from -r /recipe/requirements.txt (line 103))
+#7 28.27   Downloading wandb-0.19.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20.9 MB)
+#7 30.57      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 14.1 MB/s eta 0:00:00
+#7 30.59 Collecting zipp==3.21.0 (from -r /recipe/requirements.txt (line 104))
+#7 30.60   Downloading zipp-3.21.0-py3-none-any.whl (9.6 kB)
+#7 30.92 Building wheels for collected packages: antlr4-python3-runtime, gym, moviepy, orbax
+#7 30.92   Building wheel for antlr4-python3-runtime (setup.py): started
+#7 31.03   Building wheel for antlr4-python3-runtime (setup.py): finished with status 'done'
+#7 31.03   Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144591 sha256=45ecf0eb6e90c478a212fd512034e2724e3ca70270bc20bd5bec225e40502d4a
+#7 31.03   Stored in directory: /tmp/pip-ephem-wheel-cache-pb4w0om5/wheels/1a/97/32/461f837398029ad76911109f07047fde1d7b661a147c7c56d1
+#7 31.03   Building wheel for gym (pyproject.toml): started
+#7 31.23   Building wheel for gym (pyproject.toml): finished with status 'done'
+#7 31.23   Created wheel for gym: filename=gym-0.26.2-py3-none-any.whl size=827695 sha256=78ccb4cefcae7df2e9763fff8f6f84d8b1c8612d41d49638c71652b40418bccb
+#7 31.23   Stored in directory: /tmp/pip-ephem-wheel-cache-pb4w0om5/wheels/1c/77/9e/9af5470201a0b0543937933ee99ba884cd237d2faefe8f4d37
+#7 31.23   Building wheel for moviepy (setup.py): started
+#7 31.35   Building wheel for moviepy (setup.py): finished with status 'done'
+#7 31.35   Created wheel for moviepy: filename=moviepy-1.0.3-py3-none-any.whl size=110763 sha256=eff52e19854f784451220bcfb95b8f5e403ea842a711e76f7b40c08eb269580f
+#7 31.35   Stored in directory: /tmp/pip-ephem-wheel-cache-pb4w0om5/wheels/83/b1/d9/119ef7c144b44d591ec0a9a140465133c23ea95d2a161184ba
+#7 31.35   Building wheel for orbax (setup.py): started
+#7 31.45   Building wheel for orbax (setup.py): finished with status 'done'
+#7 31.45   Created wheel for orbax: filename=orbax-0.1.9-py3-none-any.whl size=1537 sha256=fa1cfaa10cc650b06b2b8b7bdfb8a7c334332c906407c90b0f8cccdfef9d9afd
+#7 31.45   Stored in directory: /tmp/pip-ephem-wheel-cache-pb4w0om5/wheels/c3/db/68/3b3d5f58479cc8823c04f14722958d959580e649d5c31a6405
+#7 31.45 Successfully built antlr4-python3-runtime gym moviepy orbax
+#7 31.45 Installing collected packages: pytz, proglog, orbax, moviepy, hydra-core, gym-notices, farama-notifications, docker-pycreds, dm-tree, distlib, argparse, antlr4-python3-runtime, zipp, wandb, virtualenv, urllib3, tzdata, tyro, typing-extensions, typeguard, tqdm-loggable, tqdm, toolz, tensorstore, tensorflow-probability, smmap, six, shtab, setproctitle, sentry-sdk, seaborn, scipy, safetensors, rich, requests, pyyaml, python-dateutil, pyparsing, pygments, pygame-widgets, pygame, pydantic-core, pydantic, psutil, protobuf, pre-commit, platformdirs, pillow, pathspec, pandas, packaging, orbax-checkpoint, optax, opt-einsum, omegaconf, numpy, nodeenv, nest-asyncio, mypy-extensions, msgpack, ml-dtypes, mdurl, matplotlib, markdown-it-py, kiwisolver, jaxlib, jaxgl, jax2d, jax, importlib-resources, imageio-ffmpeg, imageio, idna, identify, gymnax, gymnasium, gym, gitpython, gitdb, gast, fsspec, fonttools, flax, filelock, etils, einops, docstring-parser, distrax, decorator, cycler, contourpy, colorama, cloudpickle, click, chex, charset-normalizer, cfgv, certifi, black, annotated-types, absl-py
+#7 45.73 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 45.73 Successfully installed absl-py-2.1.0 annotated-types-0.7.0 antlr4-python3-runtime-4.9.3 argparse-1.4.0 black-25.1.0 certifi-2025.1.31 cfgv-3.4.0 charset-normalizer-3.4.1 chex-0.1.88 click-8.1.8 cloudpickle-3.1.1 colorama-0.4.6 contourpy-1.3.1 cycler-0.12.1 decorator-4.4.2 distlib-0.3.9 distrax-0.1.5 dm-tree-0.1.8 docker-pycreds-0.4.0 docstring-parser-0.16 einops-0.8.0 etils-1.11.0 farama-notifications-0.0.4 filelock-3.17.0 flax-0.10.2 fonttools-4.55.8 fsspec-2025.2.0 gast-0.6.0 gitdb-4.0.12 gitpython-3.1.44 gym-0.26.2 gym-notices-0.0.8 gymnasium-1.0.0 gymnax-0.0.8 hydra-core-1.3.2 identify-2.6.6 idna-3.10 imageio-2.37.0 imageio-ffmpeg-0.6.0 importlib-resources-6.5.2 jax-0.4.35 jax2d-1.0.0 jaxgl-1.0.1 jaxlib-0.4.34 kiwisolver-1.4.8 markdown-it-py-3.0.0 matplotlib-3.10.0 mdurl-0.1.2 ml-dtypes-0.4.1 moviepy-1.0.3 msgpack-1.1.0 mypy-extensions-1.0.0 nest-asyncio-1.6.0 nodeenv-1.9.1 numpy-1.26.4 omegaconf-2.3.0 opt-einsum-3.4.0 optax-0.2.4 orbax-0.1.9 orbax-checkpoint-0.5.3 packaging-24.2 pandas-2.2.3 pathspec-0.12.1 pillow-11.1.0 platformdirs-4.3.6 pre-commit-4.1.0 proglog-0.1.10 protobuf-5.29.3 psutil-6.1.1 pydantic-2.10.6 pydantic-core-2.27.2 pygame-2.6.1 pygame-widgets-1.1.6 pygments-2.19.1 pyparsing-3.2.1 python-dateutil-2.9.0.post0 pytz-2025.1 pyyaml-6.0.2 requests-2.32.3 rich-13.9.4 safetensors-0.5.2 scipy-1.15.1 seaborn-0.13.2 sentry-sdk-2.20.0 setproctitle-1.3.4 shtab-1.7.1 six-1.17.0 smmap-5.0.2 tensorflow-probability-0.25.0 tensorstore-0.1.71 toolz-1.0.0 tqdm-4.67.1 tqdm-loggable-0.2 typeguard-4.4.1 typing-extensions-4.12.2 tyro-0.9.13 tzdata-2025.1 urllib3-2.3.0 virtualenv-20.29.1 wandb-0.19.6 zipp-3.21.0
+#7 45.79 
+#7 45.79 [notice] A new release of pip is available: 24.0 -> 26.2.1
+#7 45.79 [notice] To update, run: pip install --upgrade pip
+#7 47.24 No broken requirements found.
+#7 DONE 47.8s
+
+#8 [4/4] WORKDIR /study
+#8 DONE 0.1s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 22.3s done
+#9 exporting manifest sha256:7d7137ce6fb3f1738d00d90a73ce6319a0894a6f599b0a1c88687230a1aba582
+#9 exporting manifest sha256:7d7137ce6fb3f1738d00d90a73ce6319a0894a6f599b0a1c88687230a1aba582 0.0s done
+#9 exporting config sha256:9c67091450ad1f06e67d66ca1848501688e510f622ec0679d54031dfcf697a9b 0.0s done
+#9 exporting attestation manifest sha256:45ebb2e6d0169f2c1c694f157362551d6c56b540b1407c9e0d66249bd04c71b0 0.1s done
+#9 exporting manifest list sha256:d558ddf6158302871270e39c4eb7abfcfc339fdb6ed2eeeebf05b79dd185245a
+#9 exporting manifest list sha256:d558ddf6158302871270e39c4eb7abfcfc339fdb6ed2eeeebf05b79dd185245a 0.0s done
+#9 naming to docker.io/library/research3-q6-readiness:v1 done
+#9 unpacking to docker.io/library/research3-q6-readiness:v1
+#9 unpacking to docker.io/library/research3-q6-readiness:v1 4.8s done
+#9 DONE 27.3s

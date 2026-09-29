@@ -1,0 +1,177 @@
+{
+  "status": "EXPLORATORY_POINT_TRACE",
+  "input_sha256": "9b4f894a63556563fe7bc856d32131948b2b5df495d1aab5b88a2dc1834b1897",
+  "frame_count": 42,
+  "raw_keys": [
+    "rgb",
+    "camera_poses",
+    "camera_K",
+    "depth"
+  ],
+  "timestamp_present": false,
+  "timing_boundary": "array-index diagnostic; official annotation/index convention unresolved",
+  "interval_indices": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "depth_limits_m": [
+    0.1,
+    2.0
+  ],
+  "residual_margin_m": 0.05,
+  "patch": "3x3 median with at least 5 valid pixels",
+  "seed": null,
+  "device": "cpu",
+  "python": "3.11.14",
+  "numpy": "2.2.6",
+  "torch": "2.8.0+cpu",
+  "code_sha256": "2b16349a0112937d6e95875cfa53b6ea5b9cfe5aed7c773dfa4d87322af9ae75",
+  "rigid_projection_max_abs_difference": 1.1462835569631125e-07,
+  "cases": {
+    "metal bowl": {
+      "oracle_initial_point": [
+        0.677054644,
+        0.87221384,
+        0.807975411
+      ],
+      "initial_states_0_to_13": {
+        "surface_consistent": 2,
+        "outside_view": 6,
+        "behind_camera": 6
+      },
+      "interior_states": {
+        "behind_camera": 3,
+        "outside_view": 5,
+        "free_space": 2
+      },
+      "free_space_indices": [
+        17,
+        22
+      ],
+      "periodic_phases_two_reads_each": [
+        {
+          "phase": 0,
+          "selected": [
+            15,
+            20
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 1,
+          "selected": [
+            16,
+            21
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 2,
+          "selected": [
+            17,
+            22
+          ],
+          "free_space_hits": 2
+        },
+        {
+          "phase": 3,
+          "selected": [
+            18,
+            23
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 4,
+          "selected": [
+            19,
+            24
+          ],
+          "free_space_hits": 0
+        }
+      ],
+      "causal_first_evidence": {
+        "selected": [
+          17
+        ],
+        "point_updates": 1,
+        "depth_frames_read": 3
+      },
+      "claim": "point-evidence coverage only; different read costs, no equal-compute gain"
+    },
+    "orange": {
+      "oracle_initial_point": [
+        0.262488157,
+        -0.893036664,
+        0.765672207
+      ],
+      "initial_states_0_to_13": {
+        "outside_view": 5,
+        "surface_consistent": 1,
+        "behind_camera": 8
+      },
+      "interior_states": {
+        "behind_camera": 5,
+        "outside_view": 4,
+        "surface_consistent": 1
+      },
+      "free_space_indices": [],
+      "periodic_phases_two_reads_each": [
+        {
+          "phase": 0,
+          "selected": [
+            15,
+            20
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 1,
+          "selected": [
+            16,
+            21
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 2,
+          "selected": [
+            17,
+            22
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 3,
+          "selected": [
+            18,
+            23
+          ],
+          "free_space_hits": 0
+        },
+        {
+          "phase": 4,
+          "selected": [
+            19,
+            24
+          ],
+          "free_space_hits": 0
+        }
+      ],
+      "causal_first_evidence": {
+        "selected": [],
+        "point_updates": 0,
+        "depth_frames_read": 10
+      },
+      "claim": "point-evidence coverage only; different read costs, no equal-compute gain"
+    }
+  }
+}

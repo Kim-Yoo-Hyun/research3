@@ -1,0 +1,490 @@
+{
+  "exploratory": true,
+  "training_fits": 9,
+  "evaluation_episodes": 2304,
+  "initial_states": 32,
+  "cells": [
+    {
+      "variant": "native",
+      "update": 97,
+      "density": 1.0,
+      "friction": 1.0,
+      "end": 79,
+      "once": 83,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 21,
+        "303": 26
+      },
+      "failures": {
+        "success": 79,
+        "left_after_success": 4,
+        "placed_nonstatic": 8,
+        "goal_not_reached_at_end": 5
+      }
+    },
+    {
+      "variant": "native",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "end": 81,
+      "once": 83,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 21,
+        "303": 28
+      },
+      "failures": {
+        "success": 81,
+        "left_after_success": 2,
+        "placed_nonstatic": 8,
+        "goal_not_reached_at_end": 5
+      }
+    },
+    {
+      "variant": "native",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "end": 82,
+      "once": 83,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 23,
+        "303": 27
+      },
+      "failures": {
+        "success": 82,
+        "left_after_success": 1,
+        "placed_nonstatic": 9,
+        "goal_not_reached_at_end": 4
+      }
+    },
+    {
+      "variant": "native",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "end": 79,
+      "once": 83,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 22,
+        "303": 25
+      },
+      "failures": {
+        "success": 79,
+        "left_after_success": 4,
+        "placed_nonstatic": 9,
+        "goal_not_reached_at_end": 4
+      }
+    },
+    {
+      "variant": "native",
+      "update": 195,
+      "density": 1.0,
+      "friction": 1.0,
+      "end": 86,
+      "once": 95,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 24,
+        "303": 30
+      },
+      "failures": {
+        "success": 86,
+        "left_after_success": 9,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 1
+      }
+    },
+    {
+      "variant": "native",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "end": 89,
+      "once": 95,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 27,
+        "303": 30
+      },
+      "failures": {
+        "success": 89,
+        "left_after_success": 6,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 1
+      }
+    },
+    {
+      "variant": "native",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "end": 86,
+      "once": 93,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 25,
+        "303": 29
+      },
+      "failures": {
+        "success": 86,
+        "left_after_success": 7,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 3
+      }
+    },
+    {
+      "variant": "native",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "end": 89,
+      "once": 93,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 28,
+        "303": 29
+      },
+      "failures": {
+        "success": 89,
+        "left_after_success": 4,
+        "placed_nonstatic": 1,
+        "goal_not_reached_at_end": 2
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 1.0,
+      "friction": 1.0,
+      "end": 88,
+      "once": 92,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 32,
+        "303": 24
+      },
+      "failures": {
+        "success": 88,
+        "left_after_success": 4,
+        "placed_nonstatic": 3,
+        "goal_not_reached_at_end": 1
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "end": 87,
+      "once": 92,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 32,
+        "303": 23
+      },
+      "failures": {
+        "success": 87,
+        "left_after_success": 5,
+        "placed_nonstatic": 2,
+        "goal_not_reached_at_end": 2
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "end": 89,
+      "once": 92,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 32,
+        "303": 25
+      },
+      "failures": {
+        "success": 89,
+        "left_after_success": 3,
+        "placed_nonstatic": 3,
+        "goal_not_reached_at_end": 1
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "end": 89,
+      "once": 92,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 32,
+        "303": 25
+      },
+      "failures": {
+        "success": 89,
+        "left_after_success": 3,
+        "placed_nonstatic": 2,
+        "goal_not_reached_at_end": 2
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 1.0,
+      "friction": 1.0,
+      "end": 94,
+      "once": 94,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 31,
+        "303": 31
+      },
+      "failures": {
+        "success": 94,
+        "left_after_success": 0,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 2
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "end": 92,
+      "once": 93,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 31,
+        "202": 31,
+        "303": 30
+      },
+      "failures": {
+        "success": 92,
+        "left_after_success": 1,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 3
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "end": 95,
+      "once": 95,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 32,
+        "303": 31
+      },
+      "failures": {
+        "success": 95,
+        "left_after_success": 0,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 1
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "end": 93,
+      "once": 94,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 31,
+        "303": 30
+      },
+      "failures": {
+        "success": 93,
+        "left_after_success": 1,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 2
+      }
+    },
+    {
+      "variant": "half",
+      "update": 97,
+      "density": 1.0,
+      "friction": 1.0,
+      "end": 65,
+      "once": 67,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 28,
+        "303": 5
+      },
+      "failures": {
+        "success": 65,
+        "left_after_success": 2,
+        "placed_nonstatic": 2,
+        "goal_not_reached_at_end": 27
+      }
+    },
+    {
+      "variant": "half",
+      "update": 97,
+      "density": 2.0,
+      "friction": 1.0,
+      "end": 66,
+      "once": 68,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 28,
+        "303": 6
+      },
+      "failures": {
+        "success": 66,
+        "left_after_success": 2,
+        "placed_nonstatic": 2,
+        "goal_not_reached_at_end": 26
+      }
+    },
+    {
+      "variant": "half",
+      "update": 97,
+      "density": 1.0,
+      "friction": 0.5,
+      "end": 65,
+      "once": 68,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 28,
+        "303": 5
+      },
+      "failures": {
+        "success": 65,
+        "left_after_success": 3,
+        "placed_nonstatic": 2,
+        "goal_not_reached_at_end": 26
+      }
+    },
+    {
+      "variant": "half",
+      "update": 97,
+      "density": 2.0,
+      "friction": 0.5,
+      "end": 65,
+      "once": 68,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 32,
+        "202": 27,
+        "303": 6
+      },
+      "failures": {
+        "success": 65,
+        "left_after_success": 3,
+        "placed_nonstatic": 2,
+        "goal_not_reached_at_end": 26
+      }
+    },
+    {
+      "variant": "half",
+      "update": 195,
+      "density": 1.0,
+      "friction": 1.0,
+      "end": 93,
+      "once": 95,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 30,
+        "202": 32,
+        "303": 31
+      },
+      "failures": {
+        "success": 93,
+        "left_after_success": 2,
+        "placed_nonstatic": 1,
+        "goal_not_reached_at_end": 0
+      }
+    },
+    {
+      "variant": "half",
+      "update": 195,
+      "density": 2.0,
+      "friction": 1.0,
+      "end": 94,
+      "once": 96,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 31,
+        "202": 32,
+        "303": 31
+      },
+      "failures": {
+        "success": 94,
+        "left_after_success": 2,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 0
+      }
+    },
+    {
+      "variant": "half",
+      "update": 195,
+      "density": 1.0,
+      "friction": 0.5,
+      "end": 94,
+      "once": 95,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 31,
+        "202": 32,
+        "303": 31
+      },
+      "failures": {
+        "success": 94,
+        "left_after_success": 1,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 1
+      }
+    },
+    {
+      "variant": "half",
+      "update": 195,
+      "density": 2.0,
+      "friction": 0.5,
+      "end": 94,
+      "once": 95,
+      "episodes": 96,
+      "end_by_seed": {
+        "101": 31,
+        "202": 32,
+        "303": 31
+      },
+      "failures": {
+        "success": 94,
+        "left_after_success": 1,
+        "placed_nonstatic": 0,
+        "goal_not_reached_at_end": 1
+      }
+    }
+  ],
+  "training_seconds": 3975.685755418148,
+  "evaluation_seconds": 361.18046510079876
+}

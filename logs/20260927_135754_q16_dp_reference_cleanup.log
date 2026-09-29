@@ -1,0 +1,39 @@
+{
+  "removed": [
+    {
+      "id": "d1239ec0ea0355ac6440bdb6a14bab2b795bc4926662691927f46da682e58199",
+      "name": "research3-q16-dp-reference-obsaudit-20260927_134041_495717",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_134041_495717_obsaudit.json"
+    },
+    {
+      "id": "8e3ebb44f8b7bb27db9a16dc214a70099b971312510db21cdc69fb445a68337d",
+      "name": "research3-q16-dp-reference-obsaudit-20260927_134117_678114",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_134117_678114_obsaudit.json"
+    },
+    {
+      "id": "cae01f4e5e39e876ea9a7f2c2a53a52e15307369adb0dd680624188bcc4e1d8c",
+      "name": "research3-q16-dp-reference-obsresolve-20260927_134305_365627",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_134305_365627_obsresolve.json"
+    },
+    {
+      "id": "aa5b2dcfd38a374451068835249813638cc4aa421c97c3ce5a56e9b82f438170",
+      "name": "research3-q16-dp-reference-traincontract-20260927_134455_700757",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_134455_700757_traincontract.json"
+    },
+    {
+      "id": "dbacb9962be739a5cf8b00cfef32a3dbb3e55d997034c52f049238266461f428",
+      "name": "research3-q16-dp-reference-finetune-20260927_134600_556190",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_134600_556190_finetune.json"
+    },
+    {
+      "id": "5b1766a5aec3ff82135ff25d74409d1b3945ba0b6b52551a070918f6ec355231",
+      "name": "research3-q16-dp-reference-compare-20260927_134833_806384",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_134833_806384_compare.json"
+    },
+    {
+      "id": "77b4407f3ab14d4024b90c7d22801f071ed79e13ef8fc7470c4e27828577bfbc",
+      "name": "research3-q16-dp-reference-compareverify-20260927_135638_564866",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_135638_564866_compareverify.json"
+    }
+  ]
+}

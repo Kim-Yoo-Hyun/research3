@@ -1,0 +1,38 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.8.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+/opt/conda/lib/python3.11/site-packages/sapien/_vulkan_tricks.py:37: UserWarning: Failed to find Vulkan ICD file. This is probably due to an incorrect or partial installation of the NVIDIA driver. SAPIEN will attempt to provide an ICD file anyway but it may not work.
+  warn(
+missing pytorch3d
+[DebugTiming 2026-09-28 02:59:12] Base_Task._init_task_env_.begin task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 02:59:12] START base_init.toppra_setup_logging task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 02:59:12] END base_init.toppra_setup_logging elapsed=0.000s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 02:59:12] START base_init.setup_scene task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+Traceback (most recent call last):
+  File "/work/sim_scene_smoke.py", line 71, in <module>
+[DebugTiming 2026-09-28 02:59:12] FAIL base_init.setup_scene elapsed=0.041s exception_type=RuntimeError exception_message=failed to find a rendering device task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+    main()
+  File "/work/sim_scene_smoke.py", line 45, in main
+    env.setup_demo(now_ep_num=0, seed=args.seed, is_test=True, **config)
+  File "/sim/envs/check_block_color.py", line 44, in setup_demo
+    super()._init_task_env_(**kwargs)
+  File "/sim/envs/_base_task.py", line 281, in _init_task_env_
+    self.setup_scene(**kwags)
+  File "/sim/envs/_base_task.py", line 973, in setup_scene
+    self.renderer = sapien.SapienRenderer()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/sapien/wrapper/renderer.py", line 9, in __init__
+    super().__init__()
+RuntimeError: failed to find a rendering device

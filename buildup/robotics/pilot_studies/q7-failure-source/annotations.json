@@ -1,0 +1,82 @@
+{
+  "phase": "before_numeric_scores",
+  "annotator": "Codex visual inspection; not independent human ground truth",
+  "label_blinding": false,
+  "numeric_scores_seen": false,
+  "input_figures": ["lemon.png", "drawer_ball.png", "sport_ball.png", "fruit.png", "controls.png"],
+  "groups": [
+    {
+      "group": "lemon",
+      "source_rows_1based": [43, 41],
+      "initial_goal_state": "visibly_unmet",
+      "initial_evidence": "세 view에서 gripper가 비어 있고 목표 lemon은 탁자에 있다.",
+      "failure_evidence": "END A에서 arm이 접근했지만 fingers는 열려 있고 lemon을 감싸지 않는다. View 1/2에서 물체와 gripper 관계를 볼 수 있다.",
+      "success_evidence": "END B에서 fingers가 lemon 양옆으로 닫혀 있다. View 0에서도 lemon이 gripper 아래에 보인다.",
+      "task_evidence_verdict": "두 source label 모두 보이는 grasp 상태와 일치; 동적 secure grasp는 미확정",
+      "global_change_expectation": "두 종료 모두 arm pose와 occlusion이 바뀌므로 global change가 발생한다. 크기만으로 성공 순서가 보장되지는 않는다.",
+      "temporal_limit": "END A가 완료된 실패인지 성공 직전 접근 단계인지 정지 영상만으로 구분할 수 없다."
+    },
+    {
+      "group": "drawer_ball",
+      "source_rows_1based": [72, 73],
+      "initial_goal_state": "visibly_unmet",
+      "initial_evidence": "빈 gripper가 위에 있다. Ball의 위치는 view마다 arm 또는 drawer에 가려질 수 있다.",
+      "failure_evidence": "END A에서 ball은 table 위에 있고 gripper는 열린 채 떨어져 있다. View 1이 관계를 가장 잘 드러낸다.",
+      "success_evidence": "END B의 view 1/2에서 fingers가 ball 양옆을 감싼다. View 0에서는 ball과 hand가 화면 가장자리에 부분적으로 잘린다.",
+      "task_evidence_verdict": "다른 view를 함께 보면 source label과 일치하는 접촉 상태; secure grasp는 미확정",
+      "global_change_expectation": "이동한 arm, drawer 가림/드러남과 화면 가장자리가 score에 기여할 수 있다.",
+      "temporal_limit": "Source failure의 끝이 terminal인지 알 수 없다. Drawer 배치 task의 전체 성공은 이 grasp label과 별개다."
+    },
+    {
+      "group": "sport_ball",
+      "source_rows_1based": [92, 91],
+      "initial_goal_state": "visibly_unmet",
+      "initial_evidence": "빈 gripper와 table 위 ball을 세 view에서 조합해 확인할 수 있다.",
+      "failure_evidence": "END A의 gripper가 ball 위쪽으로 움직였지만 열려 있고 ball은 table 위에 있다.",
+      "success_evidence": "END B에서 ball이 fingers 사이에 들어 있다. 특히 view 1에서 물체와 hand가 함께 보인다.",
+      "task_evidence_verdict": "Source label과 visible grasp 상태가 일치; lift/stability는 별도 관측이 필요",
+      "global_change_expectation": "두 종료 모두 arm의 이동과 물체 가림이 변한다. 목표 ball의 상태와 arm 이동을 구분할 필요가 있다.",
+      "temporal_limit": "A와 B가 한 연속 동작의 전후 단계인지 독립 시도인지 이미지로 확정할 수 없다."
+    },
+    {
+      "group": "fruit",
+      "source_rows_1based": [126, 127],
+      "initial_goal_state": "visibly_unmet",
+      "initial_evidence": "Gripper가 비어 있고 banana는 table 위에 있다. Visible fruit는 banana로 해석한다.",
+      "failure_evidence": "END A에서 gripper가 banana 쪽에 접근하지만 fingers는 열려 있다.",
+      "success_evidence": "END B에서는 banana의 한 부분을 fingers가 감싸고 있다. 큰 물체 이동은 뚜렷하지 않아 grasp 상태 해석과 이동량을 구분한다.",
+      "task_evidence_verdict": "두 label 모두 visible hand-object 관계와 대체로 일치; secure grasp와 전체 put-everything task는 미확정",
+      "global_change_expectation": "Arm과 tray 주변의 시각적 변화가 있으며 A/B 차이는 국소적인 hand-object 관계에 집중돼 보인다.",
+      "temporal_limit": "파일명 단계 번호만으로 실패의 원인이나 terminal 시점을 추정하지 않는다."
+    }
+  ],
+  "controls": [
+    {
+      "row_1based": 76,
+      "source_label": 1,
+      "evidence": "반복된 이미지 안에서 gripper가 tuna can으로 보이는 원통 양옆에 닫혀 있다. Label은 visible state와 일치할 수 있다.",
+      "interpretation": "이미지가 변하지 않아도 이미 grasp한 snapshot일 수 있다. 반복 경로만으로 annotation error라고 하지 않는다.",
+      "uncertainty": "동작 수행 과정과 grasp 안정성은 판독 불가"
+    },
+    {
+      "row_1based": 121,
+      "source_label": 0,
+      "evidence": "Hammer가 table 위에 있고 gripper가 열린 채 handle 주변에 있다. 실패 label과 visible unmet grasp가 일치한다.",
+      "interpretation": "동일한 start/end에서도 subtask 달성 상태가 negative인 예다.",
+      "uncertainty": "완료된 실패인지 정지/접근 중간 상태인지 판독 불가"
+    },
+    {
+      "row_1based": 122,
+      "source_label": 1,
+      "evidence": "Gripper fingers가 screwdriver의 손잡이 부분을 감싸는 듯 보인다. Label은 visible state와 일치할 수 있다.",
+      "interpretation": "같은 image equality라도 현재 목표와 hand-object 관계는 hammer control과 다르다.",
+      "uncertainty": "Secure grasp를 보증하는 동적 정보는 없다."
+    }
+  ],
+  "scope_limitations": [
+    "Case selection and source labels were known; this is qualitative exploratory interpretation.",
+    "No record is relabeled from these observations.",
+    "End=start constructions represent a visibly unmet snapshot for these four initial states, not a physically executed failed attempt.",
+    "Individual failure-generation provenance and terminal timing remain unknown."
+  ]
+}

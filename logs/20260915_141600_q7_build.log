@@ -1,0 +1,57 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 371B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d
+#5 resolve docker.io/library/python:3.11.14-slim-bookworm@sha256:65a93d69fa75478d554f4ad27c85c1e69fa184956261b4301ebaf6dbb0a3543d 0.0s done
+#5 CACHED
+
+#4 [internal] load build context
+#4 transferring context: 311B done
+#4 DONE 0.0s
+
+#6 [2/4] COPY requirements.lock /tmp/requirements.lock
+#6 DONE 0.1s
+
+#7 [3/4] RUN pip install --no-cache-dir --require-hashes --only-binary=:all: -r /tmp/requirements.lock
+#7 1.059 Collecting numpy==2.2.6 (from -r /tmp/requirements.lock (line 1))
+#7 1.084   Downloading numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+#7 1.686      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 21.6 MB/s eta 0:00:00
+#7 1.822 Collecting pillow==11.3.0 (from -r /tmp/requirements.lock (line 2))
+#7 1.827   Downloading pillow-11.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
+#7 2.435      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 10.9 MB/s eta 0:00:00
+#7 2.483 Installing collected packages: pillow, numpy
+#7 3.639 Successfully installed numpy-2.2.6 pillow-11.3.0
+#7 3.639 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 3.715 
+#7 3.715 [notice] A new release of pip is available: 24.0 -> 26.2.1
+#7 3.715 [notice] To update, run: pip install --upgrade pip
+#7 DONE 3.9s
+
+#8 [4/4] WORKDIR /study
+#8 DONE 0.1s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 2.4s done
+#9 exporting manifest sha256:9bdecb99dc6030217c9a9874f84429ec93b3499fe372fc256097d7c6a2405caf 0.0s done
+#9 exporting config sha256:133a6e7cdecca98193130237b6e98e452fac3c45d1fdf195deaa4c42c3b251de 0.0s done
+#9 exporting attestation manifest sha256:80d434e94c6366727842b981fc634f0449ca3321fe145c20e2544245bd0626f7 0.1s done
+#9 exporting manifest list sha256:8879500c0f9da0f593ada4251ad592360c140defd1f01804fee8a29466c0d3c6
+#9 exporting manifest list sha256:8879500c0f9da0f593ada4251ad592360c140defd1f01804fee8a29466c0d3c6 0.0s done
+#9 naming to docker.io/library/research3-q7-failure-source:v1 done
+#9 unpacking to docker.io/library/research3-q7-failure-source:v1
+#9 unpacking to docker.io/library/research3-q7-failure-source:v1 0.4s done
+#9 DONE 3.0s

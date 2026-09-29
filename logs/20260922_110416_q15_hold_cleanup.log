@@ -1,0 +1,1135 @@
+{
+  "preserved_files": [
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/cases.json",
+      "sha256": "8bdf3283e45b7d6f06e12a9aba558a57bab3489a8de3729c3e81ffb73ada61f9"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/episodes.csv",
+      "sha256": "ad1576319c8f134667d2a5e163747f6d4a2814a115ce39576cdd021a4753c38e"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_101_continued.json",
+      "sha256": "b9f39fafa13aaba87b42fbcc6db71a4356a3f3e9acf59eb9cc3ac00f717f3522"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_101_continued.log",
+      "sha256": "be79476cd3de89280a5fbbf83bb59a4f8f6d1a6033dc2964b05d83735a698cf0"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_101_continued.npz",
+      "sha256": "beaed7e3794a03daa7806d26e3d0eadb9024ffc6d70b52d7a8c992083deb8be5"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_101_hold.json",
+      "sha256": "8a0f51ffbdd6285e75346230ca2e23e71d02231876ce3bb65c9a5d635efc180b"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_101_hold.log",
+      "sha256": "d7d3135a4abe18dd47af555fdf550371f4823b78de0560366de784621a4aff8b"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_101_hold.npz",
+      "sha256": "5477d8054419138b11a402e7cc667bd62e6d72bd2a9b7fb812ff05a7c690b456"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_202_continued.json",
+      "sha256": "e3e9180ba00bb4e9de8cbbc8cff8a4a587ba173e1f15bb8a12dd4c5cfc09613f"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_202_continued.log",
+      "sha256": "01c3e97501f5203f96fedf1990efa1a9e1b42bb9e7a00ee69d5813b715d3ffce"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_202_continued.npz",
+      "sha256": "0a1ba9c609192573bfc2db632d12df87e8414b6ee8992abf846bdbc42cad6bb5"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_202_hold.json",
+      "sha256": "e9c29079ac73c5fbfdaf251024e1109bdad4d86c0341fdf1840cd7e822399aed"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_202_hold.log",
+      "sha256": "3da23ee786b02516b9ad1991def5d6b85d02d76ef64e3c92ce08972a4798116f"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_202_hold.npz",
+      "sha256": "9ffeb6be9d7d77596d3526fad4f32594bc1a9976aac43bf6b5fc9b300a9c3110"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_303_continued.json",
+      "sha256": "ffcc6ea566f5289f2e8dff36b1fe8661677d1e227e5768b229d3938f2cf53343"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_303_continued.log",
+      "sha256": "2f9a0c40de62ca83ee4c53c7aa56a7f3cdac605c78e96fe7fb9788c8c5b84299"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_303_continued.npz",
+      "sha256": "9dcdc3306eecc1ed602a0e33d646eef1f194e50a824b5031bbc382d1c9adb12d"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_303_hold.json",
+      "sha256": "cca2f28ce761ba0149f147111bb3dfd35ef1170554a04d3ed0c1a399fb36eacd"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_303_hold.log",
+      "sha256": "b8e61fee705d0bab368e58221d1a51cff25c43f690e40530a0c113c696ea3396"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/half_303_hold.npz",
+      "sha256": "b0426de07d6c98bfb5257959bf957ec1f805c17f7ae04fa61223ac8ac17062ba"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_101_continued.json",
+      "sha256": "70d30da07d8c1381dafe925d1c702d6b1574d5591a5dc2f18afcdb19794b301d"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_101_continued.log",
+      "sha256": "5d82034964755a3ae0a4ad4e64fceb34da614d909b2452708f14ca293d6a60ee"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_101_continued.npz",
+      "sha256": "cbf9170ff519ae20a57da382d8d08a2dc894fe36e4b61ce73fc40f28966ff620"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_101_hold.json",
+      "sha256": "8bbf0ee53d22c563d7a9a1a5711b91e26e5293dabac6537e2b8a4aa57b38dc5f"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_101_hold.log",
+      "sha256": "5b56e0132e7fb7e1798b1913b1479cf384e9315e2c03518d43ae1af01c159969"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_101_hold.npz",
+      "sha256": "96f33d75bdaaba01c610beab487c421f64ea5680842a78d25b6aae4c05156fdc"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_202_continued.json",
+      "sha256": "8077dadca3d778c338f00ef05867aa803a3ca78dccd83c195346ae839b1deff7"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_202_continued.log",
+      "sha256": "cee5178826b4e24e2131c3e82b9c59546a2aa403fd364f8f9f67a7cb7fc8fb22"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_202_continued.npz",
+      "sha256": "cfa538a1619d471e0273e281803c98cf77db9ca88ca1e508294a01af7cbc955e"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_202_hold.json",
+      "sha256": "1dc14ee8f703285c77ac85b5f5630b036198f069b329f1a98e37d20265b669f8"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_202_hold.log",
+      "sha256": "c827549d664d5712656d1f818367919cbee2f515e2155cb72dbda91dcd563ada"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_202_hold.npz",
+      "sha256": "2d8ba6ee8d2694705b727e814ad22fa986f0fad9cd7ee673ca516ecf8d68b660"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_303_continued.json",
+      "sha256": "132e0e1fc091cde630dbb491c216a93c4d41c39732d57e68b2cc6123af93a50c"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_303_continued.log",
+      "sha256": "51abfaed0af27ac4924e59c1eb00ff9f5b2c79dfb66ae99d493c6030b79e4fbd"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_303_continued.npz",
+      "sha256": "3290983b8f87f1b587bfa822844326bb496fb3b6634ce7297ac926f0a9c25124"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_303_hold.json",
+      "sha256": "30548d2188c519f2eec44435021a36f139fe760cc81024436aba12b6190e4d59"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_303_hold.log",
+      "sha256": "b414cf5a483a3705d072a5ccee6ff5fcfbd16a95acc69a649d5302b5dfd487e0"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/native_303_hold.npz",
+      "sha256": "462f0a5aea45ad913274c71c2539f8b8eab33c83cf8fd60a7907a9d602978f32"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_101_continued.json",
+      "sha256": "02421a4896448a6874205cf1ba6d2d990b9b6784c88001066d0eb5f89aaed6e2"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_101_continued.log",
+      "sha256": "10848e8870f93e7377da5de728c189891dfd256d1d16d925c267f3d4fed3def0"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_101_continued.npz",
+      "sha256": "c02a8936668a273fb8b398336975f4b702d031ac8b0461e002ef69a6bff9a0db"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_101_hold.json",
+      "sha256": "5db8a2df6b81291fd9aa39827e74226ae0bff8c21ca1d3fb0141499255dfa8e3"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_101_hold.log",
+      "sha256": "53203b86020f938524e1b85986ddacec7880e9c6e97ae5034216a82cefd7f20a"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_101_hold.npz",
+      "sha256": "7ca564f7c08d6d390c126eb258e1b828f6d85941294710c9ac7a8a73dc9b0410"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_202_continued.json",
+      "sha256": "373109b6f6a4c086e17feabade0a15f8bdb699380696eb4e233cbad4b32ad725"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_202_continued.log",
+      "sha256": "bb3cf9e797d56fbce92ff65f9f1fd9b38791f0f8d608d2890898c7cb50a8def0"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_202_continued.npz",
+      "sha256": "15370188516d874a9caa7c3f161c266e7c9634dc6945034d8a5e131b5e672fff"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_202_hold.json",
+      "sha256": "e783c3f7a75c5d6e19568e3c995a7cf3c646af47702ab061eff9fa35661cf7b2"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_202_hold.log",
+      "sha256": "62f67693c871889738d972c408d0c9dbe1d06290013882b3a60961e3c57e7013"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_202_hold.npz",
+      "sha256": "7b789fc96804f87bc957b40d6452ff7661cfaa7d712c5c36db82b76c3625118e"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_303_continued.json",
+      "sha256": "2e58d4fe04d7222b3c76298fa5593a71d32a340c20ce613df5b5187ce5ff1b02"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_303_continued.log",
+      "sha256": "0bccb04f5470e20b3ef90b791ad38c4fd7ec782673204c1c0e5047b7764c8165"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_303_continued.npz",
+      "sha256": "01e3e012289bd9dd661c4f12519e7d6348d8b7fe6189707817a9eeffc3ea7b1e"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_303_hold.json",
+      "sha256": "dbbcd09df10f46f008a765cd548c28edce0d8fff5818623f5dad54b6b5a23b50"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_303_hold.log",
+      "sha256": "fcf0e72fd8f24b273ff42f5987d8cff2bda3c8ac195be75bd0dd1b737dfb8c39"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/evaluation/no_grasp_303_hold.npz",
+      "sha256": "e5c5986c5f9e57a8325e3ac4fc995b3e61560ca9b4b7ab12bad673566c7432ca"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/inputs.json",
+      "sha256": "8b8e95310487a258523183ce5e41c55e208515ae60f173b6eeac85c03ab06ac1"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/installed.lock",
+      "sha256": "40855c9e303f1c4d4c2133f99996395abfad3c44edee310a4fc5cbf931a0e9d8"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/os-packages.lock",
+      "sha256": "c672f2f26e1c1742a4caa982abcd4c6d217fdaf9bd56b41d60d311ca206cafe1"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/run_status.json",
+      "sha256": "498aa4db1f436220c7576dc2982ac5937b02640f166f16b22070fade963219dc"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/source/Dockerfile",
+      "sha256": "ef12d0cf6aa4648b54945084c6cc996a51b51325adb786db76a95528c4751bb1"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/source/common.py",
+      "sha256": "e5b8a2c33e3caa7ad677ebe0561f351971ef39e22649c578cfa75756cdb0e910"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/source/hold.py",
+      "sha256": "aa0490d51833cb3f773b6e1d4709351c1b8bf20896718c1d1d4611eb898320d6"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/source/hold_job.py",
+      "sha256": "b9f745d9699f9be33793298d61b986712b1aae4dfc610cb87a6a9dd277cfa454"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/source/requirements.lock",
+      "sha256": "39e3053d52920c69391f62ba6f03c4c91ca55ad4ba0180509e6dd9461b31b790"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/source/task.py",
+      "sha256": "eb2b31545211fd74016f851bc711aadeafcc378b66dbe766d98bc10cf8f5954b"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/summary.json",
+      "sha256": "8bbe8d4b9849ede407adf3cddc7b638a66d9bc238346f47cef286e830e5cc58d"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/verification.json",
+      "sha256": "33170584bebe34db6d9153d07da8c623ca6293b9724a150f876f4ed51a0da29e"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/verification_source/hold_verify.py",
+      "sha256": "4429e5761de71c7faf1221c852735ac63137f6fc437be8212d0595f1d57c17a2"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/diagnosis/diagnosis.json",
+      "sha256": "6fcde1643756047ddc6169186a22521f9cb3af1917bcb090a43080d2af1dc6a4"
+    },
+    {
+      "path": "/home/yoohyun/research3/runs/q15/reward/hold_v1/diagnosis/hold_diagnose.py",
+      "sha256": "7490ea1127d0cd4e8274daa66be346c5252aec9519be648cbe7caf5896485225"
+    }
+  ],
+  "containers": [
+    {
+      "job_record": "/home/yoohyun/research3/runs/q15/reward/jobs/20260922_105848_874874_hold_run.json",
+      "inspection": {
+        "Id": "5dd6bf78ce11e6a0d95b6896508d79a3f05791f63a1175d89d9b17501927bd5a",
+        "Created": "2026-09-22T01:58:48.913859573Z",
+        "Path": "timeout",
+        "Args": [
+          "900s",
+          "python",
+          "-B",
+          "-u",
+          "/study/hold.py"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 0,
+          "Error": "",
+          "StartedAt": "2026-09-22T01:58:49.017324937Z",
+          "FinishedAt": "2026-09-22T02:00:21.210053868Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/5dd6bf78ce11e6a0d95b6896508d79a3f05791f63a1175d89d9b17501927bd5a/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/5dd6bf78ce11e6a0d95b6896508d79a3f05791f63a1175d89d9b17501927bd5a/hostname",
+        "HostsPath": "/var/lib/docker/containers/5dd6bf78ce11e6a0d95b6896508d79a3f05791f63a1175d89d9b17501927bd5a/hosts",
+        "LogPath": "/var/lib/docker/containers/5dd6bf78ce11e6a0d95b6896508d79a3f05791f63a1175d89d9b17501927bd5a/5dd6bf78ce11e6a0d95b6896508d79a3f05791f63a1175d89d9b17501927bd5a-json.log",
+        "Name": "/research3-q15-hold-run-20260922_105848_874874",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro",
+            "/home/yoohyun/research3/runs/q15/reward/v1:/input:ro",
+            "/home/yoohyun/research3/runs/q15/reward/hold_v1:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "none",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "nvidia",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": [
+            {
+              "Driver": "",
+              "Count": 0,
+              "DeviceIDs": [
+                "0"
+              ],
+              "Capabilities": [
+                [
+                  "gpu"
+                ]
+              ],
+              "Options": {}
+            }
+          ],
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/v1",
+            "Destination": "/input",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/hold_v1",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "5dd6bf78ce11",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "MPLCONFIGDIR=/home/research/mpl",
+            "NVIDIA_DRIVER_CAPABILITIES=graphics,utility,compute",
+            "VK_ICD_FILENAMES=/opt/ManiSkill/docker/nvidia_icd.json",
+            "CUDA_VISIBLE_DEVICES=0",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "900s",
+            "python",
+            "-B",
+            "-u",
+            "/study/hold.py"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-hold",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "none": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "7db6384d71c27de0ffc1f6e9df5a18469991384f0ee8d5e88287093aa40a1bd8",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "removed": true,
+      "log_sha256": "12c9e6f8be15996e5698cd1d4189b2dc5a15a76fd728f33832f70f8fb261d092"
+    },
+    {
+      "job_record": "/home/yoohyun/research3/runs/q15/reward/jobs/20260922_110119_815984_hold_verify.json",
+      "inspection": {
+        "Id": "63e8ae5218206685019f5b45bd7f041afece8f331e38db9d1360126ad2427939",
+        "Created": "2026-09-22T02:01:19.855339846Z",
+        "Path": "timeout",
+        "Args": [
+          "3600s",
+          "python",
+          "-B",
+          "-u",
+          "/study/hold_verify.py"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 0,
+          "Error": "",
+          "StartedAt": "2026-09-22T02:01:19.943972295Z",
+          "FinishedAt": "2026-09-22T02:01:20.404657844Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/63e8ae5218206685019f5b45bd7f041afece8f331e38db9d1360126ad2427939/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/63e8ae5218206685019f5b45bd7f041afece8f331e38db9d1360126ad2427939/hostname",
+        "HostsPath": "/var/lib/docker/containers/63e8ae5218206685019f5b45bd7f041afece8f331e38db9d1360126ad2427939/hosts",
+        "LogPath": "/var/lib/docker/containers/63e8ae5218206685019f5b45bd7f041afece8f331e38db9d1360126ad2427939/63e8ae5218206685019f5b45bd7f041afece8f331e38db9d1360126ad2427939-json.log",
+        "Name": "/research3-q15-hold-verify-20260922_110119_815984",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro",
+            "/home/yoohyun/research3/runs/q15/reward/v1:/input:ro",
+            "/home/yoohyun/research3/runs/q15/reward/hold_v1:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "none",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "runc",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": null,
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/v1",
+            "Destination": "/input",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/hold_v1",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "63e8ae521820",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "MPLCONFIGDIR=/home/research/mpl",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "3600s",
+            "python",
+            "-B",
+            "-u",
+            "/study/hold_verify.py"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-hold",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "none": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "7db6384d71c27de0ffc1f6e9df5a18469991384f0ee8d5e88287093aa40a1bd8",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "removed": true,
+      "log_sha256": "aa89dca458df35d4b32c3d65d46df3e9ded1523f2e77c95004e874db76f8d396"
+    },
+    {
+      "job_record": "/home/yoohyun/research3/runs/q15/reward/jobs/20260922_110247_677571_hold_diagnose.json",
+      "inspection": {
+        "Id": "bcdf2ad1c284bd247c28ec8af3ac367e2508a89f587d2e22a0b7e61cb12acc9a",
+        "Created": "2026-09-22T02:02:47.719923988Z",
+        "Path": "timeout",
+        "Args": [
+          "3600s",
+          "python",
+          "-B",
+          "-u",
+          "/study/hold_diagnose.py"
+        ],
+        "State": {
+          "Status": "exited",
+          "Running": false,
+          "Paused": false,
+          "Restarting": false,
+          "OOMKilled": false,
+          "Dead": false,
+          "Pid": 0,
+          "ExitCode": 0,
+          "Error": "",
+          "StartedAt": "2026-09-22T02:02:47.795970639Z",
+          "FinishedAt": "2026-09-22T02:02:48.192719201Z"
+        },
+        "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+        "ResolvConfPath": "/var/lib/docker/containers/bcdf2ad1c284bd247c28ec8af3ac367e2508a89f587d2e22a0b7e61cb12acc9a/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/bcdf2ad1c284bd247c28ec8af3ac367e2508a89f587d2e22a0b7e61cb12acc9a/hostname",
+        "HostsPath": "/var/lib/docker/containers/bcdf2ad1c284bd247c28ec8af3ac367e2508a89f587d2e22a0b7e61cb12acc9a/hosts",
+        "LogPath": "/var/lib/docker/containers/bcdf2ad1c284bd247c28ec8af3ac367e2508a89f587d2e22a0b7e61cb12acc9a/bcdf2ad1c284bd247c28ec8af3ac367e2508a89f587d2e22a0b7e61cb12acc9a-json.log",
+        "Name": "/research3-q15-hold-diagnose-20260922_110247_677571",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+          "Binds": [
+            "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward:/study:ro",
+            "/home/yoohyun/research3/runs/q15/reward/v1:/input:ro",
+            "/home/yoohyun/research3/runs/q15/reward/hold_v1:/output:rw",
+            "/home/yoohyun/research3/runs/q15/reward/cache:/home/research:rw"
+          ],
+          "ContainerIDFile": "",
+          "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+          },
+          "NetworkMode": "none",
+          "PortBindings": {},
+          "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+          },
+          "AutoRemove": false,
+          "VolumeDriver": "",
+          "VolumesFrom": null,
+          "ConsoleSize": [
+            0,
+            0
+          ],
+          "CapAdd": null,
+          "CapDrop": null,
+          "CgroupnsMode": "private",
+          "Dns": null,
+          "DnsOptions": [],
+          "DnsSearch": [],
+          "ExtraHosts": null,
+          "GroupAdd": null,
+          "IpcMode": "private",
+          "Cgroup": "",
+          "Links": null,
+          "OomScoreAdj": 0,
+          "PidMode": "",
+          "Privileged": false,
+          "PublishAllPorts": false,
+          "ReadonlyRootfs": false,
+          "SecurityOpt": null,
+          "UTSMode": "",
+          "UsernsMode": "",
+          "ShmSize": 67108864,
+          "Runtime": "runc",
+          "Isolation": "",
+          "CpuShares": 0,
+          "Memory": 25769803776,
+          "NanoCpus": 8000000000,
+          "CgroupParent": "",
+          "BlkioWeight": 0,
+          "BlkioWeightDevice": [],
+          "BlkioDeviceReadBps": [],
+          "BlkioDeviceWriteBps": [],
+          "BlkioDeviceReadIOps": [],
+          "BlkioDeviceWriteIOps": [],
+          "CpuPeriod": 0,
+          "CpuQuota": 0,
+          "CpuRealtimePeriod": 0,
+          "CpuRealtimeRuntime": 0,
+          "CpusetCpus": "",
+          "CpusetMems": "",
+          "Devices": [],
+          "DeviceCgroupRules": null,
+          "DeviceRequests": null,
+          "MemoryReservation": 0,
+          "MemorySwap": 25769803776,
+          "MemorySwappiness": null,
+          "OomKillDisable": null,
+          "PidsLimit": 512,
+          "Ulimits": [],
+          "CpuCount": 0,
+          "CpuPercent": 0,
+          "IOMaximumIOps": 0,
+          "IOMaximumBandwidth": 0,
+          "MaskedPaths": [
+            "/proc/acpi",
+            "/proc/asound",
+            "/proc/interrupts",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/sys/devices/virtual/powercap",
+            "/sys/firmware",
+            "/sys/devices/system/cpu/cpu0/thermal_throttle",
+            "/sys/devices/system/cpu/cpu1/thermal_throttle",
+            "/sys/devices/system/cpu/cpu2/thermal_throttle",
+            "/sys/devices/system/cpu/cpu3/thermal_throttle",
+            "/sys/devices/system/cpu/cpu4/thermal_throttle",
+            "/sys/devices/system/cpu/cpu5/thermal_throttle",
+            "/sys/devices/system/cpu/cpu6/thermal_throttle",
+            "/sys/devices/system/cpu/cpu7/thermal_throttle",
+            "/sys/devices/system/cpu/cpu8/thermal_throttle",
+            "/sys/devices/system/cpu/cpu9/thermal_throttle",
+            "/sys/devices/system/cpu/cpu10/thermal_throttle",
+            "/sys/devices/system/cpu/cpu11/thermal_throttle",
+            "/sys/devices/system/cpu/cpu12/thermal_throttle",
+            "/sys/devices/system/cpu/cpu13/thermal_throttle",
+            "/sys/devices/system/cpu/cpu14/thermal_throttle",
+            "/sys/devices/system/cpu/cpu15/thermal_throttle",
+            "/sys/devices/system/cpu/cpu16/thermal_throttle",
+            "/sys/devices/system/cpu/cpu17/thermal_throttle",
+            "/sys/devices/system/cpu/cpu18/thermal_throttle",
+            "/sys/devices/system/cpu/cpu19/thermal_throttle"
+          ],
+          "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+          ]
+        },
+        "Storage": {
+          "RootFS": {
+            "Snapshot": {
+              "Name": "overlayfs"
+            }
+          }
+        },
+        "Mounts": [
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/v1",
+            "Destination": "/input",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/hold_v1",
+            "Destination": "/output",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/runs/q15/reward/cache",
+            "Destination": "/home/research",
+            "Mode": "rw",
+            "RW": true,
+            "Propagation": "rprivate"
+          },
+          {
+            "Type": "bind",
+            "Source": "/home/yoohyun/research3/buildup/robotics/pilot_studies/q15-reward",
+            "Destination": "/study",
+            "Mode": "ro",
+            "RW": false,
+            "Propagation": "rprivate"
+          }
+        ],
+        "Config": {
+          "Hostname": "bcdf2ad1c284",
+          "Domainname": "",
+          "User": "1001:1001",
+          "AttachStdin": false,
+          "AttachStdout": true,
+          "AttachStderr": true,
+          "Tty": false,
+          "OpenStdin": false,
+          "StdinOnce": false,
+          "Env": [
+            "MPLCONFIGDIR=/home/research/mpl",
+            "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.11.16",
+            "PYTHON_SHA256=91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+            "PIP_DISABLE_PIP_VERSION_CHECK=1",
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1",
+            "PYTHONUNBUFFERED=1",
+            "PYTHONDONTWRITEBYTECODE=1"
+          ],
+          "Cmd": [
+            "timeout",
+            "3600s",
+            "python",
+            "-B",
+            "-u",
+            "/study/hold_diagnose.py"
+          ],
+          "Image": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+          "Volumes": null,
+          "WorkingDir": "/study",
+          "Entrypoint": null,
+          "Labels": {
+            "research3.study": "q15-hold",
+            "research3.workspace": "/home/yoohyun/research3"
+          }
+        },
+        "NetworkSettings": {
+          "SandboxID": "",
+          "SandboxKey": "",
+          "Ports": {},
+          "Networks": {
+            "none": {
+              "IPAMConfig": null,
+              "Links": null,
+              "Aliases": null,
+              "DriverOpts": null,
+              "GwPriority": 0,
+              "NetworkID": "7db6384d71c27de0ffc1f6e9df5a18469991384f0ee8d5e88287093aa40a1bd8",
+              "EndpointID": "",
+              "Gateway": "",
+              "IPAddress": "",
+              "MacAddress": "",
+              "IPPrefixLen": 0,
+              "IPv6Gateway": "",
+              "GlobalIPv6Address": "",
+              "GlobalIPv6PrefixLen": 0,
+              "DNSNames": null
+            }
+          }
+        },
+        "ImageManifestDescriptor": {
+          "mediaType": "application/vnd.oci.image.manifest.v1+json",
+          "digest": "sha256:4d94f4240beb52125c2335d159c9b96427bc16518df17048c0d66646ab32f732",
+          "size": 2396,
+          "platform": {
+            "architecture": "amd64",
+            "os": "linux"
+          }
+        }
+      },
+      "removed": true,
+      "log_sha256": "d0a972e0129cb581a3993fa177c2dace221d0ac719314e9d95969a5e40d02387"
+    }
+  ]
+}

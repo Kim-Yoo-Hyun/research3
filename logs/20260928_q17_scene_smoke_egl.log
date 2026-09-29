@@ -1,0 +1,914 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.8.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+missing pytorch3d
+[DebugTiming 2026-09-28 03:06:04] Base_Task._init_task_env_.begin task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] START base_init.toppra_setup_logging task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] END base_init.toppra_setup_logging elapsed=0.000s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] START base_init.setup_scene task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] END base_init.setup_scene elapsed=0.293s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] START base_init.ensure_live_frame_log_dir path=/output task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] END base_init.ensure_live_frame_log_dir elapsed=0.000s path=/output task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] START base_init.append_live_frame_session_start path=/output/live_frames.jsonl task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] END base_init.append_live_frame_session_start elapsed=0.000s path=/output/live_frames.jsonl task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] START base_init.create_table_and_wall task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] END base_init.create_table_and_wall elapsed=0.005s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:04] START base_init.load_robot task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[0;33mNo SRDF file provided![0m
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+[Robot.TOPP] use ASCII URDF for MPlib: /sim/assets/embodiments/astribot_descriptions_texture/astribot_whole_body_maniskill_merged.urdf.mplib_ascii.urdf
+[Robot.TOPP] use ASCII URDF for MPlib: /sim/assets/embodiments/astribot_descriptions_texture/astribot_whole_body_maniskill_merged.urdf.mplib_ascii.urdf
+Generating SRDF with default collision pairs. This may take several minutes.
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_left_Link_L2), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_left_Link_R2), reason: Adjacent
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_left_Link_R1), reason: Adjacent
+Ignore collision pair: (astribot_gripper_right_base, astribot_gripper_right_Link_R1), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_base_link, astribot_arm_right_link_1), reason: Adjacent
+Ignore collision pair: (astribot_gripper_right_base, astribot_gripper_right_Link_L1), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_4, astribot_arm_right_link_5), reason: Adjacent
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_left_Link_R2), reason: Adjacent
+Ignore collision pair: (astribot_torso_link_2, astribot_torso_link_3), reason: Adjacent
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_left_base_link), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_3, astribot_arm_right_link_4), reason: Adjacent
+Ignore collision pair: (astribot_gripper_right_base, astribot_gripper_right_Link_L2), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_5, astribot_arm_left_link_6), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_3, astribot_arm_left_link_4), reason: Adjacent
+Ignore collision pair: (astribot_torso_link_1, astribot_torso_link_3), reason: Adjacent
+Ignore collision pair: (astribot_torso_link_2, astribot_torso_link_4), reason: Adjacent
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_left_Link_L11), reason: Adjacent
+Ignore collision pair: (astribot_torso_base, astribot_torso_link_2), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_2, astribot_arm_right_link_3), reason: Adjacent
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_left_base_link), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_7, astribot_gripper_right_Link_R1), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_7, left_camera), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_6, astribot_arm_right_link_7), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_6, astribot_arm_left_link_7), reason: Adjacent
+Ignore collision pair: (astribot_gripper_right_base, right_camera), reason: Adjacent
+Ignore collision pair: (astribot_head_base_link, astribot_head_link_1), reason: Adjacent
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_left_link_1), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_left_link_3), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_7, astribot_gripper_right_Link_L1), reason: Adjacent
+Ignore collision pair: (astribot_head_link_1, astribot_head_link_2), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_4, astribot_arm_left_link_5), reason: Adjacent
+Ignore collision pair: (astribot_gripper_left_base, left_camera), reason: Adjacent
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_right_base_link), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_7, astribot_gripper_right_Link_L2), reason: Adjacent
+Ignore collision pair: (astribot_gripper_right_base, astribot_gripper_right_Link_R2), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_left_link_2), reason: Adjacent
+Ignore collision pair: (astribot_torso_base, astribot_torso_link_1), reason: Adjacent
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_right_link_1), reason: Adjacent
+Ignore collision pair: (astribot_torso_link_4, astribot_torso_end_effector), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_left_base), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_left_link_1), reason: Adjacent
+Ignore collision pair: (astribot_torso_end_effector, astribot_head_base_link), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_7, right_camera), reason: Adjacent
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_right_base_link), reason: Adjacent
+Ignore collision pair: (astribot_torso_link_1, astribot_torso_link_2), reason: Adjacent
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_gripper_left_Link_R11), reason: Adjacent
+Ignore collision pair: (astribot_gripper_right_Link_L1, astribot_gripper_right_Link_L11), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_7, astribot_gripper_right_Link_R2), reason: Adjacent
+Ignore collision pair: (astribot_gripper_right_Link_R1, astribot_gripper_right_Link_R11), reason: Adjacent
+Ignore collision pair: (astribot_head_link_2, camera_head), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_5, astribot_arm_right_link_6), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_7, astribot_gripper_right_base), reason: Adjacent
+Ignore collision pair: (astribot_torso_link_4, astribot_head_base_link), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_left_Link_L1), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_left_Link_L2), reason: Adjacent
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_left_Link_R1), reason: Adjacent
+Ignore collision pair: (astribot_torso_end_effector, astribot_head_link_1), reason: Adjacent
+Ignore collision pair: (astribot_torso_link_3, astribot_torso_link_4), reason: Adjacent
+Ignore collision pair: (astribot_arm_right_link_1, astribot_arm_right_link_2), reason: Adjacent
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_left_Link_L1), reason: Adjacent
+Ignore collision pair: (astribot_torso_base, astribot_torso_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_torso_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_torso_end_effector), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_left_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_left_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_left_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_left_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_left_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_left_link_5), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_base, left_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_base, right_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_base, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_base, camera_head), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_torso_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_torso_end_effector), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_left_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_left_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_left_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_left_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_left_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_left_link_5), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, left_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, right_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_1, camera_head), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_torso_end_effector), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_left_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_left_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_left_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_left_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_left_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, left_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, right_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_2, camera_head), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_torso_end_effector), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_left_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_left_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_left_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_left_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, left_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, right_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_3, camera_head), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_left_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_left_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_left_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_left_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_left_link_5), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, left_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, right_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_link_4, camera_head), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_left_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_left_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_left_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_left_link_5), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, left_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, right_camera), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_torso_end_effector, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_left_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_left_link_3), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_left_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_left_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, left_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_base_link, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_left_link_3), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_left_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_left_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, left_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_1, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_left_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_left_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, left_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_2, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, left_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_3, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_arm_left_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, left_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_4, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_arm_left_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, left_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_5, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_left_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_left_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, left_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_6, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_left_link_7, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_left_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_base, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, left_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L1, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_gripper_left_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, left_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L11, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_left_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_left_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, left_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_L2, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, left_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R1, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_gripper_left_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, left_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R11, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, left_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_left_Link_R2, camera_head), reason: Never collide
+Ignore collision pair: (left_camera, astribot_arm_right_base_link), reason: Never collide
+Ignore collision pair: (left_camera, astribot_arm_right_link_1), reason: Never collide
+Ignore collision pair: (left_camera, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (left_camera, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (left_camera, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (left_camera, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (left_camera, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (left_camera, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (left_camera, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (left_camera, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (left_camera, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (left_camera, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (left_camera, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (left_camera, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (left_camera, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (left_camera, right_camera), reason: Never collide
+Ignore collision pair: (left_camera, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (left_camera, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (left_camera, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (left_camera, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_arm_right_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_base_link, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_arm_right_link_3), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_1, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_arm_right_link_4), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_arm_right_link_5), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_2, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_3, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_arm_right_link_6), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_4, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, astribot_arm_right_link_7), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_5, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_gripper_right_base), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_gripper_right_Link_L1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, right_camera), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_6, camera_head), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_7, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_7, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_arm_right_link_7, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_base, astribot_gripper_right_Link_L11), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_base, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_base, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_base, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_base, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_base, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L1, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L1, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L1, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L1, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L1, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L1, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L1, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L1, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L1, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L11, astribot_gripper_right_Link_L2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L11, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L11, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L11, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L11, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L11, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L11, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L2, astribot_gripper_right_Link_R1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L2, astribot_gripper_right_Link_R11), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L2, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L2, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L2, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L2, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L2, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_L2, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R1, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R1, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R1, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R1, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R1, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R1, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R11, astribot_gripper_right_Link_R2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R11, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R11, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R11, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R11, camera_head), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R2, right_camera), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R2, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R2, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R2, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_gripper_right_Link_R2, camera_head), reason: Never collide
+Ignore collision pair: (right_camera, astribot_head_base_link), reason: Never collide
+Ignore collision pair: (right_camera, astribot_head_link_1), reason: Never collide
+Ignore collision pair: (right_camera, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (right_camera, camera_head), reason: Never collide
+Ignore collision pair: (astribot_head_base_link, astribot_head_link_2), reason: Never collide
+Ignore collision pair: (astribot_head_base_link, camera_head), reason: Never collide
+Ignore collision pair: (astribot_head_link_1, camera_head), reason: Never collide
+Saved the SRDF file to /sim/assets/embodiments/astribot_descriptions_texture/astribot_whole_body_maniskill_merged.urdf.mplib_ascii_mplib.srdf
+No SRDF file provided but found /sim/assets/embodiments/astribot_descriptions_texture/astribot_whole_body_maniskill_merged.urdf.mplib_ascii_mplib.srdf
+[DebugTiming 2026-09-28 03:06:30] END base_init.load_robot elapsed=26.177s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:30] START base_init.load_camera task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.load_camera elapsed=0.175s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.robot_move_to_homestate.initial task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.robot_move_to_homestate.initial elapsed=0.000s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.together_open_gripper task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.together_open_gripper elapsed=0.001s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.robot_set_origin_endpose.initial task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.robot_set_origin_endpose.initial elapsed=0.000s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.init_rotate_subtask_runtime_state task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.init_rotate_subtask_runtime_state elapsed=0.000s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.load_actors task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.load_actors elapsed=0.001s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.check_stable task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] check_stable.begin task=check_block_color episode=0 seed=100000 actor_count=7
+[DebugTiming 2026-09-28 03:06:31] START check_stable.pre_settle_steps steps=2000 task=check_block_color episode=0 seed=100000 actor_count=7
+[DebugTiming 2026-09-28 03:06:31] END check_stable.pre_settle_steps elapsed=0.015s steps=2000 task=check_block_color episode=0 seed=100000 actor_count=7
+[DebugTiming 2026-09-28 03:06:31] START check_stable.window steps=500 task=check_block_color episode=0 seed=100000 actor_count=7
+[DebugTiming 2026-09-28 03:06:31] END check_stable.window elapsed=0.013s steps=500 task=check_block_color episode=0 seed=100000 actor_count=7
+[DebugTiming 2026-09-28 03:06:31] check_stable.end is_stable=True unstable_count=0 unstable_objects= task=check_block_color episode=0 seed=100000 actor_count=7
+[DebugTiming 2026-09-28 03:06:31] END base_init.check_stable elapsed=0.029s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.robot_move_to_homestate.after_stable task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.robot_move_to_homestate.after_stable elapsed=0.000s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.robot_set_origin_endpose.after_stable task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.robot_set_origin_endpose.after_stable elapsed=0.000s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.reset_rotate_waist_heading_reference task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.reset_rotate_waist_heading_reference elapsed=0.000s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] START base_init.sync_curobo_tabletop_collisions task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] END base_init.sync_curobo_tabletop_collisions elapsed=0.001s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 03:06:31] Base_Task._init_task_env_.end elapsed=26.685s task=check_block_color episode=0 seed=100000 need_plan=True save_data=False
+[2026-09-28 03:06:32.733] [svulkan2] [error] OIDN Error: unsupported device type: CUDA
+[2026-09-28 03:06:32.754] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 03:06:32.779] [svulkan2] [error] OIDN Error: invalid handle
+{
+  "seed": 100000,
+  "modified_from_official_id_config": {
+    "domain_randomization.cluttered_table": false
+  },
+  "target_color": "blue",
+  "pad_centers": {
+    "blue": [
+      0.2303304225206375,
+      -0.16043497622013092,
+      0.7409999966621399
+    ],
+    "orange": [
+      2.265596578020887e-17,
+      -0.07999999076128006,
+      0.7409999966621399
+    ],
+    "yellow": [
+      -0.2303304225206375,
+      -0.16043497622013092,
+      0.7409999966621399
+    ]
+  },
+  "subtask_instruction_map": {
+    "1": "pick_target_block",
+    "2": "inspect_target_block_backside",
+    "3": "restore_target_block_pose",
+    "4": "place_target_block_on_matching_pad"
+  },
+  "resolved_subtask_instruction_map": null,
+  "task_instruction": "Place the gray block on the pad matching its back-side color.",
+  "image_shape": [
+    384,
+    512,
+    3
+  ],
+  "image_mean": 233.82442559136285,
+  "observation_keys": [
+    "observation",
+    "pointcloud",
+    "joint_action",
+    "endpose",
+    "subtask",
+    "stage",
+    "subtask_instruction_idx",
+    "focus_object_idx",
+    "focus_object_visible",
+    "info_complete",
+    "camera_mode",
+    "camera_target_theta",
+    "waist_heading_deg",
+    "visible_object_mask",
+    "discovered_object_mask",
+    "search_target_mask",
+    "action_target_mask",
+    "carried_object_mask",
+    "target_uv_norm"
+  ],
+  "native_success_at_initial_state": false
+}
+[DebugTiming 2026-09-28 03:06:32] START Base_Task.close_env task=check_block_color episode=0 seed=100000 clear_cache=False
+[DebugTiming 2026-09-28 03:06:32] START Base_Task.close_env.close task=check_block_color episode=0 seed=100000 clear_cache=False
+[DebugTiming 2026-09-28 03:06:32] END Base_Task.close_env.close elapsed=0.000s task=check_block_color episode=0 seed=100000 clear_cache=False
+[DebugTiming 2026-09-28 03:06:32] END Base_Task.close_env elapsed=0.000s task=check_block_color episode=0 seed=100000 clear_cache=False

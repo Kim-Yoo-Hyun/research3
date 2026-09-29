@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-09-16T03:48:41.453895+00:00",
+  "task": "remaining candidate comparison and CD2 first-observation selection",
+  "local_file_links_checked": 350,
+  "missing_local_file_links": [],
+  "new_primary_anchors_verified": 3,
+  "input_hashes_verified": 12,
+  "common_model_schemas_verified": 8,
+  "model_manifest_entries": 29,
+  "scientific_numerical_execution": false,
+  "docker_actions": false,
+  "deletions": false
+}

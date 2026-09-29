@@ -1,0 +1,19 @@
+{
+  "id": "q12-mesh-preservation-v1",
+  "frozen_at_utc": "2026-09-14T02:18:54.305598+00:00",
+  "basis": "post-failure v1 mesh audit; original failures already known",
+  "derived_mesh_or_paired_runtime_inspected_before_freeze": false,
+  "readiness_v1_revision": false,
+  "image_id": "sha256:0196da1a3a01ca07186c5c2c605d7e8993193ca810b2b6401dc95943dc0b0adb",
+  "files": {
+    "preservation_protocol.json": "5edfc7f525da11bbc8e722df521ef7cabfcc5777cc6b2bee028b46b722c54114",
+    "preserve.py": "8891979de7ba4418b1773ed4e6ca3e2273d3fedb1a815d5309eed947d3865803",
+    "verify_preservation.py": "6f85555548f30c6b450afceadf428be3b5d0e55e18d068e7fcb76e4d3df30adf",
+    "preservation.sh": "0ec5c3e47ccc47c5cd254b11395986f14953ac7c102851c8b1a1a6becbaed798",
+    "freeze.json": "014e3edac4c4456afc3efc1c3622cc72b6150358feae1b15945394c647523e1c",
+    "execution.json": "fd038fe72a6ca3f21d4f2fcbde0944164c2006ef503e3a2e67c37454fd6c7cdb",
+    "verification.json": "71da2164b91c83d2b0bf1029dd8c6064dfed19c433023f18e53b0dd6c8f051b3",
+    "mesh_audit.json": "404618fc33d86f56ec09d607f4a5e42a0eef81b31a3847bbd20e8a97fc27300b",
+    "mesh_execution.json": "20d76326d659ba520942d771b4766c7b72b29e1a0ccef451ff5727a13322a4e0"
+  }
+}

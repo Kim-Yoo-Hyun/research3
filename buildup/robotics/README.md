@@ -1,16 +1,19 @@
 # Robotics Research Scope
 
-Updated: 2026-09-11
+Updated: 2026-09-28
 
 ## Status
 
-`active_scoping`
-
-Robotics candidate research question 15개를 기록했다. Q12/Q13 Stage 4–5와 후속 비교를 마치고
-Q12의 CPU input/schema/coordinate protocol v1을 실제 네 쌍에 실행·독립 검증했다. Input
-controls는 통과했으나 physical frame은 미확정이다. Q12는 `feasibility_study`, Q13은
-`deferred`, Q14는 reserve다. 이후 실제 네 입력의 CPU reference completion을 실행·독립 검증했다.
-Native CUDA parity·물리 연결은 미검증이며 hypothesis와 method 선택은 아직 없다.
+`active_scoping` — Robotics candidate research question 17개를 기록했다. 다음 제한된
+탐색 질문은 [Q17 Evidence-Conditioned Action Selection](questions/evidence-conditioned-action-selection.md)이다.
+ActiveArena에서 획득한 정보가 목표 선택과 실제 조작에 반영되는지를
+구분하려 한다. 첫 hidden-color 과업의 세 held-out 사례는 정보 획득 이전에
+멈춰, 다음에는 색 종류를 세고 번호 버튼을 누르는 과업 경로를 검사한다.
+[선택 근거](../selection.md#q17-selection-2026-09-28)와
+[현재 작업](../../TODO.md)을 따른다. Q16의 현 2D 방법·Can PH 경로는 보류이며
+[원래 결과](pilot_studies/q16-motion/README.md)를 보존한다. CD5도 사용자 요청으로
+보류했다. [Q17 제한 탐색](pilot_studies/q17-evidence/README.md)이 진행 중이며
+선택된 formal hypothesis는 없다.
 
 ## Facts
 
@@ -104,19 +107,21 @@ scope 작업에서 read-only로 사용한다.
 | --- | --- | --- | --- |
 | Q1 | [Success-Predicate Stability](questions/success-predicate-stability.md) | `discontinued` | [Stage 7 disposition](../selection.md#q1--discontinue-2026-09-08); excluded from active execution priority |
 | Q2 | [Plan Executability Decomposition](questions/plan-executability-decomposition.md) | `deferred` | direct-prior collision; reformulation needed |
-| Q3 | [Physics-Setting Ranking Stability](questions/physics-ranking-stability.md) | `exploratory` | policy/artifact-dependent reserve |
-| Q4 | [Task-Relevant Spatial State](questions/task-relevant-spatial-state.md) | `exploratory` | high-overlap 3D route |
+| Q3 | [Physics-Setting Ranking Stability](questions/physics-ranking-stability.md) | `deferred` | Observation preserved; current trajectory-sensitivity route deferred after prior/information-value comparison |
+| Q4 | [Task-Relevant Spatial State](questions/task-relevant-spatial-state.md) | `deferred` | Symbolic instance-selection route deferred after prior/information-value comparison; observations preserved |
 | Q5 | [Whole-Body Command Admissibility](questions/wbc-command-admissibility.md) | `deferred` | executable-controller/embodiment blocked |
-| Q6 | [Temporal Mismatch Decomposition](questions/temporal-mismatch-decomposition.md) | `exploratory` | asynchronous execution factorization; direct-overlap risk |
-| Q7 | [Failure-Source Generalization](questions/failure-source-generalization.md) | `exploratory` | natural versus constructed failure transfer |
+| Q6 | [Temporal Mismatch Decomposition](questions/temporal-mismatch-decomposition.md) | `deferred` | CPU readiness stopped: original first-terminal label disagrees with substep success |
+| Q7 | [Failure-Source Generalization](questions/failure-source-generalization.md) | `deferred` | Current route deferred after comparison; explicit construction/evidence contrast needed for reassessment |
 | Q8 | [Local Recoverability Coverage](questions/local-recoverability-coverage.md) | `under_review` | repeated audit completed; `refine`, tested grid uninformative |
-| Q9 | [Spatial-Memory Refresh](questions/spatial-memory-refresh.md) | `exploratory` | fixed-budget stale-memory update; direct-overlap risk |
+| Q9 | [Spatial-Memory Refresh](questions/spatial-memory-refresh.md) | `deferred` | Current route's investment review complete; concrete distinct explanation needed for reassessment |
 | Q10 | [Contact-Outcome Observability](questions/contact-outcome-observability.md) | `discontinued` | [Stage 7 disposition](../selection.md#q10--discontinue-2026-09-08); excluded from active execution priority |
 | Q11 | [Contact-Preserving Action Compression](questions/contact-action-compression.md) | `discontinued` | [Stage 7 closure](../selection.md#q11--discontinue-current-route-2026-09-10); bounded current method route ended |
-| Q12 | [Reliance on Generated Geometry](questions/generated-geometry-reliance.md) | `feasibility_study` | Four-pair input audit verified; prepare bounded model-loading and independent-completion validation |
+| Q12 | [Reliance on Generated Geometry](questions/generated-geometry-reliance.md) | `deferred` | Bounded failure/calibration assessment completed; re-entry requires a concrete observation–geometry–action study |
 | Q13 | [Action-Relevant View Selection](questions/action-relevant-view-selection.md) | `deferred` | Direct-prior overlap and state/value setup cost; draft preserved with re-entry conditions |
-| Q14 | [Coordinate-Frame Error Propagation](questions/frame-error-propagation.md) | `exploratory` | geometry reserve; analytic-transform baseline pressure |
-| Q15 | [Reward Transfer Across Dynamics](questions/reward-dynamics-transfer.md) | `deferred` | reward-learning route; independent training cost unbounded |
+| Q14 | [Coordinate-Frame Error Propagation](questions/frame-error-propagation.md) | `deferred` | Observations preserved; remaining pose-metric disagreement does not establish action relevance; current route investment deferred |
+| Q15 | [Reward Transfer Across Dynamics](questions/reward-dynamics-transfer.md) | `deferred` | Hold comparison verified; simple control avoids main departures but adds failures; current reward-selection/hold expansion deferred |
+| Q16 | [Predictive Policy Adaptation](questions/interaction-conditioned-motion.md) | `deferred` | 현 2D 방법·Can PH 자료 경로 투자 보류; 별도 대표 실패 조건과 강한 같은 정보 대안이 있으면 재비교 |
+| Q17 | [Evidence-Conditioned Action Selection](questions/evidence-conditioned-action-selection.md) | `feasibility_study` | color-count 반복 보류; ML 회전 시점 공식 ID 첫 사례의 단서 가시성·첫 집기 대상 판별 관찰 선택 |
 
 ## Comparative Assessment — Initial Stage 3
 
@@ -200,58 +205,19 @@ embodiment가 확인될 때까지 deferred다.
 
 ## Current Decision
 
-Q12의 입력 취득·frozen protocol·실제 입력 실행/독립 검증과 후속 준비는
-[study README](pilot_studies/q12-generated-geometry/README.md)가 소유한다.
-
-사용자가 선택했던 Q11은 [v3 실행·독립 검증](pilot_studies/q11-action-compression/README.md#v3-verified-results) 후
-[사전 중단 규칙에 따른 Stage 7 종료](../selection.md#q11--discontinue-current-route-2026-09-10)를 기록했다.
-Registry는 `discontinued`; 현재 method route의 종료이며 broader contact question의 반증은 아니다.
-종료된 연구의 compact summary는 [literature/README.md](../../literature/README.md)가 소유한다.
-
-[Reserve 재비교](related_work/policy-geometry.md#reserve-reassessment-2026-09-10) 결과
-Stage 4–5 순서는 **Q12 → Q13**이었다. Q12의 [source/assumption 검토](questions/generated-geometry-reliance.md#stage-5-assessment-2026-09-10)와
-Q13의 [source/assumption 검토](questions/action-relevant-view-selection.md#stage-5-assessment-2026-09-10)를 완료했다.
-[후속 비교](../selection.md#q12q13-measurement-selection-2026-09-10)에서 Q12 입력/좌표 검증
-준비를 선택하고 Q13을 `deferred`로 두었다. 이후 Q12 입력 취득과 CPU protocol 고정을 완료했고,
-실제 네 쌍의 검사를 독립 검증했다. 이후 checkpoint strict loading·synthetic CPU reference
-검증을 마쳤고, [고정된 completion protocol](pilot_studies/q12-generated-geometry/model/README.md)을
-실제 네 입력에 실행·독립 감사했다. 다음은 native CUDA parity와 physical linkage를 확보하는
-경로의 비용·정보 가치 비교다. 두 조건은 미검증이다.
-Q14는 exploratory reserve, Q15는 deferred다. Hypothesis/experiment는 미선택이다.
-Q8은 `under_review` / `refine`이며 재진입 조건 전에 실행하지 않는다. 실행 중인 study는 없다.
-
-다음 기존 기록은 이 후보들이 비교 대상으로 남은 배경이며 실행 재개를 뜻하지 않는다.
-
-Broad Robotics scope와 [research context](context.md)를 바탕으로 candidate question
-5개를 만들고 Stage 3 기준으로 비교했다. Q2는 `reformulate` 후 `deferred`, Q1은
-preliminary literature review와 evaluator/schema feasibility assessment를 완료했다.
-[Cross-scope Stage 7 decision](../selection.md)은 Q1에 `repeat feasibility study`를
-선택했다. 당시에는 pinned study를 실행하지 않아
-`feasibility_study`를 유지했다. 어떤 question도 아직 `ready_for_hypothesis`로
-선택되지 않았다.
-
-사용자 판단에 따라 Q1 실행에 바로 commit하지 않고 Stage 1--3 buildup을 한 차례 더
-진행했다. [Second-round frontier scan](related_work/frontier-scan-2.md)에서 Q6--Q10
-정식 candidate record를 만들고 기존 Q1과 비교했다. Q10과 Q8의 preliminary literature
-review를 완료했다. Q10은 [REASSEMBLE-backed public route](related_work/q10-contact-outcome-observability.md)가
-확인됐지만 generic multimodal fusion claim은 점유됐고, Q8은
-[CFNBC와의 높은 overlap](related_work/q8-local-recoverability-coverage.md) 때문에 frozen-policy
-physical-state return-probability diagnostic으로 좁혔다. 두 후보 모두 아직 hypothesis로
-선택하지 않았다.
-
-Stage 5 assumption/risk analysis는 각 candidate record에 완료했다. Q10의 first risk는
-[matched usable multimodal denominator](questions/contact-outcome-observability.md#q10-a-matched-usable-denominator),
-Q8의 first scientific risk는
-[task-preserving physical perturbation](questions/local-recoverability-coverage.md#q8-b-task-preserving-physical-perturbation)이다.
-
-| candidate | source-level support | decisive unresolved risk | cheapest first measurement | current priority |
-| --- | --- | --- | --- | --- |
-| Q8 | public checkpoint/runtime and pre-contact fixture verified | all-pass profile, scalar-success identity, mid-demo restart and full zero-control limits | distinct target/data-linked policy/restore reformulation | refine; no same-grid expansion |
-
-Public data를 우선하고 필요한 경우 소규모 manual annotation만 허용한다는 기존 resource
-boundary를 유지한다. Q8 반복 검증과 Q1 CUDA protocol 실행은 각각 별도 evidence로 보존한다.
-Stage 7 decision의 question별 처분과 원본 artifact 경로는
-[selection record](../selection.md)가 소유한다.
+[Q17 선택](../selection.md#q17-selection-2026-09-28)에 따라 한 과업의
+[source/data 계약 검사와 제한된 정책 대조](pilot_studies/q17-evidence/README.md)를 마쳤다.
+첫 세 공식 ID `check_block_color` 사례에서는 숨은 색이 정책 입력에 판독되지 않아
+pad 선택을 평가할 수 없었다. 대체 `count_color_kinds_press_button` 첫 사례는
+세 색이 보인 뒤 정답 3번 대신 2번 버튼을 실제 눌렀다. 일치 재생을 기반으로
+버튼 접근 전 step 48에 정답 문장만 추가해도 같은 2번 버튼을 눌렀으며 원인은
+분리되지 않았다. [과업군·다른 후보 재비교](../selection.md#q17-task-family-reassessment-2026-09-29)에서
+`blocks_ranking_rgb_rotate_view`의 첫 ID 사례를 선택했다. 초기에는 green 블록이
+안 보이다 회전 뒤 보이는지, 그 후 첫 집기 대상·실제 집기가 무엇인지 판독한다.
+처음부터 보이면 이 사례를 능동적 정보 획득의 근거로 쓰지 않는다.
+이는 exploratory 선택이며 Q16의 현 경로 보류나 다른 reserve의
+재진입 조건을 바꾸지 않는다. 이전 선택과 보류의 근거는 [selection record](../selection.md)에,
+개별 결과는 study owner에 보존한다.
 
 ## User Decisions Still Needed
 

@@ -1,0 +1,715 @@
+{
+  "obs_dim": 679,
+  "action_dim": 6,
+  "env_params": {
+    "dt": 0.016666666666666666,
+    "slop": 0.01,
+    "baumgarte_coefficient_joints_v": 2.0,
+    "baumgarte_coefficient_joints_p": 0.7,
+    "baumgarte_coefficient_fjoint_av": 2.0,
+    "baumgarte_coefficient_rjoint_limit_av": 5.0,
+    "baumgarte_coefficient_collision": 0.2,
+    "joint_stiffness": 0.6,
+    "clip_position": 15,
+    "clip_velocity": 100,
+    "clip_angular_velocity": 50,
+    "base_motor_speed": 6.0,
+    "base_motor_power": 900.0,
+    "base_thruster_power": 10.0,
+    "motor_decay_coefficient": 0.1,
+    "motor_joint_limit": 0.1,
+    "base_friction": 0.4,
+    "max_timesteps": 256,
+    "pixels_per_unit": 100,
+    "dense_reward_scale": 0.1,
+    "num_shape_roles": 4
+  },
+  "static_env_params": {
+    "num_polygons": 12,
+    "num_circles": 4,
+    "num_joints": 6,
+    "num_thrusters": 2,
+    "max_polygon_vertices": 4,
+    "num_solver_iterations": 10,
+    "solver_batch_size": 16,
+    "do_warm_starting": true,
+    "num_static_fixated_polys": 4,
+    "screen_dim": [
+      512,
+      512
+    ],
+    "downscale": 4,
+    "frame_skip": 2,
+    "max_shape_size": 2,
+    "num_motor_bindings": 4,
+    "num_thruster_bindings": 2
+  },
+  "model": {
+    "channel_dim": 256,
+    "channel_hidden_dim": 512,
+    "token_hidden_dim": 64,
+    "num_layers": 4,
+    "action_chunk_size": 8,
+    "simulated_delay": null
+  },
+  "checkpoint_leaves": {
+    "grasp_easy": [
+      {
+        "path": "['final_adaln']['bias']",
+        "shape": [
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['final_adaln']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['in_proj']['bias']",
+        "shape": [
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['in_proj']['kernel']",
+        "shape": [
+          685,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['adaln_1']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['adaln_1']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['adaln_2']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['adaln_2']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['channel_mix_in']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['channel_mix_out']['kernel']",
+        "shape": [
+          512,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['token_mix_in']['kernel']",
+        "shape": [
+          8,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['token_mix_out']['kernel']",
+        "shape": [
+          64,
+          8
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['adaln_1']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['adaln_1']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['adaln_2']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['adaln_2']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['channel_mix_in']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['channel_mix_out']['kernel']",
+        "shape": [
+          512,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['token_mix_in']['kernel']",
+        "shape": [
+          8,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['token_mix_out']['kernel']",
+        "shape": [
+          64,
+          8
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['adaln_1']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['adaln_1']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['adaln_2']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['adaln_2']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['channel_mix_in']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['channel_mix_out']['kernel']",
+        "shape": [
+          512,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['token_mix_in']['kernel']",
+        "shape": [
+          8,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['token_mix_out']['kernel']",
+        "shape": [
+          64,
+          8
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['adaln_1']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['adaln_1']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['adaln_2']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['adaln_2']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['channel_mix_in']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['channel_mix_out']['kernel']",
+        "shape": [
+          512,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['token_mix_in']['kernel']",
+        "shape": [
+          8,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['token_mix_out']['kernel']",
+        "shape": [
+          64,
+          8
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['out_proj']['bias']",
+        "shape": [
+          6
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['out_proj']['kernel']",
+        "shape": [
+          256,
+          6
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['time_mlp']['layers'][0]['bias']",
+        "shape": [
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['time_mlp']['layers'][0]['kernel']",
+        "shape": [
+          256,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['time_mlp']['layers'][2]['bias']",
+        "shape": [
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['time_mlp']['layers'][2]['kernel']",
+        "shape": [
+          256,
+          256
+        ],
+        "dtype": "float32"
+      }
+    ],
+    "catcher_v3": [
+      {
+        "path": "['final_adaln']['bias']",
+        "shape": [
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['final_adaln']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['in_proj']['bias']",
+        "shape": [
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['in_proj']['kernel']",
+        "shape": [
+          685,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['adaln_1']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['adaln_1']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['adaln_2']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['adaln_2']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['channel_mix_in']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['channel_mix_out']['kernel']",
+        "shape": [
+          512,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['token_mix_in']['kernel']",
+        "shape": [
+          8,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][0]['token_mix_out']['kernel']",
+        "shape": [
+          64,
+          8
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['adaln_1']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['adaln_1']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['adaln_2']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['adaln_2']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['channel_mix_in']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['channel_mix_out']['kernel']",
+        "shape": [
+          512,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['token_mix_in']['kernel']",
+        "shape": [
+          8,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][1]['token_mix_out']['kernel']",
+        "shape": [
+          64,
+          8
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['adaln_1']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['adaln_1']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['adaln_2']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['adaln_2']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['channel_mix_in']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['channel_mix_out']['kernel']",
+        "shape": [
+          512,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['token_mix_in']['kernel']",
+        "shape": [
+          8,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][2]['token_mix_out']['kernel']",
+        "shape": [
+          64,
+          8
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['adaln_1']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['adaln_1']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['adaln_2']['bias']",
+        "shape": [
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['adaln_2']['kernel']",
+        "shape": [
+          256,
+          768
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['channel_mix_in']['kernel']",
+        "shape": [
+          256,
+          512
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['channel_mix_out']['kernel']",
+        "shape": [
+          512,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['token_mix_in']['kernel']",
+        "shape": [
+          8,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['mlp_stack'][3]['token_mix_out']['kernel']",
+        "shape": [
+          64,
+          8
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['out_proj']['bias']",
+        "shape": [
+          6
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['out_proj']['kernel']",
+        "shape": [
+          256,
+          6
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['time_mlp']['layers'][0]['bias']",
+        "shape": [
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['time_mlp']['layers'][0]['kernel']",
+        "shape": [
+          256,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['time_mlp']['layers'][2]['bias']",
+        "shape": [
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "['time_mlp']['layers'][2]['kernel']",
+        "shape": [
+          256,
+          256
+        ],
+        "dtype": "float32"
+      }
+    ]
+  },
+  "status": "SOURCE_SCHEMA_PASS",
+  "source_files": 265,
+  "python": "3.11.13 (main, Sep 30 2025, 00:39:50) [GCC 12.2.0]",
+  "jax": "0.4.35",
+  "devices": [
+    "TFRT_CPU_0"
+  ],
+  "elapsed_seconds": 4.237816185224801
+}

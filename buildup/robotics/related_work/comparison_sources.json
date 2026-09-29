@@ -1,0 +1,3034 @@
+{
+  "id": "robotics-candidate-comparison-20260915",
+  "checked_at_utc": "2026-09-14T15:41:54.911244+00:00",
+  "scope": "Stage 3 source/metadata comparison; no method runtime or empirical measurements",
+  "local_discovery": {
+    "registry": "/home/yoohyun/PaperReview/work/sources/papers.json",
+    "registry_sha256": "9736e9de5372757e7adcfdcbb17c6247a6c47e6b580c45f7186b25ddee409513",
+    "registry_records": 950,
+    "notes": [
+      {
+        "paper_id": "pr-0085",
+        "title": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+        "note": "/home/yoohyun/PaperReview/2026/ICLR/2026_ICLR_MemoryVLA-Perceptual-Cognitive-Memory-in-Vision-Language-A/05_insights.md",
+        "sha256": "ad646a545a0a83b47a9c81bb14d8fbe88a235cde87883d1671d9e9b53be6324a",
+        "scope": "selected excerpts as discovery cues only"
+      },
+      {
+        "paper_id": "pr-0153",
+        "title": "HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control",
+        "note": "/home/yoohyun/PaperReview/2026/ICML/2026_ICML_HiMe-Hierarchical-Embodied-Memory-for-Long-Horizon-Vision/05_insights.md",
+        "sha256": "f0b6de042f22363e8aa8ed14175a34356250dd345d12eb2d325273a13834a2dc",
+        "scope": "selected excerpts as discovery cues only"
+      },
+      {
+        "paper_id": "pr-0696",
+        "title": "SAFE: Multitask Failure Detection for Vision-Language-Action Models",
+        "note": "/home/yoohyun/PaperReview/2025/NeurIPS/2025_NeurIPS_SAFE-Multitask-Failure-Detection-for-Vision-Language-Actio/05_insights.md",
+        "sha256": "10979c87f39957b872e90215c19aeeb6fa8408cdcd0645954c3e51d0ab58c8cf",
+        "scope": "selected excerpts as discovery cues only"
+      },
+      {
+        "paper_id": "pr-0812",
+        "title": "FLARE: A Failure-Aware Framework for Autonomous Correction and Recovery in Visual-Language Robotic Manipulation",
+        "note": "/home/yoohyun/PaperReview/2026/CVPR/2026_CVPR_FLARE-A-Failure-Aware-Framework-for-Autonomous-Correction/05_insights.md",
+        "sha256": "b279b8a14e2c99544f0fe4d9f525f473ca1f10a0a893e22d501b91f9606c0698",
+        "scope": "selected excerpts as discovery cues only"
+      },
+      {
+        "paper_id": "pr-0815",
+        "title": "Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language",
+        "note": "/home/yoohyun/PaperReview/2026/ICML/2026_ICML_Tabero-Learning-Gentle-Manipulation-with-Closed-Loop-Force/05_insights.md",
+        "sha256": "e4c47d432be19a13ad2bbc4d73de06e94253673b196de01c6982cee65f396100",
+        "scope": "selected excerpts as discovery cues only"
+      },
+      {
+        "paper_id": "pr-0819",
+        "title": "Memory Retrieval in Visuomotor Policies for Long-Horizon Robot Control",
+        "note": "/home/yoohyun/PaperReview/2026/RSS/2026_RSS_Memory-Retrieval-in-Visuomotor-Policies-for-Long-Horizon-R/05_insights.md",
+        "sha256": "22b772d5b7ec5fafe853372d8d50b8cbcd3dc3918f532959b7a2fb9f028801e9",
+        "scope": "selected excerpts as discovery cues only"
+      },
+      {
+        "paper_id": "pr-0915",
+        "title": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+        "note": "/home/yoohyun/PaperReview/2025/arXiv/2025_arXiv_SmolVLA-A-Vision-Language-Action-Model-for-Affordable-and/05_insights.md",
+        "sha256": "a9a451badffaa7601f1c177022c065ec808e7a20c373a266bc5ee8f3c132f677",
+        "scope": "selected excerpts as discovery cues only"
+      },
+      {
+        "paper_id": "pr-0919",
+        "title": "Grounding Actions in Camera Space: Observation-Centric Vision-Language-Action Policy",
+        "note": "/home/yoohyun/PaperReview/2026/AAAI/2026_AAAI_Grounding-Actions-in-Camera-Space-Observation-Centric-Visi/05_insights.md",
+        "sha256": "d8709e7312e2213ce3db1a44719922c2e32d8072c0491a46a8798af2636bdb12",
+        "scope": "selected excerpts as discovery cues only"
+      }
+    ],
+    "PaperReview_modified": false
+  },
+  "repositories": [
+    {
+      "repo": "Physical-Intelligence/real-time-chunking-kinetix",
+      "commit": "9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b",
+      "tree_entries": 29,
+      "tree_cache": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_tree.json",
+      "tree_sha256": "98b672e51fd124baaf7ac3654c8caecd6d5028c10dfca2728303488db45e82fa",
+      "commit_cache": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_commit.json",
+      "submodules": [
+        {
+          "path": "third_party/kinetix",
+          "mode": "160000",
+          "type": "commit",
+          "sha": "cf7453ea103fa0b77348af1a39f689c658161613"
+        }
+      ],
+      "files": [
+        {
+          "path": ".gitmodules",
+          "url": "https://raw.githubusercontent.com/Physical-Intelligence/real-time-chunking-kinetix/9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b/.gitmodules",
+          "cache": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_.gitmodules",
+          "bytes": 108,
+          "sha256": "bc3fa60670a8e72f729b7b9b45f1415ef336208d08db8a6403d17f742740ce20",
+          "git_blob_sha1": "5fec33cbf77a6ea76207a514c7111fb0e79815ab"
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/Physical-Intelligence/real-time-chunking-kinetix/9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b/README.md",
+          "cache": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_README.md",
+          "bytes": 3139,
+          "sha256": "e44b27993d5c4c1c749239bca9ba75bd78a3c8af4a448dd136ea25431c6d11fd",
+          "git_blob_sha1": "6b2d21e5f905bb111f9aee81ddfe4d74a5e5990a"
+        },
+        {
+          "path": "pyproject.toml",
+          "url": "https://raw.githubusercontent.com/Physical-Intelligence/real-time-chunking-kinetix/9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b/pyproject.toml",
+          "cache": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_pyproject.toml",
+          "bytes": 722,
+          "sha256": "2bad8894897d0aaaad8555f03731b034d11721bd6b44afeca523aa6c0655f60a",
+          "git_blob_sha1": "2ef9796e0c74713d51994f01a8be95dcafb0c717"
+        },
+        {
+          "path": "src/eval_flow.py",
+          "url": "https://raw.githubusercontent.com/Physical-Intelligence/real-time-chunking-kinetix/9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b/src/eval_flow.py",
+          "cache": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_src_eval_flow.py",
+          "bytes": 13462,
+          "sha256": "c91383ae9a2710ab1f94705d7d9194eb4fb0a00b4477ef5debe5d74d800ec258",
+          "git_blob_sha1": "88ce3bb69f5edb7bd53fe309986d960c76f6f869"
+        },
+        {
+          "path": "src/model.py",
+          "url": "https://raw.githubusercontent.com/Physical-Intelligence/real-time-chunking-kinetix/9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b/src/model.py",
+          "cache": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_src_model.py",
+          "bytes": 12883,
+          "sha256": "f59e9479c4fe4386ca027ba1a5c0b4940552adfae8cdb38d177cefec1427482e",
+          "git_blob_sha1": "9e04c86cd3b26e33627128032aa8e98bc6f7de70"
+        }
+      ]
+    },
+    {
+      "repo": "hatchetProject/REMAC",
+      "commit": "f4b16d11583c812b1345fd98d3be07819800f766",
+      "tree_entries": 249,
+      "tree_cache": "/tmp/research3-comparison-20260915/REMAC_tree.json",
+      "tree_sha256": "ea999f3ee5a83942286c87e8e687cdd240ea65733633db5373ce245c7102ce9c",
+      "commit_cache": "/tmp/research3-comparison-20260915/REMAC_commit.json",
+      "submodules": [],
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/hatchetProject/REMAC/f4b16d11583c812b1345fd98d3be07819800f766/README.md",
+          "cache": "/tmp/research3-comparison-20260915/REMAC_README.md",
+          "bytes": 5586,
+          "sha256": "dea1eab450567d5604c2b580949170deadd0375e462df6fc17fa3b14077e5a42",
+          "git_blob_sha1": "696bf141529905cad89895a87f0d600bec0598d8"
+        },
+        {
+          "path": "run_all.sh",
+          "url": "https://raw.githubusercontent.com/hatchetProject/REMAC/f4b16d11583c812b1345fd98d3be07819800f766/run_all.sh",
+          "cache": "/tmp/research3-comparison-20260915/REMAC_run_all.sh",
+          "bytes": 1459,
+          "sha256": "d0eb0606dfb91abd741b105325895d17443ba035e84b0c784c7f3281ca5ee6d7",
+          "git_blob_sha1": "db3db8d512da843b9125dd356ecc8ce132265059"
+        },
+        {
+          "path": "src_lora/eval_flow.py",
+          "url": "https://raw.githubusercontent.com/hatchetProject/REMAC/f4b16d11583c812b1345fd98d3be07819800f766/src_lora/eval_flow.py",
+          "cache": "/tmp/research3-comparison-20260915/REMAC_src_lora_eval_flow.py",
+          "bytes": 11578,
+          "sha256": "118cfbb6cac79351ab7b1897ebb5a20b2ff0af8fd825ccaec093c8e8df16166b",
+          "git_blob_sha1": "dec76f512963f4b4ee26a13481ed73ed73c23ee4"
+        }
+      ]
+    },
+    {
+      "repo": "shihao1895/MemoryVLA",
+      "commit": "d732ea9072bc063399ccc817aed74ab172eb50be",
+      "tree_entries": 163,
+      "tree_cache": "/tmp/research3-comparison-20260915/MemoryVLA_tree.json",
+      "tree_sha256": "41f73ed704d73bee19513a289907b3b71f39de7949f49da1fd0f17ca35341f5b",
+      "commit_cache": "/tmp/research3-comparison-20260915/MemoryVLA_commit.json",
+      "submodules": [],
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/shihao1895/MemoryVLA/d732ea9072bc063399ccc817aed74ab172eb50be/README.md",
+          "cache": "/tmp/research3-comparison-20260915/MemoryVLA_README.md",
+          "bytes": 17967,
+          "sha256": "581c6792c35f9cf30283e38d84cd6d0201cf4a0c80f54fe1bce081428136b13d",
+          "git_blob_sha1": "92123c12e2bf6609bb250a39d20c52a49f332923"
+        },
+        {
+          "path": "script/eval/libero/eval_libero.sh",
+          "url": "https://raw.githubusercontent.com/shihao1895/MemoryVLA/d732ea9072bc063399ccc817aed74ab172eb50be/script/eval/libero/eval_libero.sh",
+          "cache": "/tmp/research3-comparison-20260915/MemoryVLA_script_eval_libero_eval_libero.sh",
+          "bytes": 2016,
+          "sha256": "ff2a44ab5781c69b5f9b43fc60e9934db54759ba2e315c973094a2e59908c69c",
+          "git_blob_sha1": "cefa0f62382bbabecb759d18925f7983596497f7"
+        },
+        {
+          "path": "vla/memory_vla.py",
+          "url": "https://raw.githubusercontent.com/shihao1895/MemoryVLA/d732ea9072bc063399ccc817aed74ab172eb50be/vla/memory_vla.py",
+          "cache": "/tmp/research3-comparison-20260915/MemoryVLA_vla_memory_vla.py",
+          "bytes": 34411,
+          "sha256": "998070d35cba0c57e7be85259c680aeee0120942545f04ad3bcd0bf5036d6f9a",
+          "git_blob_sha1": "b276a70da05f5fcef6d378ef1849b9805ec84183"
+        }
+      ]
+    }
+  ],
+  "web_sources": [
+    {
+      "url": "https://arxiv.org/html/2506.07339v1",
+      "title": "RTC",
+      "inspected_scope": "Algorithm 1; simulation setup and hard/soft prefix masking",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://arxiv.org/html/2512.05964v1",
+      "title": "Training-Time RTC",
+      "inspected_scope": "conditioning and compute-matched setting",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://arxiv.org/html/2601.20130v1",
+      "title": "REMAC",
+      "inspected_scope": "main experiment; Appendix F fixed true delay and corrupted estimate",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://arxiv.org/html/2605.25537v1",
+      "title": "Action-Prior Denoising for Smooth Real-Time Chunking",
+      "inspected_scope": "fixed-delay soft-window ablations",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://arxiv.org/html/2609.03611v1",
+      "title": "FailBench",
+      "inspected_scope": "main results; limitations; Appendix A source sampling",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://shihao1895.github.io/MemoryVLA/",
+      "title": "MemoryVLA",
+      "inspected_scope": "method and linked code/models",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://www.roboticsproceedings.org/rss22/p023.html",
+      "title": "Learning to Evolve: Multi-modal Interactive Fields",
+      "inspected_scope": "official abstract; discrepancy-triggered update",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://arxiv.org/html/2606.22338v1",
+      "title": "Benchmarking Robot Memory Under Interference",
+      "inspected_scope": "cross-session memory benchmark",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://mikasarobo.github.io/",
+      "title": "MIKASA-Robo-VLA",
+      "inspected_scope": "original RL and VLA release distinction in documentation discovery",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://alibaba-damo-academy.github.io/CamVLA/",
+      "title": "CamVLA",
+      "inspected_scope": "Code Coming Soon",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    },
+    {
+      "url": "https://remac-async.github.io/",
+      "title": "REMAC project",
+      "inspected_scope": "author-linked paper/code/OpenReview",
+      "accessed": "2026-09-15",
+      "local_snapshot": false
+    }
+  ],
+  "access_limitations": [
+    {
+      "url": "https://openreview.net/pdf?id=r0RGJ1j9on",
+      "result": "browser challenge; final PDF uninspected; explicit arXiv version and pinned source used; final-version difference remains for Stage 4"
+    }
+  ],
+  "metadata_requests": [
+    {
+      "url": "https://storage.googleapis.com/storage/v1/b/rtc-assets/o?prefix=bc%2F&maxResults=1000",
+      "cache": "/tmp/research3-comparison-20260915/rtc-assets_bc_listing.json",
+      "bytes": 383569,
+      "sha256": "7e6d7f4fb378bf5b0839d6955491af52261239dfe783667e9ca4966701ae8b43",
+      "scope": "metadata only"
+    },
+    {
+      "url": "https://huggingface.co/api/models/shihao1895/memvla-mikasa/tree/main?recursive=true&expand=false",
+      "cache": "/tmp/research3-comparison-20260915/MemoryVLA_model_tree.json",
+      "bytes": 1473,
+      "sha256": "ce46ea487c78e1e13519106ca4e371ef532c94faa159d72b2d07f05591ffb1af",
+      "scope": "metadata only"
+    },
+    {
+      "url": "https://huggingface.co/api/models/shihao1895/memvla-mikasa",
+      "cache": "/tmp/research3-comparison-20260915/MemoryVLA_model_info.json",
+      "bytes": 750,
+      "sha256": "4e10bc707e068cb7d882f5302bdb76010ca4dc88b520aeac0a12964898c61001",
+      "scope": "metadata only"
+    }
+  ],
+  "rtc_checkpoint_access": {
+    "listing_entries": 384,
+    "checkpoint_directories": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "head_examples": [
+      {
+        "url": "https://storage.googleapis.com/rtc-assets/bc/31/policies/worlds_l_catcher_v3.pkl?generation=1753991740809092",
+        "status": 200,
+        "content_length": 12290914,
+        "generation": "1753991740809092",
+        "x_goog_hash": "crc32c=RC92LA==",
+        "payload_downloaded": false,
+        "listing_record": {
+          "kind": "storage#object",
+          "id": "rtc-assets/bc/31/policies/worlds_l_catcher_v3.pkl/1753991740809092",
+          "selfLink": "https://www.googleapis.com/storage/v1/b/rtc-assets/o/bc%2F31%2Fpolicies%2Fworlds_l_catcher_v3.pkl",
+          "mediaLink": "https://storage.googleapis.com/download/storage/v1/b/rtc-assets/o/bc%2F31%2Fpolicies%2Fworlds_l_catcher_v3.pkl?generation=1753991740809092&alt=media",
+          "name": "bc/31/policies/worlds_l_catcher_v3.pkl",
+          "bucket": "rtc-assets",
+          "generation": "1753991740809092",
+          "metageneration": "1",
+          "contentType": "application/octet-stream",
+          "storageClass": "STANDARD",
+          "size": "12290914",
+          "md5Hash": "D9l/UYq5yV5simp3718YKQ==",
+          "crc32c": "RC92LA==",
+          "etag": "CIS/mbXw544DEAE=",
+          "timeCreated": "2025-07-31T19:55:40.866Z",
+          "updated": "2025-07-31T19:55:40.866Z",
+          "timeStorageClassUpdated": "2025-07-31T19:55:40.866Z",
+          "timeFinalized": "2025-07-31T19:55:40.866Z"
+        }
+      },
+      {
+        "url": "https://storage.googleapis.com/rtc-assets/bc/31/policies/worlds_l_grasp_easy.pkl?generation=1753991740812919",
+        "status": 200,
+        "content_length": 12290914,
+        "generation": "1753991740812919",
+        "x_goog_hash": "crc32c=tb6/Ng==",
+        "payload_downloaded": false,
+        "listing_record": {
+          "kind": "storage#object",
+          "id": "rtc-assets/bc/31/policies/worlds_l_grasp_easy.pkl/1753991740812919",
+          "selfLink": "https://www.googleapis.com/storage/v1/b/rtc-assets/o/bc%2F31%2Fpolicies%2Fworlds_l_grasp_easy.pkl",
+          "mediaLink": "https://storage.googleapis.com/download/storage/v1/b/rtc-assets/o/bc%2F31%2Fpolicies%2Fworlds_l_grasp_easy.pkl?generation=1753991740812919&alt=media",
+          "name": "bc/31/policies/worlds_l_grasp_easy.pkl",
+          "bucket": "rtc-assets",
+          "generation": "1753991740812919",
+          "metageneration": "1",
+          "contentType": "application/octet-stream",
+          "storageClass": "STANDARD",
+          "size": "12290914",
+          "md5Hash": "VNLdwqohsp052EKbU9LLDg==",
+          "crc32c": "tb6/Ng==",
+          "etag": "CPfcmbXw544DEAE=",
+          "timeCreated": "2025-07-31T19:55:40.866Z",
+          "updated": "2025-07-31T19:55:40.866Z",
+          "timeStorageClassUpdated": "2025-07-31T19:55:40.866Z",
+          "timeFinalized": "2025-07-31T19:55:40.866Z"
+        }
+      }
+    ],
+    "examples_are_not_frozen_pilot_selection": true,
+    "payload_verified": false
+  },
+  "memory_checkpoint_access": {
+    "repo": "shihao1895/memvla-mikasa",
+    "revision": "510e90e7f3938d57bcb251f3987ce5beba97b373",
+    "file": "checkpoints/memvla-mikasa.pt",
+    "listed_bytes": 33507444130,
+    "payload_downloaded": false,
+    "inference_memory_usage": "not measured; serialized bytes are not VRAM"
+  },
+  "cache_inventory": [
+    {
+      "path": "/tmp/research3-comparison-20260915/MemoryVLA_README.md",
+      "bytes": 17967,
+      "sha256": "581c6792c35f9cf30283e38d84cd6d0201cf4a0c80f54fe1bce081428136b13d"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/MemoryVLA_commit.json",
+      "bytes": 1373,
+      "sha256": "7258c200333aefacefb57a3037a81e8a17c0e99aff90d70654572c417e5ae3ab"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/MemoryVLA_model_info.json",
+      "bytes": 750,
+      "sha256": "4e10bc707e068cb7d882f5302bdb76010ca4dc88b520aeac0a12964898c61001"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/MemoryVLA_model_tree.json",
+      "bytes": 1473,
+      "sha256": "ce46ea487c78e1e13519106ca4e371ef532c94faa159d72b2d07f05591ffb1af"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/MemoryVLA_script_eval_libero_eval_libero.sh",
+      "bytes": 2016,
+      "sha256": "ff2a44ab5781c69b5f9b43fc60e9934db54759ba2e315c973094a2e59908c69c"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/MemoryVLA_tree.json",
+      "bytes": 39226,
+      "sha256": "41f73ed704d73bee19513a289907b3b71f39de7949f49da1fd0f17ca35341f5b"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/MemoryVLA_vla_memory_vla.py",
+      "bytes": 34411,
+      "sha256": "998070d35cba0c57e7be85259c680aeee0120942545f04ad3bcd0bf5036d6f9a"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/REMAC_README.md",
+      "bytes": 5586,
+      "sha256": "dea1eab450567d5604c2b580949170deadd0375e462df6fc17fa3b14077e5a42"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/REMAC_commit.json",
+      "bytes": 4437,
+      "sha256": "32d4b4b81561911ff3595a1aca7b6080a43511f8fe9adb0ccc72277468309a5f"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/REMAC_run_all.sh",
+      "bytes": 1459,
+      "sha256": "d0eb0606dfb91abd741b105325895d17443ba035e84b0c784c7f3281ca5ee6d7"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/REMAC_src_lora_eval_flow.py",
+      "bytes": 11578,
+      "sha256": "118cfbb6cac79351ab7b1897ebb5a20b2ff0af8fd825ccaec093c8e8df16166b"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/REMAC_tree.json",
+      "bytes": 60325,
+      "sha256": "ea999f3ee5a83942286c87e8e687cdd240ea65733633db5373ce245c7102ce9c"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_.gitmodules",
+      "bytes": 108,
+      "sha256": "bc3fa60670a8e72f729b7b9b45f1415ef336208d08db8a6403d17f742740ce20"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_README.md",
+      "bytes": 3139,
+      "sha256": "e44b27993d5c4c1c749239bca9ba75bd78a3c8af4a448dd136ea25431c6d11fd"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_commit.json",
+      "bytes": 4547,
+      "sha256": "25057c72064ebefd21c15278de0643ecdb3c1534a1c9fb9043f608c9b3ce321c"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_pyproject.toml",
+      "bytes": 722,
+      "sha256": "2bad8894897d0aaaad8555f03731b034d11721bd6b44afeca523aa6c0655f60a"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_src_eval_flow.py",
+      "bytes": 13462,
+      "sha256": "c91383ae9a2710ab1f94705d7d9194eb4fb0a00b4477ef5debe5d74d800ec258"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_src_model.py",
+      "bytes": 12883,
+      "sha256": "f59e9479c4fe4386ca027ba1a5c0b4940552adfae8cdb38d177cefec1427482e"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/real-time-chunking-kinetix_tree.json",
+      "bytes": 7516,
+      "sha256": "98b672e51fd124baaf7ac3654c8caecd6d5028c10dfca2728303488db45e82fa"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/rtc-assets_bc_listing.json",
+      "bytes": 383569,
+      "sha256": "7e6d7f4fb378bf5b0839d6955491af52261239dfe783667e9ca4966701ae8b43"
+    },
+    {
+      "path": "/tmp/research3-comparison-20260915/rtc_checkpoint_heads.json",
+      "bytes": 2607,
+      "sha256": "7ca987b95123a5557df9f0e6fa661ab62e69fc4fbc1a19a2c963467b244e86d5"
+    }
+  ],
+  "validation": {
+    "git_blob_identity": "PASS",
+    "listed_source_sizes": "PASS",
+    "HEAD_size_generation_CRC32c_metadata": "PASS",
+    "payload_checksum_verified": false,
+    "numerical_execution": false,
+    "checkpoint_deserialized": false,
+    "Docker_build_or_run": false,
+    "dataset_or_checkpoint_payload_download": false
+  },
+  "closing_verification": {
+    "markdown_files": 17,
+    "local_links": 340,
+    "heading_targets": 146,
+    "errors": [],
+    "cached_files": 21,
+    "cached_bytes": 609154,
+    "source_blobs": 11,
+    "PaperReview_notes_unchanged": 8,
+    "PaperReview_registry_unchanged": true,
+    "checked_at": "2026-09-15T00:52:18.044667+09:00",
+    "git_diff_check": "PASS",
+    "scope": "source metadata and Markdown validation only; no method execution",
+    "log": "logs/20260915_005218_candidate_comparison.log"
+  },
+  "q7_q14_review_20260915": {
+    "checked_at_utc": "2026-09-15T05:04:56.343086+00:00",
+    "scope": "Primary-text and metadata inspection only; no images, checkpoint, method runtime or performance evaluation.",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/html/2609.03611v1",
+        "sections": "3, 4.2, Appendix A",
+        "role": "FailBench source categories, per-source results and original dataset routes"
+      },
+      {
+        "url": "https://arxiv.org/html/2512.01946v4",
+        "sections": "3.2, 3.4, 5.3, 5.4",
+        "role": "Guardian construction, execution versus planning provenance, existing transfer and view ablations"
+      },
+      {
+        "url": "https://arxiv.org/html/2607.05396v1",
+        "sections": "4.3, Appendices B and C",
+        "role": "CamVLA oracle calibration, delta-action derivation and extrinsic-noise prior"
+      },
+      {
+        "url": "https://alibaba-damo-academy.github.io/CamVLA/",
+        "observation": "Code (Coming Soon)"
+      },
+      {
+        "url": "https://github.com/ZTY0213/OC-VLA",
+        "observation": "Official code links to RoboDita/Dita"
+      },
+      {
+        "url": "https://github.com/RoboDita/Dita",
+        "observation": "OC-VLA training switch and ManiSkill2 generation instructions available; matched camera/base checkpoints not verified"
+      }
+    ],
+    "metadata": [
+      {
+        "repo": "paulpacaud/ur5fail_test_dataset",
+        "revision": "fedfcb3346b92f6a2bfeb14dc254635c9a5013f1",
+        "url": "https://huggingface.co/datasets/paulpacaud/ur5fail_test_dataset/resolve/fedfcb3346b92f6a2bfeb14dc254635c9a5013f1/metadata_execution.jsonl",
+        "bytes": 102667,
+        "sha256": "541953393c7b8a2d1448360f5ac0f4a3902dafb64fe4ff0e74fb956f760e3030",
+        "rows": 140,
+        "local_path": "external/q7-sources/ur5_metadata.jsonl"
+      },
+      {
+        "repo": "paulpacaud/bdv2fail_test_dataset",
+        "revision": "3d84d34df6ca5a59a598651ef453fd68de09de06",
+        "url": "https://huggingface.co/datasets/paulpacaud/bdv2fail_test_dataset/resolve/3d84d34df6ca5a59a598651ef453fd68de09de06/metadata_execution.jsonl",
+        "bytes": 1599515,
+        "sha256": "91821e4556f8db04b4a879f0dbb8abef8d3561c408f4ba417be9cb9b671049ee",
+        "rows": 1000,
+        "local_path": "external/q7-sources/bdv2_metadata.jsonl"
+      }
+    ],
+    "ur5_execution_labels": {
+      "success": 69,
+      "failure": 71,
+      "total": 140
+    },
+    "bdv2_execution_labels": {
+      "success": 500,
+      "failure": 500,
+      "total": 1000
+    },
+    "ur5_seed_pairs_1based": [
+      {
+        "failure": 43,
+        "success": 41
+      },
+      {
+        "failure": 72,
+        "success": 73
+      },
+      {
+        "failure": 92,
+        "success": 91
+      },
+      {
+        "failure": 126,
+        "success": 127
+      }
+    ],
+    "pair_match_fields": [
+      "task_instruction",
+      "detailed_subtask_name",
+      "images[:3]"
+    ],
+    "ur5_equal_start_end_path_controls_1based": [
+      76,
+      121,
+      122
+    ],
+    "limitations": [
+      "Metadata grouping is not independent rollout matching or causal failure-source identification.",
+      "Source-supplied UR5 execution origin has not been verified from per-record collection logs.",
+      "Candidate pairs and controls have not yet been visually inspected.",
+      "Some metadata NaN values are accepted by Python JSON parsing; raw bytes preserved."
+    ]
+  },
+  "q7_q14_reassessment_20260916": {
+    "checked_at_utc": "2026-09-16T01:23:06.169536+00:00",
+    "scope": "Primary literature and official release-page review; analytic design and investment comparison only. No numerical/model/container run or asset download.",
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/html/2607.05396v1",
+        "title": "CamVLA",
+        "sections": "3.4; 4.3 Table 5/7; Appendices B-C",
+        "role": "Joint action/calibration composition; GT calibration comparison and existing noise controls",
+        "access": "web read"
+      },
+      {
+        "url": "https://alibaba-damo-academy.github.io/CamVLA/",
+        "title": "CamVLA project",
+        "sections": "project code link",
+        "role": "Code (Coming Soon) on review date; joint outputs/checkpoint not verified",
+        "access": "web read"
+      },
+      {
+        "url": "https://arxiv.org/html/2508.13103v1",
+        "title": "OC-VLA",
+        "sections": "III; appendix V-B",
+        "role": "Known camera calibration action conversion; not evidence of learned geometry-head errors",
+        "access": "web read"
+      },
+      {
+        "url": "https://github.com/RoboDita/Dita",
+        "title": "Dita official code",
+        "sections": "README OC-VLA subsection",
+        "role": "Camera/base training switch; no runtime/source install or checkpoint validation",
+        "access": "web read"
+      },
+      {
+        "url": "https://arxiv.org/abs/1906.07795",
+        "title": "Characterizing the Uncertainty of Jointly Distributed Poses in the Lie Algebra",
+        "sections": "abstract",
+        "role": "Correlated pose uncertainty propagation already established; not a new Q14 principle",
+        "access": "web read"
+      },
+      {
+        "url": "https://arxiv.org/html/2512.01946v4",
+        "title": "Guardian",
+        "sections": "3.2; 3.4; Appendix C",
+        "role": "Dataset construction versus collected execution, and perception/reasoning diagnosis",
+        "access": "web read"
+      },
+      {
+        "url": "https://arxiv.org/html/2609.03611v1",
+        "title": "FailBench",
+        "sections": "3-4; Appendix A",
+        "role": "Origin, media and source/evidence dependence are already evaluated; no causal origin identification",
+        "access": "web read"
+      },
+      {
+        "url": "https://arxiv.org/html/2604.07034v1",
+        "title": "KITE",
+        "sections": "III-IV; abstract",
+        "role": "Structured spatial and temporal evidence front-end is an existing failure-analysis approach",
+        "access": "web read"
+      }
+    ],
+    "discovery_notes": [
+      {
+        "path": "/home/yoohyun/PaperReview/2026/AAAI/2026_AAAI_Grounding-Actions-in-Camera-Space-Observation-Centric-Visi/05_insights.md",
+        "sha256": "d8709e7312e2213ce3db1a44719922c2e32d8072c0491a46a8798af2636bdb12",
+        "role": "selected excerpts as discovery context only"
+      },
+      {
+        "path": "/home/yoohyun/PaperReview/2025/NeurIPS/2025_NeurIPS_SAFE-Multitask-Failure-Detection-for-Vision-Language-Actio/05_insights.md",
+        "sha256": "10979c87f39957b872e90215c19aeeb6fa8408cdcd0645954c3e51d0ab58c8cf",
+        "role": "selected excerpts as discovery context only"
+      },
+      {
+        "path": "/home/yoohyun/PaperReview/2026/CVPR/2026_CVPR_FLARE-A-Failure-Aware-Framework-for-Autonomous-Correction/05_insights.md",
+        "sha256": "b279b8a14e2c99544f0fe4d9f525f473ca1f10a0a893e22d501b91f9606c0698",
+        "role": "selected excerpts as discovery context only"
+      }
+    ],
+    "PaperReview_modified": false,
+    "targeted_queries": [
+      "robotics joint uncertainty correlated poses SE(3) Mangelson 2020",
+      "\"CamVLA\" \"correlation\"",
+      "\"failure detection\" \"robot\" \"visual evidence\" \"benchmark\" 2026",
+      "\"robot\" \"policy\" \"calibration\" \"correlated errors\"",
+      "\"vision language action\" \"error cancellation\"",
+      "\"KITE\" \"Keyframe-Indexed Tokenized Evidence\" arxiv"
+    ],
+    "selection": "Q14 bounded synthetic keypoint regression study; Q7 current route deferred",
+    "selected_design_owner": "buildup/robotics/questions/frame-error-propagation.md#first-study-design",
+    "limitations": [
+      "Targeted scoping, not exhaustive exact-novelty audit.",
+      "No empirical learned action/calibration dependence observed yet.",
+      "CamVLA oracle comparisons do not establish detrimental calibration replacement.",
+      "Synthetic regression is not VLA or robot success evidence."
+    ]
+  },
+  "q14_geometry_review_20260916": {
+    "checked_at_utc": "2026-09-16T02:18:36.369961+00:00",
+    "scope": "Targeted primary-literature comparison and read-only official source inspection; no numerical/model/Docker execution or dataset/weight download.",
+    "primary_sources": [
+      {
+        "title": "CamVLA",
+        "url": "https://arxiv.org/html/2607.05396v1",
+        "sections": "4.3 Tables 5/7; 5 limitations",
+        "role": "GT/noise controls and viewpoint/hand-eye regression limitations"
+      },
+      {
+        "title": "DREAM",
+        "url": "https://arxiv.org/html/1911.09231v3",
+        "sections": "II approach; III-A/B/D/E/F",
+        "role": "learned keypoints + PnP; fixed-camera Panda-3Cam; DART reference and offline coordinate contract"
+      },
+      {
+        "title": "EasyHeC++",
+        "url": "https://arxiv.org/html/2410.09293v1",
+        "sections": "II; III initialization, optimization, joint-space exploration and eye-in-hand extension",
+        "role": "pretrained visual cues, geometric optimization, PnP/RANSAC and multi-observation alternatives"
+      },
+      {
+        "title": "GeoCalib official release",
+        "url": "https://github.com/cvg/GeoCalib",
+        "sections": "README overview, camera models, partial/multi-image calibration",
+        "role": "intrinsics/gravity only; not complete robot-base extrinsics"
+      },
+      {
+        "title": "EquiBot",
+        "url": "https://arxiv.org/html/2407.01479v1",
+        "sections": "3, particularly 3.1 and input/output equivariance",
+        "role": "existing structural SIM(3) alternative; group transform is not changed visibility"
+      },
+      {
+        "title": "BPnP",
+        "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_End-to-End_Learnable_Geometric_Vision_by_Backpropagating_PnP_Optimization_CVPR_2020_paper.pdf",
+        "sections": "abstract, search-extracted official paper text",
+        "role": "differentiable geometric optimization already established; no benchmark audit"
+      },
+      {
+        "title": "EPro-PnP",
+        "url": "https://arxiv.org/abs/2203.13254v4",
+        "sections": "abstract",
+        "role": "probabilistic PnP with learned correspondences and weights; no robot benchmark audit"
+      },
+      {
+        "title": "Continual Hand-Eye Calibration",
+        "url": "https://arxiv.org/html/2604.15814v1",
+        "sections": "introduction and problem setup",
+        "role": "continual scene-coordinate camera localization; excluded as an exact match to toy angle extrapolation"
+      },
+      {
+        "title": "OpenCV PnP",
+        "url": "https://docs.opencv.org/4.13.0/d5/d1f/calib3d_solvePnP.html",
+        "sections": "pose computation, RANSAC and refinement overview",
+        "role": "solver convention/reference only; runtime version not selected"
+      }
+    ],
+    "discovery_notes": [
+      {
+        "path": "/home/yoohyun/PaperReview/2026/ICLR/2026_ICLR_EquAct-An-SE3-Equivariant-Multi-Task-Transformer-for-3D-Ro/05_insights.md",
+        "sha256": "e206cff3642dd1286cbbe8d42c817d817a3def2cdb8489b8fbe07c2d4bee6d04",
+        "role": "selected excerpts for discovery only, not final paper claims"
+      },
+      {
+        "path": "/home/yoohyun/PaperReview/2024/ECCV/2024_ECCV_GeoCalib-Learning-Single-image-Calibration-with-Geometric/05_insights.md",
+        "sha256": "7d32d405185b38f31d26619ef8c5d30eff660f7a134987878e2c37127c81c6d7",
+        "role": "selected excerpts for discovery only, not final paper claims"
+      }
+    ],
+    "PaperReview_modified": false,
+    "official_source": {
+      "repository": "https://github.com/NVlabs/DREAM",
+      "commit": "3360f2aa45f66a58eaa70d0d40f2c46c2682c0bb",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/NVlabs/DREAM/3360f2aa45f66a58eaa70d0d40f2c46c2682c0bb/README.md",
+          "local_path": "runs/q14/20260916_geometry_review/source/README.md",
+          "bytes": 7698,
+          "sha256": "e329f1daddb71fbb8cf0fef9d084fb3b760ba17d3d6f92157676bbd9ae9c3555"
+        },
+        {
+          "path": "dream/analysis.py",
+          "url": "https://raw.githubusercontent.com/NVlabs/DREAM/3360f2aa45f66a58eaa70d0d40f2c46c2682c0bb/dream/analysis.py",
+          "local_path": "runs/q14/20260916_geometry_review/source/dream/analysis.py",
+          "bytes": 44504,
+          "sha256": "d5d5082d8edcb2bbee51cf546e8881812eae970bbf2bf35ff8d3385703b614ef"
+        },
+        {
+          "path": "dream/utilities.py",
+          "url": "https://raw.githubusercontent.com/NVlabs/DREAM/3360f2aa45f66a58eaa70d0d40f2c46c2682c0bb/dream/utilities.py",
+          "local_path": "runs/q14/20260916_geometry_review/source/dream/utilities.py",
+          "bytes": 11504,
+          "sha256": "7d20cf289d48c6bea1ab4c2481a03ab1fba98ea39e8dc1e40f697c588afd9e1f"
+        },
+        {
+          "path": "dream/geometric_vision.py",
+          "url": "https://raw.githubusercontent.com/NVlabs/DREAM/3360f2aa45f66a58eaa70d0d40f2c46c2682c0bb/dream/geometric_vision.py",
+          "local_path": "runs/q14/20260916_geometry_review/source/dream/geometric_vision.py",
+          "bytes": 6293,
+          "sha256": "3974e4210c37a322270aae6dfdd54cb9265e983407da4362e63633589936e5e3"
+        },
+        {
+          "path": "data/DOWNLOAD.sh",
+          "url": "https://raw.githubusercontent.com/NVlabs/DREAM/3360f2aa45f66a58eaa70d0d40f2c46c2682c0bb/data/DOWNLOAD.sh",
+          "local_path": "runs/q14/20260916_geometry_review/source/data/DOWNLOAD.sh",
+          "bytes": 1438,
+          "sha256": "4e88a942b2125c7f897c75457213c2e7b7ae32b79f8ab846e08e01d0ed994382"
+        },
+        {
+          "path": "trained_models/DOWNLOAD.sh",
+          "url": "https://raw.githubusercontent.com/NVlabs/DREAM/3360f2aa45f66a58eaa70d0d40f2c46c2682c0bb/trained_models/DOWNLOAD.sh",
+          "local_path": "runs/q14/20260916_geometry_review/source/trained_models/DOWNLOAD.sh",
+          "bytes": 1305,
+          "sha256": "30bb1294bfe530f596f4e223483ff851c8954a9ef59ce448bb06f23c04f73d0f"
+        }
+      ],
+      "execution": "none; source bytes were downloaded for read-only inspection"
+    },
+    "selected_release_metadata": {
+      "dataset": {
+        "name": "Panda-3Cam RealSense",
+        "drive_id": "1FFAFpJFwzsjD83S9-Y1ODwDWiWlh1X6P",
+        "advertised_size": "343 MB",
+        "payload_verified": false
+      },
+      "weights": {
+        "name": "Panda VGG-Q",
+        "drive_id": "1zS-kQ73dOYMXS8Wku_OUN0q7MvEUm2fZ",
+        "advertised_size": "85 MB",
+        "payload_verified": false
+      },
+      "yaml": {
+        "drive_id": "1MKDiknxDzXErd4Gwdv0uMoL65IYjxO0Q",
+        "payload_verified": false
+      },
+      "sizes_are_source_comments_not_measured": true
+    },
+    "coordinate_findings": {
+      "source_fact": "load_keypoints loads camera-frame GT 3D locations; analyze_ndds_dataset passes them to PnP with detected projections; add_from_pose measures their displacement under returned transform.",
+      "agent_derivation": "For X_C=T X_B, predicted residual transform Delta corresponds to T_hat=Delta T; GT is identity, ADD equals point displacement under pose error conditional on exact 3D geometry.",
+      "not_claimed": "No deployable camera-to-base output, tested forward kinematics, policy actions, joint-head dependence or view-transfer result."
+    },
+    "selection": "Q14 feasibility study: 24 deterministic Panda-3Cam RealSense frames, one frozen pretrained VGG-Q detector; shared-keypoint PnP/RANSAC and common/all-point oracle 2D controls.",
+    "design_owner": "buildup/robotics/questions/frame-error-propagation.md#real-keypoint-observation",
+    "runtime_status": "planned, not launched",
+    "limitations": [
+      "Targeted scoping, not exhaustive novelty review.",
+      "Fixed camera data does not test camera extrapolation or VLA action success.",
+      "DART-derived reference annotations are estimated, not exact physical ground truth.",
+      "Public download IDs verified from official scripts; payload access, checksums, schema and legacy runtime compatibility unverified.",
+      "EquAct OpenReview page returned an access challenge; local notes were not promoted to verified method claims.",
+      "GeoCalib ECVA PDF was indexed but subsequent fetch timed out; official release README supports the claims used here.",
+      "BPnP was reviewed only through official abstract text; EPro-PnP through arXiv abstract.",
+      "Same-input solver residuals do not establish need for a learned residual or its action relevance."
+    ],
+    "verification": {
+      "json_parse": "pass",
+      "official_source_sha256_matches": 6,
+      "local_discovery_sha256_matches": 2,
+      "new_section_anchors_unique": 4,
+      "local_document_link_paths_checked": 275,
+      "missing_local_paths": 0,
+      "git_diff_check": "pass",
+      "scope": "documentation/source-manifest validation only; no numerical experiment"
+    }
+  },
+  "q14_action_review_20260916": {
+    "checked_at_utc": "2026-09-16T03:06:26.608597+00:00",
+    "scope": "Read-only review of saved Q14 cases, analytic action-coordinate interpretation and targeted primary literature; no new numerical experiment.",
+    "primary_sources": [
+      {
+        "title": "Measurement Errors in Visual Servoing",
+        "url": "https://faculty.cc.gatech.edu/~hic/Georgia-HomePage/hic-papers/kyrki-kra-chr-2004.pdf",
+        "read_scope": "Abstract, introduction, control-error propagation in Sections IV-V, evaluation and conclusion; particularly Section V shared-measurement correlations.",
+        "supports": "Existing image-to-pose-to-control uncertainty propagation, including correlated control variables.",
+        "boundary": "Classical visual servoing; does not resolve learned VLA joint-head dependence."
+      },
+      {
+        "title": "A Consistently Fast and Globally Optimal Solution to the Perspective-n-Point Problem",
+        "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460460.pdf",
+        "read_scope": "Abstract, introduction, Sections 1.2 and 2 objective; selected evaluation context.",
+        "supports": "SQPnP searches regional minima containing the global optimum of its formulated problem. Section 2 uses a back-projection quadratic objective.",
+        "boundary": "Not a guarantee of minimum pixel reprojection MSE, reference pose error, ADD or action error; not executed here."
+      },
+      {
+        "title": "Uncertainty-Aware Camera Pose Estimation from Points and Lines",
+        "url": "https://arxiv.org/html/2107.03890v1",
+        "read_scope": "Abstract, related work, Section 3.1-3.4 problem/noise models, residual covariances, EPnP and DLS formulation.",
+        "supports": "Existing 2D/3D uncertainty-aware pose estimation alternative.",
+        "boundary": "No full benchmark audit or reproduction. Peak confidence was not validated as covariance; improvement on Q14 data is untested.",
+        "access_note": "Official CVF PDF fetch failed; arXiv full-text HTML was accessible."
+      },
+      {
+        "title": "CamVLA official project",
+        "url": "https://alibaba-damo-academy.github.io/CamVLA/",
+        "read_scope": "Code link and architecture overview.",
+        "supports": "Code link remains labelled Code (Coming Soon) on checked date.",
+        "boundary": "No released joint outputs verified; code availability is not the scientific decision criterion."
+      }
+    ],
+    "saved_evidence_read": [
+      {
+        "path": "runs/q14/real_20260916_113000/observe/records.json",
+        "sha256": "60628f95a47423d52f0f99c68ef2a194fd64282f72a69e19a33df9fc5216d70a"
+      },
+      {
+        "path": "runs/q14/real_20260916_113000/analyze/selection.json",
+        "sha256": "f528d7c62311a1e5361703960dbc16976fa07ab07b7822d5ccaf11f60a212d9d"
+      },
+      {
+        "path": "runs/q14/real_20260916_113000/correct/metrics.json",
+        "sha256": "d638c704add1c07c850ebeab1ba23483338dd0e0fc8c76e7b4ce33351cb65f25"
+      }
+    ],
+    "reviewed_case_ids": [
+      "000775",
+      "001550",
+      "003617"
+    ],
+    "analytic_boundary": {
+      "rotation_convention": "R_BC is true base-to-camera rotation, Q is saved residual rotation; estimated rotation Q R_BC.",
+      "exact_free_vector_error": "a^T (2I-Q-Q^T) a",
+      "isotropic_assumption_only": "For fixed norm l and isotropic direction, expectation is (8 l^2 / 3) sin^2(theta/2); not measured action data.",
+      "learned_action_error": "norm(Q^T a_hat - a)^2; DREAM study provides neither action output nor action target.",
+      "not_covered": [
+        "absolute goal pose",
+        "SE(3) twist",
+        "closed-loop task success",
+        "population action-direction distribution"
+      ]
+    },
+    "decision": "deferred: current geometry/residual route; broader learned dependence question unresolved",
+    "reentry_owner": "buildup/robotics/questions/frame-error-propagation.md#investment-decision-and-re-entry",
+    "next_comparison": [
+      "Q3",
+      "Q4 with related CD5",
+      "CD2"
+    ],
+    "next_execution_selected": false,
+    "limitations": [
+      "Targeted review, not exhaustive novelty adjudication.",
+      "Cases and post hoc selector reuse the same 24 frames.",
+      "No numerical action probe, new inference, solver run or model training.",
+      "No Docker assets created, changed or removed.",
+      "Prior result, source snapshots and observation-time decisions remain preserved."
+    ],
+    "verification": {
+      "json_parse": "pass",
+      "local_document_link_paths_checked": 297,
+      "new_section_anchors_unique": 4,
+      "saved_evidence_hash_matches": 3,
+      "case_rows_transcription_checked": 3,
+      "git_diff_check": "pass",
+      "scope": "Document links, copied stored metrics and manifest validation only; no numerical experiment."
+    }
+  },
+  "remaining_candidates_20260916": {
+    "checked_at_utc": "2026-09-16T03:43:37.302873+00:00",
+    "scope": "Q3/Q4/CD5/CD2 comparative scoping and CD2 observation selection; no scientific numerical execution",
+    "local_discovery": [
+      {
+        "path": "/home/yoohyun/PaperReview/2024/RA-L/2024_RA-L_Clio-Real-time-Task-Driven-Open-Set-3D-Scene-Graphs/05_insights.md",
+        "sha256": "d00f61341a75f751a998d11546b9c2fafa5eb6f4fb8ebc798ded43359db2d0d7",
+        "read_scope": "selected excerpts; discovery only; not modified"
+      },
+      {
+        "path": "/home/yoohyun/PaperReview/2026/ICML/2026_ICML_VLA-Arena-An-Open-Source-Framework-for-Benchmarking-Vision/05_insights.md",
+        "sha256": "700140602d2f466198e221ecdfd3b53aa0cd0e1c34c0d0dc5d4ed0dc9f1765c3",
+        "read_scope": "selected excerpts; discovery only; not modified"
+      },
+      {
+        "path": "/home/yoohyun/PaperReview/2024/CoRL/2024_CoRL_Evaluating-Real-World-Robot-Manipulation-Policies-in-Simul/05_insights.md",
+        "sha256": "ab1fb39cc1fa102124025b4f5a363e7754bd20771148f2d28631037c03871501",
+        "read_scope": "selected excerpts; discovery only; not modified"
+      }
+    ],
+    "primary_sources": [
+      {
+        "title": "SIMPLER",
+        "url": "https://arxiv.org/html/2405.05941v1",
+        "read_scope": "Section VI-D and Appendix Table X: mass/friction sensitivity and policy ordering; v2 fetch unavailable, used accessible v1"
+      },
+      {
+        "title": "SIMPLER proceedings",
+        "url": "https://proceedings.mlr.press/v270/li25c.html",
+        "read_scope": "publication metadata and abstract"
+      },
+      {
+        "title": "Clio",
+        "url": "https://arxiv.org/html/2404.13696v2",
+        "read_scope": "task-driven information bottleneck and Section VII limitations"
+      },
+      {
+        "title": "Clio release",
+        "url": "https://github.com/MIT-SPARK/Clio",
+        "read_scope": "README offline route, pre-built graphs and task-to-object-box ground truth; no runtime"
+      },
+      {
+        "title": "ASHiTA",
+        "url": "https://arxiv.org/html/2504.06553v3",
+        "read_scope": "Section 5 evaluation/ablations and Section 6 relations/identity limitations"
+      },
+      {
+        "title": "Efficient Evaluation of Multi-Task Robot Policies With Active Experiment Selection",
+        "url": "https://arxiv.org/html/2502.09829v1",
+        "read_scope": "Sections III-VII: distribution modeling, EIG and task cost, source data construction and task-based comparison; v2/v3 fetches unavailable"
+      },
+      {
+        "title": "Active Experiment Selection proceedings",
+        "url": "https://proceedings.mlr.press/v305/anwar25a.html",
+        "read_scope": "CoRL 2025 publication metadata and abstract"
+      },
+      {
+        "title": "Beyond Binary Success",
+        "url": "https://arxiv.org/html/2603.13616v1",
+        "read_scope": "abstract and selected method/scope text: anytime-valid sequential policy comparison; not a full proof audit"
+      },
+      {
+        "title": "VLA-Arena",
+        "url": "https://arxiv.org/html/2512.22539v2",
+        "read_scope": "Sections 2 and 4.1: suites/levels, SR/CC definitions and paper-level trial protocol; not assigned as per-cell counts in website JSON"
+      },
+      {
+        "title": "VLA-Arena code",
+        "url": "https://github.com/PKU-Alignment/VLA-Arena",
+        "read_scope": "official repository identity via project link; no runtime"
+      },
+      {
+        "title": "VLA-Arena website result tree",
+        "url": "https://api.github.com/repos/vla-arena/vla-arena.github.io/git/trees/4b344135920f44545d546d38aaefa36452cfdafb?recursive=1",
+        "read_scope": "pinned tree inspected in this turn; no data/runs/ files observed; this does not establish absence in all releases"
+      },
+      {
+        "title": "PolaRiS",
+        "url": "https://www.roboticsproceedings.org/rss22/p062.html",
+        "read_scope": "abstract only; adjacent sim-to-real route, not relied on for selection metric claims"
+      },
+      {
+        "title": "SureSim",
+        "url": "https://arxiv.org/html/2510.04354v1",
+        "read_scope": "abstract/introduction only; prediction-powered real/sim inference, not a full methods audit"
+      }
+    ],
+    "input_snapshot": {
+      "repository": "https://github.com/vla-arena/vla-arena.github.io",
+      "commit": "4b344135920f44545d546d38aaefa36452cfdafb",
+      "selected_model_ids": [
+        "openvla",
+        "openvla-oft",
+        "pi0",
+        "pi0-fast",
+        "pi0-full-parameters",
+        "pi0-fast-full-parameters",
+        "univla",
+        "smolvla"
+      ],
+      "files": [
+        {
+          "path": "runs/candidate_review/20260916/source/README.md",
+          "source_path": "README.md",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/README.md",
+          "bytes": 12225,
+          "sha256": "6830de906b605147c2c117481438fa8b0a98a2badbee41194cf137510bf8013e"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/models.json",
+          "source_path": "data/results/models.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/models.json",
+          "bytes": 567,
+          "sha256": "4c958be9149dddae8b638151c16d63aa21d65afaf4121aa293c9d23d67b3c5fe"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/vla-arena-data.json",
+          "source_path": "data/results/vla-arena-data.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/vla-arena-data.json",
+          "bytes": 15453,
+          "sha256": "61331ded6108b1e78db5ae2b902871ac35075a2cf7985453c8a2bdc79b683261"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/index.html",
+          "source_path": "index.html",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/index.html",
+          "bytes": 197074,
+          "sha256": "556baa5ae0d0e5d28b9bf423524f670f945743d8dac6b4dd0da4573b98aef76e"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/openvla.json",
+          "source_path": "data/results/openvla.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/openvla.json",
+          "bytes": 2840,
+          "sha256": "ab5729693c07bf55757546e9682538d1778aebb2ab36741a35ff195eb09496ca"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/openvla-oft.json",
+          "source_path": "data/results/openvla-oft.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/openvla-oft.json",
+          "bytes": 2782,
+          "sha256": "b553bdef029fe362bb8d29748066f78d37ff02046c826b29ababb5f60331e0d7"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/pi0.json",
+          "source_path": "data/results/pi0.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/pi0.json",
+          "bytes": 2857,
+          "sha256": "66a50f10753b4d74d7e3b71dc8e1b5d5f577b5a2dd9fc4c1ccb58638c02ca45e"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/pi0-fast.json",
+          "source_path": "data/results/pi0-fast.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/pi0-fast.json",
+          "bytes": 2857,
+          "sha256": "b17c7f748026ff6c0509a8f6436520c71ddf452ddcb4c9a3210128d4525af250"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/pi0-full-parameters.json",
+          "source_path": "data/results/pi0-full-parameters.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/pi0-full-parameters.json",
+          "bytes": 2860,
+          "sha256": "a9e8112826f35f199f21f6f092f9c9b3ed50278debd517665f6d81595dedf1b2"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/pi0-fast-full-parameters.json",
+          "source_path": "data/results/pi0-fast-full-parameters.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/pi0-fast-full-parameters.json",
+          "bytes": 2868,
+          "sha256": "ffda4da2b9e1adb467fb352f35cd57e5050a72ee5606599a63167469b107ae5c"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/univla.json",
+          "source_path": "data/results/univla.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/univla.json",
+          "bytes": 2854,
+          "sha256": "0aad9426fcc458bb01f534dfa02adecb8717893c247fb1eb2a06529e2a710c94"
+        },
+        {
+          "path": "runs/candidate_review/20260916/source/data/results/smolvla.json",
+          "source_path": "data/results/smolvla.json",
+          "url": "https://raw.githubusercontent.com/vla-arena/vla-arena.github.io/4b344135920f44545d546d38aaefa36452cfdafb/data/results/smolvla.json",
+          "bytes": 2842,
+          "sha256": "06133cc30109e1ebb844e1b1abc8f439b1fbd61d4a5ec0ddf4a0255d620acbbe"
+        }
+      ],
+      "status": "source and existing aggregate-result schema inspection only; no sampling or performance calculation"
+    },
+    "model_schema": [
+      {
+        "id": "openvla",
+        "suites": 11,
+        "sr_cells": 33,
+        "cc_cells": 15,
+        "numEpisodes_present": false
+      },
+      {
+        "id": "openvla-oft",
+        "suites": 11,
+        "sr_cells": 33,
+        "cc_cells": 15,
+        "numEpisodes_present": false
+      },
+      {
+        "id": "pi0",
+        "suites": 11,
+        "sr_cells": 33,
+        "cc_cells": 15,
+        "numEpisodes_present": false
+      },
+      {
+        "id": "pi0-fast",
+        "suites": 11,
+        "sr_cells": 33,
+        "cc_cells": 15,
+        "numEpisodes_present": false
+      },
+      {
+        "id": "pi0-full-parameters",
+        "suites": 11,
+        "sr_cells": 33,
+        "cc_cells": 15,
+        "numEpisodes_present": false
+      },
+      {
+        "id": "pi0-fast-full-parameters",
+        "suites": 11,
+        "sr_cells": 33,
+        "cc_cells": 15,
+        "numEpisodes_present": false
+      },
+      {
+        "id": "univla",
+        "suites": 11,
+        "sr_cells": 33,
+        "cc_cells": 15,
+        "numEpisodes_present": false
+      },
+      {
+        "id": "smolvla",
+        "suites": 11,
+        "sr_cells": 33,
+        "cc_cells": 15,
+        "numEpisodes_present": false
+      }
+    ],
+    "cell_schema": [
+      {
+        "category": "Safety",
+        "suite": "StaticObstacles",
+        "sr_levels": 3,
+        "cc_levels": 3
+      },
+      {
+        "category": "Safety",
+        "suite": "CautiousGrasp",
+        "sr_levels": 3,
+        "cc_levels": 3
+      },
+      {
+        "category": "Safety",
+        "suite": "HazardAvoidance",
+        "sr_levels": 3,
+        "cc_levels": 3
+      },
+      {
+        "category": "Safety",
+        "suite": "StatePreservation",
+        "sr_levels": 3,
+        "cc_levels": 3
+      },
+      {
+        "category": "Safety",
+        "suite": "DynamicObstacles",
+        "sr_levels": 3,
+        "cc_levels": 3
+      },
+      {
+        "category": "Distractor",
+        "suite": "StaticDistractors",
+        "sr_levels": 3,
+        "cc_levels": 0
+      },
+      {
+        "category": "Distractor",
+        "suite": "DynamicDistractors",
+        "sr_levels": 3,
+        "cc_levels": 0
+      },
+      {
+        "category": "Extrapolation",
+        "suite": "PrepositionCombinations",
+        "sr_levels": 3,
+        "cc_levels": 0
+      },
+      {
+        "category": "Extrapolation",
+        "suite": "TaskWorkflows",
+        "sr_levels": 3,
+        "cc_levels": 0
+      },
+      {
+        "category": "Extrapolation",
+        "suite": "UnseenObjects",
+        "sr_levels": 3,
+        "cc_levels": 0
+      },
+      {
+        "category": "Long Horizon",
+        "suite": "LongHorizon",
+        "sr_levels": 3,
+        "cc_levels": 0
+      }
+    ],
+    "observed_model_manifest_entries": 29,
+    "cohort_rule": "IDs in the pinned legacy bundled JSON; use only pinned individual model JSON values, not the bundled numerical table",
+    "limitations": [
+      "Only aggregate suite-level means. No per-cell episode counts, trials, variance or rare-failure prevalence identified.",
+      "CC is cumulative cost, not a rare-event probability.",
+      "OpenVLA and bundled numerical values were partly viewed during source inspection; prospective comparison remains exploratory.",
+      "All eight models have common 33 SR cells; future model-group holdouts do not establish independent backbone/data families.",
+      "No sampling, performance aggregation, ranking, baseline/model import, Docker action or deletion performed in this turn."
+    ],
+    "decision": "CD2 feasibility study planned; Q3/Q4/CD5 exploratory reserve",
+    "protocol": "buildup/cross_domain/questions/tail-preserving-efficient-evaluation.md#first-observation",
+    "verification": {
+      "source_files": 12,
+      "source_bytes": 248079,
+      "sha256_match": true,
+      "common_schema_match": true,
+      "legacy_cohort_ids_match": true,
+      "current_model_manifest_entries": 29
+    }
+  },
+  "cd2_followup_20260917": {
+    "checked_at_utc": "2026-09-16T15:45:41.736449+00:00",
+    "scope": "Literature and public source/schema assessment; no numerical policy analysis, dependency install or Docker runtime",
+    "decision": "one bounded LBM hardware episode-record follow-up; no new sequential method or hypothesis promotion",
+    "sources": [
+      {
+        "title": "STEP",
+        "url": "https://arxiv.org/html/2503.10966v1",
+        "read_scope": "Introduction; II-III; scope and assumptions"
+      },
+      {
+        "title": "N-SCORE",
+        "url": "https://arxiv.org/html/2603.13616v1",
+        "read_scope": "IV, VI-B, VI-C4, VII, Appendix B; no reproduction"
+      },
+      {
+        "title": "N-SCORE proceedings",
+        "url": "https://www.roboticsproceedings.org/rss22/p076.html",
+        "read_scope": "landing-page publication identity only"
+      },
+      {
+        "title": "Active Experiment Selection",
+        "url": "https://arxiv.org/html/2502.09829v1",
+        "read_scope": "III-VII; task-switch cost and objective scope"
+      },
+      {
+        "title": "Active Experiment Selection proceedings",
+        "url": "https://proceedings.mlr.press/v305/anwar25a.html",
+        "read_scope": "official proceedings abstract/identity"
+      },
+      {
+        "title": "PEAK",
+        "url": "https://arxiv.org/html/2402.06122v2",
+        "read_scope": "Abstract and Introduction only; not full proof audit"
+      },
+      {
+        "title": "RoboArena",
+        "url": "https://arxiv.org/html/2506.18123v2",
+        "read_scope": "3; Appendix B.4, B.6, D"
+      },
+      {
+        "title": "RoboArena project",
+        "url": "https://robo-arena.github.io/",
+        "read_scope": "official dataset/code links"
+      },
+      {
+        "title": "RoboArena data",
+        "url": "https://huggingface.co/datasets/RoboArena/DataDump_07-17-2026",
+        "read_scope": "repository API tree; README/global metadata; first two lexicographic session schemas only"
+      }
+    ],
+    "access_checks": [
+      {
+        "url": "https://api.github.com/repos/AbrarAnwar/seq-eval",
+        "http_status": 404,
+        "interpretation": "endpoint unavailable at check; not proof the method is unreproducible"
+      }
+    ],
+    "acquisition": {
+      "nscore_commit": "68c0a3453248d16da0c3f0b96f229fb9daf9fe78",
+      "roboarena_commit": "7931db81f3f6a48a3245427f7213a4c461f92ccc",
+      "metadata_paths": 3883,
+      "files": [
+        {
+          "path": "runs/cd2-review/20260917/roboarena/README.md",
+          "url": "https://huggingface.co/datasets/RoboArena/DataDump_07-17-2026/resolve/7931db81f3f6a48a3245427f7213a4c461f92ccc/README.md",
+          "bytes": 1766,
+          "sha256": "dcb052be353f3703c17b65ab7c211fb5611c1a95e0c5149076ffbeb61f2b41f4"
+        },
+        {
+          "path": "runs/cd2-review/20260917/roboarena/global_metadata.yaml",
+          "url": "https://huggingface.co/datasets/RoboArena/DataDump_07-17-2026/resolve/7931db81f3f6a48a3245427f7213a4c461f92ccc/global_metadata.yaml",
+          "bytes": 1732,
+          "sha256": "72729672b792720556c7aea3bcbbb3d2e905c95bc4428e7f943750357f961bee"
+        },
+        {
+          "path": "runs/cd2-review/20260917/roboarena/evaluation_sessions/00008df3-4cb6-45ce-a6de-1d98a755146a/metadata.yaml",
+          "url": "https://huggingface.co/datasets/RoboArena/DataDump_07-17-2026/resolve/7931db81f3f6a48a3245427f7213a4c461f92ccc/evaluation_sessions/00008df3-4cb6-45ce-a6de-1d98a755146a/metadata.yaml",
+          "bytes": 939,
+          "sha256": "5dc0139c38d945becdb1c6064525bbe00169d1048b3c2db52e48f758d347823f"
+        },
+        {
+          "path": "runs/cd2-review/20260917/roboarena/evaluation_sessions/0009450c-4094-40ed-963b-905c8cd452ec/metadata.yaml",
+          "url": "https://huggingface.co/datasets/RoboArena/DataDump_07-17-2026/resolve/7931db81f3f6a48a3245427f7213a4c461f92ccc/evaluation_sessions/0009450c-4094-40ed-963b-905c8cd452ec/metadata.yaml",
+          "bytes": 654,
+          "sha256": "bea2f4572f0eb257ca56d7297a922a8d0802ca10eb9ad9bf69cf4262647aabf3"
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/README.md",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/README.md",
+          "bytes": 11190,
+          "sha256": "408681f2eaac8da4a4c4bcf35bd027ffecf3faf9aec03006105ccbb367f13bf2"
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/scripts/paper_results/lbm_data_eval_part2.py",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/scripts/paper_results/lbm_data_eval_part2.py",
+          "bytes": 13121,
+          "sha256": "30f6890c1e5cf51d1e8b5c8171fddef30ecc715beaddb018391254dc2907872e"
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/scripts/paper_results/lbm_data_eval_part1.py",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/scripts/paper_results/lbm_data_eval_part1.py",
+          "bytes": 13695,
+          "sha256": "97517df268f363b0db758a99e2689e9582da4bb5c89cbb136ad03f97ec63dcc4"
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/requirements_pip.txt",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/requirements_pip.txt",
+          "bytes": 42,
+          "sha256": "8c83dc6bb75f8ea09d91d84c32a1e8975456b74281c686e138954bf9a338464c"
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/setup.py",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/setup.py",
+          "bytes": 550,
+          "sha256": "cf604fd4d073eb5e1515b39c015f4a9f60d0ad419432ebac102a65078856059e"
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/nscore/wsr.py",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/nscore/wsr.py",
+          "bytes": 5080,
+          "sha256": "581f8bb30b747dc87c9f31210f433ed79b6ae0a3bff92fc6c7a8e32c5738ff10"
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/BikeRotorInstall.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/BikeRotorInstall.npy",
+          "bytes": 928,
+          "sha256": "e8e37ebc820fdcf74512647cc3b0c1ce503c9b0b52618de25799e5b5e41233dd",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/CleanLitterBox.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/CleanLitterBox.npy",
+          "bytes": 928,
+          "sha256": "cf50268533450a53f1f34936be941c0e7dcb61ad2e85d8e484150b843829925b",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/ClearKitchenCounter.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/ClearKitchenCounter.npy",
+          "bytes": 928,
+          "sha256": "93af14ef9e9072af7c0eebfa092c2f15d6f10d48ef5a982c52c16e1d412f2145",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/CutAppleIntoSlices.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/CutAppleIntoSlices.npy",
+          "bytes": 928,
+          "sha256": "4f070b79714fe8970b25188155b765c891e935bcf957c539875bd53a42144ac7",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/SetUpBreakfastTable.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/SetUpBreakfastTable.npy",
+          "bytes": 928,
+          "sha256": "0ea3c59ec055e71cb208d99d214824a6a56b9828baf2cc92dd0d9827e67b1610",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/BikeRotorInstall.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/BikeRotorInstall.npy",
+          "bytes": 928,
+          "sha256": "e8e37ebc820fdcf74512647cc3b0c1ce503c9b0b52618de25799e5b5e41233dd",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/CleanLitterBox.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/CleanLitterBox.npy",
+          "bytes": 928,
+          "sha256": "cf50268533450a53f1f34936be941c0e7dcb61ad2e85d8e484150b843829925b",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/ClearKitchenCounter.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/ClearKitchenCounter.npy",
+          "bytes": 928,
+          "sha256": "93af14ef9e9072af7c0eebfa092c2f15d6f10d48ef5a982c52c16e1d412f2145",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/CutAppleIntoSlices.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/CutAppleIntoSlices.npy",
+          "bytes": 928,
+          "sha256": "4f070b79714fe8970b25188155b765c891e935bcf957c539875bd53a42144ac7",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/SetUpBreakfastTable.npy",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/SetUpBreakfastTable.npy",
+          "bytes": 928,
+          "sha256": "0ea3c59ec055e71cb208d99d214824a6a56b9828baf2cc92dd0d9827e67b1610",
+          "npy_header": {
+            "descr": "<f8",
+            "fortran_order": false,
+            "shape": [
+              50,
+              2
+            ]
+          }
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/data/LBM/lbm_data.pkl",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/lbm_data.pkl",
+          "bytes": 45825,
+          "sha256": "c6cd844cba7ee7ba01aa66d72328ff6ca69722842b4a98725438abb14ee39222"
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/notebooks/principled_comparison.ipynb",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/notebooks/principled_comparison.ipynb",
+          "bytes": 23984,
+          "sha256": "39f6d2c1f42c983ecd882f823e6c040b8b291760a11e30e93a70237df1ea6d61"
+        },
+        {
+          "path": "runs/cd2-review/20260917/nscore/notebooks/principled_meta_comparison.ipynb",
+          "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/notebooks/principled_meta_comparison.ipynb",
+          "bytes": 21888,
+          "sha256": "e102bd10afaf1bdff4cea37909ad965d1401c3e883284bb72ad70ad679e9142e"
+        }
+      ]
+    },
+    "api_cache": [
+      {
+        "path": "runs/cd2-review/20260917/nscore_repo.json",
+        "url": "https://api.github.com/repos/dasnyder5/nscore",
+        "bytes": 4998,
+        "sha256": "d50c7ad597ba41cd06182ef83575d6eb7ada9b8a58000f8f2db2a1812100a902",
+        "purpose": "discovery metadata; original response preserved, not an immutable payload URL"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore_tree.json",
+        "url": "https://api.github.com/repos/dasnyder5/nscore/git/trees/68c0a3453248d16da0c3f0b96f229fb9daf9fe78?recursive=1",
+        "bytes": 50714,
+        "sha256": "8f2f0ea07659df045d62a5d5e218908944e1ba5e4ae61af82efde367d2d90aa9",
+        "purpose": "discovery metadata; original response preserved, not an immutable payload URL"
+      },
+      {
+        "path": "runs/cd2-review/20260917/roboarena_card.json",
+        "bytes": 6179648,
+        "sha256": "4eb039376269f669f1784128efc830bd353a7f582f2b2d8d710dde678b159f4d",
+        "purpose": "Discovery endpoint and saved response identity; original query parameters not retained; use immutable payload URLs for input recovery",
+        "discovery_endpoint": "https://huggingface.co/api/datasets/RoboArena/DataDump_07-17-2026"
+      },
+      {
+        "path": "runs/cd2-review/20260917/roboarena_feb_card.json",
+        "bytes": 5405542,
+        "sha256": "d77a69565589502290246df3799319f4b7fe2fae9eff7019cbe809ed7e46a770",
+        "purpose": "Discovery endpoint and saved response identity; original query parameters not retained; use immutable payload URLs for input recovery",
+        "discovery_endpoint": "https://huggingface.co/api/datasets/RoboArena/DataDump_02-03-2026"
+      }
+    ],
+    "npy_headers": [
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/BikeRotorInstall.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/CleanLitterBox.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/ClearKitchenCounter.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/CutAppleIntoSlices.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/LBM/Part2/SetUpBreakfastTable.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/BikeRotorInstall.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/CleanLitterBox.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/ClearKitchenCounter.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/CutAppleIntoSlices.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      },
+      {
+        "path": "runs/cd2-review/20260917/nscore/data/PC_LBM/Part2/SetUpBreakfastTable.npy",
+        "header": {
+          "descr": "<f8",
+          "fortran_order": false,
+          "shape": [
+            50,
+            2
+          ]
+        },
+        "checked": "header only; numerical values and column identity not inspected"
+      }
+    ],
+    "pickle_inspection": {
+      "mode": "pickletools.genops string opcodes only; no unpickling or imports",
+      "hardware_key": "figure_4_hardware_tasks",
+      "field_names": [
+        "policy_type",
+        "skill",
+        "success",
+        "task_progress",
+        "num_rollouts",
+        "n_questions"
+      ],
+      "policy_type_strings": [
+        "DiT_DP_stage5_finetune",
+        "DiT_DP_single_task"
+      ],
+      "pending": "deserialize in Docker; verify explicit keys/counts/labels and compare NPY column mapping before analysis"
+    },
+    "roboarena_inspection": {
+      "global_metadata_reported_sessions": 3883,
+      "global_metadata_reported_policy_episodes": 10783,
+      "inspected_session_yaml_files": 2,
+      "selection": "first two lexicographic paths; schema only",
+      "fields_observed": [
+        "evaluation_location",
+        "evaluator_name",
+        "session_creation_timestamp",
+        "session_completion_timestamp",
+        "language_instruction",
+        "preference",
+        "longform_feedback",
+        "policies",
+        "policy_name",
+        "binary_success",
+        "partial_success",
+        "duration"
+      ],
+      "boundary": "No full-cohort distribution audit, task taxonomy construction, severity annotation, videos or trajectory payloads"
+    },
+    "verification": {
+      "acquired_files_sha256_and_size": 23,
+      "npy_header_checks": 10,
+      "semantic_or_numerical_checks": 0
+    },
+    "claim_boundaries": [
+      "Success/progress metrics are not independent new trials",
+      "Row index does not establish matched initial states across policies",
+      "Finite-table resampling is not population inference or measured hardware rollout savings",
+      "No rare-event severity labels established",
+      "RoboArena is distinct from VLA-Arena"
+    ]
+  },
+  "q3_q4_comparison_20260918": {
+    "checked_on": "2026-09-18",
+    "scope": "Q3 vs Q4 bounded observation selection; source and input text/byte audit only; no numerical experiment",
+    "decision": "Q4 Taskography instance selection with common relation closure; CD5 canonicalization control; Q3 reserve",
+    "primary_sources": [
+      {
+        "title": "Taskography",
+        "url": "https://proceedings.mlr.press/v164/agia22a/agia22a.pdf",
+        "read_scope": "Problem formulation, symbolic setting, SCRUB/SEEK and grounded/lifted comparison; no paper reproduction"
+      },
+      {
+        "title": "Taskography official project",
+        "url": "https://taskography.github.io/",
+        "read_scope": "Task descriptions and official repository pointers"
+      },
+      {
+        "title": "Scale-Plan v1",
+        "url": "https://arxiv.org/html/2603.08814v1",
+        "read_scope": "Introduction, related work and action schema/object filtering; v1 only; no artifact/runtime audit"
+      },
+      {
+        "title": "SIMPLER",
+        "url": "https://arxiv.org/html/2405.05941v1",
+        "read_scope": "Prior 2026-09-16 VI-D/Table X mass/friction comparison retained; official project revisited"
+      }
+    ],
+    "repositories": [
+      {
+        "repo": "taskography/taskography",
+        "commit": "a4d98d387f11e27d11414bd2d27e02f9d679450f",
+        "tree_entries": 1,
+        "truncated": false,
+        "tree_cache": "runs/reserve_review/20260918/taskography_tree.json",
+        "tree_sha256": "9c68918d69bc54e401edb6b2f36a787f96785741a1cbb6c51055ddc786835b76",
+        "commit_cache": "runs/reserve_review/20260918/taskography_commit.json",
+        "commit_cache_sha256": "ac97fb4b1c8fdb8668a6dc5e4dc41eb22f09b4b1377e7a20874605c24aa46b92",
+        "git_tree_object_sha": "ab561df9912eecf7a2a4a942439e7d17e17bb5e0",
+        "commit_verified_by": "GitHub commits/main response matches immutable ref already used in acquisition URLs"
+      },
+      {
+        "repo": "taskography/scenegraph-planners",
+        "commit": "bcc1c414b7325bdb843f728994da4153e1a34994",
+        "tree_entries": 306,
+        "truncated": false,
+        "tree_cache": "runs/reserve_review/20260918/scenegraph-planners_tree.json",
+        "tree_sha256": "67f501eff64f6a4d551df144dade9f83ba471f28d98c7a6b2ae922aa42511135",
+        "commit_cache": "runs/reserve_review/20260918/scenegraph-planners_commit.json",
+        "commit_cache_sha256": "c4f9bab01b68bbf311164825b8581d6f89cff1e37a6c2bf83e909c34a672463c",
+        "git_tree_object_sha": "e842abfabda38661ab50cfdf3c00b361705c6a98",
+        "commit_verified_by": "GitHub commits/main response matches immutable ref already used in acquisition URLs"
+      },
+      {
+        "repo": "taskography/pddlgym",
+        "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+        "tree_entries": 9749,
+        "truncated": false,
+        "tree_cache": "runs/reserve_review/20260918/pddlgym_tree.json",
+        "tree_sha256": "e56a03af35931b66041f46a02358b0e826341ae12d6dd7a8a8f12a1e2ca3d3de",
+        "commit_cache": "runs/reserve_review/20260918/pddlgym_commit.json",
+        "commit_cache_sha256": "6219c88d1f660c31d370d2e65eff9d31253acf992e9c48fc69c8ac21837a4950",
+        "git_tree_object_sha": "abd31bedddff89b9007f37c595f7cab434b416b0",
+        "commit_verified_by": "GitHub commits/main response matches immutable ref already used in acquisition URLs"
+      }
+    ],
+    "q3_local_audit": [
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/structs/types.py",
+        "bytes": 4000,
+        "sha256": "86451c45e986ce7f789e01edecaa9ba6c3f89a08c3960ddb212ca0cf4499e156",
+        "scope": "Read-only source/metadata audit; no imports or runtime"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/sapien_env.py",
+        "bytes": 76011,
+        "sha256": "459196c275764eaf53ccba8e154e3207036399e54c8bdd45f9e7d0919970464b",
+        "scope": "Read-only source/metadata audit; no imports or runtime"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/pd_joint_pos.py",
+        "bytes": 11116,
+        "sha256": "ce05feb05c4370ec2be58c60465082dde15fd97e6398a187a648a5e932a4d58e",
+        "scope": "Read-only source/metadata audit; no imports or runtime"
+      },
+      {
+        "path": "external/q8/checkpoints.json",
+        "bytes": 5379,
+        "sha256": "1a0e9ba7be22aab85522b986388d224345959ac15427faa33de4563d9a813671",
+        "scope": "Read-only source/metadata audit; no imports or runtime"
+      },
+      {
+        "path": "buildup/robotics/pilot_studies/q1-predicate-stability/manifest_v3.md",
+        "bytes": 4751,
+        "sha256": "e0e016627daa94c614d3eef5b7d6e0006bbe51c670a4f4473a0c435ac5687716",
+        "scope": "Read-only source/metadata audit; no imports or runtime"
+      },
+      {
+        "path": "buildup/robotics/pilot_studies/q1-predicate-stability/Dockerfile",
+        "bytes": 812,
+        "sha256": "d502d6ddae2f0657ed0df821e9cf8555f01bfd0edd8faf34d7fb3a72d9829f6b",
+        "scope": "Read-only source/metadata audit; no imports or runtime"
+      }
+    ],
+    "acquisition": {
+      "cache": "runs/reserve_review/20260918",
+      "files": [
+        {
+          "repo": "taskography/scenegraph-planners",
+          "commit": "bcc1c414b7325bdb843f728994da4153e1a34994",
+          "path": "runs/reserve_review/20260918/scenegraph-planners/README.md",
+          "source_path": "README.md",
+          "url": "https://raw.githubusercontent.com/taskography/scenegraph-planners/bcc1c414b7325bdb843f728994da4153e1a34994/README.md",
+          "bytes": 7283,
+          "sha256": "933a7c1f47c345c4e6537ad0805d29e6005498b571da988b6900d1d8472a9515",
+          "git_blob_sha1": "eeb9c9d7536ec8b35f2fdddcb1f31074a8ccb489"
+        },
+        {
+          "repo": "taskography/scenegraph-planners",
+          "commit": "bcc1c414b7325bdb843f728994da4153e1a34994",
+          "path": "runs/reserve_review/20260918/scenegraph-planners/LICENSE",
+          "source_path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/taskography/scenegraph-planners/bcc1c414b7325bdb843f728994da4153e1a34994/LICENSE",
+          "bytes": 3288,
+          "sha256": "cfbf073a69eebb9d9f0a35bc70fc812012e062653b0e9cc059a3754d3b56303b",
+          "git_blob_sha1": "353a20412e30d977eb8ec81ada782db7ac727f48"
+        },
+        {
+          "repo": "taskography/scenegraph-planners",
+          "commit": "bcc1c414b7325bdb843f728994da4153e1a34994",
+          "path": "runs/reserve_review/20260918/scenegraph-planners/ploi/planning/scrubber.py",
+          "source_path": "ploi/planning/scrubber.py",
+          "url": "https://raw.githubusercontent.com/taskography/scenegraph-planners/bcc1c414b7325bdb843f728994da4153e1a34994/ploi/planning/scrubber.py",
+          "bytes": 10521,
+          "sha256": "bef632b4550df9f707942ffe292af1047ae2caff2fedc2100d0df82d8f319cc9",
+          "git_blob_sha1": "1c96f43703acfa7b404a8c44d58d3464b6bdacd1"
+        },
+        {
+          "repo": "taskography/scenegraph-planners",
+          "commit": "bcc1c414b7325bdb843f728994da4153e1a34994",
+          "path": "runs/reserve_review/20260918/scenegraph-planners/ploi/planning/seek_planners.py",
+          "source_path": "ploi/planning/seek_planners.py",
+          "url": "https://raw.githubusercontent.com/taskography/scenegraph-planners/bcc1c414b7325bdb843f728994da4153e1a34994/ploi/planning/seek_planners.py",
+          "bytes": 10434,
+          "sha256": "6988fb7d87cd332f33968d9c5b075af0a1f450e80a37dc4d9861b7039f95c9f4",
+          "git_blob_sha1": "b7b9ca7e4965a6912f71f8a18e3486cc6dc5a0e6"
+        },
+        {
+          "repo": "taskography/scenegraph-planners",
+          "commit": "bcc1c414b7325bdb843f728994da4153e1a34994",
+          "path": "runs/reserve_review/20260918/scenegraph-planners/generate_scrubed_problems.py",
+          "source_path": "generate_scrubed_problems.py",
+          "url": "https://raw.githubusercontent.com/taskography/scenegraph-planners/bcc1c414b7325bdb843f728994da4153e1a34994/generate_scrubed_problems.py",
+          "bytes": 7389,
+          "sha256": "4eebae3342534f2f380824e3f74dae664be42b59b37b22e7f561b1ccb26f98ea",
+          "git_blob_sha1": "302fffb8fd2ae9004da940e43f0f4a9a7652deee"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "path": "runs/reserve_review/20260918/pddlgym/README.md",
+          "source_path": "README.md",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/README.md",
+          "bytes": 8889,
+          "sha256": "f5fe6a127b67a94d6985980c935869649d2fc2f62434c28b357fcaf13c0fd5af",
+          "git_blob_sha1": "ac42a321f6dcf408b6d572b99751251b0d086503"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv2tiny1.pddl",
+          "source_path": "pddlgym/pddl/taskographyv2tiny1.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1.pddl",
+          "bytes": 4731,
+          "sha256": "101d9b4b017794cf2b39b3dbdc93198d0f26c1d20d689ad10bc0503786c29d33",
+          "git_blob_sha1": "2dc304711670f67350b816a17e45f1b913c468ba"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv2tiny1/problem0.pddl",
+          "source_path": "pddlgym/pddl/taskographyv2tiny1/problem0.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1/problem0.pddl",
+          "bytes": 42821,
+          "sha256": "05e6a000ec5cff6faafd544aec9489b0bf1723ed2d32f7aacf05f83a10b4fccd",
+          "git_blob_sha1": "a77f0ccf039a721099420aff9d4bdd88cfb6bfbd"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv2tiny1scrub/problem0.pddl",
+          "source_path": "pddlgym/pddl/taskographyv2tiny1scrub/problem0.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1scrub/problem0.pddl",
+          "bytes": 42826,
+          "sha256": "a86b1f43cfcfdc6a945829aba5c15dca8ba0249b863f79f88780d68da5635dde",
+          "git_blob_sha1": "30f5cb6e19836c3450b9b4da351a09a703aa95f0"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5.pddl",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5.pddl",
+          "bytes": 5298,
+          "sha256": "6d25cfba01a4e788019e760070aff1247ff9bddbeefc51544fb0ff37e66e11dd",
+          "git_blob_sha1": "29c6cf9760bd6399b3c4d4de8a40cf373d5fe262"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5/problem0.pddl",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5/problem0.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5/problem0.pddl",
+          "bytes": 47138,
+          "sha256": "4fdc186855b661b51d87ea01107ab516fccf9a90dab82d0dfc2bc30b2ef830b0",
+          "git_blob_sha1": "09de9c4f39697059564d28ecab4f11036b619ee5"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5scrub/problem0.pddl",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5scrub/problem0.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub/problem0.pddl",
+          "bytes": 47143,
+          "sha256": "488356aeba84c51a8101eca08ec78f96be24a66bb6d5475f80248ba409205420",
+          "git_blob_sha1": "ec46b78b0ab8f12b2ddfb210cc0b209160ecdaaf"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "LICENSE.md",
+          "path": "runs/reserve_review/20260918/pddlgym/LICENSE.md",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/LICENSE.md",
+          "bytes": 1085,
+          "sha256": "b25993413b1e686cb58b1cc1b7599e6b0267847da942c2e4e6d5e7cc0612ccb9",
+          "git_blob_sha1": "7aea7a49fa07317cd2a7aeac86751295ceb58364"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "LICENSE-CC-BY",
+          "path": "runs/reserve_review/20260918/pddlgym/LICENSE-CC-BY",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/LICENSE-CC-BY",
+          "bytes": 18650,
+          "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661",
+          "git_blob_sha1": "2f244ac814036ecd9ba9f69782e89ce6b1dca9eb"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv2tiny1scrub.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv2tiny1scrub.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1scrub.pddl",
+          "bytes": 4736,
+          "sha256": "b409f673d1f3f6c291b9cd3b342a39f73362c4b343b7b3a85e36c0a99b811b50",
+          "git_blob_sha1": "084fa53c7b52310db867dfe195205bce41cfd354"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5scrub.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5scrub.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub.pddl",
+          "bytes": 5303,
+          "sha256": "6fda82d0671c9364168c890270d8ed06821c192cc327de15fcdecb6e44cdfa74",
+          "git_blob_sha1": "ad151d2f42c676cc3a3f5ff7237d7c308c974792"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv2tiny1_test/problem40.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv2tiny1_test/problem40.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1_test/problem40.pddl",
+          "bytes": 49668,
+          "sha256": "c22f3622331133c382a75e9b5b4c84526c260ad7bb1d4c5696abeaef3425e8ff",
+          "git_blob_sha1": "c9b8636515f8816efa9b7a2f47502bdf392b5b47"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv2tiny1scrub_test/problem40.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv2tiny1scrub_test/problem40.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1scrub_test/problem40.pddl",
+          "bytes": 13995,
+          "sha256": "bd56d4400800f87c194d1049a9f556976f2aad2f51b44f463065801a57408b3c",
+          "git_blob_sha1": "31814d9915555724072c2b34b603aa7cc2bca320"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv2tiny1_test/problem41.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv2tiny1_test/problem41.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1_test/problem41.pddl",
+          "bytes": 49680,
+          "sha256": "e60d6d56eff34e0095f2509fcc71c0292c66e83450ba38b30251d30349f9f78e",
+          "git_blob_sha1": "04c2837e336207970bff421b7dbc8246f4afe2b7"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv2tiny1scrub_test/problem41.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv2tiny1scrub_test/problem41.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv2tiny1scrub_test/problem41.pddl",
+          "bytes": 13999,
+          "sha256": "9ba885618c9dbc4c087b6672516f010da66de45a5b20ea448f22d4f3f3beabb9",
+          "git_blob_sha1": "6a8e1f9aeff95392c2473758360d584de890f147"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem40.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5_test/problem40.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem40.pddl",
+          "bytes": 46594,
+          "sha256": "a8f5388beb92241c6fb162061c533ad58dfe185db3339400f5afa96c7147cfaa",
+          "git_blob_sha1": "479e16d69a7a0b0c5e2cec19e84eadec0e6372d7"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem40.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5scrub_test/problem40.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem40.pddl",
+          "bytes": 38704,
+          "sha256": "520eaf9aaca5bdb27cb468c2b74eb0c04512e64de063f784c966f6ed234785e0",
+          "git_blob_sha1": "ffc1782daa0ee15e826ed2a85157eb49ac7b2e7a"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem41.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5_test/problem41.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem41.pddl",
+          "bytes": 46604,
+          "sha256": "6b2be1d585bea8805be65c00dcf7b128ba45dbaaeb5beae6c665c7eb90dba276",
+          "git_blob_sha1": "f54e212563c3f0fda56cf4d2fbafbab53a7867ac"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem41.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5scrub_test/problem41.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem41.pddl",
+          "bytes": 36837,
+          "sha256": "939d14833faf6af2352cbeea690d2970c6d4bf1ddd97cfbf20bd091e7a26e74d",
+          "git_blob_sha1": "4a757b3c2d35119c6be1b71c652acf58eda49817"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem42.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5_test/problem42.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem42.pddl",
+          "bytes": 46600,
+          "sha256": "39d22870e55876b70f8ea3a8ed6f9e7a54096bff494cd9d37ec7f55af6c90bf7",
+          "git_blob_sha1": "3276c92ed02ed9b9056f5fafa53993f6778728b7"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem42.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5scrub_test/problem42.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem42.pddl",
+          "bytes": 41435,
+          "sha256": "32596c63e29c9e3730380b54c6de20962e6af233ed2db9dc2646360fb7616ba7",
+          "git_blob_sha1": "fb95828b94cbf4554e23f005a26a399ab1a6ec84"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem43.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5_test/problem43.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem43.pddl",
+          "bytes": 46591,
+          "sha256": "0bf9ad5452e0471a532da66f3c2e514ef38372ad36ae0b4d8047df9782eca747",
+          "git_blob_sha1": "bd461d2663da455005b8973c49fd85b39b4c2282"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem43.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5scrub_test/problem43.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem43.pddl",
+          "bytes": 41923,
+          "sha256": "ed4d964001eef9203d2ed26915fe5ec6268ba7c89be5c36f120073d5670c02df",
+          "git_blob_sha1": "ec26c35a2f3848af99cca05ea30e1dffb3e9e983"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem44.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5_test/problem44.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem44.pddl",
+          "bytes": 46622,
+          "sha256": "7377d20d055974f51eb4426c6e18e74e38fc6fa94eb6299cfded47d8f019b21c",
+          "git_blob_sha1": "141958de5025b3f0296e74c353b12e6e85f5100a"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem44.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5scrub_test/problem44.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem44.pddl",
+          "bytes": 39649,
+          "sha256": "f8d888107987b245ed3110620f3f81544c4933395a692372b5262fe25d6d5251",
+          "git_blob_sha1": "036e57533aa02d7ec3cfc2bd1b0d45f151ac64e9"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem45.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5_test/problem45.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5_test/problem45.pddl",
+          "bytes": 45027,
+          "sha256": "ee1260db2ec0366ecca17817c947609fc8134575e3271546ab9d62f2041daa14",
+          "git_blob_sha1": "116dac15889cecc5330f2c4571c05afd89c3644a"
+        },
+        {
+          "repo": "taskography/pddlgym",
+          "commit": "7cf187d60539f0f8f56d05d3f0ca752715c56feb",
+          "source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem45.pddl",
+          "path": "runs/reserve_review/20260918/pddlgym/pddlgym/pddl/taskographyv4tiny5scrub_test/problem45.pddl",
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/pddlgym/pddl/taskographyv4tiny5scrub_test/problem45.pddl",
+          "bytes": 41446,
+          "sha256": "25f5a7be54575d528aa5f9aeb015283eae6c4eeb89a070842e5124feec76abd6",
+          "git_blob_sha1": "00eb4304769ea1631741a0507f002aaf07c55af1"
+        }
+      ],
+      "failed_requests": [
+        {
+          "url": "https://raw.githubusercontent.com/taskography/pddlgym/7cf187d60539f0f8f56d05d3f0ca752715c56feb/LICENSE",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "resolution": "The failed pddlgym LICENSE path was replaced by successful LICENSE.md and LICENSE-CC-BY retrieval; no unresolved selected-input request.",
+      "verified_files": 32,
+      "verified_bytes": 912909,
+      "verification": "File length and SHA256 recomputed after download; PDDL read as text only. No planner/validator result. Repository commit IDs independently confirmed via commits API; all 32 file Git blob SHA1s match tree entries."
+    },
+    "selected_inputs": {
+      "selection_rule": "First numeric problem IDs in each official test directory, fixed before planner execution or metric calculation. Six lifted tiny5 and two grounded tiny1 sanity cases; no across-domain performance comparison.",
+      "selected": [
+        {
+          "domain": "taskographyv2tiny1",
+          "problem_id": 40,
+          "full_source_path": "pddlgym/pddl/taskographyv2tiny1_test/problem40.pddl",
+          "scrub_source_path": "pddlgym/pddl/taskographyv2tiny1scrub_test/problem40.pddl",
+          "role": "grounded_sanity"
+        },
+        {
+          "domain": "taskographyv2tiny1",
+          "problem_id": 41,
+          "full_source_path": "pddlgym/pddl/taskographyv2tiny1_test/problem41.pddl",
+          "scrub_source_path": "pddlgym/pddl/taskographyv2tiny1scrub_test/problem41.pddl",
+          "role": "grounded_sanity"
+        },
+        {
+          "domain": "taskographyv4tiny5",
+          "problem_id": 40,
+          "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem40.pddl",
+          "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem40.pddl",
+          "role": "lifted_primary"
+        },
+        {
+          "domain": "taskographyv4tiny5",
+          "problem_id": 41,
+          "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem41.pddl",
+          "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem41.pddl",
+          "role": "lifted_primary"
+        },
+        {
+          "domain": "taskographyv4tiny5",
+          "problem_id": 42,
+          "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem42.pddl",
+          "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem42.pddl",
+          "role": "lifted_primary"
+        },
+        {
+          "domain": "taskographyv4tiny5",
+          "problem_id": 43,
+          "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem43.pddl",
+          "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem43.pddl",
+          "role": "lifted_primary"
+        },
+        {
+          "domain": "taskographyv4tiny5",
+          "problem_id": 44,
+          "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem44.pddl",
+          "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem44.pddl",
+          "role": "lifted_primary"
+        },
+        {
+          "domain": "taskographyv4tiny5",
+          "problem_id": 45,
+          "full_source_path": "pddlgym/pddl/taskographyv4tiny5_test/problem45.pddl",
+          "scrub_source_path": "pddlgym/pddl/taskographyv4tiny5scrub_test/problem45.pddl",
+          "role": "lifted_primary"
+        }
+      ]
+    },
+    "input_caveats": [
+      "Only _test directories are selected. Official SCRUB generator deliberately does not prune training problems.",
+      "Six lifted tiny5 cases are primary; two grounded tiny1 cases are sanity controls, not a matched task difficulty comparison.",
+      "Public PDDL validity is not physical execution success.",
+      "Official classrelation predicate is retained; instance witnesses are a separate diagnostic, not a silent relabel."
+    ],
+    "static_contract_audit": {
+      "pddl_files_balanced": 24,
+      "full_scrub_goal_pairs_identical": 8,
+      "full_scrub_domain_pairs_identical_except_name": 2,
+      "verification_log": "logs/20260918_094747_q4_selection.log",
+      "boundary": "Text/schema consistency only; no planner execution, solvability or physical semantics validation."
+    }
+  },
+  "q4_followup_review_20260918": {
+    "checked_at": "2026-09-18T12:24:31.243329+09:00",
+    "scope": "Q4 follow-up investment review and Q3 bounded observation selection; literature/source/byte audit only",
+    "decision": "Defer current Q4 fully observable instance-selection route; select one-policy Q3 fixed-control timestep and absolute-target replay observation",
+    "primary_sources": [
+      {
+        "title": "Taskography",
+        "url": "https://proceedings.mlr.press/v164/agia22a/agia22a.pdf",
+        "version": "PMLR 164 publication",
+        "read_scope": "Sections 5-6, Figure 4, Tables 3-4; Table 3 PDF screenshot checked"
+      },
+      {
+        "title": "Planning with Learned Object Importance in Large Problem Instances using Graph Neural Networks",
+        "url": "https://arxiv.org/pdf/2009.05613v2",
+        "version": "v2, 2020-12-08, AAAI 2021",
+        "read_scope": "Sections 3-4, individual scoring and copies limitation, original validation, Appendix A planner configuration; unversioned PDF served v2 per abstract history"
+      },
+      {
+        "title": "Scale-Plan",
+        "url": "https://arxiv.org/html/2603.08814v1",
+        "version": "v1",
+        "read_scope": "Section III-A action graph and backward filtering; no latest-version/code availability claim"
+      },
+      {
+        "title": "Evaluating Real-World Robot Manipulation Policies in Simulation",
+        "url": "https://arxiv.org/html/2405.05941v1",
+        "version": "v1",
+        "read_scope": "VI-D and Table X mass/friction ranking; Appendix C controller timing; no reproduction"
+      },
+      {
+        "title": "Contact Models in Robotics: a Comparative Analysis",
+        "url": "https://simple-robotics.github.io/publications/contact-models/static/paper/lelidec2024contacts.pdf",
+        "version": "PDF header arXiv:2304.06372v3, 2024-07-21",
+        "read_scope": "IV-B timestep self-consistency; IV-D control impact; no solver reproduction"
+      },
+      {
+        "title": "What Are We Actually Benchmarking in Robot Manipulation?",
+        "url": "https://arxiv.org/html/2606.04233v1",
+        "version": "v1, 2026-06-02",
+        "read_scope": "Abstract and Appendix B, especially B.2 hardware variation and closed-loop propagation; author claims, not reproduced"
+      }
+    ],
+    "source_audit": [
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/structs/types.py",
+        "bytes": 4000,
+        "sha256": "86451c45e986ce7f789e01edecaa9ba6c3f89a08c3960ddb212ca0cf4499e156",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/structs/types.py",
+        "scope": "read-only source audit; no imports or execution"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/sapien_env.py",
+        "bytes": 76011,
+        "sha256": "459196c275764eaf53ccba8e154e3207036399e54c8bdd45f9e7d0919970464b",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/sapien_env.py",
+        "scope": "read-only source audit; no imports or execution"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/base_controller.py",
+        "bytes": 13325,
+        "sha256": "a39aa1ec3666ccca4820d0c8c42d3422b266a5a2561c0ca38ab34e42a9d5c249",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/base_controller.py",
+        "scope": "read-only source audit; no imports or execution"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/pd_joint_pos.py",
+        "bytes": 11116,
+        "sha256": "ce05feb05c4370ec2be58c60465082dde15fd97e6398a187a648a5e932a4d58e",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/pd_joint_pos.py",
+        "scope": "read-only source audit; no imports or execution"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/pd_ee_pose.py",
+        "bytes": 13458,
+        "sha256": "318110fe18cb879eae00ca106f0117eed94679b79ee00ee226bacd38e4755f97",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/pd_ee_pose.py",
+        "scope": "read-only source audit; no imports or execution"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/robots/panda/panda.py",
+        "bytes": 10759,
+        "sha256": "2a98a2133b49e5a94a83d05019c0ab833ad6767f85ff1bf66265cd9247cb0fda",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/robots/panda/panda.py",
+        "scope": "read-only source audit; no imports or execution"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube.py",
+        "bytes": 8685,
+        "sha256": "6f881f11151bd124a4ec6d1189e86e20b17d366aa1cbcc6e2f751f1f5bb03ed1",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube.py",
+        "scope": "read-only source audit; no imports or execution"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube_cfgs.py",
+        "bytes": 2564,
+        "sha256": "9ecd1b870ea7ac9125491f671abb866040b2cde00982ae277761eb6841c8e40d",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube_cfgs.py",
+        "scope": "read-only source audit; no imports or execution"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/ppo.py",
+        "bytes": 22982,
+        "sha256": "3fa4818861d428480244aae889bc679b2c8e89b59d6289014003c266a84dbab0",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/ppo.py",
+        "scope": "read-only source audit; no imports or execution"
+      }
+    ],
+    "checkpoint": {
+      "path": "datasets/q8/ppo_pd_joint_delta_pos_ckpt.pt",
+      "bytes": 1156130,
+      "sha256": "78959417279892d73e4ed5930a6d8de8626a24eee0ec553dfc6af61391b0b356",
+      "dataset_revision": "d674485bbffdd533914e52d272fdda34c0515608",
+      "url": "https://huggingface.co/datasets/haosulab/ManiSkill_Demonstrations/resolve/d674485bbffdd533914e52d272fdda34c0515608/demos/PickCube-v1/rl/ppo_pd_joint_delta_pos_ckpt.pt",
+      "scope": "existing workspace public artifact bytes verified; not loaded; no new download"
+    },
+    "source_findings": [
+      "Default sim/control frequencies 100/20 Hz; integer substeps.",
+      "Panda pd_joint_delta_pos uses current qpos plus delta; interpolation false by default.",
+      "Delta action replay is not absolute target replay. GPU step(None) skips the normal target apply branch; adapter must apply target buffers explicitly.",
+      "No initial states, new simulator image, replay adapter or runtime capability verified in this selection step."
+    ],
+    "access_notes": [
+      "PLOI HTML failed; full PDF and abstract version history read instead.",
+      "Hugging Face blob view was unavailable to web tool. Existing local checkpoint verified against prior pinned acquisition digest; no new remote availability assertion."
+    ],
+    "plan_owner": "buildup/robotics/questions/physics-ranking-stability.md#selected-first-observation",
+    "boundary": "Exploratory single-policy mechanism observation, not policy ranking, physical fidelity, new feedback mechanism, or paper novelty. No numerical workload or Docker mutation this turn."
+  },
+  "q3_followup_q15_selection_20260918": {
+    "checked_at": "2026-09-18T13:46:04.325479+09:00",
+    "scope": "Q3 investment review and Q15 bounded reward-training observation selection; no new numerical experiment",
+    "decision": "Defer current Q3 trajectory-sensitivity route; select Q15 fixed reward intervention as feasibility study",
+    "primary_sources": [
+      {
+        "title": "Evaluating Real-World Robot Manipulation Policies in Simulation",
+        "url": "https://arxiv.org/html/2405.05941v1",
+        "version": "v1",
+        "read_scope": "VI-D and Table X physical-property sensitivity; author claims, not reproduced"
+      },
+      {
+        "title": "Contact Models in Robotics: a Comparative Analysis",
+        "url": "https://simple-robotics.github.io/publications/contact-models/static/paper/lelidec2024contacts.pdf",
+        "version": "project PDF, arXiv v3",
+        "read_scope": "IV-B self-consistency and IV-D control setting; no solver reproduction"
+      },
+      {
+        "title": "What Are We Actually Benchmarking in Robot Manipulation?",
+        "url": "https://arxiv.org/html/2606.04233v1",
+        "version": "v1",
+        "read_scope": "Appendix B agreement levels, hardware contrasts and closed-loop propagation"
+      },
+      {
+        "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+        "url": "https://eureka-research.github.io/",
+        "version": "official project page accessed 2026-09-18",
+        "read_scope": "reward search lineage; abstract metadata at https://arxiv.org/abs/2310.12931; no code reproduction"
+      },
+      {
+        "title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
+        "url": "https://arxiv.org/html/2406.01967v1",
+        "version": "v1",
+        "read_scope": "IV-B/C safety and RAPP; Appendix E/Table XVI reward behavior versus transfer, including no-DR comparison"
+      },
+      {
+        "title": "HPRS: hierarchical potential-based reward shaping from task specifications",
+        "url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1444188/full",
+        "version": "publisher article published 2025-02-10, volume 11 (2024)",
+        "read_scope": "Abstract, 2.1, 3.4, 5 reward hierarchy/PBRS and comparisons; theorem not independently proved"
+      }
+    ],
+    "source_audit": [
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube.py",
+        "bytes": 8685,
+        "sha256": "6f881f11151bd124a4ec6d1189e86e20b17d366aa1cbcc6e2f751f1f5bb03ed1",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube.py",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "6f881f11151bd124a4ec6d1189e86e20b17d366aa1cbcc6e2f751f1f5bb03ed1",
+        "remote_bytes": 8685,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube_cfgs.py",
+        "bytes": 2564,
+        "sha256": "9ecd1b870ea7ac9125491f671abb866040b2cde00982ae277761eb6841c8e40d",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube_cfgs.py",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "9ecd1b870ea7ac9125491f671abb866040b2cde00982ae277761eb6841c8e40d",
+        "remote_bytes": 2564,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/ppo.py",
+        "bytes": 22982,
+        "sha256": "3fa4818861d428480244aae889bc679b2c8e89b59d6289014003c266a84dbab0",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/ppo.py",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "3fa4818861d428480244aae889bc679b2c8e89b59d6289014003c266a84dbab0",
+        "remote_bytes": 22982,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/README.md",
+        "bytes": 5975,
+        "sha256": "5554ddc43a52c325ccae8d4e706c18445559a8076085f482880b781e00addc6e",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/README.md",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "5554ddc43a52c325ccae8d4e706c18445559a8076085f482880b781e00addc6e",
+        "remote_bytes": 5975,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/examples.sh",
+        "bytes": 7164,
+        "sha256": "9eb680059c86d9ed4b38ac7c6e8bea6354947d0e853b75068bd0f96e578b21ff",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/examples.sh",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "9eb680059c86d9ed4b38ac7c6e8bea6354947d0e853b75068bd0f96e578b21ff",
+        "remote_bytes": 7164,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/docs/source/user_guide/tutorials/domain_randomization.md",
+        "bytes": 19804,
+        "sha256": "bbed69085237ec4fcb6f9ed8cdfd4121ad8befbe151dd8f53f4cc7840b60cd87",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/docs/source/user_guide/tutorials/domain_randomization.md",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "bbed69085237ec4fcb6f9ed8cdfd4121ad8befbe151dd8f53f4cc7840b60cd87",
+        "remote_bytes": 19804,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/building/actors/common.py",
+        "bytes": 10586,
+        "sha256": "3314dbf270ea34555c009427dd2a0b7fca6296d13972e6af02b186e55971c4d0",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/building/actors/common.py",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "3314dbf270ea34555c009427dd2a0b7fca6296d13972e6af02b186e55971c4d0",
+        "remote_bytes": 10586,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/building/actor_builder.py",
+        "bytes": 15000,
+        "sha256": "d2de84ec1b96294d71e368a4c9c7c9c6302c6073b7a338d1d3624e425bd419f2",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/building/actor_builder.py",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "d2de84ec1b96294d71e368a4c9c7c9c6302c6073b7a338d1d3624e425bd419f2",
+        "remote_bytes": 15000,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/robots/panda/panda.py",
+        "bytes": 10759,
+        "sha256": "2a98a2133b49e5a94a83d05019c0ab833ad6767f85ff1bf66265cd9247cb0fda",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/robots/panda/panda.py",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "2a98a2133b49e5a94a83d05019c0ab833ad6767f85ff1bf66265cd9247cb0fda",
+        "remote_bytes": 10759,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/sapien_env.py",
+        "bytes": 76011,
+        "sha256": "459196c275764eaf53ccba8e154e3207036399e54c8bdd45f9e7d0919970464b",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/sapien_env.py",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "459196c275764eaf53ccba8e154e3207036399e54c8bdd45f9e7d0919970464b",
+        "remote_bytes": 76011,
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/structs/types.py",
+        "bytes": 4000,
+        "sha256": "86451c45e986ce7f789e01edecaa9ba6c3f89a08c3960ddb212ca0cf4499e156",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/structs/types.py",
+        "scope": "read-only text/source and bytes; no method import or execution",
+        "remote_sha256": "86451c45e986ce7f789e01edecaa9ba6c3f89a08c3960ddb212ca0cf4499e156",
+        "remote_bytes": 4000,
+        "matches_immutable_source": true
+      }
+    ],
+    "source_findings": [
+      "PickCube reward has grasp indicator separate from grasp-gated placement; success overwrites dense reward to 5 and normalized reward divides by 5. Observation includes grasp flag.",
+      "Official PPO example uses 1024 envs, 8 update epochs, 32 minibatches and 10M requested transitions; 50 steps yields 195 updates and 9,984,000 actual transitions.",
+      "Official PPO README reports 2-5 minute PickCube training; not a measurement of this workstation or a cost guarantee.",
+      "GPU physical-property changes require scene construction/reconfiguration; default shared material can confound intended actor-only friction changes.",
+      "Q15 training/runtime/material intervention is not yet verified. Existing Q3 inference success is not Q15 training validation."
+    ],
+    "plan_owner": "buildup/robotics/questions/reward-dynamics-transfer.md#first-observation",
+    "access_notes": [
+      "Attempted Eureka HTML v6 returned 404; used official project page and arXiv abstract instead. No claim to have read that unavailable version."
+    ],
+    "verification": {
+      "files_checked": 11,
+      "remote_matches": 11,
+      "all_remote_match": true
+    },
+    "boundary": "Strong prior overlap is explicit; not a new reward method, ranking-reversal result, DrEureka reproduction or paper contribution. No new dataset/model download, Docker mutation or training."
+  },
+  "q15_followup_review_20260918": {
+    "checked_at": "2026-09-18T23:24:42.239077+09:00",
+    "scope": "Q15 follow-up investment assessment; primary literature and read-only controller/source/config inspection",
+    "decision": "Select one bounded nominal fixed-checkpoint comparison of continued policy versus joint-position hold after first native success; no retraining selected",
+    "primary_sources": [
+      {
+        "title": "Implementation Matters in Deep RL: A Case Study on PPO and TRPO",
+        "url": "https://arxiv.org/pdf/2005.12729",
+        "version": "ICLR 2020 author PDF; accessed 2026-09-18",
+        "read_scope": "Section 3, Figure 1 and Appendix A.2: reward normalization and implementation sensitivity"
+      },
+      {
+        "title": "What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study",
+        "url": "https://arxiv.org/pdf/2006.05990",
+        "version": "arXiv PDF with this title; accessed 2026-09-18",
+        "read_scope": "Section 3.3: value and advantage normalization; no PickCube experiment"
+      },
+      {
+        "title": "Reward Scale Robustness for Proximal Policy Optimization via DreamerV3 Tricks",
+        "url": "https://papers.nips.cc/paper/2023/file/04f61ec02d1b3a025a59d978269ce437-Paper-Conference.pdf",
+        "version": "NeurIPS 2023 proceedings PDF",
+        "read_scope": "Sections 3.4 and 4.2-4.3: normalization and simple clipping controls; not robotic contact transfer"
+      },
+      {
+        "title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
+        "url": "https://arxiv.org/html/2406.01967v1",
+        "version": "v1",
+        "read_scope": "Sections IV-B/C: reward-safety and dynamics priors; earlier Appendix E interpretation retained"
+      },
+      {
+        "title": "Solving Reach-Avoid-Stay Problems Using Deep Deterministic Policy Gradients",
+        "url": "https://arxiv.org/html/2410.02898v2",
+        "version": "v2, 2024-10-07",
+        "read_scope": "Abstract, Sections II/III and Figure 1: reaching versus invariant maintenance and policy switching; no grasp contact proof"
+      },
+      {
+        "title": "Learning Reach-Avoid Task with Reinforcement Learning: Vectorized Simulation and Benchmark",
+        "url": "https://arxiv.org/html/2607.15935v1",
+        "version": "v1, 2026-07-17 preprint",
+        "read_scope": "Section IV-A: reach-and-stay, joint action representations and reward formulations; no replication"
+      }
+    ],
+    "source_audit": [
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/pd_joint_pos.py",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/pd_joint_pos.py",
+        "bytes": 11116,
+        "sha256": "ce05feb05c4370ec2be58c60465082dde15fd97e6398a187a648a5e932a4d58e",
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/base_controller.py",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/controllers/base_controller.py",
+        "bytes": 13325,
+        "sha256": "a39aa1ec3666ccca4820d0c8c42d3422b266a5a2561c0ca38ab34e42a9d5c249",
+        "matches_immutable_source": true
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/gym_utils.py",
+        "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/gym_utils.py",
+        "bytes": 5977,
+        "sha256": "66f56909b8b913014fba394c2348e4948d87855ab6a81a89597bfca61a4ef325",
+        "matches_immutable_source": true
+      }
+    ],
+    "reused_source_provenance": "q3_followup_q15_selection_20260918: Panda, PickCube and PPO; no repeated remote download",
+    "observed_config": "runs/q15/reward/v1/fits/native_101/config.json",
+    "implementation_inference": "Normalized arm action gives q_target=q_current+0.1*a with use_target=False; zero delta is not a constant reference. Separate actor/critic, unnormalized MSE value targets and global gradient clipping prevent claiming complete scale invariance from advantage normalization.",
+    "access_limitations": [
+      "OpenReview forum/PDF endpoints for nIAxjsniDzg, r1etN1rtPB and EY4OHikuBm returned browser verification; used accessible author/proceedings PDFs.",
+      "Read-only source feasibility only; hold controller runtime not yet tested.",
+      "Current-pilot observations are exploratory and already inspected; no confirmatory held-out claim."
+    ],
+    "new_training_or_rollouts": false,
+    "containers_created_or_deleted": false,
+    "local_input_availability": {
+      "checkpoint_files": 9,
+      "checkpoint_hash_recheck": "deferred to dependent runtime identity check; previous v1 manifest verified",
+      "image_id": "sha256:3ae1cf37d7c199cf6e78f521e44b2596f834e2c6a4e4e9a136915b18e11cb17a",
+      "image_present": true,
+      "image_ownership_record": "runs/q15/reward/jobs/20260918_135306_663399_build.json",
+      "read_only_inspection": true
+    }
+  },
+  "cd5_cd1_q8_review_20260922": {
+    "checked_at": "2026-09-22T11:29:33.814856+09:00",
+    "scope": "CD5 / CD1 / Q8 next-observation comparison; read-only primary literature, code and JSON schema audit",
+    "decision": "Select bounded same-information symbolic planning study under CD5; no hypothesis promotion",
+    "primary_sources": [
+      {
+        "title": "Talk like a Graph: Encoding Graphs for Large Language Models",
+        "url": "https://arxiv.org/abs/2310.04560",
+        "read_scope": "abstract; author research blog https://research.google/blog/talk-like-a-graph-encoding-graphs-for-large-language-models/; not full paper"
+      },
+      {
+        "title": "Lost in Serialization: Invariance and Generalization of LLM Graph Reasoners",
+        "url": "https://arxiv.org/html/2511.10234v3",
+        "read_scope": "v3, 2026-06-09; Sections 3-4 and abstract; earlier v1 superseded for current comparison"
+      },
+      {
+        "title": "LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation",
+        "url": "https://arxiv.org/html/2512.21243v1",
+        "read_scope": "v1; Section VII-D, project https://lookplangraph.github.io/ and pinned source/data"
+      },
+      {
+        "title": "VeriGraph: Scene Graphs for Execution Verifiable Robot Planning",
+        "url": "https://arxiv.org/html/2411.10446v3",
+        "read_scope": "v3; Sections III-B-D"
+      },
+      {
+        "title": "A Human-in-the-Loop Confidence-Aware Failure Recovery Framework for Modular Robot Policies",
+        "url": "https://arxiv.org/html/2602.10289v1",
+        "read_scope": "v1; Sections 3-7 and pinned official modular-query source"
+      },
+      {
+        "title": "RAYA: Learning Where and When to Intervene for Robot Recovery",
+        "url": "https://arxiv.org/html/2609.21690v1",
+        "read_scope": "v1; abstract, introduction and framework overview; no replication"
+      },
+      {
+        "title": "EgoRecovery: Acquiring Failure Recovery Ability Through Human Recovery Demonstration",
+        "url": "https://arxiv.org/html/2607.19745v1",
+        "read_scope": "v1; abstract and method overview; linked GitHub API returned 404"
+      },
+      {
+        "title": "Qwen2.5-3B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+        "read_scope": "official model card and API metadata, revision aa8e72537993ba99e69dfaafa59ed015b17504d1; qwen-research license; no weights downloaded"
+      }
+    ],
+    "repositories": [
+      {
+        "repo": "https://github.com/Onishenko-sci/LookPlanGraph",
+        "commit": "a2967bd33e15196ff139e3c62d8a7356bfdb65e3"
+      },
+      {
+        "repo": "https://github.com/empriselab/modular-query",
+        "commit": "d36c9a977d6ae2ddc1ff063a53e59b7f3d50e221"
+      }
+    ],
+    "source_audit": [
+      {
+        "path": "runs/reserve_review/20260922/lookplan/readme.md",
+        "url": "https://raw.githubusercontent.com/Onishenko-sci/LookPlanGraph/a2967bd33e15196ff139e3c62d8a7356bfdb65e3/readme.md",
+        "bytes": 4801,
+        "sha256": "8c1107e18f30603969793db9b7d6d4fa4986f02f034796d6d6b037771fb32f3d"
+      },
+      {
+        "path": "runs/reserve_review/20260922/lookplan/benchmarks/grasif/Readme.md",
+        "url": "https://raw.githubusercontent.com/Onishenko-sci/LookPlanGraph/a2967bd33e15196ff139e3c62d8a7356bfdb65e3/benchmarks/grasif/Readme.md",
+        "bytes": 3171,
+        "sha256": "f5db96c79764c0d1c559132e7a3ae37570feeb94647a1a67f9f55cfdc3e9fd49"
+      },
+      {
+        "path": "runs/reserve_review/20260922/lookplan/benchmarks/grasif/validator.py",
+        "url": "https://raw.githubusercontent.com/Onishenko-sci/LookPlanGraph/a2967bd33e15196ff139e3c62d8a7356bfdb65e3/benchmarks/grasif/validator.py",
+        "bytes": 12622,
+        "sha256": "32750515ad4331b2e977b117f02876002ca316e94743fcf7764ab6b4aecdea62"
+      },
+      {
+        "path": "runs/reserve_review/20260922/lookplan/benchmarks/grasif/behaviour1k/behaviour177.json",
+        "url": "https://raw.githubusercontent.com/Onishenko-sci/LookPlanGraph/a2967bd33e15196ff139e3c62d8a7356bfdb65e3/benchmarks/grasif/behaviour1k/behaviour177.json",
+        "bytes": 1435056,
+        "sha256": "e261117a1d21844ad73aabd976e2c1d1573f5cb86afda069f5a90a470e524ce7"
+      },
+      {
+        "path": "runs/reserve_review/20260922/lookplan/LookPlanGraph/SceneSim.py",
+        "url": "https://raw.githubusercontent.com/Onishenko-sci/LookPlanGraph/a2967bd33e15196ff139e3c62d8a7356bfdb65e3/LookPlanGraph/SceneSim.py",
+        "bytes": 11182,
+        "sha256": "8e685a38561184d66c37010c995e86ad2e2ea7e6b0b2fd526c05a787c40dfdf8"
+      },
+      {
+        "path": "runs/reserve_review/20260922/lookplan/LookPlanGraph/prompts.py",
+        "url": "https://raw.githubusercontent.com/Onishenko-sci/LookPlanGraph/a2967bd33e15196ff139e3c62d8a7356bfdb65e3/LookPlanGraph/prompts.py",
+        "bytes": 16363,
+        "sha256": "15c54f490e70f15a98fed891f31b8a74e6aa3ef3e22c7c0013b49214e862d1d3"
+      },
+      {
+        "path": "runs/reserve_review/20260922/lookplan/config_grasif.yaml",
+        "url": "https://raw.githubusercontent.com/Onishenko-sci/LookPlanGraph/a2967bd33e15196ff139e3c62d8a7356bfdb65e3/config_grasif.yaml",
+        "bytes": 780,
+        "sha256": "7ec3e8ab7a108c2cdd6cc8fb5aedbc6aa162933db2af0599473d0bb12a57c14b"
+      },
+      {
+        "path": "runs/reserve_review/20260922/modular/README.md",
+        "url": "https://raw.githubusercontent.com/empriselab/modular-query/d36c9a977d6ae2ddc1ff063a53e59b7f3d50e221/README.md",
+        "bytes": 2040,
+        "sha256": "f72a3df59d8e444becb4d67e033a08dc348e71b21fb0e18a049d3862b544f7f9"
+      },
+      {
+        "path": "runs/reserve_review/20260922/modular/pyproject.toml",
+        "url": "https://raw.githubusercontent.com/empriselab/modular-query/d36c9a977d6ae2ddc1ff063a53e59b7f3d50e221/pyproject.toml",
+        "bytes": 1143,
+        "sha256": "dfcd12f289aaf042b62f59f899ce65a75b44a1d260ed0e6967e51e6ba71d735e"
+      },
+      {
+        "path": "runs/reserve_review/20260922/modular/src/modular_query/query_strategies/confidence_query.py",
+        "url": "https://raw.githubusercontent.com/empriselab/modular-query/d36c9a977d6ae2ddc1ff063a53e59b7f3d50e221/src/modular_query/query_strategies/confidence_query.py",
+        "bytes": 1292,
+        "sha256": "58e822d5a330c03ec21dd605fbed648c43c1761fcf5043393d55aac97eae4ad0"
+      },
+      {
+        "path": "runs/reserve_review/20260922/modular/src/modular_query/modular_policy.py",
+        "url": "https://raw.githubusercontent.com/empriselab/modular-query/d36c9a977d6ae2ddc1ff063a53e59b7f3d50e221/src/modular_query/modular_policy.py",
+        "bytes": 7493,
+        "sha256": "36b33708afac7e0630fb94b59075283d0f96fb56dec23f372924587d17fb96f2"
+      },
+      {
+        "path": "runs/reserve_review/20260922/lookplan/benchmarks/grasif/behaviour1k/create_pkl.py",
+        "url": "https://raw.githubusercontent.com/Onishenko-sci/LookPlanGraph/a2967bd33e15196ff139e3c62d8a7356bfdb65e3/benchmarks/grasif/behaviour1k/create_pkl.py",
+        "bytes": 2215,
+        "sha256": "c0025539a39c89aeb607ec99de844bff29f0bf20669b95b4809bb9b2beac1e85"
+      },
+      {
+        "path": "runs/reserve_review/20260922/lookplan/utils/generators.py",
+        "url": "https://raw.githubusercontent.com/Onishenko-sci/LookPlanGraph/a2967bd33e15196ff139e3c62d8a7356bfdb65e3/utils/generators.py",
+        "bytes": 7168,
+        "sha256": "b5a7817da3e17b36dccd41629eba785fe8e97b38dcb36f247f6f76972f296d02"
+      }
+    ],
+    "selection_manifest": "buildup/cross_domain/pilot_studies/cd5-representation/inputs.json",
+    "selection_sha256": "233015357c82aebd7eabdccf9658de3005c9daa1ec80f6818314906cb3f69924",
+    "verification": {
+      "files_checked": 13,
+      "download_bytes": 1505326,
+      "all_local_bytes_and_hash_match": true,
+      "JSON_records": 178,
+      "unique_task_names": 178,
+      "selected_tasks": 30,
+      "development_tasks": 6,
+      "observation_tasks": 24
+    },
+    "access_limitations": [
+      "LookPlanGraph project dataset page is incomplete, but pinned GitHub JSON is accessible. Filename says 177, README says 186, actual JSON has 178 records.",
+      "No LICENSE path found in pinned LookPlanGraph tree; no external code/data vendored into tracked files.",
+      "EgoRecovery linked repository https://api.github.com/repos/EgoRecovery/EgoRecovery returned HTTP 404 on this check; no assertion of universal artifact absence.",
+      "Only source/schema audit; model weights, Docker compatibility, graph evaluator and correction runtime remain unverified.",
+      "modular-query public synthetic framework does not by itself supply robot retry/replan/defer counterfactual logs."
+    ],
+    "new_training_or_rollouts": false,
+    "model_inference": false,
+    "containers_created_or_deleted": false
+  },
+  "candidate_replacement_20260923": {
+    "date": "2026-09-23",
+    "purpose": "User-requested CD5 replacement; exploratory Q16 selection, no empirical result",
+    "local_discovery": {
+      "registry": "/home/yoohyun/PaperReview/work/sources/papers.json",
+      "synthesis": "/home/yoohyun/PaperReview/synthesis/",
+      "use": "Read-only discovery cues; not evidence of paper claims"
+    },
+    "primary_sources": [
+      {
+        "title": "SIDO",
+        "url": "https://arxiv.org/html/2607.27890v1",
+        "read_scope": "Sections 3, 4.1-4.3, selected experiments and limitations; pre-grasp augmentation boundary, not observed post-contact failure",
+        "access": "browser; no complete local paper snapshot"
+      },
+      {
+        "title": "DynamicVLA",
+        "url": "https://arxiv.org/html/2601.22153v1",
+        "read_scope": "Method, controller/data description and task appendix; includes contact-induced deflection",
+        "access": "browser; no complete local paper snapshot"
+      },
+      {
+        "title": "Action-conditioned Face Interaction Graph Networks",
+        "url": "https://arxiv.org/html/2509.12151v1",
+        "read_scope": "Abstract and introduction only; direct action-conditioned contact dynamics and MPC prior",
+        "access": "browser; no complete local paper snapshot"
+      },
+      {
+        "title": "Reactive Diffusion Policy",
+        "url": "https://arxiv.org/html/2503.02881v1",
+        "read_scope": "Abstract and introduction; slow-fast visual-tactile feedback",
+        "access": "browser; no complete local paper snapshot"
+      },
+      {
+        "title": "Language-Driven Closed-Loop Grasping",
+        "url": "https://arxiv.org/html/2406.09039v1",
+        "read_scope": "Abstract and introduction; online model-predictive replanning alternative",
+        "access": "browser; no complete local paper snapshot"
+      },
+      {
+        "title": "Bidirectional Decoding",
+        "url": "https://arxiv.org/html/2408.17355v1",
+        "read_scope": "Method section 4 and dynamic manipulation context",
+        "access": "browser; no complete local paper snapshot"
+      },
+      {
+        "title": "Bernoulli-Continuation Policy",
+        "url": "https://arxiv.org/html/2608.03483v1",
+        "read_scope": "Abstract and method overview; adaptive execution horizon",
+        "access": "browser; no complete local paper snapshot"
+      },
+      {
+        "title": "DemoGen",
+        "url": "https://arxiv.org/html/2502.16932v1",
+        "read_scope": "Abstract, conclusion and limitations; demonstration generation and spatial variants",
+        "access": "browser; no complete local paper snapshot"
+      },
+      {
+        "title": "PhysicsGen",
+        "url": "https://www.roboticsproceedings.org/rss21/p053.html",
+        "read_scope": "Official RSS abstract; contact-rich trajectory optimization",
+        "access": "browser; no complete local paper snapshot"
+      },
+      {
+        "title": "Mixture of Frames Policy",
+        "url": "https://arxiv.org/html/2607.11884v1",
+        "read_scope": "Introduction and section 3 overview; multi-frame denoising",
+        "access": "browser; no complete local paper snapshot"
+      }
+    ],
+    "source_audit": {
+      "url": "https://raw.githubusercontent.com/hzxie/DynamicVLA/bb702465fe3976ac853bc1fbed600668045909f2/README.md",
+      "commit": "bb702465fe3976ac853bc1fbed600668045909f2",
+      "path": "runs/reserve_review/20260923/dynamicvla_README.md",
+      "bytes": 8684,
+      "sha256": "80ae75957c7bb5175fbd7887479505d104ee92d410aa6f0d6c005fbe4bc9a36f"
+    },
+    "local_source_inspection": {
+      "commit": "a4a4f9272ad64b1564035874b605ceb687b63ed8",
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube.py",
+      "scope": "Text-only dynamic cube construction and native success/observation inspection; diffusion-policy example paths found, not executed"
+    },
+    "limits": [
+      "DynamicVLA README links code/data/model; model/data payloads not acquired or verified",
+      "No method imports, Docker runs, learning or rollouts",
+      "SIDO pre-grasp boundary is not post-contact failure evidence",
+      "Action-conditioned contact dynamics and MPC are prior work; novelty unresolved"
+    ]
+  },
+  "q16_direction_20260923": {
+    "date": "2026-09-23",
+    "purpose": "Complete follow-up investment review under user preference for timely directions and bounded method development",
+    "decision": "Continue Q16 as Predictive Policy Adaptation for Dynamic Manipulation; no paper-level novelty claim",
+    "primary_sources": [
+      {
+        "title": "DynaGuide",
+        "url": "https://arxiv.org/html/2506.13922v2",
+        "read_scope": "Method section 3, experiment overview, limitations section 5.1"
+      },
+      {
+        "title": "DyWA",
+        "url": "https://arxiv.org/html/2503.16806v2",
+        "read_scope": "Sections 3.3-3.6 and 4.3; state dynamics, history adaptation, training and friction experiments"
+      },
+      {
+        "title": "Feedback World Model",
+        "url": "https://arxiv.org/html/2605.15705v1",
+        "read_scope": "Sections 4-5: feedback observer, action-aware guidance and evaluation scope"
+      },
+      {
+        "title": "DynamicWAM",
+        "url": "https://arxiv.org/html/2608.00793v2",
+        "read_scope": "Motion-conditioning method and real-world deployment protocol"
+      },
+      {
+        "title": "Action-conditioned Face Interaction Graph Networks",
+        "url": "https://arxiv.org/html/2509.12151v1",
+        "read_scope": "Contact dynamics/MPC experiments and planner appendix"
+      },
+      {
+        "title": "DynaGuide official source",
+        "url": "https://github.com/MaxDu17/DynaGuide",
+        "read_scope": "Repository/README; no installation or weight download"
+      },
+      {
+        "title": "DyWA official source",
+        "url": "https://github.com/jiangranlv/DyWA/",
+        "read_scope": "Repository/README; no installation or weight download"
+      },
+      {
+        "title": "Feedback World Model project",
+        "url": "https://jingliangli.com/Feedback_World_Model/",
+        "read_scope": "Project overview and code link only; destination runtime not audited"
+      }
+    ],
+    "local_read_only": [
+      {
+        "path": "buildup/robotics/pilot_studies/q16-motion/task.py",
+        "sha256": "3735a8efc9a6b4c71ef1aedcdc219e59603b8722ce09bacbbfcf13fafa309a57"
+      },
+      {
+        "path": "buildup/robotics/pilot_studies/q16-motion/model.py",
+        "sha256": "6d55c9d0cc290480f3c666b39a36fb618ac20f8094c50fca0803498b0dc51771"
+      },
+      {
+        "path": "buildup/robotics/pilot_studies/q16-motion/summary.json",
+        "sha256": "cc70e0fd11887a753efb29eae9978d1840794ba6f8eea78fff9abde35df0a4ed"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/push_cube.py",
+        "sha256": "8ae1536c13fae2fe8f5c84be0c60ff40a6acd625e738dfafc056ec333a16e0d8"
+      },
+      {
+        "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/diffusion_policy/README.md",
+        "sha256": "72554234af228b95457b296ff897d28415f546359ee1e48217ea7ef7b96f4834"
+      }
+    ],
+    "access_limits": [
+      "CVF DyWA HTML returned an internal error; used primary arXiv version and official code instead",
+      "No new numerical experiment, data/checkpoint acquisition or Docker execution in this review",
+      "Paper claims are not reproduced results; version/read scopes bounded above"
+    ]
+  }
+}

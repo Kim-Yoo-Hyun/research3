@@ -1,0 +1,15 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /usr/local/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+{
+  "status": "error",
+  "maxima": {},
+  "repeat": null,
+  "error": {
+    "type": "FileNotFoundError",
+    "message": "[Errno 2] No such file or directory: '/usr/local/lib/python3.11/site-packages/robosuite/models/assets/robots/panda/robot.xml'",
+    "traceback": "Traceback (most recent call last):\n  File \"/study/can_replay.py\", line 121, in main\n    env = make_env(env_args)\n          ^^^^^^^^^^^^^^^^^^\n  File \"/study/can_replay.py\", line 50, in make_env\n    env = robosuite.make(env_args['env_name'], **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/robosuite/environments/base.py\", line 41, in make\n    return REGISTERED_ENVS[env_name](*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/robosuite/environments/manipulation/pick_place.py\", line 836, in __init__\n    super().__init__(single_object_mode=2, object_type=\"can\", **kwargs)\n  File \"/usr/local/lib/python3.11/site-packages/robosuite/environments/manipulation/pick_place.py\", line 237, in __init__\n    super().__init__(\n  File \"/usr/local/lib/python3.11/site-packages/robosuite/environments/manipulation/manipulation_env.py\", line 172, in __init__\n    super().__init__(\n  File \"/usr/local/lib/python3.11/site-packages/robosuite/environments/robot_env.py\", line 221, in __init__\n    super().__init__(\n  File \"/usr/local/lib/python3.11/site-packages/robosuite/environments/base.py\", line 144, in __init__\n    self._load_model()\n  File \"/usr/local/lib/python3.11/site-packages/robosuite/environments/manipulation/pick_place.py\", line 513, in _load_model\n    super()._load_model()\n  File \"/usr/local/lib/python3.11/site-packages/robosuite/environments/robot_env.py\", line 314, in _load_model\n    self._load_robots()\nFileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.11/site-packages/robosuite/models/assets/robots/panda/robot.xml'\n"
+  }
+}

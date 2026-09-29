@@ -1,0 +1,388 @@
+{
+  "purpose": "exploratory finite-record sampling; not population inference",
+  "source_commit": "68c0a3453248d16da0c3f0b96f229fb9daf9fe78",
+  "input_files": [
+    {
+      "path": "nscore/data/LBM/Part2/BikeRotorInstall.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/BikeRotorInstall.npy",
+      "bytes": 928,
+      "sha256": "e8e37ebc820fdcf74512647cc3b0c1ce503c9b0b52618de25799e5b5e41233dd",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/LBM/Part2/CleanLitterBox.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/CleanLitterBox.npy",
+      "bytes": 928,
+      "sha256": "cf50268533450a53f1f34936be941c0e7dcb61ad2e85d8e484150b843829925b",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/LBM/Part2/ClearKitchenCounter.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/ClearKitchenCounter.npy",
+      "bytes": 928,
+      "sha256": "93af14ef9e9072af7c0eebfa092c2f15d6f10d48ef5a982c52c16e1d412f2145",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/LBM/Part2/CutAppleIntoSlices.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/CutAppleIntoSlices.npy",
+      "bytes": 928,
+      "sha256": "4f070b79714fe8970b25188155b765c891e935bcf957c539875bd53a42144ac7",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/LBM/Part2/SetUpBreakfastTable.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/Part2/SetUpBreakfastTable.npy",
+      "bytes": 928,
+      "sha256": "0ea3c59ec055e71cb208d99d214824a6a56b9828baf2cc92dd0d9827e67b1610",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/PC_LBM/Part2/BikeRotorInstall.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/BikeRotorInstall.npy",
+      "bytes": 928,
+      "sha256": "e8e37ebc820fdcf74512647cc3b0c1ce503c9b0b52618de25799e5b5e41233dd",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/PC_LBM/Part2/CleanLitterBox.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/CleanLitterBox.npy",
+      "bytes": 928,
+      "sha256": "cf50268533450a53f1f34936be941c0e7dcb61ad2e85d8e484150b843829925b",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/PC_LBM/Part2/ClearKitchenCounter.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/ClearKitchenCounter.npy",
+      "bytes": 928,
+      "sha256": "93af14ef9e9072af7c0eebfa092c2f15d6f10d48ef5a982c52c16e1d412f2145",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/PC_LBM/Part2/CutAppleIntoSlices.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/CutAppleIntoSlices.npy",
+      "bytes": 928,
+      "sha256": "4f070b79714fe8970b25188155b765c891e935bcf957c539875bd53a42144ac7",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/PC_LBM/Part2/SetUpBreakfastTable.npy",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/PC_LBM/Part2/SetUpBreakfastTable.npy",
+      "bytes": 928,
+      "sha256": "0ea3c59ec055e71cb208d99d214824a6a56b9828baf2cc92dd0d9827e67b1610",
+      "npy_header": {
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          50,
+          2
+        ]
+      }
+    },
+    {
+      "path": "nscore/data/LBM/lbm_data.pkl",
+      "url": "https://raw.githubusercontent.com/dasnyder5/nscore/68c0a3453248d16da0c3f0b96f229fb9daf9fe78/data/LBM/lbm_data.pkl",
+      "bytes": 45825,
+      "sha256": "c6cd844cba7ee7ba01aa66d72328ff6ca69722842b4a98725438abb14ee39222"
+    }
+  ],
+  "key": "figure_4_hardware_tasks",
+  "policies": [
+    "DiT_DP_single_task",
+    "DiT_DP_stage5_finetune"
+  ],
+  "gap": "finetune minus single_task",
+  "tasks": [
+    "BikeRotorInstall",
+    "CleanLitterBox",
+    "ClearKitchenCounter",
+    "CutAppleIntoSlices",
+    "SetUpBreakfastTable"
+  ],
+  "metrics": [
+    "success",
+    "progress"
+  ],
+  "trials_per_cell": 50,
+  "n_per_cell": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199
+  ],
+  "methods": [
+    "uniform",
+    "stratified"
+  ],
+  "rng": "Python Random with SHA256(\"cd2-episodes-v1|seed|method|policy|task-or-all\") integer seed, shuffled ordered record list; prefixes shared across budgets",
+  "tie_tolerance": 1e-12,
+  "profile_missing": "None; complete-profile errors only when all tasks observed",
+  "quantile": "linear interpolation at (N-1)*q",
+  "record_order": "sorted task then original within-task array position; no matched-state claim across policies",
+  "input_interpretation": "Use named pickle success and task_progress fields. Both NPY directories match progress; do not infer metric from folder names. Corrected after failed run 20260917_005800; sampling design unchanged."
+}

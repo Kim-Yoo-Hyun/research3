@@ -1,0 +1,10 @@
+{"preserved_files": 1380, "manifest": "/home/yoohyun/research3/runs/q16/push/preservation.json"}
+{"record": "runs/q16/push/jobs/20260923_114847_536043_smoke.json", "container": "1de63752d9c975acd9bb6c66e3935df7c68b1cd6d81c45ac36be9e94e43e8332", "removed": "1de63752d9c975acd9bb6c66e3935df7c68b1cd6d81c45ac36be9e94e43e8332"}
+{"record": "runs/q16/push/jobs/20260923_114957_446301_smoke.json", "container": "95b82964814404afb896a7f4414895b58176edae50ac43102dea5ea4b498f6be", "removed": "95b82964814404afb896a7f4414895b58176edae50ac43102dea5ea4b498f6be"}
+{"record": "runs/q16/push/jobs/20260923_115040_401272_smoke.json", "container": "55ffa986055aa4825ad5580a7424c469d2a0a3e42621c8e3b6e5369192b5f7ec", "removed": "55ffa986055aa4825ad5580a7424c469d2a0a3e42621c8e3b6e5369192b5f7ec"}
+{"record": "runs/q16/push/jobs/20260923_115111_528278_collect.json", "container": "608861804d9b67f12363696d957e12afce58ad9b54ca07a022338d59bc614f1b", "removed": "608861804d9b67f12363696d957e12afce58ad9b54ca07a022338d59bc614f1b"}
+{"record": "runs/q16/push/jobs/20260923_115146_649371_fit.json", "container": "cf9e1f97ba8f83a9465b9db2fdf5fe435c8e245c195bad2b91316770d475bd69", "removed": "cf9e1f97ba8f83a9465b9db2fdf5fe435c8e245c195bad2b91316770d475bd69"}
+{"record": "runs/q16/push/jobs/20260923_115221_767457_evaluate.json", "container": "c9ee83e53b246f7b20ef4d65fa90816ae669db87bef51ac0291302c427abba24", "removed": "c9ee83e53b246f7b20ef4d65fa90816ae669db87bef51ac0291302c427abba24"}
+{"record": "runs/q16/push/jobs/20260923_115300_368568_verify.json", "container": "a7daea1a467463665e1dcf8444a8cc8d7e439e7ffcb06da884cb731b2c3dde6a", "removed": "a7daea1a467463665e1dcf8444a8cc8d7e439e7ffcb06da884cb731b2c3dde6a"}
+{"record": "runs/q16/push/jobs/20260923_115437_219375_evaluate.json", "container": "a33c93f3dbf6138a31aef1090fbaef62cb401f7a54b98e4b943ec8f75b7273c9", "removed": "a33c93f3dbf6138a31aef1090fbaef62cb401f7a54b98e4b943ec8f75b7273c9"}
+{"record": "runs/q16/push/jobs/20260923_115516_333263_verify.json", "container": "e8afe760490a61e7c1452bb84d8e1817818badba6d678b1831dccd5a84a62a20", "removed": "e8afe760490a61e7c1452bb84d8e1817818badba6d678b1831dccd5a84a62a20"}

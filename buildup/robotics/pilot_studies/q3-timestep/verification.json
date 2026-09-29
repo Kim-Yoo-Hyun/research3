@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "conditions": 12,
+  "reconstructed_step_labels": 14400,
+  "matching_initial_arrays": 132,
+  "replay_target_elements": 21600,
+  "buffer_target_elements": 43200,
+  "reconstructed_action_targets": 21600,
+  "verifier_sha256": "e1262417e231c76f4c4348a4ea4132969b9a3a43fdc057c91d2249eab50a68bd",
+  "boundary": "Raw-state success reconstruction and target/time/config checks; no real-world or ranking claim"
+}

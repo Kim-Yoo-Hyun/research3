@@ -1,0 +1,31 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Traceback (most recent call last):
+  File "/study/dp_obs_resolve.py", line 87, in <module>
+    main()
+  File "/study/dp_obs_resolve.py", line 83, in main
+    assert status=='passed', 'Recorded state/keypoint relationship is not stable.'
+{
+  "status": "incompatible",
+  "rows": 25650,
+  "stored_vs_current_keypoint_px": {
+    "p50": 1.1113079697286885e-05,
+    "p99": 0.026632627687690102,
+    "max": 2.166608619745192
+  },
+  "inferred_stored_map_variation_px": {
+    "p50": 1.1119152368408753e-05,
+    "p999": 0.34210240399485514,
+    "max": 2.1666087883417595
+  },
+  "stored_vs_current_local_map_px": {
+    "mean": 3.653823967246326e-07,
+    "max": 7.660131391827389e-07
+  },
+  "regenerated_roundtrip_max": 1.1368683772161603e-13,
+  "live_inverse_pose_max": 1.1368683772161603e-13
+}
+           ^^^^^^^^^^^^^^^^
+AssertionError: Recorded state/keypoint relationship is not stable.

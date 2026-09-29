@@ -1,0 +1,21 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.8.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+  2735: 000000000009f740    87 FUNC    GLOBAL DEFAULT   13 vk_icdGetInstanceProcAddr
+-rw-r--r-- 1 root root 9553072 Jun 29 05:30 /usr/lib/x86_64-linux-gnu/libnvidia-glvkspirv.so.580.173.02
+ls: cannot access '/usr/share/vulkan/icd.d': No such file or directory
+/etc/vulkan/icd.d:
+total 4
+-rw-r--r-- 1 root root 140 Jun 23 07:56 nvidia_icd.json

@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-09-16T02:41:34.776138+00:00",
+  "containers": [
+    {
+      "phase": "observe",
+      "id": "ac47df0486fcde59b4bedf5eb0d58aefd3576fc7d48a8adcde94748f0fd56ba1",
+      "name": "/research3-q14-real-observe-real_20260916_113000",
+      "exit_code": 0,
+      "ownership": "workspace/study labels + recorded creation argv + exact source/output mounts",
+      "outputs": "manifest hashes checked; logs/inspect/source retained",
+      "removal_stdout": "ac47df0486fcde59b4bedf5eb0d58aefd3576fc7d48a8adcde94748f0fd56ba1"
+    },
+    {
+      "phase": "verify",
+      "id": "102c79786906b733f00ba30eeb601d380dafab253a3257316339dadbe0f88279",
+      "name": "/research3-q14-real-verify-real_20260916_113000",
+      "exit_code": 0,
+      "ownership": "workspace/study labels + recorded creation argv + exact source/output mounts",
+      "outputs": "manifest hashes checked; logs/inspect/source retained",
+      "removal_stdout": "102c79786906b733f00ba30eeb601d380dafab253a3257316339dadbe0f88279"
+    },
+    {
+      "phase": "analyze",
+      "id": "afd3a57bd3425de27d426053926714c73ed4e82acedf996aa0fd6724790ff5d2",
+      "name": "/research3-q14-real-analyze-real_20260916_113000",
+      "exit_code": 0,
+      "ownership": "workspace/study labels + recorded creation argv + exact source/output mounts",
+      "outputs": "manifest hashes checked; logs/inspect/source retained",
+      "removal_stdout": "afd3a57bd3425de27d426053926714c73ed4e82acedf996aa0fd6724790ff5d2"
+    },
+    {
+      "phase": "correct",
+      "id": "1cb03d7ae2efc0dbb8b0673760c0449f7d4debdd31a7f62e51d5686ac0646942",
+      "name": "/research3-q14-real-correct-real_20260916_113000",
+      "exit_code": 0,
+      "ownership": "workspace/study labels + recorded creation argv + exact source/output mounts",
+      "outputs": "manifest hashes checked; logs/inspect/source retained",
+      "removal_stdout": "1cb03d7ae2efc0dbb8b0673760c0449f7d4debdd31a7f62e51d5686ac0646942"
+    }
+  ],
+  "images_deleted": false,
+  "other_containers_touched": false
+}

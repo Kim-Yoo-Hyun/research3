@@ -1,0 +1,24 @@
+{
+  "purpose": "exploratory finite aggregate-table comparison; not episode-level inference",
+  "source_commit": "4b344135920f44545d546d38aaefa36452cfdafb",
+  "models": ["openvla", "openvla-oft", "pi0", "pi0-fast", "pi0-full-parameters", "pi0-fast-full-parameters", "univla", "smolvla"],
+  "splits": {
+    "A": {
+      "target": ["pi0", "pi0-fast", "pi0-full-parameters", "pi0-fast-full-parameters"],
+      "development": ["openvla", "openvla-oft", "univla", "smolvla"]
+    },
+    "B": {
+      "target": ["openvla", "openvla-oft"],
+      "development": ["pi0", "pi0-fast", "pi0-full-parameters", "pi0-fast-full-parameters", "univla", "smolvla"]
+    }
+  },
+  "budgets": [12, 18],
+  "seed_start": 0,
+  "seed_stop": 200,
+  "stratified_allocation": {
+    "12": {"Safety": 1, "Distractor": 1, "Extrapolation": 1, "Long Horizon": 1},
+    "18": {"Safety": 2, "Distractor": 1, "Extrapolation": 2, "Long Horizon": 1}
+  },
+  "tie_tolerance": 1e-12,
+  "methods": ["uniform", "stratified", "greedy"]
+}

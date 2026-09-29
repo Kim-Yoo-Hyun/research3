@@ -1,0 +1,12 @@
+numpy==1.26.4
+scipy==1.15.3
+numba==0.61.0
+mujoco==3.2.3
+mink==0.0.5
+Pillow==11.0.0
+opencv-python==4.10.0.84
+pynput==1.7.7
+termcolor==2.5.0
+pytest==8.3.4
+h5py==3.12.1
+tqdm==4.67.1

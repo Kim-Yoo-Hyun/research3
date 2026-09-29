@@ -1,6 +1,6 @@
 # Research Scoping and Topic Development
 
-Updated: 2026-09-11
+Updated: 2026-09-29
 
 ## Purpose
 
@@ -21,53 +21,26 @@ evidence와 selection decision은 이 폴더 밖에 중복하지 않는다.
 
 ## Basis In Official Research Guidance
 
-공식 지침마다 형식은 다르지만 다음 요소가 반복된다.
-
-- Research problem, significance, prior work, preliminary work와 remaining
-  timeline:
-  [Stanford CS Thesis Proposal](https://www.cs.stanford.edu/phd-program-requirements-thesis-proposal)
-- Objective, current practice and limitations, expected impact, risks, cost,
-  duration과 success criteria:
-  [DARPA Heilmeier Catechism](https://www.darpa.mil/about/heilmeier-catechism)
-- Project role, motivation, goals, expectations와 realistic planning:
-  [MIT UROP Project Planning](https://urop.mit.edu/mentors/resources/project-planning/),
-  [MIT UROP Students](https://urop.mit.edu/students/)
-- Scope, deliverables, related work와 progress milestones:
-  [MIT Underactuated Robotics Project](https://underactuated.csail.mit.edu/Spring2024/project.html)
-- Research question, related work, methodology와 evaluation plan:
-  [Stanford CS197C Project Proposal](https://web.stanford.edu/class/cs197c/assignments/project.html)
-
-따라서 이 workspace는 `home base`, `seed`, `probe`, `promotion` 같은 내부
-표현 대신 `research scope`, `candidate research question`,
+연구 제안·탐색/확증 지침과 적용 범위는
+[workflow의 근거](../docs/buildup.md#basis-in-research-guidance)가 소유한다.
+[기존 운영과의 비교](selection.md#buildup-gate-assessment-2026-09-15)와
+[규칙 반영 기록](selection.md#buildup-workflow-update-2026-09-15)을 구분한다.
+연구 문서에서는 `research scope`, `candidate research question`,
 `feasibility/pilot study`, `selection for hypothesis formulation`을 사용한다.
 
 ## Current State
 
 - Research scopes: [`robotics`](robotics/README.md) and
   [`cross_domain`](cross_domain/README.md), both `active_scoping`
-- Primary area: Robotics
-- Secondary area: Robotics-enabling 3D Vision; cross-domain principles are not restricted
-  to those labels
-- Candidate research questions: Robotics 15개 + cross-domain 5개. [Stage 7
-  decision](selection.md)에서 Q1은 `discontinued`, CD4는 `reformulate`,
-  CD1은 `refine`으로 판정했다. CD1/CD4는 `deferred`다.
-- Question selected for hypothesis formulation: 없음
+- Primary area: Robotics; secondary area: Robotics-enabling 3D Vision
+- Candidate research questions: Robotics 17개 + cross-domain 5개
+- Selected next exploratory question: [Q17 Evidence-Conditioned Action Selection](robotics/questions/evidence-conditioned-action-selection.md)
+- Latest selection: [Q17 과업군·다른 후보 재비교](selection.md#q17-task-family-reassessment-2026-09-29); ML 회전 시점의 첫 ID 사례를 단서 가시성→첫 집기 대상 판별 관찰로 선택
+- Q16 현 방법·자료 경로와 CD5 실행은 각각 별도 이유로 보류; formal hypothesis와 실행 중인 study는 없음
 
-최신 [Stage 7 decision](selection.md#q11--discontinue-current-route-2026-09-10)에 따라 Q11의
-현재 method route를 `discontinued`로 정리했다. 상세 evidence와 경계의 compact summary는
-[literature/README.md](../literature/README.md)가 소유한다.
-[Reserve 재비교](robotics/related_work/policy-geometry.md#reserve-reassessment-2026-09-10) 결과
-preliminary-review 순서는 **Q12 → Q13**이었으며 두 후보의 Stage 4–5 검토를 완료했다.
-[후속 비교](selection.md#q12q13-measurement-selection-2026-09-10)에서 Q12의
-[독립 completion/GT·좌표 검증](robotics/questions/generated-geometry-reliance.md#bounded-measurement-task-draft) 준비를 선택했다.
-Q12는 `feasibility_study`; [CPU 입력 protocol v1](robotics/pilot_studies/q12-generated-geometry/README.md)을
-고정해 실제 네 쌍의 입력 검사와 독립 검증을 완료했다. Input controls는 통과했으며 physical
-frame은 미확정이다. 이후 checkpoint strict loading·synthetic CPU reference 검증을 마치고
-[실제 입력 output protocol](robotics/pilot_studies/q12-generated-geometry/model/README.md)을 고정·실행했다.
-네 입력의 반복 재현성·output provenance와 독립 검증이 통과했다. 다음은 native CUDA parity와
-physical/camera 연결 경로의 비용·정보 가치 비교이며 두 조건은 아직 미검증이다.
-Q13은 `deferred`, Q14는 reserve이고 선택된 hypothesis는 없다.
-Q8은 `under_review` / `refine`이며 자동 승계하지 않는다.
+현재 작업은 [TODO](../TODO.md), 후보 간 판단의 이력은 [selection record](selection.md),
+개별 관찰·검산 근거는 해당 question과 study owner가 소유한다. 종료된 연구의 요약은
+[literature/README.md](../literature/README.md)를 따른다.
 
 ## Stage Flow
 
@@ -75,8 +48,8 @@ Q8은 `under_review` / `refine`이며 자동 승계하지 않는다.
 buildup/
   research scope and constraints
   -> candidate research questions
-  -> preliminary literature review
-  -> feasibility or pilot study
+  -> preliminary literature review ↔ observation / explanation / method attempt
+  -> feasibility or pilot study ↔ revision
   -> question selection
     ↓ Hypothesis Formulation Entry Criteria 통과
 hypothesis/
@@ -86,8 +59,9 @@ experiments/
   paper-level evaluation and reproducible evidence
 ```
 
-Stage를 건너뛰지 않는다. Entry criteria를 충족하지 않은 candidate question을
-`hypothesis/`에 만들지 않고, 충분히 검증되지 않은 hypothesis를
+Buildup 내부의 단계는 반복할 수 있으며 각각 별도 통과 gate가 아니다. 설명과 method
+sketch는 question record에서 시작한다. Stage 사이의 ownership과 handoff는 유지한다.
+선택되지 않은 question을 `hypothesis/`에 만들거나, 충분히 검증되지 않은 hypothesis를
 `experiments/`로 넘기지 않는다.
 
 ## Folder Convention
@@ -117,8 +91,9 @@ buildup/
 
 ## Hypothesis Formulation Entry Criteria
 
-`docs/buildup.md`의 `Entry To Hypothesis Formulation` 조건을 모두 만족한
-research question만 `hypothesis/`로 넘긴다. 이 README에는 selection result,
+[Entry To Hypothesis Formulation](../docs/buildup.md#entry-to-hypothesis-formulation)에 따라
+중요한 질문과 타당한 첫 검증 경로를 근거로 선택해 `hypothesis/`로 넘긴다.
+이 README에는 selection result,
 source question record, target hypothesis directory와 selection date만 registry로
 남긴다.
 

@@ -1,0 +1,1 @@
+{"status": "passed", "checks": 312860, "source_files": 12, "verified_subsets": 1604, "verified_model_scores": 4812, "verified_pairs": 5614, "verified_summaries": 12, "arithmetic": "original decimal values as exact Fractions; float output tolerance 1e-10", "claim_boundary": "finite aggregate table; no episode-level inference"}

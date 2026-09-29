@@ -1,0 +1,10 @@
+{
+  "image_tag": "research3-q7-vlm:v1",
+  "image_id": "sha256:0ceebb0f0fabbbfe4ab1d0ee7a29326ac99a210b51cc12faf0c6aa567d3f015e",
+  "repo_digests": [
+    "research3-q7-vlm@sha256:0ceebb0f0fabbbfe4ab1d0ee7a29326ac99a210b51cc12faf0c6aa567d3f015e"
+  ],
+  "check_container": "research3-q7-vlm-check-20260915_185244",
+  "inference_container": "research3-q7-vlm-infer-20260915_190023",
+  "review_container": "research3-q7-vlm-review-20260915_190234"
+}

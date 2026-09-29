@@ -1,0 +1,22 @@
+{"split": "A", "budget": 18, "method": "greedy", "left": "pi0", "right": "pi0-fast", "reference_gap_pp": 16.666666666666668, "draws": 1, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "greedy", "left": "pi0", "right": "pi0-fast-full-parameters", "reference_gap_pp": -2.121212121212121, "draws": 1, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "greedy", "left": "pi0", "right": "pi0-full-parameters", "reference_gap_pp": -2.3333333333333335, "draws": 1, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "greedy", "left": "pi0-fast", "right": "pi0-fast-full-parameters", "reference_gap_pp": -18.78787878787879, "draws": 1, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "greedy", "left": "pi0-fast", "right": "pi0-full-parameters", "reference_gap_pp": -19.0, "draws": 1, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "greedy", "left": "pi0-full-parameters", "right": "pi0-fast-full-parameters", "reference_gap_pp": 0.21212121212121213, "draws": 1, "reversed": 1, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "stratified", "left": "pi0", "right": "pi0-fast", "reference_gap_pp": 16.666666666666668, "draws": 200, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "stratified", "left": "pi0", "right": "pi0-fast-full-parameters", "reference_gap_pp": -2.121212121212121, "draws": 200, "reversed": 52, "predicted_tie": 1}
+{"split": "A", "budget": 18, "method": "stratified", "left": "pi0", "right": "pi0-full-parameters", "reference_gap_pp": -2.3333333333333335, "draws": 200, "reversed": 11, "predicted_tie": 2}
+{"split": "A", "budget": 18, "method": "stratified", "left": "pi0-fast", "right": "pi0-fast-full-parameters", "reference_gap_pp": -18.78787878787879, "draws": 200, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "stratified", "left": "pi0-fast", "right": "pi0-full-parameters", "reference_gap_pp": -19.0, "draws": 200, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "stratified", "left": "pi0-full-parameters", "right": "pi0-fast-full-parameters", "reference_gap_pp": 0.21212121212121213, "draws": 200, "reversed": 81, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "uniform", "left": "pi0", "right": "pi0-fast", "reference_gap_pp": 16.666666666666668, "draws": 200, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "uniform", "left": "pi0", "right": "pi0-fast-full-parameters", "reference_gap_pp": -2.121212121212121, "draws": 200, "reversed": 54, "predicted_tie": 3}
+{"split": "A", "budget": 18, "method": "uniform", "left": "pi0", "right": "pi0-full-parameters", "reference_gap_pp": -2.3333333333333335, "draws": 200, "reversed": 20, "predicted_tie": 1}
+{"split": "A", "budget": 18, "method": "uniform", "left": "pi0-fast", "right": "pi0-fast-full-parameters", "reference_gap_pp": -18.78787878787879, "draws": 200, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "uniform", "left": "pi0-fast", "right": "pi0-full-parameters", "reference_gap_pp": -19.0, "draws": 200, "reversed": 0, "predicted_tie": 0}
+{"split": "A", "budget": 18, "method": "uniform", "left": "pi0-full-parameters", "right": "pi0-fast-full-parameters", "reference_gap_pp": 0.21212121212121213, "draws": 200, "reversed": 88, "predicted_tie": 0}
+{"split": "B", "budget": 18, "method": "greedy", "left": "openvla", "right": "openvla-oft", "reference_gap_pp": -0.6060606060606061, "draws": 1, "reversed": 1, "predicted_tie": 0}
+{"split": "B", "budget": 18, "method": "stratified", "left": "openvla", "right": "openvla-oft", "reference_gap_pp": -0.6060606060606061, "draws": 200, "reversed": 88, "predicted_tie": 1}
+{"split": "B", "budget": 18, "method": "uniform", "left": "openvla", "right": "openvla-oft", "reference_gap_pp": -0.6060606060606061, "draws": 200, "reversed": 78, "predicted_tie": 1}
+{"greedy_cases": 12, "exact_decompositions_passed": 12}

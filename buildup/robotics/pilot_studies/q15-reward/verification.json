@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "label_elements": 345600,
+  "reward_elements": 115200,
+  "initial_arrays": 576,
+  "training_reward_elements": 576,
+  "old_l2_static_disagreements_training": 14,
+  "old_l2_static_disagreements_evaluation": 6530,
+  "legacy_fractional_filenames": 36,
+  "training_fits": 9,
+  "checkpoints": 18,
+  "evaluation_conditions": 72,
+  "protocol": "first observation; no ranking-generalization or real-world claim"
+}

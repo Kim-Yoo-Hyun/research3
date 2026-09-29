@@ -1,0 +1,66 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 429B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47
+#2 DONE 1.1s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47
+#5 resolve docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47 0.0s done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 233B done
+#6 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47
+#5 CACHED
+
+#7 [2/4] COPY requirements.txt /tmp/requirements.txt
+#7 DONE 0.0s
+
+#8 [3/4] RUN python -m pip install --no-cache-dir --only-binary=:all: --require-hashes -r /tmp/requirements.txt && python -m pip check
+#8 1.206 Collecting pybullet==3.2.7 (from -r /tmp/requirements.txt (line 1))
+#8 1.229   Downloading pybullet-3.2.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (103.2 MB)
+#8 7.433      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.2/103.2 MB 23.2 MB/s eta 0:00:00
+#8 7.613 Collecting numpy==1.26.4 (from -r /tmp/requirements.txt (line 2))
+#8 7.622   Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+#8 8.464      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 22.9 MB/s eta 0:00:00
+#8 8.531 Installing collected packages: pybullet, numpy
+#8 10.70 Successfully installed numpy-1.26.4 pybullet-3.2.7
+#8 10.70 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 10.75 
+#8 10.75 [notice] A new release of pip is available: 24.0 -> 26.2.1
+#8 10.75 [notice] To update, run: pip install --upgrade pip
+#8 10.99 No broken requirements found.
+#8 DONE 11.2s
+
+#9 [4/4] WORKDIR /study
+#9 DONE 0.1s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 9.6s done
+#10 exporting manifest sha256:7be6ad0b3b63189707df1de8e0271beb6e760eb5b7b3d9b0d19611020cab8eef 0.0s done
+#10 exporting config sha256:ff0800e775ca765c4a9879fb2d02d1c4f38d71e4c66a150c3b5d824349ee0b2b 0.0s done
+#10 exporting attestation manifest sha256:039cb3aea42216093ac857d927c9a6ed7e4540ff6f0010236044f26ad661bf7c 0.1s done
+#10 exporting manifest list sha256:0196da1a3a01ca07186c5c2c605d7e8993193ca810b2b6401dc95943dc0b0adb
+#10 exporting manifest list sha256:0196da1a3a01ca07186c5c2c605d7e8993193ca810b2b6401dc95943dc0b0adb 0.0s done
+#10 naming to docker.io/library/research3-q12-geometry:v1 done
+#10 unpacking to docker.io/library/research3-q12-geometry:v1
+#10 unpacking to docker.io/library/research3-q12-geometry:v1 1.2s done
+#10 DONE 10.9s
+pybullet build time: Jan 29 2025 23:17:20
+BUILD_AND_IMPORT_COMPLETE

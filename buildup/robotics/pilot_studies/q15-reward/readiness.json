@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "commands": [
+    [
+      "/usr/local/bin/python",
+      "-B",
+      "/study/evaluate.py",
+      "--output",
+      "/output/ready_v1/official",
+      "--official"
+    ],
+    [
+      "/usr/local/bin/python",
+      "-B",
+      "/study/evaluate.py",
+      "--output",
+      "/output/ready_v1/native"
+    ],
+    [
+      "/usr/local/bin/python",
+      "-B",
+      "/study/evaluate.py",
+      "--output",
+      "/output/ready_v1/no_grasp",
+      "--variant",
+      "no_grasp"
+    ],
+    [
+      "/usr/local/bin/python",
+      "-B",
+      "/study/evaluate.py",
+      "--output",
+      "/output/ready_v1/half",
+      "--variant",
+      "half"
+    ],
+    [
+      "/usr/local/bin/python",
+      "-B",
+      "/study/evaluate.py",
+      "--output",
+      "/output/ready_v1/mass",
+      "--density",
+      "2"
+    ],
+    [
+      "/usr/local/bin/python",
+      "-B",
+      "/study/evaluate.py",
+      "--output",
+      "/output/ready_v1/friction",
+      "--friction",
+      "0.5"
+    ],
+    [
+      "/usr/local/bin/python",
+      "-B",
+      "/study/evaluate.py",
+      "--output",
+      "/output/ready_v1/joint",
+      "--density",
+      "2",
+      "--friction",
+      "0.5"
+    ],
+    [
+      "/usr/local/bin/python",
+      "-B",
+      "-u",
+      "/study/train.py",
+      "--variant",
+      "native",
+      "--seed",
+      "909",
+      "--updates",
+      "2"
+    ]
+  ],
+  "parity_variants": 3,
+  "material_conditions": 7,
+  "constructed_formula_cases": 24,
+  "training_smoke_updates": 2,
+  "smoke_seed": 909,
+  "smoke_not_in_analysis": true
+}

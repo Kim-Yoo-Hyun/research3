@@ -1,0 +1,2 @@
+{"seed": 48007, "status": "repeatable", "selected_step": 10, "selected_coverage": 0.42486025414245737, "baseline_repeat_max_drift": 0.0, "changed_final_object_distance": 2.280380336232385}
+{"seed": 48010, "status": "repeatable", "selected_step": 112, "selected_coverage": 0.397345983062436, "baseline_repeat_max_drift": 1.6653345369377348e-16, "changed_final_object_distance": 30.978517827045682}

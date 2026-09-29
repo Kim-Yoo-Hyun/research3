@@ -1,0 +1,34 @@
+{
+  "at_utc": "2026-09-16T15:20:27.363844+00:00",
+  "containers": [
+    {
+      "id": "5247bc458b49a6fa0fd7666116c2cc5897b44b75144dffc0529f0494c253062a",
+      "name": "/research3-cd2-20260917_001500-run",
+      "status": "exited",
+      "exit_code": 0,
+      "ownership": "CID file + saved/live inspect + workspace/study/run labels + exact input/output mounts + command"
+    },
+    {
+      "id": "be824e541fff828e89c0a412aea42c79b5791fbe8e18f53d0f5c58f9bd540ac1",
+      "name": "/research3-cd2-20260917_001500-verify",
+      "status": "exited",
+      "exit_code": 0,
+      "ownership": "CID file + saved/live inspect + workspace/study/run labels + exact input/output mounts + command"
+    },
+    {
+      "id": "f20697866532e03ba9987477b698c0f14e340dd37ac8ab9ef8ec6085c9f55d73",
+      "name": "/research3-cd2-20260917_001500-diagnose",
+      "status": "exited",
+      "exit_code": 0,
+      "ownership": "CID file + saved/live inspect + workspace/study/run labels + exact input/output mounts + command"
+    }
+  ],
+  "preservation": "payload and supplemental hashes matched compact study manifest; source, results, logs and container/image identity retained",
+  "image_retained": "sha256:f06bf7c80a1a517630f65e190f96b190c4c53ae6a6ccabf88978043ed122594e",
+  "other_assets_touched": false,
+  "removed": [
+    "5247bc458b49a6fa0fd7666116c2cc5897b44b75144dffc0529f0494c253062a",
+    "be824e541fff828e89c0a412aea42c79b5791fbe8e18f53d0f5c58f9bd540ac1",
+    "f20697866532e03ba9987477b698c0f14e340dd37ac8ab9ef8ec6085c9f55d73"
+  ]
+}

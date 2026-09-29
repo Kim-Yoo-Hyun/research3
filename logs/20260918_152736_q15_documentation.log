@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "scope": "Q15 fixed reward-training observation",
+  "documentation_files": [
+    "README.md",
+    "TODO.md",
+    "summary.md",
+    "buildup/README.md",
+    "buildup/robotics/README.md",
+    "buildup/selection.md",
+    "buildup/robotics/questions/reward-dynamics-transfer.md",
+    "buildup/robotics/pilot_studies/q15-reward/README.md",
+    "docs/reproducibility.md"
+  ],
+  "local_links_checked": 394,
+  "source_syntax": "passed, host AST only",
+  "git_diff_check": "passed",
+  "verification_log": "logs/20260918_152028_145317_q15_verify.log",
+  "case_analysis_log": "logs/20260918_152154_280535_q15_cases.log",
+  "cleanup_logs": [
+    "logs/20260918_140740_q15_cleanup.log",
+    "logs/20260918_152242_q15_cleanup.log"
+  ],
+  "own_stopped_containers_removed": 7,
+  "other_containers_modified": false,
+  "result": {
+    "fits": 9,
+    "checkpoints": 18,
+    "episodes": 2304,
+    "final_failure_cases": 53
+  },
+  "next_task": "Q15 goal-maintenance/scale/learning-progress follow-up investment assessment"
+}

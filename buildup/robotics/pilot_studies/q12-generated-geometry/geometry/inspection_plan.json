@@ -1,0 +1,8 @@
+{
+  "id": "q12-preservation-failure-inspection-v1",
+  "basis": "paired producer passed 4 cases, independent verifier stopped at corrected mug edge gate; inspect retained evidence without modifying the first audit",
+  "checks": ["preserve and check both freezes and prior output inventory", "retain exact surface proof separately from failing topology", "enumerate remaining non-two-incidence edges and every incident positive-area face", "count duplicate unoriented positive triangles", "complete the previously skipped mug fixed-query audit; no new render or candidate", "retain negative gate even if finite queries agree"],
+  "decision_boundary": "any remaining edge gate failure defers the current asset route; no tolerance, cleanup operation, candidate or denominator change",
+  "resources": {"cpu": 2, "ram_bytes": 2147483648, "seconds": 600, "network": "none", "gpu": false},
+  "output": "runs/q12_mesh_preservation_v1_inspection/verification.json"
+}

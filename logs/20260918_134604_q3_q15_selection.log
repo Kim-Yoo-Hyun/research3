@@ -1,0 +1,120 @@
+{
+  "checked_at": "2026-09-18T13:46:04.325479+09:00",
+  "source_audit": [
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube.py",
+      "bytes": 8685,
+      "sha256": "6f881f11151bd124a4ec6d1189e86e20b17d366aa1cbcc6e2f751f1f5bb03ed1",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube.py",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "6f881f11151bd124a4ec6d1189e86e20b17d366aa1cbcc6e2f751f1f5bb03ed1",
+      "remote_bytes": 8685,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube_cfgs.py",
+      "bytes": 2564,
+      "sha256": "9ecd1b870ea7ac9125491f671abb866040b2cde00982ae277761eb6841c8e40d",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/tasks/tabletop/pick_cube_cfgs.py",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "9ecd1b870ea7ac9125491f671abb866040b2cde00982ae277761eb6841c8e40d",
+      "remote_bytes": 2564,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/ppo.py",
+      "bytes": 22982,
+      "sha256": "3fa4818861d428480244aae889bc679b2c8e89b59d6289014003c266a84dbab0",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/ppo.py",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "3fa4818861d428480244aae889bc679b2c8e89b59d6289014003c266a84dbab0",
+      "remote_bytes": 22982,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/README.md",
+      "bytes": 5975,
+      "sha256": "5554ddc43a52c325ccae8d4e706c18445559a8076085f482880b781e00addc6e",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/README.md",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "5554ddc43a52c325ccae8d4e706c18445559a8076085f482880b781e00addc6e",
+      "remote_bytes": 5975,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/examples.sh",
+      "bytes": 7164,
+      "sha256": "9eb680059c86d9ed4b38ac7c6e8bea6354947d0e853b75068bd0f96e578b21ff",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/examples/baselines/ppo/examples.sh",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "9eb680059c86d9ed4b38ac7c6e8bea6354947d0e853b75068bd0f96e578b21ff",
+      "remote_bytes": 7164,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/docs/source/user_guide/tutorials/domain_randomization.md",
+      "bytes": 19804,
+      "sha256": "bbed69085237ec4fcb6f9ed8cdfd4121ad8befbe151dd8f53f4cc7840b60cd87",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/docs/source/user_guide/tutorials/domain_randomization.md",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "bbed69085237ec4fcb6f9ed8cdfd4121ad8befbe151dd8f53f4cc7840b60cd87",
+      "remote_bytes": 19804,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/building/actors/common.py",
+      "bytes": 10586,
+      "sha256": "3314dbf270ea34555c009427dd2a0b7fca6296d13972e6af02b186e55971c4d0",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/building/actors/common.py",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "3314dbf270ea34555c009427dd2a0b7fca6296d13972e6af02b186e55971c4d0",
+      "remote_bytes": 10586,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/building/actor_builder.py",
+      "bytes": 15000,
+      "sha256": "d2de84ec1b96294d71e368a4c9c7c9c6302c6073b7a338d1d3624e425bd419f2",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/building/actor_builder.py",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "d2de84ec1b96294d71e368a4c9c7c9c6302c6073b7a338d1d3624e425bd419f2",
+      "remote_bytes": 15000,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/robots/panda/panda.py",
+      "bytes": 10759,
+      "sha256": "2a98a2133b49e5a94a83d05019c0ab833ad6767f85ff1bf66265cd9247cb0fda",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/agents/robots/panda/panda.py",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "2a98a2133b49e5a94a83d05019c0ab833ad6767f85ff1bf66265cd9247cb0fda",
+      "remote_bytes": 10759,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/sapien_env.py",
+      "bytes": 76011,
+      "sha256": "459196c275764eaf53ccba8e154e3207036399e54c8bdd45f9e7d0919970464b",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/envs/sapien_env.py",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "459196c275764eaf53ccba8e154e3207036399e54c8bdd45f9e7d0919970464b",
+      "remote_bytes": 76011,
+      "matches_immutable_source": true
+    },
+    {
+      "path": "external/q8/ManiSkill-a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/structs/types.py",
+      "bytes": 4000,
+      "sha256": "86451c45e986ce7f789e01edecaa9ba6c3f89a08c3960ddb212ca0cf4499e156",
+      "url": "https://raw.githubusercontent.com/haosulab/ManiSkill/a4a4f9272ad64b1564035874b605ceb687b63ed8/mani_skill/utils/structs/types.py",
+      "scope": "read-only text/source and bytes; no method import or execution",
+      "remote_sha256": "86451c45e986ce7f789e01edecaa9ba6c3f89a08c3960ddb212ca0cf4499e156",
+      "remote_bytes": 4000,
+      "matches_immutable_source": true
+    }
+  ],
+  "verification": {
+    "files_checked": 11,
+    "remote_matches": 11,
+    "all_remote_match": true
+  }
+}

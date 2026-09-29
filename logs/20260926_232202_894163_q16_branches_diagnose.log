@@ -1,0 +1,14 @@
+/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.11/site-packages/sapien/_vulkan_tricks.py:37: UserWarning: Failed to find Vulkan ICD file. This is probably due to an incorrect or partial installation of the NVIDIA driver. SAPIEN will attempt to provide an ICD file anyway but it may not work.
+  warn(
+{"seed": 47010, "step": 6, "selected": "feedback", "after_ten": {"bc": 0.0, "feedback": 0.0, "bc_plus_x": 0.0, "bc_minus_x": 0.0, "bc_plus_y": 0.0, "bc_minus_y": 0.0, "ppo_mean": 0.0}}
+Traceback (most recent call last):
+  File "/study/compat_branches.py", line 307, in <module>
+    {'fit': fit, 'diagnose': diagnose, 'validate': validate}[args.stage]()
+  File "/study/compat_branches.py", line 233, in diagnose
+    branch_obs = replay_prefix(env, seed, step, bc, mean, scale, old)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/study/compat_branches.py", line 191, in replay_prefix
+    raise ValueError(f'BC action prefix differs: seed={seed}, step={i}')
+ValueError: BC action prefix differs: seed=47011, step=7

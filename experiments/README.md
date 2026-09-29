@@ -1,6 +1,6 @@
 # Experiments
 
-Updated: 2026-09-01
+Updated: 2026-09-15
 
 ## Role
 
@@ -19,6 +19,10 @@ hypothesis의 paper-level 작업만 수행한다.
 새 experiment는 source hypothesis, completed validation evidence와 frozen
 pre-outcome contract가 생긴 뒤 Docker-only로 연다. 세부 gate는
 `docs/hypothesis.md`와 `docs/experiments.md`를 따른다.
+
+최종 실험을 모두 마치고 실제 논문을 작성할 때만
+[Paper Folder Gate](../docs/paper.md#paper-folder-gate)의 일곱 조건을 충족해 `paper/`를 연다.
+그 전의 결과 표·method figure 준비와 claim 검토는 해당 experiment가 소유한다.
 
 ## Experiment Registry
 

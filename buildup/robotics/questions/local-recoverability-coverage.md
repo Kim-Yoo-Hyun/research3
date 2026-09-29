@@ -1,14 +1,26 @@
 # Local Recoverability Coverage
 
-Updated: 2026-09-08
+Updated: 2026-09-22
 
 ## Status
 
 `under_review`
 
-Stage 7 decision: `refine`. 다음 Stage 6 후보는 Q1이며, 현재 PPO/pre-contact grid의
-확대는 중단한다. [반복 검증](../pilot_studies/q8-recoverability/README.md#final-verified-results)과
-[Q8/Q1 비교](../../selection.md#q8q1--stage-6-selection-2026-09-08)가 최신 근거다.
+현재 판단은 `refine` / `under_review`이며 PPO/pre-contact grid 확대는 중단 상태다.
+[반복 검증](../pilot_studies/q8-recoverability/README.md#final-verified-results)과
+[당시 Q8/Q1 비교](../../selection.md#q8q1--stage-6-selection-2026-09-08)는 보존한다.
+당시 Q1 선택을 현재 next-task 지시로 해석하지 않는다.
+
+## Reassessment 2026-09-22
+
+[CD5/CD1/Q8 비교](../related_work/policy-geometry.md#cd5-cd1-q8-comparison-2026-09-22)에서
+[RAYA](https://arxiv.org/html/2609.21690v1)의 recoverability-conditioned intervention과
+[EgoRecovery](https://arxiv.org/html/2607.19745v1)의 recovery demonstration 학습을 대조했다.
+Recoverability나 recovery data의 유용성 자체는 새 기여가 아니다. 두 선행이 현재
+demonstration restart, training-data linkage 또는 조건부 성공률의 정의 문제를 해결했다는
+뜻도 아니다. 실행 source/학습 데이터까지 새로 연결해야 하는 비용과 정보 가치를 비교해
+이번에는 CD5 관찰을 선택했다. Q8의 broad 질문은 반증하지 않으며 같은 실패 탐색 grid는
+재개하지 않는다. 새 Q8 runtime 결과는 없다.
 
 ## Current Assumption Assessment — 2026-09-08
 

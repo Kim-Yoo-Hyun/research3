@@ -1,0 +1,25 @@
+{
+  "device": "cpu",
+  "removed": [
+    {
+      "name": "research3-q16-compat-cpu-replay-20260925_125930_284419",
+      "id": "9d83eb49b6d27bd9bec4a2e1c855f206fa02a2e2118d1c4cbf447c111a5947c3",
+      "record": "/home/yoohyun/research3/runs/q16/compat_cpu/jobs/20260925_125930_284419_replay.json"
+    },
+    {
+      "name": "research3-q16-compat-cpu-verify-20260925_125954_423996",
+      "id": "23e4b09d9172c4677185bc145f4285981863ec84b0b149f8192414e085d6e7fb",
+      "record": "/home/yoohyun/research3/runs/q16/compat_cpu/jobs/20260925_125954_423996_verify.json"
+    },
+    {
+      "name": "research3-q16-compat-cpu-audit-20260925_130050_019427",
+      "id": "04750121a2c54e58ad303ff69c6a4aa9eae2cb4237aa00212c530beaf67e7633",
+      "record": "/home/yoohyun/research3/runs/q16/compat_cpu/jobs/20260925_130050_019427_audit.json"
+    },
+    {
+      "name": "research3-q16-compat-cpu-audit-20260925_130504_158253",
+      "id": "3704dbbf61b115b364856740e8dfbfd067c77b70c00d09cc42b12dfe59b41ccb",
+      "record": "/home/yoohyun/research3/runs/q16/compat_cpu/jobs/20260925_130504_158253_audit.json"
+    }
+  ]
+}

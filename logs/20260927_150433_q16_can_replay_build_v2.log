@@ -1,0 +1,110 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.can_replay
+#1 transferring dockerfile: 1.53kB done
+#1 DONE 0.0s
+
+#2 [context source] load .dockerignore
+#2 transferring source: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250
+#3 DONE 0.0s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [stage-0  1/13] FROM docker.io/library/python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250
+#5 resolve docker.io/library/python:3.11-slim-bookworm@sha256:b1add8a6f2aca6bcfcf0b9c9b522352f7ce0d62a3d556a2f2f32511aa0cca250 0.0s done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 50B done
+#6 DONE 0.0s
+
+#7 [context source] load from client
+#7 transferring source: 152B done
+#7 DONE 0.0s
+
+#8 [context source] load from client
+#8 transferring source: 348B done
+#8 DONE 0.0s
+
+#9 [context source] load from client
+#9 transferring source: 22.99kB done
+#9 DONE 0.0s
+
+#10 [context source] load from client
+#10 transferring source: 334B done
+#10 DONE 0.1s
+
+#11 [context source] load from client
+#11 transferring source: 1.33kB 0.1s done
+#11 DONE 0.1s
+
+#12 [stage-0  2/13] RUN apt-get update && apt-get install -y --no-install-recommends build-essential linux-libc-dev libgl1 libglib2.0-0 libx11-6 libxext6 libxrender1 libxi6 libxkbcommon-x11-0 && rm -rf /var/lib/apt/lists/*
+#12 CACHED
+
+#13 [stage-0  3/13] COPY requirements.can_replay.lock /recipe/requirements.can_replay.lock
+#13 CACHED
+
+#14 [stage-0  4/13] RUN pip install --no-cache-dir -r /recipe/requirements.can_replay.lock
+#14 CACHED
+
+#15 [stage-0  5/13] COPY --from=source /robosuite-51cc01785bab80ffeed20da15e67d7dd4140e76a/setup.py /opt/robosuite/setup.py
+#15 CACHED
+
+#16 [stage-0  6/13] COPY --from=source /robosuite-51cc01785bab80ffeed20da15e67d7dd4140e76a/README.md /opt/robosuite/README.md
+#16 CACHED
+
+#17 [stage-0  7/13] COPY --from=source /robosuite-51cc01785bab80ffeed20da15e67d7dd4140e76a/MANIFEST.in /opt/robosuite/MANIFEST.in
+#17 DONE 0.1s
+
+#18 [context source] load from client
+#18 transferring source: 535.69MB 0.9s done
+#18 DONE 1.0s
+
+#19 [stage-0  8/13] COPY --from=source /robosuite-51cc01785bab80ffeed20da15e67d7dd4140e76a/robosuite /opt/robosuite/robosuite
+#19 DONE 0.4s
+
+#20 [stage-0  9/13] COPY --from=source /robomimic-ae5799f0fae05c4559ee1f9645b0f77eb5251929/robomimic/envs/env_robosuite.py /reference/robomimic_v050_env_robosuite.py
+#20 DONE 0.1s
+
+#21 [stage-0 10/13] COPY --from=source /robomimic-ae5799f0fae05c4559ee1f9645b0f77eb5251929/robomimic/scripts/playback_dataset.py /reference/robomimic_v050_playback_dataset.py
+#21 DONE 0.1s
+
+#22 [stage-0 11/13] RUN pip install --no-cache-dir --no-deps /opt/robosuite && pip check && pip freeze --all > /recipe/installed.can_replay.lock
+#22 0.894 Processing /opt/robosuite
+#22 0.894   Preparing metadata (setup.py): started
+#22 1.232   Preparing metadata (setup.py): finished with status 'done'
+#22 1.235 Building wheels for collected packages: robosuite
+#22 1.235   Building wheel for robosuite (setup.py): started
+#22 12.64   Building wheel for robosuite (setup.py): finished with status 'done'
+#22 12.68   Created wheel for robosuite: filename=robosuite-1.5.1-py3-none-any.whl size=152009597 sha256=ed7d777e313d7c5f1c648a01631d730d5480d76e414b5fdf6536388dd2d547f7
+#22 12.68   Stored in directory: /tmp/pip-ephem-wheel-cache-z7lssgeg/wheels/89/de/06/948ddd1f8f135227eb7da0ba7d297347832feeb79e782b74b0
+#22 12.69 Successfully built robosuite
+#22 12.69 Installing collected packages: robosuite
+#22 13.96 Successfully installed robosuite-1.5.1
+#22 13.96 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#22 14.79 No broken requirements found.
+#22 DONE 15.6s
+
+#23 [stage-0 12/13] RUN groupadd -g 1001 research && useradd -m -u 1001 -g 1001 research
+#23 DONE 0.3s
+
+#24 [stage-0 13/13] WORKDIR /study
+#24 DONE 0.1s
+
+#25 exporting to image
+#25 exporting layers
+#25 exporting layers 33.8s done
+#25 exporting manifest sha256:33eff151613b8ad4a9cf650dc70a1b6671d050cf4beb13ed2d347f520686723a 0.0s done
+#25 exporting config sha256:86001520e2c83bafc2fe6faa81e8dad86a5f4148cad0c64eda0bdbd5d6807c3c 0.0s done
+#25 exporting attestation manifest sha256:371053fec357b2ebb7350ff5d1712f9ee315307f8bd2850989aa5ba20acf900b
+#25 exporting attestation manifest sha256:371053fec357b2ebb7350ff5d1712f9ee315307f8bd2850989aa5ba20acf900b 0.1s done
+#25 exporting manifest list sha256:7025e5c31a23becfd3d8447fd0e22c5b20f47909a7ae659acd9f226ca04e8d10 0.0s done
+#25 naming to docker.io/library/research3-q16-can-replay:v2 done
+#25 unpacking to docker.io/library/research3-q16-can-replay:v2
+#25 unpacking to docker.io/library/research3-q16-can-replay:v2 3.3s done
+#25 DONE 37.4s

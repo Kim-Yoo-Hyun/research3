@@ -1,0 +1,30 @@
+{
+  "bop_toolkit_commit": "cea62d651c7e395b2e1962b9749e4e89693c6ac4",
+  "scope": "read-only conventions, no BOP toolkit import/runtime; no calibrated sensor/pose bound established",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/thodan/bop_toolkit/cea62d651c7e395b2e1962b9749e4e89693c6ac4/docs/bop_datasets_format.md",
+      "path": "sources/bop_datasets_format.md",
+      "bytes": 9821,
+      "sha256": "6994afd65c29c2a198ea6e08e138f586ace316aaacda21ae3c498b37d1535222"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/thodan/bop_toolkit/cea62d651c7e395b2e1962b9749e4e89693c6ac4/bop_toolkit_lib/misc.py",
+      "path": "sources/misc.py",
+      "bytes": 17549,
+      "sha256": "44de1e832c10d8d50c3a6dd30161ea16ca484db91449d996aeb392bbde361547"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/thodan/bop_toolkit/cea62d651c7e395b2e1962b9749e4e89693c6ac4/bop_toolkit_lib/visibility.py",
+      "path": "sources/visibility.py",
+      "bytes": 3399,
+      "sha256": "3776fd4e242a09d87403f6d164e2a2faff290c2b2435679e57077f6b854119f9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/thodan/bop_toolkit/cea62d651c7e395b2e1962b9749e4e89693c6ac4/scripts/calc_gt_masks.py",
+      "path": "sources/calc_gt_masks.py",
+      "bytes": 6682,
+      "sha256": "d135e8759ae90f31a98bad5b227b9112a34f3553fcd729db7a4cc6a63eb2ffb5"
+    }
+  ]
+}

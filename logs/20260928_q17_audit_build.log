@@ -1,0 +1,86 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.audit
+#1 transferring dockerfile: 265B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10.16-slim-bookworm
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10.16-slim-bookworm
+#2 DONE 1.9s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 7.67kB done
+#5 DONE 0.1s
+
+#6 [1/4] FROM docker.io/library/python:3.10.16-slim-bookworm@sha256:f9fd9a142c9e3bc54d906053b756eb7e7e386ee1cf784d82c251cf640c502512
+#6 resolve docker.io/library/python:3.10.16-slim-bookworm@sha256:f9fd9a142c9e3bc54d906053b756eb7e7e386ee1cf784d82c251cf640c502512 0.0s done
+#6 sha256:0545307567655cda6cb4414e2f980be474abd23126571d7919b35c2d7d8503ab 0B / 250B 0.2s
+#6 sha256:0545307567655cda6cb4414e2f980be474abd23126571d7919b35c2d7d8503ab 250B / 250B 0.2s done
+#6 sha256:fb07ac4c19719713d58c99a9fc52d3dd9e53bc63b9a27a5e93a4d6ada121bf17 0B / 15.65MB 0.3s
+#6 sha256:61b6831db81e89a141d804c2ffe74ec8ab4ffa8fe4127a85cc1dea0acc24178e 0B / 3.51MB 0.2s
+#6 sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96 0B / 28.23MB 0.2s
+#6 sha256:fb07ac4c19719713d58c99a9fc52d3dd9e53bc63b9a27a5e93a4d6ada121bf17 7.34MB / 15.65MB 0.5s
+#6 sha256:61b6831db81e89a141d804c2ffe74ec8ab4ffa8fe4127a85cc1dea0acc24178e 3.51MB / 3.51MB 0.6s done
+#6 sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96 2.10MB / 28.23MB 0.8s
+#6 sha256:fb07ac4c19719713d58c99a9fc52d3dd9e53bc63b9a27a5e93a4d6ada121bf17 8.39MB / 15.65MB 1.5s
+#6 sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96 7.34MB / 28.23MB 1.4s
+#6 sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96 10.49MB / 28.23MB 1.7s
+#6 sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96 17.83MB / 28.23MB 1.8s
+#6 sha256:fb07ac4c19719713d58c99a9fc52d3dd9e53bc63b9a27a5e93a4d6ada121bf17 10.49MB / 15.65MB 2.6s
+#6 sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96 20.97MB / 28.23MB 2.4s
+#6 sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96 23.07MB / 28.23MB 2.6s
+#6 sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96 28.23MB / 28.23MB 2.8s done
+#6 extracting sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96
+#6 extracting sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96 0.4s done
+#6 extracting sha256:61b6831db81e89a141d804c2ffe74ec8ab4ffa8fe4127a85cc1dea0acc24178e 0.1s done
+#6 sha256:fb07ac4c19719713d58c99a9fc52d3dd9e53bc63b9a27a5e93a4d6ada121bf17 15.65MB / 15.65MB 3.4s done
+#6 extracting sha256:fb07ac4c19719713d58c99a9fc52d3dd9e53bc63b9a27a5e93a4d6ada121bf17
+#6 extracting sha256:fb07ac4c19719713d58c99a9fc52d3dd9e53bc63b9a27a5e93a4d6ada121bf17 0.2s done
+#6 DONE 3.7s
+
+#6 [1/4] FROM docker.io/library/python:3.10.16-slim-bookworm@sha256:f9fd9a142c9e3bc54d906053b756eb7e7e386ee1cf784d82c251cf640c502512
+#6 extracting sha256:0545307567655cda6cb4414e2f980be474abd23126571d7919b35c2d7d8503ab 0.0s done
+#6 DONE 3.8s
+
+#7 [2/4] RUN python -m pip install --no-cache-dir     pyarrow==20.0.0     PyYAML==6.0.2
+#7 0.985 Collecting pyarrow==20.0.0
+#7 1.009   Downloading pyarrow-20.0.0-cp310-cp310-manylinux_2_28_x86_64.whl (42.3 MB)
+#7 3.423      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.3/42.3 MB 25.3 MB/s eta 0:00:00
+#7 3.496 Collecting PyYAML==6.0.2
+#7 3.499   Downloading PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB)
+#7 3.797      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 751.2/751.2 kB 2.5 MB/s eta 0:00:00
+#7 3.829 Installing collected packages: PyYAML, pyarrow
+#7 4.476 Successfully installed PyYAML-6.0.2 pyarrow-20.0.0
+#7 4.476 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 4.530 
+#7 4.530 [notice] A new release of pip is available: 23.0.1 -> 26.2.1
+#7 4.530 [notice] To update, run: pip install --upgrade pip
+#7 DONE 4.7s
+
+#8 [3/4] WORKDIR /analysis
+#8 DONE 0.1s
+
+#9 [4/4] COPY audit.py /analysis/audit.py
+#9 DONE 0.1s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 4.1s done
+#10 exporting manifest sha256:ce2a79f85473e950ae2d46f7fe05b62ae45bd9c359dd1953dcdf5ed3a96dc830 0.0s done
+#10 exporting config sha256:68315f8909ee5ec401f4197c0e67f15b201d4e431a0307e87f63889e14541d40 0.0s done
+#10 exporting attestation manifest sha256:c3716f186f3183c474972e4cedfeee5835a68c3815d68323c3d2b3bca9eb0447 0.1s done
+#10 exporting manifest list sha256:865fe4b268c8b726914abeda7d1983efef6d4765364f2bbe1a7a4c1a4b704046
+#10 exporting manifest list sha256:865fe4b268c8b726914abeda7d1983efef6d4765364f2bbe1a7a4c1a4b704046 0.0s done
+#10 naming to docker.io/library/research3-q17-evidence:v1 done
+#10 unpacking to docker.io/library/research3-q17-evidence:v1
+#10 unpacking to docker.io/library/research3-q17-evidence:v1 0.5s done
+#10 DONE 4.8s

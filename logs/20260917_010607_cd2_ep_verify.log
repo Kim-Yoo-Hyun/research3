@@ -1,0 +1,12 @@
+b82836d945c4f0c306890a8761409daae13cefa3ce55d0c213c8ecb16a16d61c
+{
+  "status": "passed",
+  "checks": 230293,
+  "records": 500,
+  "subsets": 1600,
+  "scores": 6400,
+  "gaps": 3200,
+  "scope": "Independent pickle/NPY identities, rational outcome/grid and all score/profile/gap/decomposition calculations, summary/CSV and nesting checks",
+  "boundary": "Engineering checks are not independent scientific trials; no population inference",
+  "verifier_sha256": "3534104298278ca9c8e0b88cc11ba26f8448930dce5c723091bdd05a8d0bca35"
+}

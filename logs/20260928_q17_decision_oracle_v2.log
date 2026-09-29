@@ -1,0 +1,370 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.8.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+missing pytorch3d
+[StarVLAOFTClient] connected: host=research3_q17_policy_bridge_20260928, port=7980, action_chunk_size=16, action_steps=16, history_mode=action_keyframe, history_frames=12, send_state=True, motion_keyframe_strategy=legacy, swap_rgb_channels=False, unnorm_key=None, return_vlm_text=False, subtask_planner_enabled=False, hold_on_invalid_fast_action=False, metadata={'action_chunk_size': 16, 'available_unnorm_keys': ['new_embodiment'], 'default_unnorm_key': 'new_embodiment', 'state_keys': ['state.astribot'], 'action_keys': ['action.astribot'], 'bridge': 'direct_minmax_exploratory'}
+[DebugTiming 2026-09-28 04:33:10] Base_Task._init_task_env_.begin task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] START base_init.toppra_setup_logging task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] END base_init.toppra_setup_logging elapsed=0.000s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] START base_init.setup_scene task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] END base_init.setup_scene elapsed=0.334s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] START base_init.ensure_live_frame_log_dir path=/output task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] END base_init.ensure_live_frame_log_dir elapsed=0.000s path=/output task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] START base_init.append_live_frame_session_start path=/output/live_frames.jsonl task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] END base_init.append_live_frame_session_start elapsed=0.000s path=/output/live_frames.jsonl task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] START base_init.create_table_and_wall task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] END base_init.create_table_and_wall elapsed=0.005s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:10] START base_init.load_robot task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+[Robot.TOPP] use ASCII URDF for MPlib: /sim/assets/embodiments/astribot_descriptions_texture/astribot_whole_body_maniskill_merged.urdf.mplib_ascii.urdf
+[Robot.TOPP] use ASCII URDF for MPlib: /sim/assets/embodiments/astribot_descriptions_texture/astribot_whole_body_maniskill_merged.urdf.mplib_ascii.urdf
+No SRDF file provided but found /sim/assets/embodiments/astribot_descriptions_texture/astribot_whole_body_maniskill_merged.urdf.mplib_ascii_mplib.srdf
+No SRDF file provided but found /sim/assets/embodiments/astribot_descriptions_texture/astribot_whole_body_maniskill_merged.urdf.mplib_ascii_mplib.srdf
+[DebugTiming 2026-09-28 04:33:19] END base_init.load_robot elapsed=8.560s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.load_camera task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.load_camera elapsed=0.151s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.robot_move_to_homestate.initial task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.robot_move_to_homestate.initial elapsed=0.000s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.together_open_gripper task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.together_open_gripper elapsed=0.001s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.robot_set_origin_endpose.initial task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.robot_set_origin_endpose.initial elapsed=0.000s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.init_rotate_subtask_runtime_state task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.init_rotate_subtask_runtime_state elapsed=0.000s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.load_actors task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.load_actors elapsed=0.004s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.get_cluttered_table.lower cluttered_numbers=5 task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.get_cluttered_table.lower elapsed=0.022s cluttered_numbers=5 task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.check_stable task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] check_stable.begin task=count_color_kinds_press_button episode=0 seed=100000 actor_count=12
+[DebugTiming 2026-09-28 04:33:19] START check_stable.pre_settle_steps steps=2000 task=count_color_kinds_press_button episode=0 seed=100000 actor_count=12
+[DebugTiming 2026-09-28 04:33:19] END check_stable.pre_settle_steps elapsed=0.021s steps=2000 task=count_color_kinds_press_button episode=0 seed=100000 actor_count=12
+[DebugTiming 2026-09-28 04:33:19] START check_stable.window steps=500 task=count_color_kinds_press_button episode=0 seed=100000 actor_count=12
+[DebugTiming 2026-09-28 04:33:19] END check_stable.window elapsed=0.021s steps=500 task=count_color_kinds_press_button episode=0 seed=100000 actor_count=12
+[DebugTiming 2026-09-28 04:33:19] check_stable.end is_stable=True unstable_count=0 unstable_objects= task=count_color_kinds_press_button episode=0 seed=100000 actor_count=12
+[DebugTiming 2026-09-28 04:33:19] END base_init.check_stable elapsed=0.042s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.robot_move_to_homestate.after_stable task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.robot_move_to_homestate.after_stable elapsed=0.000s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.robot_set_origin_endpose.after_stable task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.robot_set_origin_endpose.after_stable elapsed=0.000s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.reset_rotate_waist_heading_reference task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.reset_rotate_waist_heading_reference elapsed=0.000s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] START base_init.sync_curobo_tabletop_collisions task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] END base_init.sync_curobo_tabletop_collisions elapsed=0.001s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[DebugTiming 2026-09-28 04:33:19] Base_Task._init_task_env_.end elapsed=9.123s task=count_color_kinds_press_button episode=0 seed=100000 need_plan=True save_data=False
+[2026-09-28 04:33:21.928] [svulkan2] [error] OIDN Error: unsupported device type: CUDA
+[2026-09-28 04:33:21.951] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:21.981] [svulkan2] [error] OIDN Error: invalid handle
+[StarVLAOFTClient] ep=0 chunk=0 step=0 frames=[0] actions=(16, 18) request_sec=0.152 extras=[]
+[2026-09-28 04:33:22.253] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.254] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.312] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.383] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.383] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.442] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.526] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.526] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.582] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.664] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.665] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.722] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.792] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.793] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.848] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.918] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.918] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:22.970] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.051] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.051] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.106] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.192] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.192] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.249] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.332] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.332] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.389] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.470] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.470] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.524] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.603] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.603] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.658] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.734] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.734] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.789] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.869] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.869] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:23.922] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.003] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.005] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.058] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.135] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.135] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.190] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.267] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.268] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.319] [svulkan2] [error] OIDN Error: invalid handle
+step: [92m1 / 150[0mstep: [92m2 / 150[0mstep: [92m3 / 150[0mstep: [92m4 / 150[0mstep: [92m5 / 150[0mstep: [92m6 / 150[0mstep: [92m7 / 150[0mstep: [92m8 / 150[0mstep: [92m9 / 150[0mstep: [92m10 / 150[0mstep: [92m11 / 150[0mstep: [92m12 / 150[0mstep: [92m13 / 150[0mstep: [92m14 / 150[0mstep: [92m15 / 150[0mstep: [92m16 / 150[0m[StarVLAOFTClient][chunk_timing] ep=0 chunk=0 request_id=starvla_ep0000_chunk00000_step000000 start_step=0 end_step=16 executed_steps=16 chunk_actions=16 request_sec=0.152 sim_sec=2.137 total_sec=2.289 success=False step_limit=150
+[2026-09-28 04:33:24.379] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.379] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.432] [svulkan2] [error] OIDN Error: invalid handle
+[StarVLAOFTClient] ep=0 chunk=1 step=16 frames=[0, 16] actions=(16, 18) request_sec=0.161 extras=[]
+[2026-09-28 04:33:24.682] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.682] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.733] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.810] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.810] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.867] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.941] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.941] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:24.996] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.082] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.082] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.139] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.217] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.217] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.274] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.352] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.352] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.410] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.484] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.484] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.544] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.619] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.620] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.679] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.755] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.755] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.815] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.893] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.893] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:25.957] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.035] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.035] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.095] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.176] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.176] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.233] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.304] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.304] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.358] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.432] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.432] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.485] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.561] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.561] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.614] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.704] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.704] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.758] [svulkan2] [error] OIDN Error: invalid handle
+step: [92m17 / 150[0mstep: [92m18 / 150[0mstep: [92m19 / 150[0mstep: [92m20 / 150[0mstep: [92m21 / 150[0mstep: [92m22 / 150[0mstep: [92m23 / 150[0mstep: [92m24 / 150[0mstep: [92m25 / 150[0mstep: [92m26 / 150[0mstep: [92m27 / 150[0mstep: [92m28 / 150[0mstep: [92m29 / 150[0mstep: [92m30 / 150[0mstep: [92m31 / 150[0mstep: [92m32 / 150[0m[StarVLAOFTClient][chunk_timing] ep=0 chunk=1 request_id=starvla_ep0000_chunk00001_step000016 start_step=16 end_step=32 executed_steps=16 chunk_actions=16 request_sec=0.161 sim_sec=2.162 total_sec=2.323 success=False step_limit=150
+[2026-09-28 04:33:26.823] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.823] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:26.876] [svulkan2] [error] OIDN Error: invalid handle
+[StarVLAOFTClient] ep=0 chunk=2 step=32 frames=[0, 16, 32] actions=(16, 18) request_sec=0.207 extras=[]
+[2026-09-28 04:33:27.178] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.178] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.234] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.317] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.317] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.371] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.453] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.453] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.509] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.583] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.583] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.639] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.725] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.725] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.785] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.867] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.867] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:27.924] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.000] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.000] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.053] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.136] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.136] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.190] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.267] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.267] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.322] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.399] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.399] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.456] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.533] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.534] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.591] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.663] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.663] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.716] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.787] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.787] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.843] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.915] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.915] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:28.971] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.048] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.048] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.104] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.171] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.171] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.224] [svulkan2] [error] OIDN Error: invalid handle
+step: [92m33 / 150[0mstep: [92m34 / 150[0mstep: [92m35 / 150[0mstep: [92m36 / 150[0mstep: [92m37 / 150[0mstep: [92m38 / 150[0mstep: [92m39 / 150[0mstep: [92m40 / 150[0mstep: [92m41 / 150[0mstep: [92m42 / 150[0mstep: [92m43 / 150[0mstep: [92m44 / 150[0mstep: [92m45 / 150[0mstep: [92m46 / 150[0mstep: [92m47 / 150[0mstep: [92m48 / 150[0m[StarVLAOFTClient][chunk_timing] ep=0 chunk=2 request_id=starvla_ep0000_chunk00002_step000032 start_step=32 end_step=48 executed_steps=16 chunk_actions=16 request_sec=0.207 sim_sec=2.124 total_sec=2.331 success=False step_limit=150
+[2026-09-28 04:33:29.284] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.284] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.336] [svulkan2] [error] OIDN Error: invalid handle
+[StarVLAOFTClient] ep=0 chunk=3 step=48 frames=[0, 16, 32, 48] actions=(16, 18) request_sec=0.250 extras=[]
+[2026-09-28 04:33:29.679] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.679] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.736] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.816] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.816] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.872] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.953] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:29.953] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.010] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.095] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.095] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.154] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.242] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.243] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.297] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.377] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.377] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.431] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.505] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.506] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.560] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.633] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.633] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.691] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.774] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.774] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.829] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.907] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.907] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:30.967] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.046] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.046] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.102] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.185] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.185] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.242] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.343] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.343] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.397] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.509] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.510] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.566] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.673] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.673] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.728] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.837] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.837] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.898] [svulkan2] [error] OIDN Error: invalid handle
+step: [92m49 / 150[0mstep: [92m50 / 150[0mstep: [92m51 / 150[0mstep: [92m52 / 150[0mstep: [92m53 / 150[0mstep: [92m54 / 150[0mstep: [92m55 / 150[0mstep: [92m56 / 150[0mstep: [92m57 / 150[0mstep: [92m58 / 150[0mstep: [92m59 / 150[0mstep: [92m60 / 150[0mstep: [92m61 / 150[0mstep: [92m62 / 150[0mstep: [92m63 / 150[0mstep: [92m64 / 150[0m[StarVLAOFTClient][chunk_timing] ep=0 chunk=3 request_id=starvla_ep0000_chunk00003_step000048 start_step=48 end_step=64 executed_steps=16 chunk_actions=16 request_sec=0.250 sim_sec=2.310 total_sec=2.560 success=False step_limit=150
+[2026-09-28 04:33:31.967] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:31.967] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.027] [svulkan2] [error] OIDN Error: invalid handle
+[StarVLAOFTClient] ep=0 chunk=4 step=64 frames=[0, 16, 32, 48, 64] actions=(16, 18) request_sec=0.272 extras=[]
+[2026-09-28 04:33:32.437] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.438] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.495] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.615] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.615] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.677] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.792] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.792] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.851] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.967] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:32.967] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.027] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.143] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.143] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.206] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.332] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.332] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.392] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.493] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.493] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.551] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.662] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.662] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.724] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.811] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.811] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.874] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.963] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:33.963] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.025] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.109] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.109] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.171] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.257] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.257] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.320] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.406] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.406] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.472] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.555] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.555] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.619] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.708] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.708] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.771] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.858] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.858] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.922] [svulkan2] [error] OIDN Error: invalid handle
+step: [92m65 / 150[0mstep: [92m66 / 150[0mstep: [92m67 / 150[0mstep: [92m68 / 150[0mstep: [92m69 / 150[0mstep: [92m70 / 150[0mstep: [92m71 / 150[0mstep: [92m72 / 150[0mstep: [92m73 / 150[0mstep: [92m74 / 150[0mstep: [92m75 / 150[0mstep: [92m76 / 150[0mstep: [92m77 / 150[0mstep: [92m78 / 150[0mstep: [92m79 / 150[0mstep: [92m80 / 150[0m[StarVLAOFTClient][chunk_timing] ep=0 chunk=4 request_id=starvla_ep0000_chunk00004_step000064 start_step=64 end_step=80 executed_steps=16 chunk_actions=16 request_sec=0.272 sim_sec=2.608 total_sec=2.880 success=False step_limit=150
+[2026-09-28 04:33:34.987] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:34.987] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.048] [svulkan2] [error] OIDN Error: invalid handle
+[StarVLAOFTClient] ep=0 chunk=5 step=80 frames=[0, 16, 32, 48, 64, 80] actions=(16, 18) request_sec=0.317 extras=[]
+[2026-09-28 04:33:35.484] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.484] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.545] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.632] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.632] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.693] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.776] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.776] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.835] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.916] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.916] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:35.981] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.054] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.054] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.116] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.190] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.190] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.252] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.337] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.337] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.400] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.482] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.483] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.541] [svulkan2] [error] OIDN Error: invalid handle
+step: [92m81 / 150[0mstep: [92m82 / 150[0mstep: [92m83 / 150[0mstep: [92m84 / 150[0mstep: [92m85 / 150[0mstep: [92m86 / 150[0mstep: [92m87 / 150[0mstep: [92m88 / 150[0mstep: [92m89 / 150[0m
+[EvalFailure] wrong_button_pressed: {'reason': 'wrong_button_pressed', 'target_button': 3, 'pressed_buttons': [2], 'wrong_buttons': [2], 'step': 89}
+[2026-09-28 04:33:36.621] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.622] [svulkan2] [error] OIDN Error: invalid handle
+[2026-09-28 04:33:36.688] [svulkan2] [error] OIDN Error: invalid handle
+[StarVLAOFTClient][chunk_timing] ep=0 chunk=5 request_id=starvla_ep0000_chunk00005_step000080 start_step=80 end_step=89 executed_steps=9 chunk_actions=16 request_sec=0.317 sim_sec=1.295 total_sec=1.612 success=False step_limit=150
+[DebugTiming 2026-09-28 04:33:36] START Base_Task.close_env task=count_color_kinds_press_button episode=0 seed=100000 clear_cache=False
+[DebugTiming 2026-09-28 04:33:36] START Base_Task.close_env.close task=count_color_kinds_press_button episode=0 seed=100000 clear_cache=False
+[DebugTiming 2026-09-28 04:33:36] END Base_Task.close_env.close elapsed=0.000s task=count_color_kinds_press_button episode=0 seed=100000 clear_cache=False
+[DebugTiming 2026-09-28 04:33:36] END Base_Task.close_env elapsed=0.000s task=count_color_kinds_press_button episode=0 seed=100000 clear_cache=False
+{"seed": 100000, "task": "count_color_kinds_press_button", "mode": "oracle", "status": "completed", "runtime": "exploratory_bridge", "instruction": "Count the different block colors and press the matching number button; left to right means 1, 2, and 3.", "instruction_selection": "replay_from_prior_case_after_normal_sample", "unforced_sample": "After counting unique colors, press the corresponding button once.", "target_count": 3, "block_color_labels": {"B1": "green", "B2": "red", "B3": "blue", "B4": "red"}, "initial_head_image_sha256": "f77c5e8dfb664190df753e2ed41c67b2cb7618c3f78fa8c8e47e2538ae116687", "step_limit": 150, "oracle_request_text": "Count the different block colors and press the matching number button; left to right means 1, 2, and 3. There are exactly three distinct block colors; press button 3.", "pre_decision_state": {"step": 80, "raw_image_sha256": "075fb8a73aa677580902ad22d31d428e04dbd991f28ea8e1854ccf00c1d1b7af", "resized_image_sha256": "80643ea373fe8b3b8da12b2b53fd57238aae52419bbb752f12f977d9bc249395", "resized_matches_prior_request": true, "robot_joint_vector": [-1.9133720397949219, -0.025974929332733154, 0.672677755355835, 1.4152413606643677, 1.543100357055664, 0.5556889772415161, 0.4523506164550781, 0.4902842938899994, 0.3898639678955078, -0.708106517791748, 1.0115090608596802, 1.3916618824005127, 0.8979229927062988, -4.7266483306884766e-05, -0.011956870555877686, 0.9994315505027771, 0.001846656552515924, 1.0002514123916626, -0.03667247295379639], "button_qpos": {"1": -0.0003962461487390101, "2": -0.0004433252033777535, "3": -0.0003962461487390101}, "block_poses": {"B1": [-0.24185769259929657, 0.223153218626976, 0.7620000243186951], "B2": [0.484510213136673, -0.1448027342557907, 0.7620000839233398], "B3": [0.10318666696548462, 0.19951121509075165, 0.7620000243186951], "B4": [-0.35819995403289795, -0.07035128027200699, 0.7620000243186951]}}, "prefix_checks_before_intervention": {"request_steps": true, "step_count": true, "step_records": true, "instruction": true, "state_histories": true, "action_chunks": true, "image_histories": true}, "pre_decision_matches_parity": true, "intervention_step": 80, "actions_taken": 89, "physical_press_events": [{"step": 89, "button": 2, "qpos": -0.005087804514914751}], "final_button_qpos": {"1": -0.0003962461487390101, "2": -0.005087804514914751, "3": -0.0003962461487390101}, "pressed_button_value": 2, "native_success": false, "native_failed": true, "native_failure_reason": "wrong_button_pressed", "native_failure_detail": {"reason": "wrong_button_pressed", "target_button": 3, "pressed_buttons": [2], "wrong_buttons": [2], "step": 89}}

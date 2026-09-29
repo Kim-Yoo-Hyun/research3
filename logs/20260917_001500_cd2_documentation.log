@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-09-16T15:23:03.666909+00:00",
+  "local_links": 320,
+  "missing_local_links": [],
+  "compact_summary_matches_saved_output": true,
+  "artifact_and_source_hashes_match": true,
+  "new_anchors": 3,
+  "observation_and_verification": "completed",
+  "owned_exited_containers_removed": 3,
+  "external_assets_modified": false,
+  "paper_hypothesis_promoted": false
+}

@@ -1,0 +1,131 @@
+{
+  "run_id": "20260917_001500",
+  "recorded_at_utc": "2026-09-16T15:19:48.565937+00:00",
+  "output_root": "runs/cd2-evaluation/20260917_001500",
+  "source_commit": "4b344135920f44545d546d38aaefa36452cfdafb",
+  "source_record": "buildup/robotics/related_work/comparison_sources.json#remaining_candidates_20260916",
+  "image_tag": "research3-cd2-evaluation:v1",
+  "image_immutable_reference": "sha256:f06bf7c80a1a517630f65e190f96b190c4c53ae6a6ccabf88978043ed122594e",
+  "protocol_sha256": "37ebfeae3e5cae22034caec75394ae0cddff819b9454c63140dd5f164ae07d5e",
+  "code_sha256": {
+    "run.py": "4c7de785f2a7cba62ce5fdbca843b52e56c6795547124b027f4525e540f5db64",
+    "verify.py": "96b9efbaaf5c22aded45c9e75a77f32ff122b2c52c2aee7d5352de928e5fcbe9",
+    "diagnose.py": "84696d27a899f36d7d6986d010129e09c4555046f36fdaa48b0d737effd6d142",
+    "execute.sh": "ff7b9e6d840043c80bdb0bf7d38601c5453a11893fa86ce7364065b5cbcc99ab",
+    "Dockerfile": "3ae6177074b2dab286af27792505bc44a96f85fae2b323fa6a1e1a819119d974",
+    "requirements.lock": "41daee70594bb3cd99a6b641959c52b8a42983ee4609cc65d57ac75dc7a4bfd5"
+  },
+  "payloads": [
+    {
+      "path": "protocol.json",
+      "bytes": 1273,
+      "sha256": "e6e9ef1488717ede8183b54cc08d366c33ebb83bd9b7f03e0f88b5d7696d8ebe"
+    },
+    {
+      "path": "input_manifest.json",
+      "bytes": 5193,
+      "sha256": "18186de874619b9afa94b7af630c1cf4d8d32575ace0c56446d53ec68bc1d4a5"
+    },
+    {
+      "path": "reference.json",
+      "bytes": 31929,
+      "sha256": "00cbb30501118784269271e13a559eaab5812b04944e51051b67d7e6dad9b999"
+    },
+    {
+      "path": "subsets.jsonl",
+      "bytes": 919200,
+      "sha256": "5ba7b4e1b1bf69fdc23876fff08bf2618a8774e281d63f0362f3970cba7c9953"
+    },
+    {
+      "path": "scores.jsonl",
+      "bytes": 10240221,
+      "sha256": "954265cd3f8b492a4a772a97e5b39e9ef0b446f7abdfbe3e97663530cc9a69d9"
+    },
+    {
+      "path": "pairs.jsonl",
+      "bytes": 1196923,
+      "sha256": "8e98cf80ce4d0eb1c7eda7dacc622f96afeca48b86ff695b1b6a986bd7180910"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 7679,
+      "sha256": "e37b992b6ad4363697d1eb24134cbb06e4097aed3fe2609ffcdb2b79ac89e20f"
+    },
+    {
+      "path": "summary.csv",
+      "bytes": 1806,
+      "sha256": "5db65289f40ba741f7e0c8aec0ee604a2dcf5618e12f8e8cb4f3247e92b04f36"
+    },
+    {
+      "path": "execution.json",
+      "bytes": 646,
+      "sha256": "8a54739b9dadd1fe57487554a97f3ffa48252cf2cceabccc697b971cf22ee14b"
+    }
+  ],
+  "supplemental": [
+    {
+      "path": "verification/receipt.json",
+      "bytes": 348,
+      "sha256": "b3ef0fd456d294b40ca7c8b873cc6fc91fc0071b0c5c36f835cb58a427e5ed99"
+    },
+    {
+      "path": "verification/diagnosis.json",
+      "bytes": 62129,
+      "sha256": "533a31883141bd18fa4866a2e6055e0b8412a4cffdccd9b96606772c3afefa83"
+    },
+    {
+      "path": "commands.txt",
+      "bytes": 1977,
+      "sha256": "9612592c12ef274309442b3def08776af4985280f77dd75f417905a5f9b154f3"
+    },
+    {
+      "path": "diagnose.command.json",
+      "bytes": 1227,
+      "sha256": "4391446c32e640ec5b8afbf3465621d1d109137e80ac194c4fe3b1d2d67d9e7e"
+    },
+    {
+      "path": "run.container.json",
+      "bytes": 9964,
+      "sha256": "72bf5ece1274bfbeba693d2b8f0f480e360f70c918854f91f5a3310979a0f995"
+    },
+    {
+      "path": "verify.container.json",
+      "bytes": 10691,
+      "sha256": "97f5167aefb991a6ee37269b4ca82944cefc910ca3b2bda67a7512e0270dde3d"
+    },
+    {
+      "path": "diagnose.container.json",
+      "bytes": 11296,
+      "sha256": "c1d13da044fe318c86b92d3419d9713080d6aab6222ee63eec74e74252873b76"
+    },
+    {
+      "path": "image.json",
+      "bytes": 2552,
+      "sha256": "7b576f81f810e24591c67b2b55c0feacdbacc0a4e35d92ec6bef03d0e0c62acf"
+    }
+  ],
+  "verification": {
+    "status": "passed",
+    "checks": 312860,
+    "source_files": 12,
+    "verified_subsets": 1604,
+    "verified_model_scores": 4812,
+    "verified_pairs": 5614,
+    "verified_summaries": 12,
+    "arithmetic": "original decimal values as exact Fractions; float output tolerance 1e-10",
+    "claim_boundary": "finite aggregate table; no episode-level inference"
+  },
+  "posthoc_diagnosis": "All pair gaps and all greedy cases; no changed selections/thresholds/metrics",
+  "status": "completed; three owned exited containers removed after preservation verification",
+  "cleanup": {
+    "record": "runs/cd2-evaluation/20260917_001500/cleanup.json",
+    "log": "logs/20260917_001500_cd2_cleanup.log",
+    "removed_container_ids": [
+      "5247bc458b49a6fa0fd7666116c2cc5897b44b75144dffc0529f0494c253062a",
+      "be824e541fff828e89c0a412aea42c79b5791fbe8e18f53d0f5c58f9bd540ac1",
+      "f20697866532e03ba9987477b698c0f14e340dd37ac8ab9ef8ec6085c9f55d73"
+    ],
+    "image_retained": true,
+    "other_assets_touched": false
+  }
+}

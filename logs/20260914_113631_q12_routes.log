@@ -1,0 +1,1 @@
+{"body_bytes": {"source": 177128, "range": 910437}, "archives": [{"file": "ycbv_base.zip", "directory_verified": true, "metadata_members": 4, "error": null}, {"file": "ycbv_models.zip", "directory_verified": true, "metadata_members": 3, "error": null}, {"file": "ycbv_test_bop19.zip", "directory_verified": true, "metadata_members": 3, "error": null}], "errors": []}

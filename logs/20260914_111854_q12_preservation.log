@@ -1,0 +1,4 @@
+pybullet build time: Jan 29 2025 23:17:20
+{"paired_cases": 4, "paired_passes": 4, "errors": []}
+{"decision": "SURFACE_OR_QUERY_CHANGE_UNRESOLVED; retain all cases/errors; do not tune thresholds, replace mug or start completion", "errors": [{"object": "025_mug", "error": "AssertionError: corrected edge gate failed"}]}
+{"decision": "SURFACE_OR_QUERY_CHANGE_UNRESOLVED; retain all cases/errors; do not tune thresholds, replace mug or start completion", "files": 38, "bytes": 17837347}

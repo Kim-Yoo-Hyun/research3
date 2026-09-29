@@ -1,0 +1,54 @@
+{"q12_verified": {"checked_at": "2026-09-15T00:54:59.904457+00:00", "read_only": true, "external_backup_verified": false, "q12_assets": [{"path": "datasets/q12/3dsgrasp_ycb_train_test_split.zip", "bytes": 1836233634, "sha256": "85ee4808694de50fc565754baee359af65af4d95bcd4e4f5796bc62389330e2d", "manifest_match": true}, {"path": "datasets/q12/3dsgrasp_model.pth", "bytes": 505668417, "sha256": "1cf1d7cc25f310c08a3fa2bb130dcd2bffe02189d6ab8ae3558492fbbd04ffda", "manifest_match": true}], "q12_duplicates": [{"path": "datasets/q12/archives/input.zip", "outer_member": "input.zip", "bytes": 492023401, "sha256": "cc612590087ef45454d108289962924cb54ee84c6105119402b3ad7f0d7cdd34", "full_stream_crc_and_sha_match": true}, {"path": "datasets/q12/archives/gt.zip", "outer_member": "gt.zip", "bytes": 1388709954, "sha256": "ba61cf17af28b83b7f798a9e574641486a103653b51657bd50dd65711ae9c182", "full_stream_crc_and_sha_match": true}]}}
+{
+  "checked_at": "2026-09-15T00:54:59.904457+00:00",
+  "read_only": true,
+  "external_backup_verified": false,
+  "q12_assets": [
+    {
+      "path": "datasets/q12/3dsgrasp_ycb_train_test_split.zip",
+      "bytes": 1836233634,
+      "sha256": "85ee4808694de50fc565754baee359af65af4d95bcd4e4f5796bc62389330e2d",
+      "manifest_match": true
+    },
+    {
+      "path": "datasets/q12/3dsgrasp_model.pth",
+      "bytes": 505668417,
+      "sha256": "1cf1d7cc25f310c08a3fa2bb130dcd2bffe02189d6ab8ae3558492fbbd04ffda",
+      "manifest_match": true
+    }
+  ],
+  "q12_duplicates": [
+    {
+      "path": "datasets/q12/archives/input.zip",
+      "outer_member": "input.zip",
+      "bytes": 492023401,
+      "sha256": "cc612590087ef45454d108289962924cb54ee84c6105119402b3ad7f0d7cdd34",
+      "full_stream_crc_and_sha_match": true
+    },
+    {
+      "path": "datasets/q12/archives/gt.zip",
+      "outer_member": "gt.zip",
+      "bytes": 1388709954,
+      "sha256": "ba61cf17af28b83b7f798a9e574641486a103653b51657bd50dd65711ae9c182",
+      "full_stream_crc_and_sha_match": true
+    }
+  ],
+  "source_archive": {
+    "path": "external/q8/maniskill.tar.gz",
+    "bytes": 243637951,
+    "sha256": "61c402b86337782e30815d205485b34aba458a3103cdcbe55c293cf0ec6f5293",
+    "original_checksum_match": true,
+    "compared_regular_files": 1495,
+    "compared_regular_bytes": 388705530,
+    "mismatches": [],
+    "non_regular_members": [],
+    "extracted_tree_matches": true
+  },
+  "runtime_cache": {
+    "path": "runs/q1_v3/cache/.sapien/physx/105.1-physx-5.3.1.patch0/libPhysXGpu_64.so",
+    "bytes": 236705440,
+    "sha256": "4c582a16509a71faf5592fe9708586dfcc7ab61ae932eabc1ddd81f290818706",
+    "runtime_manifest_match": true,
+    "kind": "PhysX runtime binary, not model checkpoint or result"
+  }
+}

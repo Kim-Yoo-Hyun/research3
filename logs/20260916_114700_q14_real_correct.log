@@ -1,0 +1,1 @@
+{"status": "pass", "numeric_checks": 672, "new_model_inferences": 0, "reason": "Original unused reprojection_all_mean_px included missing-point sentinels in 002583 official/robust; use null when full-point reprojection is unavailable and separately report available-point residual.", "unchanged": "All poses, ADD, input-point residuals, oracle comparisons and post hoc selection."}

@@ -1,0 +1,9 @@
+# research3-q17-policy:v2 was created by this workspace from Dockerfile.policy
+# before the server-only dependencies were added.
+FROM research3-q17-policy:v2
+
+RUN python -m pip install --no-cache-dir --retries 10 --timeout 180 \
+    numpy==1.26.4 \
+    albumentations==1.4.18 \
+    websockets==16.1.1 \
+    msgpack==1.1.2

@@ -1,0 +1,12 @@
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+INPUTS_READY 8
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.15s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.19s/it]
+PREDICTION 1 lemon_source_failure start_end invalid_json 0.634
+PREDICTION 2 lemon_source_success start_end invalid_json 0.135
+PREDICTION 3 drawer_ball_source_failure start_end invalid_json 0.136
+PREDICTION 4 drawer_ball_source_success start_end invalid_json 0.138
+PREDICTION 5 sport_ball_source_failure start_end invalid_json 0.153
+PREDICTION 6 sport_ball_source_success start_end invalid_json 0.15
+PREDICTION 7 fruit_source_failure start_end invalid_json 0.15
+PREDICTION 8 fruit_source_success start_end invalid_json 0.15
+COMPLETED 8

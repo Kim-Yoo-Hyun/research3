@@ -1,0 +1,19 @@
+{
+  "markdown_files": 17,
+  "local_links": 347,
+  "heading_targets": 153,
+  "errors": [],
+  "new_sources": 9,
+  "new_source_bytes": 497097,
+  "prior_cache_files": 21,
+  "q12_freeze_files_unchanged": 8,
+  "q12_scope": "freeze bytes only; no re-evaluation or full frozen-entry validation",
+  "pilot_arithmetic": {
+    "heldout_records": 2048,
+    "max_scored_control_steps": 524288,
+    "readiness_records": 140
+  },
+  "checked_at": "2026-09-15T01:14:28.076663+09:00",
+  "git_diff_check": "PASS",
+  "scope": "documentation and source/metadata identity checks; no numerical method execution"
+}

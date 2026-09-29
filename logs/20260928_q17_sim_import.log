@@ -1,0 +1,3 @@
+docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting "/home/yoohyun/research3/datasets/q17/sim_assets" to rootfs at "/sim/assets": create mountpoint for /sim/assets mount: make mountpoint "/sim/assets": mkdirat /var/lib/docker/rootfs/overlayfs/3411888757c861a3e3b63469b1cbd03fba0bcf3db80077a06be15e4d7df8b6bf/sim/assets: read-only file system
+
+Run 'docker run --help' for more information

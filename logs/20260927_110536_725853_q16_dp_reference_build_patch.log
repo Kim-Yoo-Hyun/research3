@@ -1,0 +1,30 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.dp_reference_patch
+#1 transferring dockerfile: 367B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/research3-q16-dp-reference@sha256:0aa82464b3bff8483621c2a432305dcc5e7b486d1e460052c7b579a2291f96c0
+#2 ...
+
+#3 [auth] library/research3-q16-dp-reference:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/research3-q16-dp-reference@sha256:0aa82464b3bff8483621c2a432305dcc5e7b486d1e460052c7b579a2291f96c0
+#2 ...
+
+#4 [auth] library/research3-q16-dp-reference:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/research3-q16-dp-reference@sha256:0aa82464b3bff8483621c2a432305dcc5e7b486d1e460052c7b579a2291f96c0
+#2 ERROR: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed
+------
+ > [internal] load metadata for docker.io/library/research3-q16-dp-reference@sha256:0aa82464b3bff8483621c2a432305dcc5e7b486d1e460052c7b579a2291f96c0:
+------
+Dockerfile.dp_reference_patch:1
+--------------------
+   1 | >>> FROM research3-q16-dp-reference@sha256:0aa82464b3bff8483621c2a432305dcc5e7b486d1e460052c7b579a2291f96c0
+   2 |     USER root
+   3 |     COPY requirements.dp.lock /recipe/requirements.dp.lock
+--------------------
+ERROR: failed to build: failed to solve: research3-q16-dp-reference@sha256:0aa82464b3bff8483621c2a432305dcc5e7b486d1e460052c7b579a2291f96c0: failed to resolve source metadata for docker.io/library/research3-q16-dp-reference@sha256:0aa82464b3bff8483621c2a432305dcc5e7b486d1e460052c7b579a2291f96c0: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed

@@ -1,0 +1,113 @@
+{
+  "id": "q12-geometry-assets-v1",
+  "selection_before_payload_inspection": true,
+  "license": "YCB dataset index states CC BY 4.0; code MIT. Google mesh provenance retained; no relicense.",
+  "license_url": "https://ycb-benchmarks.s3.amazonaws.com/index.html",
+  "geometry_units_topology_and_runtime_unverified": true,
+  "publisher_checksum_available": false,
+  "successful_transfer_bytes_this_invocation": 19093132,
+  "objects": [
+    {
+      "id": "003_cracker_box",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/003_cracker_box_google_16k.tgz",
+      "bytes": 11434893,
+      "etag": "\"e7b81ed593c08d77abb94c6308d37d2d-2\"",
+      "archive_path": "datasets/q12/geometry/003_cracker_box.tgz",
+      "archive_sha256": "0f084b0212274700d416384b9bc290521257d2b15ab66f68768a6a22806226b6",
+      "gzip_crc_verified": true,
+      "tar_uncompressed_bytes": 15769600,
+      "members": [
+        {
+          "name": "003_cracker_box/google_16k/kinbody.xml",
+          "bytes": 198,
+          "regular_file": true
+        },
+        {
+          "name": "003_cracker_box/google_16k/nontextured.ply",
+          "bytes": 985179,
+          "regular_file": true
+        },
+        {
+          "name": "003_cracker_box/google_16k/nontextured.stl",
+          "bytes": 819284,
+          "regular_file": true
+        },
+        {
+          "name": "003_cracker_box/google_16k/texture_map.png",
+          "bytes": 9675554,
+          "regular_file": true
+        },
+        {
+          "name": "003_cracker_box/google_16k/textured.dae",
+          "bytes": 2842747,
+          "regular_file": true
+        },
+        {
+          "name": "003_cracker_box/google_16k/textured.mtl",
+          "bytes": 66,
+          "regular_file": true
+        },
+        {
+          "name": "003_cracker_box/google_16k/textured.obj",
+          "bytes": 1431701,
+          "regular_file": true
+        }
+      ],
+      "mesh_member": "003_cracker_box/google_16k/textured.obj",
+      "mesh_path": "datasets/q12/geometry/003_cracker_box.obj",
+      "mesh_bytes": 1431701,
+      "mesh_sha256": "387d3c0e36330051e7e24a5c2859bd5651a739b1b1bad1f536d56227ed2d002a"
+    },
+    {
+      "id": "025_mug",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/025_mug_google_16k.tgz",
+      "bytes": 7658239,
+      "etag": "\"497494d2da0461518572badbc8fe10a0\"",
+      "archive_path": "datasets/q12/geometry/025_mug.tgz",
+      "archive_sha256": "4b640afc1baaa940b66948d1e59426d8da2c5a16558c7c7a118bbe28d0737de5",
+      "gzip_crc_verified": true,
+      "tar_uncompressed_bytes": 11919360,
+      "members": [
+        {
+          "name": "025_mug/google_16k/kinbody.xml",
+          "bytes": 182,
+          "regular_file": true
+        },
+        {
+          "name": "025_mug/google_16k/nontextured.ply",
+          "bytes": 989287,
+          "regular_file": true
+        },
+        {
+          "name": "025_mug/google_16k/nontextured.stl",
+          "bytes": 819284,
+          "regular_file": true
+        },
+        {
+          "name": "025_mug/google_16k/texture_map.png",
+          "bytes": 5777448,
+          "regular_file": true
+        },
+        {
+          "name": "025_mug/google_16k/textured.dae",
+          "bytes": 2827308,
+          "regular_file": true
+        },
+        {
+          "name": "025_mug/google_16k/textured.mtl",
+          "bytes": 66,
+          "regular_file": true
+        },
+        {
+          "name": "025_mug/google_16k/textured.obj",
+          "bytes": 1489543,
+          "regular_file": true
+        }
+      ],
+      "mesh_member": "025_mug/google_16k/textured.obj",
+      "mesh_path": "datasets/q12/geometry/025_mug.obj",
+      "mesh_bytes": 1489543,
+      "mesh_sha256": "2d40b407e9e97402de788bebaa703ff03d682da95318db5ff9bfa1aa083b3a57"
+    }
+  ]
+}

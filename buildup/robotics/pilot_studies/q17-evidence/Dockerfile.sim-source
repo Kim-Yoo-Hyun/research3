@@ -1,0 +1,9 @@
+# The parent image is workspace-owned and built from Dockerfile.sim.
+FROM research3-q17-sim:v2
+
+# BuildKit named context points to the pinned read-only ActiveArena checkout.
+COPY --from=activearena . /sim/
+RUN mkdir -p /sim/assets
+
+LABEL com.research3.study="q17-evidence" \
+      com.research3.activearena_commit="1bf2c77b8d3ab978fc5b4599a69d017f593edbe8"

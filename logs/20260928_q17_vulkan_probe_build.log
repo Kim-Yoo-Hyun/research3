@@ -1,0 +1,78 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.vulkan-probe
+#1 transferring dockerfile: 194B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/research3-q17-sim:v3
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/library/research3-q17-sim:v3@sha256:bef50555aeaba627b37fa6ecfba076e63af4821a4f57e6a1a36a35a6f8d48222
+#4 resolve docker.io/library/research3-q17-sim:v3@sha256:bef50555aeaba627b37fa6ecfba076e63af4821a4f57e6a1a36a35a6f8d48222 0.0s done
+#4 CACHED
+
+#5 [2/2] RUN apt-get update && apt-get install -y --no-install-recommends vulkan-tools     && rm -rf /var/lib/apt/lists/*
+#5 0.356 Get:1 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  InRelease [1578 B]
+#5 0.551 Get:2 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+#5 0.675 Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+#5 1.009 Get:4 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  Packages [3037 kB]
+#5 1.644 Get:5 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+#5 1.878 Get:6 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [7819 kB]
+#5 1.908 Get:7 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+#5 2.175 Get:8 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+#5 2.263 Get:9 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+#5 2.409 Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+#5 2.833 Get:11 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+#5 5.510 Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1623 kB]
+#5 5.554 Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [93.2 kB]
+#5 5.556 Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [8124 kB]
+#5 5.816 Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [4697 kB]
+#5 6.840 Get:16 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [82.9 kB]
+#5 6.841 Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.6 kB]
+#5 11.19 Get:18 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [84.6 kB]
+#5 12.22 Get:19 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1321 kB]
+#5 13.68 Get:20 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [4355 kB]
+#5 14.39 Fetched 51.6 MB in 14s (3627 kB/s)
+#5 14.39 Reading package lists...
+#5 15.17 Reading package lists...
+#5 15.84 Building dependency tree...
+#5 16.03 Reading state information...
+#5 16.18 The following additional packages will be installed:
+#5 16.18   libwayland-client0
+#5 16.22 The following NEW packages will be installed:
+#5 16.22   libwayland-client0 vulkan-tools
+#5 16.76 0 upgraded, 2 newly installed, 0 to remove and 142 not upgraded.
+#5 16.76 Need to get 267 kB of archives.
+#5 16.76 After this operation, 1211 kB of additional disk space will be used.
+#5 16.76 Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwayland-client0 amd64 1.20.0-1ubuntu0.1 [25.9 kB]
+#5 17.35 Get:2 http://archive.ubuntu.com/ubuntu jammy/universe amd64 vulkan-tools amd64 1.3.204.0+dfsg1-1 [241 kB]
+#5 18.29 debconf: delaying package configuration, since apt-utils is not installed
+#5 18.32 Fetched 267 kB in 2s (136 kB/s)
+#5 18.36 Selecting previously unselected package libwayland-client0:amd64.
+#5 18.36 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 16619 files and directories currently installed.)
+#5 18.39 Preparing to unpack .../libwayland-client0_1.20.0-1ubuntu0.1_amd64.deb ...
+#5 18.41 Unpacking libwayland-client0:amd64 (1.20.0-1ubuntu0.1) ...
+#5 18.47 Selecting previously unselected package vulkan-tools.
+#5 18.47 Preparing to unpack .../vulkan-tools_1.3.204.0+dfsg1-1_amd64.deb ...
+#5 18.48 Unpacking vulkan-tools (1.3.204.0+dfsg1-1) ...
+#5 18.57 Setting up libwayland-client0:amd64 (1.20.0-1ubuntu0.1) ...
+#5 18.60 Setting up vulkan-tools (1.3.204.0+dfsg1-1) ...
+#5 18.63 Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+#5 DONE 18.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 0.2s done
+#6 exporting manifest sha256:a17e76b84b2aba3b84f85ddeffd74a970d370de957cd9e47adc8e21e884042df
+#6 exporting manifest sha256:a17e76b84b2aba3b84f85ddeffd74a970d370de957cd9e47adc8e21e884042df 0.0s done
+#6 exporting config sha256:e2686551ace8b05c7709e95b9ddb0ab1098c2f88a303a924c712fc38f43ad052 0.0s done
+#6 exporting attestation manifest sha256:78d9d83a2d7311202ca4b9cf49db166f369825a7724a385c8fa3912684978b27 0.1s done
+#6 exporting manifest list sha256:b348d93649c7abe5f9277263cae04b5a7b616e1b74da873c60832f02cb49df1f
+#6 exporting manifest list sha256:b348d93649c7abe5f9277263cae04b5a7b616e1b74da873c60832f02cb49df1f 0.0s done
+#6 naming to docker.io/library/research3-q17-vulkan-probe:v1 done
+#6 unpacking to docker.io/library/research3-q17-vulkan-probe:v1 0.0s done
+#6 DONE 0.4s

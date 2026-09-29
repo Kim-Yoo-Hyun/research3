@@ -1,6 +1,6 @@
 # Hypothesis Workflow
 
-Updated: 2026-09-01
+Updated: 2026-09-15
 
 이 문서는 `docs/buildup.md`에서 선택된 research question을 formal,
 falsifiable hypothesis로 바꾸는 에이전트 workflow와 작성 규칙을 정의한다. 실제
@@ -40,8 +40,8 @@ Hypothesis workflow는 주제를 처음 생성하는 단계가 아니다. 다음
 만족해 `buildup/README.md`와 source question record에서
 `ready_for_hypothesis`로 확정된 research question만 받는다.
 
-- `docs/buildup.md`의 `Entry To Hypothesis Formulation` criteria가 모두
-  충족돼 있다.
+- `docs/buildup.md`의 `Entry To Hypothesis Formulation`에 따라 중요한 질문과
+  현실적인 첫 검증 경로를 근거로 선택했다.
 - Source research-scope README, question record와 feasibility/pilot evidence
   path가 기록돼 있다.
 - Selection decision, unresolved research risk와 draft hypothesis가 handoff record에
@@ -51,16 +51,19 @@ Handoff 시 exact novelty, final method, full benchmark, second-domain evidence,
 failure-forced method principle은 필수조건이 아니다. 이들은 hypothesis
 evidence가 쌓이면서 검토한다. 충분히 검증된 뒤에만 `experiments/`로
 승격하고 paper-level evidence에는 `docs/paper.md`를 적용한다.
+양의 통계 유의성이나 전체 runtime readiness를 가설 작성의 선행조건으로 추가하지 않는다.
+잠정 설명은 handoff 전 question record에서 작성할 수 있으며, handoff 뒤에는 이 단계가
+설명 수정과 focused validation을 소유한다.
 
 ## Phase Gate
 
 Hypothesis 단계로 넘어간다는 뜻은 thesis direction을 확정한다는 뜻이 아니다. 다음 조건을 만족하는지 검증 가능한 문장으로 압축하는 단계다.
 
-- 기존 한계가 primary source로 뒷받침된다.
+- 기존 한계나 질문의 근거가 primary source 또는 명시된 관찰/논증으로 뒷받침된다.
 - 선택된 research area에서 왜 중요한 문제인지 설명된다.
 - dataset, benchmark, evaluator 또는 small study와 metric/baseline 후보가 있다.
 - 실패했을 때 배울 수 있는 것이 명확하다.
-- 첫 실험이 석사 연구 범위에서 실행 가능하다.
+- 첫 검증이 석사 연구 범위에서 가능한 이유와 남은 준비 위험을 설명할 수 있다.
 
 ## Scope Rule
 
@@ -80,6 +83,9 @@ Hypothesis 단계는 full reproduction이나 full dataset 검증 단계가 아�
 - Experiment-ready gate를 통과하면 `docs/experiments.md`에 따라
   `experiments/`에서 paper-level work를 시작한다.
 - 나쁜 결과가 나오면 왜 안 되는지 기록하고 candidate를 수정하거나 보류한다.
+- 탐색적 pilot과 확증을 구분한다. 기술적 실패·정보 부족·가설에 반하는 증거·투자 보류를
+  분리하고, [buildup의 revision 규칙](buildup.md#validation-and-revision)에 따라 새 관찰과
+  수정 경위를 기록한다. Pilot의 비유의를 자동 종료 기준으로 쓰지 않는다.
 
 ## Hypothesis Folder Convention
 
@@ -96,12 +102,16 @@ hypothesis/
       04_first_experiment.md
 ```
 
+위 tree는 확장 예시다. 처음에는 source question과 첫 검증을 담은 README로 시작하고,
+내용이 필요할 때만 하위 파일을 나눈다. 빈 template 파일 묶음을 진입 조건으로 만들지 않는다.
+
 폴더명 규칙:
 
 - candidate folder는 `CAND-<number>`를 사용한다.
 - hypothesis folder는 `H<number>_<short-title>`을 사용한다.
 - short title은 짧고 핵심 단어 중심으로 쓴다.
-- 아직 hypothesis가 확정되지 않았으면 빈 `H<number>_...` 폴더를 만들지 않는다.
+- Handoff 전에는 빈 `H<number>_...` 폴더를 만들지 않는다. 선택된 질문의 내용 있는
+  `Draft` hypothesis는 검증 결과가 확정되기 전에 작성한다.
 
 ## File Roles
 
@@ -159,11 +169,14 @@ candidate별 hypothesis 후보 묶음을 관리한다.
 
 - "사실", "논문 주장", "에이전트 추론", "사용자 판단 필요"를 구분한다.
 - hypothesis는 한 문장으로 쓴다.
-- hypothesis에는 intervention, expected effect, evaluation target이 들어가야 한다.
+- hypothesis에는 intervention 또는 비교 조건, 예상되는 관찰/관계와 검증 대상을 적는다.
+  Observational analysis를 causal claim으로 바꾸지 않으며 이론은 반례/논증 대상을 명시한다.
 - "좋아질 것이다"처럼 막연하게 쓰지 않는다.
-- metric이 없는 hypothesis는 아직 hypothesis가 아니다.
+- Empirical hypothesis에는 측정할 observable/metric 후보를 둔다. 정확한 threshold와
+  분석 계획은 pilot으로 구체화할 수 있으며 확증 실행 전에 고정한다.
 - baseline이 없는 hypothesis는 아직 experiment-ready가 아니다.
-- 구현 아이디어보다 first falsification path를 먼저 쓴다.
+- 구현 아이디어와 이를 지지/반박할 첫 관찰을 함께 적는다. 탐색에서의 방법 시도 자체에
+  이미 검증된 failure principle을 요구하지 않는다.
 
 ## Hypothesis Template
 

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/study/verify.py", line 148, in <module>
+    verify()
+  File "/study/verify.py", line 102, in verify
+    'initial_pruned_witnesses': witnesses(pruned, set(pruned['init']))}
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/study/verify.py", line 67, in witnesses
+    key = (itemcls[f[1]], reccls[f[2]])
+                          ~~~~~~^^^^^^
+KeyError: 'receptacle70_dining_table'

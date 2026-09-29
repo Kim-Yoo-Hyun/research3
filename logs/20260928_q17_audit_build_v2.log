@@ -1,0 +1,54 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.audit
+#1 transferring dockerfile: 265B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10.16-slim-bookworm
+#2 DONE 0.7s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 7.87kB done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.10.16-slim-bookworm@sha256:f9fd9a142c9e3bc54d906053b756eb7e7e386ee1cf784d82c251cf640c502512
+#5 resolve docker.io/library/python:3.10.16-slim-bookworm@sha256:f9fd9a142c9e3bc54d906053b756eb7e7e386ee1cf784d82c251cf640c502512 0.0s done
+#5 CACHED
+
+#6 [2/4] RUN python -m pip install --no-cache-dir     pyarrow==20.0.0     PyYAML==6.0.2
+#6 0.951 Collecting pyarrow==20.0.0
+#6 0.977   Downloading pyarrow-20.0.0-cp310-cp310-manylinux_2_28_x86_64.whl (42.3 MB)
+#6 3.648      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.3/42.3 MB 11.7 MB/s eta 0:00:00
+#6 3.719 Collecting PyYAML==6.0.2
+#6 3.723   Downloading PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB)
+#6 3.752      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 751.2/751.2 kB 27.2 MB/s eta 0:00:00
+#6 3.783 Installing collected packages: PyYAML, pyarrow
+#6 4.445 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#6 4.445 Successfully installed PyYAML-6.0.2 pyarrow-20.0.0
+#6 4.492 
+#6 4.492 [notice] A new release of pip is available: 23.0.1 -> 26.2.1
+#6 4.492 [notice] To update, run: pip install --upgrade pip
+#6 DONE 4.6s
+
+#7 [3/4] WORKDIR /analysis
+#7 DONE 0.1s
+
+#8 [4/4] COPY audit.py /analysis/audit.py
+#8 DONE 0.1s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 3.9s done
+#9 exporting manifest sha256:7e235d8d407b4ef9725a907a1887f0062c9ac58c31b8430dcbd81ea672c372ae 0.0s done
+#9 exporting config sha256:85f8c34a104a8be0a7af4f14a809ed6e6943f2ec1adc1c2903a2052d5b10bc06 0.0s done
+#9 exporting attestation manifest sha256:1516f7364fecdfa1f3fb3441a4344328e00d35e093d200f0968d5db0d0ab5979 0.1s done
+#9 exporting manifest list sha256:daefe34972965a98b23314088dd600101c603b1c3a27e02682cf2e437b8951be
+#9 exporting manifest list sha256:daefe34972965a98b23314088dd600101c603b1c3a27e02682cf2e437b8951be 0.0s done
+#9 naming to docker.io/library/research3-q17-evidence:v2 done
+#9 unpacking to docker.io/library/research3-q17-evidence:v2
+#9 unpacking to docker.io/library/research3-q17-evidence:v2 0.5s done
+#9 DONE 4.6s

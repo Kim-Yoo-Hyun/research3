@@ -1,6 +1,6 @@
 # Experiments Workflow
 
-Updated: 2026-09-01
+Updated: 2026-09-15
 
 이 문서는 충분히 검증된 hypothesis를 paper-level evidence로 확장하는 main
 experiment workflow와 작성 규칙을 관리한다. 실험별 내용, contract,
@@ -55,11 +55,15 @@ hypothesis study를 위한 폴더가 아니다. 이 단계는 다음 paper-level
 - paper table/figure를 만드는 reproducible command와 artifact
 - claim-evidence ledger와 reviewer-defense evidence
 
+이 기준은 buildup의 첫 관찰 조건이 아니다. `paper/`는 최종 실험 완료 후 실제 논문을
+작성할 때 [Paper Folder Gate](paper.md#paper-folder-gate)를 모두 충족해 연다.
+
 ## Docker Rule
 
 - 논문 본문용 experiment 구현은 Docker를 기본 실행 환경으로 둔다.
 - 외부 repo, detector, simulator, GPU dependency, system package, compiled extension이 필요한 실험은 Dockerfile 또는 Docker 실행 명령이 있어야 paper-table command로 인정한다.
-- 단순 artifact audit, JSONL 변환, 기존 산출물 재집계처럼 repository-local 표준 Python만 쓰는 보조 분석은 Docker 전 단계에서 실행할 수 있다.
+- Host에서는 method dependency를 실행하지 않는 byte/manifest/log inspection과 가벼운
+  문서/source 검증만 한다. 기존 산출물의 수치 재집계나 evaluation도 Docker 안에서 수행한다.
 - 최종 논문 표에 들어가는 command는 Docker image tag, mounted dataset path, exact command, seed, output path를 함께 기록한다.
 
 ## Main Experiment Gate

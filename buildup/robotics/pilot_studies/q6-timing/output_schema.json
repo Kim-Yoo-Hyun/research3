@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Q6 readiness record metadata",
+  "type": "object",
+  "required": ["id", "level", "seed", "profile", "implementation", "group", "constant", "order", "phase", "delays", "estimates", "switches", "state_keys", "state_sha256", "validity", "npz", "bytes", "sha256"],
+  "properties": {
+    "id": {"type": "string"},
+    "level": {"enum": ["grasp_easy", "catcher_v3"]},
+    "seed": {"type": "integer", "minimum": 0, "maximum": 15},
+    "profile": {"enum": ["naive", "hard-last", "hard-recent", "hard-fixed", "soft-recent", "soft-fixed", "hard-oracle", "hard-buffer"]},
+    "implementation": {"enum": ["original", "adapter"]},
+    "group": {"enum": ["parity", "repeat", "buffer", "competence"]},
+    "constant": {"enum": [null, 0, 1, 2, 3]},
+    "order": {"enum": [null, "interleaved", "clustered"]},
+    "phase": {"type": "integer", "minimum": 0, "maximum": 7},
+    "delays": {"type": "array", "minItems": 64, "maxItems": 64, "items": {"type": "integer", "minimum": 0, "maximum": 3}},
+    "estimates": {"type": "array", "minItems": 64, "maxItems": 64, "items": {"type": "integer", "minimum": 0, "maximum": 3}},
+    "switches": {"type": "array", "minItems": 64, "maxItems": 64, "items": {"type": "integer", "minimum": 0, "maximum": 3}},
+    "state_keys": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["key", "path"]}},
+    "state_sha256": {"type": "array", "minItems": 256, "maxItems": 256, "items": {"type": "string", "pattern": "^[a-f0-9]{64}$"}},
+    "validity": {"enum": ["PASS", "FAIL"]},
+    "terminal_step": {"type": "integer", "minimum": 1, "maximum": 256},
+    "success": {"type": "boolean"},
+    "failure_penalized_steps": {"type": "integer", "minimum": 1, "maximum": 256},
+    "failure": {"type": "string"},
+    "npz": {"type": "string", "pattern": "^records/[^/]+\\.npz$"},
+    "bytes": {"type": "integer", "minimum": 1},
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "allOf": [{
+    "if": {"properties": {"validity": {"const": "PASS"}}},
+    "then": {"required": ["terminal_step", "success", "failure_penalized_steps", "consumed_delays"]},
+    "else": {"required": ["failure"]}
+  }],
+  "$comment": "NPZ array names, axes and diagnostic roles are described by README and per-record state_keys. Failed metadata may omit terminal summaries; the independent verifier derives them directly from saved arrays. This schema documents readiness output, not a pilot artifact or a completed validation gate."
+}

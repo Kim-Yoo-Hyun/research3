@@ -1,0 +1,47 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /usr/local/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+{
+  "nq": 37,
+  "nv": 33,
+  "targets": {
+    "28": [
+      "Cereal_joint0"
+    ],
+    "49": [
+      "Milk_joint0"
+    ],
+    "50": [
+      "Milk_joint0"
+    ],
+    "55": [
+      "Bread_joint0"
+    ],
+    "56": [
+      "Bread_joint0"
+    ],
+    "60": [
+      "Cereal_joint0"
+    ],
+    "61": [
+      "Cereal_joint0"
+    ],
+    "62": [
+      "Cereal_joint0"
+    ],
+    "63": [
+      "Cereal_joint0"
+    ],
+    "64": [
+      "Cereal_joint0"
+    ],
+    "68": [
+      "Can_joint0"
+    ],
+    "69": [
+      "Can_joint0"
+    ]
+  }
+}

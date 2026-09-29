@@ -1,0 +1,3 @@
+Audit: runs/docker_cleanup/20260918_130610
+PASS 729 saved-output/runtime checks
+No deletion. External backup not verified.

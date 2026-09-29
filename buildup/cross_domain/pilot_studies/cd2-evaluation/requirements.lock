@@ -1,0 +1,2 @@
+# Python 3.11.14, standard library only. No pip/apt dependencies.
+# Base image immutable digest is pinned in Dockerfile.

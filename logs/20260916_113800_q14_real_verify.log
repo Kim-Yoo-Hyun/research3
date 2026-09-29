@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "numeric_comparisons": 1745,
+  "max_numeric_difference": 1.1114664744127367e-11,
+  "input_hashes": 49,
+  "output_hashes": 54,
+  "synthetic_pose_and_frame_composition": "pass",
+  "baseline_direct_opencv_reconstruction": "pass",
+  "heatmap_peak_and_resize_reconstruction": "pass",
+  "ransac_and_refinement_reconstruction": "pass",
+  "independent_homogeneous_metric_calculation": "pass",
+  "no_new_model_inference": true
+}
+
+robust better/worse/equal 4 6 14

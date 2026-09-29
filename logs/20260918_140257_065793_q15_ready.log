@@ -1,0 +1,32 @@
+Downloading PhysX GPU library to /home/research/.sapien/physx/105.1-physx-5.3.1.patch0 from Github. This can take several minutes. If it fails to download, please manually download fhttps://github.com/sapien-sim/physx-precompiled/releases/download/105.1-physx-5.3.1.patch0/linux-so.zip and unzip at /home/research/.sapien/physx/105.1-physx-5.3.1.patch0.
+Download complete.
+official end 0 once 0
+native end 0 once 0
+no_grasp end 0 once 0
+half end 0 once 0
+mass end 0 once 0
+friction end 0 once 0
+joint end 0 once 0
+Traceback (most recent call last):
+  File "/study/formula.py", line 34, in <module>
+    records[variant]=array(RewardPickCube.compute_normalized_dense_reward(proxy,None,None,info))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/study/task.py", line 38, in compute_normalized_dense_reward
+    native=super().compute_normalized_dense_reward(obs,action,info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/tasks/tabletop/pick_cube.py", line 191, in compute_normalized_dense_reward
+    return self.compute_dense_reward(obs=obs, action=action, info=info) / 5
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/study/formula.py", line 28, in <lambda>
+    proxy.compute_dense_reward=lambda **kw:PickCubeEnv.compute_dense_reward(proxy,**kw)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/tasks/tabletop/pick_cube.py", line 163, in compute_dense_reward
+    self.cube.pose.p - self.agent.tcp_pose.p, axis=1
+                       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'types.SimpleNamespace' object has no attribute 'tcp_pose'
+Traceback (most recent call last):
+  File "/study/ready.py", line 29, in <module>
+    subprocess.run([sys.executable,'-B','/study/formula.py','--output',str(out/'formula.npz')],check=True,timeout=30)
+  File "/usr/local/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/local/bin/python', '-B', '/study/formula.py', '--output', '/output/ready_v1/formula.npz']' returned non-zero exit status 1.

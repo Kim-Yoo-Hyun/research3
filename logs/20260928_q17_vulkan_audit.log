@@ -1,0 +1,29 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.8.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+/etc/vulkan/icd.d:
+total 16
+drwxr-xr-x 1 root root 4096 Sep 28 03:00 .
+drwxr-xr-x 1 root root 4096 Sep 28 02:50 ..
+-rw-r--r-- 1 root root  140 Jun 23 07:56 nvidia_icd.json
+	libvulkan.so.1 (libc6,x86-64) => /lib/x86_64-linux-gnu/libvulkan.so.1
+	libnvidia-glcore.so.580.173.02 (libc6,x86-64) => /lib/x86_64-linux-gnu/libnvidia-glcore.so.580.173.02
+	libGLX_nvidia.so.0 (libc6,x86-64) => /lib/x86_64-linux-gnu/libGLX_nvidia.so.0
+crw-rw-rw- 1 root root 195, 254 Sep 28 03:00 /dev/nvidia-modeset
+crw-rw-rw- 1 root root 510,   0 Sep 28 03:00 /dev/nvidia-uvm
+crw-rw-rw- 1 root root 510,   1 Sep 28 03:00 /dev/nvidia-uvm-tools
+crw-rw-rw- 1 root root 195,   0 Sep 28 03:00 /dev/nvidia0
+crw-rw-rw- 1 root root 195, 255 Sep 28 03:00 /dev/nvidiactl
+GPU 0: NVIDIA GeForce RTX 5090 (UUID: GPU-90cacfcf-72fe-4b1c-1bd4-cffb389ff9ea)

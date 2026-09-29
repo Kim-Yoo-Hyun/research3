@@ -1,0 +1,394 @@
+{
+  "status": "exploratory_verified",
+  "source_commit": "5ba07ac6661db573af695b419a7947ecb704690f",
+  "source_archive_sha256": "ce530dbf17f099b29945abf1fdced97be5b7ad38772f93ecea4e8e9a00b65931",
+  "checkpoint_sha256": "f804e16575e261fa0b7e981da3f67741fc8517817734320d550e43a4182bf876",
+  "image_id": "sha256:e7de793ef15f41922fc4851d42d5bf2c386783c61a6b22c0a83ac09dd5e455ed",
+  "environment": "original PushTEnv/PushTKeypointsEnv, legacy=True",
+  "policy_input": "2x20 keypoint/agent-position; all masks visible",
+  "action": "2D absolute target, 8-step chunks, 100 diffusion steps",
+  "policy_training_max_episodes": 90,
+  "comparison": "prior 5D ridge BC on same initial states; representation and training budget not matched",
+  "seeds": [
+    49000,
+    49001,
+    49002,
+    49003,
+    49004,
+    49005,
+    49006,
+    49007
+  ],
+  "native_success": "coverage >0.95",
+  "evaluation": [
+    {
+      "seed": 49000,
+      "route": "released_dp",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.12095774213025665,
+      "final_coverage": 0.12095774213025665,
+      "any_contact": false,
+      "object_motion_px": 0.0,
+      "rollout_seconds": 9.054385716095567,
+      "trace": "released_dp_49000.npz",
+      "sha256": "90812005feb520004e3177e37e498447bb2f930430e6b3e34c62724eb86cf7f1"
+    },
+    {
+      "seed": 49000,
+      "route": "ridge_bc",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.12095774213025665,
+      "final_coverage": 0.12095774213025665,
+      "any_contact": false,
+      "object_motion_px": 0.0,
+      "rollout_seconds": 0.1028276989236474,
+      "trace": "ridge_bc_49000.npz",
+      "sha256": "4bc5ed7f3726bf4d2c3b565932b733342a254c6bda1336f01f11e04bd7fa7e34"
+    },
+    {
+      "seed": 49001,
+      "route": "released_dp",
+      "steps": 192,
+      "any_success": true,
+      "max_coverage": 0.9585666597032608,
+      "final_coverage": 0.9585666597032608,
+      "any_contact": true,
+      "object_motion_px": 133.47080145455274,
+      "rollout_seconds": 5.589503196068108,
+      "trace": "released_dp_49001.npz",
+      "sha256": "fe489cbbf21aba4ef5647fb1da5142d485f315f0d690243b59b09829083aa840"
+    },
+    {
+      "seed": 49001,
+      "route": "ridge_bc",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.4425288917157507,
+      "final_coverage": 0.0,
+      "any_contact": true,
+      "object_motion_px": 279.2826839712943,
+      "rollout_seconds": 0.10720550455152988,
+      "trace": "ridge_bc_49001.npz",
+      "sha256": "d7bd8cf09e98e93d46b4cb9791310efdf3ceabff8ec051dce04fde84855ee4e9"
+    },
+    {
+      "seed": 49002,
+      "route": "released_dp",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.9377989498730566,
+      "final_coverage": 0.840625881474339,
+      "any_contact": true,
+      "object_motion_px": 217.46246280353924,
+      "rollout_seconds": 8.813775695860386,
+      "trace": "released_dp_49002.npz",
+      "sha256": "f4fbd4a027a0d40a230309664f67030e002c64125ff081e58ecb100f8822c2e1"
+    },
+    {
+      "seed": 49002,
+      "route": "ridge_bc",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.0,
+      "final_coverage": 0.0,
+      "any_contact": false,
+      "object_motion_px": 0.0,
+      "rollout_seconds": 0.08838809095323086,
+      "trace": "ridge_bc_49002.npz",
+      "sha256": "4c37c781446648368743d0cc73c7c96801120eb04cbb355559d95bf0660b87c9"
+    },
+    {
+      "seed": 49003,
+      "route": "released_dp",
+      "steps": 220,
+      "any_success": true,
+      "max_coverage": 0.9505110556067865,
+      "final_coverage": 0.9505110556067865,
+      "any_contact": true,
+      "object_motion_px": 76.16412090864812,
+      "rollout_seconds": 6.4982245890423656,
+      "trace": "released_dp_49003.npz",
+      "sha256": "dd095f6c2d08efc550bdbce4c192eb3d2c6789cad707547bc87d507947828397"
+    },
+    {
+      "seed": 49003,
+      "route": "ridge_bc",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.0,
+      "final_coverage": 0.0,
+      "any_contact": true,
+      "object_motion_px": 133.0673703815544,
+      "rollout_seconds": 0.09142746590077877,
+      "trace": "ridge_bc_49003.npz",
+      "sha256": "811fd846354fb71341c7da5b3d6bddc600f4a2f7bc87797772dde3a6fa95aece"
+    },
+    {
+      "seed": 49004,
+      "route": "released_dp",
+      "steps": 120,
+      "any_success": true,
+      "max_coverage": 0.9567706235864685,
+      "final_coverage": 0.9567706235864685,
+      "any_contact": true,
+      "object_motion_px": 118.36147395469342,
+      "rollout_seconds": 3.486764549277723,
+      "trace": "released_dp_49004.npz",
+      "sha256": "3591882b8f3fe44bd97b390b0125c92d517aeac00aceb1e540b87b64747d2db9"
+    },
+    {
+      "seed": 49004,
+      "route": "ridge_bc",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.0,
+      "final_coverage": 0.0,
+      "any_contact": true,
+      "object_motion_px": 0.3592977077308881,
+      "rollout_seconds": 0.0899397125467658,
+      "trace": "ridge_bc_49004.npz",
+      "sha256": "155d4952c6ad251ead5a7d7a6a4a985ac825784cd08143753a9cbd88f24a1e0f"
+    },
+    {
+      "seed": 49005,
+      "route": "released_dp",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.9461831863375776,
+      "final_coverage": 0.9043236153873117,
+      "any_contact": true,
+      "object_motion_px": 147.05838186862886,
+      "rollout_seconds": 8.830730005167425,
+      "trace": "released_dp_49005.npz",
+      "sha256": "876c3c76891515e9f8c6012b15d8d3d69dfcf763a6dbe2de852043e74ca53842"
+    },
+    {
+      "seed": 49005,
+      "route": "ridge_bc",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.0,
+      "final_coverage": 0.0,
+      "any_contact": true,
+      "object_motion_px": 119.17344897677879,
+      "rollout_seconds": 0.10020927712321281,
+      "trace": "ridge_bc_49005.npz",
+      "sha256": "157dfed49cd7d9ea2ba63446b263551938504b68854997d98f64890cc91cf0e2"
+    },
+    {
+      "seed": 49006,
+      "route": "released_dp",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.9474054372285907,
+      "final_coverage": 0.9368354128687034,
+      "any_contact": true,
+      "object_motion_px": 126.06610452245778,
+      "rollout_seconds": 8.859761339612305,
+      "trace": "released_dp_49006.npz",
+      "sha256": "6c0da0dd46583d049f1dfe0f3d95b971de375ea3429a719bcbc4dd12afd109b5"
+    },
+    {
+      "seed": 49006,
+      "route": "ridge_bc",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.3723029406095626,
+      "final_coverage": 0.0,
+      "any_contact": true,
+      "object_motion_px": 317.10103601931377,
+      "rollout_seconds": 0.09725421294569969,
+      "trace": "ridge_bc_49006.npz",
+      "sha256": "1eba8e7b91031f33113f72469997dad4206a2e70a7950a2233366e12cccf4fff"
+    },
+    {
+      "seed": 49007,
+      "route": "released_dp",
+      "steps": 265,
+      "any_success": true,
+      "max_coverage": 0.9781295977977945,
+      "final_coverage": 0.9781295977977945,
+      "any_contact": true,
+      "object_motion_px": 182.53529121030928,
+      "rollout_seconds": 7.930607934482396,
+      "trace": "released_dp_49007.npz",
+      "sha256": "eb4c9d53f4a7cf9f546d76c9208bc408f9f9e12083ea496c647cf0b857e41127"
+    },
+    {
+      "seed": 49007,
+      "route": "ridge_bc",
+      "steps": 300,
+      "any_success": false,
+      "max_coverage": 0.0,
+      "final_coverage": 0.0,
+      "any_contact": true,
+      "object_motion_px": 84.87146353898237,
+      "rollout_seconds": 0.10143047664314508,
+      "trace": "ridge_bc_49007.npz",
+      "sha256": "dc967f74c568e5241c658b980210e4f6f1e3009bd21e4e42666090142b8ef1dc"
+    }
+  ],
+  "branch_selection": "two highest max-coverage failures with native contact, T motion >=1px, >=32 remaining steps",
+  "branches": [
+    {
+      "seed": 49006,
+      "route": "control_first",
+      "branch_step": 248,
+      "target": [
+        228.85140991210938,
+        337.10369873046875
+      ],
+      "any_success": false,
+      "max_coverage": 0.9474054372285907,
+      "final_coverage": 0.9368354128687036,
+      "prefix_max_drift": 2.220446049250313e-16,
+      "rollout_seconds": 9.291169664822519,
+      "trace": "49006_control_first.npz",
+      "sha256": "4cfd84b589bad87e5bf13aa37b4ecce4e53ca38b248137130f79d923f5477a40"
+    },
+    {
+      "seed": 49006,
+      "route": "feedback",
+      "branch_step": 248,
+      "target": [
+        251.5584429451121,
+        319.83467694291824
+      ],
+      "any_success": false,
+      "max_coverage": 0.9419162075638725,
+      "final_coverage": 0.9227091266006107,
+      "prefix_max_drift": 0.0,
+      "rollout_seconds": 8.874535027891397,
+      "trace": "49006_feedback.npz",
+      "sha256": "c71082e5ace24431423c06768f156035cfeba64646503b4819642390caa309d5"
+    },
+    {
+      "seed": 49006,
+      "route": "plus_x",
+      "branch_step": 248,
+      "target": [
+        268.8514099121094,
+        337.10369873046875
+      ],
+      "any_success": false,
+      "max_coverage": 0.9419002922890414,
+      "final_coverage": 0.9234955044884179,
+      "prefix_max_drift": 0.0,
+      "rollout_seconds": 8.870564745739102,
+      "trace": "49006_plus_x.npz",
+      "sha256": "70397f95628bda5888c651eb3e01423ad38249a497858686bc19f8bec027ed34"
+    },
+    {
+      "seed": 49006,
+      "route": "control_last",
+      "branch_step": 248,
+      "target": [
+        228.85140991210938,
+        337.10369873046875
+      ],
+      "any_success": false,
+      "max_coverage": 0.9474054372285907,
+      "final_coverage": 0.9368354128687034,
+      "prefix_max_drift": 0.0,
+      "rollout_seconds": 8.861950212158263,
+      "trace": "49006_control_last.npz",
+      "sha256": "6c0da0dd46583d049f1dfe0f3d95b971de375ea3429a719bcbc4dd12afd109b5"
+    },
+    {
+      "seed": 49005,
+      "route": "control_first",
+      "branch_step": 200,
+      "target": [
+        201.2018280029297,
+        391.03057861328125
+      ],
+      "any_success": false,
+      "max_coverage": 0.9461831863375777,
+      "final_coverage": 0.9043236153873117,
+      "prefix_max_drift": 3.3306690738754696e-16,
+      "rollout_seconds": 8.85873603541404,
+      "trace": "49005_control_first.npz",
+      "sha256": "5e0ea09668703423d36e1554a0a904462c09aee293b6c8c2035929e0a4ee571c"
+    },
+    {
+      "seed": 49005,
+      "route": "feedback",
+      "branch_step": 200,
+      "target": [
+        224.86904960468064,
+        402.2681315086918
+      ],
+      "any_success": true,
+      "max_coverage": 0.9554606191257801,
+      "final_coverage": 0.9554606191257801,
+      "prefix_max_drift": 3.3306690738754696e-16,
+      "rollout_seconds": 8.166630081832409,
+      "trace": "49005_feedback.npz",
+      "sha256": "a72c243952b0a36ca9039f07eed7bc411ae621f395683d527d4a8afcf26c88d3"
+    },
+    {
+      "seed": 49005,
+      "route": "plus_x",
+      "branch_step": 200,
+      "target": [
+        241.2018280029297,
+        391.03057861328125
+      ],
+      "any_success": true,
+      "max_coverage": 0.953655291310294,
+      "final_coverage": 0.953655291310294,
+      "prefix_max_drift": 0.0,
+      "rollout_seconds": 8.16205523069948,
+      "trace": "49005_plus_x.npz",
+      "sha256": "be9d85e83c0f3d35cf46446965b6976c9de86c43ec1e81e94a35a5d5c20e9a69"
+    },
+    {
+      "seed": 49005,
+      "route": "control_last",
+      "branch_step": 200,
+      "target": [
+        201.2018280029297,
+        391.03057861328125
+      ],
+      "any_success": false,
+      "max_coverage": 0.9461831863375776,
+      "final_coverage": 0.9043236153873117,
+      "prefix_max_drift": 0.0,
+      "rollout_seconds": 8.861703298054636,
+      "trace": "49005_control_last.npz",
+      "sha256": "876c3c76891515e9f8c6012b15d8d3d69dfcf763a6dbe2de852043e74ca53842"
+    }
+  ],
+  "parity": [
+    {
+      "seed": 16031,
+      "max_source_vs_maintained_drift": 0.0,
+      "keypoint_agent_position_drift": 0.0,
+      "source_vs_keypoint_contact_match": true,
+      "source_vs_maintained_contact_match": false
+    },
+    {
+      "seed": 16032,
+      "max_source_vs_maintained_drift": 0.0,
+      "keypoint_agent_position_drift": 0.0,
+      "source_vs_keypoint_contact_match": true,
+      "source_vs_maintained_contact_match": true
+    }
+  ],
+  "docker_verification": {
+    "evaluation": 16,
+    "branches": 8,
+    "max_replay_drift": 6.661338147750939e-16
+  },
+  "artifact_sha256": {
+    "inspect1/config.json": "a7b13228e9dd3fd594d9c4b2372ef3551532879f733126bc13e3c0bce320eeb9",
+    "parity1/assessment.json": "8765866bef881bd5116e71f8cf921d08434adb113f7dea99ac2979da071550f5",
+    "eval1/evaluation.json": "56ff3dcf17107d2b5e29c62b8f949560b10c5956cf8017b1747f084ea13ef428",
+    "eval1/verification.json": "fd3c5d8b88ad5ec55a99a790377975e6360adc865cd3d9c42f37e912f5fbf927",
+    "branch1/assessment.json": "da3b823a7ad9e69ae9fe3a2e42f1c5d5914fff7094af6f4c33c9984a225d2642",
+    "branch1/verification.json": "38e47dfe26bd81144a2199579c343b35e2328a47464352b1a415a5aec8c668ab"
+  },
+  "claim_boundary": "Two selected, exploratory branch cases; one feedback and arbitrary +x rescue do not establish predictive-model value or generality."
+}

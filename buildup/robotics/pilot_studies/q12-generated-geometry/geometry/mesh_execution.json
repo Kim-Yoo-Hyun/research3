@@ -1,0 +1,31 @@
+{
+  "id": "q12-geometry-v1-postrun-mesh-audit",
+  "status": "completed and verified",
+  "recorded_at_utc": "2026-09-11T02:35:08.060992+00:00",
+  "cwd": "/home/yoohyun/research3",
+  "command": "bash buildup/robotics/pilot_studies/q12-generated-geometry/geometry/verify_mesh.sh",
+  "image_id": "sha256:0196da1a3a01ca07186c5c2c605d7e8993193ca810b2b6401dc95943dc0b0adb",
+  "source_files": {
+    "verify_mesh.py": "7be3ab937c337f516679df731f789065a0eceabb5b76b54a95355198905d4b3f",
+    "verify_mesh.sh": "8b683ea55b9becd41268e7af62b0faecb3258e34b06df688963bad2b7e32f8bd"
+  },
+  "resources": {
+    "cpu": 2,
+    "ram_bytes": 1073741824,
+    "timeout_seconds": 300,
+    "network": "none",
+    "gpu": false
+  },
+  "read_only_mounts": [
+    "/study",
+    "/assets",
+    "/input"
+  ],
+  "write_mount": "/output",
+  "log": "logs/20260911_112907_q12_mesh_audit.log",
+  "exit_file": "logs/20260911_112907_q12_mesh_audit.exit",
+  "output_path": "runs/q12_geometry_v1_mesh_audit/verification.json",
+  "output_bytes": 3873,
+  "output_sha256": "404618fc33d86f56ec09d607f4a5e42a0eef81b31a3847bbd20e8a97fc27300b",
+  "main_execution_sha256": "fd038fe72a6ca3f21d4f2fcbde0944164c2006ef503e3a2e67c37454fd6c7cdb"
+}

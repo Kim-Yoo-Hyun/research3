@@ -1,0 +1,12 @@
+policy epoch 10 val_noise_mse 0.19560993983320993 val_behavior_mse 0.09343948194833651
+policy epoch 20 val_noise_mse 0.17083283462753035 val_behavior_mse 0.06658536899987966
+policy epoch 30 val_noise_mse 0.15614595458115618 val_behavior_mse 0.05398194359181679
+policy epoch 40 val_noise_mse 0.14578360176249727 val_behavior_mse 0.047239005004298194
+policy epoch 50 val_noise_mse 0.13856050923262556 val_behavior_mse 0.04242421094685385
+policy epoch 60 val_noise_mse 0.13394796746234372 val_behavior_mse 0.03754235130466827
+dynamics epoch 10 val_mse 0.0034406953427481325
+dynamics epoch 20 val_mse 0.0014789258948523024
+dynamics epoch 30 val_mse 0.0010491408286488627
+dynamics epoch 40 val_mse 0.0007126559700059904
+dynamics epoch 50 val_mse 0.0006306921551854576
+dynamics epoch 60 val_mse 0.0005530627273218749

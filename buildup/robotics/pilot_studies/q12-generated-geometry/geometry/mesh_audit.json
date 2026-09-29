@@ -1,0 +1,146 @@
+{
+  "status": "VERIFIED",
+  "decision": "REFINE_LINKAGE",
+  "denominator": 4,
+  "objects": [
+    {
+      "object": "003_cracker_box",
+      "raw_vertices": 8194,
+      "exact_unique_vertices": 8194,
+      "faces": 16384,
+      "raw_index_edge_degree_histogram": {
+        "2": 24576
+      },
+      "welded_edge_degree_histogram": {
+        "2": 24576
+      },
+      "raw_index_orientation_failures": 0,
+      "bad_welded_edges": 0,
+      "bad_welded_orientation": 0,
+      "minimum_triangle_area_m2": 1.9419380369265173e-08,
+      "below_area_threshold_face_ids_zero_based": [],
+      "repeated_coordinate_face_ids_zero_based": [],
+      "bad_edge_samples": [],
+      "mesh_sha256": "387d3c0e36330051e7e24a5c2859bd5651a739b1b1bad1f536d56227ed2d002a",
+      "producer_receipt_sha256": "0c6f669826f28405992e2f11121714efd35a8a8bd6067384c9973e1b91b296d8",
+      "gate_failure_independently_confirmed": false
+    },
+    {
+      "object": "025_mug",
+      "raw_vertices": 8188,
+      "exact_unique_vertices": 8185,
+      "faces": 16384,
+      "raw_index_edge_degree_histogram": {
+        "2": 24576
+      },
+      "welded_edge_degree_histogram": {
+        "2": 24558,
+        "4": 9
+      },
+      "raw_index_orientation_failures": 0,
+      "bad_welded_edges": 9,
+      "bad_welded_orientation": 3,
+      "minimum_triangle_area_m2": 0.0,
+      "below_area_threshold_face_ids_zero_based": [
+        3007,
+        3572,
+        9916,
+        9919,
+        12329,
+        12333
+      ],
+      "repeated_coordinate_face_ids_zero_based": [
+        3007,
+        3572,
+        9916,
+        9919,
+        12329,
+        12333
+      ],
+      "bad_edge_samples": [
+        {
+          "canonical_vertex_ids": [
+            274,
+            285
+          ],
+          "degree": 4,
+          "orientation_sum": 0
+        },
+        {
+          "canonical_vertex_ids": [
+            274,
+            289
+          ],
+          "degree": 4,
+          "orientation_sum": 0
+        },
+        {
+          "canonical_vertex_ids": [
+            274,
+            292
+          ],
+          "degree": 4,
+          "orientation_sum": 0
+        },
+        {
+          "canonical_vertex_ids": [
+            495,
+            497
+          ],
+          "degree": 4,
+          "orientation_sum": 0
+        },
+        {
+          "canonical_vertex_ids": [
+            497,
+            502
+          ],
+          "degree": 4,
+          "orientation_sum": 0
+        },
+        {
+          "canonical_vertex_ids": [
+            497,
+            505
+          ],
+          "degree": 4,
+          "orientation_sum": 0
+        },
+        {
+          "canonical_vertex_ids": [
+            6935,
+            6942
+          ],
+          "degree": 4,
+          "orientation_sum": 0
+        },
+        {
+          "canonical_vertex_ids": [
+            6939,
+            6942
+          ],
+          "degree": 4,
+          "orientation_sum": 0
+        },
+        {
+          "canonical_vertex_ids": [
+            6942,
+            7017
+          ],
+          "degree": 4,
+          "orientation_sum": 0
+        }
+      ],
+      "mesh_sha256": "2d40b407e9e97402de788bebaa703ff03d682da95318db5ff9bfa1aa083b3a57",
+      "producer_receipt_sha256": "1fad793f7bd4dba0952eb8c4a6f125c33f92521549f58ef22944d657ad3b9b9e",
+      "gate_failure_independently_confirmed": true
+    }
+  ],
+  "source": "independent scalar tuple/Counter/triangle-area calculation; no scene.py/NumPy/PyBullet import",
+  "inputs_repaired": false,
+  "rendering_or_collision_reexecuted": false,
+  "frozen_digest": "014e3edac4c4456afc3efc1c3622cc72b6150358feae1b15945394c647523e1c",
+  "execution_digest": "fd038fe72a6ca3f21d4f2fcbde0944164c2006ef503e3a2e67c37454fd6c7cdb",
+  "verifier_digest": "71da2164b91c83d2b0bf1029dd8c6064dfed19c433023f18e53b0dd6c8f051b3",
+  "audit_script_sha256": "7be3ab937c337f516679df731f789065a0eceabb5b76b54a95355198905d4b3f"
+}

@@ -1,0 +1,80 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.dp_reference_patch
+#1 transferring dockerfile: 298B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/research3-q16-dp-reference:v1
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/research3-q16-dp-reference:v1@sha256:0aa82464b3bff8483621c2a432305dcc5e7b486d1e460052c7b579a2291f96c0
+#4 resolve docker.io/library/research3-q16-dp-reference:v1@sha256:0aa82464b3bff8483621c2a432305dcc5e7b486d1e460052c7b579a2291f96c0 0.0s done
+#4 DONE 0.1s
+
+#5 [internal] load build context
+#5 transferring context: 531B done
+#5 DONE 0.0s
+
+#6 [2/4] COPY requirements.dp.lock /recipe/requirements.dp.lock
+#6 DONE 0.0s
+
+#7 [3/4] RUN pip install --no-cache-dir matplotlib==3.9.2 && pip check && pip freeze --all > /recipe/installed.dp.lock
+#7 0.924 Collecting matplotlib==3.9.2
+#7 0.951   Downloading matplotlib-3.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+#7 0.989 Collecting contourpy>=1.0.1 (from matplotlib==3.9.2)
+#7 0.993   Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+#7 1.000 Collecting cycler>=0.10 (from matplotlib==3.9.2)
+#7 1.003   Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+#7 1.105 Collecting fonttools>=4.22.0 (from matplotlib==3.9.2)
+#7 1.109   Downloading fonttools-4.66.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (129 kB)
+#7 1.119      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.2/129.2 kB 14.6 MB/s eta 0:00:00
+#7 1.159 Collecting kiwisolver>=1.3.1 (from matplotlib==3.9.2)
+#7 1.163   Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)
+#7 1.166 Requirement already satisfied: numpy>=1.23 in /usr/local/lib/python3.11/site-packages (from matplotlib==3.9.2) (1.26.4)
+#7 1.166 Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.11/site-packages (from matplotlib==3.9.2) (26.3)
+#7 1.167 Requirement already satisfied: pillow>=8 in /usr/local/lib/python3.11/site-packages (from matplotlib==3.9.2) (12.3.0)
+#7 1.182 Collecting pyparsing>=2.3.1 (from matplotlib==3.9.2)
+#7 1.186   Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+#7 1.195 Collecting python-dateutil>=2.7 (from matplotlib==3.9.2)
+#7 1.198   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+#7 1.236 Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib==3.9.2)
+#7 1.239   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+#7 1.245 Downloading matplotlib-3.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
+#7 1.425    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 46.5 MB/s eta 0:00:00
+#7 1.430 Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (355 kB)
+#7 1.436    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 355.2/355.2 kB 61.3 MB/s eta 0:00:00
+#7 1.440 Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+#7 1.445 Downloading fonttools-4.66.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)
+#7 1.807    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 15.1 MB/s eta 0:00:00
+#7 1.811 Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+#7 1.839    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 53.2 MB/s eta 0:00:00
+#7 1.843 Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+#7 1.845    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.4/126.4 kB 188.2 MB/s eta 0:00:00
+#7 1.848 Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#7 1.852    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 69.7 MB/s eta 0:00:00
+#7 1.857 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#7 2.138 Installing collected packages: six, pyparsing, kiwisolver, fonttools, cycler, contourpy, python-dateutil, matplotlib
+#7 3.316 Successfully installed contourpy-1.3.3 cycler-0.12.1 fonttools-4.66.0 kiwisolver-1.5.1 matplotlib-3.9.2 pyparsing-3.3.3 python-dateutil-2.9.0.post0 six-1.17.0
+#7 3.316 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 4.368 No broken requirements found.
+#7 DONE 5.2s
+
+#8 [4/4] WORKDIR /study
+#8 DONE 0.1s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 1.8s done
+#9 exporting manifest sha256:fe363794655c0c938f7bc9794b473da06638e747c5e12e0d17c319cbf1640398 0.0s done
+#9 exporting config sha256:13964d9b33a16cb9c140c7911a083ca5def0af90aa2953a7a592ddad497b8a40 0.0s done
+#9 exporting attestation manifest sha256:a6dfce9a3606bb3d3777086e4236b80fe75f1e0ee66c8876a141680c7acf282e 0.1s done
+#9 exporting manifest list sha256:e7de793ef15f41922fc4851d42d5bf2c386783c61a6b22c0a83ac09dd5e455ed
+#9 exporting manifest list sha256:e7de793ef15f41922fc4851d42d5bf2c386783c61a6b22c0a83ac09dd5e455ed 0.0s done
+#9 naming to docker.io/library/research3-q16-dp-reference:v2 done
+#9 unpacking to docker.io/library/research3-q16-dp-reference:v2
+#9 unpacking to docker.io/library/research3-q16-dp-reference:v2 0.3s done
+#9 DONE 2.3s

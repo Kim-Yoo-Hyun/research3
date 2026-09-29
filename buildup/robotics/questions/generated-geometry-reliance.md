@@ -1,18 +1,24 @@
 # Reliance on Generated Geometry
 
-Updated: 2026-09-11 · ID: Q12
+Updated: 2026-09-14 · ID: Q12
 
 ## Status
 
-`feasibility_study`; [CPU input/schema/coordinate protocol v1](../pilot_studies/q12-generated-geometry/README.md)
-was executed on four real pairs and independently verified. All input controls passed, yielding
-`INPUT_CONTROLS_VALID_PHYSICAL_FRAME_UNRESOLVED`. Checkpoint strict loading and independent metadata
-verification pass. The frozen [CPU reference completion protocol](../pilot_studies/q12-generated-geometry/model/README.md#verified-completion-results-2026-09-11)
-has now run on the four inputs in two processes; output provenance and repeatability passed independent
-verification. Native CUDA parity and physical linkage remain unverified. Next is a cost/information
-assessment of those remaining routes before action-linked validation. No hypothesis is selected.
-[Comparison](../../selection.md#q12q13-measurement-selection-2026-09-10) and
-[Stage 4 evidence](../related_work/policy-geometry.md#q12-stage-4-review-2026-09-10) remain historical provenance.
+`deferred` after the [single failure/calibration reassessment](../pilot_studies/q12-generated-geometry/real/README.md#reassessment-2026-09-14).
+Stage 7 remains unresolved `refine`, with no active follow-up study or hypothesis admission.
+[Selection](../../selection.md#q12-investment-reassessment-2026-09-14) records the investment decision.
+
+Prior input controls and CPU reference output provenance passed independent verification, while
+native parity and original physical linkage remain unverified. Google 16k readiness remains
+`REFINE_LINKAGE`; the separate BOP audit remains `DEFER_RAY_SUPPORT`. The [study owner](../pilot_studies/q12-generated-geometry/README.md)
+retains all original denominators, freezes and positive/negative records. None establishes or
+refutes completion-specific action reliance.
+
+Conditional re-entry requires a concrete observation–geometry–action study with justified reference
+handling, completion input controls, simple baselines and bounded costs/stop rules. Positive results
+or a final method are not prerequisites for reconsideration. The linked reassessment owns the
+full conditions. Next compare other questions within the existing Robotics scope; Q13 is not an
+automatic successor.
 
 ## Facts
 
@@ -24,8 +30,18 @@ G3Flow's separate observed/feature-cloud branches lead to joint/gripper actions.
 3DSGrasp's public dataset/model payloads and four basename-matched partial/GT pairs are now
 checksum-verified. The real-input audit confirmed expected finite array shapes and coordinate
 controls; GT contains repeated rows. Model state compatibility and real-input CPU reference output
-provenance/repeatability are verified, while native runtime parity and metric frames remain unverified. The
+provenance/repeatability are verified, while native runtime parity and original XYZ metric frames remain unverified. The
 study owns current results; Stage 4 source assessment is historical.
+In the new controlled route, box camera/geometry checks pass in two views. Mug's coordinate-based
+mesh gate failed before rendering in readiness v1. A separate raw/derived diagnostic subsequently
+rendered both objects and audited fixed queries without changing v1. Surface-preserving cleanup
+left mug edge-gate failures. This limits measurement readiness rather than demonstrating a
+completion or learned-policy failure.
+The separate BOP audit has now decoded both real frames and checked all five original standard
+models in Docker. Numerical mesh/coordinate controls pass, but the all-case ray-support gate fails.
+Independent verification confirms each hit/miss and the retained residuals, including a large
+depth discrepancy on a ray with a model intersection. The cause and sensor/pose error bounds are
+not established; the study owner retains the full denominator and failure records.
 
 ## Source Claims
 
@@ -77,7 +93,7 @@ and virtual asset. This route needs independent completion before it can test Q1
 3DSGrasp offers an alternative pretrained completion and partial/GT dataset schema. The study
 now preserves downloaded weights and four raw pairs, with source-defined name correspondence.
 Both selected objects occur in archive train/test; no object-disjoint claim is possible. Camera rays,
-metric units, robot evaluator linkage, explicit weight/data terms and model-stack compatibility remain unresolved. Its online restoration
+metric units, robot evaluator linkage, explicit weight/data terms and native model-stack compatibility remain unresolved. Its online restoration
 also differs from the inverse normalization; this must be isolated as a wrapper effect.
 
 ## Simplest Baseline Or Counterexample
@@ -95,16 +111,26 @@ not a proposed contribution. Keep semantic features matched or explicitly qualif
 
 The [Stage 5 assessment](#stage-5-assessment-2026-09-10) owns the historical assumptions and
 branches. The [verified input audit](../pilot_studies/q12-generated-geometry/README.md#verified-input-results-2026-09-10)
-now supports name/schema/numerical controls. Independent generated output and a valid physical
-frame remain unresolved before any learned-policy comparison.
+now supports name/schema/numerical controls, and the CPU reference output audit establishes
+checkpoint-derived generated output independently of GT input. A valid physical/camera frame and
+matched policy support remain unresolved. The [route assessment](../pilot_studies/q12-generated-geometry/README.md#linkage-route-assessment-2026-09-11)
+separates native parity from the proposed new-scene measurement and owns its disconfirmation branches.
 
 ## Feasibility Or Pilot Study
 
 The [frozen input protocol](../pilot_studies/q12-generated-geometry/README.md) was executed and
 independently verified on all four real pairs without changing source, thresholds or denominator.
 Inputs were already numerically centered/unit-radius; wrapper restoration is separated from any
-model effect. Next prepare strict checkpoint/model loading and independent-output provenance
-with explicit GT sampling and physical/camera limitations. No inference or policy pilot has run.
+model effect. Strict checkpoint loading and real-input CPU reference inference/repeatability are
+now independently verified. Camera/geometry controls and a bounded fixed-candidate diagnostic
+interface were frozen using synthetic preflight and applied to the two selected YCB meshes.
+Box views passed, while mug views stopped at the mesh gate with an independently confirmed cause.
+The correction preserved the surface and fixed queries but left edge-gate failures. The current
+asset route is deferred. Alternative-route comparison selected preparation of a bounded BOP
+YCB-V real-data camera/model audit; its frozen execution and independent verification now return
+`DEFER_RAY_SUPPORT`. Mesh/coordinate checks pass but ray/model correspondence is incomplete;
+sensor/pose calibration remains open. This separate route is also paused under its frozen rule.
+No learned-policy pilot has run.
 
 ## Preliminary Success Criteria
 
@@ -117,9 +143,13 @@ Geometry-source/action/outcome matrix, failure cases and explicit continuation/s
 
 ## Timeline And Milestones
 
-Source/assumption assessment and the first CPU input audit are complete. The earlier 1–2 working-day
-readiness estimate was a plan, not measured model runtime. The next model-loading validation
-requires an explicit setup/inference cap before execution. A learned-policy budget is not fixed.
+Source/assumption, input and CPU reference output audits are complete. Camera/geometry readiness
+preparation and the frozen execution are complete. The producer/verifier finished within the
+30-minute cap; a separate failure audit completed under its 5-minute cap. Completion comparison
+is on hold after the mesh-correction assessment. The BOP input audit is complete and its failed
+ray-support outcome is independently verified. Next assess the retained failures and unresolved
+calibration once before deciding further Q12 work.
+A learned-policy budget is not fixed.
 
 ## Interpretation Of A Negative Result
 
@@ -138,9 +168,9 @@ selection, Q9 memory freshness; Q12 changes the provenance/consistency of geomet
 
 ## User Decision Needed
 
-None for documenting the completed input audit or preparing its next bounded validation.
-The study owns acquisition/execution evidence; model inference and a physical/policy pilot remain
-separate, not-yet-frozen tasks.
+None for the bounded mesh-correction assessment. The study owns failure evidence and the
+requirement to preserve v1. Any justified correction requires a separate explicit revision;
+a full physical/policy pilot remains a separate, not-yet-frozen task.
 
 ## Stage 5 assessment 2026-09-10
 

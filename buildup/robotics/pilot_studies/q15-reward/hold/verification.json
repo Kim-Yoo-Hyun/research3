@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "input_files": 45,
+  "checkpoints": 9,
+  "label_elements": 86400,
+  "reward_elements": 28800,
+  "drive_target_elements": 259200,
+  "pairs": 288,
+  "valid_prefix_pairs": 288,
+  "clipped_arm_components": 0,
+  "hold_control_steps": 9266,
+  "unchanged_prior_conditions": 9,
+  "reward_tolerance": 1e-06,
+  "controller_tolerance": 5e-07,
+  "prefix_tolerance": 0
+}

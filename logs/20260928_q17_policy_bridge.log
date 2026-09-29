@@ -1,0 +1,98 @@
+09/28 [03:08:29] INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/models/policy/checkpoints/steps_1                   
+                          00000_pytorch_model.pt`                               
+                 INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/models/policy/checkpoints/steps_1                   
+                          00000_pytorch_model.pt`                               
+                 INFO     | >> [*] Runtime override:        base_framework.py:40
+                          framework.qwenvl.base_vlm=/models                     
+                          /Qwen3-VL-2B-Instruct                                 
+                 INFO     | >> [*] Runtime override:        base_framework.py:40
+                          framework.qwenvl.base_vlm=/models                     
+                          /Qwen3-VL-2B-Instruct                                 
+[WARNING] flash_attn not installed, falling back to sdpa
+09/28 [03:08:30] INFO     | >> [*] [Qwen3-VL] Loading               QWen3.py:109
+                          /models/Qwen3-VL-2B-Instruct with                     
+                          attn_implementation=sdpa                              
+{"event": "ready", "metadata": {"action_chunk_size": 16, "available_unnorm_keys": ["new_embodiment"], "default_unnorm_key": "new_embodiment", "state_keys": ["state.astribot"], "action_keys": ["action.astribot"], "bridge": "direct_minmax_exploratory"}}
+09/28 [03:08:39] INFO     | >> server listening on 0.0.0.0:7980    server.py:341
+09/28 [03:08:53] INFO     | >> connection open                     server.py:531
+                 INFO     | >> Connection from     websocket_policy_server.py:66
+                          ('172.18.0.3', 40654)                                 
+                          opened                                                
+{"event": "inference", "request_count": 1, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [1], "actions_sha256": "076016216684313e8d17699a358961251158abe92d8a92823ac4aed06fe21952"}
+{"event": "inference", "request_count": 2, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [2], "actions_sha256": "d950cae40902cfbbae9db7e6c00c39686ab5b30535a19c0bb3b1353f7b618e51"}
+{"event": "inference", "request_count": 3, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [3], "actions_sha256": "00bef4e3b0668a19938ceea97e6a5750d429836de917d653827583d7b16e0600"}
+{"event": "inference", "request_count": 4, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [4], "actions_sha256": "d9b033cfdad6db6f60b996f00a9eda2a1af14322895a71111a18eef94ce4fa47"}
+{"event": "inference", "request_count": 5, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [5], "actions_sha256": "ef1cd35d6ad31ffa53ba6c0fa0e8c3a4518f648d8d87d1b45a2515e276203073"}
+{"event": "inference", "request_count": 6, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [6], "actions_sha256": "b7599f3ae2bb2a2f35842153a5ae5039bf0e65adb7ada93d61fed7e240d2fe2e"}
+{"event": "inference", "request_count": 7, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [7], "actions_sha256": "a8b4765b933a6a13d0fe357c209295a027ce184491b77826c4c49bc436871efd"}
+{"event": "inference", "request_count": 8, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [8], "actions_sha256": "e6e1ba27a95ff2591c274d138da2d4e1a3a8d67355e36f3967ce13379e1d4f4e"}
+{"event": "inference", "request_count": 9, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [9], "actions_sha256": "5a1f91cf68335a4284dde1fa3969a0bf0711ddc9f941720df5819a5c6318e7a5"}
+{"event": "inference", "request_count": 10, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [10], "actions_sha256": "6eadf8d31cede5fa5a928b0794a5543bf2a21f8cd0582a92ba15d67831261381"}
+{"event": "inference", "request_count": 11, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [11], "actions_sha256": "bcf45097fb0c7a86d570d96f82446c83ad95364870db89a500d2a3b38cefa52e"}
+{"event": "inference", "request_count": 12, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [12], "actions_sha256": "0c8b2e70b5dee7c6a89935b7b0fc0d737e5c650eb40cb0439bfea900d71b003b"}
+{"event": "inference", "request_count": 13, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "9703abad239c8c3dd60de2c50a44c85a121e3570b00497ad640504c94bc174ac"}
+{"event": "inference", "request_count": 14, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "9b63cac72c7474b1c2cef365edc463e1e5c485224b89d273bc06dfe5fef92d6e"}
+{"event": "inference", "request_count": 15, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "d2253143c6c2ff710bc7373c7e4c3bf2ba4780acf041721a21a6cae478ac3b9f"}
+{"event": "inference", "request_count": 16, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "76e15b4e0272e0b3a7594567be80cc329f3368ebdb834d5cceab37dcd6280df8"}
+{"event": "inference", "request_count": 17, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "1fc073de50ab931745bcad86c6e55528f6a8869906404b52c45bc0593d4a82b3"}
+{"event": "inference", "request_count": 18, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "c39fa01fe2edc929455ced1fef3d1f562da48f5193e59e7c3f50979c22aee4a5"}
+{"event": "inference", "request_count": 19, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "40a9ed28d21d3941eafdfab9a0993a63cb928549f20b5ccc37222f490975f670"}
+09/28 [03:09:58] INFO     | >> Connection from     websocket_policy_server.py:78
+                          ('172.18.0.3', 40654)                                 
+                          closed                                                
+09/28 [03:10:50] INFO     | >> connection open                     server.py:531
+                 INFO     | >> Connection from     websocket_policy_server.py:66
+                          ('172.18.0.3', 55538)                                 
+                          opened                                                
+{"event": "inference", "request_count": 20, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [1], "actions_sha256": "5bb1a0eb1fd162f09d0b63b8aa3e33c12fc3615373ea61c3ecfda30dca694932"}
+{"event": "inference", "request_count": 21, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [2], "actions_sha256": "043af5f782822dba1d77a9b19c7fc40e88ae86d188c35ff25d45eedc8e655439"}
+{"event": "inference", "request_count": 22, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [3], "actions_sha256": "d66a89675149655ea3688d16bfeff7145a8262988b31dd77df746e6d2ec21045"}
+{"event": "inference", "request_count": 23, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [4], "actions_sha256": "f5306b368559ed334073e0ab66e34ba69eab9279af8411e1cdf73f58e0833259"}
+{"event": "inference", "request_count": 24, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [5], "actions_sha256": "9de66444574b6a01ee562da39ee8ab16a14c0ca52dbb5c05a473221494e04879"}
+{"event": "inference", "request_count": 25, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [6], "actions_sha256": "07a2b620e9c9e36eb2e6e72073f3004f7cacd3ef972a4c00741f9b8cc2ab9239"}
+{"event": "inference", "request_count": 26, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [7], "actions_sha256": "67f7608a700ecd4c1fd946a35d10a779628da85cd50806c5766470b03f074d94"}
+{"event": "inference", "request_count": 27, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [8], "actions_sha256": "a4101ce357b5c7e071141f726477e6db84f3db15d4471a2c68658aba8383df64"}
+{"event": "inference", "request_count": 28, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [9], "actions_sha256": "faac3a5e31d587995ebf956b99af31d99c62da2a1d9fe6c994a5802b2d7dd728"}
+{"event": "inference", "request_count": 29, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [10], "actions_sha256": "fcb81311269856e1497085abadc8f26c50e7bd634743b793bfc27eacdd345525"}
+{"event": "inference", "request_count": 30, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [11], "actions_sha256": "286a61af3cb7a5b5cc75c4f1218d50215c839ddd9bc8ed65af8e1b2747fd2d6f"}
+{"event": "inference", "request_count": 31, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [12], "actions_sha256": "47cce3786ab7bb458b55b8a9db4d8dbb586be05a156762ef6b1ddcd89bb85df2"}
+{"event": "inference", "request_count": 32, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "964424831e543927881690b4e6523437d1003e101dd21d554461faeba816d6d9"}
+{"event": "inference", "request_count": 33, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "15ec9b23e4d98a9f139e35feece482ead1d7017973ee62b7b813539854675959"}
+{"event": "inference", "request_count": 34, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "50557a061ddfd229c7899a8bc98169d5b7a5f175db3997b61ed2abf10954e4e4"}
+{"event": "inference", "request_count": 35, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "01dace5e3187390db358c2f27a3b0370988beff2a78ebb552cae5501981f0ffb"}
+{"event": "inference", "request_count": 36, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "6776dcc6de14a59fd7d14e1c97ff7a04bbcf577698a6e2d54a5eda25b1f6dcd5"}
+{"event": "inference", "request_count": 37, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "658a67098c34cba078149bdebbb409419decb3d67d55b456b46ef8ab22cfc360"}
+{"event": "inference", "request_count": 38, "instruction": ["Pick the gray block and sort it by the colored pad on its back."], "num_frames": [13], "actions_sha256": "daa1c587c9f386848c44795d5e4c118bcdd6453ddef76d61df3de42a1f26e2f4"}
+09/28 [03:11:49] INFO     | >> Connection from     websocket_policy_server.py:78
+                          ('172.18.0.3', 55538)                                 
+                          closed                                                
+                 INFO     | >> connection open                     server.py:531
+                 INFO     | >> Connection from     websocket_policy_server.py:66
+                          ('172.18.0.3', 37446)                                 
+                          opened                                                
+{"event": "inference", "request_count": 39, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [1], "actions_sha256": "7aceb424479f243b5de7cc76416ef6452a6744fe746d4a99b039ac61f9541e16"}
+{"event": "inference", "request_count": 40, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [2], "actions_sha256": "530aa2481fd69e50069b088370be0cea6e2139e3104314ef7502b715193ea78d"}
+{"event": "inference", "request_count": 41, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [3], "actions_sha256": "f00729666ec4acb3b877838c9aaa03fa3620503636ffdf79b3601a3d76f30904"}
+{"event": "inference", "request_count": 42, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [4], "actions_sha256": "ad409d4cce02b2b0fee28e2b92b49b349f46b5507b903be64054259fedeaae09"}
+{"event": "inference", "request_count": 43, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [5], "actions_sha256": "9a5dd845209fff3a8a21bd4df6896dcb773ec26a7f0124d96cd61ae452405a2d"}
+{"event": "inference", "request_count": 44, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [6], "actions_sha256": "baf53668b8c5146ad05e118e1da0f50da1e82bd0d34ac268498dc4338838e9cf"}
+{"event": "inference", "request_count": 45, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [7], "actions_sha256": "1709df21e36124b0d55327d535c6701bda6bfa23b11215cc6e70781c60a3f93c"}
+{"event": "inference", "request_count": 46, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [8], "actions_sha256": "522bab661c8a653ac269a838e68be036a032858e6473d3f2af16f434f4569296"}
+{"event": "inference", "request_count": 47, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [9], "actions_sha256": "ac9aa716035b58f075daeebc841fd2ee53a812779a8de891b06229d51f4f5d3b"}
+{"event": "inference", "request_count": 48, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [10], "actions_sha256": "ec12f649c40bc11c63c555d94e391596eae4d87f00d895a126aac96e9419cd48"}
+{"event": "inference", "request_count": 49, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [11], "actions_sha256": "a0837461e7b33202a38a547948d10210cbbf8ff1a8e2c79081f59a352b549aa9"}
+{"event": "inference", "request_count": 50, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [12], "actions_sha256": "31d2bef30b4513bb8f33bbf118171a3f4895a98adec0558a489d792e150a6d44"}
+{"event": "inference", "request_count": 51, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [13], "actions_sha256": "067b79f6ee943695f14a1c1449e2ba64fc47db8520d9ad67544a80cb8a5fd7a9"}
+{"event": "inference", "request_count": 52, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [13], "actions_sha256": "504a790cda3254c51e09216edfc376ef9a6b9388914fe83afe94daebcc73e113"}
+{"event": "inference", "request_count": 53, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [13], "actions_sha256": "2991a07298c9baf0e3396156674f2af67cb892dcc243a4b127b9a12a5c584056"}
+{"event": "inference", "request_count": 54, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [13], "actions_sha256": "45875b52c61dc746128644d9692b017b847ddf51357e7412caf5ff8fa61ec902"}
+{"event": "inference", "request_count": 55, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [13], "actions_sha256": "721a4c0fa99a3576f8b4f45dcdc164dcf200c064ab71cfc45c4a5352387d6862"}
+{"event": "inference", "request_count": 56, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [13], "actions_sha256": "bcb80bb44de4f4463bc89023dddd55a3d03bfa1d69e0d430e6857fa1141f415e"}
+{"event": "inference", "request_count": 57, "instruction": ["Move the block to the correct color pad after checking its back."], "num_frames": [13], "actions_sha256": "d4cfcb4c6be98edf0845cf63b453a69f48202e33a3c9d945eefa12f0d68c0eed"}
+09/28 [03:12:49] INFO     | >> Connection from     websocket_policy_server.py:78
+                          ('172.18.0.3', 37446)                                 
+                          closed                                                

@@ -1,0 +1,6 @@
+FROM research3-q16-dp-reference:v1
+USER root
+COPY requirements.dp.lock /recipe/requirements.dp.lock
+RUN pip install --no-cache-dir matplotlib==3.9.2 && pip check && pip freeze --all > /recipe/installed.dp.lock
+USER 1001:1001
+WORKDIR /study

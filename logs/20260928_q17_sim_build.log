@@ -1,0 +1,671 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.sim
+#1 transferring dockerfile: 798B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime
+#2 DONE 0.6s
+
+#3 [1/7] FROM docker.io/pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime@sha256:c16f4c749e2d9e96878875cdf6cc45cddda1d1a36fddd371dd6f2360f1b6e2a2
+#3 resolve docker.io/pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime@sha256:c16f4c749e2d9e96878875cdf6cc45cddda1d1a36fddd371dd6f2360f1b6e2a2 0.0s done
+#3 CACHED
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime@sha256:c16f4c749e2d9e96878875cdf6cc45cddda1d1a36fddd371dd6f2360f1b6e2a2
+#5 resolve docker.io/pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime@sha256:c16f4c749e2d9e96878875cdf6cc45cddda1d1a36fddd371dd6f2360f1b6e2a2 0.0s done
+#5 DONE 0.0s
+
+#6 [2/4] RUN apt-get update && apt-get install -y --no-install-recommends     libvulkan1 libgl1 libglib2.0-0 libgomp1 libx11-6 libxext6     && rm -rf /var/lib/apt/lists/*
+#6 0.714 Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+#6 0.714 Get:2 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+#6 1.912 Get:3 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [84.6 kB]
+#6 2.152 Get:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+#6 2.295 Get:5 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1321 kB]
+#6 2.498 Get:6 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+#6 4.177 Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+#6 20.71 Get:8 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [7819 kB]
+#6 24.79 Get:9 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [4355 kB]
+#6 46.05 Ign:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+#6 46.57 Get:10 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+#6 51.75 Get:11 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+#6 51.76 Get:12 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+#6 51.76 Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1623 kB]
+#6 51.76 Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [93.2 kB]
+#6 51.76 Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [8124 kB]
+#6 52.05 Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [4697 kB]
+#6 52.33 Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [82.9 kB]
+#6 52.33 Get:18 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.6 kB]
+#6 52.75 Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+#6 54.19 Fetched 48.0 MB in 54s (890 kB/s)
+#6 54.19 Reading package lists...
+#6 54.90 Reading package lists...
+#6 55.54 Building dependency tree...
+#6 55.68 Reading state information...
+#6 55.80 The following additional packages will be installed:
+#6 55.80   gcc-12-base libbsd0 libdrm-amdgpu1 libdrm-common libdrm-intel1
+#6 55.80   libdrm-nouveau2 libdrm-radeon1 libdrm2 libedit2 libelf1 libexpat1 libgcc-s1
+#6 55.80   libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0 libicu70
+#6 55.80   libllvm15 libmd0 libpciaccess0 libsensors-config libsensors5 libstdc++6
+#6 55.80   libx11-data libx11-xcb1 libxau6 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0
+#6 55.80   libxcb-present0 libxcb-randr0 libxcb-shm0 libxcb-sync1 libxcb-xfixes0
+#6 55.80   libxcb1 libxdmcp6 libxfixes3 libxml2 libxshmfence1 libxxf86vm1
+#6 55.80 Suggested packages:
+#6 55.80   pciutils lm-sensors
+#6 55.80 Recommended packages:
+#6 55.80   libgl1-amber-dri libglib2.0-data shared-mime-info xdg-user-dirs
+#6 55.80   mesa-vulkan-drivers | vulkan-icd
+#6 55.85 The following NEW packages will be installed:
+#6 55.85   libbsd0 libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2
+#6 55.85   libdrm-radeon1 libdrm2 libedit2 libelf1 libexpat1 libgl1 libgl1-mesa-dri
+#6 55.85   libglapi-mesa libglib2.0-0 libglvnd0 libglx-mesa0 libglx0 libgomp1 libicu70
+#6 55.85   libllvm15 libmd0 libpciaccess0 libsensors-config libsensors5 libvulkan1
+#6 55.85   libx11-6 libx11-data libx11-xcb1 libxau6 libxcb-dri2-0 libxcb-dri3-0
+#6 55.85   libxcb-glx0 libxcb-present0 libxcb-randr0 libxcb-shm0 libxcb-sync1
+#6 55.85   libxcb-xfixes0 libxcb1 libxdmcp6 libxext6 libxfixes3 libxml2 libxshmfence1
+#6 55.85   libxxf86vm1
+#6 55.85 The following packages will be upgraded:
+#6 55.85   gcc-12-base libgcc-s1 libstdc++6
+#6 56.39 3 upgraded, 44 newly installed, 0 to remove and 50 not upgraded.
+#6 56.39 Need to get 50.2 MB of archives.
+#6 56.39 After this operation, 201 MB of additional disk space will be used.
+#6 56.39 Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-12-base amd64 12.3.0-1ubuntu1~22.04.3 [216 kB]
+#6 57.77 Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstdc++6 amd64 12.3.0-1ubuntu1~22.04.3 [699 kB]
+#6 58.35 Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcc-s1 amd64 12.3.0-1ubuntu1~22.04.3 [53.9 kB]
+#6 58.37 Get:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmd0 amd64 1.0.4-1build1 [23.0 kB]
+#6 58.38 Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbsd0 amd64 0.11.5-1 [44.8 kB]
+#6 58.40 Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libelf1 amd64 0.186-1ubuntu0.1 [51.1 kB]
+#6 58.42 Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.9 [96.9 kB]
+#6 58.46 Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libglib2.0-0 amd64 2.72.4-0ubuntu2.10 [1469 kB]
+#6 58.79 Get:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 libicu70 amd64 70.1-2 [10.6 MB]
+#6 59.41 Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxml2 amd64 2.9.13+dfsg-1ubuntu0.13 [764 kB]
+#6 59.43 Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-common all 2.4.113-2~ubuntu0.22.04.1 [5450 B]
+#6 59.43 Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm2 amd64 2.4.113-2~ubuntu0.22.04.1 [38.1 kB]
+#6 59.43 Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 libedit2 amd64 3.1-20210910-1build1 [96.8 kB]
+#6 59.43 Get:14 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxau6 amd64 1:1.0.9-1build5 [7634 B]
+#6 59.43 Get:15 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxdmcp6 amd64 1:1.1.3-0ubuntu5 [10.9 kB]
+#6 59.43 Get:16 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb1 amd64 1.14-3ubuntu3 [49.0 kB]
+#6 59.44 Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libx11-data all 2:1.7.5-1ubuntu0.3 [120 kB]
+#6 59.44 Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libx11-6 amd64 2:1.7.5-1ubuntu0.3 [667 kB]
+#6 59.67 Get:19 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxext6 amd64 2:1.3.4-1build1 [31.8 kB]
+#6 59.72 Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-amdgpu1 amd64 2.4.113-2~ubuntu0.22.04.1 [19.9 kB]
+#6 59.72 Get:21 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpciaccess0 amd64 0.16-3 [19.1 kB]
+#6 59.72 Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-intel1 amd64 2.4.113-2~ubuntu0.22.04.1 [66.7 kB]
+#6 59.72 Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-nouveau2 amd64 2.4.113-2~ubuntu0.22.04.1 [17.5 kB]
+#6 59.72 Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-radeon1 amd64 2.4.113-2~ubuntu0.22.04.1 [21.6 kB]
+#6 59.72 Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libglapi-mesa amd64 23.2.1-1ubuntu3.1~22.04.4 [35.6 kB]
+#6 59.72 Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libllvm15 amd64 1:15.0.7-0ubuntu0.22.04.3 [25.4 MB]
+#6 62.71 Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsensors-config all 1:3.6.0-7ubuntu1 [5274 B]
+#6 62.71 Get:28 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsensors5 amd64 1:3.6.0-7ubuntu1 [26.3 kB]
+#6 62.71 Get:29 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-dri3-0 amd64 1.14-3ubuntu3 [6968 B]
+#6 62.71 Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgl1-mesa-dri amd64 23.2.1-1ubuntu3.1~22.04.4 [8860 kB]
+#6 63.15 Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libx11-xcb1 amd64 2:1.7.5-1ubuntu0.3 [7802 B]
+#6 63.15 Get:32 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-dri2-0 amd64 1.14-3ubuntu3 [7206 B]
+#6 63.15 Get:33 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-glx0 amd64 1.14-3ubuntu3 [25.9 kB]
+#6 63.15 Get:34 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-present0 amd64 1.14-3ubuntu3 [5734 B]
+#6 63.15 Get:35 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-randr0 amd64 1.14-3ubuntu3 [18.3 kB]
+#6 63.15 Get:36 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-shm0 amd64 1.14-3ubuntu3 [5780 B]
+#6 63.15 Get:37 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-sync1 amd64 1.14-3ubuntu3 [9416 B]
+#6 63.23 Get:38 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-xfixes0 amd64 1.14-3ubuntu3 [9996 B]
+#6 63.23 Get:39 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxfixes3 amd64 1:6.0.0-1 [11.7 kB]
+#6 63.50 Get:40 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxshmfence1 amd64 1.3-1build4 [5394 B]
+#6 63.50 Get:41 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxxf86vm1 amd64 1:1.1.4-1build3 [10.4 kB]
+#6 63.50 Get:42 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libglx-mesa0 amd64 23.2.1-1ubuntu3.1~22.04.4 [158 kB]
+#6 63.50 Get:43 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgomp1 amd64 12.3.0-1ubuntu1~22.04.3 [127 kB]
+#6 63.50 Get:44 http://archive.ubuntu.com/ubuntu jammy/main amd64 libvulkan1 amd64 1.3.204.1-2 [128 kB]
+#6 63.51 Get:45 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglvnd0 amd64 1.4.0-1 [73.6 kB]
+#6 63.51 Get:46 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglx0 amd64 1.4.0-1 [41.0 kB]
+#6 63.51 Get:47 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgl1 amd64 1.4.0-1 [110 kB]
+#6 63.61 debconf: delaying package configuration, since apt-utils is not installed
+#6 63.65 Fetched 50.2 MB in 8s (6560 kB/s)
+#6 63.67 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6651 files and directories currently installed.)
+#6 63.68 Preparing to unpack .../gcc-12-base_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+#6 63.71 Unpacking gcc-12-base:amd64 (12.3.0-1ubuntu1~22.04.3) over (12.3.0-1ubuntu1~22.04) ...
+#6 63.81 Setting up gcc-12-base:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+#6 63.91 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6651 files and directories currently installed.)
+#6 63.91 Preparing to unpack .../libstdc++6_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+#6 63.96 Unpacking libstdc++6:amd64 (12.3.0-1ubuntu1~22.04.3) over (12.3.0-1ubuntu1~22.04) ...
+#6 64.09 Setting up libstdc++6:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+#6 64.18 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6651 files and directories currently installed.)
+#6 64.19 Preparing to unpack .../libgcc-s1_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+#6 64.22 Unpacking libgcc-s1:amd64 (12.3.0-1ubuntu1~22.04.3) over (12.3.0-1ubuntu1~22.04) ...
+#6 64.31 Setting up libgcc-s1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+#6 64.40 Selecting previously unselected package libmd0:amd64.
+#6 64.40 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6651 files and directories currently installed.)
+#6 64.40 Preparing to unpack .../00-libmd0_1.0.4-1build1_amd64.deb ...
+#6 64.41 Unpacking libmd0:amd64 (1.0.4-1build1) ...
+#6 64.49 Selecting previously unselected package libbsd0:amd64.
+#6 64.49 Preparing to unpack .../01-libbsd0_0.11.5-1_amd64.deb ...
+#6 64.50 Unpacking libbsd0:amd64 (0.11.5-1) ...
+#6 64.58 Selecting previously unselected package libelf1:amd64.
+#6 64.58 Preparing to unpack .../02-libelf1_0.186-1ubuntu0.1_amd64.deb ...
+#6 64.59 Unpacking libelf1:amd64 (0.186-1ubuntu0.1) ...
+#6 64.67 Selecting previously unselected package libexpat1:amd64.
+#6 64.67 Preparing to unpack .../03-libexpat1_2.4.7-1ubuntu0.9_amd64.deb ...
+#6 64.68 Unpacking libexpat1:amd64 (2.4.7-1ubuntu0.9) ...
+#6 64.76 Selecting previously unselected package libglib2.0-0:amd64.
+#6 64.76 Preparing to unpack .../04-libglib2.0-0_2.72.4-0ubuntu2.10_amd64.deb ...
+#6 64.77 Unpacking libglib2.0-0:amd64 (2.72.4-0ubuntu2.10) ...
+#6 64.88 Selecting previously unselected package libicu70:amd64.
+#6 64.88 Preparing to unpack .../05-libicu70_70.1-2_amd64.deb ...
+#6 64.89 Unpacking libicu70:amd64 (70.1-2) ...
+#6 65.09 Selecting previously unselected package libxml2:amd64.
+#6 65.09 Preparing to unpack .../06-libxml2_2.9.13+dfsg-1ubuntu0.13_amd64.deb ...
+#6 65.10 Unpacking libxml2:amd64 (2.9.13+dfsg-1ubuntu0.13) ...
+#6 65.16 Selecting previously unselected package libdrm-common.
+#6 65.16 Preparing to unpack .../07-libdrm-common_2.4.113-2~ubuntu0.22.04.1_all.deb ...
+#6 65.18 Unpacking libdrm-common (2.4.113-2~ubuntu0.22.04.1) ...
+#6 65.25 Selecting previously unselected package libdrm2:amd64.
+#6 65.25 Preparing to unpack .../08-libdrm2_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#6 65.26 Unpacking libdrm2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 65.34 Selecting previously unselected package libedit2:amd64.
+#6 65.34 Preparing to unpack .../09-libedit2_3.1-20210910-1build1_amd64.deb ...
+#6 65.35 Unpacking libedit2:amd64 (3.1-20210910-1build1) ...
+#6 65.42 Selecting previously unselected package libxau6:amd64.
+#6 65.42 Preparing to unpack .../10-libxau6_1%3a1.0.9-1build5_amd64.deb ...
+#6 65.43 Unpacking libxau6:amd64 (1:1.0.9-1build5) ...
+#6 65.50 Selecting previously unselected package libxdmcp6:amd64.
+#6 65.50 Preparing to unpack .../11-libxdmcp6_1%3a1.1.3-0ubuntu5_amd64.deb ...
+#6 65.51 Unpacking libxdmcp6:amd64 (1:1.1.3-0ubuntu5) ...
+#6 65.58 Selecting previously unselected package libxcb1:amd64.
+#6 65.58 Preparing to unpack .../12-libxcb1_1.14-3ubuntu3_amd64.deb ...
+#6 65.59 Unpacking libxcb1:amd64 (1.14-3ubuntu3) ...
+#6 65.65 Selecting previously unselected package libx11-data.
+#6 65.66 Preparing to unpack .../13-libx11-data_2%3a1.7.5-1ubuntu0.3_all.deb ...
+#6 65.67 Unpacking libx11-data (2:1.7.5-1ubuntu0.3) ...
+#6 65.75 Selecting previously unselected package libx11-6:amd64.
+#6 65.76 Preparing to unpack .../14-libx11-6_2%3a1.7.5-1ubuntu0.3_amd64.deb ...
+#6 65.77 Unpacking libx11-6:amd64 (2:1.7.5-1ubuntu0.3) ...
+#6 65.84 Selecting previously unselected package libxext6:amd64.
+#6 65.85 Preparing to unpack .../15-libxext6_2%3a1.3.4-1build1_amd64.deb ...
+#6 65.86 Unpacking libxext6:amd64 (2:1.3.4-1build1) ...
+#6 65.94 Selecting previously unselected package libdrm-amdgpu1:amd64.
+#6 65.94 Preparing to unpack .../16-libdrm-amdgpu1_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#6 65.95 Unpacking libdrm-amdgpu1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 66.02 Selecting previously unselected package libpciaccess0:amd64.
+#6 66.02 Preparing to unpack .../17-libpciaccess0_0.16-3_amd64.deb ...
+#6 66.04 Unpacking libpciaccess0:amd64 (0.16-3) ...
+#6 66.11 Selecting previously unselected package libdrm-intel1:amd64.
+#6 66.11 Preparing to unpack .../18-libdrm-intel1_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#6 66.12 Unpacking libdrm-intel1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 66.19 Selecting previously unselected package libdrm-nouveau2:amd64.
+#6 66.19 Preparing to unpack .../19-libdrm-nouveau2_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#6 66.20 Unpacking libdrm-nouveau2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 66.27 Selecting previously unselected package libdrm-radeon1:amd64.
+#6 66.27 Preparing to unpack .../20-libdrm-radeon1_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#6 66.28 Unpacking libdrm-radeon1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 66.36 Selecting previously unselected package libglapi-mesa:amd64.
+#6 66.36 Preparing to unpack .../21-libglapi-mesa_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+#6 66.37 Unpacking libglapi-mesa:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#6 66.44 Selecting previously unselected package libllvm15:amd64.
+#6 66.44 Preparing to unpack .../22-libllvm15_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+#6 66.45 Unpacking libllvm15:amd64 (1:15.0.7-0ubuntu0.22.04.3) ...
+#6 66.92 Selecting previously unselected package libsensors-config.
+#6 66.92 Preparing to unpack .../23-libsensors-config_1%3a3.6.0-7ubuntu1_all.deb ...
+#6 66.93 Unpacking libsensors-config (1:3.6.0-7ubuntu1) ...
+#6 67.00 Selecting previously unselected package libsensors5:amd64.
+#6 67.00 Preparing to unpack .../24-libsensors5_1%3a3.6.0-7ubuntu1_amd64.deb ...
+#6 67.02 Unpacking libsensors5:amd64 (1:3.6.0-7ubuntu1) ...
+#6 67.09 Selecting previously unselected package libxcb-dri3-0:amd64.
+#6 67.09 Preparing to unpack .../25-libxcb-dri3-0_1.14-3ubuntu3_amd64.deb ...
+#6 67.10 Unpacking libxcb-dri3-0:amd64 (1.14-3ubuntu3) ...
+#6 67.17 Selecting previously unselected package libgl1-mesa-dri:amd64.
+#6 67.17 Preparing to unpack .../26-libgl1-mesa-dri_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+#6 67.19 Unpacking libgl1-mesa-dri:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#6 67.46 Selecting previously unselected package libx11-xcb1:amd64.
+#6 67.46 Preparing to unpack .../27-libx11-xcb1_2%3a1.7.5-1ubuntu0.3_amd64.deb ...
+#6 67.47 Unpacking libx11-xcb1:amd64 (2:1.7.5-1ubuntu0.3) ...
+#6 67.55 Selecting previously unselected package libxcb-dri2-0:amd64.
+#6 67.55 Preparing to unpack .../28-libxcb-dri2-0_1.14-3ubuntu3_amd64.deb ...
+#6 67.56 Unpacking libxcb-dri2-0:amd64 (1.14-3ubuntu3) ...
+#6 67.66 Selecting previously unselected package libxcb-glx0:amd64.
+#6 67.66 Preparing to unpack .../29-libxcb-glx0_1.14-3ubuntu3_amd64.deb ...
+#6 67.68 Unpacking libxcb-glx0:amd64 (1.14-3ubuntu3) ...
+#6 67.75 Selecting previously unselected package libxcb-present0:amd64.
+#6 67.75 Preparing to unpack .../30-libxcb-present0_1.14-3ubuntu3_amd64.deb ...
+#6 67.76 Unpacking libxcb-present0:amd64 (1.14-3ubuntu3) ...
+#6 67.84 Selecting previously unselected package libxcb-randr0:amd64.
+#6 67.84 Preparing to unpack .../31-libxcb-randr0_1.14-3ubuntu3_amd64.deb ...
+#6 67.85 Unpacking libxcb-randr0:amd64 (1.14-3ubuntu3) ...
+#6 67.92 Selecting previously unselected package libxcb-shm0:amd64.
+#6 67.93 Preparing to unpack .../32-libxcb-shm0_1.14-3ubuntu3_amd64.deb ...
+#6 67.94 Unpacking libxcb-shm0:amd64 (1.14-3ubuntu3) ...
+#6 68.01 Selecting previously unselected package libxcb-sync1:amd64.
+#6 68.01 Preparing to unpack .../33-libxcb-sync1_1.14-3ubuntu3_amd64.deb ...
+#6 68.02 Unpacking libxcb-sync1:amd64 (1.14-3ubuntu3) ...
+#6 68.09 Selecting previously unselected package libxcb-xfixes0:amd64.
+#6 68.09 Preparing to unpack .../34-libxcb-xfixes0_1.14-3ubuntu3_amd64.deb ...
+#6 68.10 Unpacking libxcb-xfixes0:amd64 (1.14-3ubuntu3) ...
+#6 68.18 Selecting previously unselected package libxfixes3:amd64.
+#6 68.18 Preparing to unpack .../35-libxfixes3_1%3a6.0.0-1_amd64.deb ...
+#6 68.19 Unpacking libxfixes3:amd64 (1:6.0.0-1) ...
+#6 68.26 Selecting previously unselected package libxshmfence1:amd64.
+#6 68.26 Preparing to unpack .../36-libxshmfence1_1.3-1build4_amd64.deb ...
+#6 68.27 Unpacking libxshmfence1:amd64 (1.3-1build4) ...
+#6 68.34 Selecting previously unselected package libxxf86vm1:amd64.
+#6 68.34 Preparing to unpack .../37-libxxf86vm1_1%3a1.1.4-1build3_amd64.deb ...
+#6 68.36 Unpacking libxxf86vm1:amd64 (1:1.1.4-1build3) ...
+#6 68.43 Selecting previously unselected package libglx-mesa0:amd64.
+#6 68.43 Preparing to unpack .../38-libglx-mesa0_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+#6 68.44 Unpacking libglx-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#6 68.52 Selecting previously unselected package libgomp1:amd64.
+#6 68.52 Preparing to unpack .../39-libgomp1_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+#6 68.53 Unpacking libgomp1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+#6 68.61 Selecting previously unselected package libvulkan1:amd64.
+#6 68.61 Preparing to unpack .../40-libvulkan1_1.3.204.1-2_amd64.deb ...
+#6 68.63 Unpacking libvulkan1:amd64 (1.3.204.1-2) ...
+#6 68.71 Selecting previously unselected package libglvnd0:amd64.
+#6 68.71 Preparing to unpack .../41-libglvnd0_1.4.0-1_amd64.deb ...
+#6 68.72 Unpacking libglvnd0:amd64 (1.4.0-1) ...
+#6 68.80 Selecting previously unselected package libglx0:amd64.
+#6 68.80 Preparing to unpack .../42-libglx0_1.4.0-1_amd64.deb ...
+#6 68.81 Unpacking libglx0:amd64 (1.4.0-1) ...
+#6 68.89 Selecting previously unselected package libgl1:amd64.
+#6 68.89 Preparing to unpack .../43-libgl1_1.4.0-1_amd64.deb ...
+#6 68.90 Unpacking libgl1:amd64 (1.4.0-1) ...
+#6 68.97 Setting up libexpat1:amd64 (2.4.7-1ubuntu0.9) ...
+#6 69.01 Setting up libpciaccess0:amd64 (0.16-3) ...
+#6 69.04 Setting up libxau6:amd64 (1:1.0.9-1build5) ...
+#6 69.07 Setting up libglib2.0-0:amd64 (2.72.4-0ubuntu2.10) ...
+#6 69.09 No schema files found: doing nothing.
+#6 69.11 Setting up libglvnd0:amd64 (1.4.0-1) ...
+#6 69.14 Setting up libsensors-config (1:3.6.0-7ubuntu1) ...
+#6 69.20 Setting up libgomp1:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+#6 69.23 Setting up libx11-data (2:1.7.5-1ubuntu0.3) ...
+#6 69.26 Setting up libsensors5:amd64 (1:3.6.0-7ubuntu1) ...
+#6 69.29 Setting up libglapi-mesa:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#6 69.33 Setting up libvulkan1:amd64 (1.3.204.1-2) ...
+#6 69.36 Setting up libmd0:amd64 (1.0.4-1build1) ...
+#6 69.39 Setting up libxshmfence1:amd64 (1.3-1build4) ...
+#6 69.43 Setting up libbsd0:amd64 (0.11.5-1) ...
+#6 69.46 Setting up libdrm-common (2.4.113-2~ubuntu0.22.04.1) ...
+#6 69.49 Setting up libelf1:amd64 (0.186-1ubuntu0.1) ...
+#6 69.52 Setting up libicu70:amd64 (70.1-2) ...
+#6 69.56 Setting up libxdmcp6:amd64 (1:1.1.3-0ubuntu5) ...
+#6 69.59 Setting up libxcb1:amd64 (1.14-3ubuntu3) ...
+#6 69.62 Setting up libxcb-xfixes0:amd64 (1.14-3ubuntu3) ...
+#6 69.66 Setting up libxcb-glx0:amd64 (1.14-3ubuntu3) ...
+#6 69.69 Setting up libedit2:amd64 (3.1-20210910-1build1) ...
+#6 69.72 Setting up libxcb-shm0:amd64 (1.14-3ubuntu3) ...
+#6 69.75 Setting up libxcb-present0:amd64 (1.14-3ubuntu3) ...
+#6 69.78 Setting up libxcb-sync1:amd64 (1.14-3ubuntu3) ...
+#6 69.82 Setting up libxcb-dri2-0:amd64 (1.14-3ubuntu3) ...
+#6 69.85 Setting up libdrm2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 69.88 Setting up libxcb-randr0:amd64 (1.14-3ubuntu3) ...
+#6 69.91 Setting up libx11-6:amd64 (2:1.7.5-1ubuntu0.3) ...
+#6 69.95 Setting up libxml2:amd64 (2.9.13+dfsg-1ubuntu0.13) ...
+#6 69.98 Setting up libdrm-amdgpu1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 70.01 Setting up libxcb-dri3-0:amd64 (1.14-3ubuntu3) ...
+#6 70.04 Setting up libx11-xcb1:amd64 (2:1.7.5-1ubuntu0.3) ...
+#6 70.08 Setting up libdrm-nouveau2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 70.11 Setting up libdrm-radeon1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 70.14 Setting up libdrm-intel1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#6 70.18 Setting up libxext6:amd64 (2:1.3.4-1build1) ...
+#6 70.21 Setting up libxxf86vm1:amd64 (1:1.1.4-1build3) ...
+#6 70.24 Setting up libxfixes3:amd64 (1:6.0.0-1) ...
+#6 70.27 Setting up libllvm15:amd64 (1:15.0.7-0ubuntu0.22.04.3) ...
+#6 70.31 Setting up libgl1-mesa-dri:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#6 70.35 Setting up libglx-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#6 70.38 Setting up libglx0:amd64 (1.4.0-1) ...
+#6 70.41 Setting up libgl1:amd64 (1.4.0-1) ...
+#6 70.45 Processing triggers for libc-bin (2.35-0ubuntu3.10) ...
+#6 DONE 70.6s
+
+#7 [3/4] RUN python -m pip install --no-cache-dir     numpy==1.26.4     sapien==3.0.0b1     mplib==0.2.1     open3d==0.18.0     gymnasium==0.29.1     toppra==0.6.3     transforms3d==0.4.2     trimesh==4.4.3     imageio==2.34.2     scipy==1.15.3     PyYAML==6.0.2     h5py==3.16.0     zarr==2.18.3     opencv-python-headless==4.11.0.86     pyglet==1.5.31     tqdm==4.67.1
+#7 0.434 Collecting numpy==1.26.4
+#7 0.448   Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+#7 0.461 Collecting sapien==3.0.0b1
+#7 0.464   Downloading sapien-3.0.0b1-cp311-cp311-manylinux2014_x86_64.whl.metadata (10 kB)
+#7 0.651 Collecting mplib==0.2.1
+#7 0.655   Downloading mplib-0.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+#7 0.663 Collecting open3d==0.18.0
+#7 0.667   Downloading open3d-0.18.0-cp311-cp311-manylinux_2_27_x86_64.whl.metadata (4.2 kB)
+#7 0.672 Collecting gymnasium==0.29.1
+#7 0.675   Downloading gymnasium-0.29.1-py3-none-any.whl.metadata (10 kB)
+#7 0.865 Collecting toppra==0.6.3
+#7 0.868   Downloading toppra-0.6.3.tar.gz (256 kB)
+#7 0.884   Installing build dependencies: started
+#7 3.190   Installing build dependencies: finished with status 'done'
+#7 3.190   Getting requirements to build wheel: started
+#7 4.525   Getting requirements to build wheel: finished with status 'done'
+#7 4.526   Preparing metadata (pyproject.toml): started
+#7 5.088   Preparing metadata (pyproject.toml): finished with status 'done'
+#7 5.096 Collecting transforms3d==0.4.2
+#7 5.099   Downloading transforms3d-0.4.2-py3-none-any.whl.metadata (2.8 kB)
+#7 5.129 Collecting trimesh==4.4.3
+#7 5.132   Downloading trimesh-4.4.3-py3-none-any.whl.metadata (18 kB)
+#7 5.143 Collecting imageio==2.34.2
+#7 5.146   Downloading imageio-2.34.2-py3-none-any.whl.metadata (4.9 kB)
+#7 5.223 Collecting scipy==1.15.3
+#7 5.226   Downloading scipy-1.15.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+#7 5.235 Requirement already satisfied: PyYAML==6.0.2 in /opt/conda/lib/python3.11/site-packages (6.0.2)
+#7 5.251 Collecting h5py==3.16.0
+#7 5.254   Downloading h5py-3.16.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+#7 5.265 Collecting zarr==2.18.3
+#7 5.268   Downloading zarr-2.18.3-py3-none-any.whl.metadata (5.7 kB)
+#7 5.289 Collecting opencv-python-headless==4.11.0.86
+#7 5.292   Downloading opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+#7 5.304 Collecting pyglet==1.5.31
+#7 5.307   Downloading pyglet-1.5.31-py3-none-any.whl.metadata (7.6 kB)
+#7 5.308 Requirement already satisfied: tqdm==4.67.1 in /opt/conda/lib/python3.11/site-packages (4.67.1)
+#7 5.312 Requirement already satisfied: requests>=2.22 in /opt/conda/lib/python3.11/site-packages (from sapien==3.0.0b1) (2.32.3)
+#7 5.400 Collecting lxml (from sapien==3.0.0b1)
+#7 5.403   Downloading lxml-6.1.3-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+#7 5.404 Requirement already satisfied: networkx in /opt/conda/lib/python3.11/site-packages (from sapien==3.0.0b1) (3.5)
+#7 5.408 Collecting pyperclip (from sapien==3.0.0b1)
+#7 5.410   Downloading pyperclip-1.11.0-py3-none-any.whl.metadata (2.4 kB)
+#7 5.456 Collecting opencv-python>=4.0 (from sapien==3.0.0b1)
+#7 5.459   Downloading opencv_python-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+#7 5.476 Collecting dash>=2.6.0 (from open3d==0.18.0)
+#7 5.479   Downloading dash-4.4.1-py3-none-any.whl.metadata (11 kB)
+#7 5.490 Collecting werkzeug>=2.2.3 (from open3d==0.18.0)
+#7 5.493   Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+#7 5.498 Collecting nbformat>=5.7.0 (from open3d==0.18.0)
+#7 5.502   Downloading nbformat-5.11.1-py3-none-any.whl.metadata (3.7 kB)
+#7 5.508 Collecting configargparse (from open3d==0.18.0)
+#7 5.511   Downloading configargparse-1.7.7-py3-none-any.whl.metadata (23 kB)
+#7 5.522 Collecting ipywidgets>=8.0.4 (from open3d==0.18.0)
+#7 5.525   Downloading ipywidgets-8.1.9-py3-none-any.whl.metadata (2.4 kB)
+#7 5.529 Collecting addict (from open3d==0.18.0)
+#7 5.532   Downloading addict-2.4.0-py3-none-any.whl.metadata (1.0 kB)
+#7 5.533 Requirement already satisfied: pillow>=9.3.0 in /opt/conda/lib/python3.11/site-packages (from open3d==0.18.0) (11.0.0)
+#7 5.588 Collecting matplotlib>=3 (from open3d==0.18.0)
+#7 5.591   Downloading matplotlib-3.11.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (80 kB)
+#7 5.646 Collecting pandas>=1.0 (from open3d==0.18.0)
+#7 5.649   Downloading pandas-3.0.6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+#7 5.721 Collecting scikit-learn>=0.21 (from open3d==0.18.0)
+#7 5.724   Downloading scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.3 kB)
+#7 5.728 Collecting pyquaternion (from open3d==0.18.0)
+#7 5.731   Downloading pyquaternion-0.9.9-py3-none-any.whl.metadata (1.4 kB)
+#7 5.738 Collecting cloudpickle>=1.2.0 (from gymnasium==0.29.1)
+#7 5.741   Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+#7 5.742 Requirement already satisfied: typing-extensions>=4.3.0 in /opt/conda/lib/python3.11/site-packages (from gymnasium==0.29.1) (4.14.0)
+#7 5.745 Collecting farama-notifications>=0.0.1 (from gymnasium==0.29.1)
+#7 5.749   Downloading farama_notifications-0.0.6-py3-none-any.whl.metadata (729 bytes)
+#7 5.950 Collecting asciitree (from zarr==2.18.3)
+#7 5.953   Downloading asciitree-0.3.3.tar.gz (4.0 kB)
+#7 5.955   Preparing metadata (setup.py): started
+#7 6.071   Preparing metadata (setup.py): finished with status 'done'
+#7 6.098 Collecting numcodecs>=0.10.0 (from zarr==2.18.3)
+#7 6.101   Downloading numcodecs-0.16.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (3.4 kB)
+#7 6.107 Collecting fasteners (from zarr==2.18.3)
+#7 6.110   Downloading fasteners-0.20-py3-none-any.whl.metadata (4.8 kB)
+#7 6.127 Collecting Flask<3.2,>=1.0.4 (from dash>=2.6.0->open3d==0.18.0)
+#7 6.131   Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+#7 6.157 Collecting plotly>=5.0.0 (from dash>=2.6.0->open3d==0.18.0)
+#7 6.160   Downloading plotly-7.1.0-py3-none-any.whl.metadata (8.8 kB)
+#7 6.180 Collecting importlib-metadata (from dash>=2.6.0->open3d==0.18.0)
+#7 6.183   Downloading importlib_metadata-9.0.1-py3-none-any.whl.metadata (4.5 kB)
+#7 6.190 Collecting retrying (from dash>=2.6.0->open3d==0.18.0)
+#7 6.192   Downloading retrying-1.4.2-py3-none-any.whl.metadata (5.5 kB)
+#7 6.200 Collecting nest-asyncio (from dash>=2.6.0->open3d==0.18.0)
+#7 6.203   Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+#7 6.203 Requirement already satisfied: setuptools in /opt/conda/lib/python3.11/site-packages (from dash>=2.6.0->open3d==0.18.0) (75.8.2)
+#7 6.209 Collecting janus>=1.0.0 (from dash>=2.6.0->open3d==0.18.0)
+#7 6.211   Downloading janus-2.0.0-py3-none-any.whl.metadata (5.3 kB)
+#7 6.263 Collecting pydantic>=2.10 (from dash>=2.6.0->open3d==0.18.0)
+#7 6.266   Downloading pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)
+#7 6.283 Collecting comm (from dash>=2.6.0->open3d==0.18.0)
+#7 6.286   Downloading comm-0.2.3-py3-none-any.whl.metadata (3.7 kB)
+#7 6.290 Collecting blinker>=1.9.0 (from Flask<3.2,>=1.0.4->dash>=2.6.0->open3d==0.18.0)
+#7 6.293   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+#7 6.293 Requirement already satisfied: click>=8.1.3 in /opt/conda/lib/python3.11/site-packages (from Flask<3.2,>=1.0.4->dash>=2.6.0->open3d==0.18.0) (8.2.1)
+#7 6.297 Collecting itsdangerous>=2.2.0 (from Flask<3.2,>=1.0.4->dash>=2.6.0->open3d==0.18.0)
+#7 6.300   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+#7 6.300 Requirement already satisfied: jinja2>=3.1.2 in /opt/conda/lib/python3.11/site-packages (from Flask<3.2,>=1.0.4->dash>=2.6.0->open3d==0.18.0) (3.1.6)
+#7 6.301 Requirement already satisfied: markupsafe>=2.1.1 in /opt/conda/lib/python3.11/site-packages (from Flask<3.2,>=1.0.4->dash>=2.6.0->open3d==0.18.0) (3.0.2)
+#7 6.305 Requirement already satisfied: ipython>=6.1.0 in /opt/conda/lib/python3.11/site-packages (from ipywidgets>=8.0.4->open3d==0.18.0) (9.3.0)
+#7 6.305 Requirement already satisfied: traitlets>=4.3.1 in /opt/conda/lib/python3.11/site-packages (from ipywidgets>=8.0.4->open3d==0.18.0) (5.14.3)
+#7 6.315 Collecting widgetsnbextension~=4.0.16 (from ipywidgets>=8.0.4->open3d==0.18.0)
+#7 6.318   Downloading widgetsnbextension-4.0.16-py3-none-any.whl.metadata (1.6 kB)
+#7 6.327 Collecting jupyterlab_widgets~=3.0.17 (from ipywidgets>=8.0.4->open3d==0.18.0)
+#7 6.329   Downloading jupyterlab_widgets-3.0.17-py3-none-any.whl.metadata (20 kB)
+#7 6.333 Requirement already satisfied: decorator in /opt/conda/lib/python3.11/site-packages (from ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (5.2.1)
+#7 6.333 Requirement already satisfied: ipython-pygments-lexers in /opt/conda/lib/python3.11/site-packages (from ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (1.1.1)
+#7 6.333 Requirement already satisfied: jedi>=0.16 in /opt/conda/lib/python3.11/site-packages (from ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (0.19.2)
+#7 6.333 Requirement already satisfied: matplotlib-inline in /opt/conda/lib/python3.11/site-packages (from ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (0.1.7)
+#7 6.334 Requirement already satisfied: pexpect>4.3 in /opt/conda/lib/python3.11/site-packages (from ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (4.9.0)
+#7 6.334 Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in /opt/conda/lib/python3.11/site-packages (from ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (3.0.51)
+#7 6.334 Requirement already satisfied: pygments>=2.4.0 in /opt/conda/lib/python3.11/site-packages (from ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (2.19.1)
+#7 6.334 Requirement already satisfied: stack_data in /opt/conda/lib/python3.11/site-packages (from ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (0.6.3)
+#7 6.336 Requirement already satisfied: wcwidth in /opt/conda/lib/python3.11/site-packages (from prompt_toolkit<3.1.0,>=3.0.41->ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (0.2.13)
+#7 6.337 Requirement already satisfied: parso<0.9.0,>=0.8.4 in /opt/conda/lib/python3.11/site-packages (from jedi>=0.16->ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (0.8.4)
+#7 6.364 Collecting contourpy>=1.0.1 (from matplotlib>=3->open3d==0.18.0)
+#7 6.367   Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+#7 6.372 Collecting cycler>=0.10 (from matplotlib>=3->open3d==0.18.0)
+#7 6.375   Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+#7 6.476 Collecting fonttools>=4.28.2 (from matplotlib>=3->open3d==0.18.0)
+#7 6.479   Downloading fonttools-4.66.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (129 kB)
+#7 6.513 Collecting kiwisolver>=1.3.1 (from matplotlib>=3->open3d==0.18.0)
+#7 6.516   Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)
+#7 6.521 Requirement already satisfied: packaging>=20.0 in /opt/conda/lib/python3.11/site-packages (from matplotlib>=3->open3d==0.18.0) (25.0)
+#7 6.530 Collecting pyparsing>=3 (from matplotlib>=3->open3d==0.18.0)
+#7 6.532   Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+#7 6.538 Collecting python-dateutil>=2.7 (from matplotlib>=3->open3d==0.18.0)
+#7 6.540   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+#7 6.549 Collecting fastjsonschema>=2.15 (from nbformat>=5.7.0->open3d==0.18.0)
+#7 6.552   Downloading fastjsonschema-2.22.2-py3-none-any.whl.metadata (2.1 kB)
+#7 6.552 Requirement already satisfied: jsonschema>=2.6 in /opt/conda/lib/python3.11/site-packages (from nbformat>=5.7.0->open3d==0.18.0) (4.24.0)
+#7 6.560 Collecting jupyter-core!=5.0.*,>=4.12 (from nbformat>=5.7.0->open3d==0.18.0)
+#7 6.563   Downloading jupyter_core-5.9.1-py3-none-any.whl.metadata (1.5 kB)
+#7 6.565 Requirement already satisfied: attrs>=22.2.0 in /opt/conda/lib/python3.11/site-packages (from jsonschema>=2.6->nbformat>=5.7.0->open3d==0.18.0) (25.3.0)
+#7 6.565 Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /opt/conda/lib/python3.11/site-packages (from jsonschema>=2.6->nbformat>=5.7.0->open3d==0.18.0) (2025.4.1)
+#7 6.565 Requirement already satisfied: referencing>=0.28.4 in /opt/conda/lib/python3.11/site-packages (from jsonschema>=2.6->nbformat>=5.7.0->open3d==0.18.0) (0.36.2)
+#7 6.565 Requirement already satisfied: rpds-py>=0.7.1 in /opt/conda/lib/python3.11/site-packages (from jsonschema>=2.6->nbformat>=5.7.0->open3d==0.18.0) (0.25.1)
+#7 6.570 Requirement already satisfied: platformdirs>=2.5 in /opt/conda/lib/python3.11/site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat>=5.7.0->open3d==0.18.0) (4.3.8)
+#7 6.576 INFO: pip is looking at multiple versions of opencv-python to determine which version is compatible with other requirements. This could take a while.
+#7 6.576 Collecting opencv-python>=4.0 (from sapien==3.0.0b1)
+#7 6.579   Downloading opencv_python-4.14.0.94-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+#7 6.583   Downloading opencv_python-4.13.0.92-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+#7 6.588   Downloading opencv_python-4.13.0.90-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (19 kB)
+#7 6.592   Downloading opencv_python-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (19 kB)
+#7 6.600   Downloading opencv_python-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+#7 6.609 Requirement already satisfied: ptyprocess>=0.5 in /opt/conda/lib/python3.11/site-packages (from pexpect>4.3->ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (0.7.0)
+#7 6.627 Collecting narwhals>=1.15.1 (from plotly>=5.0.0->dash>=2.6.0->open3d==0.18.0)
+#7 6.630   Downloading narwhals-2.26.0-py3-none-any.whl.metadata (15 kB)
+#7 6.638 Collecting annotated-types>=0.6.0 (from pydantic>=2.10->dash>=2.6.0->open3d==0.18.0)
+#7 6.640   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+#7 6.952 Collecting pydantic-core==2.46.5 (from pydantic>=2.10->dash>=2.6.0->open3d==0.18.0)
+#7 6.954   Downloading pydantic_core-2.46.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+#7 6.961 Collecting typing-extensions>=4.3.0 (from gymnasium==0.29.1)
+#7 6.965   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#7 6.968 Collecting typing-inspection>=0.4.2 (from pydantic>=2.10->dash>=2.6.0->open3d==0.18.0)
+#7 6.972   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+#7 6.975 Requirement already satisfied: six>=1.5 in /opt/conda/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib>=3->open3d==0.18.0) (1.17.0)
+#7 6.978 Requirement already satisfied: charset_normalizer<4,>=2 in /opt/conda/lib/python3.11/site-packages (from requests>=2.22->sapien==3.0.0b1) (3.4.2)
+#7 6.978 Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.11/site-packages (from requests>=2.22->sapien==3.0.0b1) (3.10)
+#7 6.978 Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/lib/python3.11/site-packages (from requests>=2.22->sapien==3.0.0b1) (2.4.0)
+#7 6.979 Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.11/site-packages (from requests>=2.22->sapien==3.0.0b1) (2025.4.26)
+#7 6.994 Collecting joblib>=1.4.0 (from scikit-learn>=0.21->open3d==0.18.0)
+#7 6.997   Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+#7 7.008 Collecting threadpoolctl>=3.5.0 (from scikit-learn>=0.21->open3d==0.18.0)
+#7 7.010   Downloading threadpoolctl-3.7.0-py3-none-any.whl.metadata (24 kB)
+#7 7.021 Requirement already satisfied: zipp>=3.20 in /opt/conda/lib/python3.11/site-packages (from importlib-metadata->dash>=2.6.0->open3d==0.18.0) (3.22.0)
+#7 7.030 Requirement already satisfied: executing>=1.2.0 in /opt/conda/lib/python3.11/site-packages (from stack_data->ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (2.2.0)
+#7 7.031 Requirement already satisfied: asttokens>=2.1.0 in /opt/conda/lib/python3.11/site-packages (from stack_data->ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (3.0.0)
+#7 7.031 Requirement already satisfied: pure_eval in /opt/conda/lib/python3.11/site-packages (from stack_data->ipython>=6.1.0->ipywidgets>=8.0.4->open3d==0.18.0) (0.2.3)
+#7 7.037 Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+#7 7.877    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 21.6 MB/s eta 0:00:00
+#7 7.880 Downloading sapien-3.0.0b1-cp311-cp311-manylinux2014_x86_64.whl (49.6 MB)
+#7 11.27    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.6/49.6 MB 14.6 MB/s eta 0:00:00
+#7 11.27 Downloading mplib-0.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.5 MB)
+#7 11.75    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.5/12.5 MB 25.8 MB/s eta 0:00:00
+#7 11.76 Downloading open3d-0.18.0-cp311-cp311-manylinux_2_27_x86_64.whl (399.7 MB)
+#7 36.90    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 399.7/399.7 MB 16.2 MB/s eta 0:00:00
+#7 36.91 Downloading gymnasium-0.29.1-py3-none-any.whl (953 kB)
+#7 36.92    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 953.9/953.9 kB 77.7 MB/s eta 0:00:00
+#7 36.93 Downloading transforms3d-0.4.2-py3-none-any.whl (1.4 MB)
+#7 36.95    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 68.1 MB/s eta 0:00:00
+#7 36.95 Downloading trimesh-4.4.3-py3-none-any.whl (695 kB)
+#7 36.96    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 695.9/695.9 kB 94.1 MB/s eta 0:00:00
+#7 36.96 Downloading imageio-2.34.2-py3-none-any.whl (313 kB)
+#7 36.97 Downloading scipy-1.15.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+#7 39.92    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.7/37.7 MB 12.7 MB/s eta 0:00:00
+#7 39.92 Downloading h5py-3.16.0-cp311-cp311-manylinux_2_28_x86_64.whl (5.0 MB)
+#7 40.00    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.0/5.0 MB 61.3 MB/s eta 0:00:00
+#7 40.01 Downloading zarr-2.18.3-py3-none-any.whl (210 kB)
+#7 40.01 Downloading opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (50.0 MB)
+#7 43.35    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.0/50.0 MB 14.9 MB/s eta 0:00:00
+#7 43.36 Downloading pyglet-1.5.31-py3-none-any.whl (1.1 MB)
+#7 43.38    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 68.0 MB/s eta 0:00:00
+#7 43.38 Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+#7 43.38 Downloading dash-4.4.1-py3-none-any.whl (8.9 MB)
+#7 43.82    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.9/8.9 MB 20.7 MB/s eta 0:00:00
+#7 43.82 Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+#7 43.83 Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+#7 43.83 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+#7 43.84 Downloading farama_notifications-0.0.6-py3-none-any.whl (2.9 kB)
+#7 43.84 Downloading ipywidgets-8.1.9-py3-none-any.whl (140 kB)
+#7 43.85 Downloading jupyterlab_widgets-3.0.17-py3-none-any.whl (217 kB)
+#7 43.85 Downloading widgetsnbextension-4.0.16-py3-none-any.whl (2.2 MB)
+#7 43.89    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 57.2 MB/s eta 0:00:00
+#7 43.89 Downloading comm-0.2.3-py3-none-any.whl (7.3 kB)
+#7 43.90 Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+#7 43.90 Downloading janus-2.0.0-py3-none-any.whl (12 kB)
+#7 43.90 Downloading matplotlib-3.11.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.9 MB)
+#7 44.84    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 11.2 MB/s eta 0:00:00
+#7 44.84 Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (355 kB)
+#7 44.85 Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+#7 44.85 Downloading fonttools-4.66.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)
+#7 44.93    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 70.3 MB/s eta 0:00:00
+#7 44.94 Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+#7 45.77    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 1.4 MB/s eta 0:00:00
+#7 45.80 Downloading nbformat-5.11.1-py3-none-any.whl (79 kB)
+#7 45.83 Downloading fastjsonschema-2.22.2-py3-none-any.whl (27 kB)
+#7 45.84 Downloading jupyter_core-5.9.1-py3-none-any.whl (29 kB)
+#7 45.85 Downloading numcodecs-0.16.5-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (9.1 MB)
+#7 46.31    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.1/9.1 MB 21.3 MB/s eta 0:00:00
+#7 46.31 Downloading opencv_python-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (63.0 MB)
+#7 50.15    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.0/63.0 MB 16.4 MB/s eta 0:00:00
+#7 50.16 Downloading pandas-3.0.6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (11.1 MB)
+#7 50.59    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 25.4 MB/s eta 0:00:00
+#7 50.59 Downloading plotly-7.1.0-py3-none-any.whl (9.7 MB)
+#7 51.42    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.7/9.7 MB 11.5 MB/s eta 0:00:00
+#7 51.42 Downloading narwhals-2.26.0-py3-none-any.whl (474 kB)
+#7 51.43 Downloading pydantic-2.13.5-py3-none-any.whl (472 kB)
+#7 51.44 Downloading pydantic_core-2.46.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+#7 51.50    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 29.9 MB/s eta 0:00:00
+#7 51.51 Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+#7 51.51 Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+#7 51.52 Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#7 51.53 Downloading scikit_learn-1.9.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.3 MB)
+#7 52.43    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 10.1 MB/s eta 0:00:00
+#7 52.43 Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+#7 52.44 Downloading threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+#7 52.44 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#7 52.45 Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+#7 52.45 Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+#7 52.45 Downloading configargparse-1.7.7-py3-none-any.whl (34 kB)
+#7 52.45 Downloading fasteners-0.20-py3-none-any.whl (18 kB)
+#7 52.46 Downloading importlib_metadata-9.0.1-py3-none-any.whl (27 kB)
+#7 52.46 Downloading lxml-6.1.3-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.2 MB)
+#7 52.56    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 49.3 MB/s eta 0:00:00
+#7 52.57 Downloading nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+#7 52.57 Downloading pyperclip-1.11.0-py3-none-any.whl (11 kB)
+#7 52.57 Downloading pyquaternion-0.9.9-py3-none-any.whl (14 kB)
+#7 52.58 Downloading retrying-1.4.2-py3-none-any.whl (10 kB)
+#7 52.82 Building wheels for collected packages: toppra, asciitree
+#7 52.82   Building wheel for toppra (pyproject.toml): started
+#7 53.36   Building wheel for toppra (pyproject.toml): finished with status 'error'
+#7 53.37   error: subprocess-exited-with-error
+#7 53.37   
+#7 53.37   × Building wheel for toppra (pyproject.toml) did not run successfully.
+#7 53.37   │ exit code: 1
+#7 53.37   ╰─> [45 lines of output]
+#7 53.37       running bdist_wheel
+#7 53.37       running build
+#7 53.37       running build_py
+#7 53.37       creating build/lib.linux-x86_64-cpython-311/toppra
+#7 53.37       copying toppra/exceptions.py -> build/lib.linux-x86_64-cpython-311/toppra
+#7 53.37       copying toppra/__init__.py -> build/lib.linux-x86_64-cpython-311/toppra
+#7 53.37       copying toppra/constants.py -> build/lib.linux-x86_64-cpython-311/toppra
+#7 53.37       copying toppra/planning_utils.py -> build/lib.linux-x86_64-cpython-311/toppra
+#7 53.37       copying toppra/parametrizer.py -> build/lib.linux-x86_64-cpython-311/toppra
+#7 53.37       copying toppra/utils.py -> build/lib.linux-x86_64-cpython-311/toppra
+#7 53.37       copying toppra/interpolator.py -> build/lib.linux-x86_64-cpython-311/toppra
+#7 53.37       copying toppra/simplepath.py -> build/lib.linux-x86_64-cpython-311/toppra
+#7 53.37       creating build/lib.linux-x86_64-cpython-311/toppra/constraint
+#7 53.37       copying toppra/constraint/constraint.py -> build/lib.linux-x86_64-cpython-311/toppra/constraint
+#7 53.37       copying toppra/constraint/linear_constraint.py -> build/lib.linux-x86_64-cpython-311/toppra/constraint
+#7 53.37       copying toppra/constraint/linear_joint_velocity.py -> build/lib.linux-x86_64-cpython-311/toppra/constraint
+#7 53.37       copying toppra/constraint/__init__.py -> build/lib.linux-x86_64-cpython-311/toppra/constraint
+#7 53.37       copying toppra/constraint/linear_joint_acceleration.py -> build/lib.linux-x86_64-cpython-311/toppra/constraint
+#7 53.37       copying toppra/constraint/joint_torque.py -> build/lib.linux-x86_64-cpython-311/toppra/constraint
+#7 53.37       copying toppra/constraint/conic_constraint.py -> build/lib.linux-x86_64-cpython-311/toppra/constraint
+#7 53.37       copying toppra/constraint/linear_second_order.py -> build/lib.linux-x86_64-cpython-311/toppra/constraint
+#7 53.37       creating build/lib.linux-x86_64-cpython-311/toppra/algorithm
+#7 53.37       copying toppra/algorithm/convex_opt.py -> build/lib.linux-x86_64-cpython-311/toppra/algorithm
+#7 53.37       copying toppra/algorithm/__init__.py -> build/lib.linux-x86_64-cpython-311/toppra/algorithm
+#7 53.37       copying toppra/algorithm/algorithm.py -> build/lib.linux-x86_64-cpython-311/toppra/algorithm
+#7 53.37       creating build/lib.linux-x86_64-cpython-311/toppra/algorithm/reachabilitybased
+#7 53.37       copying toppra/algorithm/reachabilitybased/time_optimal_algorithm.py -> build/lib.linux-x86_64-cpython-311/toppra/algorithm/reachabilitybased
+#7 53.37       copying toppra/algorithm/reachabilitybased/__init__.py -> build/lib.linux-x86_64-cpython-311/toppra/algorithm/reachabilitybased
+#7 53.37       copying toppra/algorithm/reachabilitybased/reachability_algorithm.py -> build/lib.linux-x86_64-cpython-311/toppra/algorithm/reachabilitybased
+#7 53.37       copying toppra/algorithm/reachabilitybased/desired_duration_algorithm.py -> build/lib.linux-x86_64-cpython-311/toppra/algorithm/reachabilitybased
+#7 53.37       creating build/lib.linux-x86_64-cpython-311/toppra/solverwrapper
+#7 53.37       copying toppra/solverwrapper/hot_qpoases_solverwrapper.py -> build/lib.linux-x86_64-cpython-311/toppra/solverwrapper
+#7 53.37       copying toppra/solverwrapper/qpoases_solverwrapper.py -> build/lib.linux-x86_64-cpython-311/toppra/solverwrapper
+#7 53.37       copying toppra/solverwrapper/ecos_solverwrapper.py -> build/lib.linux-x86_64-cpython-311/toppra/solverwrapper
+#7 53.37       copying toppra/solverwrapper/solverwrapper.py -> build/lib.linux-x86_64-cpython-311/toppra/solverwrapper
+#7 53.37       copying toppra/solverwrapper/__init__.py -> build/lib.linux-x86_64-cpython-311/toppra/solverwrapper
+#7 53.37       copying toppra/solverwrapper/cvxpy_solverwrapper.py -> build/lib.linux-x86_64-cpython-311/toppra/solverwrapper
+#7 53.37       creating build/lib.linux-x86_64-cpython-311/toppra/cpp
+#7 53.37       copying toppra/cpp/__init__.py -> build/lib.linux-x86_64-cpython-311/toppra/cpp
+#7 53.37       warning: build_py: byte-compiling is disabled, skipping.
+#7 53.37       
+#7 53.37       running build_ext
+#7 53.37       building 'toppra._CythonUtils' extension
+#7 53.37       gcc -pthread -B /opt/conda/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/conda/include -fPIC -O2 -isystem /opt/conda/include -fPIC -I/tmp/pip-build-env-smas5_ph/overlay/lib/python3.11/site-packages/numpy/_core/include -I/opt/conda/include/python3.11 -c toppra/_CythonUtils.c -o build/temp.linux-x86_64-cpython-311/toppra/_CythonUtils.o -O2
+#7 53.37       error: [Errno 2] No such file or directory: 'gcc'
+#7 53.37       [end of output]
+#7 53.37   
+#7 53.37   note: This error originates from a subprocess, and is likely not a problem with pip.
+#7 53.37   ERROR: Failed building wheel for toppra
+#7 53.37   DEPRECATION: Building 'asciitree' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'asciitree'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+#7 53.37   Building wheel for asciitree (setup.py): started
+#7 53.49   Building wheel for asciitree (setup.py): finished with status 'done'
+#7 53.49   Created wheel for asciitree: filename=asciitree-0.3.3-py3-none-any.whl size=5069 sha256=2a89f95bdd0d34bcd207eade1d6aa4b9d3f3b2102b9abc337ed6da60bf3208c1
+#7 53.49   Stored in directory: /tmp/pip-ephem-wheel-cache-6r_cux3w/wheels/71/c1/da/23077eb3b87d24d6f3852ed1ed1a1ac2d3c885ad6ebd2b4a07
+#7 53.49 Successfully built asciitree
+#7 53.49 Failed to build toppra
+#7 53.49 ERROR: Failed to build installable wheels for some pyproject.toml based projects (toppra)
+#7 ERROR: process "/bin/sh -c python -m pip install --no-cache-dir     numpy==1.26.4     sapien==3.0.0b1     mplib==0.2.1     open3d==0.18.0     gymnasium==0.29.1     toppra==0.6.3     transforms3d==0.4.2     trimesh==4.4.3     imageio==2.34.2     scipy==1.15.3     PyYAML==6.0.2     h5py==3.16.0     zarr==2.18.3     opencv-python-headless==4.11.0.86     pyglet==1.5.31     tqdm==4.67.1" did not complete successfully: exit code: 1
+------
+ > [3/4] RUN python -m pip install --no-cache-dir     numpy==1.26.4     sapien==3.0.0b1     mplib==0.2.1     open3d==0.18.0     gymnasium==0.29.1     toppra==0.6.3     transforms3d==0.4.2     trimesh==4.4.3     imageio==2.34.2     scipy==1.15.3     PyYAML==6.0.2     h5py==3.16.0     zarr==2.18.3     opencv-python-headless==4.11.0.86     pyglet==1.5.31     tqdm==4.67.1:
+53.37   note: This error originates from a subprocess, and is likely not a problem with pip.
+53.37   ERROR: Failed building wheel for toppra
+53.37   DEPRECATION: Building 'asciitree' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'asciitree'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+53.37   Building wheel for asciitree (setup.py): started
+53.49   Building wheel for asciitree (setup.py): finished with status 'done'
+53.49   Created wheel for asciitree: filename=asciitree-0.3.3-py3-none-any.whl size=5069 sha256=2a89f95bdd0d34bcd207eade1d6aa4b9d3f3b2102b9abc337ed6da60bf3208c1
+53.49   Stored in directory: /tmp/pip-ephem-wheel-cache-6r_cux3w/wheels/71/c1/da/23077eb3b87d24d6f3852ed1ed1a1ac2d3c885ad6ebd2b4a07
+53.49 Successfully built asciitree
+53.49 Failed to build toppra
+53.49 ERROR: Failed to build installable wheels for some pyproject.toml based projects (toppra)
+------
+Dockerfile.sim:12
+--------------------
+  11 |     
+  12 | >>> RUN python -m pip install --no-cache-dir \
+  13 | >>>     numpy==1.26.4 \
+  14 | >>>     sapien==3.0.0b1 \
+  15 | >>>     mplib==0.2.1 \
+  16 | >>>     open3d==0.18.0 \
+  17 | >>>     gymnasium==0.29.1 \
+  18 | >>>     toppra==0.6.3 \
+  19 | >>>     transforms3d==0.4.2 \
+  20 | >>>     trimesh==4.4.3 \
+  21 | >>>     imageio==2.34.2 \
+  22 | >>>     scipy==1.15.3 \
+  23 | >>>     PyYAML==6.0.2 \
+  24 | >>>     h5py==3.16.0 \
+  25 | >>>     zarr==2.18.3 \
+  26 | >>>     opencv-python-headless==4.11.0.86 \
+  27 | >>>     pyglet==1.5.31 \
+  28 | >>>     tqdm==4.67.1
+  29 |     
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/sh -c python -m pip install --no-cache-dir     numpy==1.26.4     sapien==3.0.0b1     mplib==0.2.1     open3d==0.18.0     gymnasium==0.29.1     toppra==0.6.3     transforms3d==0.4.2     trimesh==4.4.3     imageio==2.34.2     scipy==1.15.3     PyYAML==6.0.2     h5py==3.16.0     zarr==2.18.3     opencv-python-headless==4.11.0.86     pyglet==1.5.31     tqdm==4.67.1" did not complete successfully: exit code: 1

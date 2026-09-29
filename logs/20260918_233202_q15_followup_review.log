@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "task": "Q15 follow-up investment review and selection",
+  "decision": "One fixed-checkpoint nominal joint-position hold contrast selected",
+  "primary_sources": 6,
+  "new_source_files_compared_to_immutable_remote": 3,
+  "available_final_checkpoints": 9,
+  "image_available": true,
+  "local_links_checked": 467,
+  "git_diff_check": "passed",
+  "new_model_execution": false,
+  "containers_created_or_deleted": false,
+  "files": [
+    "README.md",
+    "TODO.md",
+    "summary.md",
+    "buildup/README.md",
+    "buildup/robotics/README.md",
+    "buildup/selection.md",
+    "buildup/robotics/questions/reward-dynamics-transfer.md",
+    "buildup/robotics/related_work/policy-geometry.md",
+    "buildup/robotics/pilot_studies/q15-reward/README.md",
+    "docs/reproducibility.md"
+  ],
+  "source_record": "buildup/robotics/related_work/comparison_sources.json#q15_followup_review_20260918",
+  "next_task": "Implement, run, independently verify and interpret the 576-episode joint-position hold observation in Docker"
+}

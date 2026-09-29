@@ -1,0 +1,99 @@
+{
+  "status": "verified exploratory study",
+  "date": "2026-09-25",
+  "source_commit": "baab60ede2e89167c1b7aaed41a9aa8e690a9d1e",
+  "demo_h5_sha256": "8bfab3505efc904bfb8fd4353b7282cfe64914d0c4449a987f19af823db58b97",
+  "cpu_image_id": "sha256:48d17bb6a8df489b03d32ccdf22c64b1432caafa3ca8ee0df85d4fdcce0de6fc",
+  "gpu_image_id": "sha256:8dc6f2ae072476b71d03cb5c26e9f6500bcb6e6dfd41e45d77d5848595785d39",
+  "installed_locks": {
+    "installed.compat_cpu.lock": "27853d3c8ad98ee58940d1b3d61be06fae947ae6348e57a21336ab0193739cb5",
+    "installed.compat_gpu.lock": "4318074a7edcb66e3a412d731b4a03fc4f0c55b815e37d91f6043a57f58d81ae"
+  },
+  "demo_replay": {
+    "cpu": {
+      "final": 0,
+      "any": 0,
+      "total": 8
+    },
+    "native_cuda": {
+      "final": 2,
+      "any": 3,
+      "total": 8
+    },
+    "collision_cuda": {
+      "final": 2,
+      "any": 3,
+      "total": 8
+    },
+    "native_collision_traces_identical": true,
+    "official_skipped_episode_ids": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ]
+  },
+  "state_observation": {
+    "dim": 31,
+    "action_dim": 3,
+    "dev_audit_episodes": 8,
+    "train_episodes": 792,
+    "valid_episodes": 88,
+    "train_rows": 76081,
+    "valid_rows": 8374
+  },
+  "small_bc": {
+    "train_episodes": 64,
+    "valid_episodes": 8,
+    "best_valid_action_mse": 0.03537191078066826,
+    "new_seed_count": 8,
+    "final_success": {
+      "zero": 0,
+      "ppo_mean": 8,
+      "bc": 1
+    },
+    "mean_final_overlap": {
+      "zero": 0.281818185467273,
+      "ppo_mean": 0.9374242499470711,
+      "bc": 0.23030302673578262
+    }
+  },
+  "full_bc": {
+    "train_episodes": 792,
+    "valid_episodes": 88,
+    "best_valid_action_mse": 0.026293659582734108,
+    "new_seed_count": 16,
+    "final_success": {
+      "zero": 0,
+      "ppo_mean": 16,
+      "bc": 12
+    },
+    "mean_final_overlap": {
+      "zero": 0.16992424195632339,
+      "ppo_mean": 0.9356060512363911,
+      "bc": 0.7727272808551788
+    }
+  },
+  "claim_boundary": "Demo action replay remains 2/8 in current native CUDA runtime; PPO used different RL data; full BC 12/16 is exploratory; action-conditioned predictor has only source-transition validation error and no valid paired action outcome; no correction or paper claim.",
+  "branch_diagnostic": {
+    "date": "2026-09-26",
+    "purpose": "exploratory development",
+    "source_train_episodes": 792,
+    "source_valid_episodes": 88,
+    "train_transitions": 75289,
+    "valid_transitions": 8286,
+    "best_valid_rmse_object_xy_m_yaw_rad": [
+      0.0013117671478539705,
+      0.0017875427147373557,
+      0.016240404918789864
+    ],
+    "paired_branch_status": "invalid: prior-trace prefix, reset replay, and repeated restored BC control did not match",
+    "valid_paired_state_count": 0,
+    "model_correction_efficacy": "not measured",
+    "output": "runs/q16/branches/",
+    "local_preservation_files": 46,
+    "container_cleanup": "four owned exited Q16 branch containers removed; images retained"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "real_data_mounted": false,
+  "independent_verifier_process": true,
+  "checks": [
+    {
+      "name": "positive_10_cases_three_PLY_encodings_two_scales_nonidentity_pose_missing_depth",
+      "passed": true
+    },
+    {
+      "name": "PNG_filters_and_CRC",
+      "passed": true,
+      "details": [
+        {
+          "bits": 8,
+          "color": 2,
+          "filters": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "CRC_corruption_rejected": true
+        },
+        {
+          "bits": 16,
+          "color": 0,
+          "filters": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "CRC_corruption_rejected": true
+        }
+      ]
+    },
+    {
+      "name": "open_mesh",
+      "passed": true
+    },
+    {
+      "name": "reflected_pose",
+      "passed": true
+    },
+    {
+      "name": "shifted_pose_no_rays",
+      "passed": true
+    },
+    {
+      "name": "half_pixel_output",
+      "passed": true
+    },
+    {
+      "name": "residual_output",
+      "passed": true
+    },
+    {
+      "name": "case_identity_output",
+      "passed": true
+    },
+    {
+      "name": "invented_input_failure",
+      "passed": true
+    }
+  ],
+  "positive_verification": {
+    "status": "VERIFIED",
+    "decision": "INPUT_CONTROLS_VALID_CALIBRATION_UNRESOLVED",
+    "denominator": 10,
+    "models": [
+      {
+        "object": 1,
+        "raw_vertices": 8,
+        "exact_coordinate_classes": 8,
+        "triangles": 12,
+        "bad_edges": 0,
+        "orientation_failures": 0,
+        "zero_area_face_ids": [],
+        "below_area_face_ids": [],
+        "minimum_area_m2": 0.0024000000000000002,
+        "bbox_error_m": 6.938893903907228e-18,
+        "mesh_gate": true
+      },
+      {
+        "object": 6,
+        "raw_vertices": 8,
+        "exact_coordinate_classes": 8,
+        "triangles": 12,
+        "bad_edges": 0,
+        "orientation_failures": 0,
+        "zero_area_face_ids": [],
+        "below_area_face_ids": [],
+        "minimum_area_m2": 0.0024000000000000002,
+        "bbox_error_m": 6.938893903907228e-18,
+        "mesh_gate": true
+      },
+      {
+        "object": 14,
+        "raw_vertices": 8,
+        "exact_coordinate_classes": 8,
+        "triangles": 12,
+        "bad_edges": 0,
+        "orientation_failures": 0,
+        "zero_area_face_ids": [],
+        "below_area_face_ids": [],
+        "minimum_area_m2": 0.0024000000000000002,
+        "bbox_error_m": 6.938893903907228e-18,
+        "mesh_gate": true
+      },
+      {
+        "object": 19,
+        "raw_vertices": 8,
+        "exact_coordinate_classes": 8,
+        "triangles": 12,
+        "bad_edges": 0,
+        "orientation_failures": 0,
+        "zero_area_face_ids": [],
+        "below_area_face_ids": [],
+        "minimum_area_m2": 0.0024000000000000002,
+        "bbox_error_m": 6.938893903907228e-18,
+        "mesh_gate": true
+      },
+      {
+        "object": 20,
+        "raw_vertices": 8,
+        "exact_coordinate_classes": 8,
+        "triangles": 12,
+        "bad_edges": 0,
+        "orientation_failures": 0,
+        "zero_area_face_ids": [],
+        "below_area_face_ids": [],
+        "minimum_area_m2": 0.0024000000000000002,
+        "bbox_error_m": 6.938893903907228e-18,
+        "mesh_gate": true
+      }
+    ],
+    "cases": [
+      {
+        "id": "000048_000001_000001",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 1.1102230246251565e-16,
+        "valid_pixels": 167
+      },
+      {
+        "id": "000048_000001_000006",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 2.220446049250313e-16,
+        "valid_pixels": 131
+      },
+      {
+        "id": "000048_000001_000014",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 0.0,
+        "valid_pixels": 107
+      },
+      {
+        "id": "000048_000001_000019",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 1.1102230246251565e-16,
+        "valid_pixels": 143
+      },
+      {
+        "id": "000048_000001_000020",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 1.1102230246251565e-16,
+        "valid_pixels": 167
+      },
+      {
+        "id": "000048_000036_000001",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 1.1102230246251565e-16,
+        "valid_pixels": 151
+      },
+      {
+        "id": "000048_000036_000006",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 4.440892098500626e-16,
+        "valid_pixels": 125
+      },
+      {
+        "id": "000048_000036_000014",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 0.0,
+        "valid_pixels": 107
+      },
+      {
+        "id": "000048_000036_000019",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 1.1102230246251565e-16,
+        "valid_pixels": 125
+      },
+      {
+        "id": "000048_000036_000020",
+        "input_verified": true,
+        "mesh_gate": true,
+        "ray_support": true,
+        "ray_comparison_max_error_m": 1.1102230246251565e-16,
+        "valid_pixels": 151
+      }
+    ],
+    "physical_admission": false,
+    "source_result_sha256": "b20a20d005096bb172c12176281ff59669684111b306c749d6fbb7cbb9ea956a"
+  },
+  "tested_source_sha256": {
+    "audit.py": "6e3771dbe28f714fd5b64d7f3516dd55ea9b2f65f2201d4a9da8e5098c65cc14",
+    "verify.py": "4f4c3c57ee0b5c0f321c766afd978792a6ccc6a916e1d13204cac7364ffaeab2",
+    "preflight.py": "34ea4b3fe1bcbd0a982565f673615c1604709726eb866dd8876fd39ce2970bb1",
+    "check.sh": "5158536db6f930564c70d39c1dfd8ca0fe1592e7a51d9304fc646054dee92531"
+  },
+  "image_id": "sha256:01331a0e031a47b013f8b7d26e2c24d284a8803f9b47827c56551c79ffcd55b2"
+}

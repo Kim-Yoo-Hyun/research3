@@ -1,0 +1,152 @@
+{
+  "groups": [
+    {
+      "role": "primary",
+      "condition": "full",
+      "attempts": 6,
+      "valid": 5,
+      "statuses": {
+        "valid": 5,
+        "timeout": 1
+      },
+      "plan_length_mean": 63.4,
+      "plan_length_median": 66,
+      "planning_wall_mean": 14.42492339379775,
+      "planning_wall_median": 5.753786993445829,
+      "preprocess_mean": 0.0019173157246162493,
+      "retained_objects_mean": 312.5,
+      "retained_facts_mean": 498.5
+    },
+    {
+      "role": "primary",
+      "condition": "lexical_b0",
+      "attempts": 6,
+      "valid": 6,
+      "statuses": {
+        "valid": 6
+      },
+      "plan_length_mean": 105.16666666666667,
+      "plan_length_median": 103.5,
+      "planning_wall_mean": 0.2897236199739079,
+      "planning_wall_median": 0.26475365832448006,
+      "preprocess_mean": 0.0010744021274149418,
+      "retained_objects_mean": 139.5,
+      "retained_facts_mean": 185.33333333333334
+    },
+    {
+      "role": "primary",
+      "condition": "lexical_b1",
+      "attempts": 6,
+      "valid": 6,
+      "statuses": {
+        "valid": 6
+      },
+      "plan_length_mean": 118.33333333333333,
+      "plan_length_median": 102.5,
+      "planning_wall_mean": 0.3734221998602152,
+      "planning_wall_median": 0.3397174801211804,
+      "preprocess_mean": 0.0011326569753388565,
+      "retained_objects_mean": 159,
+      "retained_facts_mean": 219
+    },
+    {
+      "role": "primary",
+      "condition": "nearest_b0",
+      "attempts": 6,
+      "valid": 6,
+      "statuses": {
+        "valid": 6
+      },
+      "plan_length_mean": 77.66666666666667,
+      "plan_length_median": 71.0,
+      "planning_wall_mean": 0.28960651019588113,
+      "planning_wall_median": 0.28962931456044316,
+      "preprocess_mean": 0.0013163384671012561,
+      "retained_objects_mean": 139.33333333333334,
+      "retained_facts_mean": 186
+    },
+    {
+      "role": "primary",
+      "condition": "nearest_b1",
+      "attempts": 6,
+      "valid": 6,
+      "statuses": {
+        "valid": 6
+      },
+      "plan_length_mean": 84.83333333333333,
+      "plan_length_median": 86.0,
+      "planning_wall_mean": 0.33120512100867927,
+      "planning_wall_median": 0.3147857573349029,
+      "preprocess_mean": 0.0015345353167504072,
+      "retained_objects_mean": 158.16666666666666,
+      "retained_facts_mean": 218
+    },
+    {
+      "role": "primary",
+      "condition": "scrub",
+      "attempts": 6,
+      "valid": 6,
+      "statuses": {
+        "valid": 6
+      },
+      "plan_length_mean": 71.16666666666667,
+      "plan_length_median": 72.5,
+      "planning_wall_mean": 3.900570960016921,
+      "planning_wall_median": 2.9968716320581734,
+      "preprocess_mean": 0.002077964056904117,
+      "retained_objects_mean": 242.16666666666666,
+      "retained_facts_mean": 436.5
+    },
+    {
+      "role": "sanity",
+      "condition": "full",
+      "attempts": 2,
+      "valid": 2,
+      "statuses": {
+        "valid": 2
+      },
+      "plan_length_mean": 17,
+      "plan_length_median": 17.0,
+      "planning_wall_mean": 6.757768264040351,
+      "planning_wall_median": 6.757768264040351,
+      "preprocess_mean": 0.0019150713924318552,
+      "retained_objects_mean": 313,
+      "retained_facts_mean": 490
+    },
+    {
+      "role": "sanity",
+      "condition": "scrub",
+      "attempts": 2,
+      "valid": 2,
+      "statuses": {
+        "valid": 2
+      },
+      "plan_length_mean": 17,
+      "plan_length_median": 17.0,
+      "planning_wall_mean": 0.26456075604073703,
+      "planning_wall_median": 0.26456075604073703,
+      "preprocess_mean": 0.0007903745863586664,
+      "retained_objects_mean": 82,
+      "retained_facts_mean": 159
+    }
+  ],
+  "total_planning_wall_seconds": 131.7013688692823,
+  "terminal_goal_witness_disagreements": 0,
+  "prior_failed_run": {
+    "completed_case_records": 34,
+    "statuses": {
+      "planner_error": 34
+    },
+    "recorded_planner_wall_seconds": 54.33815363794565,
+    "note": "Unsupported global seed option before search; stopped. Any interrupted final attempt lacks result row; retained log is authoritative."
+  },
+  "verification": {
+    "status": "PASS",
+    "source_files_verified": 24,
+    "cases": 40,
+    "transition_and_goal_checks": 61511,
+    "witness_class_catalog": "Original full-state classes for diagnostic decoding only; not supplied to planner for pruned problems.",
+    "boundary": "Independent transition implementation plus external VAL; shared small PDDL tokenizer, no physical semantics guarantee."
+  },
+  "boundary": "Descriptive fixed eight-problem symbolic slice; one deterministic satisficing planner; no optimum, physical success, population or latency significance claim."
+}

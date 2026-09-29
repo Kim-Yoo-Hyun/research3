@@ -1,0 +1,2 @@
+{"name": "straight_push", "status": "repeatable", "contact_step": 1, "prefix_max_contacts": 1, "prefix_object_motion": 17.096271209942685, "baseline_repeat_max_drift": 5.551115123125783e-17, "changed_final_object_distance": 14.284713636165344}
+{"name": "oblique_push", "status": "repeatable", "contact_step": 2, "prefix_max_contacts": 1, "prefix_object_motion": 35.455260280285636, "baseline_repeat_max_drift": 0.0, "changed_final_object_distance": 12.431607223793232}

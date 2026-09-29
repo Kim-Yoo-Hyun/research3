@@ -1,0 +1,10 @@
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
+numpy==1.26.4
+scipy==1.16.1
+opencv-python-headless==4.11.0.86
+Pillow==11.3.0
+matplotlib==3.10.5
+ruamel.yaml==0.18.15
+pyrr==0.10.3
+webcolors==1.13

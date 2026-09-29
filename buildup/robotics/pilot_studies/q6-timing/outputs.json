@@ -1,0 +1,117 @@
+{
+  "root": "runs/q6/readiness",
+  "files": [
+    {
+      "path": "runs/q6/readiness/failure.json",
+      "bytes": 1162,
+      "sha256": "1473b3a3a4050bbf45f1199b26daf281dfbbb1f94726de8b6b6ae4b59e85af7f"
+    },
+    {
+      "path": "runs/q6/readiness/instrumentation/engine.diff",
+      "bytes": 501,
+      "sha256": "2393f46775929b985242404cce5672bf1c49ae04b4064b88b230c15f4b4d7ee7"
+    },
+    {
+      "path": "runs/q6/readiness/instrumentation/engine.py",
+      "bytes": 1394,
+      "sha256": "c3feb432272c2e76c9ab06ec850b59b6edfb214b611af76fdfaf66ff7159441d"
+    },
+    {
+      "path": "runs/q6/readiness/instrumentation/original.diff",
+      "bytes": 1231,
+      "sha256": "40ecf0599f5b39e5f1981d23dbc0f52680cefb83e3f2c440bcfbaf302f6b67c0"
+    },
+    {
+      "path": "runs/q6/readiness/instrumentation/original.py",
+      "bytes": 5598,
+      "sha256": "b41729edbf668e12f8363b4536d4cceb5d41437622ceb10bae9b040c725b9732"
+    },
+    {
+      "path": "runs/q6/readiness/preflight.json",
+      "bytes": 683,
+      "sha256": "464c7ba05192d8a7dce1c1f6d13b56860ae1c0b76927194c5087b515f39a81c5"
+    },
+    {
+      "path": "runs/q6/readiness/preflight_launch.json",
+      "bytes": 1362,
+      "sha256": "f8be69d31cc83ed4b4840a62d0d5b3ce6586b1035d19274187fc59b7f615421a"
+    },
+    {
+      "path": "runs/q6/readiness/readiness_launch.json",
+      "bytes": 1362,
+      "sha256": "90650383b508cf0c95ca70989bddb8d91050485b070bfc647ff8414b772a5708"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_0_0_adapter.json",
+      "bytes": 36376,
+      "sha256": "2f8d7cefc21c397c5101e907bc4239a0a56e43c6deeedb9c646e3d00b2933085"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_0_0_adapter.npz",
+      "bytes": 268008,
+      "sha256": "3a4fcc195529c4ea6ae7a8995202fa9e6f3d726c64b60660f4cb5e040e4097fc"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_0_0_original.json",
+      "bytes": 26899,
+      "sha256": "f12571751f5a59a3849caff00c5c5ec31ffa1bcb2f4bb58b48aa7500b4aeb5f7"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_0_0_original.npz",
+      "bytes": 234118,
+      "sha256": "0b5a9c1ee6cdb5148ba8f4feb40788fc181a6fe50a2415c9b305b58c9cdaca99"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_0_1_adapter.json",
+      "bytes": 36384,
+      "sha256": "a1140b19f9d6f0ecf5012277d8dca7baec51796c62331ebf3df4490c7755ce42"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_0_1_adapter.npz",
+      "bytes": 268817,
+      "sha256": "4451fc136fc75f1156efe6e29caa081af6d58787ddf3413ab831137d2abf7e86"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_0_1_original.json",
+      "bytes": 26908,
+      "sha256": "17ab0d98b2e96c45cc278529d9167713d317257505329b538148dc7d2d33207b"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_0_1_original.npz",
+      "bytes": 234886,
+      "sha256": "900777abe865f1382650283d482a344deb51dac63c8f6a1ad6ae17562b5725b4"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_1_0_original.json",
+      "bytes": 26803,
+      "sha256": "a26001a5a3e0a4c45d37886168842a580aa0ad910407783bb758390b496cdd6a"
+    },
+    {
+      "path": "runs/q6/readiness/records/parity_grasp_easy_naive_1_0_original.npz",
+      "bytes": 228113,
+      "sha256": "d58f759143bf04677655545fb5cba99267b1de36459dc8c32faaa3598af54307"
+    },
+    {
+      "path": "runs/q6/readiness/schema.json",
+      "bytes": 14637,
+      "sha256": "6ff35a3f013721c53d53ea56e8ef36a145c588d6f86a37be8f33364a141b7ae8"
+    },
+    {
+      "path": "runs/q6/readiness/schema_launch.json",
+      "bytes": 1344,
+      "sha256": "57c361dec72ac236d6ebe5b54d7d2c8c89cec89af0ecb58a1e3cb4e770796313"
+    },
+    {
+      "path": "runs/q6/readiness/verification.json",
+      "bytes": 2162,
+      "sha256": "00fec9d67e1f9f31079589f5a4adf8586b0a1c638d76a8fd0f7c37b15fed68ea"
+    },
+    {
+      "path": "runs/q6/readiness/verify_launch.json",
+      "bytes": 1344,
+      "sha256": "5f68bb392d747a187f25a1fa9550e1288e7529b4241d0e9c3d0c6678e0d3ffe1"
+    }
+  ],
+  "total_bytes": 1420092,
+  "scope": "all stopped-readiness raw artifacts; no held-out outcomes"
+}

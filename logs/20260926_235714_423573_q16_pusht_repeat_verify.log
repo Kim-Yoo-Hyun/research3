@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "assessment_sha256": "01eaa926476450fc5c1813b0b4d89590bdcd155bd318035ef7221337e8a1a613",
+  "case_count": 2,
+  "repeatable_count": 2,
+  "cases": [
+    {
+      "name": "straight_push",
+      "status": "repeatable",
+      "contact_step": 1,
+      "baseline_repeat_max_drift": 5.551115123125783e-17,
+      "changed_final_object_distance": 14.284713636165344
+    },
+    {
+      "name": "oblique_push",
+      "status": "repeatable",
+      "contact_step": 2,
+      "baseline_repeat_max_drift": 0.0,
+      "changed_final_object_distance": 12.431607223793232
+    }
+  ]
+}

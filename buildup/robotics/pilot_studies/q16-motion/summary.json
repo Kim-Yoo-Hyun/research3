@@ -1,0 +1,285 @@
+{
+  "results": [
+    {
+      "moving": false,
+      "mode": "servo",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.05017853206178794,
+      "mean_decisions": 40.0,
+      "mean_first_success_seconds": 1.4625000000000001
+    },
+    {
+      "moving": false,
+      "mode": "cv",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.049925183217662074,
+      "mean_decisions": 40.0,
+      "mean_first_success_seconds": 1.4604166666666665
+    },
+    {
+      "moving": false,
+      "mode": "history",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.0760519130077834,
+      "mean_decisions": 40.0,
+      "mean_first_success_seconds": 1.4666666666666668
+    },
+    {
+      "moving": false,
+      "mode": "action",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.07674853841308504,
+      "mean_decisions": 40.0,
+      "mean_first_success_seconds": 1.4645833333333336
+    },
+    {
+      "moving": false,
+      "mode": "fast",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.04299569263821468,
+      "mean_decisions": 80.0,
+      "mean_first_success_seconds": 1.4708333333333332
+    },
+    {
+      "moving": true,
+      "mode": "servo",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.049511383986100554,
+      "mean_decisions": 40.0,
+      "mean_first_success_seconds": 1.7375
+    },
+    {
+      "moving": true,
+      "mode": "cv",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.04931294339864204,
+      "mean_decisions": 40.0,
+      "mean_first_success_seconds": 1.6083333333333334
+    },
+    {
+      "moving": true,
+      "mode": "history",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.08029418531805277,
+      "mean_decisions": 40.0,
+      "mean_first_success_seconds": 1.6041666666666667
+    },
+    {
+      "moving": true,
+      "mode": "action",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.076653187473615,
+      "mean_decisions": 40.0,
+      "mean_first_success_seconds": 1.6145833333333333
+    },
+    {
+      "moving": true,
+      "mode": "fast",
+      "episodes": 24,
+      "success": 24,
+      "once": 24,
+      "grasp_once": 24,
+      "releases": 0,
+      "mean_latency_ms": 0.04275030466184641,
+      "mean_decisions": 80.0,
+      "mean_first_success_seconds": 1.5208333333333333
+    }
+  ],
+  "paired_action": [
+    {
+      "reference": "servo",
+      "moving": false,
+      "improved": [],
+      "harmed": [],
+      "both_success": 24,
+      "both_failure": 0
+    },
+    {
+      "reference": "servo",
+      "moving": true,
+      "improved": [],
+      "harmed": [],
+      "both_success": 24,
+      "both_failure": 0
+    },
+    {
+      "reference": "cv",
+      "moving": false,
+      "improved": [],
+      "harmed": [],
+      "both_success": 24,
+      "both_failure": 0
+    },
+    {
+      "reference": "cv",
+      "moving": true,
+      "improved": [],
+      "harmed": [],
+      "both_success": 24,
+      "both_failure": 0
+    },
+    {
+      "reference": "history",
+      "moving": false,
+      "improved": [],
+      "harmed": [],
+      "both_success": 24,
+      "both_failure": 0
+    },
+    {
+      "reference": "history",
+      "moving": true,
+      "improved": [],
+      "harmed": [],
+      "both_success": 24,
+      "both_failure": 0
+    },
+    {
+      "reference": "fast",
+      "moving": false,
+      "improved": [],
+      "harmed": [],
+      "both_success": 24,
+      "both_failure": 0
+    },
+    {
+      "reference": "fast",
+      "moving": true,
+      "improved": [],
+      "harmed": [],
+      "both_success": 24,
+      "both_failure": 0
+    }
+  ],
+  "scope": "exploratory, one task/model seed; no significance or generality claim",
+  "validation_prediction": [
+    {
+      "phase": "all",
+      "mode": "cv",
+      "rows": 1280,
+      "rmse_m": 0.009745250314346175
+    },
+    {
+      "phase": "all",
+      "mode": "history",
+      "rows": 1280,
+      "rmse_m": 0.0054791608630901404
+    },
+    {
+      "phase": "all",
+      "mode": "action",
+      "rows": 1280,
+      "rmse_m": 0.0002925109163340682
+    },
+    {
+      "phase": "approach_closing",
+      "mode": "cv",
+      "rows": 281,
+      "rmse_m": 0.004028566043297335
+    },
+    {
+      "phase": "approach_closing",
+      "mode": "history",
+      "rows": 281,
+      "rmse_m": 0.0046335110578107925
+    },
+    {
+      "phase": "approach_closing",
+      "mode": "action",
+      "rows": 281,
+      "rmse_m": 0.000526686837635142
+    },
+    {
+      "phase": "transport",
+      "mode": "cv",
+      "rows": 999,
+      "rmse_m": 0.010822113892615406
+    },
+    {
+      "phase": "transport",
+      "mode": "history",
+      "rows": 999,
+      "rmse_m": 0.005694441072611002
+    },
+    {
+      "phase": "transport",
+      "mode": "action",
+      "rows": 999,
+      "rmse_m": 0.00017777134456042722
+    }
+  ],
+  "fit": {
+    "history": {
+      "parameters": 7299,
+      "train_rows": 5120,
+      "val_rows": 1280,
+      "best_epoch": 97,
+      "val_normalized_mse": 0.3116430938243866,
+      "val_position_rmse_m": 0.005479161161929369
+    },
+    "action": {
+      "parameters": 7299,
+      "train_rows": 5120,
+      "val_rows": 1280,
+      "best_epoch": 99,
+      "val_normalized_mse": 0.0009248607675544918,
+      "val_position_rmse_m": 0.0002925109292846173
+    },
+    "constant_velocity_val_rmse_m": 0.009745250456035137,
+    "data_episodes": 160
+  },
+  "verification": {
+    "status": "passed",
+    "episodes": 400,
+    "raw_states": 32400,
+    "decision_rows": 17920,
+    "paired_initial_conditions": 48,
+    "checks": [
+      "NPZ identity",
+      "native grasp from raw forces/directions",
+      "goal and sustained success",
+      "release count",
+      "initial physical state",
+      "observation-only features",
+      "held action and future displacement",
+      "finite values",
+      "episode-disjoint fit/validation/evaluation"
+    ]
+  }
+}

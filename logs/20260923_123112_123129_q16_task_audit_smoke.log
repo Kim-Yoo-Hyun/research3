@@ -1,0 +1,57 @@
+Traceback (most recent call last):
+  File "/study/task_audit.py", line 210, in <module>
+    smoke(args.task, args.attempt)
+  File "/study/task_audit.py", line 70, in smoke
+    env = make_env(task)
+          ^^^^^^^^^^^^^^
+  File "/study/task_audit_env.py", line 92, in make_env
+    return gym.make(uid, num_envs=1, obs_mode='none', reward_mode='none',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/gymnasium/envs/registration.py", line 802, in make
+    env = env_creator(**env_spec_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/utils/registration.py", line 182, in make
+    env = env_spec.make(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/utils/registration.py", line 79, in make
+    return self.cls(**_kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/tasks/tabletop/push_t.py", line 122, in __init__
+    super().__init__(*args, robot_uids=robot_uids, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/sapien_env.py", line 327, in __init__
+    obs, _ = self.reset(seed=[2022 + i for i in range(self.num_envs)], options=dict(reconfigure=True))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/sapien_env.py", line 913, in reset
+    self._reconfigure(options)
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/sapien_env.py", line 741, in _reconfigure
+    self._load_agent(options)
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/tasks/tabletop/push_t.py", line 155, in _load_agent
+    super()._load_agent(options, sapien.Pose(p=[-0.615, 0, 0]))
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/envs/sapien_env.py", line 424, in _load_agent
+    agent: BaseAgent = agent_cls(
+                       ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/agents/base_agent.py", line 105, in __init__
+    self._load_articulation(initial_pose)
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/agents/base_agent.py", line 229, in _load_articulation
+    self.robot = build_articulation()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/agents/base_agent.py", line 209, in build_articulation
+    builder = loader.parse(asset_path)["articulation_builders"][0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/mani_skill/utils/building/urdf_loader.py", line 29, in parse
+    articulation_builders, actor_builders, cameras = super().parse(
+                                                     ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sapien/wrapper/urdf_loader.py", line 694, in parse
+    return self._parse_urdf(urdf_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sapien/wrapper/urdf_loader.py", line 672, in _parse_urdf
+    articulation_builders.append(self._parse_articulation(root, fix_base))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/sapien/wrapper/urdf_loader.py", line 496, in _parse_articulation
+    self._build_link(link, link_builder)
+  File "/usr/local/lib/python3.11/site-packages/sapien/wrapper/urdf_loader.py", line 332, in _build_link
+    link_builder.add_cylinder_visual(
+  File "/usr/local/lib/python3.11/site-packages/sapien/wrapper/actor_builder.py", line 610, in add_cylinder_visual
+    material = sapien.render.RenderMaterial()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: failed to find a rendering device

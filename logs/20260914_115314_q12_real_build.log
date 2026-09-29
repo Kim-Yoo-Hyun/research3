@@ -1,0 +1,64 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 429B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47
+#2 DONE 1.2s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 326B done
+#5 DONE 0.0s
+
+#6 [1/4] FROM docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47
+#6 resolve docker.io/library/python:3.11.13-slim-bookworm@sha256:cec9aa7aa96eea4fa036e9b82be1e6b325f2e3707f462d885868df51ec0a4b47 0.0s done
+#6 CACHED
+
+#7 [2/4] COPY requirements.txt /tmp/requirements.txt
+#7 DONE 0.0s
+
+#8 [3/4] RUN python -m pip install --no-cache-dir --only-binary=:all: --require-hashes -r /tmp/requirements.txt && python -m pip check
+#8 1.142 Collecting numpy==1.26.4 (from -r /tmp/requirements.txt (line 1))
+#8 1.163   Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+#8 2.146      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 12.4 MB/s eta 0:00:00
+#8 2.270 Collecting Pillow==12.3.0 (from -r /tmp/requirements.txt (line 2))
+#8 2.273   Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+#8 2.383      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 63.8 MB/s eta 0:00:00
+#8 2.396 Collecting plyfile==1.1.3 (from -r /tmp/requirements.txt (line 3))
+#8 2.400   Downloading plyfile-1.1.3-py3-none-any.whl (36 kB)
+#8 2.447 Installing collected packages: Pillow, numpy, plyfile
+#8 3.530 Successfully installed Pillow-12.3.0 numpy-1.26.4 plyfile-1.1.3
+#8 3.530 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 3.577 
+#8 3.577 [notice] A new release of pip is available: 24.0 -> 26.2.1
+#8 3.577 [notice] To update, run: pip install --upgrade pip
+#8 3.850 No broken requirements found.
+#8 DONE 3.9s
+
+#9 [4/4] WORKDIR /study
+#9 DONE 0.1s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 2.7s done
+#10 exporting manifest sha256:c9593bb95dbe5e11d6fbc0fbe7b13499488f92a2e657175271e53476adb41574 0.0s done
+#10 exporting config sha256:35d23d60b0390fb4b0dcfb8d771a19224cfc8cee3f92ad30eb9f016010a4cae5 0.0s done
+#10 exporting attestation manifest sha256:320a4acb696f51ad2f84cdf3a06c32f65c7f6539fd77df0bb34ba4a3f109161f 0.1s done
+#10 exporting manifest list sha256:01331a0e031a47b013f8b7d26e2c24d284a8803f9b47827c56551c79ffcd55b2
+#10 exporting manifest list sha256:01331a0e031a47b013f8b7d26e2c24d284a8803f9b47827c56551c79ffcd55b2 0.0s done
+#10 naming to docker.io/library/research3-q12-real-input:v1 done
+#10 unpacking to docker.io/library/research3-q12-real-input:v1
+#10 unpacking to docker.io/library/research3-q12-real-input:v1 0.4s done
+#10 DONE 3.3s
+BUILD_AND_IMPORT_COMPLETE

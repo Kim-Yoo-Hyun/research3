@@ -64,9 +64,9 @@
 ## Documentation Ownership Rules
 
 - If a change adds or changes a rule, update `AGENTS.md`.
-- If a change updates current status, active work, or completion history, update `TODO.md` and the smallest authoritative owner. Update `docs/index.md` only when document locations, role maps, or durable workflow roots change.
-- If a change affects research framing, contribution, novelty, or reviewer defense, update `docs/paper.md`, `summary.md`, and the relevant `paper/` planning file.
-- If a change affects commands, datasets, checkpoints, model caches, artifact transfer, or cleanup safety, update `docs/reproducibility.md`, the relevant config README/compose file, and the relevant experiment README.
+- If a change updates current status, active work, or completion history, update `TODO.md` and the smallest authoritative owner. Scope/selection indexes receive a short pointer only when their current decision changes; do not copy each pilot result into root and scope READMEs. Update `docs/index.md` only when document locations, role maps, or durable workflow roots change.
+- Buildup/hypothesis framing changes belong to the source question or hypothesis record; update `summary.md` only when the top-level active direction or claim boundary changes. Paper-level framing, contribution, novelty, or reviewer-defense changes belong to `docs/paper.md` and, only after its folder gate is met, the relevant `paper/` planning file.
+- A buildup pilot's commands, inputs and outputs belong to its local study owner and execution manifest. Update `docs/reproducibility.md` when a durable cross-study recovery path, artifact handoff, or cleanup safety rule changes; paper-level experiment commands also update their experiment README/config owner.
 - If a change affects a folder-local workflow, update that folder's `README.md`; do not expand `AGENTS.md` with folder-local details.
 - Report files: 새 `report_*.md` 파일은 사용자가 명시적으로 요청한 경우에만 만든다. 사용자가 새 report 작성을 요청하지 않은 진행 사항은 현재 작업 범위의 기존 authoritative report 파일에 계속 반영한다. 중복된 stage report를 늘리지 말고 기존 report에 누적하거나 병합한다.
 - When a new durable root-level research/workflow folder is created or activated, add it to `docs/index.md` and the relevant README role map before substantive work in that folder. Create a matching `docs/<folder>.md` only if the folder needs workflow rules beyond its local README. This applies to durable workflow roots such as `src/`, `configs/`, `experiments/`, `results/`, `paper/`, `literature/`, or reactivated hypothesis work, not transient/ignored roots such as `logs/`, `local_dataset/`, or `release/`.
@@ -94,12 +94,22 @@
 - 새 연구주제는 `AI`, `ML`, `CV`, `Robotics` 전체에서 탐색할 수 있으며 특정 분야를 기본 scope로 가정하지 않는다.
 - Research scoping과 topic development는 `docs/buildup.md`를 먼저 따른다. Question selection, hypothesis validation, paper-level admission을 서로 다른 stage로 유지한다.
 - `research scope`는 사용자가 명시적으로 선택한다. 선택 전에는 특정 task, method, dataset, application 또는 venue를 active scope로 추정하지 않는다.
-- Candidate research question에는 exact novelty, final method, full benchmark, multi-domain evidence, failure-derived principle을 동시에 요구하지 않는다. 먼저 observable question, simplest baseline, critical assumption, feasibility/pilot study와 informational value를 확인한다.
+- Candidate는 중요한 질문, 잠정 설명/접근과 가장 작은 유의미한 관찰로 시작한다. Exact novelty, final method, full benchmark, multi-domain evidence, 양의 통계 유의성이나 failure-derived principle은 buildup 진입 조건이 아니다. 간결한 작성·handoff 기준은 `docs/buildup.md`가 소유한다.
+- 활성 후보에 계속 투자할 때는 잠정적인 핵심 설명, 가장 가까운 선행과의 예상 차이 또는 미확정 지점, 그리고 다음 관찰의 결과별 선택을 짧게 드러낸다. 이는 최종 novelty 증명이나 새 승인 gate가 아니며 관찰에 따라 수정할 수 있다.
+- Buildup은 탐색이 기본이다. 작은 관찰에서 설명·방법을 수정할 수 있으며 변경 이유와 이미 본 데이터를 기록한다. 확증의 사전 계획·held-out 결과와 탐색 결과를 구분하고 기존 frozen 판정을 소급 변경하지 않는다.
+- Buildup 후보는 시의성, 중요한 capability와 확장 방향도 함께 판단한다. 방향성이 타당하면 제한된 방법 개발·대표 과업 탐색을 진행할 수 있으며, 단일 toy task의 무차이 또는 가까운 선행의 존재만으로 주제를 계속 좁히거나 보류하지 않는다. 개발 범위·학습 목표·자원 예산은 가까운 owner에 기록하고 최종 paper 기준은 유지한다.
+- 검증은 다음 관찰/주장에 필요한 범위에 맞춘다. Label·causal validity 오류는 해당 추론을 중단시키지만 질문 전체의 반증은 아니다. 비유의·정보 부족·기술적 실패·투자 보류를 구분하며 준비 작업 자체의 novelty를 요구하지 않는다.
+- 유효한 작은 관찰 뒤에는 설명/방법 수정, focused hypothesis, 현재 경로 보류 또는 다른 후보 중 다음 판단을 먼저 한다. 같은 후보의 setup·미세 대조를 자동으로 이어가지 않으며, 추가 작업이 어떤 연구 판단을 바꾸는지와 비용을 가까운 owner에 기록한다. 보편적인 pilot 횟수나 기간을 새 gate로 두지 않는다.
 - Research scoping과 topic-development payload는 `buildup/`에서만 관리한다. Hypothesis Formulation Entry Criteria를 통과한 question만 `hypothesis/`로 넘긴다.
 - Hypothesis의 focused validation은 `hypothesis/`에서만 관리한다. 충분히 검증돼 Experiment Handoff Gate를 통과한 hypothesis만 `experiments/`로 넘긴다.
 - `experiments/`는 scaled benchmark, strong baseline, ablation, robustness, reproducibility와 paper claim을 다루는 paper-level stage다.
 
 ## Novelty Discipline
+
+다음은 최종 paper claim을 방어하는 기준이다. Buildup의 질문 등록·설명 초안·첫 관찰에
+완료 조건으로 앞당기지 않는다. 탐색 중 수정은 `docs/buildup.md`에 따라 기록하되,
+최종 paper의 기존 novelty/evidence 기준은 유지한다. `paper/`는 최종 실험을 모두 마치고
+실제 논문을 작성할 때만 열며, `docs/paper.md`의 Paper Folder Gate를 모두 충족해야 한다.
 
 - Motivation을 novelty로 쓰지 않는다. 기존 방법이 noise, distribution shift,
   long-horizon setting 또는 resource constraint에서 실패한다는 사실은 문제
@@ -137,6 +147,10 @@
 - Dataset/source mount는 가능한 한 read-only로 두고, derived cache, prediction, checkpoint, evaluation output은 명시된 workspace artifact 경로에 쓴다.
 - 각 reproduction은 Dockerfile 또는 immutable image reference, image digest/tag, source commit, dependency lock, build command, run command, mount, CPU/GPU mode, seed, output path, verification command를 기록한다.
 - GPU가 필요한 workload는 NVIDIA Container Toolkit과 explicit `--gpus` option으로 실행한다. CPU-capable workload도 Docker 안에서 실행하며, GPU 필요 여부와 사용 device를 config/artifact에 기록한다.
+- 테스트/실험이 끝나거나 컨테이너 생성에 실패하면, 이 workspace 디렉토리에서 우리가 생성한 것으로 확인되는 불필요한 container만 삭제한다. 필요한 결과·로그·재현 정보가 workspace에 보존됐는지 먼저 확인하고, 실행 중이거나 재개에 필요한 container는 유지한다.
+- 다른 작업의 container는 건드리지 않는다. 이름 prefix만으로 소유권을 추정하거나 전체 container prune, 일괄 삭제, 강제 삭제를 하지 않는다. 생성 실패가 이름 충돌 때문이면 충돌한 기존 container를 삭제하지 않으며, 정리할 대상의 생성 기록·mount·실행 명령을 확인해 해당 container만 지정한다.
+- 이 workspace에서 우리가 빌드한 Docker image도 같은 기준으로 정리한다. 테스트 종료 또는 빌드 실패 후 현재 실행·재개·재현에 필요 없는 image는 결과·로그·recipe·lock과 image ID가 보존됐는지, 참조 container와 하위 image가 있는지 확인한 뒤 정확한 tag/ID만 지정해 삭제한다.
+- 다른 작업이나 workspace 이전에 존재한 image는 건드리지 않는다. 이름 prefix만으로 소유권을 추정하지 않고, 전체 image prune·일괄 삭제·강제 삭제를 하지 않는다. 참조 중이거나 소유권이 불명확한 image는 유지한다.
 
 ## Long-running and Background Tasks
 
@@ -177,6 +191,7 @@ Each candidate must state:
 - If a new task appears during work, add it to `TODO.md`.
 - Do not add long explanations to `TODO.md`; put research detail in the active stage's closest README, research-question record, study, or experiment report.
 - For research scoping and topic development, follow `docs/buildup.md` before opening a hypothesis.
+- 승인된 탐색 범위의 작은 준비·검사·수정을 의미 있는 관찰이나 선택 판단까지 묶어 진행한다. 모든 준비 항목을 별도 승인 gate나 사용자 turn으로 만들지 않는다. 다음 작업은 무엇을 배우는지로 설명한다.
 - For literature work, follow `docs/literature.md`.
 - For hypothesis work, follow `docs/hypothesis.md`.
 - For paper-body experiment implementation, use Docker as the default execution environment.

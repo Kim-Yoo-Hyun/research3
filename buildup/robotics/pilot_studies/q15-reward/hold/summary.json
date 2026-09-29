@@ -1,0 +1,96 @@
+{
+  "exploratory": true,
+  "episodes": 576,
+  "paired_initial_states": 288,
+  "cells": [
+    {
+      "variant": "native",
+      "episodes_per_route": 96,
+      "independent_training_seeds": 3,
+      "valid_pairs": 96,
+      "improved": 8,
+      "worsened": 1,
+      "routes": {
+        "continued": {
+          "end": 86,
+          "once": 95,
+          "end_by_seed": {
+            "101": 32,
+            "202": 24,
+            "303": 30
+          }
+        },
+        "hold": {
+          "end": 93,
+          "once": 95,
+          "end_by_seed": {
+            "101": 32,
+            "202": 32,
+            "303": 29
+          }
+        }
+      }
+    },
+    {
+      "variant": "no_grasp",
+      "episodes_per_route": 96,
+      "independent_training_seeds": 3,
+      "valid_pairs": 96,
+      "improved": 0,
+      "worsened": 1,
+      "routes": {
+        "continued": {
+          "end": 94,
+          "once": 94,
+          "end_by_seed": {
+            "101": 32,
+            "202": 31,
+            "303": 31
+          }
+        },
+        "hold": {
+          "end": 93,
+          "once": 94,
+          "end_by_seed": {
+            "101": 32,
+            "202": 31,
+            "303": 30
+          }
+        }
+      }
+    },
+    {
+      "variant": "half",
+      "episodes_per_route": 96,
+      "independent_training_seeds": 3,
+      "valid_pairs": 96,
+      "improved": 1,
+      "worsened": 1,
+      "routes": {
+        "continued": {
+          "end": 93,
+          "once": 95,
+          "end_by_seed": {
+            "101": 30,
+            "202": 32,
+            "303": 31
+          }
+        },
+        "hold": {
+          "end": 93,
+          "once": 95,
+          "end_by_seed": {
+            "101": 31,
+            "202": 32,
+            "303": 30
+          }
+        }
+      }
+    }
+  ],
+  "execution_seconds": 91.80449168942869,
+  "prior_differences": [],
+  "invalid_prefixes": [],
+  "first_success_at_final_step": 0,
+  "boundary": "Oracle-triggered, same observed states, nominal-only, finite-horizon comparison; no new training."
+}

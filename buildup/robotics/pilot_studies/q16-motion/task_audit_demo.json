@@ -1,0 +1,270 @@
+{
+  "status": "completed",
+  "state_initialize": true,
+  "source_commit": "baab60ede2e89167c1b7aaed41a9aa8e690a9d1e",
+  "pinned_task_commit": "a4a4f9272ad64b1564035874b605ceb687b63ed8",
+  "source_episode_count": 888,
+  "replay_count": 8,
+  "replay_success": 0,
+  "h5_layout": {
+    "actions": [
+      93,
+      3
+    ],
+    "env_states/actors/Tee": [
+      94,
+      13
+    ],
+    "env_states/actors/goal_Tee": [
+      94,
+      13
+    ],
+    "env_states/actors/goal_ee": [
+      94,
+      13
+    ],
+    "env_states/actors/table-workspace": [
+      94,
+      13
+    ],
+    "env_states/articulations/panda_stick": [
+      94,
+      27
+    ],
+    "success": [
+      93
+    ],
+    "terminated": [
+      93
+    ],
+    "truncated": [
+      93
+    ]
+  },
+  "rows": [
+    {
+      "episode_id": 0,
+      "seed": 40194941,
+      "source_success": true,
+      "steps": 93,
+      "initial_object": [
+        -0.06526947021484375,
+        -0.0926666259765625,
+        0.020999999716877937,
+        -0.4886810779571533,
+        0.0,
+        0.0,
+        0.8724625110626221
+      ],
+      "initial_goal": [
+        -0.15599822998046875,
+        -0.09999847412109375,
+        0.0010000000474974513,
+        -0.8660253882408142,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "replay_initial_metric": 0.2715151607990265,
+      "replay_final_metric": 0.0,
+      "replay_final_success": false,
+      "replay_any_success": false
+    },
+    {
+      "episode_id": 3,
+      "seed": 581917246,
+      "source_success": true,
+      "steps": 100,
+      "initial_object": [
+        -0.2462615966796875,
+        0.00058746337890625,
+        0.020999999716877937,
+        0.20374654233455658,
+        0.0,
+        0.0,
+        0.9790236949920654
+      ],
+      "initial_goal": [
+        -0.15599822998046875,
+        -0.09999847412109375,
+        0.0010000000474974513,
+        -0.8660253882408142,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "replay_initial_metric": 0.035151515156030655,
+      "replay_final_metric": 0.0,
+      "replay_final_success": false,
+      "replay_any_success": false
+    },
+    {
+      "episode_id": 4,
+      "seed": 942082305,
+      "source_success": true,
+      "steps": 99,
+      "initial_object": [
+        -0.13683700561523438,
+        -0.12279510498046875,
+        0.020999999716877937,
+        -0.35684332251548767,
+        0.0,
+        0.0,
+        0.9341642260551453
+      ],
+      "initial_goal": [
+        -0.15599822998046875,
+        -0.09999847412109375,
+        0.0010000000474974513,
+        -0.8660253882408142,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "replay_initial_metric": 0.4060606062412262,
+      "replay_final_metric": 0.035151515156030655,
+      "replay_final_success": false,
+      "replay_any_success": false
+    },
+    {
+      "episode_id": 5,
+      "seed": 1295221513,
+      "source_success": true,
+      "steps": 100,
+      "initial_object": [
+        -0.17468643188476562,
+        -0.14620208740234375,
+        0.020999999716877937,
+        0.3442758321762085,
+        0.0,
+        0.0,
+        0.9388685822486877
+      ],
+      "initial_goal": [
+        -0.15599822998046875,
+        -0.09999847412109375,
+        0.0010000000474974513,
+        -0.8660253882408142,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "replay_initial_metric": 0.3672727346420288,
+      "replay_final_metric": 0.0,
+      "replay_final_success": false,
+      "replay_any_success": false
+    },
+    {
+      "episode_id": 6,
+      "seed": 363191810,
+      "source_success": true,
+      "steps": 100,
+      "initial_object": [
+        -0.18372344970703125,
+        0.008148193359375,
+        0.020999999716877937,
+        0.22860202193260193,
+        0.0,
+        0.0,
+        0.9735199809074402
+      ],
+      "initial_goal": [
+        -0.15599822998046875,
+        -0.09999847412109375,
+        0.0010000000474974513,
+        -0.8660253882408142,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "replay_initial_metric": 0.15030303597450256,
+      "replay_final_metric": 0.036363635212183,
+      "replay_final_success": false,
+      "replay_any_success": false
+    },
+    {
+      "episode_id": 7,
+      "seed": 591679734,
+      "source_success": true,
+      "steps": 100,
+      "initial_object": [
+        -0.2103424072265625,
+        -0.06067657470703125,
+        0.020999999716877937,
+        -0.5860531330108643,
+        0.0,
+        0.0,
+        0.8102726340293884
+      ],
+      "initial_goal": [
+        -0.15599822998046875,
+        -0.09999847412109375,
+        0.0010000000474974513,
+        -0.8660253882408142,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "replay_initial_metric": 0.31757575273513794,
+      "replay_final_metric": 0.0,
+      "replay_final_success": false,
+      "replay_any_success": false
+    },
+    {
+      "episode_id": 8,
+      "seed": 1549324805,
+      "source_success": true,
+      "steps": 100,
+      "initial_object": [
+        -0.1959686279296875,
+        -0.11736297607421875,
+        0.020999999716877937,
+        0.6454066634178162,
+        0.0,
+        0.0,
+        0.7638391852378845
+      ],
+      "initial_goal": [
+        -0.15599822998046875,
+        -0.09999847412109375,
+        0.0010000000474974513,
+        -0.8660253882408142,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "replay_initial_metric": 0.3951515257358551,
+      "replay_final_metric": 0.47999998927116394,
+      "replay_final_success": false,
+      "replay_any_success": false
+    },
+    {
+      "episode_id": 9,
+      "seed": 1627452046,
+      "source_success": true,
+      "steps": 100,
+      "initial_object": [
+        -0.1616363525390625,
+        -0.16028594970703125,
+        0.020999999716877937,
+        0.7198430299758911,
+        0.0,
+        0.0,
+        0.694136917591095
+      ],
+      "initial_goal": [
+        -0.15599822998046875,
+        -0.09999847412109375,
+        0.0010000000474974513,
+        -0.8660253882408142,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "replay_initial_metric": 0.2824242413043976,
+      "replay_final_metric": 0.2836363613605499,
+      "replay_final_success": false,
+      "replay_any_success": false
+    }
+  ]
+}

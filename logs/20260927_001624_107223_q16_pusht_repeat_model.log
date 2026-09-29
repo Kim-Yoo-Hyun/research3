@@ -1,0 +1,15 @@
+{
+  "train_transitions": 19378,
+  "validation_transitions": 2649,
+  "all_validation": {
+    "rows": 2649,
+    "xy_rmse_px": 1.680010638028823,
+    "yaw_rmse_rad": 0.017740660856099245
+  },
+  "moving_validation": {
+    "rows": 872,
+    "xy_rmse_px": 2.21771545248986,
+    "yaw_rmse_rad": 0.017382714654538552
+  },
+  "fit_and_validation_seconds": 0.11669536121189594
+}

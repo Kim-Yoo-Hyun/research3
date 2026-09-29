@@ -1,0 +1,156 @@
+{
+  "status": "VERIFIED",
+  "decision": "DEFER_RAY_SUPPORT",
+  "denominator": 10,
+  "models": [
+    {
+      "object": 1,
+      "raw_vertices": 9951,
+      "exact_coordinate_classes": 7678,
+      "triangles": 15728,
+      "bad_edges": 0,
+      "orientation_failures": 0,
+      "zero_area_face_ids": [],
+      "below_area_face_ids": [],
+      "minimum_area_m2": 6.584665969021842e-09,
+      "bbox_error_m": 2.807617194289236e-09,
+      "mesh_gate": true
+    },
+    {
+      "object": 6,
+      "raw_vertices": 8227,
+      "exact_coordinate_classes": 7866,
+      "triangles": 15728,
+      "bad_edges": 0,
+      "orientation_failures": 0,
+      "zero_area_face_ids": [],
+      "below_area_face_ids": [],
+      "minimum_area_m2": 1.1196318839718921e-07,
+      "bbox_error_m": 2.1362304702954305e-09,
+      "mesh_gate": true
+    },
+    {
+      "object": 14,
+      "raw_vertices": 16763,
+      "exact_coordinate_classes": 7860,
+      "triangles": 15728,
+      "bad_edges": 0,
+      "orientation_failures": 0,
+      "zero_area_face_ids": [],
+      "below_area_face_ids": [],
+      "minimum_area_m2": 7.018700342330229e-09,
+      "bbox_error_m": 3.4179687552482463e-09,
+      "mesh_gate": true
+    },
+    {
+      "object": 19,
+      "raw_vertices": 9825,
+      "exact_coordinate_classes": 7850,
+      "triangles": 15728,
+      "bad_edges": 0,
+      "orientation_failures": 0,
+      "zero_area_face_ids": [],
+      "below_area_face_ids": [],
+      "minimum_area_m2": 2.035398515432847e-08,
+      "bbox_error_m": 1.52587890933642e-09,
+      "mesh_gate": true
+    },
+    {
+      "object": 20,
+      "raw_vertices": 10064,
+      "exact_coordinate_classes": 7856,
+      "triangles": 15728,
+      "bad_edges": 0,
+      "orientation_failures": 0,
+      "zero_area_face_ids": [],
+      "below_area_face_ids": [],
+      "minimum_area_m2": 1.415774738182029e-07,
+      "bbox_error_m": 6.347656233973709e-09,
+      "mesh_gate": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "000048_000001_000001",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": true,
+      "ray_comparison_max_error_m": 3.3306690738754696e-16,
+      "valid_pixels": 19811
+    },
+    {
+      "id": "000048_000001_000006",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": false,
+      "ray_comparison_max_error_m": 3.3306690738754696e-16,
+      "valid_pixels": 4775
+    },
+    {
+      "id": "000048_000001_000014",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": false,
+      "ray_comparison_max_error_m": 4.440892098500626e-16,
+      "valid_pixels": 10621
+    },
+    {
+      "id": "000048_000001_000019",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": false,
+      "ray_comparison_max_error_m": 3.3306690738754696e-16,
+      "valid_pixels": 5004
+    },
+    {
+      "id": "000048_000001_000020",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": true,
+      "ray_comparison_max_error_m": 5.551115123125783e-16,
+      "valid_pixels": 16501
+    },
+    {
+      "id": "000048_000036_000001",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": true,
+      "ray_comparison_max_error_m": 3.3306690738754696e-16,
+      "valid_pixels": 19885
+    },
+    {
+      "id": "000048_000036_000006",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": false,
+      "ray_comparison_max_error_m": 2.220446049250313e-16,
+      "valid_pixels": 4406
+    },
+    {
+      "id": "000048_000036_000014",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": false,
+      "ray_comparison_max_error_m": 3.3306690738754696e-16,
+      "valid_pixels": 11126
+    },
+    {
+      "id": "000048_000036_000019",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": true,
+      "ray_comparison_max_error_m": 4.440892098500626e-16,
+      "valid_pixels": 5442
+    },
+    {
+      "id": "000048_000036_000020",
+      "input_verified": true,
+      "mesh_gate": true,
+      "ray_support": false,
+      "ray_comparison_max_error_m": 2.220446049250313e-16,
+      "valid_pixels": 18209
+    }
+  ],
+  "physical_admission": false,
+  "source_result_sha256": "45aaf3e6535b8e4063a9ce98a4b04c0a113a94a20a9dea4cdea7e513a0e61039"
+}

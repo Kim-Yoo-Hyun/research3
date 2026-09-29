@@ -1,0 +1,422 @@
+{
+  "status": "verified_exploratory",
+  "source_commit": "5ba07ac6661db573af695b419a7947ecb704690f",
+  "source_checkpoint_sha256": "f804e16575e261fa0b7e981da3f67741fc8517817734320d550e43a4182bf876",
+  "updated_checkpoint_sha256": "68ba7e02df70ee261bf9ac874c506185366219125d11fd46c2041213fbd488bd",
+  "transition_model_sha256": "0a4d4705a17eeb485543678f37e772c8d0c1715f94c9eb8aa8b658a408f98a09",
+  "dataset_sha256": "fb67ce41d3f032cf70bb97120a246ded9def43d56e133f5b441038b3d2ce47f8",
+  "image_id": "sha256:e7de793ef15f41922fc4851d42d5bf2c386783c61a6b22c0a83ac09dd5e455ed",
+  "seeds": [
+    49100,
+    49101,
+    49102,
+    49103,
+    49104,
+    49105,
+    49106,
+    49107,
+    49108,
+    49109,
+    49110,
+    49111,
+    49112,
+    49113,
+    49114,
+    49115
+  ],
+  "routes": {
+    "frozen": {
+      "success": 8,
+      "total": 16,
+      "mean_max_coverage": 0.8853950617683781,
+      "mean_final_coverage": 0.8284157695856538,
+      "rescues_vs_frozen": 0,
+      "harms_vs_frozen": 0,
+      "mean_max_coverage_gain_vs_frozen": 0.0,
+      "mean_one_step_overlap_gain_when_changed": null,
+      "any_contact": 16,
+      "intervention_attempts": 0,
+      "action_changes": 0,
+      "total_rollout_seconds": 106.45828601159155,
+      "total_policy_inference_seconds": 104.6781905433163,
+      "total_correction_selection_seconds": 0.0
+    },
+    "feedback": {
+      "success": 8,
+      "total": 16,
+      "mean_max_coverage": 0.8848750423968358,
+      "mean_final_coverage": 0.8449652552094968,
+      "rescues_vs_frozen": 1,
+      "harms_vs_frozen": 1,
+      "mean_max_coverage_gain_vs_frozen": -0.0005200193715423421,
+      "mean_one_step_overlap_gain_when_changed": 0.004303904554510327,
+      "any_contact": 16,
+      "intervention_attempts": 9,
+      "action_changes": 9,
+      "total_rollout_seconds": 108.94757981784642,
+      "total_policy_inference_seconds": 107.04475046228617,
+      "total_correction_selection_seconds": 0.16123143024742603
+    },
+    "prediction": {
+      "success": 8,
+      "total": 16,
+      "mean_max_coverage": 0.8844215624473777,
+      "mean_final_coverage": 0.8271121043829969,
+      "rescues_vs_frozen": 0,
+      "harms_vs_frozen": 0,
+      "mean_max_coverage_gain_vs_frozen": -0.000973499321000458,
+      "mean_one_step_overlap_gain_when_changed": -0.004250693697149727,
+      "any_contact": 16,
+      "intervention_attempts": 9,
+      "action_changes": 4,
+      "total_rollout_seconds": 105.90438888780773,
+      "total_policy_inference_seconds": 104.06739623192698,
+      "total_correction_selection_seconds": 0.17116624768823385
+    },
+    "updated": {
+      "success": 4,
+      "total": 16,
+      "mean_max_coverage": 0.9170972980284255,
+      "mean_final_coverage": 0.8406408500831483,
+      "rescues_vs_frozen": 2,
+      "harms_vs_frozen": 6,
+      "mean_max_coverage_gain_vs_frozen": 0.031702236260047326,
+      "mean_one_step_overlap_gain_when_changed": null,
+      "any_contact": 16,
+      "intervention_attempts": 0,
+      "action_changes": 0,
+      "total_rollout_seconds": 129.61759301368147,
+      "total_policy_inference_seconds": 127.42610496096313,
+      "total_correction_selection_seconds": 0.0
+    }
+  },
+  "paired": [
+    {
+      "seed": 49100,
+      "success": {
+        "frozen": false,
+        "feedback": true,
+        "prediction": false,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9333075967444667,
+        "feedback": 0.9723494277843991,
+        "prediction": 0.9431304053491211,
+        "updated": 0.8692821578139127
+      },
+      "feedback_attempted": true,
+      "prediction_attempted": true,
+      "prediction_changed": true,
+      "prediction_reason": "selected"
+    },
+    {
+      "seed": 49101,
+      "success": {
+        "frozen": true,
+        "feedback": true,
+        "prediction": true,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9621030296274663,
+        "feedback": 0.9572176884136233,
+        "prediction": 0.9621030296274663,
+        "updated": 0.9180122711344453
+      },
+      "feedback_attempted": true,
+      "prediction_attempted": true,
+      "prediction_changed": false,
+      "prediction_reason": "no_predicted_gain"
+    },
+    {
+      "seed": 49102,
+      "success": {
+        "frozen": false,
+        "feedback": false,
+        "prediction": false,
+        "updated": true
+      },
+      "max_coverage": {
+        "frozen": 0.8987325783781103,
+        "feedback": 0.8987325783781105,
+        "prediction": 0.8987325783781103,
+        "updated": 0.9611213513545168
+      },
+      "feedback_attempted": false,
+      "prediction_attempted": false,
+      "prediction_changed": false,
+      "prediction_reason": null
+    },
+    {
+      "seed": 49103,
+      "success": {
+        "frozen": false,
+        "feedback": false,
+        "prediction": false,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9177715676106212,
+        "feedback": 0.9177715676106212,
+        "prediction": 0.9177715676106212,
+        "updated": 0.8964979378058863
+      },
+      "feedback_attempted": false,
+      "prediction_attempted": false,
+      "prediction_changed": false,
+      "prediction_reason": null
+    },
+    {
+      "seed": 49104,
+      "success": {
+        "frozen": true,
+        "feedback": true,
+        "prediction": true,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9505311055040743,
+        "feedback": 0.9505311055040743,
+        "prediction": 0.9505311055040743,
+        "updated": 0.9287655024153728
+      },
+      "feedback_attempted": false,
+      "prediction_attempted": false,
+      "prediction_changed": false,
+      "prediction_reason": null
+    },
+    {
+      "seed": 49105,
+      "success": {
+        "frozen": true,
+        "feedback": true,
+        "prediction": true,
+        "updated": true
+      },
+      "max_coverage": {
+        "frozen": 0.9600028766136096,
+        "feedback": 0.9600028766136096,
+        "prediction": 0.9600028766136096,
+        "updated": 0.9539327142051529
+      },
+      "feedback_attempted": false,
+      "prediction_attempted": false,
+      "prediction_changed": false,
+      "prediction_reason": null
+    },
+    {
+      "seed": 49106,
+      "success": {
+        "frozen": true,
+        "feedback": true,
+        "prediction": true,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9637525280440224,
+        "feedback": 0.9555824498755453,
+        "prediction": 0.9637525280440224,
+        "updated": 0.9156493956005352
+      },
+      "feedback_attempted": true,
+      "prediction_attempted": true,
+      "prediction_changed": false,
+      "prediction_reason": "no_predicted_gain"
+    },
+    {
+      "seed": 49107,
+      "success": {
+        "frozen": false,
+        "feedback": false,
+        "prediction": false,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.907400076721909,
+        "feedback": 0.907400076721909,
+        "prediction": 0.907400076721909,
+        "updated": 0.9459286897255902
+      },
+      "feedback_attempted": false,
+      "prediction_attempted": false,
+      "prediction_changed": false,
+      "prediction_reason": null
+    },
+    {
+      "seed": 49108,
+      "success": {
+        "frozen": false,
+        "feedback": false,
+        "prediction": false,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9482235153362262,
+        "feedback": 0.9494764152379644,
+        "prediction": 0.9229569632005001,
+        "updated": 0.9133092827790144
+      },
+      "feedback_attempted": true,
+      "prediction_attempted": true,
+      "prediction_changed": true,
+      "prediction_reason": "selected"
+    },
+    {
+      "seed": 49109,
+      "success": {
+        "frozen": true,
+        "feedback": false,
+        "prediction": true,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9724777885064284,
+        "feedback": 0.9389017208181495,
+        "prediction": 0.9612591366676355,
+        "updated": 0.9274546262029173
+      },
+      "feedback_attempted": true,
+      "prediction_attempted": true,
+      "prediction_changed": true,
+      "prediction_reason": "selected"
+    },
+    {
+      "seed": 49110,
+      "success": {
+        "frozen": true,
+        "feedback": true,
+        "prediction": true,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9567732050554419,
+        "feedback": 0.9535516390713901,
+        "prediction": 0.9567732050554419,
+        "updated": 0.7346492819091844
+      },
+      "feedback_attempted": true,
+      "prediction_attempted": true,
+      "prediction_changed": false,
+      "prediction_reason": "no_predicted_gain"
+    },
+    {
+      "seed": 49111,
+      "success": {
+        "frozen": false,
+        "feedback": false,
+        "prediction": false,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9479880440554574,
+        "feedback": 0.9477914777858027,
+        "prediction": 0.9479880440554574,
+        "updated": 0.936570443074559
+      },
+      "feedback_attempted": true,
+      "prediction_attempted": true,
+      "prediction_changed": false,
+      "prediction_reason": "no_predicted_gain"
+    },
+    {
+      "seed": 49112,
+      "success": {
+        "frozen": true,
+        "feedback": true,
+        "prediction": true,
+        "updated": true
+      },
+      "max_coverage": {
+        "frozen": 0.9670605774085586,
+        "feedback": 0.9683295597380264,
+        "prediction": 0.9670605774085586,
+        "updated": 0.9642326225741934
+      },
+      "feedback_attempted": true,
+      "prediction_attempted": true,
+      "prediction_changed": false,
+      "prediction_reason": "no_predicted_gain"
+    },
+    {
+      "seed": 49113,
+      "success": {
+        "frozen": true,
+        "feedback": true,
+        "prediction": true,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.9511260616484566,
+        "feedback": 0.9511260616484566,
+        "prediction": 0.9511260616484566,
+        "updated": 0.925347024314839
+      },
+      "feedback_attempted": false,
+      "prediction_attempted": false,
+      "prediction_changed": false,
+      "prediction_reason": null
+    },
+    {
+      "seed": 49114,
+      "success": {
+        "frozen": false,
+        "feedback": false,
+        "prediction": false,
+        "updated": false
+      },
+      "max_coverage": {
+        "frozen": 0.0,
+        "feedback": 0.0,
+        "prediction": 0.0,
+        "updated": 0.9221122789617762
+      },
+      "feedback_attempted": false,
+      "prediction_attempted": false,
+      "prediction_changed": false,
+      "prediction_reason": null
+    },
+    {
+      "seed": 49115,
+      "success": {
+        "frozen": false,
+        "feedback": false,
+        "prediction": false,
+        "updated": true
+      },
+      "max_coverage": {
+        "frozen": 0.9290704370392017,
+        "feedback": 0.9292360331476911,
+        "prediction": 0.9401568432730589,
+        "updated": 0.9606911885829121
+      },
+      "feedback_attempted": true,
+      "prediction_attempted": true,
+      "prediction_changed": true,
+      "prediction_reason": "selected"
+    }
+  ],
+  "prediction_decision_reasons": {
+    "selected": 4,
+    "no_predicted_gain": 5,
+    "out_of_distribution": 0
+  },
+  "validation_loss_before": 0.004982734681107104,
+  "validation_loss_after": 0.004395647905766964,
+  "update_training_seconds": 4.866562262177467,
+  "updated_checkpoint_bytes": 261035827,
+  "input_status": "Stored keypoint/state exact-pose check failed; official stored-keypoint training contract used.",
+  "claim_boundary": "Exploratory 16 paired seeds, one fixed correction, small fixed policy update; no generality or method superiority claim.",
+  "docker_verification": {
+    "checked_traces": 64,
+    "max_replay_drift": 6.661338147750939e-16
+  },
+  "artifact_sha256": {
+    "input_first": "320b425b96f6f5f63b4ec960987501540056e2ea853d35680a2b5d5d230687bb",
+    "input_full": "08b8d03937b0a725fe9009833a4b041fbe32c9e8fd5c959d52e2849e3db9c2b2",
+    "dataset": "e27c88ccf5751b61c94a75f8ecc88fa961d134814da70ffae4c82b53319c730b",
+    "fit": "92ad5067fdf2e80e52b251566ef0d92cb0783650735ace88c99a397799083511",
+    "evaluation": "8850d477a5cd3bfd3a1dda82f2fa9a4074e9ff98ede8f0fedea4960903a8d5d7",
+    "verification": "1f771b96ce1b67120c95c7ed0988bde4f3c2454e71ff3832b319b8bc033951fb"
+  }
+}

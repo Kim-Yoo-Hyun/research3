@@ -1,0 +1,24 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.8.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+total 0
+drwxr-xr-x 3 root root       100 Sep 28 03:01 .
+drwxr-xr-x 6 root root       460 Sep 28 03:01 ..
+drwxr-xr-x 2 root root        80 Sep 28 03:01 by-path
+crw-rw---- 1 root video 226,   1 Sep 28 03:01 card1
+crw-rw---- 1 root   992 226, 128 Sep 28 03:01 renderD128
+lrwxrwxrwx 1 root root 27 Sep 28 03:01 /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.0 -> libGLX_nvidia.so.580.173.02
+NVIDIA_DRIVER_CAPABILITIES=all
+VK_ICD_FILENAMES=/etc/vulkan/icd.d/nvidia_icd.json

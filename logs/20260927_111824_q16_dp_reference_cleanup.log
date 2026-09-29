@@ -1,0 +1,44 @@
+{
+  "removed": [
+    {
+      "id": "4f09ad39fb19347f0e84e5a4cd2aa25d63204d9ae5ee4402e09a5363ce4b834b",
+      "name": "research3-q16-dp-reference-inspect-20260927_110458_648917",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_110458_648917_inspect.json"
+    },
+    {
+      "id": "ccf8d2519d0d1823c94d687ae94608d777052a2371501aa7d57fa99d80aa0fdd",
+      "name": "research3-q16-dp-reference-parity-20260927_110630_389297",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_110630_389297_parity.json"
+    },
+    {
+      "id": "979b00bdd483f04b5effbc1333870f1285e6c1f35b9793b09c4bf4332a5f07ef",
+      "name": "research3-q16-dp-reference-evaluate-20260927_110709_494001",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_110709_494001_evaluate.json"
+    },
+    {
+      "id": "e35faad8b9bdc6f04c914aad2845f02b98f759c49153bbde9276247819755b0a",
+      "name": "research3-q16-dp-reference-verify-20260927_110826_288750",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_110826_288750_verify.json"
+    },
+    {
+      "id": "cc43cb93a7c1976ff34c4b538975196edb59cfa22ece096b2ad94a611dcdff76",
+      "name": "research3-q16-dp-reference-branch-20260927_111039_990626",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_111039_990626_branch.json"
+    },
+    {
+      "id": "5c9b08213bd18994bf6d3d3e88c49bbf7114ccfdc79a16840ab16edb79a9a2e0",
+      "name": "research3-q16-dp-reference-branchverify-20260927_111159_575256",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_111159_575256_branchverify.json"
+    },
+    {
+      "id": "7e5eff05e7e1dc977bfcd5bd755cb9f79404d7534374091c0c1030cecc8d08d6",
+      "name": "research3-q16-dp-reference-branchverify-20260927_111225_949191",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_111225_949191_branchverify.json"
+    },
+    {
+      "id": "433a12e0e7493a75f291db8e85ea1adcdd1b0a0400b5b4531ea3834a418ad85a",
+      "name": "research3-q16-dp-reference-lock-20260927_111347_760201",
+      "job": "/home/yoohyun/research3/runs/q16/dp_reference/jobs/20260927_111347_760201_lock.json"
+    }
+  ]
+}
